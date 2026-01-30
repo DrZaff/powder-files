@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admission Orders Checklist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050810" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1 class="app-title">Admission Orders Checklist</h1>
+        <p class="app-subtitle">Tap to check items. Status persists until reset.</p>
+      </div>
+      <div class="app-meta">
+        <span class="app-badge">ClinicalToolsDEV</span>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">Checklist</h2>
+          <button id="resetBtn" class="btn-secondary" type="button" aria-label="Reset checklist">
+            Reset
+          </button>
+        </div>
+
+        <div id="checklistRoot" class="checklist"></div>
+      </section>
+
+      <section class="card subtle">
+        <h2 class="card-title">Disclaimer</h2>
+        <p class="disclaimer">
+          This tool is for educational and decision-support purposes only. It does not replace clinical judgment, institutional guidelines, or specialist consultation.
+        </p>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p class="footer-note">This tool was developed using the ClinicalToolsDEV framework. For educational and decision-support purposes only.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js")
+          .catch(err => console.error("Service worker registration failed:", err));
+      });
+    }
+  </script>
+</body>
+</html>
