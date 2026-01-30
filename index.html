@@ -14,6 +14,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -24,6 +25,13 @@
         <h1 class="app-title">The Powder Files</h1>
         <p class="app-subtitle">A shared stash of ski resorts + itineraries (offline-first).</p>
       </div>
+
+  <div class="auth-bar" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-top:.5rem;">
+    <input id="auth-email" class="field-input" type="email" placeholder="Email for magic link" style="max-width: 260px;" />
+    <button id="btn-login" class="btn-secondary" type="button">Send Link</button>
+    <button id="btn-logout" class="btn-ghost hidden" type="button">Logout</button>
+    <span id="auth-status" class="small muted"></span>
+  </div>
 
       <div class="header-actions">
         <div class="segmented" role="tablist" aria-label="Views">

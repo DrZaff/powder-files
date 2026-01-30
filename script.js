@@ -1,3 +1,57 @@
+// ===== Supabase Config =====
+const SUPABASE_URL = "PASTE_YOUR_PROJECT_URL_HERE";
+const SUPABASE_ANON_KEY = "PASTE_YOUR_ANON_PUBLIC_KEY_HERE";
+
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+async function initAuthUI() {
+  const statusEl = document.getElementById("auth-status");
+  const btnLogin = document.getElementById("btn-login");
+  const btnLogout = document.getElementById("btn-logout");
+  const emailInput = document.getElementById("auth-email");
+
+  async function refresh() {
+    const { data } = await supabase.auth.getSession();
+    const user = data.session?.user;
+
+    if (user) {
+      statusEl.textContent = `Signed in: ${user.email}`;
+      btnLogout.classList.remove("hidden");
+      btnLogin.classList.add("hidden");
+      emailInput.classList.add("hidden");
+    } else {
+      statusEl.textContent = "Not signed in";
+      btnLogout.classList.add("hidden");
+      btnLogin.classList.remove("hidden");
+      emailInput.classList.remove("hidden");
+    }
+  }
+
+  btnLogin?.addEventListener("click", async () => {
+    const email = emailInput.value.trim();
+    if (!email) return alert("Enter an email.");
+
+    const { error } = await supabase.auth.signInWithOtp({
+      email,
+      options: { emailRedirectTo: window.location.origin }
+    });
+
+    if (error) return alert(error.message);
+    alert("Magic link sent. Open the link from your email on this device/browser.");
+  });
+
+  btnLogout?.addEventListener("click", async () => {
+    await supabase.auth.signOut();
+    await refresh();
+  });
+
+  supabase.auth.onAuthStateChange(async () => {
+    await refresh();
+  });
+
+  await refresh();
+}
+
 /* The Powder Files
    Offline-first SPA using localStorage.
    Pure logic functions return structured objects; rendering is separate.
@@ -5,7 +59,8 @@
 
 const STORAGE_KEY = "powderfiles_db_v1";
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  await initAuthUI();
   wireTabs();
   initApp();
 });
