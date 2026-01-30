@@ -1,4 +1,4 @@
-const CACHE = "ctdev-admission-checklist-v1";
+const CACHE = "powderfiles-cache-v1";
 const ASSETS = [
   "/",
   "/index.html",
@@ -12,9 +12,8 @@ const ASSETS = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(ASSETS))
+    caches.open(CACHE).then(cache => cache.addAll(ASSETS))
   );
-  self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {

@@ -1,6 +1,6 @@
 {
-  "name": "Admission Orders Checklist",
-  "short_name": "Admissions",
+  "name": "The Powder Files",
+  "short_name": "PowderFiles",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#050810",
