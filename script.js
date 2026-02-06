@@ -11,6 +11,7 @@ var supabase = window.__powder_supabase;
 const STORAGE_KEY = "powderfiles_db_v1";             // local offline cache
 const POWDER_GROUP_KEY = "powderfiles_group_id_v1";  // saved group id
 const DEFAULT_GROUP_NAME = "The Powder Files";
+const THUMB_BUCKET = "powder-files-thumbs";
 
 // ===== App State =====
 const state = {
@@ -342,6 +343,7 @@ function mapResortRowToUI(r) {
     location: r.location,
     // thumbnails via Storage later; keep local-only dataUrl for now
     thumbnailDataUrl: "",
+    thumbnailPath: r.thumbnail_path || null,
 
     milesFromRochester: r.miles_from_rochester ?? 0,
     verticalFeet: r.vertical_feet ?? 0,
@@ -453,6 +455,22 @@ async function refreshFromSupabaseToLocalCache() {
   };
 
   saveDB(db);
+}
+
+async function uploadResortThumbnail({ resortId, file }) {
+  if (!state.user || !state.groupId) throw new Error("Not signed in / no group");
+  if (!file) return null;
+
+  const safeName = file.name.replace(/[^\w.\-]+/g, "_");
+  const path = `${state.groupId}/resorts/${resortId}/${Date.now()}_${safeName}`;
+
+  const { error: upErr } = await supabase.storage
+    .from(THUMB_BUCKET)
+    .upload(path, file, { upsert: true, contentType: file.type });
+
+  if (upErr) throw upErr;
+
+  return path;
 }
 
 /* =========================================================
@@ -763,9 +781,13 @@ function renderResortsView() {
 }
 
 function resortButtonHTML(r) {
-  const thumb = r.thumbnailDataUrl
-    ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${r.thumbnailDataUrl}" />`
-    : `<span>No<br/>image</span>`;
+  const sharedUrl = r.thumbnailPath ? getThumbUrlFromPath(r.thumbnailPath) : null;
+
+  const thumb = sharedUrl
+    ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${sharedUrl}" />`
+    : (r.thumbnailDataUrl
+        ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${r.thumbnailDataUrl}" />`
+        : `<span>No<br/>image</span>`);
 
   return `
     <button class="resort-btn" type="button" data-resort-open="${r.id}">
@@ -1296,6 +1318,32 @@ function openResortModal({ mode, resortId = null }) {
       return;
     }
 
+    // If user selected a thumbnail AND we are in Supabase mode
+    if (file && state.user && state.groupId) {
+      // Determine actual resort UUID (create returns newId sometimes)
+      const actualResortId = result.newId || (mode === "edit" ? resortId : null) || getDB().resorts.slice().sort((a,b)=> (b.createdAt||0)-(a.createdAt||0))[0]?.id;
+
+      if (actualResortId && !String(actualResortId).startsWith("resort_")) {
+        try {
+          const thumbPath = await uploadResortThumbnail({ resortId: actualResortId, file });
+
+          // Update resort row with thumbnail_path
+          const { error } = await supabase
+            .from("resorts")
+            .update({ thumbnail_path: thumbPath })
+            .eq("id", actualResortId);
+
+          if (error) throw error;
+
+          // Refresh local cache so UI updates
+          await refreshFromSupabaseToLocalCache();
+        } catch (e) {
+          console.warn("Thumbnail upload failed:", e);
+          alert("Resort saved, but thumbnail upload failed. You can retry by editing the resort.");
+        }
+      }
+    }
+
     closeModal();
 
     if (mode === "create") {
@@ -1483,6 +1531,12 @@ function escapeHtml(s) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function getThumbUrlFromPath(path) {
+  if (!path) return null;
+  const { data } = supabase.storage.from(THUMB_BUCKET).getPublicUrl(path);
+  return data?.publicUrl || null;
 }
 
 function escapeAttr(s) {
