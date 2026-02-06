@@ -2,94 +2,39 @@
 const SUPABASE_URL = "https://zpxvcvspiiueelmstyjb.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-window.__powder_supabase = window.__powder_supabase || window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+// Create supabase client exactly once (prevents "already declared" issues)
+window.__powder_supabase =
+  window.__powder_supabase || window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 var supabase = window.__powder_supabase;
-async function initAuthUI() {
-  const statusEl = document.getElementById("auth-status");
-  const btnLogin = document.getElementById("btn-login");
-  const btnLogout = document.getElementById("btn-logout");
-  const emailInput = document.getElementById("auth-email");
 
-  async function refresh() {
-    const { data } = await supabase.auth.getSession();
+// ===== App Keys =====
+const STORAGE_KEY = "powderfiles_db_v1";             // local offline cache
+const POWDER_GROUP_KEY = "powderfiles_group_id_v1";  // saved group id
+const DEFAULT_GROUP_NAME = "The Powder Files";
 
-    setState({
-      session: data.session ?? null,
-      user: data.session?.user ?? null
-    });
+// ===== App State =====
+const state = {
+  view: "resorts", // resorts | allTrips | resortDetail
+  selectedResortId: null,
+  resortSearch: "",
+  tripSearch: "",
+  tripSort: "scoreDesc", // scoreDesc | scoreAsc | daysDesc | daysAsc
 
-    if (state.user) {
-      statusEl.textContent = `Signed in: ${state.user.email}`;
-      btnLogout.classList.remove("hidden");
-      btnLogin.classList.add("hidden");
-      emailInput.classList.add("hidden");
-    } else {
-      statusEl.textContent = "Not signed in";
-      btnLogout.classList.add("hidden");
-      btnLogin.classList.remove("hidden");
-      emailInput.classList.remove("hidden");
-    }
+  // auth
+  user: null,
+  session: null,
 
-    if (state.user) {
-      const gid = await ensureGroup();
-      if (gid) setState({ groupId: gid });
-    } else {
-      setState({ groupId: null });
-    }
-  }
+  // sharing
+  groupId: null
+};
 
-  let lastOtpSentAt = 0;
-
-  btnLogin?.addEventListener("click", async () => {
-    const email = emailInput.value.trim();
-    if (!email) return alert("Enter an email.");
-
-    const now = Date.now();
-    const cooldownMs = 30_000;
-    const remaining = cooldownMs - (now - lastOtpSentAt);
-
-    if (remaining > 0) {
-      alert(`Please wait ${Math.ceil(remaining / 1000)}s before requesting another link.`);
-      return;
-    }
-
-    lastOtpSentAt = now;
-
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: window.location.origin }
-    });
-
-    if (error) {
-      // If Supabase rejected it (like 429), allow another try after a short pause
-      // (or you can leave lastOtpSentAt as-is to enforce cooldown even on error)
-      return alert(error.message);
-    }
-
-    alert("Magic link sent. Open the link from your email on this device/browser.");
-  });
-
-  btnLogout?.addEventListener("click", async () => {
-    await supabase.auth.signOut();
-    await refresh();
-  });
-
-  supabase.auth.onAuthStateChange(async () => {
-    await refresh();
-  });
-
-  await refresh();
+function setState(patch) {
+  Object.assign(state, patch);
 }
 
-/* The Powder Files
-   Offline-first SPA using localStorage.
-   Pure logic functions return structured objects; rendering is separate.
-*/
-
-const STORAGE_KEY = "powderfiles_db_v1";
-
-const POWDER_GROUP_KEY = "powderfiles_group_id_v1";
-const DEFAULT_GROUP_NAME = "The Powder Files";
+/* =========================================================
+   Supabase: Group Helpers
+========================================================= */
 
 function getGroupId() {
   return localStorage.getItem(POWDER_GROUP_KEY) || null;
@@ -102,11 +47,10 @@ function setGroupId(id) {
 async function ensureGroup() {
   if (!state.user) return null;
 
-  // If we already have one stored, trust it for now.
   const existing = getGroupId();
   if (existing) return existing;
 
-  // Create group + owner membership in one RPC call
+  // Requires you created the SQL function: public.create_group_with_owner(text)
   const { data, error } = await supabase.rpc("create_group_with_owner", {
     group_name: DEFAULT_GROUP_NAME
   });
@@ -120,50 +64,88 @@ async function ensureGroup() {
   return data;
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  await initAuthUI();
-  wireTabs();
-  initApp();
-});
+/* =========================================================
+   Auth UI
+========================================================= */
 
-function initApp() {
-  const db = loadDBOrSeed();
-  setState({ view: "resorts", selectedResortId: null, resortSearch: "", tripSearch: "", tripSort: "scoreDesc" });
-  render();
-}
+async function initAuthUI() {
+  const statusEl = document.getElementById("auth-status");
+  const btnLogin = document.getElementById("btn-login");
+  const btnLogout = document.getElementById("btn-logout");
+  const emailInput = document.getElementById("auth-email");
 
-const state = {
-  view: "resorts",
-  selectedResortId: null,
-  resortSearch: "",
-  tripSearch: "",
-  tripSort: "scoreDesc",
-  user: null,
-  session: null,
-  groupId: null
-};
+  let lastOtpSentAt = 0;
 
-function setState(patch) {
-  Object.assign(state, patch);
-}
+  async function refresh() {
+    const { data } = await supabase.auth.getSession();
+    const session = data.session ?? null;
+    const user = session?.user ?? null;
 
-function wireTabs() {
-  const tabResorts = document.getElementById("tab-resorts");
-  const tabTrips = document.getElementById("tab-trips");
+    setState({ session, user });
 
-  tabResorts.addEventListener("click", () => {
-    setState({ view: "resorts", selectedResortId: null });
-    render();
+    // Load groupId (either existing in localStorage or create once)
+    if (user) {
+      const gid = await ensureGroup();
+      setState({ groupId: gid });
+    } else {
+      setState({ groupId: null });
+    }
+
+    // Update auth UI
+    if (user) {
+      statusEl.textContent = `Signed in: ${user.email}`;
+      btnLogout.classList.remove("hidden");
+      btnLogin.classList.add("hidden");
+      emailInput.classList.add("hidden");
+    } else {
+      statusEl.textContent = "Not signed in";
+      btnLogout.classList.add("hidden");
+      btnLogin.classList.remove("hidden");
+      emailInput.classList.remove("hidden");
+    }
+  }
+
+  btnLogin?.addEventListener("click", async () => {
+    const email = emailInput.value.trim();
+    if (!email) return alert("Enter an email.");
+
+    // simple cooldown to reduce 429 spam during dev
+    const now = Date.now();
+    const cooldownMs = 30_000;
+    const remaining = cooldownMs - (now - lastOtpSentAt);
+    if (remaining > 0) {
+      alert(`Please wait ${Math.ceil(remaining / 1000)}s before requesting another link.`);
+      return;
+    }
+    lastOtpSentAt = now;
+
+    const { error } = await supabase.auth.signInWithOtp({
+      email,
+      options: { emailRedirectTo: window.location.origin }
+    });
+
+    if (error) return alert(error.message);
+
+    alert("Magic link sent. Open the link from your email on this device/browser.");
   });
-  tabTrips.addEventListener("click", () => {
-    setState({ view: "allTrips", selectedResortId: null });
-    render();
+
+  btnLogout?.addEventListener("click", async () => {
+    await supabase.auth.signOut();
+    await refresh();
+    await initApp(); // reload local cache view after logout
   });
+
+  supabase.auth.onAuthStateChange(async () => {
+    await refresh();
+    await initApp(); // reload data whenever auth changes
+  });
+
+  await refresh();
 }
 
-/* =========================
-   Pure helpers / logic
-========================= */
+/* =========================================================
+   Pure Helpers / Logic
+========================================================= */
 
 function uid(prefix = "id") {
   return `${prefix}_${Math.random().toString(16).slice(2)}_${Date.now().toString(16)}`;
@@ -196,52 +178,6 @@ function computeTripTotal(trip) {
   return { flights, lodging, hotelOther, totalBase };
 }
 
-function validateResortPayload(p) {
-  const errors = [];
-  if (!p.name?.trim()) errors.push("Resort name is required.");
-  if (!p.location?.trim()) errors.push("Location is required.");
-
-  const stars1 = Number(p.mountainStars);
-  const stars2 = Number(p.areaActivitiesStars);
-  if (!Number.isFinite(stars1) || stars1 < 1 || stars1 > 5) errors.push("Mountain rating must be 1–5 stars.");
-  if (!Number.isFinite(stars2) || stars2 < 1 || stars2 > 5) errors.push("Area activities rating must be 1–5 stars.");
-
-  // Soft numeric checks
-  ["milesFromRochester","verticalFeet","trailCount","typicalFlightCost","avgLodgingNight","cheapestLodgingNight","skiInOutNight"].forEach(k => {
-    const v = Number(p[k]);
-    if (!Number.isFinite(v) || v < 0) errors.push(`${labelFor(k)} must be a valid number (≥ 0).`);
-  });
-
-  return errors;
-}
-
-function validateTripPayload(p) {
-  const errors = [];
-  const days = Number(p.days);
-  if (!Number.isFinite(days) || days < 1 || days > 30) errors.push("Trip length must be 1–30 days.");
-
-  const score = Number(p.compositeScore);
-  if (!Number.isFinite(score) || score < 0 || score > 100) errors.push("Composite score must be 0–100.");
-
-  ["costFlights","costLodging","costHotelOther"].forEach(k => {
-    const v = Number(p[k]);
-    if (!Number.isFinite(v) || v < 0) errors.push(`${labelFor(k)} must be a valid number (≥ 0).`);
-  });
-
-  if (!Array.isArray(p.dayPlans) || p.dayPlans.length !== days) {
-    errors.push("Day plans must have exactly one entry per day.");
-  } else {
-    for (let i = 0; i < p.dayPlans.length; i++) {
-      if (!String(p.dayPlans[i] ?? "").trim()) {
-        errors.push(`Day ${i + 1} activity/summary is required.`);
-        break;
-      }
-    }
-  }
-
-  return errors;
-}
-
 function labelFor(key) {
   const map = {
     milesFromRochester: "Miles from Rochester, NY",
@@ -260,9 +196,62 @@ function labelFor(key) {
   return map[key] || key;
 }
 
-/* =========================
-   Persistence
-========================= */
+function validateResortPayload(p) {
+  const errors = [];
+  if (!p.name?.trim()) errors.push("Resort name is required.");
+  if (!p.location?.trim()) errors.push("Location is required.");
+
+  const stars1 = Number(p.mountainStars);
+  const stars2 = Number(p.areaActivitiesStars);
+  if (!Number.isFinite(stars1) || stars1 < 1 || stars1 > 5) errors.push("Mountain rating must be 1–5 stars.");
+  if (!Number.isFinite(stars2) || stars2 < 1 || stars2 > 5) errors.push("Area activities rating must be 1–5 stars.");
+
+  [
+    "milesFromRochester",
+    "verticalFeet",
+    "trailCount",
+    "typicalFlightCost",
+    "avgLodgingNight",
+    "cheapestLodgingNight",
+    "skiInOutNight"
+  ].forEach(k => {
+    const v = Number(p[k]);
+    if (!Number.isFinite(v) || v < 0) errors.push(`${labelFor(k)} must be a valid number (≥ 0).`);
+  });
+
+  return errors;
+}
+
+function validateTripPayload(p) {
+  const errors = [];
+  const days = Number(p.days);
+  if (!Number.isFinite(days) || days < 1 || days > 30) errors.push("Trip length must be 1–30 days.");
+
+  const score = Number(p.compositeScore);
+  if (!Number.isFinite(score) || score < 0 || score > 100) errors.push("Composite score must be 0–100.");
+
+  ["costFlights", "costLodging", "costHotelOther"].forEach(k => {
+    const v = Number(p[k]);
+    if (!Number.isFinite(v) || v < 0) errors.push(`${labelFor(k)} must be a valid number (≥ 0).`);
+  });
+
+  if (!Array.isArray(p.dayPlans) || p.dayPlans.length !== days) {
+    errors.push("Day plans must have exactly one entry per day.");
+  } else {
+    for (let i = 0; i < p.dayPlans.length; i++) {
+      if (!String(p.dayPlans[i] ?? "").trim()) {
+        errors.push(`Day ${i + 1} activity/summary is required.`);
+        break;
+      }
+    }
+  }
+
+  return errors;
+}
+
+/* =========================================================
+   Local Persistence (Offline Cache)
+========================================================= */
 
 function loadDB() {
   const raw = localStorage.getItem(STORAGE_KEY);
@@ -282,10 +271,11 @@ function saveDB(db) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
 }
 
-function loadDBOrSeed() {
-  const existing = loadDB();
-  if (existing) return existing;
+function emptyDB() {
+  return { resorts: [], trips: [], version: 1, source: "local" };
+}
 
+function seedDB() {
   const now = Date.now();
   const r1 = {
     id: uid("resort"),
@@ -322,26 +312,213 @@ function loadDBOrSeed() {
     updatedAt: now
   };
 
-  const db = { resorts: [r1], trips: [t1], version: 1 };
+  return { resorts: [r1], trips: [t1], version: 1, source: "local-seed" };
+}
+
+function ensureLocalDBExists() {
+  const existing = loadDB();
+  if (existing) return existing;
+
+  // If signed in, don't auto-seed (avoid confusion; Supabase is source of truth).
+  // If signed out, seed for demo/offline use.
+  const db = state.user ? emptyDB() : seedDB();
   saveDB(db);
   return db;
 }
 
 function getDB() {
-  const db = loadDBOrSeed();
-  return db;
+  return ensureLocalDBExists();
 }
 
-/* =========================
-   CRUD operations (pure-ish)
-========================= */
+/* =========================================================
+   Supabase Mapping
+   (Supabase schema assumed from your SQL: snake_case)
+========================================================= */
 
-function upsertResort(payload, { id = null } = {}) {
+function mapResortRowToUI(r) {
+  return {
+    id: r.id,
+    name: r.name,
+    location: r.location,
+    // thumbnails via Storage later; keep local-only dataUrl for now
+    thumbnailDataUrl: "",
+
+    milesFromRochester: r.miles_from_rochester ?? 0,
+    verticalFeet: r.vertical_feet ?? 0,
+    trailCount: r.trail_count ?? 0,
+    mountainStars: r.mountain_stars ?? 3,
+
+    typicalFlightCost: r.typical_flight_cost ?? 0,
+    avgLodgingNight: r.avg_lodging_night ?? 0,
+    cheapestLodgingNight: r.cheapest_lodging_night ?? 0,
+    skiInOutNight: r.ski_in_out_night ?? 0,
+    areaActivitiesStars: r.area_activities_stars ?? 3,
+
+    createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
+    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
+  };
+}
+
+function mapTripRowToUI(t) {
+  return {
+    id: t.id,
+    resortId: t.resort_id,
+    days: t.days,
+    costFlights: t.cost_flights ?? 0,
+    costLodging: t.cost_lodging ?? 0,
+    costHotelOther: t.cost_hotel_other ?? 0,
+    compositeScore: t.composite_score ?? 0,
+    dayPlans: Array.isArray(t.day_plans) ? t.day_plans : (t.day_plans || []),
+    createdAt: t.created_at ? Date.parse(t.created_at) : Date.now(),
+    updatedAt: t.updated_at ? Date.parse(t.updated_at) : Date.now()
+  };
+}
+
+function mapResortUIToRow(payload) {
+  return {
+    group_id: state.groupId,
+    name: payload.name,
+    location: payload.location,
+    thumbnail_path: null, // TODO: Supabase Storage later
+
+    miles_from_rochester: Number(payload.milesFromRochester) || 0,
+    vertical_feet: Number(payload.verticalFeet) || 0,
+    trail_count: Number(payload.trailCount) || 0,
+    mountain_stars: Number(payload.mountainStars) || 3,
+
+    typical_flight_cost: Number(payload.typicalFlightCost) || 0,
+    avg_lodging_night: Number(payload.avgLodgingNight) || 0,
+    cheapest_lodging_night: Number(payload.cheapestLodgingNight) || 0,
+    ski_in_out_night: Number(payload.skiInOutNight) || 0,
+    area_activities_stars: Number(payload.areaActivitiesStars) || 3,
+
+    created_by: state.user?.id
+  };
+}
+
+function mapTripUIToRow(payload, resortId) {
+  return {
+    group_id: state.groupId,
+    resort_id: resortId,
+
+    days: Number(payload.days),
+    cost_flights: Number(payload.costFlights) || 0,
+    cost_lodging: Number(payload.costLodging) || 0,
+    cost_hotel_other: Number(payload.costHotelOther) || 0,
+    composite_score: Number(payload.compositeScore) || 0,
+    day_plans: payload.dayPlans || [],
+
+    created_by: state.user?.id
+  };
+}
+
+/* =========================================================
+   Supabase Reads/Writes
+========================================================= */
+
+async function fetchResortsFromSupabase(groupId) {
+  const { data, error } = await supabase
+    .from("resorts")
+    .select("*")
+    .eq("group_id", groupId)
+    .order("name", { ascending: true });
+
+  if (error) throw error;
+  return data || [];
+}
+
+async function fetchTripsFromSupabase(groupId) {
+  const { data, error } = await supabase
+    .from("trips")
+    .select("*")
+    .eq("group_id", groupId);
+
+  if (error) throw error;
+  return data || [];
+}
+
+async function refreshFromSupabaseToLocalCache() {
+  if (!state.user || !state.groupId) return;
+
+  const [resortRows, tripRows] = await Promise.all([
+    fetchResortsFromSupabase(state.groupId),
+    fetchTripsFromSupabase(state.groupId)
+  ]);
+
+  const db = {
+    resorts: resortRows.map(mapResortRowToUI),
+    trips: tripRows.map(mapTripRowToUI),
+    version: 2,
+    source: "supabase"
+  };
+
+  saveDB(db);
+}
+
+/* =========================================================
+   App Init
+========================================================= */
+
+document.addEventListener("DOMContentLoaded", async () => {
+  await initAuthUI();
+  wireTabs();
+  await initApp();
+});
+
+async function initApp() {
+  // Ensure local cache exists (seed only when logged out)
+  ensureLocalDBExists();
+
+  // If signed in, refresh local cache from Supabase
+  if (state.user && state.groupId) {
+    try {
+      await refreshFromSupabaseToLocalCache();
+    } catch (e) {
+      console.warn("Supabase load failed; using local cache.", e);
+    }
+  }
+
+  setState({
+    view: "resorts",
+    selectedResortId: null,
+    resortSearch: "",
+    tripSearch: "",
+    tripSort: "scoreDesc"
+  });
+
+  render();
+}
+
+/* =========================================================
+   Tabs
+========================================================= */
+
+function wireTabs() {
+  const tabResorts = document.getElementById("tab-resorts");
+  const tabTrips = document.getElementById("tab-trips");
+
+  tabResorts.addEventListener("click", () => {
+    setState({ view: "resorts", selectedResortId: null });
+    render();
+  });
+
+  tabTrips.addEventListener("click", () => {
+    setState({ view: "allTrips", selectedResortId: null });
+    render();
+  });
+}
+
+/* =========================================================
+   CRUD (Write-through)
+========================================================= */
+
+async function upsertResort(payload, { id = null } = {}) {
   const db = getDB();
   const now = Date.now();
   const errors = validateResortPayload(payload);
   if (errors.length) return { ok: false, errors };
 
+  // Local update first (offline-first UX)
   if (id) {
     const idx = db.resorts.findIndex(r => r.id === id);
     if (idx === -1) return { ok: false, errors: ["Resort not found."] };
@@ -349,21 +526,77 @@ function upsertResort(payload, { id = null } = {}) {
   } else {
     const resort = { ...payload, id: uid("resort"), createdAt: now, updatedAt: now };
     db.resorts.push(resort);
+    id = resort.id;
+  }
+  saveDB(db);
+
+  // If signed in, write to Supabase
+  if (state.user && state.groupId) {
+    try {
+      const row = mapResortUIToRow(payload);
+
+      if (!id.startsWith("resort_")) {
+        // already a UUID, treat as update
+      }
+
+      if (db.resorts.find(r => r.id === id)?.id?.startsWith("resort_")) {
+        // Local-only ID — create in Supabase, then replace local ID with UUID
+        const { data, error } = await supabase
+          .from("resorts")
+          .insert(row)
+          .select("*")
+          .single();
+
+        if (error) throw error;
+
+        const newId = data.id;
+        // Replace resort id in local cache + update all associated trips resortId
+        const db2 = getDB();
+        db2.resorts = db2.resorts.map(r => (r.id === id ? { ...r, id: newId } : r));
+        db2.trips = db2.trips.map(t => (t.resortId === id ? { ...t, resortId: newId } : t));
+        saveDB(db2);
+        return { ok: true, newId };
+      } else {
+        // UUID already: update
+        const { error } = await supabase
+          .from("resorts")
+          .update(row)
+          .eq("id", id);
+
+        if (error) throw error;
+      }
+
+      // pull fresh cache (optional; keeps timestamps consistent)
+      await refreshFromSupabaseToLocalCache();
+    } catch (e) {
+      console.warn("Supabase resort upsert failed; kept local changes.", e);
+      // We keep local change; could add a "pending sync" queue later
+    }
   }
 
-  saveDB(db);
   return { ok: true };
 }
 
-function deleteResort(resortId) {
+async function deleteResort(resortId) {
   const db = getDB();
   db.resorts = db.resorts.filter(r => r.id !== resortId);
   db.trips = db.trips.filter(t => t.resortId !== resortId);
   saveDB(db);
+
+  if (state.user && state.groupId && !String(resortId).startsWith("resort_")) {
+    try {
+      const { error } = await supabase.from("resorts").delete().eq("id", resortId);
+      if (error) throw error;
+      await refreshFromSupabaseToLocalCache();
+    } catch (e) {
+      console.warn("Supabase resort delete failed; kept local delete.", e);
+    }
+  }
+
   return { ok: true };
 }
 
-function upsertTrip(payload, { id = null } = {}) {
+async function upsertTrip(payload, { id = null } = {}) {
   const db = getDB();
   const now = Date.now();
   const errors = validateTripPayload(payload);
@@ -380,6 +613,7 @@ function upsertTrip(payload, { id = null } = {}) {
     totalBase: totals.totalBase
   };
 
+  // Local update first
   if (id) {
     const idx = db.trips.findIndex(t => t.id === id);
     if (idx === -1) return { ok: false, errors: ["Trip not found."] };
@@ -387,22 +621,71 @@ function upsertTrip(payload, { id = null } = {}) {
   } else {
     const trip = { ...normalized, id: uid("trip"), createdAt: now, updatedAt: now };
     db.trips.push(trip);
+    id = trip.id;
+  }
+  saveDB(db);
+
+  // Supabase write-through
+  if (state.user && state.groupId) {
+    try {
+      const resortId = normalized.resortId;
+      if (!resortId || String(resortId).startsWith("resort_")) {
+        // Resort isn't synced yet. Keep local; we'll sync after resort becomes UUID.
+        return { ok: true, warning: "Resort not synced to Supabase yet; trip saved locally." };
+      }
+
+      const row = mapTripUIToRow(normalized, resortId);
+
+      if (String(id).startsWith("trip_")) {
+        // local-only trip -> insert -> replace id
+        const { data, error } = await supabase
+          .from("trips")
+          .insert(row)
+          .select("*")
+          .single();
+        if (error) throw error;
+
+        const newId = data.id;
+        const db2 = getDB();
+        db2.trips = db2.trips.map(t => (t.id === id ? { ...t, id: newId } : t));
+        saveDB(db2);
+        await refreshFromSupabaseToLocalCache();
+        return { ok: true, newId };
+      } else {
+        // update
+        const { error } = await supabase.from("trips").update(row).eq("id", id);
+        if (error) throw error;
+        await refreshFromSupabaseToLocalCache();
+      }
+    } catch (e) {
+      console.warn("Supabase trip upsert failed; kept local changes.", e);
+    }
   }
 
-  saveDB(db);
   return { ok: true };
 }
 
-function deleteTrip(tripId) {
+async function deleteTrip(tripId) {
   const db = getDB();
   db.trips = db.trips.filter(t => t.id !== tripId);
   saveDB(db);
+
+  if (state.user && state.groupId && !String(tripId).startsWith("trip_")) {
+    try {
+      const { error } = await supabase.from("trips").delete().eq("id", tripId);
+      if (error) throw error;
+      await refreshFromSupabaseToLocalCache();
+    } catch (e) {
+      console.warn("Supabase trip delete failed; kept local delete.", e);
+    }
+  }
+
   return { ok: true };
 }
 
-/* =========================
+/* =========================================================
    Rendering
-========================= */
+========================================================= */
 
 function setActiveTab() {
   const tabResorts = document.getElementById("tab-resorts");
@@ -450,8 +733,13 @@ function renderResortsView() {
       return hay.includes(q);
     });
 
+  const modeNote = state.user && state.groupId
+    ? `<p class="small muted">Shared mode: connected to Supabase group <code>${escapeHtml(state.groupId.slice(0, 8))}…</code></p>`
+    : `<p class="small muted">Local mode: changes save only on this device until you sign in.</p>`;
+
   return `
     <section class="card">
+      ${modeNote}
       <div class="toolbar">
         <div style="flex:1; min-width: 220px;">
           <label class="field-label" for="resort-search">Search resorts</label>
@@ -468,7 +756,7 @@ function renderResortsView() {
 
       <div class="hr"></div>
       <p class="small muted">
-        Tip: Thumbnails are stored locally on this device (Data URL). For multi-person syncing, you’ll want a shared backend later.
+        Note: Thumbnails are currently stored locally (Data URL). We’ll add Supabase Storage syncing next.
       </p>
     </section>
   `;
@@ -499,7 +787,13 @@ function wireResortsView() {
     render();
   });
 
-  addBtn?.addEventListener("click", () => openResortModal({ mode: "create" }));
+  addBtn?.addEventListener("click", () => {
+    if (!state.user) {
+      alert("Sign in to add resorts.");
+      return;
+    }
+    openResortModal({ mode: "create" });
+  });
 
   document.querySelectorAll("[data-resort-open]").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -614,7 +908,6 @@ function wireAllTripsView() {
       setState({ view: "resortDetail", selectedResortId: trip.resortId });
       render();
 
-      // After render, expand matching accordion
       setTimeout(() => {
         const acc = document.querySelector(`[data-accordion-days="${trip.days}"]`);
         acc?.click();
@@ -630,6 +923,7 @@ function wireAllTripsView() {
 function renderResortDetailView(resortId) {
   const db = getDB();
   const resort = db.resorts.find(r => r.id === resortId);
+
   if (!resort) {
     return `
       <section class="card">
@@ -657,7 +951,9 @@ function renderResortDetailView(resortId) {
 
       <div style="display:flex; gap:1rem; align-items:center; flex-wrap: wrap;">
         <div class="thumb" style="width:84px; height:84px;">
-          ${resort.thumbnailDataUrl ? `<img alt="${escapeHtml(resort.name)} thumbnail" src="${resort.thumbnailDataUrl}" />` : `<span>No<br/>image</span>`}
+          ${resort.thumbnailDataUrl
+            ? `<img alt="${escapeHtml(resort.name)} thumbnail" src="${resort.thumbnailDataUrl}" />`
+            : `<span>No<br/>image</span>`}
         </div>
         <div style="flex:1; min-width: 240px;">
           <h2 style="margin:0 0 .25rem;">${escapeHtml(resort.name)}</h2>
@@ -721,14 +1017,15 @@ function groupTripsByDays(trips) {
     if (!out[k]) out[k] = [];
     out[k].push(t);
   }
-  // default sort inside group by score desc
   Object.values(out).forEach(arr => arr.sort((a, b) => (b.compositeScore ?? 0) - (a.compositeScore ?? 0)));
   return out;
 }
 
 function accordionHTML(days, trips, resort) {
   const tripCount = trips.length;
-  const avgScore = tripCount ? Math.round(trips.reduce((s, t) => s + (Number(t.compositeScore) || 0), 0) / tripCount) : 0;
+  const avgScore = tripCount
+    ? Math.round(trips.reduce((s, t) => s + (Number(t.compositeScore) || 0), 0) / tripCount)
+    : 0;
 
   return `
     <div class="accordion">
@@ -785,19 +1082,24 @@ function wireResortDetailView(resortId) {
   });
 
   document.getElementById("btn-edit-resort")?.addEventListener("click", () => {
+    if (!state.user) return alert("Sign in to edit resorts.");
     openResortModal({ mode: "edit", resortId });
   });
 
-  document.getElementById("btn-delete-resort")?.addEventListener("click", () => {
+  document.getElementById("btn-delete-resort")?.addEventListener("click", async () => {
+    if (!state.user) return alert("Sign in to delete resorts.");
     if (!resort) return;
+
     const ok = confirm(`Delete resort "${resort.name}" and ALL its trips? This cannot be undone.`);
     if (!ok) return;
-    deleteResort(resortId);
+
+    await deleteResort(resortId);
     setState({ view: "resorts", selectedResortId: null });
     render();
   });
 
   document.getElementById("btn-add-trip")?.addEventListener("click", () => {
+    if (!state.user) return alert("Sign in to add trips.");
     openTripModal({ mode: "create", resortId });
   });
 
@@ -813,26 +1115,29 @@ function wireResortDetailView(resortId) {
   // trip edit/delete
   document.querySelectorAll("[data-trip-edit]").forEach(btn => {
     btn.addEventListener("click", () => {
+      if (!state.user) return alert("Sign in to edit trips.");
       const tripId = btn.getAttribute("data-trip-edit");
       openTripModal({ mode: "edit", resortId, tripId });
     });
   });
+
   document.querySelectorAll("[data-trip-delete]").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
+      if (!state.user) return alert("Sign in to delete trips.");
       const tripId = btn.getAttribute("data-trip-delete");
       const trip = db.trips.find(t => t.id === tripId);
       if (!trip) return;
       const ok = confirm(`Delete this ${trip.days}-day itinerary?`);
       if (!ok) return;
-      deleteTrip(tripId);
+      await deleteTrip(tripId);
       render();
     });
   });
 }
 
-/* =========================
+/* =========================================================
    Modals (UI)
-========================= */
+========================================================= */
 
 function openModal(innerHTML) {
   const backdrop = document.getElementById("modal-backdrop");
@@ -840,9 +1145,13 @@ function openModal(innerHTML) {
   backdrop.classList.remove("hidden");
   backdrop.setAttribute("aria-hidden", "false");
 
-  backdrop.addEventListener("click", (e) => {
-    if (e.target === backdrop) closeModal();
-  }, { once: true });
+  backdrop.addEventListener(
+    "click",
+    (e) => {
+      if (e.target === backdrop) closeModal();
+    },
+    { once: true }
+  );
 
   document.addEventListener("keydown", escCloseOnce, { once: true });
   function escCloseOnce(e) {
@@ -892,9 +1201,9 @@ function openResortModal({ mode, resortId = null }) {
 
       <div class="grid-2">
         <div>
-          <label class="field-label">Thumbnail image (stored locally)</label>
+          <label class="field-label">Thumbnail image (stored locally for now)</label>
           <input class="field-input" id="r-thumb" type="file" accept="image/*" />
-          <div class="small muted">If you don’t choose a new image, the current thumbnail stays.</div>
+          <div class="small muted">We’ll add shared thumbnail syncing via Supabase Storage next.</div>
         </div>
         <div>
           <label class="field-label">Miles from Rochester, NY</label>
@@ -981,7 +1290,7 @@ function openResortModal({ mode, resortId = null }) {
       payload.thumbnailDataUrl = await fileToDataUrl(file);
     }
 
-    const result = upsertResort(payload, { id: mode === "edit" ? resortId : null });
+    const result = await upsertResort(payload, { id: mode === "edit" ? resortId : null });
     if (!result.ok) {
       errorsEl.textContent = result.errors.join(" ");
       return;
@@ -989,10 +1298,9 @@ function openResortModal({ mode, resortId = null }) {
 
     closeModal();
 
-    // Navigate to detail if created
     if (mode === "create") {
       const db2 = getDB();
-      const created = db2.resorts.slice().sort((a,b) => (b.createdAt||0) - (a.createdAt||0))[0];
+      const created = db2.resorts.slice().sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0))[0];
       setState({ view: "resortDetail", selectedResortId: created.id });
     }
     render();
@@ -1016,7 +1324,6 @@ function openTripModal({ mode, resortId, tripId = null }) {
     dayPlans: ["", "", ""]
   };
 
-  // normalize dayPlans length to days
   const daysN = Number(initial.days) || 1;
   const dayPlans = Array.from({ length: daysN }, (_, i) => (initial.dayPlans?.[i] ?? ""));
 
@@ -1083,9 +1390,8 @@ function openTripModal({ mode, resortId, tripId = null }) {
 
   document.getElementById("trip-cancel")?.addEventListener("click", closeModal);
 
-  // Wire total auto-calc
   const totalEl = document.getElementById("t-total");
-  ["t-flights","t-lodging","t-hotel"].forEach(id => {
+  ["t-flights", "t-lodging", "t-hotel"].forEach(id => {
     document.getElementById(id)?.addEventListener("input", () => {
       const totals = computeTripTotal({
         costFlights: Number(document.getElementById("t-flights").value),
@@ -1096,13 +1402,11 @@ function openTripModal({ mode, resortId, tripId = null }) {
     });
   });
 
-  // Day add/remove
   document.getElementById("btn-add-day")?.addEventListener("click", () => {
     const container = document.getElementById("day-plans");
     const count = container.querySelectorAll("[data-day-row]").length;
-    const next = count; // 0-index
+    const next = count;
     container.insertAdjacentHTML("beforeend", dayPlanRowHTML(next, ""));
-    // update days field and total list labeling
     document.getElementById("t-days").value = String(count + 1);
   });
 
@@ -1114,7 +1418,6 @@ function openTripModal({ mode, resortId, tripId = null }) {
     document.getElementById("t-days").value = String(rows.length - 1);
   });
 
-  // If user changes days manually, rebuild day list
   document.getElementById("t-days")?.addEventListener("change", () => {
     const days = clamp(Number(document.getElementById("t-days").value), 1, 30);
     document.getElementById("t-days").value = String(days);
@@ -1127,8 +1430,7 @@ function openTripModal({ mode, resortId, tripId = null }) {
     }
   });
 
-  // Submit
-  document.getElementById("trip-form")?.addEventListener("submit", (e) => {
+  document.getElementById("trip-form")?.addEventListener("submit", async (e) => {
     e.preventDefault();
     const errorsEl = document.getElementById("trip-errors");
     errorsEl.textContent = "";
@@ -1146,10 +1448,14 @@ function openTripModal({ mode, resortId, tripId = null }) {
       dayPlans: dayPlansOut
     };
 
-    const result = upsertTrip(payload, { id: mode === "edit" ? tripId : null });
+    const result = await upsertTrip(payload, { id: mode === "edit" ? tripId : null });
     if (!result.ok) {
       errorsEl.textContent = result.errors.join(" ");
       return;
+    }
+
+    if (result.warning) {
+      alert(result.warning);
     }
 
     closeModal();
@@ -1166,17 +1472,17 @@ function dayPlanRowHTML(i, txt) {
   `;
 }
 
-/* =========================
+/* =========================================================
    Utilities
-========================= */
+========================================================= */
 
 function escapeHtml(s) {
   return String(s ?? "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 function escapeAttr(s) {
