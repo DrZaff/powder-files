@@ -1,9 +1,9 @@
 // ===== Supabase Config =====
-const SUPABASE_URL = "PASTE_YOUR_PROJECT_URL_HERE";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_ANON_PUBLIC_KEY_HERE";
+const SUPABASE_URL = "https://zpxvcvspiiueelmstyjb.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
+window.__powder_supabase = window.__powder_supabase || window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+var supabase = window.__powder_supabase;
 async function initAuthUI() {
   const statusEl = document.getElementById("auth-status");
   const btnLogin = document.getElementById("btn-login");
@@ -12,10 +12,14 @@ async function initAuthUI() {
 
   async function refresh() {
     const { data } = await supabase.auth.getSession();
-    const user = data.session?.user;
 
-    if (user) {
-      statusEl.textContent = `Signed in: ${user.email}`;
+    setState({
+      session: data.session ?? null,
+      user: data.session?.user ?? null
+    });
+
+    if (state.user) {
+      statusEl.textContent = `Signed in: ${state.user.email}`;
       btnLogout.classList.remove("hidden");
       btnLogin.classList.add("hidden");
       emailInput.classList.add("hidden");
@@ -27,16 +31,34 @@ async function initAuthUI() {
     }
   }
 
+  let lastOtpSentAt = 0;
+
   btnLogin?.addEventListener("click", async () => {
     const email = emailInput.value.trim();
     if (!email) return alert("Enter an email.");
+
+    const now = Date.now();
+    const cooldownMs = 30_000;
+    const remaining = cooldownMs - (now - lastOtpSentAt);
+
+    if (remaining > 0) {
+      alert(`Please wait ${Math.ceil(remaining / 1000)}s before requesting another link.`);
+      return;
+    }
+
+    lastOtpSentAt = now;
 
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: window.location.origin }
     });
 
-    if (error) return alert(error.message);
+    if (error) {
+      // If Supabase rejected it (like 429), allow another try after a short pause
+      // (or you can leave lastOtpSentAt as-is to enforce cooldown even on error)
+      return alert(error.message);
+    }
+
     alert("Magic link sent. Open the link from your email on this device/browser.");
   });
 
@@ -76,7 +98,11 @@ const state = {
   selectedResortId: null,
   resortSearch: "",
   tripSearch: "",
-  tripSort: "scoreDesc" // scoreDesc | scoreAsc | daysDesc | daysAsc
+  tripSort: "scoreDesc",
+
+  // 🔐 Auth-related state (ADD THIS)
+  user: null,
+  session: null,
 };
 
 function setState(patch) {
