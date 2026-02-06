@@ -29,6 +29,13 @@ async function initAuthUI() {
       btnLogin.classList.remove("hidden");
       emailInput.classList.remove("hidden");
     }
+
+    if (state.user) {
+      const gid = await ensureGroup();
+      if (gid) setState({ groupId: gid });
+    } else {
+      setState({ groupId: null });
+    }
   }
 
   let lastOtpSentAt = 0;
@@ -81,6 +88,38 @@ async function initAuthUI() {
 
 const STORAGE_KEY = "powderfiles_db_v1";
 
+const POWDER_GROUP_KEY = "powderfiles_group_id_v1";
+const DEFAULT_GROUP_NAME = "The Powder Files";
+
+function getGroupId() {
+  return localStorage.getItem(POWDER_GROUP_KEY) || null;
+}
+
+function setGroupId(id) {
+  localStorage.setItem(POWDER_GROUP_KEY, id);
+}
+
+async function ensureGroup() {
+  if (!state.user) return null;
+
+  // If we already have one stored, trust it for now.
+  const existing = getGroupId();
+  if (existing) return existing;
+
+  // Create group + owner membership in one RPC call
+  const { data, error } = await supabase.rpc("create_group_with_owner", {
+    group_name: DEFAULT_GROUP_NAME
+  });
+
+  if (error) {
+    alert(`Group create failed: ${error.message}`);
+    return null;
+  }
+
+  setGroupId(data);
+  return data;
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
   await initAuthUI();
   wireTabs();
@@ -94,15 +133,14 @@ function initApp() {
 }
 
 const state = {
-  view: "resorts", // resorts | allTrips | resortDetail
+  view: "resorts",
   selectedResortId: null,
   resortSearch: "",
   tripSearch: "",
   tripSort: "scoreDesc",
-
-  // 🔐 Auth-related state (ADD THIS)
   user: null,
   session: null,
+  groupId: null
 };
 
 function setState(patch) {
