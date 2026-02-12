@@ -23,38 +23,48 @@
     <header class="app-header">
       <div class="title-block">
         <h1 class="app-title">The Powder Files</h1>
-        <p class="app-subtitle">A shared stash of ski resorts + itineraries (offline-first).</p>
+        <p class="app-subtitle">Public ski resort + itinerary database. Editors can contribute after approval.</p>
       </div>
 
-  <div class="auth-bar" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-top:.5rem;">
-    <input id="auth-email" class="field-input" type="email" placeholder="Email for magic link" style="max-width: 260px;" />
-    <button id="btn-login" class="btn-secondary" type="button">Send Link</button>
-    <button id="btn-logout" class="btn-ghost hidden" type="button">Logout</button>
-    <span id="auth-status" class="small muted"></span>
-  </div>
+      <!-- Auth bar -->
+      <div class="auth-bar" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-top:.5rem;">
+        <span id="auth-status" class="small muted"></span>
 
+        <div id="auth-logged-out" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+          <input id="login-email" class="field-input" type="email" placeholder="Email" style="max-width:220px;" />
+          <input id="login-pass" class="field-input" type="password" placeholder="Password" style="max-width:180px;" />
+          <button id="btn-login" class="btn-secondary" type="button">Log in</button>
+
+          <button id="btn-show-register" class="btn-ghost" type="button">Register</button>
+        </div>
+
+        <div id="auth-logged-in" class="hidden" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+          <span id="editor-badge" class="small muted"></span>
+          <button id="btn-logout" class="btn-ghost" type="button">Logout</button>
+        </div>
+      </div>
+
+      <!-- Register modal trigger content lives in script via modal -->
       <div class="header-actions">
         <div class="segmented" role="tablist" aria-label="Views">
           <button id="tab-resorts" class="segmented-btn segmented-btn--active" type="button">Resorts</button>
-          <button id="tab-trips" class="segmented-btn" type="button">All Itineraries</button>
+          <button id="tab-itins" class="segmented-btn" type="button">Itineraries</button>
         </div>
         <span class="app-badge">PWA • Offline</span>
       </div>
     </header>
 
     <main class="app-main">
-      <!-- Dynamic content -->
       <div id="view-root"></div>
     </main>
 
     <footer class="app-footer">
       <p class="disclaimer">
-        This app is a personal planning database. Prices are estimates; verify before booking.
+        Public planning database. Prices are estimates; verify before booking.
       </p>
     </footer>
   </div>
 
-  <!-- Modal Root -->
   <div id="modal-backdrop" class="modal-backdrop hidden" aria-hidden="true"></div>
 
   <script src="script.js"></script>
