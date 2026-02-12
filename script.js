@@ -131,15 +131,18 @@ async function initAuthUI() {
   });
 
   btnLogout?.addEventListener("click", async () => {
-    await supabase.auth.signOut();
-    await refresh();
-    await initApp(); // reload local cache view after logout
-  });
+  const { error } = await supabase.auth.signOut();
+  if (error) {
+    alert(`Logout failed: ${error.message}`);
+    return;
+  }
 
-  supabase.auth.onAuthStateChange(async () => {
-    await refresh();
-    await initApp(); // reload data whenever auth changes
-  });
+  // Clear group link for this device (optional but helps avoid weirdness)
+  localStorage.removeItem(POWDER_GROUP_KEY);
+
+  await refresh();
+  await initApp();
+});
 
   await refresh();
 }
@@ -336,28 +339,73 @@ function getDB() {
    (Supabase schema assumed from your SQL: snake_case)
 ========================================================= */
 
-function mapResortRowToUI(r) {
+function mapResortUIToInsertRow(payload) {
   return {
-    id: r.id,
-    name: r.name,
-    location: r.location,
-    // thumbnails via Storage later; keep local-only dataUrl for now
-    thumbnailDataUrl: "",
-    thumbnailPath: r.thumbnail_path || null,
+    group_id: state.groupId,
+    name: payload.name,
+    location: payload.location,
+    thumbnail_path: null,
 
-    milesFromRochester: r.miles_from_rochester ?? 0,
-    verticalFeet: r.vertical_feet ?? 0,
-    trailCount: r.trail_count ?? 0,
-    mountainStars: r.mountain_stars ?? 3,
+    miles_from_rochester: Number(payload.milesFromRochester) || 0,
+    vertical_feet: Number(payload.verticalFeet) || 0,
+    trail_count: Number(payload.trailCount) || 0,
+    mountain_stars: Number(payload.mountainStars) || 3,
 
-    typicalFlightCost: r.typical_flight_cost ?? 0,
-    avgLodgingNight: r.avg_lodging_night ?? 0,
-    cheapestLodgingNight: r.cheapest_lodging_night ?? 0,
-    skiInOutNight: r.ski_in_out_night ?? 0,
-    areaActivitiesStars: r.area_activities_stars ?? 3,
+    typical_flight_cost: Number(payload.typicalFlightCost) || 0,
+    avg_lodging_night: Number(payload.avgLodgingNight) || 0,
+    cheapest_lodging_night: Number(payload.cheapestLodgingNight) || 0,
+    ski_in_out_night: Number(payload.skiInOutNight) || 0,
+    area_activities_stars: Number(payload.areaActivitiesStars) || 3,
 
-    createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
-    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
+    created_by: state.user?.id
+  };
+}
+
+function mapResortUIToUpdateRow(payload) {
+  // IMPORTANT: do NOT set group_id or created_by on update
+  return {
+    name: payload.name,
+    location: payload.location,
+    // thumbnail_path handled separately in your upload step
+
+    miles_from_rochester: Number(payload.milesFromRochester) || 0,
+    vertical_feet: Number(payload.verticalFeet) || 0,
+    trail_count: Number(payload.trailCount) || 0,
+    mountain_stars: Number(payload.mountainStars) || 3,
+
+    typical_flight_cost: Number(payload.typicalFlightCost) || 0,
+    avg_lodging_night: Number(payload.avgLodgingNight) || 0,
+    cheapest_lodging_night: Number(payload.cheapestLodgingNight) || 0,
+    ski_in_out_night: Number(payload.skiInOutNight) || 0,
+    area_activities_stars: Number(payload.areaActivitiesStars) || 3
+  };
+}
+
+function mapTripUIToInsertRow(payload, resortId) {
+  return {
+    group_id: state.groupId,
+    resort_id: resortId,
+
+    days: Number(payload.days),
+    cost_flights: Number(payload.costFlights) || 0,
+    cost_lodging: Number(payload.costLodging) || 0,
+    cost_hotel_other: Number(payload.costHotelOther) || 0,
+    composite_score: Number(payload.compositeScore) || 0,
+    day_plans: payload.dayPlans || [],
+
+    created_by: state.user?.id
+  };
+}
+
+function mapTripUIToUpdateRow(payload) {
+  // IMPORTANT: do NOT set group_id / created_by / resort_id unless you support moving trips between resorts
+  return {
+    days: Number(payload.days),
+    cost_flights: Number(payload.costFlights) || 0,
+    cost_lodging: Number(payload.costLodging) || 0,
+    cost_hotel_other: Number(payload.costHotelOther) || 0,
+    composite_score: Number(payload.compositeScore) || 0,
+    day_plans: payload.dayPlans || []
   };
 }
 
@@ -551,45 +599,41 @@ async function upsertResort(payload, { id = null } = {}) {
   // If signed in, write to Supabase
   if (state.user && state.groupId) {
     try {
-      const row = mapResortUIToRow(payload);
 
-      if (!id.startsWith("resort_")) {
-        // already a UUID, treat as update
-      }
+  if (db.resorts.find(r => r.id === id)?.id?.startsWith("resort_")) {
+    // Local-only ID — INSERT to Supabase
+    const row = mapResortUIToInsertRow(payload);
 
-      if (db.resorts.find(r => r.id === id)?.id?.startsWith("resort_")) {
-        // Local-only ID — create in Supabase, then replace local ID with UUID
-        const { data, error } = await supabase
-          .from("resorts")
-          .insert(row)
-          .select("*")
-          .single();
+    const { data, error } = await supabase
+      .from("resorts")
+      .insert(row)
+      .select("*")
+      .single();
 
-        if (error) throw error;
+    if (error) throw error;
 
-        const newId = data.id;
-        // Replace resort id in local cache + update all associated trips resortId
-        const db2 = getDB();
-        db2.resorts = db2.resorts.map(r => (r.id === id ? { ...r, id: newId } : r));
-        db2.trips = db2.trips.map(t => (t.resortId === id ? { ...t, resortId: newId } : t));
-        saveDB(db2);
-        return { ok: true, newId };
-      } else {
-        // UUID already: update
-        const { error } = await supabase
-          .from("resorts")
-          .update(row)
-          .eq("id", id);
+    const newId = data.id;
 
-        if (error) throw error;
-      }
+    const db2 = getDB();
+    db2.resorts = db2.resorts.map(r => (r.id === id ? { ...r, id: newId } : r));
+    db2.trips = db2.trips.map(t => (t.resortId === id ? { ...t, resortId: newId } : t));
+    saveDB(db2);
 
-      // pull fresh cache (optional; keeps timestamps consistent)
-      await refreshFromSupabaseToLocalCache();
-    } catch (e) {
-      console.warn("Supabase resort upsert failed; kept local changes.", e);
-      // We keep local change; could add a "pending sync" queue later
-    }
+    await refreshFromSupabaseToLocalCache();
+    return { ok: true, newId };
+  } else {
+    // UUID — UPDATE in Supabase
+    const row = mapResortUIToUpdateRow(payload);
+
+    const { error } = await supabase
+      .from("resorts")
+      .update(row)
+      .eq("id", id)
+      .eq("group_id", state.groupId); // extra safety
+
+    if (error) throw error;
+
+    await refreshFromSupabaseToLocalCache();
   }
 
   return { ok: true };
@@ -652,32 +696,34 @@ async function upsertTrip(payload, { id = null } = {}) {
         return { ok: true, warning: "Resort not synced to Supabase yet; trip saved locally." };
       }
 
-      const row = mapTripUIToRow(normalized, resortId);
+  if (String(id).startsWith("trip_")) {
+    const row = mapTripUIToInsertRow(normalized, resortId);
 
-      if (String(id).startsWith("trip_")) {
-        // local-only trip -> insert -> replace id
-        const { data, error } = await supabase
-          .from("trips")
-          .insert(row)
-          .select("*")
-          .single();
-        if (error) throw error;
+    const { data, error } = await supabase
+      .from("trips")
+      .insert(row)
+      .select("*")
+      .single();
+    if (error) throw error;
 
-        const newId = data.id;
-        const db2 = getDB();
-        db2.trips = db2.trips.map(t => (t.id === id ? { ...t, id: newId } : t));
-        saveDB(db2);
-        await refreshFromSupabaseToLocalCache();
-        return { ok: true, newId };
-      } else {
-        // update
-        const { error } = await supabase.from("trips").update(row).eq("id", id);
-        if (error) throw error;
-        await refreshFromSupabaseToLocalCache();
-      }
-    } catch (e) {
-      console.warn("Supabase trip upsert failed; kept local changes.", e);
-    }
+    const newId = data.id;
+    const db2 = getDB();
+    db2.trips = db2.trips.map(t => (t.id === id ? { ...t, id: newId } : t));
+    saveDB(db2);
+
+    await refreshFromSupabaseToLocalCache();
+    return { ok: true, newId };
+  } else {
+    const row = mapTripUIToUpdateRow(normalized);
+
+    const { error } = await supabase
+      .from("trips")
+      .update(row)
+      .eq("id", id)
+      .eq("group_id", state.groupId); // extra safety
+    if (error) throw error;
+
+    await refreshFromSupabaseToLocalCache();
   }
 
   return { ok: true };
@@ -1550,4 +1596,5 @@ function fileToDataUrl(file) {
     r.onerror = reject;
     r.readAsDataURL(file);
   });
+
 }
