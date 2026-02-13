@@ -76,7 +76,9 @@
 
   <div id="modal-backdrop" class="modal-backdrop hidden" aria-hidden="true"></div>
 
-  <script src="script.js"></script>
+  <!-- ✅ Cache-busted script so Service Worker can't silently serve an old script.js -->
+  <script src="script.js?v=20260213-1"></script>
+
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
