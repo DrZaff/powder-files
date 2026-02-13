@@ -113,6 +113,13 @@ if (window.__powderfiles_script_loaded) {
     return state.editorStatus === "approved";
   }
 
+  function toNumOrNull(v) {
+    const s = String(v ?? "").trim();
+    if (!s) return null;
+    const n = Number(s);
+    return Number.isFinite(n) ? n : null;
+  }
+
   // ===== Cache =====
   function loadCache() {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -143,8 +150,7 @@ if (window.__powderfiles_script_loaded) {
     setState({ session, user });
 
     if (user) {
-      // NOTE: this requires an RLS policy that allows users to SELECT their own row,
-      // otherwise you'll see an error here. We handle it gracefully.
+      // NOTE: requires RLS policy allowing users to SELECT their own row.
       const { data: er, error } = await supabase
         .from("editor_requests")
         .select("status, username")
@@ -201,7 +207,6 @@ if (window.__powderfiles_script_loaded) {
     const btnLogout = document.getElementById("btn-logout");
     const btnShowRegister = document.getElementById("btn-show-register");
 
-    // Defensive logging so you can confirm wiring
     console.log("[PowderFiles] wireAuthUI", {
       btnLogin: !!btnLogin,
       btnLogout: !!btnLogout,
@@ -324,6 +329,148 @@ if (window.__powderfiles_script_loaded) {
       } catch (err) {
         console.error("[PowderFiles] registration failed:", err);
         errEl.textContent = err?.message || "Registration failed.";
+      }
+    });
+  }
+
+  // =========================================================
+  // Editor: Add Resort (CREATE)
+  // =========================================================
+  function openAddResortModal() {
+    if (!isEditorApproved()) {
+      alert("You must be an approved editor to add resorts.");
+      return;
+    }
+
+    openModal(`
+      <h2>Add Resort</h2>
+      <p class="small muted">Add a new resort to the public database.</p>
+
+      <form id="add-resort-form" class="form-grid">
+        <div class="grid-2">
+          <div>
+            <label class="field-label">Resort name *</label>
+            <input id="ar-name" class="field-input" type="text" required />
+          </div>
+          <div>
+            <label class="field-label">Location *</label>
+            <input id="ar-location" class="field-input" type="text" placeholder="City, State / Country" required />
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div>
+            <label class="field-label">Miles from Rochester</label>
+            <input id="ar-miles" class="field-input" type="number" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Vertical feet</label>
+            <input id="ar-vertical" class="field-input" type="number" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Trail count</label>
+            <input id="ar-trails" class="field-input" type="number" inputmode="numeric" />
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div>
+            <label class="field-label">Mountain stars (0–5)</label>
+            <input id="ar-mtnstars" class="field-input" type="number" min="0" max="5" step="1" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Area activities stars (0–5)</label>
+            <input id="ar-areastars" class="field-input" type="number" min="0" max="5" step="1" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Thumbnail URL</label>
+            <input id="ar-thumb" class="field-input" type="url" placeholder="https://..." />
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <label class="field-label">Typical flight cost</label>
+            <input id="ar-flight" class="field-input" type="number" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Avg lodging / night</label>
+            <input id="ar-avg-lodge" class="field-input" type="number" inputmode="numeric" />
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div>
+            <label class="field-label">Cheapest lodging / night</label>
+            <input id="ar-cheap-lodge" class="field-input" type="number" inputmode="numeric" />
+          </div>
+          <div>
+            <label class="field-label">Ski-in/ski-out / night</label>
+            <input id="ar-skiin" class="field-input" type="number" inputmode="numeric" />
+          </div>
+          <div></div>
+        </div>
+
+        <div id="ar-errors" class="inline-error"></div>
+
+        <div class="modal-footer">
+          <button class="btn-secondary" type="button" id="ar-cancel">Cancel</button>
+          <button class="btn-primary" type="submit">Save resort</button>
+        </div>
+      </form>
+    `);
+
+    document.getElementById("ar-cancel")?.addEventListener("click", closeModal);
+
+    document.getElementById("add-resort-form")?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const errEl = document.getElementById("ar-errors");
+      errEl.textContent = "";
+
+      const name = document.getElementById("ar-name")?.value?.trim();
+      const location = document.getElementById("ar-location")?.value?.trim();
+
+      if (!name || !location) {
+        errEl.textContent = "Name and location are required.";
+        return;
+      }
+
+      // Build insert row using your DB column names (snake_case)
+      const row = {
+        name,
+        location,
+        miles_from_rochester: toNumOrNull(document.getElementById("ar-miles")?.value),
+        vertical_feet: toNumOrNull(document.getElementById("ar-vertical")?.value),
+        trail_count: toNumOrNull(document.getElementById("ar-trails")?.value),
+        mountain_stars: toNumOrNull(document.getElementById("ar-mtnstars")?.value),
+        area_activities_stars: toNumOrNull(document.getElementById("ar-areastars")?.value),
+        typical_flight_cost: toNumOrNull(document.getElementById("ar-flight")?.value),
+        avg_lodging_night: toNumOrNull(document.getElementById("ar-avg-lodge")?.value),
+        cheapest_lodging_night: toNumOrNull(document.getElementById("ar-cheap-lodge")?.value),
+        ski_in_out_night: toNumOrNull(document.getElementById("ar-skiin")?.value),
+        thumbnail_url: (document.getElementById("ar-thumb")?.value || "").trim() || null
+      };
+
+      // Clamp stars if provided
+      if (row.mountain_stars != null) row.mountain_stars = clamp(row.mountain_stars, 0, 5);
+      if (row.area_activities_stars != null) row.area_activities_stars = clamp(row.area_activities_stars, 0, 5);
+
+      try {
+        const { error } = await supabase.from("resorts").insert([row]);
+        if (error) {
+          console.error("[PowderFiles] add resort error:", error);
+          // RLS messages often look like "new row violates row-level security policy"
+          errEl.textContent = error.message || "Failed to add resort.";
+          return;
+        }
+
+        closeModal();
+        await refreshPublicData();
+        setState({ view: "resorts", selectedResortId: null });
+        render();
+      } catch (ex) {
+        console.error("[PowderFiles] add resort exception:", ex);
+        errEl.textContent = ex?.message || "Failed to add resort.";
       }
     });
   }
@@ -507,9 +654,9 @@ if (window.__powderfiles_script_loaded) {
       render();
     });
 
-    // NOTE: If you later re-add editor modals, you can wire btn-add-resort here.
+    // ✅ REAL Add Resort handler (replaces the old placeholder alert)
     document.getElementById("btn-add-resort")?.addEventListener("click", () => {
-      alert("Add Resort UI is not enabled in this trimmed script. If you want it back, paste your full CRUD section and I’ll merge safely.");
+      openAddResortModal();
     });
 
     document.querySelectorAll("[data-open-resort]").forEach((btn) => {
