@@ -1,13 +1,11 @@
-/* service-worker.js
-   PowderFiles — safe SW that won't "freeze" your JS updates
-   - Network-first for HTML so new builds load immediately
-   - Cache-first for static assets
-   - Never caches Supabase/API calls
-*/
+// service-worker.js
+// Network-first for HTML (so updates show up)
+// Cache-first for static assets
+// Never cache Supabase API calls
 
 const CACHE = "powderfiles-cache-v3";
 
-const STATIC_ASSETS = [
+const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
@@ -16,13 +14,20 @@ const STATIC_ASSETS = [
   "./assets/skifree-bg.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
-  "./icons/apple-touch-icon-180.png",
+  "./icons/apple-touch-icon-180.png"
 ];
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(STATIC_ASSETS)).catch(() => {})
+    (async () => {
+      try {
+        const cache = await caches.open(CACHE);
+        await cache.addAll(ASSETS);
+      } catch {
+        // Don't fail install if one asset 404s during deploy timing
+      }
+    })()
   );
 });
 
@@ -42,13 +47,15 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(req.url);
 
-  // IMPORTANT: Never cache Supabase / external API calls
-  if (url.origin !== self.location.origin) return;
+  // IMPORTANT: never cache Supabase calls
+  // (your project is *.supabase.co)
+  if (url.hostname.endsWith("supabase.co")) return;
 
   const accept = req.headers.get("accept") || "";
+  const isHTML = req.mode === "navigate" || accept.includes("text/html");
 
-  // 1) HTML navigation: network-first
-  if (req.mode === "navigate" || accept.includes("text/html")) {
+  // HTML: network-first
+  if (isHTML) {
     event.respondWith(
       (async () => {
         try {
@@ -65,18 +72,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // 2) Static assets: cache-first
+  // Static: cache-first
   const isStatic =
-    url.pathname.endsWith(".js") ||
-    url.pathname.endsWith(".css") ||
-    url.pathname.endsWith(".png") ||
-    url.pathname.endsWith(".jpg") ||
-    url.pathname.endsWith(".jpeg") ||
-    url.pathname.endsWith(".gif") ||
-    url.pathname.endsWith(".svg") ||
-    url.pathname.endsWith(".webp") ||
-    url.pathname.endsWith(".ico") ||
-    url.pathname.endsWith(".json");
+    url.origin === self.location.origin &&
+    /\.(js|css|png|jpg|jpeg|gif|svg|webp|ico|json)$/i.test(url.pathname);
 
   if (isStatic) {
     event.respondWith(
