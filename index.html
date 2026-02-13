@@ -19,13 +19,9 @@
 </head>
 
 <body>
-  <!-- Background layers (do NOT block clicks) -->
-  <div class="bg-layer" aria-hidden="true"></div>
-  <div class="bg-vignette" aria-hidden="true"></div>
-
   <div class="app-shell">
-    <!-- One unified “glass” panel so you don’t get rectangular blocks -->
-    <div class="glass">
+    <!-- ONE unified glass panel so you don't get weird rectangles -->
+    <div class="app-panel">
       <header class="app-header">
         <div class="title-block">
           <h1 class="app-title">The Powder Files</h1>
@@ -37,14 +33,14 @@
           <div class="auth-bar">
             <span id="auth-status" class="small muted"></span>
 
-            <div id="auth-logged-out">
+            <div id="auth-logged-out" class="auth-row">
               <input id="login-email" class="field-input" type="email" placeholder="Email" autocomplete="email" />
               <input id="login-pass" class="field-input" type="password" placeholder="Password" autocomplete="current-password" />
               <button id="btn-login" class="btn-secondary" type="button">Log in</button>
               <button id="btn-show-register" class="btn-ghost" type="button">Register</button>
             </div>
 
-            <div id="auth-logged-in" class="hidden">
+            <div id="auth-logged-in" class="auth-row hidden">
               <span id="editor-badge" class="small muted"></span>
               <button id="btn-logout" class="btn-ghost" type="button">Logout</button>
             </div>
