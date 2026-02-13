@@ -1,6 +1,8 @@
 // =========================================================
 // The Powder Files — Public site + approved editors
 // (UI unchanged; fixes auth wiring + prevents double-load crash)
+// Adds: Resort thumbnail upload + trail map upload (Supabase Storage)
+// Fixes: "Save does nothing" by adding hard logging + robust error surfacing
 // =========================================================
 
 // ---------------------------------------------------------
@@ -13,10 +15,8 @@ if (window.__powderfiles_script_loaded) {
 } else {
   window.__powderfiles_script_loaded = true;
 
-  // Helpful: confirms JS is actually running
   console.log("[PowderFiles] script.js loaded");
 
-  // Global error visibility (so you always see something in console)
   window.addEventListener("error", (e) => {
     console.error("[PowderFiles] window error:", e?.error || e?.message || e);
   });
@@ -30,7 +30,6 @@ if (window.__powderfiles_script_loaded) {
   const SUPABASE_ANON_KEY =
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-  // Create client once (avoid duplicate declarations / double init)
   window.__powder_supabase =
     window.__powder_supabase ||
     window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
@@ -43,8 +42,10 @@ if (window.__powderfiles_script_loaded) {
       }
     });
 
-  // IMPORTANT: use a function-scoped alias; never redeclare on double-load
   const supabase = window.__powder_supabase;
+
+  // ===== Storage Config =====
+  const STORAGE_BUCKET = "resort-media";
 
   // ===== Offline cache key (public data) =====
   const STORAGE_KEY = "powderfiles_public_cache_v1";
@@ -56,11 +57,9 @@ if (window.__powderfiles_script_loaded) {
     resortSearch: "",
     itinSearch: "",
 
-    // auth
     user: null,
     session: null,
 
-    // editor status
     editorStatus: "none", // none | pending | approved | rejected
     username: null
   };
@@ -120,6 +119,46 @@ if (window.__powderfiles_script_loaded) {
     return Number.isFinite(n) ? n : null;
   }
 
+  function safeExtFromName(name) {
+    const m = String(name || "").toLowerCase().match(/\.[a-z0-9]+$/);
+    return m ? m[0] : "";
+  }
+
+  function randomId() {
+    if (crypto?.randomUUID) return crypto.randomUUID();
+    return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  }
+
+  // Upload a file to Supabase Storage and return a PUBLIC URL
+  async function uploadPublicFile({ file, folder }) {
+    if (!file) return null;
+
+    const { data: sess } = await supabase.auth.getSession();
+    const userId = sess?.session?.user?.id || "anon";
+
+    const ext = safeExtFromName(file.name) || "";
+    const path = `${folder}/${userId}/${randomId()}${ext}`;
+
+    console.log("[PowderFiles] uploading", { bucket: STORAGE_BUCKET, path, type: file.type, size: file.size });
+
+    const { error: upErr } = await supabase.storage
+      .from(STORAGE_BUCKET)
+      .upload(path, file, {
+        cacheControl: "3600",
+        upsert: false,
+        contentType: file.type || undefined
+      });
+
+    if (upErr) throw upErr;
+
+    const { data: pub } = supabase.storage.from(STORAGE_BUCKET).getPublicUrl(path);
+    const publicUrl = pub?.publicUrl || null;
+
+    if (!publicUrl) throw new Error("Upload succeeded but could not compute public URL.");
+
+    return publicUrl;
+  }
+
   // ===== Cache =====
   function loadCache() {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -150,7 +189,6 @@ if (window.__powderfiles_script_loaded) {
     setState({ session, user });
 
     if (user) {
-      // NOTE: requires RLS policy allowing users to SELECT their own row.
       const { data: er, error } = await supabase
         .from("editor_requests")
         .select("status, username")
@@ -248,17 +286,12 @@ if (window.__powderfiles_script_loaded) {
     });
   }
 
-  /**
-   * IMPORTANT CHANGE (RLS-safe):
-   * Do NOT insert into editor_requests from the browser.
-   * Store username in user_metadata and let a DB trigger create editor_requests row.
-   */
   async function registerUser({ email, password, username }) {
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: {
-        data: { username }, // trigger can read this
+        data: { username },
         emailRedirectTo: window.location.origin
       }
     });
@@ -334,7 +367,7 @@ if (window.__powderfiles_script_loaded) {
   }
 
   // =========================================================
-  // Editor: Add Resort (CREATE)
+  // Editor: Add Resort (CREATE) + Uploads
   // =========================================================
   function openAddResortModal() {
     if (!isEditorApproved()) {
@@ -355,6 +388,19 @@ if (window.__powderfiles_script_loaded) {
           <div>
             <label class="field-label">Location *</label>
             <input id="ar-location" class="field-input" type="text" placeholder="City, State / Country" required />
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <label class="field-label">Thumbnail image</label>
+            <input id="ar-thumb-file" class="field-input" type="file" accept="image/*" />
+            <div class="small muted">PNG/JPG/WebP recommended.</div>
+          </div>
+          <div>
+            <label class="field-label">Trail map</label>
+            <input id="ar-trailmap-file" class="field-input" type="file" accept="image/*,application/pdf" />
+            <div class="small muted">Image or PDF.</div>
           </div>
         </div>
 
@@ -382,10 +428,7 @@ if (window.__powderfiles_script_loaded) {
             <label class="field-label">Area activities stars (0–5)</label>
             <input id="ar-areastars" class="field-input" type="number" min="0" max="5" step="1" inputmode="numeric" />
           </div>
-          <div>
-            <label class="field-label">Thumbnail URL</label>
-            <input id="ar-thumb" class="field-input" type="url" placeholder="https://..." />
-          </div>
+          <div></div>
         </div>
 
         <div class="grid-2">
@@ -415,52 +458,90 @@ if (window.__powderfiles_script_loaded) {
 
         <div class="modal-footer">
           <button class="btn-secondary" type="button" id="ar-cancel">Cancel</button>
-          <button class="btn-primary" type="submit">Save resort</button>
+          <button class="btn-primary" id="ar-save" type="submit">Save resort</button>
         </div>
       </form>
     `);
 
     document.getElementById("ar-cancel")?.addEventListener("click", closeModal);
 
-    document.getElementById("add-resort-form")?.addEventListener("submit", async (e) => {
+    // Attach submit handler
+    const form = document.getElementById("add-resort-form");
+    form?.addEventListener("submit", async (e) => {
       e.preventDefault();
+
+      console.log("[PowderFiles] Add Resort submit fired");
+
       const errEl = document.getElementById("ar-errors");
-      errEl.textContent = "";
+      const saveBtn = document.getElementById("ar-save");
 
-      const name = document.getElementById("ar-name")?.value?.trim();
-      const location = document.getElementById("ar-location")?.value?.trim();
-
-      if (!name || !location) {
-        errEl.textContent = "Name and location are required.";
-        return;
-      }
-
-      // Build insert row using your DB column names (snake_case)
-      const row = {
-        name,
-        location,
-        miles_from_rochester: toNumOrNull(document.getElementById("ar-miles")?.value),
-        vertical_feet: toNumOrNull(document.getElementById("ar-vertical")?.value),
-        trail_count: toNumOrNull(document.getElementById("ar-trails")?.value),
-        mountain_stars: toNumOrNull(document.getElementById("ar-mtnstars")?.value),
-        area_activities_stars: toNumOrNull(document.getElementById("ar-areastars")?.value),
-        typical_flight_cost: toNumOrNull(document.getElementById("ar-flight")?.value),
-        avg_lodging_night: toNumOrNull(document.getElementById("ar-avg-lodge")?.value),
-        cheapest_lodging_night: toNumOrNull(document.getElementById("ar-cheap-lodge")?.value),
-        ski_in_out_night: toNumOrNull(document.getElementById("ar-skiin")?.value),
-        thumbnail_url: (document.getElementById("ar-thumb")?.value || "").trim() || null
-      };
-
-      // Clamp stars if provided
-      if (row.mountain_stars != null) row.mountain_stars = clamp(row.mountain_stars, 0, 5);
-      if (row.area_activities_stars != null) row.area_activities_stars = clamp(row.area_activities_stars, 0, 5);
+      if (errEl) errEl.textContent = "";
 
       try {
+        if (!isEditorApproved()) {
+          if (errEl) errEl.textContent = "You are not approved to add resorts.";
+          return;
+        }
+
+        const name = document.getElementById("ar-name")?.value?.trim();
+        const location = document.getElementById("ar-location")?.value?.trim();
+
+        if (!name || !location) {
+          if (errEl) errEl.textContent = "Name and location are required.";
+          return;
+        }
+
+        // Disable save button while processing
+        if (saveBtn) {
+          saveBtn.disabled = true;
+          saveBtn.style.opacity = "0.75";
+        }
+
+        // Files
+        const thumbFile = document.getElementById("ar-thumb-file")?.files?.[0] || null;
+        const trailMapFile = document.getElementById("ar-trailmap-file")?.files?.[0] || null;
+
+        // Upload files first (optional)
+        let thumbnailUrl = null;
+        let trailMapUrl = null;
+
+        if (thumbFile) {
+          thumbnailUrl = await uploadPublicFile({ file: thumbFile, folder: "thumbnails" });
+        }
+        if (trailMapFile) {
+          trailMapUrl = await uploadPublicFile({ file: trailMapFile, folder: "trail-maps" });
+        }
+
+        // Build insert row using your DB column names (snake_case)
+        const row = {
+          name,
+          location,
+          miles_from_rochester: toNumOrNull(document.getElementById("ar-miles")?.value),
+          vertical_feet: toNumOrNull(document.getElementById("ar-vertical")?.value),
+          trail_count: toNumOrNull(document.getElementById("ar-trails")?.value),
+          mountain_stars: toNumOrNull(document.getElementById("ar-mtnstars")?.value),
+          area_activities_stars: toNumOrNull(document.getElementById("ar-areastars")?.value),
+          typical_flight_cost: toNumOrNull(document.getElementById("ar-flight")?.value),
+          avg_lodging_night: toNumOrNull(document.getElementById("ar-avg-lodge")?.value),
+          cheapest_lodging_night: toNumOrNull(document.getElementById("ar-cheap-lodge")?.value),
+          ski_in_out_night: toNumOrNull(document.getElementById("ar-skiin")?.value),
+
+          // NOW set by upload (instead of manual URL input)
+          thumbnail_url: thumbnailUrl,
+          // requires you to add this column in your DB
+          trail_map_url: trailMapUrl
+        };
+
+        // Clamp stars
+        if (row.mountain_stars != null) row.mountain_stars = clamp(row.mountain_stars, 0, 5);
+        if (row.area_activities_stars != null) row.area_activities_stars = clamp(row.area_activities_stars, 0, 5);
+
+        console.log("[PowderFiles] inserting resort row", row);
+
         const { error } = await supabase.from("resorts").insert([row]);
         if (error) {
           console.error("[PowderFiles] add resort error:", error);
-          // RLS messages often look like "new row violates row-level security policy"
-          errEl.textContent = error.message || "Failed to add resort.";
+          if (errEl) errEl.textContent = error.message || "Failed to add resort.";
           return;
         }
 
@@ -470,7 +551,12 @@ if (window.__powderfiles_script_loaded) {
         render();
       } catch (ex) {
         console.error("[PowderFiles] add resort exception:", ex);
-        errEl.textContent = ex?.message || "Failed to add resort.";
+        if (errEl) errEl.textContent = ex?.message || "Failed to add resort.";
+      } finally {
+        if (saveBtn) {
+          saveBtn.disabled = false;
+          saveBtn.style.opacity = "";
+        }
       }
     });
   }
@@ -505,6 +591,8 @@ if (window.__powderfiles_script_loaded) {
       skiInOutNight: r.ski_in_out_night ?? 0,
       areaActivitiesStars: r.area_activities_stars ?? 3,
       thumbnailUrl: r.thumbnail_url ?? "",
+      // optional future use:
+      trailMapUrl: r.trail_map_url ?? "",
       createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
       updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
     };
@@ -654,7 +742,6 @@ if (window.__powderfiles_script_loaded) {
       render();
     });
 
-    // ✅ REAL Add Resort handler (replaces the old placeholder alert)
     document.getElementById("btn-add-resort")?.addEventListener("click", () => {
       openAddResortModal();
     });
