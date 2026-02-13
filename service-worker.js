@@ -1,10 +1,8 @@
 // service-worker.js
-// Fixes: stale index.html/script.js being served forever (buttons "do nothing")
+// Cache strategy: network-first for HTML, cache-first for static assets
 
 const CACHE = "powderfiles-cache-v2";
 
-// List only truly static assets you want available offline.
-// (You can add skifree-bg.png too so background works offline.)
 const ASSETS = [
   "./",
   "./index.html",
@@ -18,20 +16,15 @@ const ASSETS = [
 ];
 
 self.addEventListener("install", (event) => {
-  // Force the updated SW to take control ASAP
   self.skipWaiting();
-
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).catch(() => {
-      // If any asset fails (e.g., first deploy timing), still install SW
-    })
+    caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).catch(() => {})
   );
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
-      // Remove older caches so old HTML/JS can't keep winning
       const keys = await caches.keys();
       await Promise.all(keys.map((k) => (k !== CACHE ? caches.delete(k) : Promise.resolve())));
       await self.clients.claim();
@@ -41,16 +34,11 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
-
-  // Only handle GET
   if (req.method !== "GET") return;
 
   const url = new URL(req.url);
 
-  // -----------------------------
-  // 1) HTML / navigation requests
-  // Network-first so updates appear immediately
-  // -----------------------------
+  // 1) HTML / navigation => network-first
   const isHTML =
     req.mode === "navigate" ||
     (req.headers.get("accept") || "").includes("text/html");
@@ -60,24 +48,19 @@ self.addEventListener("fetch", (event) => {
       (async () => {
         try {
           const fresh = await fetch(req);
-          // Update cached index.html for offline fallback
           const cache = await caches.open(CACHE);
           cache.put("./index.html", fresh.clone());
           return fresh;
-        } catch (e) {
-          // Offline fallback
+        } catch {
           const cached = await caches.match("./index.html");
-          return cached || new Response("Offline", { status: 503, headers: { "Content-Type": "text/plain" } });
+          return cached || new Response("Offline", { status: 503 });
         }
       })()
     );
     return;
   }
 
-  // -----------------------------
-  // 2) Static assets (JS/CSS/images)
-  // Cache-first, but allow query-string cache busting
-  // -----------------------------
+  // 2) Static assets => cache-first
   const isStatic =
     url.origin === self.location.origin &&
     (url.pathname.endsWith(".js") ||
@@ -102,8 +85,7 @@ self.addEventListener("fetch", (event) => {
           const cache = await caches.open(CACHE);
           cache.put(req, fresh.clone());
           return fresh;
-        } catch (e) {
-          // If we couldn't fetch and no cache exists, fail gracefully
+        } catch {
           return new Response("", { status: 504 });
         }
       })()
@@ -111,9 +93,5 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // -----------------------------
-  // 3) Everything else: just network
-  // (important so Supabase requests are never cached)
-  // -----------------------------
-  return;
+  // 3) Everything else => do nothing (network)
 });

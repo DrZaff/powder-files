@@ -2,34 +2,32 @@
 // The Powder Files — Public site + approved editors
 // =========================================================
 
+// Tiny startup log so you can confirm the real script.js is loading.
+// (Does not change UI.)
+console.log("[PowderFiles] script.js loaded");
+
 // ===== Supabase Config =====
 const SUPABASE_URL = "https://zpxvcvspiiueelmstyjb.supabase.co";
 const SUPABASE_ANON_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-// ===== Offline cache key =====
-const STORAGE_KEY = "powderfiles_public_cache_v1";
-
-// When confirm-email is ON, we may not have a session immediately after signUp.
-// Store the requested username locally and create editor request on first signed-in session.
-const PENDING_EDITOR_USERNAME_KEY = "powderfiles_pending_editor_username_v1";
-
-// ===== Create client once =====
+// Create client once (avoid duplicate declarations)
 window.__powder_supabase =
   window.__powder_supabase ||
-  (window.supabase
-    ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-        auth: {
-          persistSession: true,
-          autoRefreshToken: true,
-          detectSessionInUrl: true,
-          flowType: "pkce",
-          storage: window.localStorage,
-        },
-      })
-    : null);
+  window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      detectSessionInUrl: true,
+      flowType: "pkce",
+      storage: window.localStorage
+    }
+  });
 
 const supabase = window.__powder_supabase;
+
+// ===== Offline cache key =====
+const STORAGE_KEY = "powderfiles_public_cache_v1";
 
 // ===== State =====
 const state = {
@@ -44,7 +42,7 @@ const state = {
 
   // editor status
   editorStatus: "none", // none | pending | approved | rejected
-  username: null,
+  username: null
 };
 
 function setState(patch) {
@@ -104,7 +102,7 @@ function loadCache() {
     return {
       resorts: Array.isArray(parsed.resorts) ? parsed.resorts : [],
       trips: Array.isArray(parsed.trips) ? parsed.trips : [],
-      updatedAt: Number(parsed.updatedAt) || 0,
+      updatedAt: Number(parsed.updatedAt) || 0
     };
   } catch {
     return { resorts: [], trips: [], updatedAt: 0 };
@@ -119,62 +117,22 @@ function saveCache(cache) {
 // Auth + Editor Requests
 // =========================================================
 
-async function ensurePendingEditorRequestIfNeeded() {
-  // If user just confirmed email and signed in later, create pending editor request now.
-  if (!state.user) return;
-
-  const pendingUsername = localStorage.getItem(PENDING_EDITOR_USERNAME_KEY);
-  if (!pendingUsername) return;
-
-  // If editor_requests row already exists, just clear pending.
-  const { data: existing, error: readErr } = await supabase
-    .from("editor_requests")
-    .select("status, username")
-    .eq("user_id", state.user.id)
-    .maybeSingle();
-
-  if (!readErr && existing) {
-    localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
-    return;
-  }
-
-  const { error: insErr } = await supabase.from("editor_requests").insert({
-    user_id: state.user.id,
-    username: pendingUsername,
-    status: "pending",
-  });
-
-  if (!insErr) {
-    localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
-  } else {
-    // Don't remove pending username if insert failed; try again next session.
-    console.warn("Could not create editor_requests row (will retry):", insErr);
-  }
-}
-
 async function refreshAuthState() {
-  const { data, error } = await supabase.auth.getSession();
-  if (error) console.warn("getSession error:", error);
-
-  const session = data?.session ?? null;
+  const { data } = await supabase.auth.getSession();
+  const session = data.session ?? null;
   const user = session?.user ?? null;
   setState({ session, user });
 
-  // If we have a user session now, try to create pending editor request (for confirm-email flow)
-  if (user) {
-    await ensurePendingEditorRequestIfNeeded();
-  }
-
   // determine editor status
   if (user) {
-    const { data: er, error: erErr } = await supabase
+    const { data: er, error } = await supabase
       .from("editor_requests")
       .select("status, username")
       .eq("user_id", user.id)
       .maybeSingle();
 
-    if (erErr) {
-      console.warn("editor_requests read error:", erErr);
+    if (error) {
+      console.warn("editor_requests read error:", error);
       setState({ editorStatus: "none", username: null });
     } else if (!er) {
       setState({ editorStatus: "none", username: null });
@@ -219,80 +177,53 @@ function renderAuthBar() {
 }
 
 function wireAuthUI() {
-  const btnLogin = document.getElementById("btn-login");
-  const btnLogout = document.getElementById("btn-logout");
-  const btnShowRegister = document.getElementById("btn-show-register");
-
   // login
-  btnLogin?.addEventListener("click", async () => {
-    try {
-      const email = document.getElementById("login-email")?.value?.trim();
-      const pass = document.getElementById("login-pass")?.value ?? "";
-      if (!email || !pass) return alert("Enter email and password.");
+  document.getElementById("btn-login")?.addEventListener("click", async () => {
+    const email = document.getElementById("login-email")?.value?.trim();
+    const pass = document.getElementById("login-pass")?.value ?? "";
+    if (!email || !pass) return alert("Enter email and password.");
 
-      const { error } = await supabase.auth.signInWithPassword({ email, password: pass });
-      if (error) return alert(error.message);
+    const { error } = await supabase.auth.signInWithPassword({ email, password: pass });
+    if (error) return alert(error.message);
 
-      await refreshAuthState();
-      await refreshPublicData();
-      render();
-    } catch (e) {
-      console.error("Login error:", e);
-      alert(e?.message || "Login failed.");
-    }
+    await refreshAuthState();
+    await refreshPublicData();
+    render();
   });
 
   // logout
-  btnLogout?.addEventListener("click", async () => {
-    try {
-      const { error } = await supabase.auth.signOut();
-      if (error) return alert(error.message);
-
-      await refreshAuthState();
-      render();
-    } catch (e) {
-      console.error("Logout error:", e);
-      alert(e?.message || "Logout failed.");
-    }
+  document.getElementById("btn-logout")?.addEventListener("click", async () => {
+    const { error } = await supabase.auth.signOut();
+    if (error) return alert(error.message);
+    await refreshAuthState();
+    render();
   });
 
   // show register
-  btnShowRegister?.addEventListener("click", () => {
+  document.getElementById("btn-show-register")?.addEventListener("click", () => {
     openRegisterModal();
   });
 }
 
 async function registerUser({ email, password, username }) {
-  // Sign up
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
-    options: {
-      emailRedirectTo: window.location.origin, // keep it simple
-    },
+    options: { emailRedirectTo: window.location.origin }
   });
 
   if (error) throw error;
 
-  // If confirm-email is ON, session may be null. We cannot reliably insert editor_requests yet.
-  // Store username locally and create request after the user signs in.
-  localStorage.setItem(PENDING_EDITOR_USERNAME_KEY, username);
-
-  // If Supabase returns a session (confirm-email OFF), create request now.
-  const signedInUserId = data?.user?.id;
-  const hasSessionNow = !!data?.session;
-
-  if (hasSessionNow && signedInUserId) {
+  // If user is immediately available, create editor request row.
+  const newUserId = data.user?.id;
+  if (newUserId) {
     const { error: insErr } = await supabase.from("editor_requests").insert({
-      user_id: signedInUserId,
+      user_id: newUserId,
       username,
       status: "pending",
+      requested_at: new Date().toISOString()
     });
-    if (!insErr) {
-      localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
-    } else {
-      console.warn("editor_requests insert failed (will retry later):", insErr);
-    }
+    if (insErr) throw insErr;
   }
 
   return data;
@@ -357,11 +288,7 @@ function openRegisterModal() {
     try {
       await registerUser({ email, password: pass, username });
       closeModal();
-
-      // With confirm-email enabled, user must confirm before login works.
-      alert(
-        "Account created. Please check your email to confirm your address, then come back and log in. Your editor request will be marked as pending approval."
-      );
+      alert("Account created. If email confirmation is enabled, confirm your email then log in. Your editor request is pending approval.");
     } catch (err) {
       console.error(err);
       errEl.textContent = err.message || "Registration failed.";
@@ -370,7 +297,7 @@ function openRegisterModal() {
 }
 
 // =========================================================
-// Public Data: fetch into cache (works for anon if RLS allows select)
+// Public Data: fetch into cache (works for anon)
 // =========================================================
 
 async function fetchResorts() {
@@ -401,7 +328,7 @@ function mapResortRowToUI(r) {
     areaActivitiesStars: r.area_activities_stars ?? 3,
     thumbnailUrl: r.thumbnail_url ?? "",
     createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
-    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now(),
+    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
   };
 }
 
@@ -416,7 +343,7 @@ function mapTripRowToUI(t) {
     costHotelOther: t.cost_hotel_other ?? 0,
     dayPlans: Array.isArray(t.day_plans) ? t.day_plans : [],
     createdAt: t.created_at ? Date.parse(t.created_at) : Date.now(),
-    updatedAt: t.updated_at ? Date.parse(t.updated_at) : Date.now(),
+    updatedAt: t.updated_at ? Date.parse(t.updated_at) : Date.now()
   };
 }
 
@@ -426,7 +353,7 @@ async function refreshPublicData() {
     const cache = {
       resorts: resorts.map(mapResortRowToUI),
       trips: trips.map(mapTripRowToUI),
-      updatedAt: Date.now(),
+      updatedAt: Date.now()
     };
     saveCache(cache);
   } catch (e) {
@@ -463,7 +390,7 @@ function resortInsertRow(p) {
     cheapest_lodging_night: Number(p.cheapestLodgingNight) || 0,
     ski_in_out_night: Number(p.skiInOutNight) || 0,
     area_activities_stars: Number(p.areaActivitiesStars) || 3,
-    created_by: state.user?.id,
+    created_by: state.user?.id
   };
 }
 
@@ -480,7 +407,7 @@ function resortUpdateRow(p) {
     avg_lodging_night: Number(p.avgLodgingNight) || 0,
     cheapest_lodging_night: Number(p.cheapestLodgingNight) || 0,
     ski_in_out_night: Number(p.skiInOutNight) || 0,
-    area_activities_stars: Number(p.areaActivitiesStars) || 3,
+    area_activities_stars: Number(p.areaActivitiesStars) || 3
   };
 }
 
@@ -499,7 +426,7 @@ function normalizeDayPlan(d) {
     text: String(d?.text ?? "").trim(),
     city: d?.city ? String(d.city).trim() : null,
     state: d?.state ? String(d.state).trim() : null,
-    country: d?.country ? String(d.country).trim() : null,
+    country: d?.country ? String(d.country).trim() : null
   };
 }
 
@@ -512,7 +439,7 @@ function tripInsertRow(p) {
     cost_lodging: Number(p.costLodging) || 0,
     cost_hotel_other: Number(p.costHotelOther) || 0,
     day_plans: (p.dayPlans || []).map(normalizeDayPlan),
-    created_by: state.user?.id,
+    created_by: state.user?.id
   };
 }
 
@@ -524,7 +451,7 @@ function tripUpdateRow(p) {
     cost_flights: Number(p.costFlights) || 0,
     cost_lodging: Number(p.costLodging) || 0,
     cost_hotel_other: Number(p.costHotelOther) || 0,
-    day_plans: (p.dayPlans || []).map(normalizeDayPlan),
+    day_plans: (p.dayPlans || []).map(normalizeDayPlan)
   };
 }
 
@@ -533,10 +460,14 @@ function tripUpdateRow(p) {
 // =========================================================
 
 function setActiveTab() {
-  document
-    .getElementById("tab-resorts")
-    ?.classList.toggle("segmented-btn--active", state.view === "resorts" || state.view === "resortDetail");
-  document.getElementById("tab-itins")?.classList.toggle("segmented-btn--active", state.view === "itins");
+  document.getElementById("tab-resorts")?.classList.toggle(
+    "segmented-btn--active",
+    state.view === "resorts" || state.view === "resortDetail"
+  );
+  document.getElementById("tab-itins")?.classList.toggle(
+    "segmented-btn--active",
+    state.view === "itins"
+  );
 }
 
 function render() {
@@ -598,11 +529,7 @@ function renderResortsView() {
       </div>
 
       <div class="list-grid">
-        ${
-          filtered.length
-            ? filtered.map(resortButtonHTML).join("")
-            : `<p class="muted">No resorts found.</p>`
-        }
+        ${filtered.length ? filtered.map(resortButtonHTML).join("") : `<p class="muted">No resorts found.</p>`}
       </div>
     </section>
   `;
@@ -671,11 +598,7 @@ function renderResortDetailView(resortId) {
 
       <div style="display:flex; gap:1rem; align-items:center; flex-wrap: wrap;">
         <div class="thumb" style="width:84px; height:84px;">
-          ${
-            r.thumbnailUrl
-              ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />`
-              : `<span>No<br/>image</span>`
-          }
+          ${r.thumbnailUrl ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />` : `<span>No<br/>image</span>`}
         </div>
         <div style="flex:1; min-width: 240px;">
           <h2 style="margin:0 0 .25rem;">${escapeHtml(r.name)}</h2>
@@ -735,8 +658,10 @@ function wireResortDetailView(resortId) {
 function renderItinsView() {
   const { resorts, trips } = getData();
   const resortById = Object.fromEntries(resorts.map((r) => [r.id, r]));
+
   const q = state.itinSearch.trim().toLowerCase();
 
+  // derive primary location from Day 1
   const normalized = trips
     .map((t) => {
       const d1 = t.dayPlans?.[0] || {};
@@ -748,7 +673,7 @@ function renderItinsView() {
         resort: t.resortId ? resortById[t.resortId] : null,
         primaryCountry: country,
         primaryState: st,
-        primaryCity: city,
+        primaryCity: city
       };
     })
     .filter((t) => {
@@ -759,7 +684,7 @@ function renderItinsView() {
         t.primaryCity,
         t.primaryState,
         t.primaryCountry,
-        ...(t.dayPlans || []).map((d) => d?.text),
+        ...(t.dayPlans || []).map((d) => d?.text)
       ]
         .join(" ")
         .toLowerCase();
@@ -982,7 +907,7 @@ function openResortModal({ mode, resortId = null }) {
       avgLodgingNight: 0,
       cheapestLodgingNight: 0,
       skiInOutNight: 0,
-      areaActivitiesStars: 3,
+      areaActivitiesStars: 3
     };
 
   openModal(`
@@ -1055,7 +980,7 @@ function openResortModal({ mode, resortId = null }) {
       avgLodgingNight: Number(document.getElementById("r-avg").value),
       cheapestLodgingNight: Number(document.getElementById("r-cheap").value),
       skiInOutNight: Number(document.getElementById("r-skiio").value),
-      areaActivitiesStars: Number(document.getElementById("r-astars").value),
+      areaActivitiesStars: Number(document.getElementById("r-astars").value)
     };
 
     const errors = validateResortPayload(payload);
@@ -1098,7 +1023,7 @@ function openItinModal({ mode, itinId = null }) {
       costFlights: 0,
       costLodging: 0,
       costHotelOther: 0,
-      dayPlans: Array.from({ length: 3 }, () => ({ text: "", city: "", state: "", country: "" })),
+      dayPlans: Array.from({ length: 3 }, () => ({ text: "", city: "", state: "", country: "" }))
     };
 
   const daysN = Number(initial.days) || 1;
@@ -1106,7 +1031,7 @@ function openItinModal({ mode, itinId = null }) {
     text: initial.dayPlans?.[i]?.text ?? "",
     city: initial.dayPlans?.[i]?.city ?? "",
     state: initial.dayPlans?.[i]?.state ?? "",
-    country: initial.dayPlans?.[i]?.country ?? "",
+    country: initial.dayPlans?.[i]?.country ?? ""
   }));
 
   openModal(`
@@ -1193,10 +1118,7 @@ function openItinModal({ mode, itinId = null }) {
     const existing = collectDayPlansFromDOM();
     dayContainer.innerHTML = "";
     for (let i = 0; i < target; i++) {
-      dayContainer.insertAdjacentHTML(
-        "beforeend",
-        dayRowHTML(i, existing[i] || { text: "", city: "", state: "", country: "" })
-      );
+      dayContainer.insertAdjacentHTML("beforeend", dayRowHTML(i, existing[i] || { text: "", city: "", state: "", country: "" }));
     }
     wireSameAsPriorHandlers();
   });
@@ -1207,7 +1129,7 @@ function openItinModal({ mode, itinId = null }) {
       text: row.querySelector("[data-field='text']").value,
       city: row.querySelector("[data-field='city']").value,
       state: row.querySelector("[data-field='state']").value,
-      country: row.querySelector("[data-field='country']").value,
+      country: row.querySelector("[data-field='country']").value
     }));
   }
 
@@ -1240,7 +1162,7 @@ function openItinModal({ mode, itinId = null }) {
       text: String(d.text || "").trim(),
       city: d.city ? String(d.city).trim() : null,
       state: d.state ? String(d.state).trim() : null,
-      country: d.country ? String(d.country).trim() : null,
+      country: d.country ? String(d.country).trim() : null
     }));
 
     const payload = {
@@ -1250,7 +1172,7 @@ function openItinModal({ mode, itinId = null }) {
       costFlights: Number(document.getElementById("t-flights").value),
       costLodging: Number(document.getElementById("t-lodging").value),
       costHotelOther: Number(document.getElementById("t-hotel").value),
-      dayPlans: dayPlansOut,
+      dayPlans: dayPlansOut
     };
 
     const errors = validateTripPayload(payload);
@@ -1296,9 +1218,7 @@ function dayRowHTML(i, d) {
       </div>
 
       <label class="field-label">Summary</label>
-      <textarea class="field-input" rows="2" data-field="text" placeholder="Activities / plan...">${escapeHtml(
-        d.text || ""
-      )}</textarea>
+      <textarea class="field-input" rows="2" data-field="text" placeholder="Activities / plan...">${escapeHtml(d.text || "")}</textarea>
 
       <div class="grid-3" style="margin-top:.6rem;">
         <div>
@@ -1335,27 +1255,17 @@ function wireTabs() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // Minimal “is script running?” breadcrumbs:
-  console.log("[PowderFiles] script.js loaded");
-  if (!supabase) {
-    console.error("[PowderFiles] Supabase client not created. Is the supabase-js CDN script loading?");
-    alert("Supabase library failed to load. Check your <script src=...supabase-js...> tag.");
-    return;
-  }
-
-  // Wire UI once
   wireAuthUI();
   wireTabs();
 
-  // Initial state
   await refreshAuthState();
   await refreshPublicData();
+
   setState({ view: "resorts" });
   render();
 
-  // Keep UI in sync if session changes (e.g., after clicking confirm email link)
-  supabase.auth.onAuthStateChange(async (event) => {
-    console.log("[PowderFiles] auth state change:", event);
+  // Keep UI in sync if session changes
+  supabase.auth.onAuthStateChange(async () => {
     await refreshAuthState();
     await refreshPublicData();
     render();
