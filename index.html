@@ -19,55 +19,58 @@
 </head>
 
 <body>
-  <!-- SkiFree-style background layers (purely visual, never intercept clicks) -->
+  <!-- Background layers (do NOT block clicks) -->
   <div class="bg-layer" aria-hidden="true"></div>
   <div class="bg-vignette" aria-hidden="true"></div>
 
   <div class="app-shell">
-    <header class="app-header">
-      <div class="title-block">
-        <h1 class="app-title">The Powder Files</h1>
-        <p class="app-subtitle">Public ski resort + itinerary database. Editors can contribute after approval.</p>
-      </div>
-
-      <div class="header-right">
-        <!-- Auth bar -->
-        <div class="auth-bar">
-          <span id="auth-status" class="small muted"></span>
-
-          <div id="auth-logged-out">
-            <input id="login-email" class="field-input" type="email" placeholder="Email" autocomplete="email" />
-            <input id="login-pass" class="field-input" type="password" placeholder="Password" autocomplete="current-password" />
-            <button id="btn-login" class="btn-secondary" type="button">Log in</button>
-            <button id="btn-show-register" class="btn-ghost" type="button">Register</button>
-          </div>
-
-          <div id="auth-logged-in" class="hidden">
-            <span id="editor-badge" class="small muted"></span>
-            <button id="btn-logout" class="btn-ghost" type="button">Logout</button>
-          </div>
+    <!-- One unified “glass” panel so you don’t get rectangular blocks -->
+    <div class="glass">
+      <header class="app-header">
+        <div class="title-block">
+          <h1 class="app-title">The Powder Files</h1>
+          <p class="app-subtitle">Public ski resort + itinerary database. Editors can contribute after approval.</p>
         </div>
 
-        <!-- Tabs + badge -->
-        <div class="header-actions">
-          <div class="segmented" role="tablist" aria-label="Views">
-            <button id="tab-resorts" class="segmented-btn segmented-btn--active" type="button">Resorts</button>
-            <button id="tab-itins" class="segmented-btn" type="button">Itineraries</button>
+        <div class="header-right">
+          <!-- Auth bar -->
+          <div class="auth-bar">
+            <span id="auth-status" class="small muted"></span>
+
+            <div id="auth-logged-out">
+              <input id="login-email" class="field-input" type="email" placeholder="Email" autocomplete="email" />
+              <input id="login-pass" class="field-input" type="password" placeholder="Password" autocomplete="current-password" />
+              <button id="btn-login" class="btn-secondary" type="button">Log in</button>
+              <button id="btn-show-register" class="btn-ghost" type="button">Register</button>
+            </div>
+
+            <div id="auth-logged-in" class="hidden">
+              <span id="editor-badge" class="small muted"></span>
+              <button id="btn-logout" class="btn-ghost" type="button">Logout</button>
+            </div>
           </div>
-          <span class="app-badge">PWA • Offline</span>
+
+          <!-- Tabs + badge -->
+          <div class="header-actions">
+            <div class="segmented" role="tablist" aria-label="Views">
+              <button id="tab-resorts" class="segmented-btn segmented-btn--active" type="button">Resorts</button>
+              <button id="tab-itins" class="segmented-btn" type="button">Itineraries</button>
+            </div>
+            <span class="app-badge">PWA • Offline</span>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main class="app-main">
-      <div id="view-root"></div>
-    </main>
+      <main class="app-main">
+        <div id="view-root"></div>
+      </main>
 
-    <footer class="app-footer">
-      <p class="disclaimer">
-        Public planning database. Prices are estimates; verify before booking.
-      </p>
-    </footer>
+      <footer class="app-footer">
+        <p class="disclaimer">
+          Public planning database. Prices are estimates; verify before booking.
+        </p>
+      </footer>
+    </div>
   </div>
 
   <div id="modal-backdrop" class="modal-backdrop hidden" aria-hidden="true"></div>
