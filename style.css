@@ -356,6 +356,75 @@ a { color: inherit; }
   }
 }
 
+/* full-page SkiFree background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #000;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./assets/skifree.png") center / cover no-repeat;
+  filter: saturate(0.9) contrast(1.05);
+  opacity: 0.22;              /* adjust to taste */
+  pointer-events: none;       /* IMPORTANT: do not steal clicks */
+  z-index: 0;
+}
+
+/* your app sits above */
+.app-shell {
+  position: relative;
+  z-index: 1;
+}
+
+/* give the app a dark glassy surface */
+.app-header,
+.app-main,
+.app-footer {
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(10px);
+}
+
+/* header layout */
+.app-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* auth bar alignment */
+.auth-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.auth-bar .field-input {
+  width: 240px;
+  max-width: 45vw;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 /* Remove number spinners */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin:0; }
