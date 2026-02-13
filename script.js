@@ -7,27 +7,33 @@ const SUPABASE_URL = "https://zpxvcvspiiueelmstyjb.supabase.co";
 const SUPABASE_ANON_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-// Create client once (avoid duplicate declarations)
-window.__powder_supabase =
-  window.__powder_supabase ||
-  window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-    auth: {
-      persistSession: true,
-      autoRefreshToken: true,
-      detectSessionInUrl: true,
-      flowType: "pkce",
-      storage: window.localStorage
-    }
-  });
-
-const supabase = window.__powder_supabase;
-
 // ===== Offline cache key =====
 const STORAGE_KEY = "powderfiles_public_cache_v1";
 
+// When confirm-email is ON, we may not have a session immediately after signUp.
+// Store the requested username locally and create editor request on first signed-in session.
+const PENDING_EDITOR_USERNAME_KEY = "powderfiles_pending_editor_username_v1";
+
+// ===== Create client once =====
+window.__powder_supabase =
+  window.__powder_supabase ||
+  (window.supabase
+    ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+        auth: {
+          persistSession: true,
+          autoRefreshToken: true,
+          detectSessionInUrl: true,
+          flowType: "pkce",
+          storage: window.localStorage,
+        },
+      })
+    : null);
+
+const supabase = window.__powder_supabase;
+
 // ===== State =====
 const state = {
-  view: "resorts", // resorts | resortDetail | itins
+  view: "resorts", // resorts | itins | resortDetail
   selectedResortId: null,
   resortSearch: "",
   itinSearch: "",
@@ -38,17 +44,14 @@ const state = {
 
   // editor status
   editorStatus: "none", // none | pending | approved | rejected
-  username: null
+  username: null,
 };
 
 function setState(patch) {
   Object.assign(state, patch);
 }
 
-// =========================================================
-// Utilities
-// =========================================================
-
+// ===== Utilities =====
 function escapeHtml(s) {
   return String(s ?? "")
     .replaceAll("&", "&amp;")
@@ -92,10 +95,7 @@ function isEditorApproved() {
   return state.editorStatus === "approved";
 }
 
-// =========================================================
-// Cache (public data)
-// =========================================================
-
+// ===== Cache =====
 function loadCache() {
   const raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) return { resorts: [], trips: [], updatedAt: 0 };
@@ -104,7 +104,7 @@ function loadCache() {
     return {
       resorts: Array.isArray(parsed.resorts) ? parsed.resorts : [],
       trips: Array.isArray(parsed.trips) ? parsed.trips : [],
-      updatedAt: Number(parsed.updatedAt) || 0
+      updatedAt: Number(parsed.updatedAt) || 0,
     };
   } catch {
     return { resorts: [], trips: [], updatedAt: 0 };
@@ -115,29 +115,66 @@ function saveCache(cache) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(cache));
 }
 
-function getData() {
-  return loadCache();
-}
-
 // =========================================================
 // Auth + Editor Requests
 // =========================================================
 
+async function ensurePendingEditorRequestIfNeeded() {
+  // If user just confirmed email and signed in later, create pending editor request now.
+  if (!state.user) return;
+
+  const pendingUsername = localStorage.getItem(PENDING_EDITOR_USERNAME_KEY);
+  if (!pendingUsername) return;
+
+  // If editor_requests row already exists, just clear pending.
+  const { data: existing, error: readErr } = await supabase
+    .from("editor_requests")
+    .select("status, username")
+    .eq("user_id", state.user.id)
+    .maybeSingle();
+
+  if (!readErr && existing) {
+    localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
+    return;
+  }
+
+  const { error: insErr } = await supabase.from("editor_requests").insert({
+    user_id: state.user.id,
+    username: pendingUsername,
+    status: "pending",
+  });
+
+  if (!insErr) {
+    localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
+  } else {
+    // Don't remove pending username if insert failed; try again next session.
+    console.warn("Could not create editor_requests row (will retry):", insErr);
+  }
+}
+
 async function refreshAuthState() {
-  const { data } = await supabase.auth.getSession();
-  const session = data.session ?? null;
+  const { data, error } = await supabase.auth.getSession();
+  if (error) console.warn("getSession error:", error);
+
+  const session = data?.session ?? null;
   const user = session?.user ?? null;
   setState({ session, user });
 
+  // If we have a user session now, try to create pending editor request (for confirm-email flow)
   if (user) {
-    const { data: er, error } = await supabase
+    await ensurePendingEditorRequestIfNeeded();
+  }
+
+  // determine editor status
+  if (user) {
+    const { data: er, error: erErr } = await supabase
       .from("editor_requests")
       .select("status, username")
       .eq("user_id", user.id)
       .maybeSingle();
 
-    if (error) {
-      console.warn("editor_requests read error:", error);
+    if (erErr) {
+      console.warn("editor_requests read error:", erErr);
       setState({ editorStatus: "none", username: null });
     } else if (!er) {
       setState({ editorStatus: "none", username: null });
@@ -182,51 +219,80 @@ function renderAuthBar() {
 }
 
 function wireAuthUI() {
+  const btnLogin = document.getElementById("btn-login");
+  const btnLogout = document.getElementById("btn-logout");
+  const btnShowRegister = document.getElementById("btn-show-register");
+
   // login
-  document.getElementById("btn-login")?.addEventListener("click", async () => {
-    const email = document.getElementById("login-email")?.value?.trim();
-    const pass = document.getElementById("login-pass")?.value ?? "";
-    if (!email || !pass) return alert("Enter email and password.");
+  btnLogin?.addEventListener("click", async () => {
+    try {
+      const email = document.getElementById("login-email")?.value?.trim();
+      const pass = document.getElementById("login-pass")?.value ?? "";
+      if (!email || !pass) return alert("Enter email and password.");
 
-    const { error } = await supabase.auth.signInWithPassword({ email, password: pass });
-    if (error) return alert(error.message);
+      const { error } = await supabase.auth.signInWithPassword({ email, password: pass });
+      if (error) return alert(error.message);
 
-    await refreshAuthState();
-    await refreshPublicData();
-    render();
+      await refreshAuthState();
+      await refreshPublicData();
+      render();
+    } catch (e) {
+      console.error("Login error:", e);
+      alert(e?.message || "Login failed.");
+    }
   });
 
   // logout
-  document.getElementById("btn-logout")?.addEventListener("click", async () => {
-    const { error } = await supabase.auth.signOut();
-    if (error) return alert(error.message);
-    await refreshAuthState();
-    render();
+  btnLogout?.addEventListener("click", async () => {
+    try {
+      const { error } = await supabase.auth.signOut();
+      if (error) return alert(error.message);
+
+      await refreshAuthState();
+      render();
+    } catch (e) {
+      console.error("Logout error:", e);
+      alert(e?.message || "Logout failed.");
+    }
   });
 
-  // register modal
-  document.getElementById("btn-show-register")?.addEventListener("click", () => {
+  // show register
+  btnShowRegister?.addEventListener("click", () => {
     openRegisterModal();
   });
 }
 
 async function registerUser({ email, password, username }) {
+  // Sign up
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
-    options: { emailRedirectTo: window.location.origin }
+    options: {
+      emailRedirectTo: window.location.origin, // keep it simple
+    },
   });
+
   if (error) throw error;
 
-  // Create editor request row immediately if we have user id
-  const newUserId = data.user?.id;
-  if (newUserId) {
+  // If confirm-email is ON, session may be null. We cannot reliably insert editor_requests yet.
+  // Store username locally and create request after the user signs in.
+  localStorage.setItem(PENDING_EDITOR_USERNAME_KEY, username);
+
+  // If Supabase returns a session (confirm-email OFF), create request now.
+  const signedInUserId = data?.user?.id;
+  const hasSessionNow = !!data?.session;
+
+  if (hasSessionNow && signedInUserId) {
     const { error: insErr } = await supabase.from("editor_requests").insert({
-      user_id: newUserId,
+      user_id: signedInUserId,
       username,
-      status: "pending"
+      status: "pending",
     });
-    if (insErr) throw insErr;
+    if (!insErr) {
+      localStorage.removeItem(PENDING_EDITOR_USERNAME_KEY);
+    } else {
+      console.warn("editor_requests insert failed (will retry later):", insErr);
+    }
   }
 
   return data;
@@ -235,9 +301,7 @@ async function registerUser({ email, password, username }) {
 function openRegisterModal() {
   openModal(`
     <h2>Register</h2>
-    <p class="small muted">
-      Create an account. To become an editor, your request must be approved by the site owner.
-    </p>
+    <p class="small muted">Create an account. To become an editor, your request must be approved by the site owner.</p>
 
     <form id="register-form" class="form-grid">
       <div class="grid-2">
@@ -293,8 +357,10 @@ function openRegisterModal() {
     try {
       await registerUser({ email, password: pass, username });
       closeModal();
+
+      // With confirm-email enabled, user must confirm before login works.
       alert(
-        "Account created. If email confirmation is enabled, confirm your email then log in. Your editor request is pending approval."
+        "Account created. Please check your email to confirm your address, then come back and log in. Your editor request will be marked as pending approval."
       );
     } catch (err) {
       console.error(err);
@@ -304,7 +370,7 @@ function openRegisterModal() {
 }
 
 // =========================================================
-// Public Data Fetch (anon allowed)
+// Public Data: fetch into cache (works for anon if RLS allows select)
 // =========================================================
 
 async function fetchResorts() {
@@ -335,20 +401,11 @@ function mapResortRowToUI(r) {
     areaActivitiesStars: r.area_activities_stars ?? 3,
     thumbnailUrl: r.thumbnail_url ?? "",
     createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
-    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
+    updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now(),
   };
 }
 
 function mapTripRowToUI(t) {
-  // day_plans is jsonb array of objects
-  const raw = Array.isArray(t.day_plans) ? t.day_plans : [];
-  const dayPlans = raw.map((d) => ({
-    text: String(d?.text ?? ""),
-    city: d?.city ?? null,
-    state: d?.state ?? null,
-    country: d?.country ?? null
-  }));
-
   return {
     id: t.id,
     resortId: t.resort_id,
@@ -357,9 +414,9 @@ function mapTripRowToUI(t) {
     costFlights: t.cost_flights ?? 0,
     costLodging: t.cost_lodging ?? 0,
     costHotelOther: t.cost_hotel_other ?? 0,
-    dayPlans,
+    dayPlans: Array.isArray(t.day_plans) ? t.day_plans : [],
     createdAt: t.created_at ? Date.parse(t.created_at) : Date.now(),
-    updatedAt: t.updated_at ? Date.parse(t.updated_at) : Date.now()
+    updatedAt: t.updated_at ? Date.parse(t.updated_at) : Date.now(),
   };
 }
 
@@ -369,7 +426,7 @@ async function refreshPublicData() {
     const cache = {
       resorts: resorts.map(mapResortRowToUI),
       trips: trips.map(mapTripRowToUI),
-      updatedAt: Date.now()
+      updatedAt: Date.now(),
     };
     saveCache(cache);
   } catch (e) {
@@ -378,7 +435,7 @@ async function refreshPublicData() {
 }
 
 // =========================================================
-// Editor CRUD helpers
+// CRUD (Editors only)
 // =========================================================
 
 function validateResortPayload(p) {
@@ -406,7 +463,7 @@ function resortInsertRow(p) {
     cheapest_lodging_night: Number(p.cheapestLodgingNight) || 0,
     ski_in_out_night: Number(p.skiInOutNight) || 0,
     area_activities_stars: Number(p.areaActivitiesStars) || 3,
-    created_by: state.user?.id
+    created_by: state.user?.id,
   };
 }
 
@@ -423,7 +480,7 @@ function resortUpdateRow(p) {
     avg_lodging_night: Number(p.avgLodgingNight) || 0,
     cheapest_lodging_night: Number(p.cheapestLodgingNight) || 0,
     ski_in_out_night: Number(p.skiInOutNight) || 0,
-    area_activities_stars: Number(p.areaActivitiesStars) || 3
+    area_activities_stars: Number(p.areaActivitiesStars) || 3,
   };
 }
 
@@ -434,16 +491,6 @@ function validateTripPayload(p) {
   const score = Number(p.compositeScore);
   if (!Number.isFinite(score) || score < 0 || score > 100) errors.push("Score must be 0–100.");
   if (!Array.isArray(p.dayPlans) || p.dayPlans.length !== days) errors.push("Day plans must match duration.");
-
-  // Require text for each day
-  if (Array.isArray(p.dayPlans)) {
-    for (let i = 0; i < p.dayPlans.length; i++) {
-      if (!String(p.dayPlans[i]?.text ?? "").trim()) {
-        errors.push(`Day ${i + 1} summary is required.`);
-        break;
-      }
-    }
-  }
   return errors;
 }
 
@@ -452,7 +499,7 @@ function normalizeDayPlan(d) {
     text: String(d?.text ?? "").trim(),
     city: d?.city ? String(d.city).trim() : null,
     state: d?.state ? String(d.state).trim() : null,
-    country: d?.country ? String(d.country).trim() : null
+    country: d?.country ? String(d.country).trim() : null,
   };
 }
 
@@ -465,7 +512,7 @@ function tripInsertRow(p) {
     cost_lodging: Number(p.costLodging) || 0,
     cost_hotel_other: Number(p.costHotelOther) || 0,
     day_plans: (p.dayPlans || []).map(normalizeDayPlan),
-    created_by: state.user?.id
+    created_by: state.user?.id,
   };
 }
 
@@ -477,31 +524,18 @@ function tripUpdateRow(p) {
     cost_flights: Number(p.costFlights) || 0,
     cost_lodging: Number(p.costLodging) || 0,
     cost_hotel_other: Number(p.costHotelOther) || 0,
-    day_plans: (p.dayPlans || []).map(normalizeDayPlan)
+    day_plans: (p.dayPlans || []).map(normalizeDayPlan),
   };
 }
 
 // =========================================================
-// Tabs + Render
+// Views
 // =========================================================
 
-function wireTabs() {
-  document.getElementById("tab-resorts")?.addEventListener("click", () => {
-    setState({ view: "resorts", selectedResortId: null });
-    render();
-  });
-
-  document.getElementById("tab-itins")?.addEventListener("click", () => {
-    setState({ view: "itins", selectedResortId: null });
-    render();
-  });
-}
-
 function setActiveTab() {
-  document.getElementById("tab-resorts")?.classList.toggle(
-    "segmented-btn--active",
-    state.view === "resorts" || state.view === "resortDetail"
-  );
+  document
+    .getElementById("tab-resorts")
+    ?.classList.toggle("segmented-btn--active", state.view === "resorts" || state.view === "resortDetail");
   document.getElementById("tab-itins")?.classList.toggle("segmented-btn--active", state.view === "itins");
 }
 
@@ -529,10 +563,13 @@ function render() {
   }
 }
 
-// =========================================================
-// Resorts List View
-// =========================================================
+function getData() {
+  return loadCache();
+}
 
+// -------------------------
+// Resorts List
+// -------------------------
 function renderResortsView() {
   const { resorts } = getData();
   const q = state.resortSearch.trim().toLowerCase();
@@ -561,7 +598,11 @@ function renderResortsView() {
       </div>
 
       <div class="list-grid">
-        ${filtered.length ? filtered.map(resortButtonHTML).join("") : `<p class="muted">No resorts found.</p>`}
+        ${
+          filtered.length
+            ? filtered.map(resortButtonHTML).join("")
+            : `<p class="muted">No resorts found.</p>`
+        }
       </div>
     </section>
   `;
@@ -602,21 +643,14 @@ function wireResortsView() {
   });
 }
 
-// =========================================================
-// Resort Detail (no itineraries here)
-// =========================================================
-
+// -------------------------
+// Resort detail (NO itineraries here now)
+// -------------------------
 function renderResortDetailView(resortId) {
   const { resorts } = getData();
   const r = resorts.find((x) => x.id === resortId);
-
   if (!r) {
-    return `
-      <section class="card">
-        <p class="muted">Resort not found.</p>
-        <button id="btn-back" class="btn-secondary" type="button">Back</button>
-      </section>
-    `;
+    return `<section class="card"><p class="muted">Resort not found.</p><button id="btn-back" class="btn-secondary" type="button">Back</button></section>`;
   }
 
   const editorActions = isEditorApproved()
@@ -637,7 +671,11 @@ function renderResortDetailView(resortId) {
 
       <div style="display:flex; gap:1rem; align-items:center; flex-wrap: wrap;">
         <div class="thumb" style="width:84px; height:84px;">
-          ${r.thumbnailUrl ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />` : `<span>No<br/>image</span>`}
+          ${
+            r.thumbnailUrl
+              ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />`
+              : `<span>No<br/>image</span>`
+          }
         </div>
         <div style="flex:1; min-width: 240px;">
           <h2 style="margin:0 0 .25rem;">${escapeHtml(r.name)}</h2>
@@ -665,7 +703,7 @@ function renderResortDetailView(resortId) {
 
       <div class="hr"></div>
       <p class="small muted">
-        Itineraries are listed under the <strong>Itineraries</strong> tab.
+        Itineraries are now listed under the <strong>Itineraries</strong> tab.
       </p>
     </section>
   `;
@@ -677,26 +715,23 @@ function wireResortDetailView(resortId) {
     render();
   });
 
-  document.getElementById("btn-edit-resort")?.addEventListener("click", () => {
-    openResortModal({ mode: "edit", resortId });
-  });
+  document.getElementById("btn-edit-resort")?.addEventListener("click", () =>
+    openResortModal({ mode: "edit", resortId })
+  );
 
   document.getElementById("btn-delete-resort")?.addEventListener("click", async () => {
     if (!confirm("Delete this resort? (Trips referencing it remain unless you delete them too.)")) return;
-
     const { error } = await supabase.from("resorts").delete().eq("id", resortId);
     if (error) return alert(error.message);
-
     await refreshPublicData();
     setState({ view: "resorts", selectedResortId: null });
     render();
   });
 }
 
-// =========================================================
-// Itineraries View (grouped by duration -> location from Day 1)
-// =========================================================
-
+// -------------------------
+// Itineraries View (organized)
+// -------------------------
 function renderItinsView() {
   const { resorts, trips } = getData();
   const resortById = Object.fromEntries(resorts.map((r) => [r.id, r]));
@@ -713,7 +748,7 @@ function renderItinsView() {
         resort: t.resortId ? resortById[t.resortId] : null,
         primaryCountry: country,
         primaryState: st,
-        primaryCity: city
+        primaryCity: city,
       };
     })
     .filter((t) => {
@@ -724,7 +759,7 @@ function renderItinsView() {
         t.primaryCity,
         t.primaryState,
         t.primaryCountry,
-        ...(t.dayPlans || []).map((d) => d?.text)
+        ...(t.dayPlans || []).map((d) => d?.text),
       ]
         .join(" ")
         .toLowerCase();
@@ -768,20 +803,18 @@ function renderItinGroups(groups) {
 
   let html = "";
   for (const dur of durs) {
-    html += `
-      <div class="accordion">
-        <button class="accordion-header" type="button" data-acc-dur="${dur}">
-          <div>
-            <div class="accordion-title">${dur}-Day Itineraries</div>
-            <div class="accordion-sub">Grouped by Country → State → City (Day 1 location)</div>
-          </div>
-          <div class="pill-score">▼</div>
-        </button>
-        <div class="accordion-body hidden" data-acc-body="${dur}">
-          ${renderLocationTree(groups[dur])}
+    html += `<div class="accordion">
+      <button class="accordion-header" type="button" data-acc-dur="${dur}">
+        <div>
+          <div class="accordion-title">${dur}-Day Itineraries</div>
+          <div class="accordion-sub">Grouped by Country → State → City (Day 1 location)</div>
         </div>
+        <div class="pill-score">▼</div>
+      </button>
+      <div class="accordion-body hidden" data-acc-body="${dur}">
+        ${renderLocationTree(groups[dur])}
       </div>
-    `;
+    </div>`;
   }
   return html;
 }
@@ -789,35 +822,29 @@ function renderItinGroups(groups) {
 function renderLocationTree(countryObj) {
   let out = "";
   const countries = Object.keys(countryObj).sort();
-
   for (const c of countries) {
     out += `<h3 style="margin:1rem 0 .25rem;">${escapeHtml(c)}</h3>`;
     const states = countryObj[c];
     const stKeys = Object.keys(states).sort();
-
     for (const s of stKeys) {
       out += `<h4 style="margin:.5rem 0 .25rem;" class="muted">${escapeHtml(s)}</h4>`;
       const cities = states[s];
       const cityKeys = Object.keys(cities).sort();
-
       for (const city of cityKeys) {
-        out += `
-          <div class="trip-card" style="margin:.5rem 0;">
-            <div class="trip-top">
-              <div>
-                <strong>${escapeHtml(city)}</strong>
-                <div class="small muted">${escapeHtml(s)}, ${escapeHtml(c)}</div>
-              </div>
-            </div>
-            <div class="form-grid">
-              ${cities[city]
-                .slice()
-                .sort((a, b) => (b.compositeScore || 0) - (a.compositeScore || 0))
-                .map(itinCardHTML)
-                .join("")}
+        out += `<div class="trip-card" style="margin:.5rem 0;">
+          <div class="trip-top">
+            <div>
+              <strong>${escapeHtml(city)}</strong>
+              <div class="small muted">${escapeHtml(s)}, ${escapeHtml(c)}</div>
             </div>
           </div>
-        `;
+          <div class="form-grid">
+            ${cities[city]
+              .sort((a, b) => (b.compositeScore || 0) - (a.compositeScore || 0))
+              .map(itinCardHTML)
+              .join("")}
+          </div>
+        </div>`;
       }
     }
   }
@@ -829,12 +856,10 @@ function itinCardHTML(t) {
   const resortLine = t.resort ? `${t.resort.name} • ${t.resort.location}` : "No resort linked";
 
   const editorBtns = isEditorApproved()
-    ? `
-      <div class="btn-row">
+    ? `<div class="btn-row">
         <button class="btn-ghost" type="button" data-itin-edit="${t.id}">Edit</button>
         <button class="btn-danger" type="button" data-itin-del="${t.id}">Delete</button>
-      </div>
-    `
+      </div>`
     : "";
 
   return `
@@ -858,12 +883,9 @@ function itinCardHTML(t) {
         ${(t.dayPlans || [])
           .map((d, i) => {
             const loc = [d?.city, d?.state, d?.country].filter(Boolean).join(", ");
-            return `
-              <li>
-                <strong>Day ${i + 1}:</strong> ${escapeHtml(d?.text || "")}
-                ${loc ? `<div class="small muted">${escapeHtml(loc)}</div>` : ``}
-              </li>
-            `;
+            return `<li><strong>Day ${i + 1}:</strong> ${escapeHtml(d?.text || "")}
+              ${loc ? `<div class="small muted">${escapeHtml(loc)}</div>` : ``}
+            </li>`;
           })
           .join("")}
       </ol>
@@ -877,6 +899,7 @@ function wireItinsView() {
     render();
   });
 
+  // duration accordions
   document.querySelectorAll("[data-acc-dur]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const dur = btn.getAttribute("data-acc-dur");
@@ -889,19 +912,17 @@ function wireItinsView() {
   });
 
   document.querySelectorAll("[data-itin-edit]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      openItinModal({ mode: "edit", itinId: btn.getAttribute("data-itin-edit") });
-    });
+    btn.addEventListener("click", () =>
+      openItinModal({ mode: "edit", itinId: btn.getAttribute("data-itin-edit") })
+    );
   });
 
   document.querySelectorAll("[data-itin-del]").forEach((btn) => {
     btn.addEventListener("click", async () => {
       const id = btn.getAttribute("data-itin-del");
       if (!confirm("Delete this itinerary?")) return;
-
       const { error } = await supabase.from("trips").delete().eq("id", id);
       if (error) return alert(error.message);
-
       await refreshPublicData();
       render();
     });
@@ -914,8 +935,6 @@ function wireItinsView() {
 
 function openModal(innerHTML) {
   const backdrop = document.getElementById("modal-backdrop");
-  if (!backdrop) return;
-
   backdrop.innerHTML = `<div class="modal" role="dialog" aria-modal="true">${innerHTML}</div>`;
   backdrop.classList.remove("hidden");
   backdrop.setAttribute("aria-hidden", "false");
@@ -939,36 +958,32 @@ function openModal(innerHTML) {
 
 function closeModal() {
   const backdrop = document.getElementById("modal-backdrop");
-  if (!backdrop) return;
   backdrop.classList.add("hidden");
   backdrop.setAttribute("aria-hidden", "true");
   backdrop.innerHTML = "";
 }
 
-// =========================================================
-// Resort Modal
-// =========================================================
-
+// Resort modal
 function openResortModal({ mode, resortId = null }) {
   if (!isEditorApproved()) return alert("Editor approval required.");
-
   const { resorts } = getData();
   const r = mode === "edit" ? resorts.find((x) => x.id === resortId) : null;
 
-  const initial = r || {
-    name: "",
-    location: "",
-    thumbnailUrl: "",
-    milesFromRochester: 0,
-    verticalFeet: 0,
-    trailCount: 0,
-    mountainStars: 3,
-    typicalFlightCost: 0,
-    avgLodgingNight: 0,
-    cheapestLodgingNight: 0,
-    skiInOutNight: 0,
-    areaActivitiesStars: 3
-  };
+  const initial =
+    r || {
+      name: "",
+      location: "",
+      thumbnailUrl: "",
+      milesFromRochester: 0,
+      verticalFeet: 0,
+      trailCount: 0,
+      mountainStars: 3,
+      typicalFlightCost: 0,
+      avgLodgingNight: 0,
+      cheapestLodgingNight: 0,
+      skiInOutNight: 0,
+      areaActivitiesStars: 3,
+    };
 
   openModal(`
     <h2>${mode === "edit" ? "Edit Resort" : "Add Resort"}</h2>
@@ -1040,7 +1055,7 @@ function openResortModal({ mode, resortId = null }) {
       avgLodgingNight: Number(document.getElementById("r-avg").value),
       cheapestLodgingNight: Number(document.getElementById("r-cheap").value),
       skiInOutNight: Number(document.getElementById("r-skiio").value),
-      areaActivitiesStars: Number(document.getElementById("r-astars").value)
+      areaActivitiesStars: Number(document.getElementById("r-astars").value),
     };
 
     const errors = validateResortPayload(payload);
@@ -1068,32 +1083,30 @@ function openResortModal({ mode, resortId = null }) {
   });
 }
 
-// =========================================================
-// Itinerary Modal
-// =========================================================
-
+// Itinerary modal
 function openItinModal({ mode, itinId = null }) {
   if (!isEditorApproved()) return alert("Editor approval required.");
 
   const { resorts, trips } = getData();
   const t = mode === "edit" ? trips.find((x) => x.id === itinId) : null;
 
-  const initial = t || {
-    resortId: "",
-    days: 3,
-    compositeScore: 75,
-    costFlights: 0,
-    costLodging: 0,
-    costHotelOther: 0,
-    dayPlans: Array.from({ length: 3 }, () => ({ text: "", city: "", state: "", country: "" }))
-  };
+  const initial =
+    t || {
+      resortId: "",
+      days: 3,
+      compositeScore: 75,
+      costFlights: 0,
+      costLodging: 0,
+      costHotelOther: 0,
+      dayPlans: Array.from({ length: 3 }, () => ({ text: "", city: "", state: "", country: "" })),
+    };
 
   const daysN = Number(initial.days) || 1;
   const dayPlans = Array.from({ length: daysN }, (_, i) => ({
     text: initial.dayPlans?.[i]?.text ?? "",
     city: initial.dayPlans?.[i]?.city ?? "",
     state: initial.dayPlans?.[i]?.state ?? "",
-    country: initial.dayPlans?.[i]?.country ?? ""
+    country: initial.dayPlans?.[i]?.country ?? "",
   }));
 
   openModal(`
@@ -1160,36 +1173,6 @@ function openItinModal({ mode, itinId = null }) {
     daysEl.value = String(count);
   }
 
-  function collectDayPlansFromDOM() {
-    const rows = Array.from(dayContainer.querySelectorAll("[data-day-row]"));
-    return rows.map((row) => ({
-      text: row.querySelector("[data-field='text']").value,
-      city: row.querySelector("[data-field='city']").value,
-      state: row.querySelector("[data-field='state']").value,
-      country: row.querySelector("[data-field='country']").value
-    }));
-  }
-
-  function wireSameAsPriorHandlers() {
-    dayContainer.querySelectorAll("[data-same-as-prior]").forEach((cb) => {
-      cb.addEventListener("change", () => {
-        const idx = Number(cb.getAttribute("data-same-as-prior"));
-        if (idx <= 0) return;
-
-        const rows = Array.from(dayContainer.querySelectorAll("[data-day-row]"));
-        const prev = rows[idx - 1];
-        const cur = rows[idx];
-        if (!prev || !cur) return;
-
-        if (cb.checked) {
-          cur.querySelector("[data-field='city']").value = prev.querySelector("[data-field='city']").value;
-          cur.querySelector("[data-field='state']").value = prev.querySelector("[data-field='state']").value;
-          cur.querySelector("[data-field='country']").value = prev.querySelector("[data-field='country']").value;
-        }
-      });
-    });
-  }
-
   document.getElementById("btn-add-day")?.addEventListener("click", () => {
     const count = dayContainer.querySelectorAll("[data-day-row]").length;
     dayContainer.insertAdjacentHTML("beforeend", dayRowHTML(count, { text: "", city: "", state: "", country: "" }));
@@ -1207,7 +1190,6 @@ function openItinModal({ mode, itinId = null }) {
   daysEl?.addEventListener("change", () => {
     const target = clamp(Number(daysEl.value), 1, 30);
     daysEl.value = String(target);
-
     const existing = collectDayPlansFromDOM();
     dayContainer.innerHTML = "";
     for (let i = 0; i < target; i++) {
@@ -1219,6 +1201,34 @@ function openItinModal({ mode, itinId = null }) {
     wireSameAsPriorHandlers();
   });
 
+  function collectDayPlansFromDOM() {
+    const rows = Array.from(dayContainer.querySelectorAll("[data-day-row]"));
+    return rows.map((row) => ({
+      text: row.querySelector("[data-field='text']").value,
+      city: row.querySelector("[data-field='city']").value,
+      state: row.querySelector("[data-field='state']").value,
+      country: row.querySelector("[data-field='country']").value,
+    }));
+  }
+
+  function wireSameAsPriorHandlers() {
+    dayContainer.querySelectorAll("[data-same-as-prior]").forEach((cb) => {
+      cb.addEventListener("change", () => {
+        const idx = Number(cb.getAttribute("data-same-as-prior"));
+        if (idx <= 0) return;
+        const rows = Array.from(dayContainer.querySelectorAll("[data-day-row]"));
+        const prev = rows[idx - 1];
+        const cur = rows[idx];
+        if (!prev || !cur) return;
+
+        if (cb.checked) {
+          cur.querySelector("[data-field='city']").value = prev.querySelector("[data-field='city']").value;
+          cur.querySelector("[data-field='state']").value = prev.querySelector("[data-field='state']").value;
+          cur.querySelector("[data-field='country']").value = prev.querySelector("[data-field='country']").value;
+        }
+      });
+    });
+  }
   wireSameAsPriorHandlers();
 
   document.getElementById("itin-form")?.addEventListener("submit", async (e) => {
@@ -1230,7 +1240,7 @@ function openItinModal({ mode, itinId = null }) {
       text: String(d.text || "").trim(),
       city: d.city ? String(d.city).trim() : null,
       state: d.state ? String(d.state).trim() : null,
-      country: d.country ? String(d.country).trim() : null
+      country: d.country ? String(d.country).trim() : null,
     }));
 
     const payload = {
@@ -1240,7 +1250,7 @@ function openItinModal({ mode, itinId = null }) {
       costFlights: Number(document.getElementById("t-flights").value),
       costLodging: Number(document.getElementById("t-lodging").value),
       costHotelOther: Number(document.getElementById("t-hotel").value),
-      dayPlans: dayPlansOut
+      dayPlans: dayPlansOut,
     };
 
     const errors = validateTripPayload(payload);
@@ -1277,9 +1287,9 @@ function dayRowHTML(i, d) {
           ${
             i > 0
               ? `<label class="small muted" style="display:flex; gap:.35rem; align-items:center;">
-                  <input type="checkbox" data-same-as-prior="${i}" />
-                  Same as prior day
-                </label>`
+            <input type="checkbox" data-same-as-prior="${i}" />
+            Same as prior day
+          </label>`
               : ``
           }
         </div>
@@ -1309,28 +1319,45 @@ function dayRowHTML(i, d) {
 }
 
 // =========================================================
-// App init (ONE entry point)
+// App init + tabs
 // =========================================================
 
-document.addEventListener("DOMContentLoaded", async () => {
-  try {
-    wireAuthUI();
-    wireTabs();
-
-    await refreshAuthState();
-    await refreshPublicData();
-
+function wireTabs() {
+  document.getElementById("tab-resorts")?.addEventListener("click", () => {
     setState({ view: "resorts", selectedResortId: null });
     render();
+  });
 
-    // Keep UI in sync if session changes
-    supabase.auth.onAuthStateChange(async () => {
-      await refreshAuthState();
-      await refreshPublicData();
-      render();
-    });
-  } catch (e) {
-    console.error("App init failed:", e);
-    alert("App failed to initialize. Open DevTools Console for details.");
+  document.getElementById("tab-itins")?.addEventListener("click", () => {
+    setState({ view: "itins", selectedResortId: null });
+    render();
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  // Minimal “is script running?” breadcrumbs:
+  console.log("[PowderFiles] script.js loaded");
+  if (!supabase) {
+    console.error("[PowderFiles] Supabase client not created. Is the supabase-js CDN script loading?");
+    alert("Supabase library failed to load. Check your <script src=...supabase-js...> tag.");
+    return;
   }
+
+  // Wire UI once
+  wireAuthUI();
+  wireTabs();
+
+  // Initial state
+  await refreshAuthState();
+  await refreshPublicData();
+  setState({ view: "resorts" });
+  render();
+
+  // Keep UI in sync if session changes (e.g., after clicking confirm email link)
+  supabase.auth.onAuthStateChange(async (event) => {
+    console.log("[PowderFiles] auth state change:", event);
+    await refreshAuthState();
+    await refreshPublicData();
+    render();
+  });
 });
