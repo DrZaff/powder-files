@@ -1,13 +1,24 @@
 // =========================================================
 // The Powder Files — Public site + approved editors
 // (UI unchanged; fixes auth wiring + prevents double-load crash)
-// Adds: working Add Resort + file uploads (thumbnail + trail map)
+// Adds: working Add/Edit/Delete Resort + file uploads (thumbnail + trail map)
+// Updates requested:
+// - Rename Itineraries -> Trips (JS changes button label)
+// - Resort editor: remove Typical flight cost field
+// - Mountain stars -> Resort Quality (stars)
+// - Add Resort Value (stars)  [stored in typical_flight_cost to avoid DB change]
+// - Area activities -> Things To Do in the Region (stars)
+// - Lodging fields displayed as $/night
+// - Resorts list: edit + delete options
+// NEW (this change):
+// - Add additional scale-based metrics on the resort file:
+//   Mountain Difficulty, Mountain Maintenance, Lodge Quality,
+//   Trail Variety, Trail Length, Glades Quality, Terrain Park Quality
+//   (stored in resorts table as int columns 0-5)
 // =========================================================
 
 // ---------------------------------------------------------
 // HARD GUARD: prevent "Identifier 'supabase' has already been declared"
-// If script.js is loaded twice (service worker, cache-busting, etc.),
-// we skip re-defining everything.
 // ---------------------------------------------------------
 if (window.__powderfiles_script_loaded) {
   console.warn(
@@ -16,10 +27,8 @@ if (window.__powderfiles_script_loaded) {
 } else {
   window.__powderfiles_script_loaded = true;
 
-  // Helpful: confirms JS is actually running
   console.log("[PowderFiles] script.js loaded");
 
-  // Global error visibility (so you always see something in console)
   window.addEventListener("error", (e) => {
     console.error("[PowderFiles] window error:", e?.error || e?.message || e);
   });
@@ -33,7 +42,6 @@ if (window.__powderfiles_script_loaded) {
   const SUPABASE_ANON_KEY =
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpweHZjdnNwaWl1ZWVsbXN0eWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk3MjA2ODIsImV4cCI6MjA4NTI5NjY4Mn0.pfpPInX45JLrZmqpXi1p4zIUoAn49oeg74KugseHIDU";
 
-  // Create client once (avoid duplicate declarations / double init)
   window.__powder_supabase =
     window.__powder_supabase ||
     window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
@@ -46,14 +54,12 @@ if (window.__powderfiles_script_loaded) {
       }
     });
 
-  // IMPORTANT: use a function-scoped alias; never redeclare on double-load
   const supabase = window.__powder_supabase;
 
   // ===== Offline cache key (public data) =====
   const STORAGE_KEY = "powderfiles_public_cache_v1";
 
   // ===== Storage bucket for resort assets =====
-  // IMPORTANT: create this bucket in Supabase Storage (or rename here to match yours).
   const RESORT_BUCKET = "resort-assets";
 
   // ===== State =====
@@ -63,16 +69,13 @@ if (window.__powderfiles_script_loaded) {
     resortSearch: "",
     itinSearch: "",
 
-    // auth
     user: null,
     session: null,
 
-    // editor status
     editorStatus: "none", // none | pending | approved | rejected
     username: null,
 
-    // groups
-    groupId: null, // required to insert resorts
+    groupId: null,
     groupRole: null
   };
 
@@ -108,8 +111,9 @@ if (window.__powderfiles_script_loaded) {
   function stars(n) {
     const x = Number(n);
     if (!Number.isFinite(x)) return "—";
-    const full = "★".repeat(clamp(Math.round(x), 0, 5));
-    const empty = "☆".repeat(5 - clamp(Math.round(x), 0, 5));
+    const v = clamp(Math.round(x), 0, 5);
+    const full = "★".repeat(v);
+    const empty = "☆".repeat(5 - v);
     return `${full}${empty}`;
   }
 
@@ -125,7 +129,6 @@ if (window.__powderfiles_script_loaded) {
   }
 
   function nowIsoSafe() {
-    // filesystem-safe timestamp
     return new Date().toISOString().replaceAll(":", "-");
   }
 
@@ -169,8 +172,6 @@ if (window.__powderfiles_script_loaded) {
       return;
     }
 
-    // Your table has: group_id, user_id, role
-    // We pick the first membership, prefer owner/editor if multiples.
     try {
       const { data, error } = await supabase
         .from("group_members")
@@ -189,7 +190,8 @@ if (window.__powderfiles_script_loaded) {
         return;
       }
 
-      const preferred = rows.find((r) => ["owner", "editor"].includes(String(r.role || "").toLowerCase())) || rows[0];
+      const preferred =
+        rows.find((r) => ["owner", "editor"].includes(String(r.role || "").toLowerCase())) || rows[0];
 
       setState({
         groupId: preferred.group_id || null,
@@ -211,7 +213,6 @@ if (window.__powderfiles_script_loaded) {
     setState({ session, user });
 
     if (user) {
-      // NOTE: requires RLS policy that allows users to SELECT their own row
       const { data: er, error } = await supabase
         .from("editor_requests")
         .select("status, username")
@@ -311,17 +312,12 @@ if (window.__powderfiles_script_loaded) {
     });
   }
 
-  /**
-   * IMPORTANT CHANGE (RLS-safe):
-   * Do NOT insert into editor_requests from the browser.
-   * Store username in user_metadata and let a DB trigger create editor_requests row.
-   */
   async function registerUser({ email, password, username }) {
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: {
-        data: { username }, // trigger can read this
+        data: { username },
         emailRedirectTo: window.location.origin
       }
     });
@@ -415,15 +411,12 @@ if (window.__powderfiles_script_loaded) {
 
   function storagePublicUrl(path) {
     if (!path) return "";
-    // If your bucket is PRIVATE, this won't work; you’ll need signed URLs instead.
     const { data } = supabase.storage.from(RESORT_BUCKET).getPublicUrl(path);
     return data?.publicUrl || "";
   }
 
   function mapResortRowToUI(r) {
-    // Prefer uploaded path; fall back to legacy URL fields if present
-    const thumbUrl =
-      r.thumbnail_path ? storagePublicUrl(r.thumbnail_path) : (r.thumbnail_url ?? "");
+    const thumbUrl = r.thumbnail_path ? storagePublicUrl(r.thumbnail_path) : (r.thumbnail_url ?? "");
 
     return {
       id: r.id,
@@ -432,17 +425,34 @@ if (window.__powderfiles_script_loaded) {
       milesFromRochester: r.miles_from_rochester ?? 0,
       verticalFeet: r.vertical_feet ?? 0,
       trailCount: r.trail_count ?? 0,
-      mountainStars: r.mountain_stars ?? 3,
-      typicalFlightCost: r.typical_flight_cost ?? 0,
+
+      // semantics:
+      resortQuality: r.mountain_stars ?? 3,
+      resortValue: r.typical_flight_cost ?? 3, // reused column
+      thingsToDo: r.area_activities_stars ?? 3,
+
+      // NEW metrics (expected int 0–5)
+      mountainDifficulty: r.mountain_difficulty ?? 3,
+      mountainMaintenance: r.mountain_maintenance ?? 3,
+      lodgeQuality: r.lodge_quality ?? 3,
+      trailVariety: r.trail_variety ?? 3,
+      trailLength: r.trail_length ?? 3,
+      gladesQuality: r.glades_quality ?? 3,
+      terrainParkQuality: r.terrain_park_quality ?? 3,
+
       avgLodgingNight: r.avg_lodging_night ?? 0,
       cheapestLodgingNight: r.cheapest_lodging_night ?? 0,
       skiInOutNight: r.ski_in_out_night ?? 0,
-      areaActivitiesStars: r.area_activities_stars ?? 3,
+
       thumbnailUrl: thumbUrl,
       thumbnailPath: r.thumbnail_path ?? "",
       trailMapUrl: r.trail_map_url ?? "",
+
       createdAt: r.created_at ? Date.parse(r.created_at) : Date.now(),
-      updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now()
+      updatedAt: r.updated_at ? Date.parse(r.updated_at) : Date.now(),
+
+      createdBy: r.created_by ?? null,
+      groupId: r.group_id ?? null
     };
   }
 
@@ -476,11 +486,10 @@ if (window.__powderfiles_script_loaded) {
   }
 
   // =========================================================
-  // Resort Create (uploads + insert)
+  // Storage upload helpers
   // =========================================================
   async function uploadResortFile({ file, kind }) {
     if (!file) return { path: "", publicUrl: "" };
-
     if (!state.user) throw new Error("You must be logged in.");
     if (!state.groupId) throw new Error("No group membership found for your user. (group_id is required)");
 
@@ -505,12 +514,14 @@ if (window.__powderfiles_script_loaded) {
     return { path, publicUrl };
   }
 
+  // =========================================================
+  // Resort Create / Update / Delete
+  // =========================================================
   async function createResort(payload) {
     if (!state.user) throw new Error("You must be logged in.");
     if (!state.groupId) throw new Error("No group membership found for your user. (group_id is required)");
     if (!isEditorApproved()) throw new Error("You must be an approved editor to add resorts.");
 
-    // Your resorts table has NOT NULL: group_id, created_by, name, location, etc.
     const row = {
       group_id: state.groupId,
       created_by: state.user.id,
@@ -521,25 +532,129 @@ if (window.__powderfiles_script_loaded) {
       miles_from_rochester: payload.milesFromRochester,
       vertical_feet: payload.verticalFeet,
       trail_count: payload.trailCount,
-      mountain_stars: payload.mountainStars,
 
-      typical_flight_cost: payload.typicalFlightCost,
+      mountain_stars: payload.resortQuality,
+      typical_flight_cost: payload.resortValue, // reused column
+      area_activities_stars: payload.thingsToDo,
+
+      // NEW metrics (int 0–5)
+      mountain_difficulty: payload.mountainDifficulty,
+      mountain_maintenance: payload.mountainMaintenance,
+      lodge_quality: payload.lodgeQuality,
+      trail_variety: payload.trailVariety,
+      trail_length: payload.trailLength,
+      glades_quality: payload.gladesQuality,
+      terrain_park_quality: payload.terrainParkQuality,
+
       avg_lodging_night: payload.avgLodgingNight,
       cheapest_lodging_night: payload.cheapestLodgingNight,
       ski_in_out_night: payload.skiInOutNight,
-      area_activities_stars: payload.areaActivitiesStars,
 
-      // uploads
       thumbnail_path: payload.thumbnailPath || null,
       trail_map_url: payload.trailMapUrl || null
-
-      // (If you later add updated_by/updated_at triggers, that can live in SQL)
     };
 
     const { error } = await supabase.from("resorts").insert(row);
     if (error) throw error;
   }
 
+  async function updateResort(resortId, payload) {
+    if (!state.user) throw new Error("You must be logged in.");
+    if (!state.groupId) throw new Error("No group membership found for your user. (group_id is required)");
+    if (!isEditorApproved()) throw new Error("You must be an approved editor to edit resorts.");
+
+    const row = {
+      name: payload.name,
+      location: payload.location,
+
+      miles_from_rochester: payload.milesFromRochester,
+      vertical_feet: payload.verticalFeet,
+      trail_count: payload.trailCount,
+
+      mountain_stars: payload.resortQuality,
+      typical_flight_cost: payload.resortValue, // reused column
+      area_activities_stars: payload.thingsToDo,
+
+      // NEW metrics (int 0–5)
+      mountain_difficulty: payload.mountainDifficulty,
+      mountain_maintenance: payload.mountainMaintenance,
+      lodge_quality: payload.lodgeQuality,
+      trail_variety: payload.trailVariety,
+      trail_length: payload.trailLength,
+      glades_quality: payload.gladesQuality,
+      terrain_park_quality: payload.terrainParkQuality,
+
+      avg_lodging_night: payload.avgLodgingNight,
+      cheapest_lodging_night: payload.cheapestLodgingNight,
+      ski_in_out_night: payload.skiInOutNight
+    };
+
+    if (payload.thumbnailPath !== undefined) row.thumbnail_path = payload.thumbnailPath || null;
+    if (payload.trailMapUrl !== undefined) row.trail_map_url = payload.trailMapUrl || null;
+
+    const { error } = await supabase.from("resorts").update(row).eq("id", resortId);
+    if (error) throw error;
+  }
+
+  async function deleteResort(resortId) {
+    if (!state.user) throw new Error("You must be logged in.");
+    if (!state.groupId) throw new Error("No group membership found for your user. (group_id is required)");
+    if (!isEditorApproved()) throw new Error("You must be an approved editor to delete resorts.");
+
+    const { error } = await supabase.from("resorts").delete().eq("id", resortId);
+    if (error) throw error;
+  }
+
+  // =========================================================
+  // Star picker UI
+  // =========================================================
+  function starsPickerHTML({ id, label, value = 3, help = "" }) {
+    const v = clamp(Number(value) || 0, 0, 5);
+    return `
+      <div>
+        <label class="field-label">${escapeHtml(label)}</label>
+        <div class="stars" data-stars="${escapeAttr(id)}" role="radiogroup" aria-label="${escapeAttr(label)}">
+          ${[1, 2, 3, 4, 5]
+            .map(
+              (n) => `
+            <button type="button"
+              class="star-btn ${n <= v ? "star-btn--on" : ""}"
+              data-star="${n}"
+              aria-checked="${n === v ? "true" : "false"}"
+              role="radio">★</button>
+          `
+            )
+            .join("")}
+        </div>
+        <input type="hidden" id="${escapeAttr(id)}" value="${escapeAttr(String(v))}" />
+        ${help ? `<div class="small muted">${escapeHtml(help)}</div>` : ``}
+      </div>
+    `;
+  }
+
+  function wireStarsPickers(scopeEl = document) {
+    scopeEl.querySelectorAll(".stars[data-stars]").forEach((wrap) => {
+      wrap.addEventListener("click", (e) => {
+        const btn = e.target.closest(".star-btn");
+        if (!btn) return;
+        const n = Number(btn.getAttribute("data-star")) || 0;
+
+        const inputId = wrap.getAttribute("data-stars");
+        const input = document.getElementById(inputId);
+        if (input) input.value = String(n);
+
+        wrap.querySelectorAll(".star-btn").forEach((b) => {
+          const bn = Number(b.getAttribute("data-star")) || 0;
+          b.classList.toggle("star-btn--on", bn <= n);
+          b.setAttribute("aria-checked", bn === n ? "true" : "false");
+        });
+      });
+    });
+  }
+
+  // =========================================================
+  // Resort Modals
+  // =========================================================
   function openAddResortModal() {
     if (!state.user) return alert("Please log in first.");
     if (!isEditorApproved()) return alert("You must be an approved editor to add resorts.");
@@ -549,114 +664,190 @@ if (window.__powderfiles_script_loaded) {
       );
     }
 
-    openModal(`
-      <h2>Add Resort</h2>
-      <p class="small muted">Fill out the resort details. Thumbnail + Trail Map are uploaded files.</p>
+    openResortModal({ mode: "add" });
+  }
 
-      <form id="add-resort-form" class="form-grid">
+  function openEditResortModal(resortId) {
+    const { resorts } = loadCache();
+    const r = resorts.find((x) => x.id === resortId);
+    if (!r) return alert("Resort not found.");
+    if (!state.user) return alert("Please log in first.");
+    if (!isEditorApproved()) return alert("You must be an approved editor to edit resorts.");
+
+    openResortModal({ mode: "edit", resort: r });
+  }
+
+  function openResortModal({ mode, resort }) {
+    const isEdit = mode === "edit";
+    const title = isEdit ? "Edit Resort" : "Add Resort";
+
+    const locParts = String(resort?.location || "").split(",").map((s) => s.trim()).filter(Boolean);
+    const city0 = isEdit ? (locParts[0] || "") : "";
+    const state0 = isEdit ? (locParts[1] || "") : "";
+    const country0 = isEdit ? (locParts[2] || "") : "";
+
+    openModal(`
+      <h2>${escapeHtml(title)}</h2>
+      <p class="small muted">Thumbnail + Trail Map are uploaded files. Star ratings are clickable.</p>
+
+      <form id="resort-form" class="form-grid">
         <div class="grid-2">
           <div>
             <label class="field-label">Resort name</label>
-            <input id="r-name" class="field-input" type="text" required />
+            <input id="r-name" class="field-input" type="text" required value="${escapeAttr(resort?.name || "")}" />
           </div>
           <div>
             <label class="field-label">Miles from Rochester</label>
-            <input id="r-miles" class="field-input" type="number" min="0" step="1" value="0" required />
+            <input id="r-miles" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.milesFromRochester ?? 0))}" required />
           </div>
         </div>
 
         <div class="grid-3">
           <div>
             <label class="field-label">City</label>
-            <input id="r-city" class="field-input" type="text" placeholder="e.g., Aspen" />
+            <input id="r-city" class="field-input" type="text" placeholder="e.g., Aspen" value="${escapeAttr(city0)}" />
           </div>
           <div>
             <label class="field-label">State</label>
-            <input id="r-state" class="field-input" type="text" placeholder="e.g., CO" />
+            <input id="r-state" class="field-input" type="text" placeholder="e.g., CO" value="${escapeAttr(state0)}" />
           </div>
           <div>
             <label class="field-label">Country</label>
-            <input id="r-country" class="field-input" type="text" placeholder="e.g., USA" />
+            <input id="r-country" class="field-input" type="text" placeholder="e.g., USA" value="${escapeAttr(country0)}" />
           </div>
         </div>
 
         <div class="grid-3">
           <div>
             <label class="field-label">Vertical (ft)</label>
-            <input id="r-vert" class="field-input" type="number" min="0" step="1" value="0" required />
+            <input id="r-vert" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.verticalFeet ?? 0))}" required />
           </div>
           <div>
             <label class="field-label">Trail count</label>
-            <input id="r-trails" class="field-input" type="number" min="0" step="1" value="0" required />
+            <input id="r-trails" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.trailCount ?? 0))}" required />
           </div>
           <div>
-            <label class="field-label">Mountain stars (0–5)</label>
-            <input id="r-mstars" class="field-input" type="number" min="0" max="5" step="1" value="3" required />
+            ${starsPickerHTML({
+              id: "r-quality",
+              label: "Resort Quality",
+              value: resort?.resortQuality ?? 3,
+              help: "How good is the resort overall?"
+            })}
           </div>
         </div>
 
         <div class="grid-3">
           <div>
-            <label class="field-label">Typical flight cost</label>
-            <input id="r-flight" class="field-input" type="number" min="0" step="1" value="0" required />
+            ${starsPickerHTML({
+              id: "r-value",
+              label: "Resort Value",
+              value: resort?.resortValue ?? 3,
+              help: "Bang for your buck."
+            })}
           </div>
           <div>
-            <label class="field-label">Avg lodging/night</label>
-            <input id="r-avg-lodge" class="field-input" type="number" min="0" step="1" value="0" required />
+            <label class="field-label">Avg lodging / night ($)</label>
+            <input id="r-avg-lodge" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.avgLodgingNight ?? 0))}" required />
           </div>
           <div>
-            <label class="field-label">Cheapest lodging/night</label>
-            <input id="r-cheap-lodge" class="field-input" type="number" min="0" step="1" value="0" required />
+            <label class="field-label">Cheapest lodging / night ($)</label>
+            <input id="r-cheap-lodge" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.cheapestLodgingNight ?? 0))}" required />
           </div>
         </div>
 
         <div class="grid-2">
           <div>
-            <label class="field-label">Ski-in/ski-out/night</label>
-            <input id="r-skiio" class="field-input" type="number" min="0" step="1" value="0" required />
+            <label class="field-label">Ski-in/ski-out / night ($)</label>
+            <input id="r-skiio" class="field-input" type="number" min="0" step="1" value="${escapeAttr(String(resort?.skiInOutNight ?? 0))}" required />
           </div>
           <div>
-            <label class="field-label">Area activities stars (0–5)</label>
-            <input id="r-astars" class="field-input" type="number" min="0" max="5" step="1" value="3" required />
+            ${starsPickerHTML({
+              id: "r-ttd",
+              label: "Things To Do in the Region",
+              value: resort?.thingsToDo ?? 3,
+              help: "Non-ski activities nearby."
+            })}
           </div>
+        </div>
+
+        <div class="hr"></div>
+        <p class="small muted" style="margin:0;">Additional file metrics</p>
+
+        <div class="grid-2">
+          <div>
+            ${starsPickerHTML({ id: "r-diff", label: "Mountain Difficulty", value: resort?.mountainDifficulty ?? 3 })}
+          </div>
+          <div>
+            ${starsPickerHTML({ id: "r-maint", label: "Mountain Maintenance", value: resort?.mountainMaintenance ?? 3 })}
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            ${starsPickerHTML({ id: "r-lodge", label: "Lodge Quality", value: resort?.lodgeQuality ?? 3 })}
+          </div>
+          <div>
+            ${starsPickerHTML({ id: "r-variety", label: "Trail Variety", value: resort?.trailVariety ?? 3 })}
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            ${starsPickerHTML({ id: "r-length", label: "Trail Length", value: resort?.trailLength ?? 3 })}
+          </div>
+          <div>
+            ${starsPickerHTML({ id: "r-glades", label: "Glades Quality", value: resort?.gladesQuality ?? 3 })}
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            ${starsPickerHTML({ id: "r-park", label: "Terrain Park Quality", value: resort?.terrainParkQuality ?? 3 })}
+          </div>
+          <div></div>
         </div>
 
         <div class="grid-2">
           <div>
             <label class="field-label">Thumbnail image (upload)</label>
             <input id="r-thumb-file" class="field-input" type="file" accept="image/*" />
-            <div class="small muted">Recommended: square-ish JPG/PNG/WebP.</div>
+            <div class="small muted">
+              ${isEdit && resort?.thumbnailUrl ? `Current: <a href="${escapeAttr(resort.thumbnailUrl)}" target="_blank" rel="noopener noreferrer">view</a>` : "Recommended: square-ish JPG/PNG/WebP."}
+            </div>
           </div>
           <div>
             <label class="field-label">Trail map (upload)</label>
             <input id="r-trailmap-file" class="field-input" type="file" accept="application/pdf,image/*" />
-            <div class="small muted">PDF preferred; images also accepted.</div>
+            <div class="small muted">
+              ${isEdit && resort?.trailMapUrl ? `Current: <a href="${escapeAttr(resort.trailMapUrl)}" target="_blank" rel="noopener noreferrer">open</a>` : "PDF preferred; images also accepted."}
+            </div>
           </div>
         </div>
 
-        <div id="add-resort-errors" class="inline-error"></div>
+        <div id="resort-errors" class="inline-error"></div>
 
         <div class="modal-footer">
           <button class="btn-secondary" type="button" id="r-cancel">Cancel</button>
-          <button class="btn-primary" type="submit" id="r-save">Save</button>
+          <button class="btn-primary" type="submit" id="r-save">${isEdit ? "Save changes" : "Save"}</button>
         </div>
       </form>
     `);
 
+    wireStarsPickers(document.getElementById("modal-backdrop"));
+
     document.getElementById("r-cancel")?.addEventListener("click", closeModal);
 
-    document.getElementById("add-resort-form")?.addEventListener("submit", async (e) => {
+    document.getElementById("resort-form")?.addEventListener("submit", async (e) => {
       e.preventDefault();
-      console.log("[PowderFiles] Add Resort submit fired");
+      console.log("[PowderFiles] Resort form submit fired", { mode });
 
-      const errEl = document.getElementById("add-resort-errors");
+      const errEl = document.getElementById("resort-errors");
       errEl.textContent = "";
 
       const btn = document.getElementById("r-save");
       if (btn) btn.disabled = true;
 
       try {
-        // Basic fields
         const name = document.getElementById("r-name").value.trim();
 
         const city = document.getElementById("r-city").value.trim();
@@ -670,55 +861,81 @@ if (window.__powderfiles_script_loaded) {
         const milesFromRochester = Number(document.getElementById("r-miles").value);
         const verticalFeet = Number(document.getElementById("r-vert").value);
         const trailCount = Number(document.getElementById("r-trails").value);
-        const mountainStars = Number(document.getElementById("r-mstars").value);
 
-        const typicalFlightCost = Number(document.getElementById("r-flight").value);
+        const resortQuality = Number(document.getElementById("r-quality").value);
+        const resortValue = Number(document.getElementById("r-value").value);
+        const thingsToDo = Number(document.getElementById("r-ttd").value);
+
+        // NEW metric reads
+        const mountainDifficulty = Number(document.getElementById("r-diff").value);
+        const mountainMaintenance = Number(document.getElementById("r-maint").value);
+        const lodgeQuality = Number(document.getElementById("r-lodge").value);
+        const trailVariety = Number(document.getElementById("r-variety").value);
+        const trailLength = Number(document.getElementById("r-length").value);
+        const gladesQuality = Number(document.getElementById("r-glades").value);
+        const terrainParkQuality = Number(document.getElementById("r-park").value);
+
         const avgLodgingNight = Number(document.getElementById("r-avg-lodge").value);
         const cheapestLodgingNight = Number(document.getElementById("r-cheap-lodge").value);
         const skiInOutNight = Number(document.getElementById("r-skiio").value);
-        const areaActivitiesStars = Number(document.getElementById("r-astars").value);
 
-        // Files
         const thumbFile = document.getElementById("r-thumb-file").files?.[0] || null;
         const trailMapFile = document.getElementById("r-trailmap-file").files?.[0] || null;
 
-        // Uploads (if provided)
-        let thumbnailPath = "";
-        let trailMapUrl = "";
+        let thumbnailPath = undefined; // undefined means "leave as is"
+        let trailMapUrl = undefined;
 
         if (thumbFile) {
           const up = await uploadResortFile({ file: thumbFile, kind: "thumbnail" });
           thumbnailPath = up.path;
+        } else if (!isEdit) {
+          thumbnailPath = "";
         }
 
         if (trailMapFile) {
           const up = await uploadResortFile({ file: trailMapFile, kind: "trailmap" });
-          // You currently have trail_map_url column, so store public URL (simplest)
           trailMapUrl = up.publicUrl;
+        } else if (!isEdit) {
+          trailMapUrl = "";
         }
 
-        await createResort({
+        const payload = {
           name,
           location,
           milesFromRochester,
           verticalFeet,
           trailCount,
-          mountainStars,
-          typicalFlightCost,
+          resortQuality,
+          resortValue,
+          thingsToDo,
+
+          mountainDifficulty,
+          mountainMaintenance,
+          lodgeQuality,
+          trailVariety,
+          trailLength,
+          gladesQuality,
+          terrainParkQuality,
+
           avgLodgingNight,
           cheapestLodgingNight,
           skiInOutNight,
-          areaActivitiesStars,
           thumbnailPath,
           trailMapUrl
-        });
+        };
+
+        if (!isEdit) {
+          await createResort(payload);
+        } else {
+          await updateResort(resort.id, payload);
+        }
 
         closeModal();
         await refreshPublicData();
         render();
-        alert("Resort saved.");
+        alert(isEdit ? "Resort updated." : "Resort saved.");
       } catch (err) {
-        console.error("[PowderFiles] add resort exception:", err);
+        console.error("[PowderFiles] resort save exception:", err);
         errEl.textContent = err?.message || "Failed to save resort.";
       } finally {
         if (btn) btn.disabled = false;
@@ -769,6 +986,8 @@ if (window.__powderfiles_script_loaded) {
     const tabResorts = document.getElementById("tab-resorts");
     const tabItins = document.getElementById("tab-itins");
 
+    if (tabItins) tabItins.textContent = "Trips";
+
     console.log("[PowderFiles] wireTabs", { tabResorts: !!tabResorts, tabItins: !!tabItins });
 
     tabResorts?.addEventListener("click", () => {
@@ -813,25 +1032,41 @@ if (window.__powderfiles_script_loaded) {
         </div>
 
         <div class="list-grid">
-          ${filtered.length ? filtered.map(resortButtonHTML).join("") : `<p class="muted">No resorts found.</p>`}
+          ${filtered.length ? filtered.map(resortRowHTML).join("") : `<p class="muted">No resorts found.</p>`}
         </div>
       </section>
     `;
   }
 
-  function resortButtonHTML(r) {
+  function resortRowHTML(r) {
     const thumb = r.thumbnailUrl
       ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />`
       : `<span>No<br/>image</span>`;
 
-    return `
-      <button class="resort-btn" type="button" data-open-resort="${r.id}">
-        <div class="thumb">${thumb}</div>
-        <div class="resort-meta">
-          <h3>${escapeHtml(r.name)}</h3>
-          <p>${escapeHtml(r.location)} • ${stars(r.mountainStars)} • ${Number(r.verticalFeet || 0).toLocaleString()} ft</p>
+    const editorControls = isEditorApproved()
+      ? `
+        <div class="btn-row" style="gap:.4rem;">
+          <button class="btn-ghost" type="button" data-edit-resort="${escapeAttr(r.id)}">Edit</button>
+          <button class="btn-ghost" type="button" data-del-resort="${escapeAttr(r.id)}">Delete</button>
         </div>
-      </button>
+      `
+      : ``;
+
+    return `
+      <div style="display:flex; gap:.75rem; align-items:stretch;">
+        <button class="resort-btn" type="button" data-open-resort="${escapeAttr(r.id)}" style="flex:1;">
+          <div class="thumb">${thumb}</div>
+          <div class="resort-meta">
+            <h3>${escapeHtml(r.name)}</h3>
+            <p>
+              ${escapeHtml(r.location)}
+              • ${stars(r.resortQuality)}
+              • ${Number(r.verticalFeet || 0).toLocaleString()} ft
+            </p>
+          </div>
+        </button>
+        ${editorControls}
+      </div>
     `;
   }
 
@@ -841,7 +1076,6 @@ if (window.__powderfiles_script_loaded) {
       render();
     });
 
-    // Add Resort
     document.getElementById("btn-add-resort")?.addEventListener("click", () => {
       openAddResortModal();
     });
@@ -851,6 +1085,34 @@ if (window.__powderfiles_script_loaded) {
         const id = btn.getAttribute("data-open-resort");
         setState({ view: "resortDetail", selectedResortId: id });
         render();
+      });
+    });
+
+    document.querySelectorAll("[data-edit-resort]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const id = btn.getAttribute("data-edit-resort");
+        openEditResortModal(id);
+      });
+    });
+
+    document.querySelectorAll("[data-del-resort]").forEach((btn) => {
+      btn.addEventListener("click", async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const id = btn.getAttribute("data-del-resort");
+        const ok = confirm("Delete this resort? This cannot be undone.");
+        if (!ok) return;
+        try {
+          await deleteResort(id);
+          await refreshPublicData();
+          render();
+          alert("Resort deleted.");
+        } catch (err) {
+          console.error("[PowderFiles] delete resort error:", err);
+          alert(err?.message || "Failed to delete resort.");
+        }
       });
     });
   }
@@ -865,12 +1127,23 @@ if (window.__powderfiles_script_loaded) {
       return `<section class="card"><p class="muted">Resort not found.</p><button id="btn-back" class="btn-secondary" type="button">Back</button></section>`;
     }
 
+    const editorControls = isEditorApproved()
+      ? `
+        <div class="btn-row" style="gap:.4rem;">
+          <button id="btn-edit-resort" class="btn-ghost" type="button">Edit</button>
+          <button id="btn-del-resort" class="btn-ghost" type="button">Delete</button>
+        </div>
+      `
+      : ``;
+
     return `
       <section class="card">
-        <div class="toolbar">
+        <div class="toolbar" style="align-items:center;">
           <div class="btn-row">
             <button id="btn-back" class="btn-secondary" type="button">← Back</button>
           </div>
+          <div style="flex:1;"></div>
+          ${editorControls}
         </div>
 
         <div style="display:flex; gap:1rem; align-items:center; flex-wrap: wrap;">
@@ -879,7 +1152,7 @@ if (window.__powderfiles_script_loaded) {
           </div>
           <div style="flex:1; min-width: 240px;">
             <h2 style="margin:0 0 .25rem;">${escapeHtml(r.name)}</h2>
-            <p class="muted" style="margin:0;">${escapeHtml(r.location)} • ${stars(r.mountainStars)} mountain</p>
+            <p class="muted" style="margin:0;">${escapeHtml(r.location)}</p>
           </div>
         </div>
 
@@ -889,16 +1162,33 @@ if (window.__powderfiles_script_loaded) {
           <span class="kpi-pill"><strong>Miles from Rochester</strong> ${Number(r.milesFromRochester).toLocaleString()}</span>
           <span class="kpi-pill"><strong>Vertical</strong> ${Number(r.verticalFeet).toLocaleString()} ft</span>
           <span class="kpi-pill"><strong>Trails</strong> ${Number(r.trailCount).toLocaleString()}</span>
-          <span class="kpi-pill"><strong>Area activities</strong> ${stars(r.areaActivitiesStars)}</span>
         </div>
 
         <div class="hr"></div>
 
         <div class="grid-3">
-          <div><div class="field-label">Typical flight cost</div><div><strong>${money(r.typicalFlightCost)}</strong></div></div>
+          <div><div class="field-label">Resort Quality</div><div><strong>${stars(r.resortQuality)}</strong></div></div>
+          <div><div class="field-label">Resort Value</div><div><strong>${stars(r.resortValue)}</strong></div></div>
+          <div><div class="field-label">Things To Do in the Region</div><div><strong>${stars(r.thingsToDo)}</strong></div></div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="grid-3">
           <div><div class="field-label">Avg lodging / night</div><div><strong>${money(r.avgLodgingNight)}</strong></div></div>
           <div><div class="field-label">Cheapest lodging / night</div><div><strong>${money(r.cheapestLodgingNight)}</strong></div></div>
           <div><div class="field-label">Ski-in/ski-out / night</div><div><strong>${money(r.skiInOutNight)}</strong></div></div>
+        </div>
+
+        <div class="hr"></div>
+        <div class="grid-3">
+          <div><div class="field-label">Mountain Difficulty</div><div><strong>${stars(r.mountainDifficulty)}</strong></div></div>
+          <div><div class="field-label">Mountain Maintenance</div><div><strong>${stars(r.mountainMaintenance)}</strong></div></div>
+          <div><div class="field-label">Lodge Quality</div><div><strong>${stars(r.lodgeQuality)}</strong></div></div>
+          <div><div class="field-label">Trail Variety</div><div><strong>${stars(r.trailVariety)}</strong></div></div>
+          <div><div class="field-label">Trail Length</div><div><strong>${stars(r.trailLength)}</strong></div></div>
+          <div><div class="field-label">Glades Quality</div><div><strong>${stars(r.gladesQuality)}</strong></div></div>
+          <div><div class="field-label">Terrain Park Quality</div><div><strong>${stars(r.terrainParkQuality)}</strong></div></div>
         </div>
 
         ${r.trailMapUrl ? `
@@ -910,21 +1200,40 @@ if (window.__powderfiles_script_loaded) {
 
         <div class="hr"></div>
         <p class="small muted">
-          Itineraries are listed under the <strong>Itineraries</strong> tab.
+          Trips are listed under the <strong>Trips</strong> tab.
         </p>
       </section>
     `;
   }
 
-  function wireResortDetailView() {
+  function wireResortDetailView(resortId) {
     document.getElementById("btn-back")?.addEventListener("click", () => {
       setState({ view: "resorts", selectedResortId: null });
       render();
     });
+
+    document.getElementById("btn-edit-resort")?.addEventListener("click", () => {
+      openEditResortModal(resortId);
+    });
+
+    document.getElementById("btn-del-resort")?.addEventListener("click", async () => {
+      const ok = confirm("Delete this resort? This cannot be undone.");
+      if (!ok) return;
+      try {
+        await deleteResort(resortId);
+        setState({ view: "resorts", selectedResortId: null });
+        await refreshPublicData();
+        render();
+        alert("Resort deleted.");
+      } catch (err) {
+        console.error("[PowderFiles] delete resort error:", err);
+        alert(err?.message || "Failed to delete resort.");
+      }
+    });
   }
 
   // -------------------------
-  // Itineraries View (organized)
+  // Trips View (formerly Itineraries)
   // -------------------------
   function renderItinsView() {
     const { resorts, trips } = getData();
@@ -975,7 +1284,7 @@ if (window.__powderfiles_script_loaded) {
       <section class="card">
         <div class="toolbar">
           <div style="flex:1; min-width: 220px;">
-            <label class="field-label" for="itin-search">Search itineraries</label>
+            <label class="field-label" for="itin-search">Search trips</label>
             <input id="itin-search" class="field-input" type="text"
               placeholder="Search text, resort, city/state/country..." value="${escapeHtml(state.itinSearch)}" />
           </div>
@@ -991,14 +1300,14 @@ if (window.__powderfiles_script_loaded) {
 
   function renderItinGroups(groups) {
     const durs = Object.keys(groups).sort((a, b) => Number(a) - Number(b));
-    if (!durs.length) return `<p class="muted">No itineraries found.</p>`;
+    if (!durs.length) return `<p class="muted">No trips found.</p>`;
 
     let html = "";
     for (const dur of durs) {
       html += `<div class="accordion">
         <button class="accordion-header" type="button" data-acc-dur="${dur}">
           <div>
-            <div class="accordion-title">${dur}-Day Itineraries</div>
+            <div class="accordion-title">${dur}-Day Trips</div>
             <div class="accordion-sub">Grouped by Country → State → City (Day 1 location)</div>
           </div>
           <div class="pill-score">▼</div>
@@ -1052,7 +1361,7 @@ if (window.__powderfiles_script_loaded) {
         <div class="trip-top">
           <div>
             <h4 style="margin:0;">
-              ${t.days}-day itinerary <span class="pill-score">Score ${t.compositeScore}</span>
+              ${t.days}-day trip <span class="pill-score">Score ${t.compositeScore}</span>
             </h4>
             <div class="small muted">${escapeHtml(resortLine)}</div>
             <div class="kpi" style="margin-top:.35rem;">
