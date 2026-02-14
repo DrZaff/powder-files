@@ -47,7 +47,7 @@ body::before {
   background-position: top left;
   background-size: 560px auto;
 
-  opacity: 0.42;
+  opacity: 0.50;
   filter: contrast(1.08) saturate(1.05) brightness(1.05);
 
   pointer-events: none;
@@ -528,3 +528,119 @@ body::after {
 /* Remove number spinners */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin:0; }
+
+/* =========================================================
+   Manila folder look for main content + folder tabs
+========================================================= */
+
+/* Folder paper color palette */
+:root {
+  --folder-paper: rgba(214, 195, 145, 0.92);
+  --folder-paper-2: rgba(232, 216, 174, 0.92);
+  --folder-edge: rgba(0, 0, 0, 0.25);
+  --folder-ink: rgba(15, 18, 22, 0.92);
+}
+
+/* Make cards (the big content rectangle) look like a folder */
+.card {
+  background:
+    linear-gradient(180deg, var(--folder-paper-2), var(--folder-paper)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,0.06) 0px,
+      rgba(255,255,255,0.06) 2px,
+      rgba(0,0,0,0.00) 2px,
+      rgba(0,0,0,0.00) 10px
+    );
+  border: 1px solid rgba(0,0,0,0.22);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.55);
+  color: var(--folder-ink);
+}
+
+/* Labels + muted text inside folder should be darker */
+.card .field-label { color: rgba(20, 24, 30, 0.70); }
+.card .muted,
+.card .small.muted { color: rgba(20, 24, 30, 0.68) !important; }
+
+/* Inputs inside folder: still dark, but slightly “ink” vibe */
+.card .field-input,
+.card textarea,
+.card .field-select {
+  background: rgba(7, 10, 14, 0.90);
+  border-color: rgba(0,0,0,0.25);
+  color: rgba(245,245,247,0.96);
+}
+
+/* Folder-style tabs */
+.nav-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: .75rem;
+  margin-bottom: .25rem;
+}
+
+/* Make segmented look like folder tabs (not a pill) */
+.segmented.segmented--center {
+  border: 0;
+  background: transparent;
+  gap: .35rem;
+  border-radius: 0;
+  overflow: visible;
+}
+
+/* Each tab becomes a folder tab */
+.segmented.segmented--center .segmented-btn {
+  border: 1px solid rgba(0,0,0,0.25);
+  border-bottom: 0;
+  background: rgba(214, 195, 145, 0.95);
+  color: rgba(15,18,22,0.90);
+  padding: .55rem 1.0rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  font-weight: 800;
+}
+
+/* Active tab looks like it's attached to the folder */
+.segmented.segmented--center .segmented-btn--active {
+  background: rgba(232, 216, 174, 0.98);
+  color: rgba(10,12,16,0.95);
+  position: relative;
+  top: 1px;
+}
+
+/* Optional: unify “folder top” illusion by pulling the card up under tabs */
+.app-main .card {
+  margin-top: .35rem;
+}
+
+/* Mobile: keep tabs readable */
+@media (max-width: 520px) {
+  .segmented.segmented--center .segmented-btn {
+    padding: .55rem .85rem;
+  }
+}
+
+/* Star rating inputs */
+.stars {
+  display: inline-flex;
+  gap: .25rem;
+  align-items: center;
+  user-select: none;
+}
+.star-btn {
+  border: 1px solid rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.06);
+  border-radius: 10px;
+  padding: .35rem .5rem;
+  cursor: pointer;
+  font-weight: 900;
+  line-height: 1;
+  transform: translateY(0);
+}
+.star-btn:hover { transform: translateY(-1px); }
+.star-btn--on {
+  background: rgba(22, 242, 154, 0.20);
+  border-color: rgba(22, 242, 154, 0.40);
+}
