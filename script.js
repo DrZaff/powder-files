@@ -1,20 +1,19 @@
 // =========================================================
 // The Powder Files — Public site + approved editors
-// (UI unchanged; fixes auth wiring + prevents double-load crash)
 // Adds: working Add/Edit/Delete Resort + file uploads (thumbnail + trail map)
-// Updates requested:
-// - Rename Itineraries -> Trips (JS changes button label)
-// - Resort editor: remove Typical flight cost field
-// - Mountain stars -> Resort Quality (stars)
-// - Add Resort Value (stars)  [stored in typical_flight_cost to avoid DB change]
-// - Area activities -> Things To Do in the Region (stars)
-// - Lodging fields displayed as $/night
-// - Resorts list: edit + delete options
-// NEW (this change):
-// - Add additional scale-based metrics on the resort file:
-//   Mountain Difficulty, Mountain Maintenance, Lodge Quality,
-//   Trail Variety, Trail Length, Glades Quality, Terrain Park Quality
-//   (stored in resorts table as int columns 0-5)
+// UI upgrades requested (implemented via JS + injected CSS):
+// - Brighter SkiFree background (near-white)
+// - “Manilla folder” main content + left-attached tabs (Resorts / Trips)
+// - Handwriting-style tab text in black
+// - Search bar color adjusted to match folder
+// - Remove Edit/Delete buttons from Resorts list (keep only on resort detail view)
+// Resort file metrics:
+// - Resort Quality (stars)   -> resorts.mountain_stars
+// - Resort Value (stars)     -> resorts.typical_flight_cost (reused column)
+// - Things To Do (stars)     -> resorts.area_activities_stars
+// - NEW star metrics (requires DB columns; see column names used below):
+//   mountain_difficulty, mountain_maintenance, lodge_quality,
+//   trail_variety, trail_length, glades_quality, terrain_park_quality
 // =========================================================
 
 // ---------------------------------------------------------
@@ -141,6 +140,129 @@ if (window.__powderfiles_script_loaded) {
   function buildLocation(city, st, country) {
     const parts = [city, st, country].map((x) => (x || "").trim()).filter(Boolean);
     return parts.join(", ");
+  }
+
+  // ===== Theme/UI overrides injected from JS (so you don’t have to edit style.css) =====
+  function injectThemeCSS() {
+    if (document.getElementById("powderfiles-theme-overrides")) return;
+
+    const style = document.createElement("style");
+    style.id = "powderfiles-theme-overrides";
+
+    style.textContent = `
+      /* --- Background: make SkiFree feel near-white --- */
+      body::before, .bg, .background, .app-bg {
+        filter: brightness(2.4) contrast(0.85) saturate(0.8);
+      }
+      /* If the background is applied to body itself */
+      body {
+        background-color: #ffffff !important;
+      }
+
+      /* --- Folder card look --- */
+      .folder-card {
+        position: relative;
+        border-radius: 16px;
+        border: 1px solid rgba(80, 60, 20, 0.45);
+        background:
+          radial-gradient(1200px 380px at 50% 0%, rgba(255,255,255,0.22), rgba(255,255,255,0) 55%),
+          linear-gradient(180deg, #f6e3a9 0%, #ecd091 48%, #e7c67f 100%);
+        box-shadow:
+          0 14px 30px rgba(0,0,0,0.35),
+          inset 0 1px 0 rgba(255,255,255,0.35);
+        overflow: visible;
+      }
+
+      /* Make the inner toolbar/search feel like part of folder */
+      .folder-card .toolbar {
+        background: transparent !important;
+        border-bottom: 1px solid rgba(80,60,20,0.22);
+        padding-bottom: 10px;
+      }
+
+      /* Search bar color (warmer + less harsh) */
+      .folder-card .field-input {
+        background: rgba(248, 243, 225, 0.92) !important;
+        border: 1px solid rgba(95, 75, 25, 0.45) !important;
+        color: #221b10 !important;
+      }
+      .folder-card .field-input::placeholder {
+        color: rgba(34,27,16,0.55);
+      }
+
+      /* --- Left-attached folder tabs --- */
+      .folder-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 10px;
+        margin: 10px 0 12px;
+        padding-left: 14px;
+      }
+
+      .folder-tab {
+        position: relative;
+        padding: 10px 18px 8px 18px !important;
+        border: 1px solid rgba(80,60,20,0.55) !important;
+        border-bottom: none !important;
+        background: linear-gradient(180deg, #f3d88e 0%, #e7c87f 100%) !important;
+        border-top-left-radius: 14px !important;
+        border-top-right-radius: 14px !important;
+        color: #000 !important;
+
+        /* handwriting-ish */
+        font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.2px;
+        text-transform: none !important;
+      }
+
+      /* Fake “attached on the left” notch */
+      .folder-tab::before {
+        content: "";
+        position: absolute;
+        left: -14px;
+        bottom: -1px;
+        width: 16px;
+        height: 24px;
+        background: linear-gradient(180deg, #f3d88e 0%, #e7c87f 100%);
+        border-left: 1px solid rgba(80,60,20,0.55);
+        border-top: 1px solid rgba(80,60,20,0.55);
+        border-bottom: none;
+        border-top-left-radius: 12px;
+      }
+
+      /* Active tab rises slightly */
+      .folder-tab.segmented-btn--active,
+      .folder-tab[aria-selected="true"] {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 18px rgba(0,0,0,0.18);
+        background: linear-gradient(180deg, #f8e3aa 0%, #eaca83 100%) !important;
+      }
+
+      /* Make the folder “content” seam under tabs */
+      .folder-card::before {
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: 16px;
+        right: 16px;
+        height: 1px;
+        background: rgba(80,60,20,0.35);
+      }
+
+      /* Star buttons look nicer on folder background */
+      .star-btn {
+        border: 1px solid rgba(80,60,20,0.35) !important;
+        background: rgba(255,255,255,0.35) !important;
+        border-radius: 10px !important;
+      }
+      .star-btn--on {
+        background: rgba(255,255,255,0.6) !important;
+      }
+    `;
+
+    document.head.appendChild(style);
   }
 
   // ===== Cache =====
@@ -426,19 +548,19 @@ if (window.__powderfiles_script_loaded) {
       verticalFeet: r.vertical_feet ?? 0,
       trailCount: r.trail_count ?? 0,
 
-      // semantics:
+      // semantics
       resortQuality: r.mountain_stars ?? 3,
       resortValue: r.typical_flight_cost ?? 3, // reused column
       thingsToDo: r.area_activities_stars ?? 3,
 
-      // NEW metrics (expected int 0–5)
-      mountainDifficulty: r.mountain_difficulty ?? 3,
-      mountainMaintenance: r.mountain_maintenance ?? 3,
-      lodgeQuality: r.lodge_quality ?? 3,
-      trailVariety: r.trail_variety ?? 3,
-      trailLength: r.trail_length ?? 3,
-      gladesQuality: r.glades_quality ?? 3,
-      terrainParkQuality: r.terrain_park_quality ?? 3,
+      // NEW star metrics (requires DB columns with these names)
+      mountainDifficulty: r.mountain_difficulty ?? 0,
+      mountainMaintenance: r.mountain_maintenance ?? 0,
+      lodgeQuality: r.lodge_quality ?? 0,
+      trailVariety: r.trail_variety ?? 0,
+      trailLength: r.trail_length ?? 0,
+      gladesQuality: r.glades_quality ?? 0,
+      terrainParkQuality: r.terrain_park_quality ?? 0,
 
       avgLodgingNight: r.avg_lodging_night ?? 0,
       cheapestLodgingNight: r.cheapest_lodging_night ?? 0,
@@ -537,7 +659,7 @@ if (window.__powderfiles_script_loaded) {
       typical_flight_cost: payload.resortValue, // reused column
       area_activities_stars: payload.thingsToDo,
 
-      // NEW metrics (int 0–5)
+      // NEW star metrics (requires DB columns)
       mountain_difficulty: payload.mountainDifficulty,
       mountain_maintenance: payload.mountainMaintenance,
       lodge_quality: payload.lodgeQuality,
@@ -575,7 +697,7 @@ if (window.__powderfiles_script_loaded) {
       typical_flight_cost: payload.resortValue, // reused column
       area_activities_stars: payload.thingsToDo,
 
-      // NEW metrics (int 0–5)
+      // NEW star metrics (requires DB columns)
       mountain_difficulty: payload.mountainDifficulty,
       mountain_maintenance: payload.mountainMaintenance,
       lodge_quality: payload.lodgeQuality,
@@ -730,8 +852,7 @@ if (window.__powderfiles_script_loaded) {
             ${starsPickerHTML({
               id: "r-quality",
               label: "Resort Quality",
-              value: resort?.resortQuality ?? 3,
-              help: "How good is the resort overall?"
+              value: resort?.resortQuality ?? 3
             })}
           </div>
         </div>
@@ -741,8 +862,7 @@ if (window.__powderfiles_script_loaded) {
             ${starsPickerHTML({
               id: "r-value",
               label: "Resort Value",
-              value: resort?.resortValue ?? 3,
-              help: "Bang for your buck."
+              value: resort?.resortValue ?? 3
             })}
           </div>
           <div>
@@ -764,46 +884,29 @@ if (window.__powderfiles_script_loaded) {
             ${starsPickerHTML({
               id: "r-ttd",
               label: "Things To Do in the Region",
-              value: resort?.thingsToDo ?? 3,
-              help: "Non-ski activities nearby."
+              value: resort?.thingsToDo ?? 3
             })}
           </div>
         </div>
 
         <div class="hr"></div>
-        <p class="small muted" style="margin:0;">Additional file metrics</p>
+        <h3 style="margin:.25rem 0 .25rem;">Mountain & Terrain Metrics</h3>
 
-        <div class="grid-2">
-          <div>
-            ${starsPickerHTML({ id: "r-diff", label: "Mountain Difficulty", value: resort?.mountainDifficulty ?? 3 })}
-          </div>
-          <div>
-            ${starsPickerHTML({ id: "r-maint", label: "Mountain Maintenance", value: resort?.mountainMaintenance ?? 3 })}
-          </div>
+        <div class="grid-3">
+          ${starsPickerHTML({ id: "r-diff", label: "Mountain Difficulty", value: resort?.mountainDifficulty ?? 0 })}
+          ${starsPickerHTML({ id: "r-maint", label: "Mountain Maintenance", value: resort?.mountainMaintenance ?? 0 })}
+          ${starsPickerHTML({ id: "r-lodgeq", label: "Lodge Quality", value: resort?.lodgeQuality ?? 0 })}
         </div>
 
-        <div class="grid-2">
-          <div>
-            ${starsPickerHTML({ id: "r-lodge", label: "Lodge Quality", value: resort?.lodgeQuality ?? 3 })}
-          </div>
-          <div>
-            ${starsPickerHTML({ id: "r-variety", label: "Trail Variety", value: resort?.trailVariety ?? 3 })}
-          </div>
+        <div class="grid-3">
+          ${starsPickerHTML({ id: "r-var", label: "Trail Variety", value: resort?.trailVariety ?? 0 })}
+          ${starsPickerHTML({ id: "r-len", label: "Trail Length", value: resort?.trailLength ?? 0 })}
+          ${starsPickerHTML({ id: "r-glades", label: "Glades Quality", value: resort?.gladesQuality ?? 0 })}
         </div>
 
-        <div class="grid-2">
-          <div>
-            ${starsPickerHTML({ id: "r-length", label: "Trail Length", value: resort?.trailLength ?? 3 })}
-          </div>
-          <div>
-            ${starsPickerHTML({ id: "r-glades", label: "Glades Quality", value: resort?.gladesQuality ?? 3 })}
-          </div>
-        </div>
-
-        <div class="grid-2">
-          <div>
-            ${starsPickerHTML({ id: "r-park", label: "Terrain Park Quality", value: resort?.terrainParkQuality ?? 3 })}
-          </div>
+        <div class="grid-3">
+          ${starsPickerHTML({ id: "r-park", label: "Terrain Park Quality", value: resort?.terrainParkQuality ?? 0 })}
+          <div></div>
           <div></div>
         </div>
 
@@ -812,14 +915,22 @@ if (window.__powderfiles_script_loaded) {
             <label class="field-label">Thumbnail image (upload)</label>
             <input id="r-thumb-file" class="field-input" type="file" accept="image/*" />
             <div class="small muted">
-              ${isEdit && resort?.thumbnailUrl ? `Current: <a href="${escapeAttr(resort.thumbnailUrl)}" target="_blank" rel="noopener noreferrer">view</a>` : "Recommended: square-ish JPG/PNG/WebP."}
+              ${
+                isEdit && resort?.thumbnailUrl
+                  ? `Current: <a href="${escapeAttr(resort.thumbnailUrl)}" target="_blank" rel="noopener noreferrer">view</a>`
+                  : "Recommended: square-ish JPG/PNG/WebP."
+              }
             </div>
           </div>
           <div>
             <label class="field-label">Trail map (upload)</label>
             <input id="r-trailmap-file" class="field-input" type="file" accept="application/pdf,image/*" />
             <div class="small muted">
-              ${isEdit && resort?.trailMapUrl ? `Current: <a href="${escapeAttr(resort.trailMapUrl)}" target="_blank" rel="noopener noreferrer">open</a>` : "PDF preferred; images also accepted."}
+              ${
+                isEdit && resort?.trailMapUrl
+                  ? `Current: <a href="${escapeAttr(resort.trailMapUrl)}" target="_blank" rel="noopener noreferrer">open</a>`
+                  : "PDF preferred; images also accepted."
+              }
             </div>
           </div>
         </div>
@@ -866,23 +977,22 @@ if (window.__powderfiles_script_loaded) {
         const resortValue = Number(document.getElementById("r-value").value);
         const thingsToDo = Number(document.getElementById("r-ttd").value);
 
-        // NEW metric reads
-        const mountainDifficulty = Number(document.getElementById("r-diff").value);
-        const mountainMaintenance = Number(document.getElementById("r-maint").value);
-        const lodgeQuality = Number(document.getElementById("r-lodge").value);
-        const trailVariety = Number(document.getElementById("r-variety").value);
-        const trailLength = Number(document.getElementById("r-length").value);
-        const gladesQuality = Number(document.getElementById("r-glades").value);
-        const terrainParkQuality = Number(document.getElementById("r-park").value);
-
         const avgLodgingNight = Number(document.getElementById("r-avg-lodge").value);
         const cheapestLodgingNight = Number(document.getElementById("r-cheap-lodge").value);
         const skiInOutNight = Number(document.getElementById("r-skiio").value);
 
+        const mountainDifficulty = Number(document.getElementById("r-diff").value);
+        const mountainMaintenance = Number(document.getElementById("r-maint").value);
+        const lodgeQuality = Number(document.getElementById("r-lodgeq").value);
+        const trailVariety = Number(document.getElementById("r-var").value);
+        const trailLength = Number(document.getElementById("r-len").value);
+        const gladesQuality = Number(document.getElementById("r-glades").value);
+        const terrainParkQuality = Number(document.getElementById("r-park").value);
+
         const thumbFile = document.getElementById("r-thumb-file").files?.[0] || null;
         const trailMapFile = document.getElementById("r-trailmap-file").files?.[0] || null;
 
-        let thumbnailPath = undefined; // undefined means "leave as is"
+        let thumbnailPath = undefined;
         let trailMapUrl = undefined;
 
         if (thumbFile) {
@@ -905,9 +1015,14 @@ if (window.__powderfiles_script_loaded) {
           milesFromRochester,
           verticalFeet,
           trailCount,
+
           resortQuality,
           resortValue,
           thingsToDo,
+
+          avgLodgingNight,
+          cheapestLodgingNight,
+          skiInOutNight,
 
           mountainDifficulty,
           mountainMaintenance,
@@ -917,9 +1032,6 @@ if (window.__powderfiles_script_loaded) {
           gladesQuality,
           terrainParkQuality,
 
-          avgLodgingNight,
-          cheapestLodgingNight,
-          skiInOutNight,
           thumbnailPath,
           trailMapUrl
         };
@@ -986,7 +1098,15 @@ if (window.__powderfiles_script_loaded) {
     const tabResorts = document.getElementById("tab-resorts");
     const tabItins = document.getElementById("tab-itins");
 
+    // Rename label: Itineraries -> Trips
     if (tabItins) tabItins.textContent = "Trips";
+
+    // Folder tab styling hooks
+    tabResorts?.classList.add("folder-tab");
+    tabItins?.classList.add("folder-tab");
+
+    const maybeTabsWrap = tabResorts?.parentElement;
+    if (maybeTabsWrap) maybeTabsWrap.classList.add("folder-tabs");
 
     console.log("[PowderFiles] wireTabs", { tabResorts: !!tabResorts, tabItins: !!tabItins });
 
@@ -1021,7 +1141,7 @@ if (window.__powderfiles_script_loaded) {
       : `<span class="small muted">Log in + get approved to edit.</span>`;
 
     return `
-      <section class="card">
+      <section class="card folder-card">
         <div class="toolbar">
           <div style="flex:1; min-width: 220px;">
             <label class="field-label" for="resort-search">Search resorts</label>
@@ -1032,41 +1152,34 @@ if (window.__powderfiles_script_loaded) {
         </div>
 
         <div class="list-grid">
-          ${filtered.length ? filtered.map(resortRowHTML).join("") : `<p class="muted">No resorts found.</p>`}
+          ${
+            filtered.length
+              ? filtered.map(resortRowHTML).join("")
+              : `<p class="muted">No resorts found.</p>`
+          }
         </div>
       </section>
     `;
   }
 
+  // NOTE: removed Edit/Delete from list view (per request)
   function resortRowHTML(r) {
     const thumb = r.thumbnailUrl
       ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />`
       : `<span>No<br/>image</span>`;
 
-    const editorControls = isEditorApproved()
-      ? `
-        <div class="btn-row" style="gap:.4rem;">
-          <button class="btn-ghost" type="button" data-edit-resort="${escapeAttr(r.id)}">Edit</button>
-          <button class="btn-ghost" type="button" data-del-resort="${escapeAttr(r.id)}">Delete</button>
-        </div>
-      `
-      : ``;
-
     return `
-      <div style="display:flex; gap:.75rem; align-items:stretch;">
-        <button class="resort-btn" type="button" data-open-resort="${escapeAttr(r.id)}" style="flex:1;">
-          <div class="thumb">${thumb}</div>
-          <div class="resort-meta">
-            <h3>${escapeHtml(r.name)}</h3>
-            <p>
-              ${escapeHtml(r.location)}
-              • ${stars(r.resortQuality)}
-              • ${Number(r.verticalFeet || 0).toLocaleString()} ft
-            </p>
-          </div>
-        </button>
-        ${editorControls}
-      </div>
+      <button class="resort-btn" type="button" data-open-resort="${escapeAttr(r.id)}">
+        <div class="thumb">${thumb}</div>
+        <div class="resort-meta">
+          <h3>${escapeHtml(r.name)}</h3>
+          <p>
+            ${escapeHtml(r.location)}
+            • ${stars(r.resortQuality)}
+            • ${Number(r.verticalFeet || 0).toLocaleString()} ft
+          </p>
+        </div>
+      </button>
     `;
   }
 
@@ -1087,34 +1200,6 @@ if (window.__powderfiles_script_loaded) {
         render();
       });
     });
-
-    document.querySelectorAll("[data-edit-resort]").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const id = btn.getAttribute("data-edit-resort");
-        openEditResortModal(id);
-      });
-    });
-
-    document.querySelectorAll("[data-del-resort]").forEach((btn) => {
-      btn.addEventListener("click", async (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const id = btn.getAttribute("data-del-resort");
-        const ok = confirm("Delete this resort? This cannot be undone.");
-        if (!ok) return;
-        try {
-          await deleteResort(id);
-          await refreshPublicData();
-          render();
-          alert("Resort deleted.");
-        } catch (err) {
-          console.error("[PowderFiles] delete resort error:", err);
-          alert(err?.message || "Failed to delete resort.");
-        }
-      });
-    });
   }
 
   // -------------------------
@@ -1124,7 +1209,7 @@ if (window.__powderfiles_script_loaded) {
     const { resorts } = getData();
     const r = resorts.find((x) => x.id === resortId);
     if (!r) {
-      return `<section class="card"><p class="muted">Resort not found.</p><button id="btn-back" class="btn-secondary" type="button">Back</button></section>`;
+      return `<section class="card folder-card"><p class="muted">Resort not found.</p><button id="btn-back" class="btn-secondary" type="button">Back</button></section>`;
     }
 
     const editorControls = isEditorApproved()
@@ -1137,7 +1222,7 @@ if (window.__powderfiles_script_loaded) {
       : ``;
 
     return `
-      <section class="card">
+      <section class="card folder-card">
         <div class="toolbar" style="align-items:center;">
           <div class="btn-row">
             <button id="btn-back" class="btn-secondary" type="button">← Back</button>
@@ -1148,7 +1233,11 @@ if (window.__powderfiles_script_loaded) {
 
         <div style="display:flex; gap:1rem; align-items:center; flex-wrap: wrap;">
           <div class="thumb" style="width:84px; height:84px;">
-            ${r.thumbnailUrl ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />` : `<span>No<br/>image</span>`}
+            ${
+              r.thumbnailUrl
+                ? `<img alt="${escapeHtml(r.name)} thumbnail" src="${escapeAttr(r.thumbnailUrl)}" />`
+                : `<span>No<br/>image</span>`
+            }
           </div>
           <div style="flex:1; min-width: 240px;">
             <h2 style="margin:0 0 .25rem;">${escapeHtml(r.name)}</h2>
@@ -1181,22 +1270,36 @@ if (window.__powderfiles_script_loaded) {
         </div>
 
         <div class="hr"></div>
+        <h3 style="margin:.25rem 0 .25rem;">Mountain & Terrain Metrics</h3>
+
         <div class="grid-3">
           <div><div class="field-label">Mountain Difficulty</div><div><strong>${stars(r.mountainDifficulty)}</strong></div></div>
           <div><div class="field-label">Mountain Maintenance</div><div><strong>${stars(r.mountainMaintenance)}</strong></div></div>
           <div><div class="field-label">Lodge Quality</div><div><strong>${stars(r.lodgeQuality)}</strong></div></div>
+        </div>
+
+        <div class="grid-3">
           <div><div class="field-label">Trail Variety</div><div><strong>${stars(r.trailVariety)}</strong></div></div>
           <div><div class="field-label">Trail Length</div><div><strong>${stars(r.trailLength)}</strong></div></div>
           <div><div class="field-label">Glades Quality</div><div><strong>${stars(r.gladesQuality)}</strong></div></div>
-          <div><div class="field-label">Terrain Park Quality</div><div><strong>${stars(r.terrainParkQuality)}</strong></div></div>
         </div>
 
-        ${r.trailMapUrl ? `
+        <div class="grid-3">
+          <div><div class="field-label">Terrain Park Quality</div><div><strong>${stars(r.terrainParkQuality)}</strong></div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        ${
+          r.trailMapUrl
+            ? `
           <div class="hr"></div>
           <p class="small muted" style="margin:0 0 .5rem;">Trail map</p>
           <a class="btn-secondary" style="display:inline-flex; align-items:center; gap:.5rem; text-decoration:none;"
              href="${escapeAttr(r.trailMapUrl)}" target="_blank" rel="noopener noreferrer">Open Trail Map</a>
-        ` : ""}
+        `
+            : ""
+        }
 
         <div class="hr"></div>
         <p class="small muted">
@@ -1281,7 +1384,7 @@ if (window.__powderfiles_script_loaded) {
     }
 
     return `
-      <section class="card">
+      <section class="card folder-card">
         <div class="toolbar">
           <div style="flex:1; min-width: 220px;">
             <label class="field-label" for="itin-search">Search trips</label>
@@ -1289,7 +1392,11 @@ if (window.__powderfiles_script_loaded) {
               placeholder="Search text, resort, city/state/country..." value="${escapeHtml(state.itinSearch)}" />
           </div>
           <div class="btn-row">
-            ${isEditorApproved() ? `<span class="small muted">Editing enabled</span>` : `<span class="small muted">Log in + get approved to edit.</span>`}
+            ${
+              isEditorApproved()
+                ? `<span class="small muted">Editing enabled</span>`
+                : `<span class="small muted">Log in + get approved to edit.</span>`
+            }
           </div>
         </div>
 
@@ -1438,6 +1545,8 @@ if (window.__powderfiles_script_loaded) {
   // =========================================================
   document.addEventListener("DOMContentLoaded", async () => {
     try {
+      injectThemeCSS(); // <- folder + brighter background styling
+
       wireAuthUI();
       wireTabs();
 
