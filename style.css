@@ -530,7 +530,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("assets/ski-hero.jpg"); /* <-- CHANGE filename if needed */
+  background-image: url("assets/ski-hero.png"); /* <-- CHANGE filename if needed */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -733,6 +733,7 @@ body::after { content: none; }
     padding: .55rem .85rem .45rem;
   }
 }
+
 
 
 
