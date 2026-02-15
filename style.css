@@ -664,7 +664,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 }
 
 /* Pull folder up so tabs sit on it (this is what makes it feel attached) */
-.app-main .card { margin-top: -15px; }
+.app-main .card { margin-top: -25px; }
 
 /* Resort list cards on folder */
 .resort-btn {
@@ -711,5 +711,6 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   }
   .app-main .card { margin-top: -10px; }
 }
+
 
 
