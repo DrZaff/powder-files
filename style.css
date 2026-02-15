@@ -517,118 +517,222 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin:0; }
 
 /* =========================================================
-   Manila folder look for main content + folder tabs
+   NEW: Hero ski background + clean Manila folder + staggered tabs
+   (Paste at very bottom of style.css)
 ========================================================= */
 
-/* Folder paper color palette */
-:root {
-  --folder-paper: rgba(214, 195, 145, 0.92);
-  --folder-paper-2: rgba(232, 216, 174, 0.92);
-  --folder-edge: rgba(0, 0, 0, 0.25);
-  --folder-ink: rgba(15, 18, 22, 0.92);
+/* Optional handwriting font for tabs (requires internet). If you prefer no external font,
+   delete this import and the font-family below will fall back gracefully. */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+/* --- Background: skier photo, no filters, full-bleed --- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("assets/ski-hero.jpg"); /* <-- CHANGE filename if needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  filter: none;
+  pointer-events: none;
+  z-index: -2;
 }
 
-/* Make cards (the big content rectangle) look like a folder */
+/* Keep overlays OFF (you already had this, but keeping it explicit) */
+body::after { content: none; }
+
+/* Make the panel readable without tinting the background image */
+.app-panel {
+  background: rgba(0,0,0,0.40);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+/* --- Manila palette tuned to look like real folder stock --- */
+:root {
+  --folder-paper-top: #f7ebc9;
+  --folder-paper-mid: #f1dfb3;
+  --folder-paper-bot: #e9cf93;
+  --folder-line: rgba(0,0,0,0.18);
+  --folder-shadow: 0 18px 45px rgba(0,0,0,0.45);
+  --folder-ink: rgba(18, 20, 22, 0.92);
+
+  --tab-a: #f3e2b3;
+  --tab-b: #efd79f;
+  --tab-c: #f6ebc5;
+
+  --tab-font: "Patrick Hand", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* --- Folder card (main content) --- */
 .card {
+  position: relative;
+  color: var(--folder-ink);
+  border-radius: 14px;
+  border: 1px solid var(--folder-line);
+  box-shadow: var(--folder-shadow);
+  padding: 1.05rem 1.25rem 1.25rem;
+
+  /* subtle folder texture + highlight */
   background:
-    linear-gradient(180deg, var(--folder-paper-2), var(--folder-paper)),
+    linear-gradient(180deg, var(--folder-paper-top), var(--folder-paper-mid) 45%, var(--folder-paper-bot)),
     repeating-linear-gradient(
       90deg,
       rgba(255,255,255,0.06) 0px,
       rgba(255,255,255,0.06) 2px,
       rgba(0,0,0,0.00) 2px,
-      rgba(0,0,0,0.00) 10px
+      rgba(0,0,0,0.00) 12px
     );
-  border: 1px solid rgba(0,0,0,0.22);
-  box-shadow: 0 18px 45px rgba(0,0,0,0.55);
-  color: var(--folder-ink);
 }
 
-/* Labels + muted text inside folder should be darker */
-.card .field-label { color: rgba(20, 24, 30, 0.70); }
+/* Make standard muted text inside folder actually readable */
+.card .field-label { color: rgba(18,20,22,0.70); }
 .card .muted,
-.card .small.muted { color: rgba(20, 24, 30, 0.68) !important; }
+.card .small.muted { color: rgba(18,20,22,0.64) !important; }
 
-/* Inputs inside folder: still dark, but slightly “ink” vibe */
+/* Search bar: lighter + “paper” friendly */
 .card .field-input,
 .card textarea,
 .card .field-select {
-  background: rgba(7, 10, 14, 0.90);
-  border-color: rgba(0,0,0,0.25);
-  color: rgba(245,245,247,0.96);
+  background: rgba(255,255,255,0.65);
+  border: 1px solid rgba(0,0,0,0.20);
+  color: rgba(18,20,22,0.92);
+}
+.card .field-input::placeholder { color: rgba(18,20,22,0.45); }
+.card .field-input:focus,
+.card textarea:focus,
+.card .field-select:focus {
+  border-color: rgba(0,0,0,0.35);
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.08);
 }
 
-/* Folder-style tabs */
+/* Buttons: make “Add Resort” fit the manila vibe (forest ink) */
+.btn-primary {
+  background: #2f5f4f;
+  color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+}
+.btn-primary:hover { filter: brightness(1.05); }
+
+/* Keep ghost buttons subtle on folder */
+.btn-ghost {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(0,0,0,0.18);
+  color: rgba(18,20,22,0.75);
+}
+
+/* --- Folder tabs (staggered like real manila tabs) --- */
 .nav-row {
-  width: 100%;
-  display: flex;
   justify-content: center;
-  margin-top: .75rem;
-  margin-bottom: .25rem;
+  margin-top: .25rem;
+  margin-bottom: .45rem;
 }
 
-/* Make segmented look like folder tabs (not a pill) */
+/* Turn segmented container into a “tab rail” */
 .segmented.segmented--center {
+  position: relative;
   border: 0;
   background: transparent;
-  gap: .35rem;
   border-radius: 0;
   overflow: visible;
+  gap: 0;
 }
 
-/* Each tab becomes a folder tab */
+/* Each tab is a real tab */
 .segmented.segmented--center .segmented-btn {
-  border: 1px solid rgba(0,0,0,0.25);
-  border-bottom: 0;
-  background: rgba(214, 195, 145, 0.95);
-  color: rgba(15,18,22,0.90);
-  padding: .55rem 1.0rem;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
-  font-weight: 800;
-}
-
-/* Active tab looks like it's attached to the folder */
-.segmented.segmented--center .segmented-btn--active {
-  background: rgba(232, 216, 174, 0.98);
-  color: rgba(10,12,16,0.95);
   position: relative;
-  top: 1px;
+  border: 1px solid rgba(0,0,0,0.22);
+  border-bottom: 0;
+  background: var(--tab-a);
+  color: #111;
+  padding: .55rem 1.1rem .45rem;
+  font-weight: 700;
+  font-family: var(--tab-font);
+  font-size: 1.05rem;
+  letter-spacing: .2px;
+
+  /* tab shape */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  /* IMPORTANT: visually attach to folder */
+  margin-right: .35rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.18);
 }
 
-/* Optional: unify “folder top” illusion by pulling the card up under tabs */
+/* Stagger like the manila photo */
+.segmented.segmented--center .segmented-btn:nth-child(1) { top: 6px; background: var(--tab-b); z-index: 3; }
+.segmented.segmented--center .segmented-btn:nth-child(2) { top: 0px; background: var(--tab-c); z-index: 4; }
+/* if you add a 3rd tab later */
+.segmented.segmented--center .segmented-btn:nth-child(3) { top: 3px; background: var(--tab-a); z-index: 2; }
+
+/* Active tab: looks “frontmost” and attached */
+.segmented.segmented--center .segmented-btn--active {
+  background: #fff2cf;
+  color: #111;
+  z-index: 6;
+  transform: translateY(1px);
+}
+
+/* Create the “attachment” bridge so tab merges into the folder top edge */
+.segmented.segmented--center .segmented-btn::after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: -10px;
+  height: 12px;
+  background: inherit;
+  border-left: 1px solid rgba(0,0,0,0.22);
+  border-right: 1px solid rgba(0,0,0,0.22);
+}
+
+/* Pull the folder up under the tabs slightly so it reads as one object */
 .app-main .card {
-  margin-top: .35rem;
+  margin-top: -2px;
 }
 
-/* Mobile: keep tabs readable */
+/* --- Resort list cards should match folder aesthetic --- */
+.resort-btn {
+  border: 1px solid rgba(0,0,0,0.18);
+  background: rgba(255,255,255,0.18);
+}
+.resort-btn:hover { border-color: rgba(0,0,0,0.28); }
+
+/* --- Resort detail view: make it clean + structured on folder paper --- */
+.card h2 { color: #111; }
+.hr { background: rgba(0,0,0,0.15); }
+
+.kpi-pill {
+  border: 1px solid rgba(0,0,0,0.18);
+  background: rgba(255,255,255,0.22);
+  color: rgba(18,20,22,0.70);
+}
+.kpi-pill strong { color: rgba(18,20,22,0.92); }
+
+/* Star buttons: subtle “ink stamp” style */
+.stars { gap: .25rem; }
+.star-btn {
+  border: 1px solid rgba(0,0,0,0.20);
+  background: rgba(255,255,255,0.25);
+  color: rgba(18,20,22,0.85);
+  border-radius: 10px;
+}
+.star-btn--on {
+  background: rgba(47, 95, 79, 0.20);
+  border-color: rgba(47, 95, 79, 0.35);
+}
+
+/* Mobile: keep tabs readable and not cramped */
 @media (max-width: 520px) {
   .segmented.segmented--center .segmented-btn {
-    padding: .55rem .85rem;
+    font-size: 1rem;
+    padding: .55rem .85rem .45rem;
   }
 }
 
-/* Star rating inputs */
-.stars {
-  display: inline-flex;
-  gap: .25rem;
-  align-items: center;
-  user-select: none;
-}
-.star-btn {
-  border: 1px solid rgba(0,0,0,0.25);
-  background: rgba(0,0,0,0.06);
-  border-radius: 10px;
-  padding: .35rem .5rem;
-  cursor: pointer;
-  font-weight: 900;
-  line-height: 1;
-  transform: translateY(0);
-}
-.star-btn:hover { transform: translateY(-1px); }
-.star-btn--on {
-  background: rgba(22, 242, 154, 0.20);
-  border-color: rgba(22, 242, 154, 0.40);
-}
+
 
