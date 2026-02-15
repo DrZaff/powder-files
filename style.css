@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 :root {
   --color-bg-main: #050810;
   --color-bg-elevated: #0B0F1A;
@@ -19,6 +21,20 @@
   --shadow-card: 0 18px 45px rgba(0,0,0,0.55);
 
   --maxw: 1100px;
+
+  /* Folder + tab theme */
+  --folder-paper-top: #f7ebc9;
+  --folder-paper-mid: #f1dfb3;
+  --folder-paper-bot: #e9cf93;
+  --folder-line: rgba(0,0,0,0.18);
+  --folder-shadow: 0 18px 45px rgba(0,0,0,0.45);
+  --folder-ink: rgba(18, 20, 22, 0.92);
+
+  --tab-a: #f3e2b3;
+  --tab-b: #efd79f;
+  --tab-c: #f6ebc5;
+
+  --tab-font: "Patrick Hand", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -35,27 +51,29 @@ body {
 a { color: inherit; }
 
 /* =========================================================
-   SkiFree background (CSS-only)
+   Background: skier photo (full-bleed, no filters)
+   (Change the filename if yours differs)
 ========================================================= */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
 
-  background-image: url("assets/skifree-bg.png");
-  background-repeat: repeat;
-  background-position: top left;
-  background-size: 560px auto;
+  background-image: url("assets/ski-hero.png"); /* <-- CHANGE if needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-  opacity: 1;     /* was 0.50 */
-  filter: none;   /* remove filters */
+  opacity: 1;
+  filter: none;
 
   pointer-events: none;
   z-index: -2;
 }
 
+/* Keep overlays OFF */
 body::after {
-  content: none;  /* remove the dark overlay gradient entirely */
+  content: none;
 }
 
 /* =========================================================
@@ -72,11 +90,21 @@ body::after {
 
 .app-panel {
   border-radius: 18px;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(0,0,0,0.50);
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.52);           /* ↑ more readable over bright photo */
   backdrop-filter: blur(10px);
   box-shadow: 0 24px 70px rgba(0,0,0,0.70);
   padding: 1rem;
+}
+
+/* Improve text visibility in the header over the photo */
+.app-title,
+.app-subtitle,
+.auth-bar,
+.auth-row,
+#auth-status,
+#editor-badge {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.55);
 }
 
 /* =========================================================
@@ -131,7 +159,7 @@ body::after {
 #login-pass  { width: min(180px, 28vw); }
 
 /* =========================================================
-   Tabs
+   Tabs (base)
 ========================================================= */
 .segmented {
   display: inline-flex;
@@ -169,11 +197,12 @@ body::after {
 }
 
 .disclaimer {
-  color: var(--color-text-muted);
+  color: rgba(245,245,247,0.78); /* more readable over photo */
   font-size: .82rem;
   line-height: 1.35;
   margin: 0 auto;
   max-width: 900px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.55);
 }
 
 .footer-links {
@@ -185,10 +214,11 @@ body::after {
 }
 
 .footer-link {
-  color: var(--color-text-secondary);
+  color: rgba(245,245,247,0.82);
   text-decoration: none;
-  border-bottom: 1px solid rgba(255,255,255,0.18);
+  border-bottom: 1px solid rgba(255,255,255,0.24);
   padding-bottom: 2px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.55);
 }
 
 .footer-link:hover {
@@ -517,56 +547,10 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin:0; }
 
 /* =========================================================
-   NEW: Hero ski background + clean Manila folder + staggered tabs
-   (Paste at very bottom of style.css)
+   Manila folder look + staggered tabs (FIXED attachment/shape)
 ========================================================= */
 
-/* Optional handwriting font for tabs (requires internet). If you prefer no external font,
-   delete this import and the font-family below will fall back gracefully. */
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-
-/* --- Background: skier photo, no filters, full-bleed --- */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image: url("assets/ski-hero.png"); /* <-- CHANGE filename if needed */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  filter: none;
-  pointer-events: none;
-  z-index: -2;
-}
-
-/* Keep overlays OFF (you already had this, but keeping it explicit) */
-body::after { content: none; }
-
-/* Make the panel readable without tinting the background image */
-.app-panel {
-  background: rgba(0,0,0,0.40);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.10);
-}
-
-/* --- Manila palette tuned to look like real folder stock --- */
-:root {
-  --folder-paper-top: #f7ebc9;
-  --folder-paper-mid: #f1dfb3;
-  --folder-paper-bot: #e9cf93;
-  --folder-line: rgba(0,0,0,0.18);
-  --folder-shadow: 0 18px 45px rgba(0,0,0,0.45);
-  --folder-ink: rgba(18, 20, 22, 0.92);
-
-  --tab-a: #f3e2b3;
-  --tab-b: #efd79f;
-  --tab-c: #f6ebc5;
-
-  --tab-font: "Patrick Hand", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-}
-
-/* --- Folder card (main content) --- */
+/* Folder card (main content) */
 .card {
   position: relative;
   color: var(--folder-ink);
@@ -575,28 +559,27 @@ body::after { content: none; }
   box-shadow: var(--folder-shadow);
   padding: 1.05rem 1.25rem 1.25rem;
 
-  /* subtle folder texture + highlight */
   background:
     linear-gradient(180deg, var(--folder-paper-top), var(--folder-paper-mid) 45%, var(--folder-paper-bot)),
     repeating-linear-gradient(
       90deg,
-      rgba(255,255,255,0.06) 0px,
-      rgba(255,255,255,0.06) 2px,
+      rgba(255,255,255,0.05) 0px,
+      rgba(255,255,255,0.05) 2px,
       rgba(0,0,0,0.00) 2px,
-      rgba(0,0,0,0.00) 12px
+      rgba(0,0,0,0.00) 14px
     );
 }
 
-/* Make standard muted text inside folder actually readable */
+/* Folder readability */
 .card .field-label { color: rgba(18,20,22,0.70); }
 .card .muted,
 .card .small.muted { color: rgba(18,20,22,0.64) !important; }
 
-/* Search bar: lighter + “paper” friendly */
+/* Inputs inside folder: light + clean */
 .card .field-input,
 .card textarea,
 .card .field-select {
-  background: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.70);
   border: 1px solid rgba(0,0,0,0.20);
   color: rgba(18,20,22,0.92);
 }
@@ -604,11 +587,11 @@ body::after { content: none; }
 .card .field-input:focus,
 .card textarea:focus,
 .card .field-select:focus {
-  border-color: rgba(0,0,0,0.35);
+  border-color: rgba(0,0,0,0.32);
   box-shadow: 0 0 0 3px rgba(0,0,0,0.08);
 }
 
-/* Buttons: make “Add Resort” fit the manila vibe (forest ink) */
+/* Add Resort button: match folder vibe */
 .btn-primary {
   background: #2f5f4f;
   color: #ffffff;
@@ -617,94 +600,80 @@ body::after { content: none; }
 }
 .btn-primary:hover { filter: brightness(1.05); }
 
-/* Keep ghost buttons subtle on folder */
-.btn-ghost {
-  background: rgba(255,255,255,0.15);
-  border-color: rgba(0,0,0,0.18);
-  color: rgba(18,20,22,0.75);
-}
-
-/* --- Folder tabs (staggered like real manila tabs) --- */
+/* Tabs container becomes “tab rail” */
 .nav-row {
   justify-content: center;
-  margin-top: .25rem;
-  margin-bottom: .45rem;
+  margin-top: .35rem;
+  margin-bottom: .35rem;
 }
 
-/* Turn segmented container into a “tab rail” */
 .segmented.segmented--center {
   position: relative;
   border: 0;
   background: transparent;
   border-radius: 0;
   overflow: visible;
-  gap: 0;
+  gap: .35rem;
+  padding-bottom: 0;
 }
 
-/* Each tab is a real tab */
+/* Each tab: simpler shape (no weird bridge), and actually attached */
 .segmented.segmented--center .segmented-btn {
   position: relative;
   border: 1px solid rgba(0,0,0,0.22);
   border-bottom: 0;
   background: var(--tab-a);
   color: #111;
-  padding: .55rem 1.1rem .45rem;
+  padding: .55rem 1.15rem .48rem;
   font-weight: 700;
   font-family: var(--tab-font);
   font-size: 1.05rem;
   letter-spacing: .2px;
 
-  /* tab shape */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 
-  /* IMPORTANT: visually attach to folder */
-  margin-right: .35rem;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.18);
+  z-index: 2;
 }
 
-/* Stagger like the manila photo */
-.segmented.segmented--center .segmented-btn:nth-child(1) { top: 6px; background: var(--tab-b); z-index: 3; }
-.segmented.segmented--center .segmented-btn:nth-child(2) { top: 0px; background: var(--tab-c); z-index: 4; }
-/* if you add a 3rd tab later */
-.segmented.segmented--center .segmented-btn:nth-child(3) { top: 3px; background: var(--tab-a); z-index: 2; }
+/* Stagger like real manila tabs */
+.segmented.segmented--center .segmented-btn:nth-child(1) { transform: translateY(7px); background: var(--tab-b); }
+.segmented.segmented--center .segmented-btn:nth-child(2) { transform: translateY(1px); background: var(--tab-c); }
+.segmented.segmented--center .segmented-btn:nth-child(3) { transform: translateY(4px); background: var(--tab-a); }
 
-/* Active tab: looks “frontmost” and attached */
+/* Active tab comes to front */
 .segmented.segmented--center .segmented-btn--active {
   background: #fff2cf;
   color: #111;
   z-index: 6;
-  transform: translateY(1px);
+  transform: translateY(0px);
 }
 
-/* Create the “attachment” bridge so tab merges into the folder top edge */
+/* The “attachment” trick: a thin strip that exactly matches folder top */
 .segmented.segmented--center .segmented-btn::after {
   content: "";
   position: absolute;
   left: -1px;
   right: -1px;
-  bottom: -10px;
-  height: 12px;
-  background: inherit;
-  border-left: 1px solid rgba(0,0,0,0.22);
-  border-right: 1px solid rgba(0,0,0,0.22);
+  bottom: -1px;
+  height: 2px;
+  background: var(--folder-paper-top); /* makes it look fused to the folder */
 }
 
-/* Pull the folder up under the tabs slightly so it reads as one object */
-.app-main .card {
-  margin-top: -2px;
-}
+/* Pull folder up so tabs sit on it (this is what makes it feel attached) */
+.app-main .card { margin-top: -10px; }
 
-/* --- Resort list cards should match folder aesthetic --- */
+/* Resort list cards on folder */
 .resort-btn {
   border: 1px solid rgba(0,0,0,0.18);
   background: rgba(255,255,255,0.18);
 }
 .resort-btn:hover { border-color: rgba(0,0,0,0.28); }
 
-/* --- Resort detail view: make it clean + structured on folder paper --- */
+/* Resort detail: cleaner separators on folder */
 .card h2 { color: #111; }
-.hr { background: rgba(0,0,0,0.15); }
+.hr { background: rgba(0,0,0,0.14); }
 
 .kpi-pill {
   border: 1px solid rgba(0,0,0,0.18);
@@ -714,26 +683,29 @@ body::after { content: none; }
 .kpi-pill strong { color: rgba(18,20,22,0.92); }
 
 /* Star buttons: subtle “ink stamp” style */
-.stars { gap: .25rem; }
+.stars { display: inline-flex; gap: .25rem; align-items: center; user-select: none; }
 .star-btn {
   border: 1px solid rgba(0,0,0,0.20);
   background: rgba(255,255,255,0.25);
   color: rgba(18,20,22,0.85);
   border-radius: 10px;
+  padding: .35rem .5rem;
+  cursor: pointer;
+  font-weight: 900;
+  line-height: 1;
+  transform: translateY(0);
 }
+.star-btn:hover { transform: translateY(-1px); }
 .star-btn--on {
   background: rgba(47, 95, 79, 0.20);
   border-color: rgba(47, 95, 79, 0.35);
 }
 
-/* Mobile: keep tabs readable and not cramped */
+/* Mobile: keep tabs readable */
 @media (max-width: 520px) {
   .segmented.segmented--center .segmented-btn {
     font-size: 1rem;
     padding: .55rem .85rem .45rem;
   }
+  .app-main .card { margin-top: -8px; }
 }
-
-
-
-
