@@ -673,7 +673,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 }
 
 /* Pull folder up so the bridge overlaps (no visible seam) */
-.app-main .card { margin-top: -10x; }
+.app-main .card { margin-top: 0x; }
 
 /* Resort list cards on folder */
 .resort-btn {
@@ -721,4 +721,5 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   .nav-row { padding-left: 10px; }
   .app-main .card { margin-top: -12px; }
 }
+
 
