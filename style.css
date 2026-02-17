@@ -30,11 +30,14 @@
   --folder-shadow: 0 18px 45px rgba(0,0,0,0.45);
   --folder-ink: rgba(18, 20, 22, 0.92);
 
-  --tab-a: #f3e2b3;
-  --tab-b: #efd79f;
-  --tab-c: #f6ebc5;
-
+  /* Tabs tuned to MATCH folder top edge */
+  --tab-a: #f7ebc9;   /* same as folder top */
+  --tab-b: #f1dfb3;   /* same as folder mid */
+  --tab-c: #f6e7c0;   /* close to folder top */
   --tab-font: "Patrick Hand", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  /* Bridge that makes tabs physically “attach” to the folder */
+  --tab-bridge: 18px; /* how far the tab base extends onto the folder */
 }
 
 * { box-sizing: border-box; }
@@ -547,7 +550,7 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin:0; }
 
 /* =========================================================
-   Manila folder look + staggered tabs (SYNCED + LEFT-ALIGNED)
+   Manila folder look + staggered tabs (SYNC + FLUSH)
 ========================================================= */
 
 /* Folder card (main content) */
@@ -556,7 +559,6 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   color: var(--folder-ink);
   border-radius: 14px;
   border: 1px solid var(--folder-line);
-  border-top-color: transparent; /* lets tabs “own” the top edge */
   box-shadow: var(--folder-shadow);
   padding: 1.05rem 1.25rem 1.25rem;
 
@@ -601,13 +603,12 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 }
 .btn-primary:hover { filter: brightness(1.05); }
 
-/* Tabs positioned to the LEFT side of the folder */
+/* --- Tabs: LEFT aligned + FLUSH + color-synced to folder --- */
 .nav-row {
-  justify-content: flex-start;   /* left align tabs */
-  margin-top: .15rem;
-  margin-bottom: 0;             /* remove extra gap */
-  padding-left: 12px;           /* aligns visually with folder edge */
-  z-index: 10;
+  justify-content: flex-start;     /* LEFT side of folder */
+  margin-top: .35rem;
+  margin-bottom: 0;               /* remove extra gap */
+  padding-left: 1.25rem;          /* match .card left padding */
 }
 
 /* Tab rail */
@@ -619,15 +620,14 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   overflow: visible;
   gap: .35rem;
   padding-bottom: 0;
-  margin: 0;                    /* don't auto-center */
 }
 
 /* Each tab */
 .segmented.segmented--center .segmented-btn {
   position: relative;
-  border: 1px solid var(--folder-line);
+  border: 1px solid var(--folder-line); /* same border as folder */
   border-bottom: 0;
-  background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-a));
+  background: var(--tab-a);
   color: #111;
   padding: .55rem 1.15rem .48rem;
   font-weight: 700;
@@ -639,41 +639,45 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   border-top-right-radius: 12px;
 
   box-shadow: 0 10px 18px rgba(0,0,0,0.18);
-  z-index: 2;
-
-  /* IMPORTANT: use top instead of transform so the base stays synced */
-  top: 0;
+  z-index: 5;
 }
 
-/* Stagger like real manila tabs (using top, so base follows perfectly) */
-.segmented.segmented--center .segmented-btn:nth-child(1) { top: 7px; background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-b)); }
-.segmented.segmented--center .segmented-btn:nth-child(2) { top: 1px; background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-c)); }
-.segmented.segmented--center .segmented-btn:nth-child(3) { top: 4px; background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-a)); }
+/* Stagger (but keep the base/bridge aligned by using translateY only) */
+.segmented.segmented--center .segmented-btn:nth-child(1) { transform: translateY(8px); background: var(--tab-b); z-index: 6; }
+.segmented.segmented--center .segmented-btn:nth-child(2) { transform: translateY(2px); background: var(--tab-c); z-index: 7; }
+.segmented.segmented--center .segmented-btn:nth-child(3) { transform: translateY(5px); background: var(--tab-a); z-index: 5; }
 
-/* Active tab comes to front */
+/* Active tab: same family, just slightly “front” */
 .segmented.segmented--center .segmented-btn--active {
-  background: linear-gradient(180deg, #fff6d9, #ffe9b8);
+  background: var(--folder-paper-top); /* EXACT match to folder top */
   color: #111;
-  z-index: 6;
-  top: 0; /* front-most tab sits “true” */
+  z-index: 20;
 }
 
-/* The base/bridge: EXACT folder-top color so it looks welded to the folder */
+/* The “attached base” (bridge) that lands onto the folder top:
+   IMPORTANT: use folder top gradient so it ALWAYS matches the folder edge */
 .segmented.segmented--center .segmented-btn::after {
   content: "";
   position: absolute;
   left: -1px;
   right: -1px;
-  top: 100%;
-  height: 14px;                          /* bridge length */
-  background: var(--folder-paper-top);   /* matches folder top perfectly */
+
+  /* overlap the folder border by 1px to remove ANY hairline gap */
+  top: calc(100% - 1px);
+
+  height: var(--tab-bridge);
+
+  /* match the folder’s top surface (not inherit) */
+  background: linear-gradient(180deg, var(--folder-paper-top), var(--folder-paper-mid));
+
   border-left: 1px solid var(--folder-line);
   border-right: 1px solid var(--folder-line);
-  border-bottom: 0;
 }
 
-/* Pull folder up so the bridge overlaps (no visible seam) */
-.app-main .card { margin-top: -14px; }
+/* Pull folder up so the bridge sits ON the folder */
+.app-main .card {
+  margin-top: calc(-1 * (var(--tab-bridge) - 2px));
+}
 
 /* Resort list cards on folder */
 .resort-btn {
@@ -718,6 +722,6 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
     font-size: 1rem;
     padding: .55rem .85rem .45rem;
   }
-  .nav-row { padding-left: 10px; }
-  .app-main .card { margin-top: -12px; }
+  .nav-row { padding-left: .85rem; }
+  .app-main .card { margin-top: calc(-1 * (var(--tab-bridge) - 6px)); }
 }
