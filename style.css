@@ -661,7 +661,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 /* The base/bridge: EXACT folder-top color so it looks welded to the folder */
 .segmented.segmented--center .segmented-btn::after {
   content: "";
-  position: -10;
+  position: 20;
   left: -1px;
   right: -1px;
   top: 100%;
@@ -669,11 +669,11 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   background: var(--folder-paper-top);   /* matches folder top perfectly */
   border-left: 1px solid var(--folder-line);
   border-right: 1px solid var(--folder-line);
-  border-bottom: -10;
+  border-bottom: 20;
 }
 
 /* Pull folder up so the bridge overlaps (no visible seam) */
-.app-main .card { margin-top: 30x; }
+.app-main .card { margin-top: 0x; }
 
 /* Resort list cards on folder */
 .resort-btn {
@@ -721,6 +721,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   .nav-row { padding-left: 10px; }
   .app-main .card { margin-top: -12px; }
 }
+
 
 
 
