@@ -621,7 +621,6 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 .btn-primary:hover { filter: brightness(1.05); }
 
 /* Tabs positioned to the LEFT side of the folder */
-/* Tabs positioned to the LEFT side of the folder */
 .nav-row{
   display: flex;
   justify-content: flex-start;   /* left align tabs */
