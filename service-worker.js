@@ -3,7 +3,7 @@
 // Cache-first for static assets
 // Never cache Supabase API calls
 
-const CACHE = "powderfiles-cache-v3";
+const CACHE = "powderfiles-cache-v4";
 
 const ASSETS = [
   "./",

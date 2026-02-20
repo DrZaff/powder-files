@@ -19,6 +19,7 @@
 
   --radius-card: 12px;
   --shadow-card: 0 18px 45px rgba(0,0,0,0.55);
+  --gradient-accent: linear-gradient(110deg, rgba(22,242,154,0.2), rgba(74,170,255,0.25));
 
   --maxw: 1100px;
 
@@ -89,12 +90,14 @@ body::after {
 }
 
 .app-panel {
-  border-radius: 18px;
-  border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(0,0,0,0.52);           /* ↑ more readable over bright photo */
-  backdrop-filter: blur(10px);
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background:
+    linear-gradient(180deg, rgba(5,8,16,0.86), rgba(5,8,16,0.73)),
+    radial-gradient(circle at top right, rgba(122,214,255,0.2), transparent 45%);
+  backdrop-filter: blur(12px);
   box-shadow: 0 24px 70px rgba(0,0,0,0.70);
-  padding: 1rem;
+  padding: 1.1rem;
 }
 
 /* Improve text visibility in the header over the photo */
@@ -125,8 +128,9 @@ body::after {
 .header-right { grid-area: auth; }
 .nav-row { grid-area: nav; display: flex; justify-content: center; margin-top: .25rem; }
 
-.app-title { margin: 0; font-size: 1.85rem; letter-spacing: 0.2px; }
-.app-subtitle { margin: .35rem 0 0; color: var(--color-text-secondary); font-size: 0.95rem; }
+
+.app-title { margin: 0; font-size: 2.05rem; letter-spacing: 0.2px; }
+.app-subtitle { margin: .35rem 0 0; color: rgba(245,245,247,0.86); font-size: 0.98rem; }
 
 /* Auth bar */
 .header-right {
@@ -178,6 +182,7 @@ body::after {
   padding: .55rem 1.05rem;
   cursor: pointer;
   font-weight: 750;
+  transition: transform .12s ease, filter .12s ease;
 }
 
 .segmented-btn--active {
@@ -556,7 +561,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   color: var(--folder-ink);
   border-radius: 14px;
   border: 1px solid var(--folder-line);
-  border-top-color: transparent; /* lets tabs “own” the top edge */
+  border-top-color: transparent;
   box-shadow: var(--folder-shadow);
   padding: 1.05rem 1.25rem 1.25rem;
 
@@ -602,13 +607,12 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 .btn-primary:hover { filter: brightness(1.05); }
 
 /* Tabs positioned to the LEFT side of the folder */
-/* Tabs positioned to the LEFT side of the folder */
 .nav-row{
   display: flex;
   justify-content: flex-start;   /* left align tabs */
   align-items: flex-end;
   margin-top: .15rem;
-  margin-bottom: -14px;          /* overlap the folder so tabs touch */
+  margin-bottom: -14px;          /* tabs and folder now share one continuous face */
   padding-left: 18px;            /* aligns visually with folder edge */
   position: relative;
   z-index: 20;
@@ -626,50 +630,43 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   margin: 0;                     /* don't auto-center */
 }
 
-/* Each tab */
+/* Each tab: same color family as folder so it reads as one object */
 .segmented.segmented--center .segmented-btn{
   position: relative;
   border: 1px solid var(--folder-line);
-  border-bottom: 0;              /* tab blends into folder */
-  background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-a));
+  border-bottom: 0;
+  background: linear-gradient(180deg, var(--folder-paper-top), var(--folder-paper-mid) 75%, var(--folder-paper-bot));
   color: #111;
-  padding: .55rem 1.15rem .48rem;
+  padding: .55rem 1.15rem .5rem;
   font-weight: 700;
   font-family: var(--tab-font);
   font-size: 1.05rem;
   letter-spacing: .2px;
-
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-
-  box-shadow: 0 10px 18px rgba(0,0,0,0.18);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.13);
   z-index: 2;
-  top: 0;
 }
 
-/* Stagger like real manila tabs */
+/* Gentle stagger while keeping visual continuity */
 .segmented.segmented--center .segmented-btn:nth-child(1){
-  top: 7px;
-  background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-b));
+  top: 8px;
 }
 .segmented.segmented--center .segmented-btn:nth-child(2){
-  top: 1px;
-  background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-c));
-}
-.segmented.segmented--center .segmented-btn:nth-child(3){
-  top: 4px;
-  background: linear-gradient(180deg, var(--folder-paper-top), var(--tab-a));
+  top: 2px;
 }
 
-/* Active tab comes to front */
+/* Active tab comes slightly forward without changing color */
 .segmented.segmented--center .segmented-btn--active{
-  background: linear-gradient(180deg, #fff6d9, #ffe9b8);
-  color: #111;
   z-index: 6;
-  top: -2px;
+  top: -1px;
+}
+.segmented.segmented--center .segmented-btn:hover {
+  filter: brightness(1.01);
+  transform: translateY(0);
 }
 
-/* Bridge that welds tab to folder */
+/* Seam bridge: identical folder face to create a single continuous object */
 .segmented.segmented--center .segmented-btn::after{
   content: "";
   position: absolute;
@@ -677,7 +674,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   right: -1px;
   top: 100%;
   height: 14px;
-  background: var(--folder-paper-top);
+  background: linear-gradient(180deg, var(--folder-paper-top), var(--folder-paper-mid));
   border-left: 1px solid var(--folder-line);
   border-right: 1px solid var(--folder-line);
 }
@@ -685,8 +682,8 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 /* Remove tiny gap above folder */
 .app-main{ padding-top: 0; }
 
-/* Pull folder up so the bridge overlaps (no visible seam) */
-.app-main .card { margin-top: 0x; }
+/* Pull folder up to meet tab bridge seamlessly */
+.app-main .card { margin-top: 0; }
 
 /* Resort list cards on folder */
 .resort-btn {
@@ -740,3 +737,44 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
 
 
 
+
+
+/* Utility page layout */
+.page-section {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.page-lead {
+  margin: 0 0 1rem;
+  color: rgba(18,20,22,0.78);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.info-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: .45rem;
+  color: rgba(18,20,22,0.85);
+}
+
+.info-list li::marker {
+  color: #2f5f4f;
+}
+
+.cta-row {
+  margin-top: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.cta-row .btn-secondary,
+.cta-row .btn-primary {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
