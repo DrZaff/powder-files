@@ -70,7 +70,7 @@ test('historical, linked-area and approximate figures remain explicit',()=>{
 test('generated public dataset includes each batch profile and preserves Bristol',async()=>{
   const path=new URL('../../public/data/resorts.compact.json',import.meta.url)
   const {records}=JSON.parse(await readFile(path,'utf8'))
-  assert.equal(records.length,1521)
+  assert.equal(records.length,1409)
   for(const entry of officialBatch){
     const r=records.find(r=>r.id===entry.id)
     assert.ok(r,entry.id);assert.ok(['medium','high'].includes(r.q))

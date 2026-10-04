@@ -1,19 +1,19 @@
 # Global Resort Data Quality Report
 
-Generated: 2026-10-04T01:07:13.418Z
+Generated: 2026-10-04T01:16:24.088Z
 
 - Raw candidates: 7439
-- Canonical records: 6089
+- Canonical records: 5977
 - Verified: 1
-- Candidates: 1520
+- Candidates: 1408
 - Uncertain: 365
 - Incomplete: 4203
-- Exclusions: 230
+- Exclusions: 342
 - Ambiguities: 366
-- Represented countries: 63
-- Coordinate coverage: 96%
-- Country coverage: 32.3%
-- Website coverage: 45.1%
+- Represented countries: 62
+- Coordinate coverage: 95.9%
+- Country coverage: 31%
+- Website coverage: 45.6%
 
 ## Limitations
 

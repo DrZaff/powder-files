@@ -110,22 +110,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3906252",
-    "name": "Planica Nordic Center",
-    "country": "Slovenia",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q6924501",
     "name": "Mount Washington Alpine Resort",
     "country": "Canada",
@@ -306,22 +290,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q7994733",
-    "name": "White Grass Ski Touring Center",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q433534",
     "name": "Alta Badia",
     "country": "Italy",
@@ -447,22 +415,6 @@
         ]
       }
     ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7062537",
-    "name": "Notchview",
-    "country": "United States",
-    "official_website": "https://thetrustees.org/place/notchview",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -768,22 +720,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q14704796",
-    "name": "Yellowstone Club",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q6671744",
     "name": "Lonesome Pine Trails",
     "country": "United States",
@@ -819,22 +755,6 @@
     "official_website": null,
     "missing_official_facts": [
       "area",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q15278304",
-    "name": "Snow Farm",
-    "country": "New Zealand",
-    "official_website": "https://snowfarm.nz",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
@@ -3136,22 +3056,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q61202004",
-    "name": "Plateau de Beille",
-    "country": "France",
-    "official_website": "http://www.beille.fr",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q1670175",
     "name": "Rosswald",
     "country": "Switzerland",
@@ -3352,22 +3256,6 @@
     "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
-  },
-  {
-    "id": "openstreetmap:way:1016830386",
-    "name": "Bergisel Schanze",
-    "country": "Austria",
-    "official_website": "https://www.bergisel.info",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "no_wikidata_identifier"
   },
   {
     "id": "wikidata:item:Q5332755",
@@ -3857,44 +3745,12 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "openstreetmap:way:1148720305",
-    "name": "Centro Cultural e Esportivo de Ibiúna - Kaikan de Ibiúna",
-    "country": "Brazil",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "no_wikidata_identifier"
-  },
-  {
     "id": "wikidata:item:Q5191297",
     "name": "Crystal Mountain",
     "country": "United States",
     "official_website": "http://www.crystalmountain.com",
     "missing_official_facts": [
       "skiing_elevation"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11276250",
-    "name": "Hida Funayama Snow Resort Arkopia",
-    "country": "Japan",
-    "official_website": "https://www.arko-kurumi.com/restaurant.html",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -4304,22 +4160,6 @@
     "name": "IOX-AROSA",
     "country": "Japan",
     "official_website": "https://iox-arosa.jp",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11535900",
-    "name": "Kuriko International Ski & Resort",
-    "country": "Japan",
-    "official_website": "http://www.kurikokokusai.jp",
     "missing_official_facts": [
       "vertical",
       "area",
@@ -5079,22 +4919,6 @@
     "country": "United States",
     "official_website": "http://www.waterville.com",
     "missing_official_facts": [
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7835597",
-    "name": "Trapp Family Lodge",
-    "country": "United States",
-    "official_website": "https://www.vontrappresort.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
@@ -6531,22 +6355,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q104666663",
-    "name": "Domaine nordique du Meygal",
-    "country": "France",
-    "official_website": "https://chaletdumeygal.wordpress.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q5595863",
     "name": "Granite Gorge Ski Area",
     "country": "United States",
@@ -6858,54 +6666,6 @@
     "name": "Tussey Mountain Ski Area",
     "country": "United States",
     "official_website": "http://www.tusseymountain.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q24190888",
-    "name": "Beaver Valley Ski Club",
-    "country": "Canada",
-    "official_website": "https://www.beavervalley.ca",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5181711",
-    "name": "Craigleith Ski Club",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3212711",
-    "name": "La Sambuy-Seythenex",
-    "country": "France",
-    "official_website": "https://www.lasambuy.com",
     "missing_official_facts": [
       "vertical",
       "area",
@@ -8911,22 +8671,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q1006457",
-    "name": "Ustaoset",
-    "country": "Norway",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q100873164",
     "name": "Alp Oberlose",
     "country": "Austria",
@@ -9627,22 +9371,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q109361488",
-    "name": "Q109361488",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q109366617",
     "name": "Bodaira Ski Area",
     "country": "Japan",
@@ -9693,38 +9421,6 @@
   {
     "id": "wikidata:item:Q109595290",
     "name": "Q109595290",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q109596786",
-    "name": "Q109596786",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q109603100",
-    "name": "Q109603100",
     "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
@@ -10330,22 +10026,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11283056",
-    "name": "Q11283056",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11283197",
     "name": "Takamine Mountain Park",
     "country": "Japan",
@@ -10396,22 +10076,6 @@
   {
     "id": "wikidata:item:Q11294773",
     "name": "Kamui Misaka Ski Area",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11294783",
-    "name": "Q11294783",
     "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
@@ -11669,22 +11333,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11398598",
-    "name": "Kayama Captain Coast ski resort",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11401369",
     "name": "Kita-Taisetsu",
     "country": "Japan",
@@ -11781,22 +11429,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11423690",
-    "name": "Q11423690",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11431454",
     "name": "Yumenotaira Ski Area",
     "country": "Japan",
@@ -11865,22 +11497,6 @@
     "name": "Daisetsuzan Kurodake Ski Resort",
     "country": "Japan",
     "official_website": "https://www.rinyu.co.jp/kurodake",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11442556",
-    "name": "Q11442556",
-    "country": "Japan",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -12374,22 +11990,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11521103",
-    "name": "Q11521103",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11521175",
     "name": "Sapporo Kokusai Ski Resort",
     "country": "Japan",
@@ -12424,22 +12024,6 @@
     "name": "Matsunoyama Onsen Ski Area",
     "country": "Japan",
     "official_website": "http://www.matsunoyama-ski.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q115326490",
-    "name": "Q115326490",
-    "country": "France",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -12533,22 +12117,6 @@
     "name": "Q11547492",
     "country": "Japan",
     "official_website": "http://www.hirasan.co.jp",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11554334",
-    "name": "Q11554334",
-    "country": "Japan",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -12781,22 +12349,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11579584",
-    "name": "Q11579584",
-    "country": "Japan",
-    "official_website": "http://sam-hakusan.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11579880",
     "name": "Shirakaba 2in1 Ski Resort",
     "country": "Japan",
@@ -12926,42 +12478,10 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11583640",
-    "name": "Q11583640",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11587268",
     "name": "Ishizuchi Ski Area",
     "country": "Japan",
     "official_website": "https://www.ishizuchi.com/ski",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11589526",
-    "name": "Q11589526",
-    "country": "Japan",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -13242,22 +12762,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q11626426",
-    "name": "Omote Manza Snow Park",
-    "country": "Japan",
-    "official_website": "http://omotemanza.jp",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11626773",
     "name": "Nekoma Ski Resort",
     "country": "Japan",
@@ -13379,110 +12883,6 @@
       "lifts"
     ],
     "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q1164471",
-    "name": "Le Freney-d'Oisans",
-    "country": "France",
-    "official_website": "http://www.lefreneydoisans.fr",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q1164471#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q1164471-05E7C2B8-FEBD-40E3-8F3E-8B48CB30EDA3",
-            "amount": 2118,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              }
-            ],
-            "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
-            ]
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q1164471-AB655AF1-E035-4229-A83A-34B7D036235C",
-            "amount": 3445,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              }
-            ],
-            "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-            ]
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q1164471-C40876E3-10D2-4BA7-829C-0B465FF3D47B",
-            "amount": 871,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              }
-            ],
-            "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-            ]
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -13628,22 +13028,6 @@
   {
     "id": "wikidata:item:Q11675043",
     "name": "Ashima ski resort",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q11675143",
-    "name": "Q11675143",
     "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
@@ -14776,22 +14160,6 @@
         "license": "CC0-1.0"
       }
     ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q124541062",
-    "name": "Q124541062",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -16680,41 +16048,9 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q14538243",
-    "name": "Winter sports in Harz",
-    "country": "Germany",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q1456395",
     "name": "Sellaronda",
     "country": "Italy",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q14681656",
-    "name": "Buckhorn Ski Club",
-    "country": "United States",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -16780,22 +16116,6 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q14715730",
-    "name": "Mount Tom Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
@@ -16871,22 +16191,6 @@
     "id": "wikidata:item:Q14889394",
     "name": "Shemshak",
     "country": "Iran",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q1490642",
-    "name": "Maseben",
-    "country": "Italy",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -17009,22 +16313,6 @@
     "id": "wikidata:item:Q15056401",
     "name": "Grasgehren",
     "country": "Germany",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q15057569",
-    "name": "Lungern-Schönbüel",
-    "country": "Switzerland",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -17166,22 +16454,6 @@
     "id": "wikidata:item:Q1575304",
     "name": "Nanshan Ski Village",
     "country": "People's Republic of China",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q15847736",
-    "name": "Skihalle Neuss",
-    "country": "Germany",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -17610,70 +16882,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q16964615",
-    "name": "Céüze 2000",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q16989261",
-    "name": "Kobla Ski Resort",
-    "country": "Slovenia",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q16992551",
-    "name": "Enchanted Mountain",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q16994980",
-    "name": "Haystack Mountain Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q17099813",
     "name": "Zarosliak",
     "country": "Ukraine",
@@ -17800,22 +17008,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q17219909",
-    "name": "Snow Park Unpenji",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q17221475",
     "name": "Tokusagamine Wood Park",
     "country": "Japan",
@@ -17841,22 +17033,6 @@
       "area",
       "trails",
       "skiing_elevation"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q17230403",
-    "name": "Q17230403",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -17971,22 +17147,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q1792049",
-    "name": "Kunama Hut",
-    "country": "Australia",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q17988268",
     "name": "Akasawa Ski Resort",
     "country": "Japan",
@@ -18038,22 +17198,6 @@
     "id": "wikidata:item:Q1801525",
     "name": "Plan Maison",
     "country": "Italy",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q1805320",
-    "name": "Langlaufzentrum Silberhütte",
-    "country": "Germany",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -18207,38 +17351,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q1868319",
-    "name": "Cross-country skiing center Rotes Moor",
-    "country": "Germany",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q18701083",
-    "name": "Q18701083",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q18701260",
     "name": "Kuzuryu Ski Area",
     "country": "Japan",
@@ -18276,22 +17388,6 @@
       "vertical",
       "area",
       "skiing_elevation"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q1883463",
-    "name": "Madrid Snowzone",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -18410,22 +17506,6 @@
     "id": "wikidata:item:Q196894",
     "name": "Zettersfeld",
     "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q19818276",
-    "name": "Hoppbacken Skidcentrum",
-    "country": "Finland",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -19155,22 +18235,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q24191296",
-    "name": "Mount Agassiz Ski Resort",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q2438761",
     "name": "Chäserrugg",
     "country": "Switzerland",
@@ -19586,22 +18650,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q2821683",
-    "name": "Abodi-Zaraitzu",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q2835507",
     "name": "Gavarnie-Gèdre",
     "country": "France",
@@ -19656,22 +18704,6 @@
       "vertical",
       "area",
       "skiing_elevation"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q2859531",
-    "name": "Aransa",
-    "country": "Spain",
-    "official_website": "http://www.aransaski.cat",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -19836,22 +18868,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q28924733",
-    "name": "Mount Stirling Alpine Resort",
-    "country": "Australia",
-    "official_website": "http://www.mtstirling.com.au",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q29025220",
     "name": "Groupe Plein Air Terrebonne",
     "country": "Canada",
@@ -19934,22 +18950,6 @@
   {
     "id": "wikidata:item:Q2943178",
     "name": "Cauterets",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q2948106",
-    "name": "Q2948106",
     "country": "France",
     "official_website": null,
     "missing_official_facts": [
@@ -20204,117 +19204,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q303504",
-    "name": "La Garde",
-    "country": "France",
-    "official_website": "http://www.lagardeenoisans.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q303504#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q303504-FE59C6BC-BDE2-407F-848B-6645E41F42A3",
-            "amount": 715,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              }
-            ],
-            "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-            ]
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q303504-2E8B0053-A675-4189-8C6D-7734E867F6A5",
-            "amount": 1859,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              }
-            ],
-            "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-            ]
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q303504-0D1AA00E-F458-402B-BAD7-B3093C22A790",
-            "amount": 1322,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              }
-            ],
-            "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
-            ]
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q303504-977F0E56-C42B-4E4A-95A6-4B77677F6978",
-            "amount": 982,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3037876",
     "name": "Valmorel",
     "country": "France",
@@ -20335,22 +19224,6 @@
     "name": "Le Désert d'Entremont",
     "country": "France",
     "official_website": "http://www.entremonts.fr",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3057432",
-    "name": "Esquí de Puigmal station",
-    "country": "France",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -20678,22 +19551,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3093482",
-    "name": "Gabardito",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3104905",
     "name": "Ghisoni-Capanelle",
     "country": "France",
@@ -20761,78 +19618,6 @@
     "name": "Gubałówka",
     "country": "Poland",
     "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3120587",
-    "name": "Guils Fontanera",
-    "country": "Spain",
-    "official_website": "http://www.guils.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q3120587#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3120587-7B8F22E0-FDA3-4255-BF6A-5279A7E986E5",
-            "amount": 2080,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3120587-517947CC-D75F-452B-BA6C-AD51FFB9AF67",
-            "amount": 1905,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              }
-            ],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3122468",
-    "name": "Cap Guéry",
-    "country": "France",
-    "official_website": "https://www.capguery.com",
     "missing_official_facts": [
       "vertical",
       "area",
@@ -21021,57 +19806,9 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3212119",
-    "name": "La Rabassa",
-    "country": "Andorra",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3216214",
     "name": "Station de ski de Laguiole",
     "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3216776",
-    "name": "Q3216776",
-    "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3217985",
-    "name": "Larra-Belagua",
-    "country": "Spain",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -21335,22 +20072,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3257499",
-    "name": "Lles",
-    "country": "Spain",
-    "official_website": "http://www.lles.net",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3311533",
     "name": "Mischliffen",
     "country": "Morocco",
@@ -21474,56 +20195,8 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3355038",
-    "name": "Orange (ski resort)",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3373256",
-    "name": "Payolle",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3388691",
     "name": "Pineta",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3389662",
-    "name": "Pla de Negua",
     "country": "Spain",
     "official_website": null,
     "missing_official_facts": [
@@ -21706,22 +20379,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3472549",
-    "name": "Sant Joan de l'Erm",
-    "country": "Spain",
-    "official_website": "http://www.santjoandelerm.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3496038",
     "name": "Q3496038",
     "country": "France",
@@ -21877,52 +20534,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q3541934",
-    "name": "Tuixent – la Vansa",
-    "country": "Spain",
-    "official_website": "http://www.tuixent-lavansa.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q3541934#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3541934-9d627484-480e-e567-3329-017fe524f322",
-            "amount": 1830,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3541934-49a31bbf-40db-da6b-2e8b-2f011af2cf3e",
-            "amount": 2150,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q3542303",
     "name": "Turini–Camp d’Argent",
     "country": "France",
@@ -22021,38 +20632,6 @@
         "license": "CC0-1.0"
       }
     ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3555811",
-    "name": "Q3555811",
-    "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3560959",
-    "name": "Bosc de Virós",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -22445,22 +21024,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q4735507",
-    "name": "Alpine Mountain Ski & Ride Center",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q47492588",
     "name": "Q47492588",
     "country": "Austria",
@@ -22823,22 +21386,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q4905734",
-    "name": "Big Four Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q4906452",
     "name": "Big Squaw Mountain Resort",
     "country": "United States",
@@ -22925,43 +21472,11 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q4925015",
-    "name": "Blandford Ski Area",
-    "country": "United States",
-    "official_website": "http://skiblandford.org",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q4929240",
     "name": "Blue Hills Ski Area",
     "country": "United States",
     "official_website": null,
     "missing_official_facts": [
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q4929408",
-    "name": "Blue Marsh Ski Resort",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
       "area",
       "trails",
       "skiing_elevation",
@@ -23175,22 +21690,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q5019347",
-    "name": "Caledon Ski Club",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q5028348",
     "name": "Campgaw Mountain Reservation",
     "country": "United States",
@@ -23279,22 +21778,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q5191294",
-    "name": "Crystal Mountain",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q5267162",
     "name": "Devil's Head Resort",
     "country": "United States",
@@ -23329,38 +21812,6 @@
     "official_website": null,
     "missing_official_facts": [
       "vertical",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5330866",
-    "name": "Easton Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5331365",
-    "name": "Eaton Mountain",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
       "trails",
       "skiing_elevation",
       "lifts"
@@ -23518,22 +21969,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q5364094",
-    "name": "Elk Ridge Ski Area",
-    "country": "United States",
-    "official_website": "http://www.elkridgeski.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q5395850",
     "name": "Saukkovaara",
     "country": "Finland",
@@ -23602,54 +22037,6 @@
     "name": "Frost Fire Ski and Snow Board Area",
     "country": "United States",
     "official_website": "http://www.frostfireskiarea.com/index.html",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5532980",
-    "name": "Geneva Basin Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5548043",
-    "name": "Georgian Peaks Club",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q55600121",
-    "name": "Val d'Azun",
-    "country": "France",
-    "official_website": null,
     "missing_official_facts": [
       "vertical",
       "area",
@@ -23836,38 +22223,6 @@
     "id": "wikidata:item:Q56508907",
     "name": "Cheile Grădiștei",
     "country": "Romania",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5675738",
-    "name": "Valcotos",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5682392",
-    "name": "Haugen Hill",
-    "country": "United States",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -24095,22 +22450,6 @@
     "id": "wikidata:item:Q5969371",
     "name": "Lagunillas",
     "country": "Chile",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q5995064",
-    "name": "Iizuna Kogen Ski Resort",
-    "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -25021,38 +23360,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q6436402",
-    "name": "Kratka Ridge",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6465552",
-    "name": "La Tuca",
-    "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q6492638",
     "name": "Las Vegas Ski and Snowboard Resort",
     "country": "United States",
@@ -25361,38 +23668,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q6804123",
-    "name": "Meany Lodge",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6861835",
-    "name": "Milwaukee Ski Bowl",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q688517",
     "name": "Verbier",
     "country": "Switzerland",
@@ -25452,22 +23727,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q6907826",
-    "name": "Moonlight Basin",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q6919591",
     "name": "Mount Baldy Ski Area",
     "country": "Canada",
@@ -25516,22 +23775,6 @@
     "country": "United States",
     "official_website": null,
     "missing_official_facts": [
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6923029",
-    "name": "Mount Potts",
-    "country": "New Zealand",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
@@ -25614,86 +23857,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q6924576",
-    "name": "Mount Whittier Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6925399",
-    "name": "Mountain View at Edinboro",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6948957",
-    "name": "Mystic Miner Ski Resort",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7034312",
-    "name": "Snow Park",
-    "country": "New Zealand",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7054704",
-    "name": "North Cascade Heli Skiing",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q7059771",
     "name": "Northstar California",
     "country": "United States",
@@ -25701,22 +23864,6 @@
     "missing_official_facts": [
       "vertical",
       "skiing_elevation"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7060528",
-    "name": "North–South Ski Bowl",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -25862,41 +24009,9 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q7334330",
-    "name": "Rim Nordic Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q7371252",
     "name": "Roundhill Ski Area",
     "country": "New Zealand",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7374228",
-    "name": "Royal Gorge Cross Country Ski Resort",
-    "country": "United States",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -25928,22 +24043,6 @@
     "id": "wikidata:item:Q7385886",
     "name": "Rânca",
     "country": "Romania",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7392969",
-    "name": "SSAWS",
-    "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -26120,22 +24219,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q7534880",
-    "name": "Ski Museum of Maine",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q7534900",
     "name": "Ski Snowstar",
     "country": "United States",
@@ -26250,22 +24333,6 @@
     "id": "wikidata:item:Q75847637",
     "name": "Skigebiet Hinterstoder Höss",
     "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7596835",
-    "name": "Stagecoach",
-    "country": "United States",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -26666,57 +24733,9 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q7857185",
-    "name": "Tuxedo Ridge Ski Center",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q787069",
     "name": "Mzaar Kfardebian",
     "country": "Lebanon",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q7898367",
-    "name": "Uplands Golf & Ski Club",
-    "country": "Canada",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q790938",
-    "name": "Aviemore",
-    "country": "United Kingdom",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -26920,40 +24939,8 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q8032488",
-    "name": "Woodbury Ski Area",
-    "country": "United States",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q8047625",
     "name": "Yamagata Zao Onsen Ski Resort",
-    "country": "Japan",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q80550478",
-    "name": "Tōji Sand Ski Area",
     "country": "Japan",
     "official_website": null,
     "missing_official_facts": [
@@ -28028,22 +26015,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q933474",
-    "name": "Issarbe",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q9337826",
     "name": "SkiPark Magura",
     "country": "Poland",
@@ -28431,22 +26402,6 @@
     "id": "wikidata:item:Q94722155",
     "name": "Kartala ski center",
     "country": "Bulgaria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q96392149",
-    "name": "Martin Ski Dome",
-    "country": "United States",
     "official_website": null,
     "missing_official_facts": [
       "vertical",

@@ -3218,5 +3218,1972 @@
       }
     ],
     "reason": "nordic_only"
+  },
+  {
+    "stable_id": "wikidata:item:Q96392149",
+    "name": "Martin Ski Dome",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q96392149",
+        "url": "https://www.wikidata.org/wiki/Q96392149",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q96392149"
+  },
+  {
+    "stable_id": "wikidata:item:Q933474",
+    "name": "Issarbe",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q933474",
+        "url": "https://www.wikidata.org/wiki/Q933474",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q933474"
+  },
+  {
+    "stable_id": "wikidata:item:Q80550478",
+    "name": "Tōji Sand Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q80550478",
+        "url": "https://www.wikidata.org/wiki/Q80550478",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q80550478"
+  },
+  {
+    "stable_id": "wikidata:item:Q8032488",
+    "name": "Woodbury Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q8032488",
+        "url": "https://www.wikidata.org/wiki/Q8032488",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q8032488"
+  },
+  {
+    "stable_id": "wikidata:item:Q790938",
+    "name": "Aviemore",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q790938",
+        "url": "https://www.wikidata.org/wiki/Q790938",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q790938"
+  },
+  {
+    "stable_id": "wikidata:item:Q7898367",
+    "name": "Uplands Golf & Ski Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7898367",
+        "url": "https://www.wikidata.org/wiki/Q7898367",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7898367"
+  },
+  {
+    "stable_id": "wikidata:item:Q7857185",
+    "name": "Tuxedo Ridge Ski Center",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7857185",
+        "url": "https://www.wikidata.org/wiki/Q7857185",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7857185"
+  },
+  {
+    "stable_id": "wikidata:item:Q7596835",
+    "name": "Stagecoach",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7596835",
+        "url": "https://www.wikidata.org/wiki/Q7596835",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7596835"
+  },
+  {
+    "stable_id": "wikidata:item:Q7534880",
+    "name": "Ski Museum of Maine",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7534880",
+        "url": "https://www.wikidata.org/wiki/Q7534880",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7534880"
+  },
+  {
+    "stable_id": "wikidata:item:Q7392969",
+    "name": "SSAWS",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7392969",
+        "url": "https://www.wikidata.org/wiki/Q7392969",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7392969"
+  },
+  {
+    "stable_id": "wikidata:item:Q7374228",
+    "name": "Royal Gorge Cross Country Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7374228",
+        "url": "https://www.wikidata.org/wiki/Q7374228",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7374228"
+  },
+  {
+    "stable_id": "wikidata:item:Q7334330",
+    "name": "Rim Nordic Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7334330",
+        "url": "https://www.wikidata.org/wiki/Q7334330",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7334330"
+  },
+  {
+    "stable_id": "wikidata:item:Q7060528",
+    "name": "North–South Ski Bowl",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7060528",
+        "url": "https://www.wikidata.org/wiki/Q7060528",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7060528"
+  },
+  {
+    "stable_id": "wikidata:item:Q7054704",
+    "name": "North Cascade Heli Skiing",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7054704",
+        "url": "https://www.wikidata.org/wiki/Q7054704",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7054704"
+  },
+  {
+    "stable_id": "wikidata:item:Q7034312",
+    "name": "Snow Park",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7034312",
+        "url": "https://www.wikidata.org/wiki/Q7034312",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7034312"
+  },
+  {
+    "stable_id": "wikidata:item:Q6948957",
+    "name": "Mystic Miner Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6948957",
+        "url": "https://www.wikidata.org/wiki/Q6948957",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6948957"
+  },
+  {
+    "stable_id": "wikidata:item:Q6925399",
+    "name": "Mountain View at Edinboro",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6925399",
+        "url": "https://www.wikidata.org/wiki/Q6925399",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6925399"
+  },
+  {
+    "stable_id": "wikidata:item:Q6924576",
+    "name": "Mount Whittier Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6924576",
+        "url": "https://www.wikidata.org/wiki/Q6924576",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6924576"
+  },
+  {
+    "stable_id": "wikidata:item:Q6923029",
+    "name": "Mount Potts",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6923029",
+        "url": "https://www.wikidata.org/wiki/Q6923029",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6923029"
+  },
+  {
+    "stable_id": "wikidata:item:Q6907826",
+    "name": "Moonlight Basin",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6907826",
+        "url": "https://www.wikidata.org/wiki/Q6907826",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6907826"
+  },
+  {
+    "stable_id": "wikidata:item:Q6861835",
+    "name": "Milwaukee Ski Bowl",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6861835",
+        "url": "https://www.wikidata.org/wiki/Q6861835",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6861835"
+  },
+  {
+    "stable_id": "wikidata:item:Q6804123",
+    "name": "Meany Lodge",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6804123",
+        "url": "https://www.wikidata.org/wiki/Q6804123",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6804123"
+  },
+  {
+    "stable_id": "wikidata:item:Q6465552",
+    "name": "La Tuca",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6465552",
+        "url": "https://www.wikidata.org/wiki/Q6465552",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6465552"
+  },
+  {
+    "stable_id": "wikidata:item:Q6436402",
+    "name": "Kratka Ridge",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q6436402",
+        "url": "https://www.wikidata.org/wiki/Q6436402",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q6436402"
+  },
+  {
+    "stable_id": "wikidata:item:Q5995064",
+    "name": "Iizuna Kogen Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5995064",
+        "url": "https://www.wikidata.org/wiki/Q5995064",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5995064"
+  },
+  {
+    "stable_id": "wikidata:item:Q5682392",
+    "name": "Haugen Hill",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5682392",
+        "url": "https://www.wikidata.org/wiki/Q5682392",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5682392"
+  },
+  {
+    "stable_id": "wikidata:item:Q5675738",
+    "name": "Valcotos",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5675738",
+        "url": "https://www.wikidata.org/wiki/Q5675738",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q5675738",
+        "url": "https://www.wikidata.org/wiki/Q5675738",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5675738"
+  },
+  {
+    "stable_id": "wikidata:item:Q55600121",
+    "name": "Val d'Azun",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q55600121",
+        "url": "https://www.wikidata.org/wiki/Q55600121",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q55600121"
+  },
+  {
+    "stable_id": "wikidata:item:Q5548043",
+    "name": "Georgian Peaks Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5548043",
+        "url": "https://www.wikidata.org/wiki/Q5548043",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5548043"
+  },
+  {
+    "stable_id": "wikidata:item:Q5532980",
+    "name": "Geneva Basin Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5532980",
+        "url": "https://www.wikidata.org/wiki/Q5532980",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5532980"
+  },
+  {
+    "stable_id": "wikidata:item:Q5364094",
+    "name": "Elk Ridge Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5364094",
+        "url": "https://www.wikidata.org/wiki/Q5364094",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5364094"
+  },
+  {
+    "stable_id": "wikidata:item:Q5331365",
+    "name": "Eaton Mountain",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5331365",
+        "url": "https://www.wikidata.org/wiki/Q5331365",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5331365"
+  },
+  {
+    "stable_id": "wikidata:item:Q5330866",
+    "name": "Easton Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5330866",
+        "url": "https://www.wikidata.org/wiki/Q5330866",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5330866"
+  },
+  {
+    "stable_id": "wikidata:item:Q5191294",
+    "name": "Crystal Mountain",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5191294",
+        "url": "https://www.wikidata.org/wiki/Q5191294",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5191294"
+  },
+  {
+    "stable_id": "wikidata:item:Q5019347",
+    "name": "Caledon Ski Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5019347",
+        "url": "https://www.wikidata.org/wiki/Q5019347",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5019347"
+  },
+  {
+    "stable_id": "wikidata:item:Q4929408",
+    "name": "Blue Marsh Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4929408",
+        "url": "https://www.wikidata.org/wiki/Q4929408",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q4929408"
+  },
+  {
+    "stable_id": "wikidata:item:Q4925015",
+    "name": "Blandford Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4925015",
+        "url": "https://www.wikidata.org/wiki/Q4925015",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q4925015"
+  },
+  {
+    "stable_id": "wikidata:item:Q4905734",
+    "name": "Big Four Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4905734",
+        "url": "https://www.wikidata.org/wiki/Q4905734",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q4905734"
+  },
+  {
+    "stable_id": "wikidata:item:Q4735507",
+    "name": "Alpine Mountain Ski & Ride Center",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4735507",
+        "url": "https://www.wikidata.org/wiki/Q4735507",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q4735507"
+  },
+  {
+    "stable_id": "wikidata:item:Q3560959",
+    "name": "Bosc de Virós",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3560959",
+        "url": "https://www.wikidata.org/wiki/Q3560959",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3560959"
+  },
+  {
+    "stable_id": "wikidata:item:Q3555811",
+    "name": "Q3555811",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3555811",
+        "url": "https://www.wikidata.org/wiki/Q3555811",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3555811"
+  },
+  {
+    "stable_id": "wikidata:item:Q3541934",
+    "name": "Tuixent – la Vansa",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3541934",
+        "url": "https://www.wikidata.org/wiki/Q3541934",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q3541934",
+        "url": "https://www.wikidata.org/wiki/Q3541934",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3541934"
+  },
+  {
+    "stable_id": "wikidata:item:Q3472549",
+    "name": "Sant Joan de l'Erm",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3472549",
+        "url": "https://www.wikidata.org/wiki/Q3472549",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3472549"
+  },
+  {
+    "stable_id": "wikidata:item:Q3389662",
+    "name": "Pla de Negua",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3389662",
+        "url": "https://www.wikidata.org/wiki/Q3389662",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3389662"
+  },
+  {
+    "stable_id": "wikidata:item:Q3373256",
+    "name": "Payolle",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3373256",
+        "url": "https://www.wikidata.org/wiki/Q3373256",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3373256"
+  },
+  {
+    "stable_id": "wikidata:item:Q3355038",
+    "name": "Orange (ski resort)",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3355038",
+        "url": "https://www.wikidata.org/wiki/Q3355038",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q3355038",
+        "url": "https://www.wikidata.org/wiki/Q3355038",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3355038"
+  },
+  {
+    "stable_id": "wikidata:item:Q3257499",
+    "name": "Lles",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3257499",
+        "url": "https://www.wikidata.org/wiki/Q3257499",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3257499"
+  },
+  {
+    "stable_id": "wikidata:item:Q3217985",
+    "name": "Larra-Belagua",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3217985",
+        "url": "https://www.wikidata.org/wiki/Q3217985",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3217985"
+  },
+  {
+    "stable_id": "wikidata:item:Q3216776",
+    "name": "Q3216776",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3216776",
+        "url": "https://www.wikidata.org/wiki/Q3216776",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3216776"
+  },
+  {
+    "stable_id": "wikidata:item:Q3212119",
+    "name": "La Rabassa",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3212119",
+        "url": "https://www.wikidata.org/wiki/Q3212119",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3212119"
+  },
+  {
+    "stable_id": "wikidata:item:Q3122468",
+    "name": "Cap Guéry",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3122468",
+        "url": "https://www.wikidata.org/wiki/Q3122468",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3122468"
+  },
+  {
+    "stable_id": "wikidata:item:Q3120587",
+    "name": "Guils Fontanera",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3120587",
+        "url": "https://www.wikidata.org/wiki/Q3120587",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3120587"
+  },
+  {
+    "stable_id": "wikidata:item:Q3093482",
+    "name": "Gabardito",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3093482",
+        "url": "https://www.wikidata.org/wiki/Q3093482",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3093482"
+  },
+  {
+    "stable_id": "wikidata:item:Q3057432",
+    "name": "Esquí de Puigmal station",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3057432",
+        "url": "https://www.wikidata.org/wiki/Q3057432",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3057432"
+  },
+  {
+    "stable_id": "wikidata:item:Q303504",
+    "name": "La Garde",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q303504",
+        "url": "https://www.wikidata.org/wiki/Q303504",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q303504",
+        "url": "https://www.wikidata.org/wiki/Q303504",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q303504",
+        "url": "https://www.wikidata.org/wiki/Q303504",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q303504"
+  },
+  {
+    "stable_id": "wikidata:item:Q2948106",
+    "name": "Q2948106",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q2948106",
+        "url": "https://www.wikidata.org/wiki/Q2948106",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q2948106"
+  },
+  {
+    "stable_id": "wikidata:item:Q28924733",
+    "name": "Mount Stirling Alpine Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q28924733",
+        "url": "https://www.wikidata.org/wiki/Q28924733",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q28924733"
+  },
+  {
+    "stable_id": "wikidata:item:Q2859531",
+    "name": "Aransa",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q2859531",
+        "url": "https://www.wikidata.org/wiki/Q2859531",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q2859531"
+  },
+  {
+    "stable_id": "wikidata:item:Q2821683",
+    "name": "Abodi-Zaraitzu",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q2821683",
+        "url": "https://www.wikidata.org/wiki/Q2821683",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q2821683"
+  },
+  {
+    "stable_id": "wikidata:item:Q24191296",
+    "name": "Mount Agassiz Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q24191296",
+        "url": "https://www.wikidata.org/wiki/Q24191296",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q24191296"
+  },
+  {
+    "stable_id": "wikidata:item:Q19818276",
+    "name": "Hoppbacken Skidcentrum",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q19818276",
+        "url": "https://www.wikidata.org/wiki/Q19818276",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q19818276"
+  },
+  {
+    "stable_id": "wikidata:item:Q1883463",
+    "name": "Madrid Snowzone",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1883463",
+        "url": "https://www.wikidata.org/wiki/Q1883463",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "indoor_slope",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1883463"
+  },
+  {
+    "stable_id": "wikidata:item:Q18701083",
+    "name": "Q18701083",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q18701083",
+        "url": "https://www.wikidata.org/wiki/Q18701083",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q18701083"
+  },
+  {
+    "stable_id": "wikidata:item:Q1868319",
+    "name": "Cross-country skiing center Rotes Moor",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1868319",
+        "url": "https://www.wikidata.org/wiki/Q1868319",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1868319"
+  },
+  {
+    "stable_id": "wikidata:item:Q1805320",
+    "name": "Langlaufzentrum Silberhütte",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1805320",
+        "url": "https://www.wikidata.org/wiki/Q1805320",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1805320"
+  },
+  {
+    "stable_id": "wikidata:item:Q1792049",
+    "name": "Kunama Hut",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1792049",
+        "url": "https://www.wikidata.org/wiki/Q1792049",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1792049"
+  },
+  {
+    "stable_id": "wikidata:item:Q17230403",
+    "name": "Q17230403",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q17230403",
+        "url": "https://www.wikidata.org/wiki/Q17230403",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q17230403"
+  },
+  {
+    "stable_id": "wikidata:item:Q17219909",
+    "name": "Snow Park Unpenji",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q17219909",
+        "url": "https://www.wikidata.org/wiki/Q17219909",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q17219909"
+  },
+  {
+    "stable_id": "wikidata:item:Q16994980",
+    "name": "Haystack Mountain Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16994980",
+        "url": "https://www.wikidata.org/wiki/Q16994980",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q16994980"
+  },
+  {
+    "stable_id": "wikidata:item:Q16992551",
+    "name": "Enchanted Mountain",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16992551",
+        "url": "https://www.wikidata.org/wiki/Q16992551",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q16992551"
+  },
+  {
+    "stable_id": "wikidata:item:Q16989261",
+    "name": "Kobla Ski Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16989261",
+        "url": "https://www.wikidata.org/wiki/Q16989261",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q16989261"
+  },
+  {
+    "stable_id": "wikidata:item:Q16964615",
+    "name": "Céüze 2000",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16964615",
+        "url": "https://www.wikidata.org/wiki/Q16964615",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q16964615",
+        "url": "https://www.wikidata.org/wiki/Q16964615",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q16964615"
+  },
+  {
+    "stable_id": "wikidata:item:Q15847736",
+    "name": "Skihalle Neuss",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q15847736",
+        "url": "https://www.wikidata.org/wiki/Q15847736",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "indoor_slope",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q15847736"
+  },
+  {
+    "stable_id": "wikidata:item:Q15057569",
+    "name": "Lungern-Schönbüel",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q15057569",
+        "url": "https://www.wikidata.org/wiki/Q15057569",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q15057569"
+  },
+  {
+    "stable_id": "wikidata:item:Q1490642",
+    "name": "Maseben",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1490642",
+        "url": "https://www.wikidata.org/wiki/Q1490642",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1490642"
+  },
+  {
+    "stable_id": "wikidata:item:Q14715730",
+    "name": "Mount Tom Ski Area",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q14715730",
+        "url": "https://www.wikidata.org/wiki/Q14715730",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q14715730"
+  },
+  {
+    "stable_id": "wikidata:item:Q14681656",
+    "name": "Buckhorn Ski Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q14681656",
+        "url": "https://www.wikidata.org/wiki/Q14681656",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q14681656"
+  },
+  {
+    "stable_id": "wikidata:item:Q14538243",
+    "name": "Winter sports in Harz",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q14538243",
+        "url": "https://www.wikidata.org/wiki/Q14538243",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q14538243",
+        "url": "https://www.wikidata.org/wiki/Q14538243",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q14538243"
+  },
+  {
+    "stable_id": "wikidata:item:Q124541062",
+    "name": "Q124541062",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q124541062",
+        "url": "https://www.wikidata.org/wiki/Q124541062",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q124541062"
+  },
+  {
+    "stable_id": "wikidata:item:Q11675143",
+    "name": "Q11675143",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11675143",
+        "url": "https://www.wikidata.org/wiki/Q11675143",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11675143"
+  },
+  {
+    "stable_id": "wikidata:item:Q1164471",
+    "name": "Le Freney-d'Oisans",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1164471",
+        "url": "https://www.wikidata.org/wiki/Q1164471",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q1164471",
+        "url": "https://www.wikidata.org/wiki/Q1164471",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q1164471",
+        "url": "https://www.wikidata.org/wiki/Q1164471",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1164471"
+  },
+  {
+    "stable_id": "wikidata:item:Q11626426",
+    "name": "Omote Manza Snow Park",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11626426",
+        "url": "https://www.wikidata.org/wiki/Q11626426",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11626426"
+  },
+  {
+    "stable_id": "wikidata:item:Q11589526",
+    "name": "Q11589526",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11589526",
+        "url": "https://www.wikidata.org/wiki/Q11589526",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11589526"
+  },
+  {
+    "stable_id": "wikidata:item:Q11583640",
+    "name": "Q11583640",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11583640",
+        "url": "https://www.wikidata.org/wiki/Q11583640",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11583640"
+  },
+  {
+    "stable_id": "wikidata:item:Q11579584",
+    "name": "Q11579584",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11579584",
+        "url": "https://www.wikidata.org/wiki/Q11579584",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11579584"
+  },
+  {
+    "stable_id": "wikidata:item:Q11554334",
+    "name": "Q11554334",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11554334",
+        "url": "https://www.wikidata.org/wiki/Q11554334",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11554334"
+  },
+  {
+    "stable_id": "wikidata:item:Q115326490",
+    "name": "Q115326490",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q115326490",
+        "url": "https://www.wikidata.org/wiki/Q115326490",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q115326490"
+  },
+  {
+    "stable_id": "wikidata:item:Q11521103",
+    "name": "Q11521103",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11521103",
+        "url": "https://www.wikidata.org/wiki/Q11521103",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11521103"
+  },
+  {
+    "stable_id": "wikidata:item:Q11442556",
+    "name": "Q11442556",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11442556",
+        "url": "https://www.wikidata.org/wiki/Q11442556",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11442556"
+  },
+  {
+    "stable_id": "wikidata:item:Q11423690",
+    "name": "Q11423690",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11423690",
+        "url": "https://www.wikidata.org/wiki/Q11423690",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11423690"
+  },
+  {
+    "stable_id": "wikidata:item:Q11398598",
+    "name": "Kayama Captain Coast ski resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11398598",
+        "url": "https://www.wikidata.org/wiki/Q11398598",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11398598"
+  },
+  {
+    "stable_id": "wikidata:item:Q11294783",
+    "name": "Q11294783",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11294783",
+        "url": "https://www.wikidata.org/wiki/Q11294783",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11294783"
+  },
+  {
+    "stable_id": "wikidata:item:Q11283056",
+    "name": "Q11283056",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11283056",
+        "url": "https://www.wikidata.org/wiki/Q11283056",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11283056"
+  },
+  {
+    "stable_id": "wikidata:item:Q109603100",
+    "name": "Q109603100",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109603100",
+        "url": "https://www.wikidata.org/wiki/Q109603100",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q109603100"
+  },
+  {
+    "stable_id": "wikidata:item:Q109596786",
+    "name": "Q109596786",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109596786",
+        "url": "https://www.wikidata.org/wiki/Q109596786",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q109596786"
+  },
+  {
+    "stable_id": "wikidata:item:Q109361488",
+    "name": "Q109361488",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109361488",
+        "url": "https://www.wikidata.org/wiki/Q109361488",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q109361488"
+  },
+  {
+    "stable_id": "wikidata:item:Q1006457",
+    "name": "Ustaoset",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q1006457",
+        "url": "https://www.wikidata.org/wiki/Q1006457",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q1006457"
+  },
+  {
+    "stable_id": "wikidata:item:Q3212711",
+    "name": "La Sambuy-Seythenex",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3212711",
+        "url": "https://www.wikidata.org/wiki/Q3212711",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/51071464",
+        "url": "https://www.openstreetmap.org/way/51071464",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3212711"
+  },
+  {
+    "stable_id": "wikidata:item:Q5181711",
+    "name": "Craigleith Ski Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5181711",
+        "url": "https://www.wikidata.org/wiki/Q5181711",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/496731548",
+        "url": "https://www.openstreetmap.org/way/496731548",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q5181711"
+  },
+  {
+    "stable_id": "wikidata:item:Q24190888",
+    "name": "Beaver Valley Ski Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q24190888",
+        "url": "https://www.wikidata.org/wiki/Q24190888",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/496731544",
+        "url": "https://www.openstreetmap.org/way/496731544",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q24190888"
+  },
+  {
+    "stable_id": "wikidata:item:Q104666663",
+    "name": "Domaine nordique du Meygal",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q104666663",
+        "url": "https://www.wikidata.org/wiki/Q104666663",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/447909361",
+        "url": "https://www.openstreetmap.org/way/447909361",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q104666663",
+        "url": "https://www.wikidata.org/wiki/Q104666663",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q104666663",
+        "url": "https://www.wikidata.org/wiki/Q104666663",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q104666663"
+  },
+  {
+    "stable_id": "wikidata:item:Q7835597",
+    "name": "Trapp Family Lodge",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7835597",
+        "url": "https://www.wikidata.org/wiki/Q7835597",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1363367352",
+        "url": "https://www.openstreetmap.org/way/1363367352",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7835597"
+  },
+  {
+    "stable_id": "wikidata:item:Q11535900",
+    "name": "Kuriko International Ski & Resort",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11535900",
+        "url": "https://www.wikidata.org/wiki/Q11535900",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1221240468",
+        "url": "https://www.openstreetmap.org/way/1221240468",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11535900"
+  },
+  {
+    "stable_id": "wikidata:item:Q11276250",
+    "name": "Hida Funayama Snow Resort Arkopia",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11276250",
+        "url": "https://www.wikidata.org/wiki/Q11276250",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1176728877",
+        "url": "https://www.openstreetmap.org/way/1176728877",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "closed_or_disused",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q11276250"
+  },
+  {
+    "stable_id": "openstreetmap:way:1148720305",
+    "name": "Centro Cultural e Esportivo de Ibiúna - Kaikan de Ibiúna",
+    "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1148720305",
+        "url": "https://www.openstreetmap.org/way/1148720305",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.openstreetmap.org/way/1148720305"
+  },
+  {
+    "stable_id": "openstreetmap:way:1016830386",
+    "name": "Bergisel Schanze",
+    "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1016830386",
+        "url": "https://www.openstreetmap.org/way/1016830386",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.openstreetmap.org/way/1016830386"
+  },
+  {
+    "stable_id": "wikidata:item:Q61202004",
+    "name": "Plateau de Beille",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q61202004",
+        "url": "https://www.wikidata.org/wiki/Q61202004",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/9134314",
+        "url": "https://www.openstreetmap.org/relation/9134314",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q61202004"
+  },
+  {
+    "stable_id": "wikidata:item:Q15278304",
+    "name": "Snow Farm",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q15278304",
+        "url": "https://www.wikidata.org/wiki/Q15278304",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/19870279",
+        "url": "https://www.openstreetmap.org/relation/19870279",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q15278304"
+  },
+  {
+    "stable_id": "wikidata:item:Q14704796",
+    "name": "Yellowstone Club",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q14704796",
+        "url": "https://www.wikidata.org/wiki/Q14704796",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/18653810",
+        "url": "https://www.openstreetmap.org/relation/18653810",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "private_club",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q14704796"
+  },
+  {
+    "stable_id": "wikidata:item:Q7062537",
+    "name": "Notchview",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7062537",
+        "url": "https://www.wikidata.org/wiki/Q7062537",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/13531099",
+        "url": "https://www.openstreetmap.org/relation/13531099",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7062537"
+  },
+  {
+    "stable_id": "wikidata:item:Q7994733",
+    "name": "White Grass Ski Touring Center",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q7994733",
+        "url": "https://www.wikidata.org/wiki/Q7994733",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/12247315",
+        "url": "https://www.openstreetmap.org/relation/12247315",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q7994733"
+  },
+  {
+    "stable_id": "wikidata:item:Q3906252",
+    "name": "Planica Nordic Center",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3906252",
+        "url": "https://www.wikidata.org/wiki/Q3906252",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "way/477750742",
+        "url": "https://www.openstreetmap.org/way/477750742",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
+        "source": "openstreetmap",
+        "record_id": "relation/10621364",
+        "url": "https://www.openstreetmap.org/relation/10621364",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3906252"
   }
 ]

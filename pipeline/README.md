@@ -29,6 +29,7 @@ The source clients send a descriptive Powder Files user agent, use one request p
 - `pipeline/generated/canonical-resorts.json`: complete canonical candidate records and field provenance.
 - `pipeline/generated/ambiguities.json`: possible matches requiring human review.
 - `pipeline/generated/exclusions.json`: excluded records and reasons.
+- `pipeline/generated/curated-exclusions-report.json`: exact-record cleanup counts by exclusion reason.
 - `pipeline/generated/summary.json`: country and source counts.
 - `pipeline/generated/quality-report.json` and `QUALITY_REPORT.md`: coverage and limitations.
 - `public/data/resorts.compact.json`: compact, read-only browser dataset loaded separately from the main JavaScript bundle.
@@ -44,3 +45,7 @@ Every researched batch now includes original, source-linked mountain-character c
 See [batch 019](OFFICIAL-BATCH-019.md) for the latest 34 structured-source mountain-character summaries and readable label repairs. Cumulative coverage is 1,337 summaries. This smaller conservative block reflects exhaustion of clearly eligible records in the remaining candidate pool and adds no numerical facts or verification upgrades. [Batch 018](OFFICIAL-BATCH-018.md) retains the preceding 100-profile report, while [batch 013](OFFICIAL-BATCH-013.md) retains the latest official-source research report.
 
 Research batches are now 100 previously unresearched public profiles by default, checked in smaller groups. This is a research/profile quota, not a guarantee of complete numerical dimensions: summary-only profiles and unresolved source conflicts are reported explicitly. Each summary retains its actual review date; regenerating the directory does not redate older research.
+
+# Latest directory cleanup
+
+See [curated exclusion cleanup 001](CURATED-EXCLUSIONS-001.md). It removes 112 clearly closed, Nordic-only, private, indoor, lift-free or non-resort records from normal results using exact stable IDs, while retaining their source provenance and exclusion reasons. The cleaned public directory contains 1,409 profiles; all 1,337 researched summaries and Bristol Mountain remain intact.

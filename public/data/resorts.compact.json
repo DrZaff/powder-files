@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-10-04T01:07:13.418Z",
+  "generated_at": "2026-10-04T01:16:24.088Z",
   "summary": {
-    "generated_at": "2026-10-04T01:07:13.418Z",
+    "generated_at": "2026-10-04T01:16:24.088Z",
     "total_raw": 7439,
-    "canonical_count": 1521,
+    "canonical_count": 1409,
     "verified_count": 1,
-    "candidate_count": 1520,
+    "candidate_count": 1408,
     "uncertain_count": 365,
     "incomplete_count": 4203,
     "ambiguity_count": 366,
-    "exclusion_count": 230,
-    "country_count": 54,
+    "exclusion_count": 342,
+    "country_count": 52,
     "unknown_country_count": 4124,
     "source_coverage": {
-      "openstreetmap": 4873,
-      "wikidata": 1950,
+      "openstreetmap": 4857,
+      "wikidata": 1840,
       "official_resort": 878,
       "powderfiles": 1
     },
     "country_counts": {
       "Unknown": 4124,
-      "Japan": 396,
-      "United States": 378,
-      "France": 351,
-      "Canada": 118,
-      "Austria": 105,
+      "Japan": 373,
+      "United States": 345,
+      "France": 336,
+      "Canada": 111,
+      "Austria": 102,
       "Poland": 68,
-      "Spain": 59,
-      "Finland": 57,
-      "Switzerland": 53,
-      "Italy": 50,
-      "Germany": 30,
+      "Finland": 56,
+      "Switzerland": 52,
+      "Italy": 49,
+      "Spain": 46,
       "Russia": 28,
+      "Germany": 26,
       "Ukraine": 24,
       "Sweden": 21,
-      "New Zealand": 20,
-      "Slovenia": 19,
-      "Norway": 18,
+      "New Zealand": 17,
+      "Norway": 17,
+      "Slovenia": 17,
       "Czechia": 16,
       "Iran": 15,
-      "Australia": 13,
       "Chile": 11,
+      "Australia": 11,
       "South Korea": 10,
       "Slovakia": 10,
       "Greece": 9,
-      "United Kingdom": 7,
       "Bulgaria": 6,
+      "United Kingdom": 6,
       "Turkey": 6,
       "Lebanon": 5,
       "Kazakhstan": 4,
       "Morocco": 4,
-      "Andorra": 4,
       "People's Republic of China": 3,
       "Serbia": 3,
       "Pakistan": 3,
       "North Macedonia": 3,
+      "Andorra": 3,
       "Uzbekistan": 2,
       "Iceland": 2,
       "Romania": 2,
@@ -68,7 +68,6 @@
       "Lesotho": 1,
       "Mexico": 1,
       "Kosovo": 1,
-      "Brazil": 1,
       "Portugal": 1,
       "Georgia": 1,
       "Montenegro": 1,
@@ -85,10 +84,11 @@
       "Estonia": 1
     },
     "exclusion_reasons": {
-      "closed_or_disused": 39,
-      "nordic_only": 165,
-      "private_club": 25,
-      "indoor_slope": 1
+      "closed_or_disused": 99,
+      "nordic_only": 192,
+      "private_club": 34,
+      "indoor_slope": 3,
+      "lift_free_or_non_resort": 14
     }
   },
   "records": [
@@ -262,34 +262,6 @@
         {
           "name": "official_resort",
           "url": "https://m.ski49n.com/mountain-info/trail-map-stats"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q2821683",
-      "n": "Abodi-Zaraitzu",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Spain",
-      "p": [
-        42.955876,
-        -1.015
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2821683"
         }
       ]
     },
@@ -2003,34 +1975,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q4735507",
-      "n": "Alpine Mountain Ski & Ride Center",
-      "a": [],
-      "l": null,
-      "r": "Pennsylvania",
-      "c": "United States",
-      "p": [
-        41.1116,
-        -75.2292
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4735507"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q4735527",
       "n": "Alpine Valley Resort",
       "a": [],
@@ -3634,34 +3578,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q2859531",
-      "n": "Aransa",
-      "a": [],
-      "l": null,
-      "r": "Lles de Cerdanya",
-      "c": "Spain",
-      "p": [
-        42.42,
-        1.64
-      ],
-      "w": "http://www.aransaski.cat",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2859531"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q4784196",
       "n": "Arapahoe Basin",
       "a": [],
@@ -5172,40 +5088,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q790938",
-      "n": "Aviemore",
-      "a": [
-        "Aviemore",
-        "Highland",
-        "Scotland",
-        "UK",
-        "An Aghaidh Mhòr"
-      ],
-      "l": null,
-      "r": "Highland",
-      "c": "United Kingdom",
-      "p": [
-        57.194,
-        -3.823
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q790938"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q127037",
       "n": "Avoriaz",
       "a": [
@@ -6638,39 +6520,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q24190888",
-      "n": "Beaver Valley Ski Club",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Canada",
-      "p": [
-        44.358108,
-        -80.543395
-      ],
-      "w": "https://www.beavervalley.ca",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q24190888"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/496731544"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q4881790",
       "n": "Bela",
       "a": [
@@ -7043,38 +6892,6 @@
       ]
     },
     {
-      "id": "openstreetmap:way:1016830386",
-      "n": "Bergisel Schanze",
-      "a": [
-        "Bergisel Stadion"
-      ],
-      "l": "Innsbruck",
-      "r": null,
-      "c": "Austria",
-      "p": [
-        47.248231,
-        11.399275
-      ],
-      "w": "https://www.bergisel.info",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {
-        "elevation_m": null
-      },
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1016830386"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q4892259",
       "n": "Berkshire East Ski Resort",
       "a": [],
@@ -7338,34 +7155,6 @@
         {
           "name": "openstreetmap",
           "url": "https://www.openstreetmap.org/way/1227290429"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q4905734",
-      "n": "Big Four Ski Area",
-      "a": [],
-      "l": null,
-      "r": "Washington",
-      "c": "United States",
-      "p": [
-        48.0674,
-        -121.514
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4905734"
         }
       ]
     },
@@ -8080,34 +7869,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q4925015",
-      "n": "Blandford Ski Area",
-      "a": [],
-      "l": null,
-      "r": "Massachusetts",
-      "c": "United States",
-      "p": [
-        42.1889,
-        -72.9008
-      ],
-      "w": "http://skiblandford.org",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4925015"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q885662",
       "n": "Blue Cow",
       "a": [
@@ -8230,34 +7991,6 @@
         {
           "name": "official_resort",
           "url": "https://bluehillsboston.com/seasonal-programs/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q4929408",
-      "n": "Blue Marsh Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Pennsylvania",
-      "c": "United States",
-      "p": [
-        40.422,
-        -76.113
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4929408"
         }
       ]
     },
@@ -8773,36 +8506,6 @@
         {
           "name": "official_resort",
           "url": "https://www.rideboreal.com/passes-memberships/passes-memberships-overview/comparison/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3560959",
-      "n": "Bosc de Virós",
-      "a": [
-        "Bosc de Viros"
-      ],
-      "l": null,
-      "r": "Alins",
-      "c": "Spain",
-      "p": [
-        42.496909,
-        1.211929
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3560959"
         }
       ]
     },
@@ -10552,34 +10255,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q14681656",
-      "n": "Buckhorn Ski Club",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "United States",
-      "p": [
-        34.34457,
-        -117.91437
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q14681656"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q63182631",
       "n": "Budoh Ski Resort",
       "a": [],
@@ -11351,34 +11026,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5019347",
-      "n": "Caledon Ski Club",
-      "a": [],
-      "l": null,
-      "r": "Ontario",
-      "c": "Canada",
-      "p": [
-        43.8039,
-        -80.0109
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5019347"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5025811",
       "n": "Camden Snow Bowl",
       "a": [],
@@ -11926,34 +11573,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q5034264"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3122468",
-      "n": "Cap Guéry",
-      "a": [],
-      "l": null,
-      "r": "Perpezat",
-      "c": "France",
-      "p": [
-        45.620532,
-        2.820134
-      ],
-      "w": "https://www.capguery.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3122468"
         }
       ]
     },
@@ -12623,38 +12242,6 @@
       ]
     },
     {
-      "id": "openstreetmap:way:1148720305",
-      "n": "Centro Cultural e Esportivo de Ibiúna - Kaikan de Ibiúna",
-      "a": [
-        "Centro Cultural de Ibiúna - Kaikan de Ibiúna"
-      ],
-      "l": "Ibiúna",
-      "r": "São Paulo",
-      "c": "Brazil",
-      "p": [
-        -23.662297,
-        -47.221113
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {
-        "elevation_m": null
-      },
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1148720305"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q17626264",
       "n": "Centro de ski Pucón",
       "a": [],
@@ -12919,61 +12506,6 @@
         {
           "name": "official_resort",
           "url": "https://www.cerler.com/en-ruta-cerler.html"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q16964615",
-      "n": "Céüze 2000",
-      "a": [],
-      "l": null,
-      "r": "Manteyer",
-      "c": "France",
-      "p": [
-        44.51819,
-        5.93675
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1520,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q16964615#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q16964615-355A048C-2965-4CCC-AA4B-778DF9F60FD1",
-              "amount": 1520,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16964615"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16964615"
         }
       ]
     },
@@ -14962,39 +14494,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5181711",
-      "n": "Craigleith Ski Club",
-      "a": [],
-      "l": null,
-      "r": "Ontario",
-      "c": "Canada",
-      "p": [
-        44.5167,
-        -80.3333
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5181711"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/496731548"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5182225",
       "n": "Cranmore Mountain Resort",
       "a": [],
@@ -15534,34 +15033,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q1868319",
-      "n": "Cross-country skiing center Rotes Moor",
-      "a": [],
-      "l": null,
-      "r": "Hesse",
-      "c": "Germany",
-      "p": [
-        50.4605,
-        9.98633
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1868319"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q14705323",
       "n": "Crotched Mountain Ski & Ride",
       "a": [],
@@ -15790,38 +15261,6 @@
         {
           "name": "official_resort",
           "url": "https://www.crystalmountainresort.com/media/mountain-stats-and-facts"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5191294",
-      "n": "Crystal Mountain",
-      "a": [
-        "Crystal Mountain Resort",
-        "Crystal Mountain Westbank",
-        "Last Mountain Ski Resort"
-      ],
-      "l": null,
-      "r": "Regional District of Central Okanagan",
-      "c": "Canada",
-      "p": [
-        49.8813,
-        -119.711
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5191294"
         }
       ]
     },
@@ -17208,70 +16647,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q104666663",
-      "n": "Domaine nordique du Meygal",
-      "a": [],
-      "l": null,
-      "r": "Queyrières",
-      "c": "France",
-      "p": [
-        45.071398,
-        4.128216
-      ],
-      "w": "https://chaletdumeygal.wordpress.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1259,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q104666663#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q104666663-27bf7992-481f-6698-3592-633d8a288801",
-              "amount": 1259,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q104666663"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/447909361"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q104666663"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q104666663"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q17767103",
       "n": "Drammen Skisenter",
       "a": [],
@@ -17692,62 +17067,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5330866",
-      "n": "Easton Ski Area",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "United States",
-      "p": [
-        42.5387,
-        -72.5938
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5330866"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5331365",
-      "n": "Eaton Mountain",
-      "a": [],
-      "l": null,
-      "r": "Maine",
-      "c": "United States",
-      "p": [
-        44.7681,
-        -69.6194
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5331365"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5332755",
       "n": "Echo Valley Ski Area",
       "a": [],
@@ -18132,36 +17451,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5364094",
-      "n": "Elk Ridge Ski Area",
-      "a": [
-        "Williams Ski Area"
-      ],
-      "l": null,
-      "r": "Williams",
-      "c": "United States",
-      "p": [
-        35.2106,
-        -112.192
-      ],
-      "w": "http://www.elkridgeski.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5364094"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q1335004",
       "n": "Emberger Alm",
       "a": [],
@@ -18230,34 +17519,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q1307919"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q16992551",
-      "n": "Enchanted Mountain",
-      "a": [],
-      "l": null,
-      "r": "Maine",
-      "c": "United States",
-      "p": [
-        45.466111,
-        -70.118056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16992551"
         }
       ]
     },
@@ -18818,34 +18079,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q3411128"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3057432",
-      "n": "Esquí de Puigmal station",
-      "a": [],
-      "l": null,
-      "r": "Err",
-      "c": "France",
-      "p": [
-        42.39544,
-        2.07636
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3057432"
         }
       ]
     },
@@ -20579,34 +19812,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3093482",
-      "n": "Gabardito",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Spain",
-      "p": [
-        42.738963,
-        -0.75026
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3093482"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11296546",
       "n": "Gala Yuzawa",
       "a": [],
@@ -21162,34 +20367,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5532980",
-      "n": "Geneva Basin Ski Area",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "United States",
-      "p": [
-        39.568043,
-        -105.730284
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5532980"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q55639779",
       "n": "Genting Snow Park",
       "a": [
@@ -21260,34 +20437,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11301657"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5548043",
-      "n": "Georgian Peaks Club",
-      "a": [],
-      "l": null,
-      "r": "The Blue Mountains",
-      "c": "Canada",
-      "p": [
-        44.535,
-        -80.3767
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5548043"
         }
       ]
     },
@@ -23977,74 +23126,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3120587",
-      "n": "Guils Fontanera",
-      "a": [],
-      "l": null,
-      "r": "Guils de Cerdanya",
-      "c": "Spain",
-      "p": [
-        42.46,
-        1.84
-      ],
-      "w": "http://www.guils.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": null,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3120587#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "conflict",
-          "confidence": "low",
-          "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3120587-7B8F22E0-FDA3-4255-BF6A-5279A7E986E5",
-              "amount": 2080,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                }
-              ],
-              "references": []
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3120587-517947CC-D75F-452B-BA6C-AD51FFB9AF67",
-              "amount": 1905,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                }
-              ],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3120587"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5619412",
       "n": "Gunstock Mountain Resort",
       "a": [],
@@ -25435,34 +24516,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5682392",
-      "n": "Haugen Hill",
-      "a": [],
-      "l": null,
-      "r": "Colorado",
-      "c": "United States",
-      "p": [
-        39.623056,
-        -106.032222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5682392"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q645628",
       "n": "Hautacam",
       "a": [],
@@ -25625,34 +24678,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q16994980",
-      "n": "Haystack Mountain Ski Area",
-      "a": [],
-      "l": null,
-      "r": "Wilmington",
-      "c": "United States",
-      "p": [
-        42.9226,
-        -72.894569
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16994980"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11336587",
       "n": "HEAVENS SONOHARA SNOW WORLD",
       "a": [],
@@ -25808,41 +24833,6 @@
         {
           "name": "official_resort",
           "url": "https://www.ski-hesperus.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11276250",
-      "n": "Hida Funayama Snow Resort Arkopia",
-      "a": [
-        "ひだ舟山スノーリゾートアルコピアスキー場くるみ"
-      ],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.039283,
-        137.261269
-      ],
-      "w": "https://www.arko-kurumi.com/restaurant.html",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11276250"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1176728877"
         }
       ]
     },
@@ -27337,34 +26327,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q19818276",
-      "n": "Hoppbacken Skidcentrum",
-      "a": [],
-      "l": null,
-      "r": "Vörå",
-      "c": "Finland",
-      "p": [
-        63.135833,
-        22.265
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q19818276"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q60986814",
       "n": "Hoppo Bunadaira Ski Area",
       "a": [],
@@ -28531,34 +27493,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q5995064",
-      "n": "Iizuna Kogen Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Nagano",
-      "c": "Japan",
-      "p": [
-        36.71706,
-        138.139923
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5995064"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11258950",
       "n": "Iizuna Resort",
       "a": [
@@ -29327,57 +28261,6 @@
         {
           "name": "official_resort",
           "url": "https://isola2000.com/domaine-skiable/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q933474",
-      "n": "Issarbe",
-      "a": [],
-      "l": null,
-      "r": "Lanne-en-Barétous",
-      "c": "France",
-      "p": [
-        43.018245,
-        -0.802607
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1500,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q933474#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q933474-1469c024-460e-ad63-2ba4-27c3dc7e0fc2",
-              "amount": 1500,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q933474"
         }
       ]
     },
@@ -32247,34 +31130,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11398598",
-      "n": "Kayama Captain Coast ski resort",
-      "a": [],
-      "l": null,
-      "r": "Yuzawa",
-      "c": "Japan",
-      "p": [
-        36.930135,
-        138.871504
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11398598"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11677209",
       "n": "Kazawa Snow Area",
       "a": [
@@ -33491,36 +32346,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q16989261",
-      "n": "Kobla Ski Resort",
-      "a": [
-        "Kobla-Bohinj"
-      ],
-      "l": null,
-      "r": null,
-      "c": "Slovenia",
-      "p": [
-        46.2674,
-        13.9587
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16989261"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11459081",
       "n": "Koide Ski Area",
       "a": [
@@ -34161,34 +32986,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6436402",
-      "n": "Kratka Ridge",
-      "a": [],
-      "l": null,
-      "r": "California",
-      "c": "United States",
-      "p": [
-        34.3516,
-        -117.897
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6436402"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q875914",
       "n": "Kreischberg",
       "a": [],
@@ -34625,34 +33422,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q1792049",
-      "n": "Kunama Hut",
-      "a": [],
-      "l": null,
-      "r": "New South Wales",
-      "c": "Australia",
-      "p": [
-        -35.554435,
-        148.088372
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1792049"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11421359",
       "n": "Kunimidake Snow Resort",
       "a": [],
@@ -34685,41 +33454,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11421359"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11535900",
-      "n": "Kuriko International Ski & Resort",
-      "a": [
-        "栗子国際スキー場"
-      ],
-      "l": null,
-      "r": "Yonezawa",
-      "c": "Japan",
-      "p": [
-        37.827778,
-        140.261111
-      ],
-      "w": "http://www.kurikokokusai.jp",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11535900"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1221240468"
         }
       ]
     },
@@ -35944,137 +34678,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q303504",
-      "n": "La Garde",
-      "a": [],
-      "l": null,
-      "r": "arrondissement of Grenoble",
-      "c": "France",
-      "p": [
-        45.068889,
-        6.045833
-      ],
-      "w": "http://www.lagardeenoisans.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": null,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q303504#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "conflict",
-          "confidence": "low",
-          "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q303504-FE59C6BC-BDE2-407F-848B-6645E41F42A3",
-              "amount": 715,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                }
-              ],
-              "references": [
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-              ]
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q303504-2E8B0053-A675-4189-8C6D-7734E867F6A5",
-              "amount": 1859,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                }
-              ],
-              "references": [
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-              ]
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q303504-0D1AA00E-F458-402B-BAD7-B3093C22A790",
-              "amount": 1322,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                }
-              ],
-              "references": [
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
-              ]
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q303504-977F0E56-C42B-4E4A-95A6-4B77677F6978",
-              "amount": 982,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q303504"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q303504"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q303504"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q20971717",
       "n": "La Giettaz-en-Aravis",
       "a": [],
@@ -37084,90 +35687,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3212119",
-      "n": "La Rabassa",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Andorra",
-      "p": [
-        42.4389,
-        1.5222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3212119"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3212711",
-      "n": "La Sambuy-Seythenex",
-      "a": [],
-      "l": null,
-      "r": "Faverges-Seythenex",
-      "c": "France",
-      "p": [
-        45.7132,
-        6.27525
-      ],
-      "w": "https://www.lasambuy.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1150,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3212711#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3212711-5e62e0ec-481c-4f19-ffbe-05affeb62d9e",
-              "amount": 1150,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3212711"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/51071464"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q137040639",
       "n": "La Schlucht ski area",
       "a": [],
@@ -37382,34 +35901,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q20669949"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6465552",
-      "n": "La Tuca",
-      "a": [],
-      "l": null,
-      "r": "Val d'Aran",
-      "c": "Spain",
-      "p": [
-        42.67,
-        0.815556
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6465552"
         }
       ]
     },
@@ -37814,34 +36305,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q1805320",
-      "n": "Langlaufzentrum Silberhütte",
-      "a": [],
-      "l": null,
-      "r": "Bärnau",
-      "c": "Germany",
-      "p": [
-        49.7586,
-        12.3889
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1805320"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q137034696",
       "n": "Lans-en-Vercors ski area",
       "a": [],
@@ -38005,34 +36468,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q131367625"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3217985",
-      "n": "Larra-Belagua",
-      "a": [],
-      "l": null,
-      "r": "Isaba-Izaba",
-      "c": "Spain",
-      "p": [
-        42.955,
-        -0.8
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3217985"
         }
       ]
     },
@@ -39056,132 +37491,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q131225550"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q1164471",
-      "n": "Le Freney-d'Oisans",
-      "a": [
-        "Le Freney"
-      ],
-      "l": null,
-      "r": "Isère",
-      "c": "France",
-      "p": [
-        45.044722,
-        6.125556
-      ],
-      "w": "http://www.lefreneydoisans.fr",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": null,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q1164471#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "conflict",
-          "confidence": "low",
-          "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q1164471-05E7C2B8-FEBD-40E3-8F3E-8B48CB30EDA3",
-              "amount": 2118,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q2796622"
-                }
-              ],
-              "references": [
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-                "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
-              ]
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q1164471-AB655AF1-E035-4229-A83A-34B7D036235C",
-              "amount": 3445,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q3393392"
-                }
-              ],
-              "references": [
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-              ]
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q1164471-C40876E3-10D2-4BA7-829C-0B465FF3D47B",
-              "amount": 871,
-              "unit": "m",
-              "qualifiers": [
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                },
-                {
-                  "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                  "value": "http://www.wikidata.org/entity/Q30278109"
-                }
-              ],
-              "references": [
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-                "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
-              ]
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1164471"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1164471"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1164471"
         }
       ]
     },
@@ -42272,34 +40581,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3257499",
-      "n": "Lles",
-      "a": [],
-      "l": null,
-      "r": "Lles de Cerdanya",
-      "c": "Spain",
-      "p": [
-        42.431111,
-        1.668056
-      ],
-      "w": "http://www.lles.net",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3257499"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q1562224",
       "n": "Loferer Alm",
       "a": [],
@@ -42696,34 +40977,6 @@
         {
           "name": "official_resort",
           "url": "https://skiloveland.com/the-mountain/trail-map-mountain-stats/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q15057569",
-      "n": "Lungern-Schönbüel",
-      "a": [],
-      "l": null,
-      "r": "Lungern",
-      "c": "Switzerland",
-      "p": [
-        46.787721,
-        8.098806
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15057569"
         }
       ]
     },
@@ -43324,34 +41577,6 @@
         {
           "name": "official_resort",
           "url": "https://www.madarao.jp/en"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q1883463",
-      "n": "Madrid Snowzone",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Spain",
-      "p": [
-        40.298056,
-        -3.925278
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1883463"
         }
       ]
     },
@@ -44673,34 +42898,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q96392149",
-      "n": "Martin Ski Dome",
-      "a": [],
-      "l": null,
-      "r": "Kittitas County",
-      "c": "United States",
-      "p": [
-        47.2841,
-        -121.324
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q96392149"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q60986845",
       "n": "Maruike Ski Area",
       "a": [],
@@ -44860,34 +43057,6 @@
         {
           "name": "official_resort",
           "url": "https://www.marunuma.jp/winter/course-guide/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q1490642",
-      "n": "Maseben",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Italy",
-      "p": [
-        46.829,
-        10.65
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1490642"
         }
       ]
     },
@@ -45575,34 +43744,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6804123",
-      "n": "Meany Lodge",
-      "a": [],
-      "l": null,
-      "r": "Washington",
-      "c": "United States",
-      "p": [
-        47.2803,
-        -121.321
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6804123"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q17218407",
       "n": "Megahira Ski Resort",
       "a": [],
@@ -46192,34 +44333,6 @@
         {
           "name": "official_resort",
           "url": "https://www.town.aga.niigata.jp/kanko_rekishi/mikawa_onsenski"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6861835",
-      "n": "Milwaukee Ski Bowl",
-      "a": [],
-      "l": null,
-      "r": "Hyak",
-      "c": "United States",
-      "p": [
-        47.386389,
-        -121.394444
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6861835"
         }
       ]
     },
@@ -48346,34 +46459,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6907826",
-      "n": "Moonlight Basin",
-      "a": [],
-      "l": null,
-      "r": "Montana",
-      "c": "United States",
-      "p": [
-        45.3142,
-        -111.451
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6907826"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q845847",
       "n": "Morillon",
       "a": [],
@@ -48714,34 +46799,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q3866453"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q24191296",
-      "n": "Mount Agassiz Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Manitoba",
-      "c": "Canada",
-      "p": [
-        50.761,
-        -99.675
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q24191296"
         }
       ]
     },
@@ -49738,57 +47795,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6923029",
-      "n": "Mount Potts",
-      "a": [],
-      "l": null,
-      "r": "Ashburton District",
-      "c": "New Zealand",
-      "p": [
-        -43.503,
-        170.925
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 2184,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q6923029#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q6923029-40322190-1D60-48C7-A0B2-D20B84C82BE0",
-              "amount": 2184,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6923029"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q6923283",
       "n": "Mount Rose Ski Tahoe",
       "a": [],
@@ -50346,34 +48352,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q28924733",
-      "n": "Mount Stirling Alpine Resort",
-      "a": [],
-      "l": null,
-      "r": "Mount Stirling Alpine Resort",
-      "c": "Australia",
-      "p": [
-        -37.11301,
-        146.46328
-      ],
-      "w": "http://www.mtstirling.com.au",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q28924733"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q18707447",
       "n": "Mount Sutton",
       "a": [],
@@ -50472,37 +48450,6 @@
         {
           "name": "official_resort",
           "url": "https://montsutton.com/en/the-mountain/technical-info-2/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q14715730",
-      "n": "Mount Tom Ski Area",
-      "a": [
-        "Mt. Tom Ski Area",
-        "Mt. Tom Ski Resort"
-      ],
-      "l": null,
-      "r": "Holyoke",
-      "c": "United States",
-      "p": [
-        42.2513,
-        -72.6381
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q14715730"
         }
       ]
     },
@@ -50644,34 +48591,6 @@
         {
           "name": "official_resort",
           "url": "http://www.mtwaterman.org"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6924576",
-      "n": "Mount Whittier Ski Area",
-      "a": [],
-      "l": null,
-      "r": "New Hampshire",
-      "c": "United States",
-      "p": [
-        43.815,
-        -71.2067
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6924576"
         }
       ]
     },
@@ -50835,34 +48754,6 @@
         {
           "name": "official_resort",
           "url": "https://www.mthigh.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6925399",
-      "n": "Mountain View at Edinboro",
-      "a": [],
-      "l": null,
-      "r": "Pennsylvania",
-      "c": "United States",
-      "p": [
-        41.8522,
-        -80.0739
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6925399"
         }
       ]
     },
@@ -52002,34 +49893,6 @@
         {
           "name": "official_resort",
           "url": "https://www.norwaysbest.com/en/inspiration/winter"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6948957",
-      "n": "Mystic Miner Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Lawrence County",
-      "c": "United States",
-      "p": [
-        44.3084,
-        -103.818
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6948957"
         }
       ]
     },
@@ -53666,62 +51529,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7054704",
-      "n": "North Cascade Heli Skiing",
-      "a": [],
-      "l": null,
-      "r": "Washington",
-      "c": "United States",
-      "p": [
-        48.595833,
-        -120.438889
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7054704"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7060528",
-      "n": "North–South Ski Bowl",
-      "a": [],
-      "l": null,
-      "r": "Idaho",
-      "c": "United States",
-      "p": [
-        47.066,
-        -116.66
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7060528"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q7059771",
       "n": "Northstar California",
       "a": [],
@@ -53856,39 +51663,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q9186357"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7062537",
-      "n": "Notchview",
-      "a": [],
-      "l": null,
-      "r": "Massachusetts",
-      "c": "United States",
-      "p": [
-        42.5053,
-        -73.0367
-      ],
-      "w": "https://thetrustees.org/place/notchview",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7062537"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/13531099"
         }
       ]
     },
@@ -55682,34 +53456,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11626426",
-      "n": "Omote Manza Snow Park",
-      "a": [],
-      "l": null,
-      "r": "Tsumagoi",
-      "c": "Japan",
-      "p": [
-        36.611111,
-        138.526111
-      ],
-      "w": "http://omotemanza.jp",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11626426"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q65238137",
       "n": "Onikoube Ski Resort",
       "a": [],
@@ -55897,38 +53643,6 @@
         {
           "name": "official_resort",
           "url": "http://ooana-ski.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3355038",
-      "n": "Orange (ski resort)",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        46.0275,
-        6.325278
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3355038"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3355038"
         }
       ]
     },
@@ -57500,34 +55214,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3373256",
-      "n": "Payolle",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        42.942564,
-        0.283725
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3373256"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q7158509",
       "n": "Pebble Creek",
       "a": [
@@ -58734,34 +56420,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3389662",
-      "n": "Pla de Negua",
-      "a": [],
-      "l": null,
-      "r": "Esterri de Cardós",
-      "c": "Spain",
-      "p": [
-        42.6014,
-        1.28431
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3389662"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q124130101",
       "n": "Plagne Bellecôte",
       "a": [],
@@ -58981,45 +56639,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3906252",
-      "n": "Planica Nordic Center",
-      "a": [
-        "Planica"
-      ],
-      "l": null,
-      "r": "Rateče",
-      "c": "Slovenia",
-      "p": [
-        46.4764,
-        13.7211
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3906252"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/477750742"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/10621364"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q1717842",
       "n": "Planneralm",
       "a": [],
@@ -59180,41 +56799,6 @@
         {
           "name": "official_resort",
           "url": "https://platak.hr/en/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q61202004",
-      "n": "Plateau de Beille",
-      "a": [
-        "Beille"
-      ],
-      "l": null,
-      "r": "Les Cabannes",
-      "c": "France",
-      "p": [
-        42.724821,
-        1.691036
-      ],
-      "w": "http://www.beille.fr",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q61202004"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/9134314"
         }
       ]
     },
@@ -60674,34 +58258,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q109361488",
-      "n": "Q109361488",
-      "a": [],
-      "l": null,
-      "r": "Fujisato",
-      "c": "Japan",
-      "p": [
-        40.322778,
-        140.290833
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q109361488"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q109595290",
       "n": "Q109595290",
       "a": [],
@@ -60730,62 +58286,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q109596786",
-      "n": "Q109596786",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        37.75,
-        140.308333
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q109596786"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q109603100",
-      "n": "Q109603100",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.696389,
-        138.485
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q109603100"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11267247",
       "n": "Q11267247",
       "a": [],
@@ -60810,62 +58310,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11267247"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11283056",
-      "n": "Q11283056",
-      "a": [],
-      "l": null,
-      "r": "Tōon-shi",
-      "c": "Japan",
-      "p": [
-        33.811722,
-        132.871611
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11283056"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11294783",
-      "n": "Q11294783",
-      "a": [],
-      "l": null,
-      "r": "Ryūgasaki-shi",
-      "c": "Japan",
-      "p": [
-        35.938889,
-        140.208611
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11294783"
         }
       ]
     },
@@ -61178,62 +58622,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11423690",
-      "n": "Q11423690",
-      "a": [],
-      "l": null,
-      "r": "Yuzawa",
-      "c": "Japan",
-      "p": [
-        36.870833,
-        138.862778
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11423690"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11442556",
-      "n": "Q11442556",
-      "a": [],
-      "l": null,
-      "r": "Saga",
-      "c": "Japan",
-      "p": [
-        33.353056,
-        130.147222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11442556"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11488936",
       "n": "Q11488936",
       "a": [],
@@ -61314,85 +58702,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11518594"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11521103",
-      "n": "Q11521103",
-      "a": [],
-      "l": null,
-      "r": "Sapporo",
-      "c": "Japan",
-      "p": [
-        43.027778,
-        141.327222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11521103"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q115326490",
-      "n": "Q115326490",
-      "a": [],
-      "l": null,
-      "r": "Arvillard",
-      "c": "France",
-      "p": [
-        45.418361,
-        6.1685
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1700,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q115326490#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q115326490-b05709d3-423a-f30c-7dd1-005362417125",
-              "amount": 1700,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q115326490"
         }
       ]
     },
@@ -61481,34 +58790,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11554334",
-      "n": "Q11554334",
-      "a": [],
-      "l": null,
-      "r": "Gujō-shi",
-      "c": "Japan",
-      "p": [
-        35.875,
-        136.833889
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11554334"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11579552",
       "n": "Q11579552",
       "a": [],
@@ -61533,90 +58814,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11579552"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11579584",
-      "n": "Q11579584",
-      "a": [],
-      "l": null,
-      "r": "Hakusan",
-      "c": "Japan",
-      "p": [
-        36.280556,
-        136.652778
-      ],
-      "w": "http://sam-hakusan.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11579584"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11583640",
-      "n": "Q11583640",
-      "a": [],
-      "l": null,
-      "r": "Minami-ku",
-      "c": "Japan",
-      "p": [
-        42.922222,
-        141.327778
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11583640"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11589526",
-      "n": "Q11589526",
-      "a": [],
-      "l": null,
-      "r": "Kamiyama",
-      "c": "Japan",
-      "p": [
-        33.949167,
-        134.3125
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11589526"
         }
       ]
     },
@@ -61761,85 +58958,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11675143",
-      "n": "Q11675143",
-      "a": [],
-      "l": null,
-      "r": "Hakusan",
-      "c": "Japan",
-      "p": [
-        36.291667,
-        136.559722
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11675143"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q124541062",
-      "n": "Q124541062",
-      "a": [],
-      "l": null,
-      "r": "Saint-Honoré",
-      "c": "France",
-      "p": [
-        44.970228,
-        5.821352
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1500,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q124541062#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q124541062-4ea08b89-45bb-7ba2-c7b4-911b894335d4",
-              "amount": 1500,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q124541062"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q137039214",
       "n": "Q137039214",
       "a": [],
@@ -61952,34 +59070,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q17230403",
-      "n": "Q17230403",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        33.584861,
-        132.946556
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17230403"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q18339275",
       "n": "Q18339275",
       "a": [],
@@ -62004,34 +59094,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q18339275"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q18701083",
-      "n": "Q18701083",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.079167,
-        136.518222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18701083"
         }
       ]
     },
@@ -62204,34 +59266,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q2948106",
-      "n": "Q2948106",
-      "a": [],
-      "l": null,
-      "r": "Chambon-sur-Lac",
-      "c": "France",
-      "p": [
-        45.5567,
-        2.85682
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2948106"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q30741179",
       "n": "Q30741179",
       "a": [],
@@ -62316,34 +59350,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3216776",
-      "n": "Q3216776",
-      "a": [],
-      "l": null,
-      "r": "Langenwang",
-      "c": "Austria",
-      "p": [
-        47.589167,
-        15.594722
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3216776"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3221307",
       "n": "Q3221307",
       "a": [],
@@ -62396,34 +59402,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q3496038"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3555811",
-      "n": "Q3555811",
-      "a": [],
-      "l": null,
-      "r": "Treffen",
-      "c": "Austria",
-      "p": [
-        46.710295,
-        13.811359
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3555811"
         }
       ]
     },
@@ -63386,34 +60364,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7334330",
-      "n": "Rim Nordic Ski Area",
-      "a": [],
-      "l": null,
-      "r": "California",
-      "c": "United States",
-      "p": [
-        34.2256,
-        -117.041
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7334330"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q18681023",
       "n": "Ristivuori",
       "a": [],
@@ -64092,34 +61042,6 @@
         {
           "name": "official_resort",
           "url": "https://www.roundhill.co.nz/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7374228",
-      "n": "Royal Gorge Cross Country Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "California",
-      "c": "United States",
-      "p": [
-        39.3134,
-        -120.389
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7374228"
         }
       ]
     },
@@ -67203,57 +64125,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q28689066"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3472549",
-      "n": "Sant Joan de l'Erm",
-      "a": [],
-      "l": null,
-      "r": "Montferrer i Castellbò",
-      "c": "Spain",
-      "p": [
-        42.417722,
-        1.287284
-      ],
-      "w": "http://www.santjoandelerm.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 1720,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3472549#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3472549-c475955b-4a9d-cd40-bbc5-f84233e3bf80",
-              "amount": 1720,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3472549"
         }
       ]
     },
@@ -72471,34 +69342,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7534880",
-      "n": "Ski Museum of Maine",
-      "a": [],
-      "l": null,
-      "r": "Maine",
-      "c": "United States",
-      "p": [
-        44.9587,
-        -70.1551
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7534880"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11835953",
       "n": "Ski Park Ružomberok",
       "a": [],
@@ -73785,38 +70628,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q15847736",
-      "n": "Skihalle Neuss",
-      "a": [
-        "Alpenpark Neuss",
-        "Jever Fun Skihalle",
-        "Jever Skihalle"
-      ],
-      "l": null,
-      "r": "Neuss",
-      "c": "Germany",
-      "p": [
-        51.17185,
-        6.65029
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15847736"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q7535168",
       "n": "Skiland",
       "a": [],
@@ -74748,39 +71559,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q15278304",
-      "n": "Snow Farm",
-      "a": [],
-      "l": "Wānaka",
-      "r": "New Zealand",
-      "c": "New Zealand",
-      "p": [
-        -44.8775,
-        169.091
-      ],
-      "w": "https://snowfarm.nz",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15278304"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/19870279"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11312602",
       "n": "Snow Par Ogna Hotaka",
       "a": [
@@ -74846,34 +71624,6 @@
         {
           "name": "official_resort",
           "url": "https://k-hotaka.jp/ogna/slope-guide/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7034312",
-      "n": "Snow Park",
-      "a": [],
-      "l": null,
-      "r": "Otago Region",
-      "c": "New Zealand",
-      "p": [
-        -44.878,
-        169.07
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7034312"
         }
       ]
     },
@@ -74976,34 +71726,6 @@
         {
           "name": "official_resort",
           "url": "https://ozetokura.co.jp/pages/cource"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q17219909",
-      "n": "Snow Park Unpenji",
-      "a": [],
-      "l": null,
-      "r": "Kan'onji",
-      "c": "Japan",
-      "p": [
-        34.035,
-        133.721389
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17219909"
         }
       ]
     },
@@ -77058,34 +73780,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7392969",
-      "n": "SSAWS",
-      "a": [],
-      "l": null,
-      "r": "Funabashi",
-      "c": "Japan",
-      "p": [
-        35.681472,
-        139.991934
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7392969"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q116459866",
       "n": "St. Jakob im Defereggental",
       "a": [],
@@ -77255,34 +73949,6 @@
         {
           "name": "official_resort",
           "url": "https://stmary-338.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7596835",
-      "n": "Stagecoach",
-      "a": [],
-      "l": null,
-      "r": "Colorado",
-      "c": "United States",
-      "p": [
-        40.2528,
-        -106.857
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7596835"
         }
       ]
     },
@@ -83226,36 +79892,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q80550478",
-      "n": "Tōji Sand Ski Area",
-      "a": [
-        "Tōji Sandbank"
-      ],
-      "l": null,
-      "r": "Shimoda",
-      "c": "Japan",
-      "p": [
-        34.64308,
-        138.91588
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q80550478"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q17221475",
       "n": "Tokusagamine Wood Park",
       "a": [],
@@ -83288,41 +79924,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q17221475"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7835597",
-      "n": "Trapp Family Lodge",
-      "a": [
-        "Cor Unum"
-      ],
-      "l": null,
-      "r": "Stowe",
-      "c": "United States",
-      "p": [
-        44.4652,
-        -72.7447
-      ],
-      "w": "https://www.vontrappresort.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7835597"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1363367352"
         }
       ]
     },
@@ -83801,68 +80402,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3541934",
-      "n": "Tuixent – la Vansa",
-      "a": [],
-      "l": null,
-      "r": "La Vansa i Fórnols",
-      "c": "Spain",
-      "p": [
-        42.214323,
-        1.527607
-      ],
-      "w": "http://www.tuixent-lavansa.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": null,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3541934#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "conflict",
-          "confidence": "low",
-          "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3541934-9d627484-480e-e567-3329-017fe524f322",
-              "amount": 1830,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            },
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3541934-49a31bbf-40db-da6b-2e8b-2f011af2cf3e",
-              "amount": 2150,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3541934"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3541934"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3542303",
       "n": "Turini–Camp d’Argent",
       "a": [],
@@ -84108,34 +80647,6 @@
         {
           "name": "official_resort",
           "url": "https://tusseymountain.com/snow-tubing"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q7857185",
-      "n": "Tuxedo Ridge Ski Center",
-      "a": [],
-      "l": null,
-      "r": "New York",
-      "c": "United States",
-      "p": [
-        41.2461,
-        -74.2272
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7857185"
         }
       ]
     },
@@ -84419,34 +80930,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7898367",
-      "n": "Uplands Golf & Ski Club",
-      "a": [],
-      "l": null,
-      "r": "Ontario",
-      "c": "Canada",
-      "p": [
-        43.8248,
-        -79.4383
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7898367"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11570112",
       "n": "Ushidake Ski & Spa Resort",
       "a": [],
@@ -84497,34 +80980,6 @@
         {
           "name": "official_resort",
           "url": "https://ushidake.com/ski/faq/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q1006457",
-      "n": "Ustaoset",
-      "a": [],
-      "l": null,
-      "r": "Hol Municipality",
-      "c": "Norway",
-      "p": [
-        60.5,
-        8.06667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1006457"
         }
       ]
     },
@@ -84692,34 +81147,6 @@
         {
           "name": "official_resort",
           "url": "https://www.valcenis.com/ski-et-glisse/le-domaine-alpin-de-val-cenis/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q55600121",
-      "n": "Val d'Azun",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        42.990996,
-        -0.202942
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q55600121"
         }
       ]
     },
@@ -85239,38 +81666,6 @@
         {
           "name": "official_resort",
           "url": "https://www.valberg.com/decouvrir/station-4-saisons/hiver/"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5675738",
-      "n": "Valcotos",
-      "a": [],
-      "l": null,
-      "r": "Rascafría",
-      "c": "Spain",
-      "p": [
-        40.823422,
-        -3.962544
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5675738"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5675738"
         }
       ]
     },
@@ -87692,39 +84087,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7994733",
-      "n": "White Grass Ski Touring Center",
-      "a": [],
-      "l": null,
-      "r": "West Virginia",
-      "c": "United States",
-      "p": [
-        39.0189,
-        -79.4211
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7994733"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/12247315"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q7994804",
       "n": "White Hills Ski Resort",
       "a": [],
@@ -88848,38 +85210,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q14538243",
-      "n": "Winter sports in Harz",
-      "a": [],
-      "l": null,
-      "r": "Lower Saxony",
-      "c": "Germany",
-      "p": [
-        51.75662,
-        10.61709
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q14538243"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q14538243"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q8026466",
       "n": "Wintergreen Resort",
       "a": [],
@@ -89640,34 +85970,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q8032488",
-      "n": "Woodbury Ski Area",
-      "a": [],
-      "l": null,
-      "r": "Connecticut",
-      "c": "United States",
-      "p": [
-        41.5898,
-        -73.2558
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8032488"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11280431",
       "n": "Yabuhara Kogen Ski Area",
       "a": [],
@@ -90334,39 +86636,6 @@
         {
           "name": "official_resort",
           "url": "https://yawata191.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q14704796",
-      "n": "Yellowstone Club",
-      "a": [],
-      "l": null,
-      "r": "Montana",
-      "c": "United States",
-      "p": [
-        45.2314,
-        -111.451
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q14704796"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/relation/18653810"
         }
       ]
     },

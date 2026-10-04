@@ -39,7 +39,7 @@ test('third batch preserves verification and field-level source records',()=>{
 test('all 1337 researched summaries survive canonical and compact generation',async()=>{
   const canonical=JSON.parse(await readFile(new URL('../generated/canonical-resorts.json',import.meta.url),'utf8'))
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1521)
+  assert.equal(records.length,1409)
   assert.equal(records.filter(r=>r.ov).length,1337)
   for(const r of records.filter(r=>r.ov)){
     const full=canonical.find(c=>c.stable_id===r.id)
