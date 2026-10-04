@@ -43005,7 +43005,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-03T23:32:56.151Z"
+        "collected_at": "2026-10-04T00:19:35.926Z"
       },
       {
         "source": "openstreetmap",
@@ -43029,7 +43029,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-03T23:32:56.151Z",
+    "collection_date": "2026-10-04T00:19:35.926Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -126758,9 +126758,31 @@
           "wikidata:item:Q1502986"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Hohe-Wand-Wiese is a compact ski slope on Vienna’s wooded edge, offering convenient local winter recreation rather than an alpine-resort experience.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1502986"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1502986"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Hohe-Wand-Wiese is a compact ski slope on Vienna’s wooded edge, offering convenient local winter recreation rather than an alpine-resort experience.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1502986"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:538967550",
@@ -173991,6 +174013,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Le Valtin is a small Vosges mountain area whose forested setting and modest scale suit local, conditions-dependent ski days.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q919685"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q919685"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -174107,7 +174143,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Le Valtin is a small Vosges mountain area whose forested setting and modest scale suit local, conditions-dependent ski days.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q919685"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:18634616",
@@ -174480,9 +174524,31 @@
           "wikidata:item:Q6511661"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "The Lecht is a Scottish mountain ski centre with exposed upland terrain and a practical day-area character shaped strongly by weather.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q6511661"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q6511661"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "The Lecht is a Scottish mountain ski centre with exposed upland terrain and a practical day-area character shaped strongly by weather.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6511661"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1257430570",
@@ -174735,9 +174801,31 @@
           "wikidata:item:Q5847607"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Leitariegos is a Cantabrian mountain ski area with compact lift-served terrain in a high pass setting between León and Asturias.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5847607"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5847607"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Leitariegos is a Cantabrian mountain ski area with compact lift-served terrain in a high pass setting between León and Asturias.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5847607"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:582377669",
@@ -175953,9 +176041,31 @@
           "wikidata:item:Q3231105"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Les Bottières is a quiet Maurienne village sector offering direct access to the larger Les Sybelles network without a large resort-centre feel.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3231105"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3231105"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Les Bottières is a quiet Maurienne village sector offering direct access to the larger Les Sybelles network without a large resort-centre feel.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3231105"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1226965125",
@@ -176897,9 +177007,31 @@
           "wikidata:item:Q31088669"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Les Diablerets is a traditional Swiss mountain base with village slopes and access toward higher alpine terrain in the Vaud Alps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q31088669"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q31088669"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Les Diablerets is a traditional Swiss mountain base with village slopes and access toward higher alpine terrain in the Vaud Alps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q31088669"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3232074",
@@ -178922,6 +179054,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Les Mosses is an approachable Vaud Alps ski area with broad, gentle terrain and a family-oriented plateau atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q591490"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q591490"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -178968,7 +179114,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Les Mosses is an approachable Vaud Alps ski area with broad, gentle terrain and a family-oriented plateau atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q591490"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1546346394",
@@ -179772,6 +179926,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Les Rasses is a Jura ski area above Lake Neuchâtel, known for accessible local slopes and wide views toward the Alps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q88588128"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q88588128"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -179818,7 +179986,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Les Rasses is a Jura ski area above Lake Neuchâtel, known for accessible local slopes and wide views toward the Alps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q88588128"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:3161169",
@@ -182661,9 +182837,31 @@
           "wikidata:item:Q111818006"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Lively Ski Hill is a community-scale Ontario area built around convenient local access, learning and short lift-served sessions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q111818006"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q111818006"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Lively Ski Hill is a community-scale Ontario area built around convenient local access, learning and short lift-served sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111818006"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:540676705",
@@ -183139,9 +183337,31 @@
           "wikidata:item:Q1562224"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Loferer Alm is an Austrian mountain area above Lofer with scenic alpine cruising and a more relaxed village-resort character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1562224"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1562224"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Loferer Alm is an Austrian mountain area above Lofer with scenic alpine cruising and a more relaxed village-resort character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1562224"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1238045547",
@@ -190893,9 +191113,31 @@
           "wikidata:item:Q30592453"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Malam Jabba is a mountain resort in Pakistan’s Swat region, combining lift-served winter terrain with a dramatic forested setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30592453"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q30592453"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Malam Jabba is a mountain resort in Pakistan’s Swat region, combining lift-served winter terrain with a dramatic forested setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30592453"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:15411343",
@@ -195863,9 +196105,31 @@
           "wikidata:item:Q16602030"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Masikryong is a purpose-built North Korean mountain resort with a developed base and multiple lift-served slopes in a remote setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16602030"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16602030"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Masikryong is a purpose-built North Korean mountain resort with a developed base and multiple lift-served slopes in a remote setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16602030"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:5881053",
@@ -196993,9 +197257,31 @@
           "wikidata:item:Q6794173"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Maverick Mountain is a small Montana ski area with an independent, low-key atmosphere and terrain serving its surrounding community.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q6794173"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q6794173"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Maverick Mountain is a small Montana ski area with an independent, low-key atmosphere and terrain serving its surrounding community.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6794173"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3574847",
@@ -197048,9 +197334,31 @@
           "wikidata:item:Q3574847"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mavrovo is a North Macedonian mountain resort whose forested slopes sit within a broader national-park destination.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3574847"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3574847"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mavrovo is a North Macedonian mountain resort whose forested slopes sit within a broader national-park destination.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3574847"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1227360911",
@@ -198303,9 +198611,31 @@
           "wikidata:item:Q11279646"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Meiho is a developed Japanese snow resort with long groomed routes and a regional destination feel in the Gujo mountains.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11279646"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11279646"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Meiho is a developed Japanese snow resort with long groomed routes and a regional destination feel in the Gujo mountains.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11279646"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:601107962",
@@ -198647,9 +198977,31 @@
           "wikidata:item:Q16509237"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Menthières is a small French Jura ski area where wooded family terrain and a quiet village setting define the experience.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16509237"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16509237"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Menthières is a small French Jura ski area where wooded family terrain and a quiet village setting define the experience.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16509237"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:4536378",
@@ -199052,9 +199404,31 @@
           "wikidata:item:Q1810533"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Méribel-Mottaret is a high slopeside base in the Méribel valley with direct access into the extensive Three Valleys network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1810533"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1810533"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Méribel-Mottaret is a high slopeside base in the Méribel valley with direct access into the extensive Three Valleys network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1810533"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:263231398",
@@ -206318,9 +206692,31 @@
           "wikidata:item:Q102300115"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mont-Castor is a compact Québec community hill near Matane, suited to local laps, instruction and approachable winter outings.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q102300115"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q102300115"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mont-Castor is a compact Québec community hill near Matane, suited to local laps, instruction and approachable winter outings.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q102300115"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1227111693",
@@ -206824,9 +207220,31 @@
           "wikidata:item:Q16854984"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mont-Soleil is a small Swiss Jura mountain area with local lift-served terrain and an open plateau landscape.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16854984"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16854984"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mont-Soleil is a small Swiss Jura mountain area with local lift-served terrain and an open plateau landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16854984"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7548935",
@@ -207252,6 +207670,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Montchavin is a traditional village base within La Plagne, linking wooded local slopes to the wider Paradiski domain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30158304"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q30158304"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -207298,7 +207730,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Montchavin is a traditional village base within La Plagne, linking wooded local slopes to the wider Paradiski domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30158304"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:547665070",
@@ -207869,6 +208309,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Monte Lussari is a Tarvisio mountain sector where steep forested skiing meets a distinctive historic high-alpine village setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q105080367"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q105080367"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -207915,7 +208369,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Monte Lussari is a Tarvisio mountain sector where steep forested skiing meets a distinctive historic high-alpine village setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q105080367"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q31619759",
@@ -207976,6 +208438,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Monte Magnola is the mountain sector above Ovindoli, offering central-Apennine lift-served terrain and a developed regional ski base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q31619759"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q31619759"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -208022,7 +208498,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Monte Magnola is the mountain sector above Ovindoli, offering central-Apennine lift-served terrain and a developed regional ski base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q31619759"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:3956351",
@@ -208139,9 +208623,31 @@
           "wikidata:item:Q113040"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Monte Pana is a Dolomites ski sector above Santa Cristina, combining gentle local slopes with access toward the wider Val Gardena network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q113040"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113040"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Monte Pana is a Dolomites ski sector above Santa Cristina, combining gentle local slopes with access toward the wider Val Gardena network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113040"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:4088894",
@@ -210643,9 +211149,31 @@
           "wikidata:item:Q3866453"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mottolino is a major Livigno mountain sector with open alpine pistes, freestyle terrain and a distinct base across the valley from Carosello.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3866453"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3866453"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mottolino is a major Livigno mountain sector with open alpine pistes, freestyle terrain and a distinct base across the valley from Carosello.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3866453"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q24191296",
@@ -211079,9 +211607,31 @@
           "wikidata:item:Q131873343"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mount Baldy is a compact Ontario ski area near Thunder Bay with local lift-served terrain and a community-focused atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q131873343"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q131873343"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mount Baldy is a compact Ontario ski area near Thunder Bay with local lift-served terrain and a community-focused atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131873343"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q6919591",
@@ -222044,9 +222594,31 @@
           "wikidata:item:Q18680891"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Myllymäki is a Finnish regional ski centre where short groomed slopes support family outings, instruction and repeat local laps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q18680891"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q18680891"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Myllymäki is a Finnish regional ski centre where short groomed slopes support family outings, instruction and repeat local laps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18680891"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11447091",
@@ -222676,9 +223248,31 @@
           "wikidata:item:Q787069"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Mzaar Kfardebian is a major Lebanese mountain resort with several linked sectors and expansive highland terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q787069"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q787069"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mzaar Kfardebian is a major Lebanese mountain resort with several linked sectors and expansive highland terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q787069"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1242084649",
@@ -223644,9 +224238,31 @@
           "wikidata:item:Q30592460"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Naltar is a high mountain ski area in northern Pakistan with a remote valley setting and a strong competitive-skiing association.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30592460"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q30592460"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Naltar is a high mountain ski area in northern Pakistan with a remote valley setting and a strong competitive-skiing association.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30592460"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:7495242",
@@ -223913,9 +224529,31 @@
           "wikidata:item:Q1575304"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Nanshan is a developed ski area near Beijing, oriented toward accessible day trips, instruction and purpose-built snow terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1575304"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1575304"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Nanshan is a developed ski area near Beijing, oriented toward accessible day trips, instruction and purpose-built snow terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1575304"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:623115707",
@@ -230596,9 +231234,31 @@
           "wikidata:item:Q11801627"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Nowa Osada is a Polish Beskid ski area near Wisła with a compact groomed layout and convenient regional access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11801627"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11801627"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Nowa Osada is a Polish Beskid ski area near Wisła with a compact groomed layout and convenient regional access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11801627"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7067399",
@@ -237872,9 +238532,31 @@
           "wikidata:item:Q1783644"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Ortler Skiarena is a South Tyrol regional network joining multiple distinct mountain areas rather than one continuous lift system.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1783644"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1783644"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ortler Skiarena is a South Tyrol regional network joining multiple distinct mountain areas rather than one continuous lift system.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1783644"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1467326267",
@@ -239322,9 +240004,31 @@
           "wikidata:item:Q116927013"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Ounasvaara is an urban-edge Finnish ski centre above Rovaniemi, combining downhill slopes with a wider winter-sports setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q116927013"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q116927013"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ounasvaara is an urban-edge Finnish ski centre above Rovaniemi, combining downhill slopes with a wider winter-sports setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116927013"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:550880589",
@@ -240732,9 +241436,31 @@
           "wikidata:item:Q29830879"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Palandöken is a high Turkish mountain resort above Erzurum, with exposed alpine terrain and a strong sporting identity.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q29830879"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q29830879"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Palandöken is a high Turkish mountain resort above Erzurum, with exposed alpine terrain and a strong sporting identity.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q29830879"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11329430",
@@ -242275,9 +243001,31 @@
           "wikidata:item:Q16074727"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Papaei is an Iranian regional ski area near Zanjan whose lift-served slopes provide a straightforward local mountain experience.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16074727"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16074727"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Papaei is an Iranian regional ski area near Zanjan whose lift-served slopes provide a straightforward local mountain experience.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16074727"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:5994227",
@@ -244680,9 +245428,31 @@
           "wikidata:item:Q21236794"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Passolanciano-Maielletta is an Apennine ski area with open highland views and operation that can be strongly shaped by conditions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q21236794"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q21236794"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Passolanciano-Maielletta is an Apennine ski area with open highland views and operation that can be strongly shaped by conditions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q21236794"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3368414",
@@ -247420,9 +248190,31 @@
           "wikidata:item:Q11816075"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Pezinská Baba is a compact Slovak ski area in the Little Carpathians, offering convenient regional slopes near Bratislava.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11816075"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11816075"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Pezinská Baba is a compact Slovak ski area in the Little Carpathians, offering convenient regional slopes near Bratislava.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11816075"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:14367671",
@@ -248164,6 +248956,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Pian delle Betulle is a small car-free Lombardy mountain area with family slopes and a quiet alpine-village atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3901887"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3901887"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -248210,7 +249016,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Pian delle Betulle is a small car-free Lombardy mountain area with family slopes and a quiet alpine-village atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3901887"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1530190949",
@@ -248766,6 +249580,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Piano Provenzana is a lift-served winter area on Mount Etna’s northern flank, distinguished by volcanic scenery and variable conditions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3901987"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3901987"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -248812,7 +249640,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Piano Provenzana is a lift-served winter area on Mount Etna’s northern flank, distinguished by volcanic scenery and variable conditions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3901987"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3382234",
@@ -251834,9 +252670,31 @@
           "wikidata:item:Q3462692"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Pla d’Adet is the main slopeside base for Saint-Lary, connecting family terrain and village facilities to the broader mountain area.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3462692"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3462692"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Pla d’Adet is the main slopeside base for Saint-Lary, connecting family terrain and village facilities to the broader mountain area.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3462692"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3389662",
@@ -251944,9 +252802,31 @@
           "wikidata:item:Q124130101"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Plagne Bellecôte is a high, purpose-built La Plagne base with direct lifts into several sectors of the larger Paradiski network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q124130101"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q124130101"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Plagne Bellecôte is a high, purpose-built La Plagne base with direct lifts into several sectors of the larger Paradiski network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q124130101"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q1801525",
@@ -252000,6 +252880,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Plan Maison is a mid-mountain Cervinia sector that acts as a lift interchange and gateway to high alpine pistes beneath the Matterhorn.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1801525"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1801525"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -252046,7 +252940,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Plan Maison is a mid-mountain Cervinia sector that acts as a lift interchange and gateway to high alpine pistes beneath the Matterhorn.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1801525"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:341898615",
@@ -252427,6 +253329,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Planpraz is the main mid-mountain hub of Chamonix’s Brévent sector, pairing sunny slopes with broad Mont Blanc views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2098306"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2098306"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -252473,7 +253389,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Planpraz is the main mid-mountain hub of Chamonix’s Brévent sector, pairing sunny slopes with broad Mont Blanc views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2098306"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:758328458",
@@ -254652,9 +255576,31 @@
           "wikidata:item:Q3397857"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Pooladkaf is a high-elevation Iranian ski area near Shiraz, offering open mountain terrain in an unusual southern setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3397857"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3397857"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Pooladkaf is a high-elevation Iranian ski area near Shiraz, offering open mountain terrain in an unusual southern setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3397857"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3112563",
@@ -255038,9 +255984,31 @@
           "wikidata:item:Q2717352"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Port Ainé is a Spanish Pyrenees resort with a sheltered, family-oriented layout and slopes descending through mountain forest.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2717352"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2717352"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Port Ainé is a Spanish Pyrenees resort with a sheltered, family-oriented layout and slopes descending through mountain forest.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2717352"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3398641",
@@ -255892,9 +256860,31 @@
           "wikidata:item:Q2105942"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Postalm is an Austrian plateau area where modest downhill slopes sit within a broad winter recreation landscape.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2105942"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2105942"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Postalm is an Austrian plateau area where modest downhill slopes sit within a broad winter recreation landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2105942"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q1549658",
@@ -255947,9 +256937,31 @@
           "wikidata:item:Q1549658"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Postwiesen is a compact Sauerland ski area at Neuastenberg with groomed local slopes and convenient short-stay access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1549658"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1549658"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Postwiesen is a compact Sauerland ski area at Neuastenberg with groomed local slopes and convenient short-stay access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1549658"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7235982",
@@ -258330,9 +259342,31 @@
           "wikidata:item:Q7253816"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Prés-d’Orvin is a small Swiss Jura ski area with gentle local terrain and an open rural mountain setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7253816"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7253816"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Prés-d’Orvin is a small Swiss Jura ski area with gentle local terrain and an open rural mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7253816"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:9421735",
@@ -287215,9 +288249,31 @@
           "wikidata:item:Q7385886"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Rânca is a Romanian mountain resort on the Transalpina, with exposed highland slopes and a developing roadside base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7385886"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7385886"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Rânca is a Romanian mountain resort on the Transalpina, with exposed highland slopes and a developing roadside base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7385886"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1230214267",
@@ -292856,6 +293912,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Roche Béranger is a main Chamrousse base sector, placing slopeside lodging and services beside direct lift access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q115128452"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q115128452"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -292902,7 +293972,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Roche Béranger is a main Chamrousse base sector, placing slopeside lodging and services beside direct lift access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q115128452"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1227111260",
@@ -293348,6 +294426,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Rogla is a Slovenian plateau resort combining groomed downhill terrain with a broader year-round mountain destination.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q23925175"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q23925175"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -293394,7 +294486,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Rogla is a Slovenian plateau resort combining groomed downhill terrain with a broader year-round mountain destination.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23925175"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:100315791",
@@ -294523,9 +295623,31 @@
           "wikidata:item:Q1670175"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Rosswald is a sunny car-light Swiss mountain village with compact ski terrain overlooking the Rhône Valley.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1670175"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1670175"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Rosswald is a sunny car-light Swiss mountain village with compact ski terrain overlooking the Rhône Valley.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1670175"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7370238",
@@ -297601,6 +298723,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Šachtičky is a Slovak regional ski area near Banská Bystrica with a modest lift network and forested slopes.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3594215"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3594215"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -297647,7 +298783,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Šachtičky is a Slovak regional ski area near Banská Bystrica with a modest lift network and forested slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3594215"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7397750",
@@ -298028,9 +299172,31 @@
           "wikidata:item:Q26701454"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sahand is an Iranian ski area on the slopes of its namesake volcanic massif, offering open regional mountain terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q26701454"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q26701454"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sahand is an Iranian ski area on the slopes of its namesake volcanic massif, offering open regional mountain terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q26701454"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11305052",
@@ -298500,9 +299666,31 @@
           "wikidata:item:Q120311350"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Saint-Colomban des Villards is a quiet Maurienne village sector linked into Les Sybelles, with a traditional valley character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q120311350"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q120311350"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Saint-Colomban des Villards is a quiet Maurienne village sector linked into Les Sybelles, with a traditional valley character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120311350"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q652398",
@@ -300963,9 +302151,31 @@
           "wikidata:item:Q65169100"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Saint-Nicolas-de-Véroce is a village ski sector within the Évasion Mont-Blanc area, known for scenic slopes beneath the Mont Blanc massif.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q65169100"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q65169100"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Saint-Nicolas-de-Véroce is a village ski sector within the Évasion Mont-Blanc area, known for scenic slopes beneath the Mont Blanc massif.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q65169100"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:599031565",
@@ -301369,6 +302579,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Saint-Véran is a high Queyras village whose nearby lift-served slopes share a traditional mountain setting with Molines.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q476465"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q476465"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -301559,7 +302783,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Saint-Véran is a high Queyras village whose nearby lift-served slopes share a traditional mountain setting with Molines.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q476465"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q16511275",
@@ -302015,9 +303247,31 @@
           "wikidata:item:Q124884492"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sakae Club is a Japanese snow-country ski area with a quiet regional feel and terrain shaped by heavy winter snowfall.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q124884492"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q124884492"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sakae Club is a Japanese snow-country ski area with a quiet regional feel and terrain shaped by heavy winter snowfall.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q124884492"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q1701488",
@@ -302078,9 +303332,31 @@
           "wikidata:item:Q1701488"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Saklıkent is a Turkish ski area in the mountains above Antalya, offering a striking contrast to the nearby Mediterranean coast.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1701488"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1701488"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Saklıkent is a Turkish ski area in the mountains above Antalya, offering a striking contrast to the nearby Mediterranean coast.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1701488"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11382598",
@@ -302774,9 +304050,31 @@
           "wikidata:item:Q2311974"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Salzburger Sportwelt is a multi-village Austrian ski region whose linked and neighboring sectors form part of a wider destination network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2311974"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2311974"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Salzburger Sportwelt is a multi-village Austrian ski region whose linked and neighboring sectors form part of a wider destination network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2311974"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3470429",
@@ -303058,6 +304356,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Samoëns 1600 is the principal slopeside hub above the historic village, providing direct access into the Grand Massif network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q113558466"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113558466"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -303104,7 +304416,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Samoëns 1600 is the principal slopeside hub above the historic village, providing direct access into the Grand Massif network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113558466"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1531461224",
@@ -306013,9 +307333,31 @@
           "wikidata:item:Q24874956"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Satoyama is a small Japanese ski field in Yamagata, offering straightforward local terrain in a rural snow-country setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q24874956"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q24874956"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Satoyama is a small Japanese ski field in Yamagata, offering straightforward local terrain in a rural snow-country setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24874956"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1227118712",
@@ -311356,9 +312698,31 @@
           "wikidata:item:Q1456395"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sellaronda is a celebrated Dolomites ski circuit connecting several resort valleys around the Sella massif rather than one standalone area.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1456395"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1456395"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sellaronda is a celebrated Dolomites ski circuit connecting several resort valleys around the Sella massif rather than one standalone area.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1456395"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q1112934",
@@ -312013,9 +313377,31 @@
           "wikidata:item:Q7449691"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Semkovo is a Bulgarian mountain resort in the Rila range with a quiet, wooded setting and regional-scale ski facilities.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7449691"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7449691"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Semkovo is a Bulgarian mountain resort in the Rila range with a quiet, wooded setting and regional-scale ski facilities.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7449691"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q19842286",
@@ -313156,9 +314542,31 @@
           "wikidata:item:Q18785781"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Serre-Eyraud is a small Champsaur ski area with wooded slopes and a low-key village atmosphere beneath higher alpine terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q18785781"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q18785781"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Serre-Eyraud is a small Champsaur ski area with wooded slopes and a low-key village atmosphere beneath higher alpine terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18785781"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:45438174",
@@ -314384,9 +315792,31 @@
           "wikidata:item:Q14889394"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Shemshak is a historic Iranian mountain resort near Tehran, characterized by steep valley terrain and a strong local ski culture.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q14889394"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q14889394"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Shemshak is a historic Iranian mountain resort near Tehran, characterized by steep valley terrain and a strong local ski culture.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14889394"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q21645716",
@@ -315491,6 +316921,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Shirbad is a high mountain ski area in northeastern Iran, serving regional winter recreation in a remote alpine setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q17991635"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q17991635"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -315537,7 +316981,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Shirbad is a high mountain ski area in northeastern Iran, serving regional winter recreation in a remote alpine setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17991635"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11659969",
@@ -319119,9 +320571,31 @@
           "wikidata:item:Q109256882"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sitzmark is a small community ski hill in Washington’s Okanogan Highlands with an independent and distinctly local character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q109256882"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109256882"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sitzmark is a small community ski hill in Washington’s Okanogan Highlands with an independent and distinctly local character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109256882"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1361864388",
@@ -325682,9 +327156,31 @@
           "wikidata:item:Q2292113"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Ski Center Latemar is a Dolomites network linking several access points through broad groomed terrain beneath dramatic limestone peaks.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2292113"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292113"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ski Center Latemar is a Dolomites network linking several access points through broad groomed terrain beneath dramatic limestone peaks.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292113"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:540707095",
@@ -330995,9 +332491,31 @@
           "wikidata:item:Q11835953"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Ski Park Ružomberok is a Slovak mountain area above the city, with forested slopes and convenient regional access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11835953"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11835953"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ski Park Ružomberok is a Slovak mountain area above the city, with forested slopes and convenient regional access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11835953"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:17650297",
@@ -331579,6 +333097,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Czarna Góra is a developed Polish mountain resort with a varied groomed network and a substantial regional destination role.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3009566"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3009566"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -331625,7 +333157,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Czarna Góra is a developed Polish mountain resort with a varied groomed network and a substantial regional destination role.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3009566"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q111016347",
@@ -331788,9 +333328,31 @@
           "wikidata:item:Q1628542"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Hesselbach is a small German local ski slope whose simple lift-served layout is oriented toward learning and nearby residents.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1628542"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1628542"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Hesselbach is a small German local ski slope whose simple lift-served layout is oriented toward learning and nearby residents.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1628542"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q24946284",
@@ -331843,9 +333405,31 @@
           "wikidata:item:Q24946284"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Kurza Góra is a modern Polish regional ski centre with groomed slopes, learning facilities and an accessible day-area format.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q24946284"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q24946284"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Kurza Góra is a modern Polish regional ski centre with groomed slopes, learning facilities and an accessible day-area format.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24946284"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q2292235",
@@ -331898,9 +333482,31 @@
           "wikidata:item:Q2292235"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Nauders is an Austrian resort near the Reschen Pass with high alpine terrain and a family-oriented Tyrolean base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2292235"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292235"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Nauders is an Austrian resort near the Reschen Pass with high alpine terrain and a family-oriented Tyrolean base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292235"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q111016306",
@@ -332853,9 +334459,31 @@
           "wikidata:item:Q16943643"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Ski Smithers is a northern British Columbia mountain area with forested lift-served terrain and a strong community connection.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16943643"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16943643"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ski Smithers is a northern British Columbia mountain area with forested lift-served terrain and a strong community connection.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16943643"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7534900",
@@ -339001,9 +340629,31 @@
           "wikidata:item:Q2292140"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Skiarena Silbersattel is a compact Thuringian Forest ski area with groomed local slopes and a regional winter-sports focus.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2292140"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292140"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Skiarena Silbersattel is a compact Thuringian Forest ski area with groomed local slopes and a regional winter-sports focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292140"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:14359225",
@@ -340988,9 +342638,31 @@
           "wikidata:item:Q75847637"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Hinterstoder Höss is an Upper Austrian mountain area with developed alpine pistes and a strong racing and regional-resort identity.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q75847637"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q75847637"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Hinterstoder Höss is an Upper Austrian mountain area with developed alpine pistes and a strong racing and regional-resort identity.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q75847637"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:7035149",
@@ -347821,9 +349493,31 @@
           "wikidata:item:Q2585136"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Simmelsberg is a small Rhön ski centre whose wooded slopes and local club culture support training and short winter outings.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2585136"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2585136"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Simmelsberg is a small Rhön ski centre whose wooded slopes and local club culture support training and short winter outings.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2585136"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:43181728",
@@ -348254,9 +349948,31 @@
           "wikidata:item:Q7537479"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sky Resort is a developed ski area near Ulaanbaatar, offering convenient groomed terrain in a cold, open steppe-edge setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7537479"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7537479"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sky Resort is a developed ski area near Ulaanbaatar, offering convenient groomed terrain in a cold, open steppe-edge setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7537479"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11311262",
@@ -349174,9 +350890,31 @@
           "wikidata:item:Q1479371"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Smiggin Holes is a sheltered Perisher base with approachable slopes, lodging and lift links into the wider Australian resort network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1479371"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1479371"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Smiggin Holes is a sheltered Perisher base with approachable slopes, lodging and lift links into the wider Australian resort network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1479371"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1249722682",
@@ -352930,9 +354668,31 @@
           "wikidata:item:Q1669177"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Snow World Züschen is a compact Sauerland ski area with local groomed slopes and a practical day-trip character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1669177"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1669177"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Snow World Züschen is a compact Sauerland ski area with local groomed slopes and a practical day-trip character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1669177"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q2665933",
@@ -355483,9 +357243,31 @@
           "wikidata:item:Q11315420"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sol-Fa Oda is a small Japanese regional ski area with straightforward groomed terrain and a quiet local-mountain atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11315420"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11315420"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sol-Fa Oda is a small Japanese regional ski area with straightforward groomed terrain and a quiet local-mountain atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11315420"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1086288219",
@@ -358832,9 +360614,31 @@
           "wikidata:item:Q48541530"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Spielbergalm is a small Salzburg mountain area where modest lift-served slopes and an alpine setting shape a relaxed ski day.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q48541530"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q48541530"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Spielbergalm is a small Salzburg mountain area where modest lift-served slopes and an alpine setting shape a relaxed ski day.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q48541530"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:585748317",
@@ -363623,9 +365427,31 @@
           "wikidata:item:Q137050521"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Courchevel Le Praz is a traditional village base with gondola access into Courchevel and the broader Three Valleys domain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q137050521"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137050521"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Courchevel Le Praz is a traditional village base with gondola access into Courchevel and the broader Three Valleys domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137050521"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3216214",
@@ -363685,9 +365511,31 @@
           "wikidata:item:Q3216214"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Laguiole is a small Aubrac ski station whose gentle regional terrain and open plateau setting depend heavily on natural conditions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3216214"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3216214"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Laguiole is a small Aubrac ski station whose gentle regional terrain and open plateau setting depend heavily on natural conditions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3216214"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1020156861",
@@ -363868,9 +365716,31 @@
           "wikidata:item:Q120300121"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Col du Rousset is a Vercors ski station with family terrain around a mountain pass and broad views over the surrounding plateau.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q120300121"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q120300121"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Col du Rousset is a Vercors ski station with family terrain around a mountain pass and broad views over the surrounding plateau.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120300121"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:665342233",
@@ -364051,9 +365921,31 @@
           "wikidata:item:Q120315692"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Val d’Allos – La Foux is a southern-Alps resort base with high open slopes and links across the Espace Lumière domain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q120315692"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q120315692"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Val d’Allos – La Foux is a southern-Alps resort base with high open slopes and links across the Espace Lumière domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120315692"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:13841278",
@@ -368894,6 +370786,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Štrbské Pleso is a High Tatras resort combining lift-served downhill terrain with a prominent Nordic and winter-sports setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q392483"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q392483"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -368940,7 +370846,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Štrbské Pleso is a High Tatras resort combining lift-served downhill terrain with a prominent Nordic and winter-sports setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q392483"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:259626948",
@@ -373496,9 +375410,31 @@
           "wikidata:item:Q7640544"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Sunnegga is a Zermatt mountain sector reached rapidly from town, with sunny pistes and exceptional Matterhorn views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7640544"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7640544"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sunnegga is a Zermatt mountain sector reached rapidly from town, with sunny pistes and exceptional Matterhorn views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7640544"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:625646967",
@@ -374305,9 +376241,31 @@
           "wikidata:item:Q7641858"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Suomu is a Finnish Lapland ski resort with compact fell terrain, woodland runs and a quiet destination atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7641858"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7641858"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Suomu is a Finnish Lapland ski resort with compact fell terrain, woodland runs and a quiet destination atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7641858"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:447917557",
@@ -374432,9 +376390,31 @@
           "wikidata:item:Q265487"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Super Besse is a developed Massif Central resort with open volcanic slopes and a broad range of regional winter facilities.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q265487"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q265487"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Super Besse is a developed Massif Central resort with open volcanic slopes and a broad range of regional winter facilities.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q265487"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q134694471",
@@ -374541,9 +376521,31 @@
           "wikidata:item:Q3504039"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Super-Châtel is a village-facing sector above Châtel, offering local slopes and connections toward the wider Portes du Soleil.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3504039"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3504039"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Super-Châtel is a village-facing sector above Châtel, offering local slopes and connections toward the wider Portes du Soleil.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3504039"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q844809",
@@ -374606,9 +376608,31 @@
           "wikidata:item:Q844809"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Superbagnères is a historic Pyrenees ski area above Luchon, with high mountain views and several distinct terrain sectors.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q844809"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q844809"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Superbagnères is a historic Pyrenees ski area above Luchon, with high mountain views and several distinct terrain sectors.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q844809"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q3504072",
@@ -375643,9 +377667,31 @@
           "wikidata:item:Q11374212"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Swiss Village is a small Japanese ski area in Kyoto Prefecture with a simple regional layout and local winter character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11374212"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11374212"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Swiss Village is a small Japanese ski area in Kyoto Prefecture with a simple regional layout and local winter character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11374212"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:5314322",
@@ -376169,9 +378215,31 @@
           "wikidata:item:Q9341015"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Szymoszkowa is a Zakopane ski slope with convenient town access and broad views toward the High Tatras.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341015"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q9341015"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Szymoszkowa is a Zakopane ski slope with convenient town access and broad views toward the High Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341015"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q116281030",
@@ -376585,9 +378653,31 @@
           "wikidata:item:Q4452833"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Tahko is a major Finnish ski centre with numerous groomed slopes, a developed village and a lively regional destination feel.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q4452833"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q4452833"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Tahko is a major Finnish ski centre with numerous groomed slopes, a developed village and a lively regional destination feel.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4452833"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7675610",
@@ -378123,9 +380213,31 @@
           "wikidata:item:Q7680872"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Tamarack is an Idaho mountain resort with a developed base and lift-served terrain overlooking the Long Valley region.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7680872"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q7680872"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Tamarack is an Idaho mountain resort with a developed base and lift-served terrain overlooking the Long Valley region.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7680872"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q11271460",
@@ -379763,9 +381875,31 @@
           "wikidata:item:Q876765"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Tauplitzalm is an Austrian plateau resort with broad alpine terrain and links between its high slopes and valley access points.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q876765"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q876765"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Tauplitzalm is an Austrian plateau resort with broad alpine terrain and links between its high slopes and valley access points.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q876765"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:relation:5596421",
@@ -379936,9 +382070,31 @@
           "wikidata:item:Q11270976"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Tazawako is an Akita ski area with varied mountain terrain and expansive views toward its namesake lake.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11270976"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11270976"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Tazawako is an Akita ski area with varied mountain terrain and expansive views toward its namesake lake.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11270976"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q110941628",
@@ -381544,9 +383700,31 @@
           "wikidata:item:Q631906"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Termas de Chillán is a Chilean Andes resort where volcanic terrain, forested lower slopes and hot-spring lodging shape the destination.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q631906"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q631906"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Termas de Chillán is a Chilean Andes resort where volcanic terrain, forested lower slopes and hot-spring lodging shape the destination.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q631906"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:476936897",
@@ -384563,6 +386741,20 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "text": "Tignes Val Claret is a high slopeside base with direct access toward upper-mountain terrain and the linked Tignes–Val d’Isère domain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q107451789"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q107451789"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -384609,7 +386801,15 @@
         ],
         "license": "CC0-1.0"
       }
-    ]
+    ],
+    "overview": {
+      "text": "Tignes Val Claret is a high slopeside base with direct access toward upper-mountain terrain and the linked Tignes–Val d’Isère domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q107451789"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7801674",

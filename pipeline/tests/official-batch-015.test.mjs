@@ -1,10 +1,10 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
-import { officialBatch, applyOfficialBatch014 } from '../official-batch-014.mjs'
+import { officialBatch, applyOfficialBatch015 } from '../official-batch-015.mjs'
 
-test('fourteenth batch contains exactly 100 new structured-source overviews',async()=>{
-  const previous=(await Promise.all(Array.from({length:13},(_,i)=>import(`../official-batch-${String(i+1).padStart(3,'0')}.mjs`)))).flatMap(m=>m.officialBatch)
+test('fifteenth batch contains exactly 100 new structured-source overviews',async()=>{
+  const previous=(await Promise.all(Array.from({length:14},(_,i)=>import(`../official-batch-${String(i+1).padStart(3,'0')}.mjs`)))).flatMap(m=>m.officialBatch)
   const ids=new Set(previous.map(e=>e.id))
   assert.equal(officialBatch.length,100)
   for(const e of officialBatch){
@@ -16,17 +16,17 @@ test('fourteenth batch contains exactly 100 new structured-source overviews',asy
   }
 })
 
-test('fourteenth batch preserves candidate state and records intentional missingness',()=>{
+test('fifteenth batch preserves candidate state and records intentional missingness',()=>{
   const records=officialBatch.map(e=>({stable_id:e.id,name:e.name,confidence:'medium',verification_status:'candidate',field_provenance:{},source_records:[{source:'wikidata',record_id:e.id,url:e.summary_sources[0]}]}))
-  const report=applyOfficialBatch014(records)
+  const report=applyOfficialBatch015(records)
   assert.equal(report.researched_profiles,100);assert.equal(report.source_checked_observations,0);assert.equal(report.summary_only_profiles.length,100)
   for(const r of records){assert.equal(r.verification_status,'candidate');assert.equal(r.confidence,'medium');assert.deepEqual(r.mountain_observations,[])}
-  assert.throws(()=>applyOfficialBatch014([]),/missing/)
+  assert.throws(()=>applyOfficialBatch015([]),/missing/)
 })
 
-test('all batch fourteen summaries reach public cards and guides with Wikidata provenance',async()=>{
+test('all batch fifteen summaries reach public cards and guides with Wikidata provenance',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1521);assert.ok(records.filter(r=>r.ov).length>=903)
+  assert.equal(records.length,1521);assert.equal(records.filter(r=>r.ov).length,1003)
   for(const e of officialBatch){
     const matches=records.filter(r=>r.id===e.id);assert.equal(matches.length,1,e.id)
     const r=matches[0];assert.equal(r.ov.text,e.summary);assert.equal(r.ov.reviewed_at,'2026-10-03')

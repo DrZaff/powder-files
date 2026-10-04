@@ -13,6 +13,7 @@ import { applyOfficialBatch011 } from './official-batch-011.mjs'
 import { applyOfficialBatch012 } from './official-batch-012.mjs'
 import { applyOfficialBatch013 } from './official-batch-013.mjs'
 import { applyOfficialBatch014 } from './official-batch-014.mjs'
+import { applyOfficialBatch015 } from './official-batch-015.mjs'
 import { applyResortSummaries } from './resort-summaries.mjs'
 import { enrichMountains } from './lib/mountain-enrichment.mjs'
 import { readFile } from 'node:fs/promises'
@@ -50,6 +51,7 @@ await writeJson(new URL('official-batch-011-report.json',generated),applyOfficia
 await writeJson(new URL('official-batch-012-report.json',generated),applyOfficialBatch012(canonical))
 await writeJson(new URL('official-batch-013-report.json',generated),applyOfficialBatch013(canonical))
 await writeJson(new URL('official-batch-014-report.json',generated),applyOfficialBatch014(canonical))
+await writeJson(new URL('official-batch-015-report.json',generated),applyOfficialBatch015(canonical))
 await writeJson(new URL('resort-summaries-report.json',generated),applyResortSummaries(canonical))
 const mountainCache=await cached('mountain-wikidata')
 const enrichmentQueue=enrichMountains(canonical,mountainCache.queried_ids?mountainCache:null)
