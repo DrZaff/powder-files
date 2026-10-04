@@ -1,0 +1,1876 @@
+{
+  "batch": "official-009",
+  "checked_at": "2026-08-31",
+  "researched_profiles": 100,
+  "source_checked_observations": 217,
+  "conflict_fields": 11,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q56219314",
+      "name": "Aflenzer Bürgeralm",
+      "notes": "Difficulty-category distances retained separately; no inferred whole-resort total or avalanche-safety guarantee.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.aflenzer-buergeralm.at/winter/skifahren/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q364061",
+      "name": "Axamer Lizum",
+      "notes": "Official regional report has a different route-inclusive total; operator headline retained with scope, not represented as measured groomed-only mileage.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://mobile.axamer-lizum.at/en/welcome-to-the-axamer-lizum-1-1.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q46995824",
+      "name": "Bergeralm",
+      "notes": "Current summer and older winter widgets differ; combination chair/gondola components not counted as separate lifts. Older brochure totals not promoted as current.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bergeralm.net/en/ski-area/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1019630",
+      "name": "Bödele",
+      "notes": "Potential duplicate Ski area Boedele Q123854999 not separately enriched. Walking and Nordic distances excluded.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.boedele.info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q23689639",
+      "name": "Brunnalm – Hohe Veitsch",
+      "notes": "Four main lifts do not establish a carpet-inclusive total. Stale 2023 weather banner not treated as current closure.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.brunnalm-hoheveitsch.at/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q875914",
+      "name": "Kreischberg",
+      "notes": "Kreischberg-only figures, not combined with Lachtal despite shared ticket options.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kreischberg.at/en/pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3215823",
+      "name": "Lachtal",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lachtal.at/en/pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1279288",
+      "name": "Goldeck",
+      "notes": "19-item status denominator may include routes and activities; not imported as trail count. S1 vertical scope/current descent access not established; 50-ha freeride area not whole-resort acreage.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sportberg-goldeck.com/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1239826",
+      "name": "Golm",
+      "notes": "44-km headline not imported as groomed-only length: separate official report includes valley descents and ski routes. Animated zero counters ignored.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.golm.at/en/skiing"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q15110597",
+      "name": "Fageralm",
+      "notes": "Lift inventory subject to new Fageralmbahn project; no stale lift total selected.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.reiteralm.at/en/aktuell/reiteralm/geoeffnete-anlagen-reiteralm",
+        "https://www.reiteralm.at/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q686055",
+      "name": "Reiteralm",
+      "notes": "Ski amadé 760-km total excluded from this individual mountain.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.reiteralm.at/en/aktuell/reiteralm/geoeffnete-anlagen-reiteralm",
+        "https://www.reiteralm.at/de/aktivitaeten/skifahren"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3470429",
+      "name": "Salzstiegl",
+      "notes": "Operator figures used. Nearby lodge publishes different lift and elevation figures, so those measurements are withheld pending scope reconciliation.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.salzstiegl.at/ski-rodelgebiet"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1717842",
+      "name": "Planneralm",
+      "notes": "Published village/landscape elevation range not assumed to be lift-served skiing endpoints.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.planneralm.at/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2288194",
+      "name": "Simonhöhe",
+      "notes": "Difficulty categories include a learning area, so they are not summed as individual trails. Older lift page lists one carpet; newer winter page lists two.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.simonhoehe.at/skigebiet/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1546875",
+      "name": "Grossglockner Resort Kals–Matrei",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.gg-resort.at/winter/lifte-und-pisten"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60726558",
+      "name": "St. Jakob im Defereggental",
+      "notes": "Highest point withheld: operator headline says 2683 m while Leppleskofel lift table says 2680 m. Not confused with Brunnalm–Hohe Veitsch.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "skiing_elevation",
+          "label": "Upper ski elevation",
+          "unit": "m",
+          "value": null,
+          "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten",
+          "alternatives": [
+            {
+              "value": 2683,
+              "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
+            },
+            {
+              "value": 2680,
+              "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
+            }
+          ],
+          "note": "Same operator page headline and table disagree; elevation withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.stjakob-ski.at/winter/lifte-und-pisten"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1721611",
+      "name": "Kaiserau",
+      "notes": "Nordic routes excluded from alpine length. Source is the owning abbey’s resort page.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://stiftadmont.at/fr/paradis-des-familles-kaiserau/hiver/ski/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q26822192",
+      "name": "Kühtai",
+      "notes": "Local inventory retained as context only; Hochoetz shared-pass totals and lift lengths not treated as local skiing vertical.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kuehtai.info/en/sidenavigation/lifts-and-pistes.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61279053",
+      "name": "Muttereralm",
+      "notes": "Source is official regional tourism, not an operator measurement survey.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-muttereralm"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1219251",
+      "name": "Albiez-Montrond",
+      "notes": "Operator 67-plus hectares includes other activities; municipality gives 70 hectares. No whole-resort ski acreage selected.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.station-albiez.com/fr/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2871914",
+      "name": "Auris-en-Oisans",
+      "notes": "250-km Alpe d’Huez network excluded. Lower extent differs between operator (1450 m) and tourism overview (1600 m); withheld.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skipass.auris-en-oisans.fr/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q696634",
+      "name": "Chamrousse",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.chamrousse.com/plan-pistes-alpin.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q530324",
+      "name": "Flaine",
+      "notes": "Grand Massif 265-km shared total withheld as a Flaine-only statistic.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.flaine.com/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q829385",
+      "name": "Combloux",
+      "notes": "100-km Portes du Mont-Blanc and 400-plus-km Evasion totals are shared networks, not Combloux-only facts.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.combloux.com/profiter/ski/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q840817",
+      "name": "Cordon",
+      "notes": "Official tourist-office inventory; seasonal closed label not interpreted as permanent closure.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://explore.cordon.fr/en/ski-resort/cordon"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q819065",
+      "name": "Notre-Dame-de-Bellecombe",
+      "notes": "90-km Val d’Arly and 200-km Espace Diamant totals not assigned to this village alone; headline 159 pistes is network scope.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://notredamebellecombe.labellemontagne.com/fr/hiver/ski-snowboard/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3107623",
+      "name": "Formigal",
+      "notes": "Combined 182-km, 147-route and 37-lift Formigal–Panticosa totals not assigned to Formigal alone.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.formigal-panticosa.com/preguntas-frecuentes-formigal-panticosa.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2717381",
+      "name": "Espot Esquí",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://pirineu365.cat/espotesqui/estacio/planol-de-pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q762945",
+      "name": "Ruka",
+      "notes": "Seasonal operating promises not imported as guaranteed skiing days.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ruka.fi/en/skiresort/slopes"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60617874",
+      "name": "Salla",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ski.salla.fi/rinnekartta/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18681043",
+      "name": "Sappee",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sappee.fi/en/slope-introduction/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60808746",
+      "name": "Saariselkä",
+      "notes": "Headline 24 slopes and 2000-m longest run include numbered toboggan/tubing routes; withheld as alpine-only facts.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skisaariselka.com/slopes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18661776",
+      "name": "Ruskotunturi",
+      "notes": "Report inventory denominators retained; summer zero-open counters ignored.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ruskotunturi.fi/rinnekartta/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q262837",
+      "name": "Levi",
+      "notes": "Some pistes are reserved or seasonally closed for snow storage. No stale whole-resort totals inferred from a sector page.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.levi.fi/en/ski/slopes-and-lifts/west-slopes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3553510",
+      "name": "Valdezcaray",
+      "notes": "Listed elevation bands also serve snow reporting; no endpoint or vertical inferred.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valdezcaray.es/ficha-tecnica/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3398641",
+      "name": "Port del Comte",
+      "notes": "Zero currently open kilometres ignored. No resort-wide total derived from dynamic inventory.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://portdelcomte.net/pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3750961",
+      "name": "Valdesquí",
+      "notes": "Top elevation headline 2278 m differs from lift endpoint 2265 m and piste endpoint 2260 m; withheld pending definition check. Piste-strip area arithmetic also differs slightly from published total.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://valdesqui.es/mapa-y-ficha-tecnica/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3179913",
+      "name": "Masella",
+      "notes": "Undated live technical page links a 2023–24 sheet; freshness limitation retained. Alp2500/La Molina combined totals excluded.",
+      "observations": 7,
+      "missing_core_fields": [
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.masella.com/fr/paginas/fiche-technique"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2717343",
+      "name": "Vall de Núria",
+      "notes": "Same official page says 7.6 km in introduction and 7.7 km in technical sheet; piste length withheld and conflict retained.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [
+        {
+          "key": "piste_length",
+          "label": "Piste length",
+          "unit": "km",
+          "value": null,
+          "source": "https://pirineu365.cat/valldenuria/estacio/planol-de-pistes/",
+          "alternatives": [
+            {
+              "value": 7.6,
+              "source": "https://pirineu365.cat/valldenuria/estacio/planol-de-pistes/"
+            },
+            {
+              "value": 7.7,
+              "source": "https://pirineu365.cat/valldenuria/estacio/planol-de-pistes/"
+            }
+          ],
+          "note": "Two totals on the same official piste page; no single length selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://pirineu365.cat/valldenuria/estacio/planol-de-pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2717359",
+      "name": "Vallter",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://pirineu365.cat/vallter/estacio/planol-de-pistes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3122376",
+      "name": "Guzet",
+      "notes": "Multi-activity trail and touring routes excluded from alpine length.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.guzet.ski/fr/la-station"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3230567",
+      "name": "Les Angles",
+      "notes": "Official overview says 41 pistes/50 km while ticketing and English slope page say 45/55. Conflicting counts are retained without selecting a winner.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Pistes",
+          "unit": "",
+          "value": null,
+          "source": "https://lesangles.com/le-domaine/",
+          "alternatives": [
+            {
+              "value": 41,
+              "source": "https://lesangles.com/le-domaine/"
+            },
+            {
+              "value": 45,
+              "source": "https://forfait-ski.lesangles.com/fr/domaine-skiable"
+            }
+          ],
+          "note": "Tourism overview and lift-pass domain page disagree; count withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "piste_length",
+          "label": "Piste length",
+          "unit": "km",
+          "value": null,
+          "source": "https://lesangles.com/le-domaine/",
+          "alternatives": [
+            {
+              "value": 50,
+              "source": "https://lesangles.com/le-domaine/"
+            },
+            {
+              "value": 55,
+              "source": "https://forfait-ski.lesangles.com/fr/domaine-skiable"
+            }
+          ],
+          "note": "Tourism overview and lift-pass domain page disagree; length withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://lesangles.com/le-domaine/",
+        "https://forfait-ski.lesangles.com/fr/domaine-skiable"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1540224",
+      "name": "Gourette",
+      "notes": "Official overview contains inconsistent area totals (100/125 ha) and a questionable lift headline; those fields withheld.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "unit": "ha",
+          "value": null,
+          "source": "https://www.n-py.com/fr/gourette/plan-des-pistes",
+          "alternatives": [
+            {
+              "value": 125,
+              "source": "https://www.n-py.com/fr/gourette/plan-des-pistes"
+            },
+            {
+              "value": 100,
+              "source": "https://www.n-py.com/fr/gourette/plan-des-pistes"
+            }
+          ],
+          "note": "Same official page gives two area totals without a reconciled scope; acreage withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.n-py.com/fr/gourette/plan-des-pistes"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3382234",
+      "name": "Piau-Engaly",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.n-py.com/fr/piau-engaly/presentation"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2180837",
+      "name": "Peyragudes",
+      "notes": "Loudenvielle transport access not treated as skiable valley vertical.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.n-py.com/fr/peyragudes/presentation"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1450764",
+      "name": "Luz-Ardiden",
+      "notes": "1250-m Bernazaou freeride descent not treated as groomed lift-served vertical.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.n-py.com/fr/luz-ardiden/presentation"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q356665",
+      "name": "La Mongie",
+      "notes": "Grand Tourmalet 54-piste/300-plus-ha figures not assigned to La Mongie alone; Pic du Midi freeride not counted as local piste terrain.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.n-py.com/fr/grand-tourmalet/presentation"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1798981",
+      "name": "La Norma",
+      "notes": "135-km shared-pass total excluded from local mountain facts.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.la-norma.ski/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2562838",
+      "name": "Les Karellis",
+      "notes": "Operator lists 17 lifts while tourist office lists 16; neither selected. 34 alpine-plus-Nordic trails not used as alpine count.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.leskarellis.com/fr/DOMAINE",
+          "alternatives": [
+            {
+              "value": 17,
+              "source": "https://www.leskarellis.com/fr/DOMAINE"
+            },
+            {
+              "value": 16,
+              "source": "https://www.karellis.com/station-de-ski-en-maurienne/"
+            }
+          ],
+          "note": "Operator and tourist-office totals disagree; scope and date need reconciliation.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.leskarellis.com/fr/DOMAINE",
+        "https://www.karellis.com/station-de-ski-en-maurienne/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q918282",
+      "name": "Valfréjus",
+      "notes": "23-piste headline differs from difficulty counts summing to 22; withheld. Bob Park sledding routes not ski mileage.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Pistes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.valfrejus.com/ski-et-glisse/le-domaine-skiable/",
+          "alternatives": [
+            {
+              "value": 23,
+              "source": "https://www.valfrejus.com/ski-et-glisse/le-domaine-skiable/"
+            },
+            {
+              "value": 22,
+              "source": "https://www.valfrejus.com/ski-et-glisse/le-domaine-skiable/"
+            }
+          ],
+          "note": "Headline states 23; difficulty categories sum to 22. Second alternative is calculated; count withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.valfrejus.com/ski-et-glisse/le-domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2920718",
+      "name": "Val Cenis",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valcenis.com/ski-et-glisse/le-domaine-alpin-de-val-cenis/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3077529",
+      "name": "Formiguères",
+      "notes": "Older lift description omits the télémix mentioned on current homepage; lift total withheld pending inventory update. 10-ha freeride terrain kept separate.",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.trio-pyrenees.com/formigueres/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q950651",
+      "name": "Crévoux",
+      "notes": "La Chalp Nordic trails excluded. Natural-snow marketing not treated as a guarantee or absence of snowmaking.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.crevoux.fr/en/notre-station/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q746545",
+      "name": "Isola 2000",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://isola2000.com/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3206868",
+      "name": "La Bresse-Hohneck",
+      "notes": "220 hectares described as landscapes, not established skiable terrain acreage; withheld. Stale schedule heading not treated as current hours.",
+      "observations": 6,
+      "missing_core_fields": [
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://labresse.labellemontagne.com/fr/hiver/ski-snowboard/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3077716",
+      "name": "Forsteralm",
+      "notes": "750-m touring accumulation not imported as lift-served vertical. Detailed numerical widget is third-party and was not copied.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.forsteralm.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28054228",
+      "name": "Laterns–Gapfohl",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.laterns.net/winter"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2239632",
+      "name": "Schlick 2000",
+      "notes": "Official regional tourism category figures; local headline lengths vary with route/connector scope, so whole-domain length is withheld.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/skigebiet-schlick-2000"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3094866",
+      "name": "Galsterberg",
+      "notes": "Official regional tourism source. Night tobogganing does not establish night downhill skiing.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.schladming-dachstein.at/de/schladming-dachstein-entdecken/winterberge/galsterberg"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2312484",
+      "name": "Sportgastein",
+      "notes": "2686-m Kreuzkogel summit requires separate access; not the skiing high point.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skigastein.com/erlebnisse-berge/winter/skigebiete-in-ski-gastein/sportgastein/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60727349",
+      "name": "Obertauern",
+      "notes": "Winter operator operating information supports circuit description, not a whole-domain numerical inventory. Summer three-lift counter excluded.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ski-obertauern.at/lifte-pisten/betriebsinformationen"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q124610584",
+      "name": "Kaprun – Kitzsteinhorn/Maiskogel",
+      "notes": "1976-m glacier lower limit is not combined Maiskogel base. 61-km/23-lift headline crosses sector scope and is withheld until reconciled; 408-km Alpin Card excluded.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kitzsteinhorn.at/en/winter/kitzsteinhorn-ski-board"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q688964",
+      "name": "Hintertux Glacier",
+      "notes": "Olperer summit and 15000-m circuit accumulation are not ski vertical. No year-round-skiing guarantee.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tirol.at/aktivitaeten/sport/skifahren/skigebiete/hintertuxer-gletscher"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q433534",
+      "name": "Alta Badia",
+      "notes": "Official overview lists 53 lifts while official status inventory lists 54; conflict retained. 500/1200-km network totals excluded.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.altabadia.org/en/ski-area-alta-badia-dolomites",
+          "alternatives": [
+            {
+              "value": 53,
+              "source": "https://www.altabadia.org/en/ski-area-alta-badia-dolomites"
+            },
+            {
+              "value": 54,
+              "source": "https://www.altabadia.org/en/open-lifts-snow-report-dolomites"
+            }
+          ],
+          "note": "Official overview and lift-status inventory disagree; total withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.altabadia.org/en/ski-area-alta-badia-dolomites",
+        "https://www.altabadia.org/en/open-lifts-snow-report-dolomites"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497434",
+      "name": "Le Collet",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lecollet.com/winter/the-resort/the-ski-area/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2603685",
+      "name": "Le Markstein",
+      "notes": "Grand Ballon and Nordic facilities excluded.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lemarkstein.net/fr/bouger-lhiver/station-du-markstein/ski-alpin/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3231156",
+      "name": "Les Brasses",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://lesbrasses.com/ski-alpins-massif-des-brasses/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28041177",
+      "name": "Schnepfenried",
+      "notes": "Unlabelled live icon counters not promoted to a verified alpine inventory.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.leschnepf.com/plan-piste"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3323128",
+      "name": "Les Monts d’Olmes",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.montsdolmes.ski/fr/la-station"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2935670",
+      "name": "Camurac",
+      "notes": "Landscape altitude range not treated as confirmed lift-served endpoints; historical lift totals withheld.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.station-camurac.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q130260373",
+      "name": "Semnoz",
+      "notes": "Page states 18 pistes but difficulty categories sum to 19. Count withheld pending reconciliation.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Alpine pistes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.semnoz.fr/presentation-du-domaine/",
+          "alternatives": [
+            {
+              "value": 18,
+              "source": "https://www.semnoz.fr/presentation-du-domaine/"
+            },
+            {
+              "value": 19,
+              "source": "https://www.semnoz.fr/presentation-du-domaine/"
+            }
+          ],
+          "note": "Headline states 18; listed difficulty categories sum to 19. Second alternative is calculated, not a separately published total.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.semnoz.fr/presentation-du-domaine/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3830853",
+      "name": "Les Saisies",
+      "notes": "192-km Espace Diamant and Nordic network excluded from local totals.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lessaisies.com/decouvrir/le-ski-alpin-pour-tous/le-domaine-des-saisies/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2274046",
+      "name": "Serre Chevalier",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.serre-chevalier.com/fr/domaine-skiable/domaine-skiable"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q933254",
+      "name": "Montgenèvre",
+      "notes": "Local domain only; Monts de la Lune and Via Lattea totals excluded. Source table still carries 2025/26 season dates.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://montgenevre.com/hiver"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3079691",
+      "name": "Les Carroz",
+      "notes": "Grand Massif and four-village pass inventories are not Les Carroz-only totals.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lescarroz.com/ouverture/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q844641",
+      "name": "Manigod",
+      "notes": "La Clusaz-Manigod combined totals excluded; evening hours must be checked separately.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://manigod.labellemontagne.com/fr/hiver/ski-snowboard/domaine-skiable/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1414722",
+      "name": "Les Menuires",
+      "notes": "Three Valleys-wide piste and lift totals excluded from local facts. Local historical brochure not used as a current inventory.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://lesmenuires.com/fr/5-bonnes-raisons"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q758345",
+      "name": "Atzmännig",
+      "notes": "Six descents refer to upper slope, not whole resort. Conflicting 24/25-m carpet lengths not imported.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.atzmaennig.ch/de/winter/winterangebote/skifahren/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2781452",
+      "name": "Mörlialp",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.moerlialp.ch/aktivitaeten/skifahren/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1265072",
+      "name": "Lauchernalp",
+      "notes": "Regional tourism inventory; no guaranteed snow claim or lift-to-valley vertical inferred.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.loetschental.ch/de/aktivitaeten/skigebiet-lauchernalp-loetschental-129"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1266451",
+      "name": "Eggberge",
+      "notes": "Terrace altitude is not established piste endpoint. Cable-car access does not imply a ski descent to the valley.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.eggberge.ch/region/die-eggberge"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q59945375",
+      "name": "Jakobshorn",
+      "notes": "Davos Klosters multi-mountain totals and summer live counters excluded.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.davosklostersmountains.ch/de/mountains/berge/jakobshorn"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q688517",
+      "name": "Verbier",
+      "notes": "Main sector range only. Mont Fort and Four Valleys endpoints/mileage not silently attributed to this local scope.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.verbier.ch/decouvrir/explore-activites/activites-sportives/ski-et-snowboard/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3212105",
+      "name": "La Quillane",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.laquillane.fr/les-forfaits/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q120311334",
+      "name": "Saint-Sorlin-d’Arves",
+      "notes": "Headline local total used; detailed list also includes boundary connections. Sybelles network totals excluded.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.saintsorlindarves.com/ski-glisse/domaine-skiable"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q207589",
+      "name": "Val d’Isère",
+      "notes": "Tignes–Val d’Isère network totals not imported as local facts.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valdisere.com/val-disere-en-hiver/ski-et-glisse/acheter-mon-forfait/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14209658",
+      "name": "Peisey-Vallandry",
+      "notes": "425-km Paradiski and Les Arcs/Peisey combined totals excluded from local inventory.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.peisey-vallandry.com/ski-alpin-snowboard.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3368414",
+      "name": "Passy Plaine-Joux",
+      "notes": "No whole-resort vertical inferred from rounded endpoints.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.passy-mont-blanc.com/activites/ski-et-glisse/ski-alpin/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3224756",
+      "name": "Le Mont-Dore",
+      "notes": "Detailed page has 35 pistes; ski landing page says 31. Count withheld. Couloirs not represented as groomed pistes.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Pistes",
+          "unit": "",
+          "value": null,
+          "source": "https://lemontdore.fr/ski/le-domaine-skiable",
+          "alternatives": [
+            {
+              "value": 35,
+              "source": "https://lemontdore.fr/ski/le-domaine-skiable"
+            },
+            {
+              "value": 31,
+              "source": "https://lemontdore.fr/ski"
+            }
+          ],
+          "note": "Detailed domain page and ski landing page disagree; count withheld.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://lemontdore.fr/ski/le-domaine-skiable",
+        "https://lemontdore.fr/ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61202398",
+      "name": "Ballon d’Alsace",
+      "notes": "Difficulty categories total 11 pistes, winter dashboard says 15; count withheld. Rope lifts separate from nine drag lifts.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Alpine pistes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.ballondalsace.fr/activites/ski-alpin/",
+          "alternatives": [
+            {
+              "value": 11,
+              "source": "https://www.ballondalsace.fr/activites/ski-alpin/"
+            },
+            {
+              "value": 15,
+              "source": "https://www.ballondalsace.fr/hiver/"
+            }
+          ],
+          "note": "Difficulty categories sum to 11; winter dashboard says 15. First alternative is calculated, and inventory scope remains unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.ballondalsace.fr/activites/ski-alpin/",
+        "https://www.ballondalsace.fr/hiver/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497364",
+      "name": "Les Rousses",
+      "notes": "Jura sur Léman dashboard and sector inventories differ in scope and count. Whole-domain measurements withheld; 1677-m mountain summit not asserted as piste endpoint.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lesrousses.com/station-des-rousses-hiver/ski-alpin-jura-sur-leman/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3209895",
+      "name": "La Joue du Loup",
+      "notes": "100 km belongs to shared Dévoluy domain, not La Joue du Loup alone. Superdévoluy not separately enriched with duplicate network figures.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ledevoluy.com/hiver/jimagine-mon-sejour/questions-frequentes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16964617",
+      "name": "Chalmazel",
+      "notes": "Departmental owner source has no publication date; current operating status must be checked separately.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.loire.fr/jcms/lw_1381870/fr/-echappee-belle-en-piste-pour-chalmazel"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q19406907",
+      "name": "Crest-Voland Cohennoz",
+      "notes": "200-km promotional figure is Espace Diamant-wide. New Logère gondola means older local lift inventories need revision.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.crestvoland.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3227070",
+      "name": "Le Seignus",
+      "notes": "Connection to La Foux is by shuttle, not a continuous piste; Espace Lumière totals excluded.",
+      "observations": 1,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valdallos.com/les-stations-de-ski-du-val-d-allos.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1085709",
+      "name": "Chaillol",
+      "notes": "Regional tourism source used. Former chaillol.fr site contains unrelated gambling affiliate material and was not accepted. 3163-m mountain summit not a skiing elevation.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.champsaur-valgaudemar.com/decouvrir/les-stations/chaillol/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1085971",
+      "name": "Saint-Léger-les-Mélèzes",
+      "notes": "Dashboard lists nine lifts while 2025/26 brochure lists eight main lifts; learning-facility scope unresolved, so lift total withheld.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.champsaur-valgaudemar.com/decouvrir/les-stations/saint-leger-les-melezes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61232702",
+      "name": "Mont Serein",
+      "notes": "18-entry piste widget includes learning space and a repeated Vallon name; not promoted as distinct alpine trail count. Winter opening is snow-dependent; summer closure counter not permanent closure.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.stationdumontserein.com/contactez-nous"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61159493",
+      "name": "Monte Cimone",
+      "notes": "Primary federation partner listing; no dated full lift or elevation inventory available from this source.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.fisi.org/impianti/cimone/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q689484",
+      "name": "Sedrun",
+      "notes": "180-plus-km figure spans three destinations and is excluded from Sedrun-only facts. Valtgeva not separately counted in this batch.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.andermatt-sedrun-disentis.ch/disentis-sedrun/en/pages/skiing-snowboarding"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q46995824",
+    "wikidata:item:Q1717842",
+    "wikidata:item:Q26822192",
+    "wikidata:item:Q530324",
+    "wikidata:item:Q829385",
+    "wikidata:item:Q819065",
+    "wikidata:item:Q3107623",
+    "wikidata:item:Q262837",
+    "wikidata:item:Q356665",
+    "wikidata:item:Q3077716",
+    "wikidata:item:Q60727349",
+    "wikidata:item:Q28041177",
+    "wikidata:item:Q2935670",
+    "wikidata:item:Q130260373",
+    "wikidata:item:Q3079691",
+    "wikidata:item:Q1414722",
+    "wikidata:item:Q1266451",
+    "wikidata:item:Q207589",
+    "wikidata:item:Q14209658",
+    "wikidata:item:Q3497364",
+    "wikidata:item:Q3209895",
+    "wikidata:item:Q19406907",
+    "wikidata:item:Q1085709",
+    "wikidata:item:Q689484"
+  ]
+}

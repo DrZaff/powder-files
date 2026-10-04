@@ -1,0 +1,623 @@
+{
+  "batch": "official-019",
+  "checked_at": "2026-10-03",
+  "researched_profiles": 34,
+  "source_checked_observations": 0,
+  "conflict_fields": 0,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q105823074",
+      "name": "Birkebeinerbakken Ski Centre",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q105823074"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10703774",
+      "name": "Trillevallen",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10703774"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109366617",
+      "name": "Bodaira Ski Area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109366617"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q110082821",
+      "name": "Les Rafforts",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q110082821"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q113457486",
+      "name": "Tignes le Lac",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457486"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q113457498",
+      "name": "Les Boisses",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457498"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q120314388",
+      "name": "La Blanche ski area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120314388"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q125018983",
+      "name": "La Mogorrita ski centre",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q125018983"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q135659188",
+      "name": "Le Cernix",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q135659188"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137033597",
+      "name": "Servoz ski area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033597"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137033754",
+      "name": "Bourg-Saint-Maurice ski access",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033754"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137039275",
+      "name": "Baqueira Beret ski area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039275"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137048778",
+      "name": "La Plagne Vallée",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137048778"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q139546325",
+      "name": "Nižepole Ski Centre",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q139546325"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16268675",
+      "name": "Prato Spilla",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16268675"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16426570",
+      "name": "Böggvisstaðafjall Ski Area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16426570"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17151380",
+      "name": "Zadní Telnice",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17151380"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q20553662",
+      "name": "Vassfjellet Winter Park",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20553662"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2457966",
+      "name": "Tschindirtschero",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2457966"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q26253351",
+      "name": "Soliabacken",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q26253351"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4009699",
+      "name": "Ventasso Laghi",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4009699"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4112594",
+      "name": "Vitsi Ski Centre",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4112594"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q55031346",
+      "name": "Högfjället",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q55031346"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5764625",
+      "name": "Chapa Verde",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5764625"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5847609",
+      "name": "Valle del Sol ski area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5847609"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5969371",
+      "name": "Lagunillas",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5969371"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60969280",
+      "name": "Byråsen",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q60969280"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q62071735",
+      "name": "Ivan-Gora",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q62071735"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q87987454",
+      "name": "Látky-Prašivá",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q87987454"
+      ]
+    },
+    {
+      "id": "openstreetmap:relation:3913810",
+      "name": "Sarıkamış Cıbıltepe",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.openstreetmap.org/relation/3913810"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2292227",
+      "name": "Gaissau-Hintersee",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292227"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:1307012463",
+      "name": "Skigebiet Mühlwiese",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.openstreetmap.org/way/1307012463"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:1013523149",
+      "name": "Sonnenlifte Röfleuten/Halden",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.openstreetmap.org/way/1013523149"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14709259",
+      "name": "Spout Springs Ski Area",
+      "notes": "Structured-source overview; official mountain dimensions and current operation remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14709259"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q105823074",
+    "wikidata:item:Q10703774",
+    "wikidata:item:Q109366617",
+    "wikidata:item:Q110082821",
+    "wikidata:item:Q113457486",
+    "wikidata:item:Q113457498",
+    "wikidata:item:Q120314388",
+    "wikidata:item:Q125018983",
+    "wikidata:item:Q135659188",
+    "wikidata:item:Q137033597",
+    "wikidata:item:Q137033754",
+    "wikidata:item:Q137039275",
+    "wikidata:item:Q137048778",
+    "wikidata:item:Q139546325",
+    "wikidata:item:Q16268675",
+    "wikidata:item:Q16426570",
+    "wikidata:item:Q17151380",
+    "wikidata:item:Q20553662",
+    "wikidata:item:Q2457966",
+    "wikidata:item:Q26253351",
+    "wikidata:item:Q4009699",
+    "wikidata:item:Q4112594",
+    "wikidata:item:Q55031346",
+    "wikidata:item:Q5764625",
+    "wikidata:item:Q5847609",
+    "wikidata:item:Q5969371",
+    "wikidata:item:Q60969280",
+    "wikidata:item:Q62071735",
+    "wikidata:item:Q87987454",
+    "openstreetmap:relation:3913810",
+    "wikidata:item:Q2292227",
+    "openstreetmap:way:1307012463",
+    "openstreetmap:way:1013523149",
+    "wikidata:item:Q14709259"
+  ]
+}

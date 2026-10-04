@@ -1,0 +1,481 @@
+{
+  "batch": "official-004",
+  "checked_at": "2026-08-30",
+  "researched_profiles": 25,
+  "source_checked_observations": 86,
+  "conflict_fields": 4,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q4883736",
+      "name": "Belleayre",
+      "notes": "Area withheld: official HTML reports 171 acres, while indexed 2024–25 official map text reports 175. PDF layout was not visually validated; no PDF dimensions imported.",
+      "observations": 6,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable acreage",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.belleayre.com/mountain/trail-map-and-mountain-stats/",
+          "alternatives": [
+            {
+              "value": 171,
+              "source": "https://www.belleayre.com/mountain/trail-map-and-mountain-stats/"
+            },
+            {
+              "value": 175,
+              "source": "https://www.belleayre.com/wp-content/uploads/sites/5/2024/12/BelleTrailMap-24-25-02-1-1-1.pdf"
+            }
+          ],
+          "note": "Official HTML and indexed 2024–25 map text disagree. PDF layout still needs visual validation; no acreage selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.belleayre.com/mountain/trail-map-and-mountain-stats/",
+        "https://www.belleayre.com/wp-content/uploads/sites/5/2024/12/BelleTrailMap-24-25-02-1-1-1.pdf"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4921353",
+      "name": "Black Mountain of Maine",
+      "notes": "Exact Maine identity; not Black Mountain in New Hampshire. Nordic distances and boundary-to-boundary acreage were not treated as lift-served downhill terrain.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skiblackmountain.org/about-us"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4923451",
+      "name": "Blacktail",
+      "notes": "Top elevation withheld: current HTML says 6,780 feet; indexed older official map text says 6,676. National Forest acreage is not imported as confirmed skiable acreage.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "summit",
+          "label": "Top elevation",
+          "unit": "ft",
+          "value": null,
+          "source": "https://blacktailmountain.com/the-mountain/",
+          "alternatives": [
+            {
+              "value": 6780,
+              "source": "https://blacktailmountain.com/the-mountain/"
+            },
+            {
+              "value": 6676,
+              "source": "https://www.blacktailmountain.com/wp-content/uploads/2018/12/BlacktailLargeMap.pdf"
+            }
+          ],
+          "note": "Current HTML and indexed older official map text disagree. Date/scope and PDF layout need review; no elevation selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://blacktailmountain.com/the-mountain/",
+        "https://www.blacktailmountain.com/wp-content/uploads/2018/12/BlacktailLargeMap.pdf"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4929240",
+      "name": "Blue Hills",
+      "notes": "Other core mountain dimensions remain unsourced.",
+      "observations": 1,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bluehillsboston.com/seasonal-programs/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4947991",
+      "name": "Boston Mills / Brandywine",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bmbw.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4962480",
+      "name": "Bretton Woods",
+      "notes": "Area and glades withheld: end-of-season HTML lists 470.1 acres / 40 glades, indexed 2025–26 map text 464 / 36. PDF layout not visually validated; scope unresolved.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable acreage",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.brettonwoods.com/snow-trail-report/",
+          "alternatives": [
+            {
+              "value": 470.1,
+              "source": "https://www.brettonwoods.com/snow-trail-report/"
+            },
+            {
+              "value": 464,
+              "source": "https://www.brettonwoods.com/content/uploads/2026/01/BW_AlpineTrailMap_2025-26.pdf"
+            }
+          ],
+          "note": "End-of-season report and indexed 2025–26 map text disagree. Scope and PDF layout need review; no acreage selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "glades",
+          "label": "Glades",
+          "unit": "",
+          "value": null,
+          "source": "https://www.brettonwoods.com/snow-trail-report/",
+          "alternatives": [
+            {
+              "value": 40,
+              "source": "https://www.brettonwoods.com/snow-trail-report/"
+            },
+            {
+              "value": 36,
+              "source": "https://www.brettonwoods.com/content/uploads/2026/01/BW_AlpineTrailMap_2025-26.pdf"
+            }
+          ],
+          "note": "End-of-season report and indexed 2025–26 map text disagree. Scope and PDF layout need review; no total selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.brettonwoods.com/snow-trail-report/",
+        "https://www.brettonwoods.com/content/uploads/2026/01/BW_AlpineTrailMap_2025-26.pdf"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4964002",
+      "name": "Brian Head",
+      "notes": "Core dimensions withheld pending reconciliation: official web pages and 2025–26 press-kit text differ on base elevation, acreage and trail totals. No PDF-only dimensions imported.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.brianhead.com/brian-head-difference/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4967720",
+      "name": "Brighton",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.brightonresort.com/about"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q19865758",
+      "name": "Bryce",
+      "notes": "Public ticket and non-member pass access established, not a members-only club. Core numerical dimensions not established from accessible official HTML.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bryceresort.com/winter/ski-and-snowboard"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q55606086",
+      "name": "Buena Vista",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bvskiarea.com/facts.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5028348",
+      "name": "Campgaw",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicampgaw.com/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5050194",
+      "name": "Castle Mountain",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicastle.ca/stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5051409",
+      "name": "Catamount",
+      "notes": "Summary supported by search-indexed official 2025–26 ticket page; direct retrieval returned HTTP 403. Core numerical facts remain unsourced; hours are not reproduced as a live schedule.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://catamountski.com/winter/tickets-passes/lift-tickets"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28450459",
+      "name": "Cherry Peak",
+      "notes": "Conditions values may be stale; no live opening or snow-depth claims imported.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicpr.com/ski-report"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5225725",
+      "name": "Dartmouth Skiway",
+      "notes": "Base elevation withheld because it duplicates vertical on the official page; not repaired from third-party directories.",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://dartmouthskiway.com/mountain-2/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5267162",
+      "name": "Devil’s Head",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.devilsheadresort.com/ski-resort-mountain-sauk-merrimac-wi-wisconsin/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5281969",
+      "name": "Discovery",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skidiscovery.com/the-mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5316220",
+      "name": "Purgatory / Durango Mountain Resort",
+      "notes": "Joined by exact Durango resort identity and coordinates, retaining the existing record name. No snowcat acreage added; PDF-only dimensions await visual/source-scope validation.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.purgatory.ski/3-day-winter-itinerary-at-purgatory-resort/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5325323",
+      "name": "Eaglecrest",
+      "notes": "JavaScript statistic counters extracted as zero on other official pages; those zeros were not imported. No older PDF-only lift or trail totals imported.",
+      "observations": 2,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skieaglecrest.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5364061",
+      "name": "Elk Mountain Ski Area",
+      "notes": "Exact Pennsylvania ski-area identity; not the separate Utah Elk Mountain record.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.elkskier.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5444252",
+      "name": "Ferguson Ridge",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skifergi.com/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5506156",
+      "name": "Frost Fire",
+      "notes": "Winter mountain dimensions not established from accessible official HTML. Summer bike-trail lengths and counts are not skiing statistics.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.frostfirepark.org/community"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q19878257",
+      "name": "Manning Park / Gibson Pass",
+      "notes": "Exact Gibson Pass ski-area identity retained. Park-wide 83,671-hectare extent excluded from skiable terrain.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://manningpark.com/maps-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5595863",
+      "name": "Granite Gorge",
+      "notes": "Trail lists and conditions totals vary in naming/scope, so no inferred trail count. Summer bike trails excluded.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://granitegorge.com/winter-trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5595907",
+      "name": "Granite Peak",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skigranitepeak.com/mountain-info/trail-map-mountain-stats"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q19865758",
+    "wikidata:item:Q5051409",
+    "wikidata:item:Q5506156"
+  ]
+}

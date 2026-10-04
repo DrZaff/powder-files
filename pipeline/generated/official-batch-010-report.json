@@ -1,0 +1,1694 @@
+{
+  "batch": "official-010",
+  "checked_at": "2026-08-31",
+  "researched_profiles": 100,
+  "source_checked_observations": 185,
+  "conflict_fields": 2,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q11323752",
+      "name": "Aomori Spring",
+      "notes": "English and Japanese course totals differ; neither is selected as the settled trail count.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Courses",
+          "unit": "",
+          "value": null,
+          "source": "https://aomorispring.com/ski/mountain",
+          "alternatives": [
+            {
+              "value": 14,
+              "source": "https://aomorispring.com/ski/mountain"
+            },
+            {
+              "value": 22,
+              "source": "https://aomorispring.com/ja/ski/mountain"
+            }
+          ],
+          "note": "English mountain overview says 14 trails; Japanese overview says 22. Scope and date need reconciliation.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://aomorispring.com/ski/mountain",
+        "https://aomorispring.com/ja/ski/mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11450901",
+      "name": "Appi Kogen",
+      "notes": "CAT-skiing terrain is not added to lift-served statistics.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.appi.co.jp/snow-mountain-resort/offseason/",
+        "https://www.appi.co.jp/en/experience/white-season/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11635356",
+      "name": "Akakura Onsen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://akakura-ski.com/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11517725",
+      "name": "Asarigawa Onsen",
+      "notes": "Headline course count and difficulty-category sum disagree; total withheld.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Courses",
+          "unit": "",
+          "value": null,
+          "source": "https://www.asari-ski.com/slopes/",
+          "alternatives": [
+            {
+              "value": 9,
+              "source": "https://www.asari-ski.com/slopes/"
+            },
+            {
+              "value": 10,
+              "source": "https://www.asari-ski.com/slopes/"
+            }
+          ],
+          "note": "Headline says nine courses; five advanced, three intermediate and two beginner categories sum to ten. Second alternative is calculated, not a separate published total.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.asari-ski.com/slopes/",
+        "https://asari-ski.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11657203",
+      "name": "Ani",
+      "notes": "Gondola rise and the separate hiking summit are not treated as whole-resort skiing vertical or upper ski elevation.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.aniski.jp/ski/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11257595",
+      "name": "Adatara",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.adatara-resort.com/ski/gelande.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11276859",
+      "name": "Biwako Valley",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.biwako-valley.com/w_season/openclose"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11297403",
+      "name": "Canmore Ski Village",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.canmore-ski.jp/guide/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11307793",
+      "name": "Charmant Hiuchi",
+      "notes": "Seven groomed status entries include a lower section; powder zones are not counted as separate pistes. Installed versus available lifts differ, so no operating total is promoted.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://charmant-hiuchi.jp/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11441804",
+      "name": "Daisetsuzan Kurodake",
+      "notes": "The 1984-m geographic summit is not the lift-served ski summit; access-ropeway rise is not skiing vertical.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rinyu.co.jp/kurodake/ski_slope/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11333345",
+      "name": "Fu’s",
+      "notes": "Winter inventory, not the number operating during the summer review.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.fujino-yagai-sports.jp/winter"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11456195",
+      "name": "Fujimi Kogen",
+      "notes": "Night-session dates on source apply to 2025–26, not a confirmed 2026–27 schedule.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://fujimikogen-ski.jp/skislope.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11456151",
+      "name": "Fujimi Panorama",
+      "notes": "Status counters are not used as a reconciled distinct-trail inventory.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.fujimipanorama.com/snow/%EF%BC%91%E6%9C%AC%E3%81%AE%E3%82%B4%E3%83%B3%E3%83%89%E3%83%A9%E3%81%8C%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E%E5%90%8D%E7%89%A9%E3%80%8C3%E3%82%AD%E3%83%AD%E3%83%AD/",
+        "https://www.fujimipanorama.com/snow/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17230084",
+      "name": "Fujiten",
+      "notes": "Numeric details in externally hosted operator releases not imported in this pass; current operator page supports the summary.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.fujiten.net/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120169",
+      "name": "Fukui Izumi",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://fukuiizumi.com/ryoukin/",
+        "https://fukuiizumi.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11296546",
+      "name": "Gala Yuzawa",
+      "notes": "Overview carries a 2024–25 season banner; figures retained as dated published inventory, not independently reconfirmed 2026–27 specifications.",
+      "observations": 7,
+      "missing_core_fields": [],
+      "conflicts": [],
+      "sources": [
+        "https://gala.co.jp/winter/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11326405",
+      "name": "Hachi Kogen",
+      "notes": "Parallel official pages divide Sengokudaira differently and include special areas; no reconciled trail count. Hachikita totals excluded.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hachi-hachikita.co.jp/hachi/slope"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11326401",
+      "name": "Hachikita",
+      "notes": "Headline says 14 courses while the detailed status list has 15 sections; no trail total selected.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hachi-hachikita.co.jp/hachikita/",
+        "https://www.hachi-hachikita.co.jp/hachikita/slope.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11580460",
+      "name": "Hakuba Norikura Onsen",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hakunori.com/en/trailguide/?id=data",
+        "https://www.hakunori.com/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11579546",
+      "name": "Hakusan Ichirino",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sam-hakusan.com/white/ichirino/course/index.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11305444",
+      "name": "Hakuba Sanosaka",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sanosaka.jp/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11665875",
+      "name": "Hida Honoki Daira",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://hounoki-daira.com/slopeinfo"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11513061",
+      "name": "Tomamu",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.snowtomamu.jp/winter/en/ski/ski-slope/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11258950",
+      "name": "Iizuna Resort",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://iizunaresort.com/gerende/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q625867",
+      "name": "Cerler",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.cerler.com/mapa-y-ficha-tecnica-cerler.html",
+        "https://www.cerler.com/en-ruta-cerler.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18180984",
+      "name": "La Molina",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://pirineu365.cat/en/lamolina/resort/slope-map-technical-sheet/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q534256",
+      "name": "Sierra Nevada",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sierranevada.es/es/invierno/la-estacion/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7400581",
+      "name": "Manzaneda",
+      "notes": "Nearly 1800 m is not stored as an exact ski summit.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.manzaneda.com//manzaneda-estacion-esqui"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q104866877",
+      "name": "Amirsoy",
+      "notes": "Lift headline and table disagree and include tubing conveyors; no lift total selected. Published overview may predate expansion.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.amirsoy.com/en/lifts-slopes"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7461503",
+      "name": "Shahdag",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://shahdag.az/en/about-shahdag"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16708718",
+      "name": "Tufandagh",
+      "notes": "P8 and beginner rows reverse upper/lower heights, so no base or whole-resort vertical inferred. Riverside access base 956 m is not a ski base. Ropeway table excludes some learning facilities.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tufandag.com/en/lifts-slopes"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5064508",
+      "name": "Cerkno",
+      "notes": "Source is the official local destination organization.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.visitcerkno.si/smucanje/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61245618",
+      "name": "Krvavec",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rtc-krvavec.si/skiing"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497168",
+      "name": "Stari Vrh",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://starivrh.si/o-smuciscu/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17346965",
+      "name": "3–5 Pigadia",
+      "notes": "Aristotelis and Paradeisos prose/table lengths differ; no settled total piste length or vertical selected. Filippos expert slope described as out of operation.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://35pigadia.com/en/slopes-lifts/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12886103",
+      "name": "Kalavrita",
+      "notes": "Older activity overview describes a three-seat Achilles and a pending upgrade; its 25-km length is not promoted as newly confirmed.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kalavritaski.gr/en/lift-status/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7139293",
+      "name": "Parnassos",
+      "notes": "Official national-tourism overview supports the summary. Figures not selected because network boundaries and connected-area scope need confirmation.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.visitgreece.gr/en/experiences/nature/mountains/parnassos-ski-resort"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11586538",
+      "name": "Ishiuchi Maruyama",
+      "notes": "Neighboring Gala and Yuzawa Kogen figures excluded.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ishiuchi.or.jp/winter/ski/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11474238",
+      "name": "Iwappara",
+      "notes": "Operator states site information is for 2025–26; not a confirmed upcoming-season inventory.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://iwa-ppara.com/gelande/",
+        "https://iwa-ppara.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11569479",
+      "name": "Jigatake",
+      "notes": "Lesson-course counts are not mountain trail counts; no numeric inventory selected.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://jiigatake.com/school"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11548212",
+      "name": "Hodaigi",
+      "notes": "English site’s brief reports do not establish a current complete mountain inventory; dated promotional PDFs not substituted.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.hodaigi.jp/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11263630",
+      "name": "Kagura",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/kagura/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3268287",
+      "name": "Naeba",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/naeba/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11353840",
+      "name": "Manza Onsen",
+      "notes": "2025–26 reduced operations and hike-up trail entries make the advertised historical endpoints unsuitable as confirmed current lift-served specifications.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/manza_onsen/index.html?updatelang=yes"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11659969",
+      "name": "Shizukuishi",
+      "notes": "Headline 20 trails differs from the shorter detailed inventory; 3400-m longest-run claim differs from 4500-m downhill entry. Trail count and longest run withheld.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/shizukuishi/index.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11637560",
+      "name": "Karuizawa Prince",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/karuizawa/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11447091",
+      "name": "Myoko Suginohara",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/myoko_kogen/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11392366",
+      "name": "Muikamachi Hakkaisan",
+      "notes": "Current detailed page differs from legacy Prince landing page in vertical and run length; those measurements withheld. Ropeway length 2217 m is not summit elevation.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/hakkaisan/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60985314",
+      "name": "Yakebitaiyama",
+      "notes": "20-course headline and 19-entry table not reconciled; network trail totals excluded.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/shiga_kogen/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11500723",
+      "name": "Madarao",
+      "notes": "Lift headline says ten while status list names nine; no single lift count chosen. Geographic summit not assumed to be highest lift-served skiing.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.madarao.jp/en"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11297811",
+      "name": "Kiroro",
+      "notes": "2026 status denominator and 2023 embedded inventory differ; no numeric inventory selected from mixed-date widgets.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kiroro.co.jp/snowworld/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11478144",
+      "name": "Kawaba",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kawaba.co.jp/topics/7182/",
+        "https://www.kawaba.co.jp/",
+        "https://www.kawaba.co.jp/topics/8327/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11264820",
+      "name": "Kisofukushima",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kisofukushima-ski.com/area-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11368854",
+      "name": "Kuma Skiland",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kumax.co.jp/page/course.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11678082",
+      "name": "Kurohime Kogen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kurohime-kogen.co.jp/winter/area-guide/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11637301",
+      "name": "Kurumayama",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://winter.kurumayama-skypark.com/gelende"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17230298",
+      "name": "Maiko",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.maiko-resort.com/winter/gelande.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q108129864",
+      "name": "Marunuma Kogen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.marunuma.jp/winter/course-guide/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11548242",
+      "name": "Minakami Kogen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.minakami-ski.jp/gerande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11233807",
+      "name": "Mt. Norikura",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.brnorikura.jp/about.php"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11234464",
+      "name": "NASPA Ski Garden",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.naspa.co.jp/ski/?p=6945"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11324360",
+      "name": "Niseko Moiwa",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://niseko-moiwa.jp/school/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11445623",
+      "name": "Okutone",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://okutone.jp/english/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11598348",
+      "name": "Ryuoo",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ryuoo.com/winter/",
+        "https://ryuoo.com/winter/wavylines/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11521175",
+      "name": "Sapporo Kokusai",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sapporo-kokusai.jp/slopes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7421109",
+      "name": "Sapporo Teine",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sapporo-teine.com/snow/lang/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11271460",
+      "name": "Tambara",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tambara.co.jp/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11305052",
+      "name": "Sahoro",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sahoro-resort.com/winter/ski?lang=en"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11311432",
+      "name": "Ski Jam Katsuyama",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://jamresort.jp/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11563406",
+      "name": "Yunomaru",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://yunomaru.co.jp/gerende/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11668296",
+      "name": "Komagane Kogen",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://komaganeski.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q110350692",
+      "name": "Ski Valley",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skivalley.ca/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11563628",
+      "name": "Yuzawa Nakazato",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.yuzawa-nakazato.com/winter/gerende/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11263860",
+      "name": "Katashina Kogen",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://katashinakogen.co.jp/facility/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11496460",
+      "name": "Togari Onsen",
+      "notes": "2025–26 course guide; individual course length is not a combined top-to-bottom route.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://togari.jp/winter/en/course_map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11563653",
+      "name": "Yuzawa Kogen",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.yuzawakogen.com/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11419835",
+      "name": "White World Oze Iwakura",
+      "notes": "2025–26 operator guide; Nordic routes and historical lift totals are not included.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.oze-iwakura.co.jp/ski/language/kr/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11280431",
+      "name": "Yabuhara Kogen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.yabuhara-kogen.jp/",
+        "https://www.yabuhara-kogen.jp/school/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11390666",
+      "name": "Yachiho Kogen",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://yachiho-kogen.com/ski/course.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7677408",
+      "name": "Takasu Snow Park",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.takasu.gr.jp/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11535077",
+      "name": "Tsugaike",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tsugaike.gr.jp/snow/gelande"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11306009",
+      "name": "Sun Meadows Kiyosato",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sunmeadows.co.jp/winter/parkguide/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11312602",
+      "name": "Ogna Hotaka",
+      "notes": "2025–26 lift and course inventory. Off-course travel is not counted as ordinary managed skiing.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://k-hotaka.jp/ogna/slope-guide/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12054440",
+      "name": "Klínovec",
+      "notes": "47-km shared-pass figure excluded; lift categories retained separately instead of a potentially ambiguous total.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://klinovec.cz/en/home-page/?seo=en"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11801624",
+      "name": "Szczyrk Mountain Resort",
+      "notes": "Approximately 40-km common-pass network and geographic peak heights are not local ski measurements.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.szczyrkowski.pl/resort/o-osrodku/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1921096",
+      "name": "Merano 2000",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.meran2000.com/en/winter-1/ski-snowboard/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q257350",
+      "name": "Hoch-Ybrig",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hoch-ybrig.ch/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2554578",
+      "name": "Speikboden",
+      "notes": "Uses the dedicated Speikboden page, not combined Skiworld totals or older accommodation-page widgets.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skiworldahrntal.it/de/winter/skifahren/die-gebiete-im-ueberblick/speikboden/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11268009",
+      "name": "Sapporo Bankei",
+      "notes": "Different operator-page widgets list four versus six lifts; no current total selected. Snow-play and freestyle features are not silently counted as conventional trails.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bankei.co.jp/ski/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11496656",
+      "name": "Togakushi",
+      "notes": "Japanese page records limited Chusha operation; English page says closed, so daily access must be checked.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.togakusi.com/ski/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17994531",
+      "name": "Snow Park Oze Tokura",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ozetokura.co.jp/pages/cource"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11316479",
+      "name": "Tangram",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tangram.jp/ski/ski/treerun.php",
+        "https://www.tangram.jp/ski/ski/map.php"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11392362",
+      "name": "Muica Snow Resort",
+      "notes": "2025–26 guide. Hike-up zones, upper/lower repetitions and the kids park are not combined into a conventional trail total.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.muikamachi.com/ski/course.php"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11445804",
+      "name": "Okutadami Maruyama",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.okutadami.co.jp/Language/skiresort.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17226456",
+      "name": "Pilatus Tateshina",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.pilatus.jp/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7374280",
+      "name": "Shirakabako Royal Hill",
+      "notes": "2025–26 source. Ten-course headline differs from seven named downhill rows plus park entries; total withheld.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://royalhill.co.jp/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11492197",
+      "name": "Osorakan",
+      "notes": "1346-m geographic mountain summit is not assumed to be the highest lift-served point.",
+      "observations": 2,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://osorakan.co.jp/winter/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11597831",
+      "name": "Tateyama Sanroku",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://tateyama36.co.jp/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11570112",
+      "name": "Ushidake Onsen",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ushidake.com/ski/faq/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q139850600",
+      "name": "Petit Chamonix",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://petitchamonix.com/2026/montagne/"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q11307793",
+    "wikidata:item:Q11441804",
+    "wikidata:item:Q17230084",
+    "wikidata:item:Q11326405",
+    "wikidata:item:Q7139293",
+    "wikidata:item:Q11569479",
+    "wikidata:item:Q11548212",
+    "wikidata:item:Q11353840",
+    "wikidata:item:Q11297811",
+    "wikidata:item:Q11368854",
+    "wikidata:item:Q11234464",
+    "wikidata:item:Q11324360",
+    "wikidata:item:Q11445623",
+    "wikidata:item:Q11305052",
+    "wikidata:item:Q11668296",
+    "wikidata:item:Q110350692",
+    "wikidata:item:Q11563653",
+    "wikidata:item:Q257350",
+    "wikidata:item:Q11268009",
+    "wikidata:item:Q11445804"
+  ]
+}

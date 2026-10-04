@@ -1,0 +1,957 @@
+{
+  "batch": "official-008",
+  "checked_at": "2026-08-31",
+  "researched_profiles": 50,
+  "source_checked_observations": 146,
+  "conflict_fields": 7,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q7974551",
+      "name": "Waterville Valley",
+      "notes": "Glade headline five versus six named glades withheld; 500 total acres are not skiable acreage.",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.waterville.com/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q51766765",
+      "name": "Whiteface",
+      "notes": "3,430-foot advertised maximum includes the Slides; 4,867-foot mountain peak is not a lift terminus. Snowmaking 99% here versus 98% mountain page withheld.",
+      "observations": 6,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://whiteface.com/mountain/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7996356",
+      "name": "Whitewater",
+      "notes": "Ymir Peak and individual chair elevations remain distinct. No snowfall average imported without a defined averaging period.",
+      "observations": 6,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skiwhitewater.com/faq/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8026466",
+      "name": "Wintergreen",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Slopes and trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.wintergreenresort.com/winter/",
+          "alternatives": [
+            {
+              "value": 26,
+              "source": "https://www.wintergreenresort.com/winter/"
+            },
+            {
+              "value": 27,
+              "source": "https://www.wintergreenresort.com/mountain-report-cams/"
+            }
+          ],
+          "note": "Winter page says 26; report denominator says 27 and divides some trails into segments. No total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.wintergreenresort.com/winter/",
+        "https://www.wintergreenresort.com/mountain-report-cams/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8026497",
+      "name": "Winterplace",
+      "notes": "",
+      "observations": 8,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://owa.winterplace.com/mountain/mountain-facts"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8027682",
+      "name": "Wisp",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.wispresort.com/safety_stats/",
+          "alternatives": [
+            {
+              "value": 172,
+              "source": "https://www.wispresort.com/safety_stats/"
+            },
+            {
+              "value": 132,
+              "source": "https://www.wispresort.com/safety_stats/"
+            }
+          ],
+          "note": "Same safety/statistics page gives 172 acres in prose and 132 in table; no figure selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.wispresort.com/safety_stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8029831",
+      "name": "Wolf Creek",
+      "notes": "Nordic trails excluded; snowfall average lacks a stated period and is not imported.",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://wolfcreekski.com/the-mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8022836",
+      "name": "Wilmot",
+      "notes": "Park count withheld: three in statistics, three plus a progression park in prose. No vertical manufactured from elevation subtraction.",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wilmotmountain.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7996297",
+      "name": "Whitetail",
+      "notes": "Existing OSM Whitetail profile is a potential duplicate; no merge or second research credit. Approximate prose vertical not converted to an exact value.",
+      "observations": 8,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skiwhitetail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7980565",
+      "name": "Welch Village",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.welchvillage.com/trailMap.cfm"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3567781",
+      "name": "White Pass",
+      "notes": "Current mountain overview supports character but provides no numerical mountain dimensions.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skiwhitepass.com/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8000723",
+      "name": "Wild Mountain",
+      "notes": "Winter trail map is image-only in inspected page; no counts copied from third-party widgets.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://wildmountain.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4950384",
+      "name": "Bousquet",
+      "notes": "Trail segments are not counted as a headline trail network; report marks winter season ended.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bousquetmountain.com/lift-trail-status/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4850340",
+      "name": "Bald Mountain, Idaho",
+      "notes": "Not Sun Valley or other Bald Mountain resorts. Homepage confirms public weekend operation; numerical dimensions not established.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibaldmountain.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28233470",
+      "name": "Duck Mountain",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skitheduck.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6730786",
+      "name": "Magic Mountain, Idaho",
+      "notes": "120 acres described jointly for skiing, sledding and tubing; not imported as confirmed ski-only acreage. 7,240-foot elevation is not explicitly base or summit.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://magicmountainresort.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7994804",
+      "name": "White Hills",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.whitehillsresort.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6921262",
+      "name": "Mount Hood Skibowl",
+      "notes": "Surface/conveyor totals not combined because ski versus tubing scope is unclear; vertical/elevation arithmetic caveat retained.",
+      "observations": 8,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibowl.com/about-winter/stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7231694",
+      "name": "Porters",
+      "notes": "Sundance lift type differs between official widgets; no lift-type total inferred.",
+      "observations": 4,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://portersalpineresort.com/winter/lifts-trails-parks/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7371252",
+      "name": "Roundhill",
+      "notes": "Numerical dimensions not established from accessible operator page; daily weather closure not treated as permanent closure.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.roundhill.co.nz/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7856127",
+      "name": "Tūroa",
+      "notes": "Promotional claim of largest Australasian vertical not repeated; no glacier or geographic peak elevation imported.",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.pureturoa.nz/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7080625",
+      "name": "Ōhau",
+      "notes": "Inspected information page carries 2025 season dates; base facilities at 1,500 m differ from lift base.",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ohau.co.nz/ohau-snow-fields/snow"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7284711",
+      "name": "Rainbow",
+      "notes": "1,820 m in-bounds terrain elevation is above the top lift. Daily operations must be checked separately.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skirainbow.co.nz/ski-area-info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4973460",
+      "name": "Broken River",
+      "notes": "Public visitor access confirmed on operator homepage; natural snowfall slogan is not snowmaking coverage.",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.brokenriver.co.nz/about-br/mountain/trail-map-and-mountain-stats/",
+        "https://www.brokenriver.co.nz/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5181703",
+      "name": "Craigieburn Valley",
+      "notes": "Official overview confirms public visitor access and rope tows; mountain dimensions remain unsourced.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.craigieburn.co.nz/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6922586",
+      "name": "Mount Olympus",
+      "notes": "1,050 m hike-accessed drop and 2,096 m mountain peak excluded from lift-served headline. Non-member tickets listed.",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mtolympus.co.nz/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q988298",
+      "name": "Charlotte Pass",
+      "notes": "No dimensions established on inspected overview; future Guthries replacement not counted.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://charlottepass.com.au/who-we-are/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q39057299",
+      "name": "Corin Forest",
+      "notes": "Permanent outdoor learning slope, not an indoor slope or temporary snowplay park. No ski dimensions inferred from session duration.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.corin.com.au/ski-and-snowboard/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14713688",
+      "name": "Hurricane Ridge",
+      "notes": "800-foot advertised vertical withheld because published endpoints differ by 700 feet; no replacement vertical calculated.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hurricaneridge.com/ski-area-info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14680584",
+      "name": "Mount Lemmon Ski Valley",
+      "notes": "Numerical mountain dimensions not established on inspected operator pages.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skithelemmon.com/new-page-1",
+        "https://www.skithelemmon.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5568271",
+      "name": "Glencoe",
+      "notes": "Lift headline and available-uplift denominator disagree; no lift total selected.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.glencoemountain.co.uk/winter/",
+          "alternatives": [
+            {
+              "value": 8,
+              "source": "https://www.glencoemountain.co.uk/winter/"
+            },
+            {
+              "value": 10,
+              "source": "https://www.glencoemountain.co.uk/winter/"
+            }
+          ],
+          "note": "Winter overview says eight; report says ten available uplifts. Scope unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.glencoemountain.co.uk/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10726608",
+      "name": "Åre",
+      "notes": "Unitless 890 vertical on overview withheld. Conflicting slope totals retained.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Slopes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.skistar.com/en/ski-destinations/are/winter-in-are/",
+          "alternatives": [
+            {
+              "value": 89,
+              "source": "https://www.skistar.com/en/ski-destinations/are/winter-in-are/"
+            },
+            {
+              "value": 91,
+              "source": "https://www.skistar.com/en/ski-destinations/are/winter-in-are/"
+            }
+          ],
+          "note": "Same page prose says 89 and facts panel says 91; no total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.skistar.com/en/ski-destinations/are/winter-in-are/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q879508",
+      "name": "Björkliden",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bjorkliden.com/en/experiences/skiing-trails/",
+        "https://bjorkliden.com/en/experiences/skiing-trails/skiing-in-bjorkliden/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3368232",
+      "name": "Branäs",
+      "notes": "Report denominators describe inventory, not currently open slopes or lifts. Nordic distances excluded.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.branas.se/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10534105",
+      "name": "Idre Fjäll",
+      "notes": "No numerical dimensions imported from map search snippets; reviewed HTML supports summary only.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.idrefjall.se/en/skiing/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1943086",
+      "name": "Kittelfjäll",
+      "notes": "40-slope prose differs from category counts; no whole-resort trail total. Lift list sums to five while headline says four.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://kittelfjall.com/en/skiing-kittelfjall",
+          "alternatives": [
+            {
+              "value": 4,
+              "source": "https://kittelfjall.com/en/skiing-kittelfjall"
+            },
+            {
+              "value": 5,
+              "source": "https://kittelfjall.com/en/skiing-kittelfjall"
+            }
+          ],
+          "note": "Headline four; listed types sum to five including rope tow. Second alternative is an arithmetic sum, not a separate published headline.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://kittelfjall.com/en/skiing-kittelfjall"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3815892",
+      "name": "Kläppen",
+      "notes": "37 km of Nordic tracks excluded. Planned Kläppen Syd expansion not added.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.klappen.se/en/skiing/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10649543",
+      "name": "Ramundberget",
+      "notes": "Headline 42 slopes versus difficulty categories summing to 43; total withheld.",
+      "observations": 6,
+      "missing_core_fields": [
+        "area",
+        "trails"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Slopes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.ramundberget.se/en/at-the-resort/piste-map/",
+          "alternatives": [
+            {
+              "value": 42,
+              "source": "https://www.ramundberget.se/en/at-the-resort/piste-map/"
+            },
+            {
+              "value": 43,
+              "source": "https://www.ramundberget.se/en/at-the-resort/piste-map/"
+            }
+          ],
+          "note": "Headline 42; difficulty categories sum to 43. Second alternative calculated from categories, not an independently published total.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.ramundberget.se/en/at-the-resort/piste-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q728230",
+      "name": "Geilo",
+      "notes": "Operator displays a Fnugg-fed inventory. Denominators, not current open counts; no town-wide terrain claim.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skigeilo.no/en/webcam-and-weather"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q256064",
+      "name": "Kvitfjell",
+      "notes": "600 km of cross-country tracks not counted as downhill terrain.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.alpinco.com/en/kvitfjell"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12010113",
+      "name": "Myrkdalen",
+      "notes": "Promotional snow-reliability claims not turned into a snowfall average or guarantee.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.norwaysbest.com/en/inspiration/winter"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12010112",
+      "name": "Voss Resort",
+      "notes": "Almost 900 m drop is not an exact measurement. 1,410 m touring peak and 18 km Nordic trails excluded; gondola not added again to lift headline.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.vossresort.no/en/voss-ski-resort/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4993402",
+      "name": "Skimore Oslo",
+      "notes": "Operator-authored indexed offer says 18 slopes; operator network widget says 21. No total selected; dynamic offer body is not always visible in rendered HTML.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Slopes",
+          "unit": "",
+          "value": null,
+          "source": "https://book.visitoslo.com/en/adventure/2300-ski-pass-at-skimore-oslo-tryvann",
+          "alternatives": [
+            {
+              "value": 18,
+              "source": "https://book.visitoslo.com/en/adventure/2300-ski-pass-at-skimore-oslo-tryvann"
+            },
+            {
+              "value": 21,
+              "source": "https://kongsberg-vinter.skimore.no/"
+            }
+          ],
+          "note": "Operator-authored VisitOSLO offer says 18; Skimore Oslo network widget says 21. Scope/date reconciliation required.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://book.visitoslo.com/en/adventure/2300-ski-pass-at-skimore-oslo-tryvann",
+        "https://kongsberg-vinter.skimore.no/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6429237",
+      "name": "Skimore Kongsberg",
+      "notes": "Summer-season status widgets and cross-resort English template text are not reliable winter mountain dimensions; Norwegian Kongsberg-specific overview used.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kongsberg-vinter.skimore.no/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2268802",
+      "name": "Selwyn",
+      "notes": "Seasonal closure, not permanent closure. Toboggan conveyor length and planned snowmaking improvements are not existing downhill dimensions.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://selwynsnow.com.au/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q15244599",
+      "name": "Manganui",
+      "notes": "Difficulty percentages sum to 105 and are withheld. Approximately 300 m top-tow fall-line skiing is not treated as measured vertical. Lodge restrictions do not make public day skiing private.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skitaranaki.co.nz/the-mountain/our-mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7698449",
+      "name": "Temple Basin",
+      "notes": "No hike-accessed terrain dimensions imported; membership optional for day skiing.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://templebasin.co.nz/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5430870",
+      "name": "Fairview Ski Hill",
+      "notes": "No unsupported acreage or vertical copied from third-party listings.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skifairview.com/trail-map"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61925981",
+      "name": "Storklinten",
+      "notes": "Operator day passes confirm public lift access. Numerical ski dimensions not established in inspected HTML.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.storklinten.se/",
+        "https://www.storklinten.se/skipass/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10856520",
+      "name": "Stryn Sommerski",
+      "notes": "1,800 m snowcat access excluded from highest lift. Seasonal road and snow access; operator plans next ski season for late May 2027.",
+      "observations": 2,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://strynsommerski.com/home-2/",
+        "https://strynsommerski.com/"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q3567781",
+    "wikidata:item:Q8000723",
+    "wikidata:item:Q4850340",
+    "wikidata:item:Q5181703",
+    "wikidata:item:Q988298",
+    "wikidata:item:Q14680584",
+    "wikidata:item:Q10534105",
+    "wikidata:item:Q6429237",
+    "wikidata:item:Q2268802",
+    "wikidata:item:Q61925981"
+  ]
+}

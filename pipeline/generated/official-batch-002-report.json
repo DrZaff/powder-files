@@ -1,0 +1,525 @@
+{
+  "batch": "official-002",
+  "checked_at": "2026-08-30",
+  "researched_profiles": 25,
+  "source_checked_observations": 102,
+  "conflict_fields": 6,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q3021172",
+      "name": "Deer Valley",
+      "notes": "Retains the 2025–26 configuration. The expansion site advertises 4,500 acres, 209 runs and 32 aerial lifts for 2026–27; these planned figures are not live availability.",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Published trail count",
+          "value": null,
+          "unit": "",
+          "source": "https://www.deervalley.com/explore-the-mountain",
+          "note": "Mountain page reports 202; meeting guide reports 204. Neither is replaced by the announced 209-run 2026–27 plan.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 202,
+              "source": "https://www.deervalley.com/explore-the-mountain"
+            },
+            {
+              "value": 204,
+              "source": "https://guides.deervalley.com/meeting-planner-guide/20-21"
+            }
+          ],
+          "source_period": "2025–26 / undated guide"
+        }
+      ],
+      "sources": [
+        "https://www.deervalley.com/explore-the-mountain",
+        "https://guides.deervalley.com/meeting-planner-guide/20-21",
+        "https://expandedexcellence.deervalley.com/major-terrain-expansion/",
+        "https://www.deervalley.com/about-us/faqs"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5445102",
+      "name": "Fernie Alpine Resort",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Named runs",
+          "value": null,
+          "unit": "",
+          "source": "https://skifernie.com/discover-fernie/mountain-stats/",
+          "note": "Official statistics contain 145 and 146; another official page gives 142. No single count selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 145,
+              "source": "https://skifernie.com/discover-fernie/mountain-stats/"
+            },
+            {
+              "value": 146,
+              "source": "https://skifernie.com/discover-fernie/mountain-stats/"
+            },
+            {
+              "value": 142,
+              "source": "https://skifernie.com/discover-fernie/why-fernie/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://skifernie.com/discover-fernie/mountain-stats/",
+        "https://skifernie.com/discover-fernie/why-fernie/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6415898",
+      "name": "Kirkwood Mountain Resort",
+      "notes": "Summit withheld: page lists highest elevation 9,800 ft, Thimble Peak 9,805 ft and an inconsistent metric conversion. Older maps are not treated as current statistics.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kirkwood.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3326011",
+      "name": "Mount Bachelor ski area",
+      "notes": "Other core fields were not established from the reviewed official HTML source.",
+      "observations": 2,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mtbachelor.com/tickets-passes/ikon-pass/?page=2556"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7059771",
+      "name": "Northstar California",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.northstarcalifornia.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2182804",
+      "name": "Palisades Tahoe",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Combined lifts",
+          "value": null,
+          "unit": "",
+          "source": "https://www.palisadestahoe.com/footer/mountain-statistics",
+          "note": "Combined statistics table says 39 lifts; official first-timer guide says 40. Scope or update date needs clarification.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 39,
+              "source": "https://www.palisadestahoe.com/footer/mountain-statistics"
+            },
+            {
+              "value": 40,
+              "source": "https://www.palisadestahoe.com/explore/first-timers-guide"
+            }
+          ]
+        },
+        {
+          "key": "trails",
+          "label": "Combined trails",
+          "value": null,
+          "unit": "",
+          "source": "https://www.palisadestahoe.com/footer/mountain-statistics",
+          "note": "Published total is 288; separate mountain subtotals sum to 296 (187 + 109). The second number is calculated only to document the inconsistency. Overlap and scope are unresolved; neither count is selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 288,
+              "source": "https://www.palisadestahoe.com/footer/mountain-statistics"
+            },
+            {
+              "value": 296,
+              "source": "https://www.palisadestahoe.com/footer/mountain-statistics",
+              "derivation": "Sum of published mountain subtotals: 187 + 109; not a separately published combined count."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.palisadestahoe.com/footer/mountain-statistics",
+        "https://www.palisadestahoe.com/explore/first-timers-guide"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7304643",
+      "name": "Red Mountain Resort",
+      "notes": "Animated trail-count and vertical counters extracted as zero, so those counters are not used. Differing promotional vertical claims remain unresolved.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.redresort.com/maps-stats/",
+        "https://www.redresort.com/kirkupcat/",
+        "https://www.redresort.com/thegoodlife/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2665933",
+      "name": "Snowbasin",
+      "notes": "No resort-wide vertical is inferred from elevations or individual Olympic courses.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.snowbasin.com/discover/your-guide-to-snowbasin/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548669",
+      "name": "Snowmass",
+      "notes": "Snowmass mountain only, not all four Aspen Snowmass mountains. Article publication date is unknown.",
+      "observations": 3,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.aspensnowmass.com/discover/experiences/guides/how-to-ski-snowmass-on-a-powder-day"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7605410",
+      "name": "Steamboat Ski Resort",
+      "notes": "Current text statistics take precedence over stale image alternative text and the explicitly older 2024–25 press kit.",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.steamboat.com/the-mountain/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q749825",
+      "name": "Sun Peaks Resort",
+      "notes": "Published winter table is labeled 2026–27. This is planning information, not evidence all lifts are currently operating.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sunpeaksresort.com/ski-ride/the-mountain/trail-maps-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7697675",
+      "name": "Telluride Ski Resort",
+      "notes": "Official HTML fact block is dated 2020-09-30. Historical measurements are labeled; old lift/trail totals and maximum hike-to elevation are not imported as current.",
+      "observations": 4,
+      "missing_core_fields": [
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://tellurideskiresort.com/?spb-section=mountain-facts"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3639823",
+      "name": "Whitefish Mountain Resort",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skiwhitefish.com/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q127037",
+      "name": "Avoriaz",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Avoriaz slopes",
+          "value": null,
+          "unit": "",
+          "source": "https://www.avoriaz.com/activites-hiver/ski-et-snow/avoriaz-ou-portes-du-soleil---tout-comprendre/",
+          "note": "French and English official guides report 54 and 53 slopes. Difficulty subtotals also differ; count withheld.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 54,
+              "source": "https://www.avoriaz.com/activites-hiver/ski-et-snow/avoriaz-ou-portes-du-soleil---tout-comprendre/"
+            },
+            {
+              "value": 53,
+              "source": "https://www.avoriaz.com/en/discover/the-resort/first-time-in-avoriaz-in-winter-/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.avoriaz.com/activites-hiver/ski-et-snow/avoriaz-ou-portes-du-soleil---tout-comprendre/",
+        "https://www.avoriaz.com/en/discover/the-resort/first-time-in-avoriaz-in-winter-/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5509476",
+      "name": "Furano Ski Resort",
+      "notes": "Furano and Kitanomine zones combined. Ski-lift capacities and line lengths are not mistaken for lift counts or elevation.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.princehotels.com/en/ski/furano/index.html",
+        "https://www.princehotels.com/en/ski/furano/inc/readset_furano.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11222992",
+      "name": "Hakuba 47 Winter Sports Park",
+      "notes": "Official statistics table is still explicitly labeled 2023–24. Preserved as dated observations; current-season recheck required. Split route sections are not counted as additional runs.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hakuba47.co.jp/winter/en/mountain/mountain_info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11580457",
+      "name": "Hakuba Cortina Snow Resort",
+      "notes": "Japanese official table. Four pair and two quad lifts are listed; no aggregate lift count is inferred.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hgp.co.jp/cortina/ski/gelande/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11580462",
+      "name": "Hakuba Goryu Snow Resort",
+      "notes": "Linked Goryu–Hakuba47 course totals differ between overview and course guide. Standalone Goryu acreage and course total remain unestablished.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Goryu–47 linked courses",
+          "value": null,
+          "unit": "",
+          "source": "https://www.hakubaescal.com/winter-en/gelande/",
+          "note": "These are linked-area counts, not standalone Goryu. Official overview and course guide disagree.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 23,
+              "source": "https://www.hakubaescal.com/winter-en/gelande/"
+            },
+            {
+              "value": 24,
+              "source": "https://www.hakubaescal.com/winter-en/gelande/course/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.hakubaescal.com/winter-en/gelande/",
+        "https://www.hakubaescal.com/winter-en/gelande/course/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11580473",
+      "name": "Hakuba Iwatake Snow Field",
+      "notes": "Course-status page mixes downhill and cross-country routes; no total is calculated from its rows.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://iwatake-mountain-resort.com/winter/whitepark"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61451059",
+      "name": "Mt Hotham Alpine Resort",
+      "notes": "Statistics table retains 2025 season dates despite current site navigation. The 2026 school page lists 13 Hotham lifts, a narrower scope than the 14 including Dinner Plain.",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mthotham.com.au/resort/explore/mountain-info",
+        "https://www.mthotham.com.au/resort/access/groups/school-groups"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11324352",
+      "name": "Niseko Annupuri International Ski Area",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://annupuri.info/concept/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q23772767",
+      "name": "Niseko Hanazono Resort",
+      "notes": "Area and upper skiing elevation remain unestablished; summer gondola top is not substituted for the winter ski-area top.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://hanazononiseko.com/en/winter/resort/courses"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11324358",
+      "name": "Niseko Tokyu Grand HIRAFU",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.grand-hirafu.jp/snow/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7382688",
+      "name": "Rusutsu Resort",
+      "notes": "Resort-wide trail length is retained from the dated official article separately, not inferred by summing trail-map sections.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://rusutsu.com/rusutsu-in-winter/",
+        "https://rusutsu.com/blog/032/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7067399",
+      "name": "Nozawa Onsen Snow Resort",
+      "notes": "Japanese company statistics still show the 2024–25 operating season. The English site timed out, so the Japanese operator page was used.",
+      "observations": 6,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://nozawaski.com/winter/general/"
+      ]
+    }
+  ]
+}

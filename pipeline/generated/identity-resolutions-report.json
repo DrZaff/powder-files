@@ -1,0 +1,233 @@
+{
+  "reviewed_at": "2026-10-04",
+  "merges": [
+    {
+      "target": "wikidata:item:Q110914605",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q110914605",
+        "wikidata:item:Q30141184"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3368414",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q3368414",
+        "wikidata:item:Q137052565"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q60726558",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q116459866",
+        "wikidata:item:Q60726558"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q49177812",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q49177812"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q6363223",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q6363223"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q14685139",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531009607",
+        "wikidata:item:Q14685139"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q12053500",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531005985",
+        "wikidata:item:Q12053500"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1206060",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:474288286",
+        "wikidata:item:Q1206060"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3821979",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:918681867",
+        "wikidata:item:Q3821979"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q10538901",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1074335726",
+        "wikidata:item:Q10538901"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q4807834",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:530531925",
+        "wikidata:item:Q4807834"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q6398500",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531000583",
+        "wikidata:item:Q6398500"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q813483",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531009608",
+        "wikidata:item:Q813483"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q49562771",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1023308078",
+        "wikidata:item:Q49562771"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q7317881",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:475720359",
+        "wikidata:item:Q7317881"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3285029",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:682231907",
+        "wikidata:item:Q3285029"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q4807815",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:530531926",
+        "wikidata:item:Q4807815"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q859485",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:476836855",
+        "wikidata:item:Q859485"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q4966625",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1228627171",
+        "wikidata:item:Q4966625"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q2362338",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531005986",
+        "wikidata:item:Q2362338"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1137200",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:15317924",
+        "wikidata:item:Q1137200"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3497349",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:671144531",
+        "wikidata:item:Q3497349"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1629394",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:178133225",
+        "wikidata:item:Q1629394"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1741253",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1227177985",
+        "wikidata:item:Q1741253"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q7546617",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1228354294",
+        "wikidata:item:Q7546617"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q123853037",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:860260235",
+        "wikidata:item:Q123853037"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "wikidata:item:Q592910",
+      "removed_rows": 2,
+      "reason": "lift_free_or_non_resort"
+    },
+    {
+      "id": "wikidata:item:Q3311533",
+      "removed_rows": 2,
+      "reason": "lift_free_or_non_resort"
+    }
+  ],
+  "disambiguated": [
+    {
+      "id": "wikidata:item:Q1624333",
+      "name": "Crystal Mountain (Washington)"
+    },
+    {
+      "id": "wikidata:item:Q5191297",
+      "name": "Crystal Mountain (Michigan)"
+    }
+  ]
+}

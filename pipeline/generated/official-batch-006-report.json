@@ -1,0 +1,964 @@
+{
+  "batch": "official-006",
+  "checked_at": "2026-08-31",
+  "researched_profiles": 50,
+  "source_checked_observations": 215,
+  "conflict_fields": 9,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q130503760",
+      "name": "Mont Grand-Fonds",
+      "notes": "Snowmaking acreage and percentage do not reconcile exactly; withheld. Trail total differs from the conditions page, which also lists the terrain park.",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trail total",
+          "unit": "",
+          "value": null,
+          "source": "https://montgrandfonds.com/fr/ski-alpin",
+          "alternatives": [
+            {
+              "value": 23,
+              "source": "https://montgrandfonds.com/fr/ski-alpin"
+            },
+            {
+              "value": 24,
+              "source": "https://montgrandfonds.com/fr/live"
+            }
+          ],
+          "note": "Ski page lists 23 trails; conditions page advertises 24 and includes a park entry. Scope not resolved; no total chosen.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://montgrandfonds.com/fr/ski-alpin",
+        "https://montgrandfonds.com/fr/live"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14704736",
+      "name": "Montana Snowbowl",
+      "notes": "June 30, 2026 report. No numerical dimensions imported from the historical master plan or PDF maps.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.montanasnowbowl.com/trails-report/index.php"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6919591",
+      "name": "Baldy Mountain Resort, British Columbia",
+      "notes": "Exact BC identity, not Ontario or California. Total lift count withheld: mountain page names four lifts, homepage says three. No mismatched feet/metre conversions imported.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://baldyresort.com/mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6919769",
+      "name": "Mount Bohemia",
+      "notes": "Separate Voodoo cat-skiing area is not added. No tourism-directory acreage imported.",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mtbohemia.com/about/",
+        "https://www.mtbohemia.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14716235",
+      "name": "Mount Brighton",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.mtbrighton.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "alternatives": [
+            {
+              "value": 25,
+              "source": "https://www.mtbrighton.com/the-mountain/about-the-mountain/mountain-info.aspx"
+            },
+            {
+              "value": 24,
+              "source": "https://www.mtbrighton.com/the-mountain/about-the-mountain/mountain-info.aspx"
+            }
+          ],
+          "note": "Same official page gives 25 trails in prose and 24 in its statistics. No total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.mtbrighton.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6921255",
+      "name": "Mount Hood Meadows",
+      "notes": "Nordic, snowshoe and summer maps excluded. No resort vertical derived from lodge altitudes.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skihood.com/explore/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1950718",
+      "name": "Mount Seymour",
+      "notes": "Current HTML statistics used; older PDF park counts and proposed development are not current infrastructure.",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://mtseymour.ca/the-mountain/trail-map"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3326037",
+      "name": "Mount Shasta Ski Park",
+      "notes": "Annual snowfall withheld: trail-map page says 157 inches, public-relations page 275. Separate backcountry acreage excluded.",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skipark.com/winter/trail-map-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6923783",
+      "name": "Mount Spokane",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mtspokane.com/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6923794",
+      "name": "Mount St. Louis Moonstone",
+      "notes": "Announced 2026–27 improvements are not treated as already operating. Combined Louis/Moonstone profile retained.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Slopes",
+          "unit": "",
+          "value": null,
+          "source": "https://www.mountstlouis.com/",
+          "alternatives": [
+            {
+              "value": 35,
+              "source": "https://www.mountstlouis.com/"
+            },
+            {
+              "value": 36,
+              "source": "https://www.mountstlouis.com/status/"
+            }
+          ],
+          "note": "Homepage gives 35 slopes; status denominator is 36. No count selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.mountstlouis.com/",
+          "alternatives": [
+            {
+              "value": 170,
+              "source": "https://www.mountstlouis.com/"
+            },
+            {
+              "value": 180,
+              "source": "https://www.mountstlouis.com/mountain-facts/"
+            }
+          ],
+          "note": "Homepage advertises 170 acres; history page concludes with 180. Dates/scope unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.mountstlouis.com/",
+        "https://www.mountstlouis.com/status/",
+        "https://www.mountstlouis.com/mountain-facts/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18707447",
+      "name": "Mont Sutton",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://montsutton.com/en/the-mountain/technical-info-2/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6924501",
+      "name": "Mount Washington Alpine Resort",
+      "notes": "Current About page used rather than older map totals or summer bike counts. No ambiguous summit altitude imported.",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mountwashington.ca/the-mountain/about"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61233805",
+      "name": "Mt Abram",
+      "notes": "Page includes 2025–26 holiday dates. Headline 42 trails differs from ability counts summing to 44; no trail total selected.",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.mtabram.com/winter/hours-info/",
+          "alternatives": [
+            {
+              "value": 42,
+              "source": "https://www.mtabram.com/winter/hours-info/"
+            },
+            {
+              "value": 44,
+              "source": "https://www.mtabram.com/winter/hours-info/"
+            }
+          ],
+          "note": "Same page headline gives 42 trails; listed ability counts 10 + 21 + 13 sum to 44. The latter is calculated from categories, not an independent headline.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.mtabram.com/winter/hours-info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14874871",
+      "name": "Mt Norquay",
+      "notes": "No PDF-only acreage or trail count imported. Unresolved base/top elevation scope withheld.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://banffnorquay.com/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1588256",
+      "name": "Nakiska",
+      "notes": "Current HTML used rather than older PDF counts. Future summer expansion is not winter terrain.",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skinakiska.com/discover-nakiska/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7067815",
+      "name": "Nub’s Nob",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.nubsnob.com/who-we-are/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7081931",
+      "name": "Okemo",
+      "notes": "No vertical inferred from the two elevations; current HTML lift total retained without counting PDF map entries.",
+      "observations": 7,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.okemo.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7132127",
+      "name": "Paoli Peaks",
+      "notes": "Nearby forest acreage and tubing-lane length are not ski-area dimensions.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.paolipeaks.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7148200",
+      "name": "Pats Peak",
+      "notes": "Cascade Basin expansion acreage is a subset, not total skiable area. No conditions guarantee copied from marketing.",
+      "observations": 7,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.patspeak.com/the-mountain/mountain-info/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7158509",
+      "name": "Pebble Creek",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://pebblecreekskiarea.com/the-mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7168022",
+      "name": "Perfect North Slopes",
+      "notes": "End-of-2025–26 report. Snow depth and snowfall counters are not mountain dimensions.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://perfectnorth.com/snow-report/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7235982",
+      "name": "Powder King",
+      "notes": "Area withheld: 405 hectares is not equivalent to the paired 925 acres. Summit 1,829 m / 5,500 ft is also inconsistent; no elevation selected.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.powderking.com/contact/about-us"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7260955",
+      "name": "Purden",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.purden.com/skiabout.html",
+        "https://www.purden.com/skihome.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7278590",
+      "name": "Rabbit Hill",
+      "notes": "Core mountain dimensions remain unsourced; ticket prices and temporary promotions are not retained.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rabbithill.com/lift-tickets/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7282899",
+      "name": "Ragged Mountain",
+      "notes": "Uphill route appears in the lift table but is not a lift. No live operation claim.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.raggedmountainresort.com/mountain-report-cams/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7397750",
+      "name": "Saddleback",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.saddlebackmaine.com/the-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7441742",
+      "name": "Searchmont",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://searchmont.com/about/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7457464",
+      "name": "Seven Springs",
+      "notes": "Hidden Valley and Laurel Mountain are not included in these totals. No vertical inferred from elevations.",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.7springs.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3960702",
+      "name": "SilverStar",
+      "notes": "Nordic networks are not added to downhill trail totals.",
+      "observations": 3,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skisilverstar.com/community/discover-silverstar/the-silverstar-difference/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2292122",
+      "name": "Ski Apache",
+      "notes": "Lift-type scope and conflicting snowfall statistics require further review. No mountain-peak altitude imported as lift access.",
+      "observations": 5,
+      "missing_core_fields": [
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skiapache.com/mountain-info/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534854",
+      "name": "Ski Butternut",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibutternut.com/the-mountain/mountain-info/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14685092",
+      "name": "Ski Cooper",
+      "notes": "Annual snowfall withheld because the same page gives 250 and about 260 inches.",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicooper.com/mountain-stats-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534851",
+      "name": "Ski Brule",
+      "notes": "Nordic distances and tubing lifts are not included in downhill dimensions.",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibrule.com/brule-mountain/trail-map-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4930619",
+      "name": "Bluewood",
+      "notes": "Separate snowcat terrain excluded. Conditions page reports summer road repairs; this is not a promise of current road access.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bluewood.com/about-us"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534904",
+      "name": "Ski Sundown",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skisundown.com/plan-your-trip/trail-map-statistics/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548711",
+      "name": "Snowshoe",
+      "notes": "11,000-acre property is not skiable acreage. No combined trail total selected because Silver Creek official totals differ.",
+      "observations": 6,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "silver_creek_trails",
+          "label": "Silver Creek sector trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.snowshoemtn.com/mountain-info/mountain-stats",
+          "alternatives": [
+            {
+              "value": 15,
+              "source": "https://www.snowshoemtn.com/mountain-info/mountain-stats"
+            },
+            {
+              "value": 18,
+              "source": "https://www.snowshoemtn.com/things-to-do/silver-creek"
+            }
+          ],
+          "note": "Mountain stats list 15 Silver Creek trails; dedicated sector page lists 18. Combined resort total withheld too.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.snowshoemtn.com/mountain-info/mountain-stats",
+        "https://www.snowshoemtn.com/things-to-do/silver-creek"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7558292",
+      "name": "Solitude",
+      "notes": "Lift-type table is stale relative to the announced six-person Eagle replacement; no lift-type count imported.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.solitudemountain.com/mountain-and-village/mountain-information/solitude-by-the-numbers"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q106178840",
+      "name": "Ski Cloudcroft",
+      "notes": "March 7, 2026 closure is seasonal, not a permanent closure. Tubing vertical is separate.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skicloudcroft.net/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534909",
+      "name": "Ski Ward",
+      "notes": "Official About page says four lifts, conditions page five. No total selected.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://skiward.com/mountain-info/about-us/",
+          "alternatives": [
+            {
+              "value": 4,
+              "source": "https://skiward.com/mountain-info/about-us/"
+            },
+            {
+              "value": 5,
+              "source": "https://skiward.com/mountain-info/conditions/"
+            }
+          ],
+          "note": "About page lists four lifts; conditions statistics list five. No total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://skiward.com/mountain-info/about-us/",
+        "https://skiward.com/mountain-info/conditions/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534850",
+      "name": "Bromont",
+      "notes": "Current HTML counts retained; older 2024–25 figures are not silently reused. Summer mountain-bike trail totals excluded.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bromontmontagne.com/en/discover-the-mountain/discover-the-mountain-winter/",
+        "https://www.bromontmontagne.com/en/maps-of-the-mountain/?act=1"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534857",
+      "name": "Ski Chantecler",
+      "notes": "Acreage, vertical, lifts and elevations remain unsourced; report open count is not used.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skichantecler.com/en/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14875770",
+      "name": "Ski Martock",
+      "notes": "No supported core numerical dimensions imported. Map labels include a midway unload, duplicate run numbering and tubing; simple enumeration would misstate totals.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.martock.com/mountain/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548208",
+      "name": "Snow Creek",
+      "notes": "No vertical inferred by subtracting elevations. Tubing dimensions excluded.",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skisnowcreek.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548753",
+      "name": "Snowy Range",
+      "notes": "Advertised vertical 990 feet differs from the 865-foot elevation difference; no vertical chosen. Homepage 30 trails differs from 33 listed report rows, whose segment scope needs review.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://snowyrangeski.com/",
+          "alternatives": [
+            {
+              "value": 30,
+              "source": "https://snowyrangeski.com/"
+            },
+            {
+              "value": 33,
+              "source": "https://snowyrangeski.com/lifts-and-trails-report/"
+            }
+          ],
+          "note": "Homepage advertises 30 trails; the report enumerates 33 named rows including segments. Row count is calculated and may have a different scope.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://snowyrangeski.com/",
+        "https://snowyrangeski.com/lifts-and-trails-report/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q104864484",
+      "name": "Skeetawk",
+      "notes": "Future gondola is not counted as built. Mid-mountain snowcat operations do not establish present lift access.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skeetawk.com/lift2"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534848",
+      "name": "Ski Big Bear, Pennsylvania",
+      "notes": "Exact Pennsylvania identity, not California Big Bear Mountain Resort.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ski-bigbear.com/"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:278923089",
+      "name": "Mt Holly",
+      "notes": "Stable OSM identity preserved. Cached condition report is not a live status check; no trail total inferred by counting segments.",
+      "observations": 2,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skimtholly.com/snow-report/"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:278929769",
+      "name": "Pine Knob",
+      "notes": "Stable OSM identity preserved. Stale open-season banner is not treated as current operation.",
+      "observations": 2,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skipineknob.com/snow-report/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7195117",
+      "name": "Pine Creek",
+      "notes": "Advertised 1,450-foot drop conflicts with the history page’s 1,425-foot lift descent; no vertical selected.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "unit": "ft",
+          "value": null,
+          "source": "https://www.pinecreekskiresort.com/mountain-stats",
+          "alternatives": [
+            {
+              "value": 1450,
+              "source": "https://www.pinecreekskiresort.com/mountain-stats"
+            },
+            {
+              "value": 1425,
+              "source": "https://www.pinecreekskiresort.com/history-of-pine-creek"
+            }
+          ],
+          "note": "Mountain stats give 1,450 feet; history describes 1,425 feet from summit to parking. Scope/date unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.pinecreekskiresort.com/mountain-stats",
+        "https://www.pinecreekskiresort.com/history-of-pine-creek"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q106041132",
+      "name": "Sandia Peak Ski Area",
+      "notes": "Ski area figures, not scenic tram rise. Surface lift type withheld because official pages disagree between tow and carpet.",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sandia.ski/mountain-stats",
+        "https://www.sandia.ski/press-release"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q14875770"
+  ]
+}

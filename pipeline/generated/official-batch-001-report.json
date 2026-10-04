@@ -1,0 +1,486 @@
+{
+  "batch": "official-001",
+  "checked_at": "2026-08-30",
+  "researched_profiles": 25,
+  "source_checked_observations": 106,
+  "conflict_fields": 5,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q17507859",
+      "name": "49 Degrees North",
+      "notes": "Patrolled area is not used as skiable acreage; the retrieved table did not specify its unit.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://m.ski49n.com/mountain-info/trail-map-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4690826",
+      "name": "Afton Alps",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.aftonalps.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2840279",
+      "name": "Alta",
+      "notes": "Skiers only. Facts were read from the rendered official page; animated figures are absent from some text extractions.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.alta.com/about"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9147336",
+      "name": "Alyeska",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.alyeskaresort.com/about-the-mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4762160",
+      "name": "Angel Fire",
+      "notes": "Lift total withheld: current equipment breakdown and FAQ total differ; some equipment is restricted to lessons.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.angelfireresort.com/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4779435",
+      "name": "Apex",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://apexresort.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4784196",
+      "name": "Arapahoe Basin",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.arapahoebasin.com/field-guide/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4791400",
+      "name": "Arizona Snowbowl",
+      "notes": "",
+      "observations": 7,
+      "missing_core_fields": [],
+      "conflicts": [],
+      "sources": [
+        "https://www.snowbowl.ski/the-mountain/mountain-information/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4840857",
+      "name": "Badger Pass",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.travelyosemite.com/winter/badger-pass-ski-area/downhill-skiing-snowboarding"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2366796",
+      "name": "Banff Sunshine",
+      "notes": "Other core statistics were not established from the reviewed official page.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skibanff.com/explore/trail-maps/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4906372",
+      "name": "Big Sky",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bigskyresort.com/mountain-info"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4929534",
+      "name": "Blue Mountain (Pennsylvania)",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skibluemt.com/winter-sports/skiing-snowboarding/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4978877",
+      "name": "Brundage",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://brundage.com/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5003005",
+      "name": "Buttermilk",
+      "notes": "Official HTML sources disagree on acreage. The PDF fact sheet was not used because its visual preview was unavailable.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "value": null,
+          "unit": "acres",
+          "source": "https://www.aspensnowmass.com/partner-passes/ikon-pass/ikon-pass-holders-guide-to-aspen-snowmass",
+          "note": "Official HTML pages report 470 and 435 acres. Dates and scope are unclear; acreage withheld pending clarification.",
+          "qualifier": "",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 470,
+              "source": "https://www.aspensnowmass.com/partner-passes/ikon-pass/ikon-pass-holders-guide-to-aspen-snowmass"
+            },
+            {
+              "value": 435,
+              "source": "https://www.aspensnowmass.com/discover/experiences/guides/how-to-ski-buttermilk-on-a-powder-day"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.aspensnowmass.com/partner-passes/ikon-pass/ikon-pass-holders-guide-to-aspen-snowmass",
+        "https://www.aspensnowmass.com/discover/experiences/guides/how-to-ski-buttermilk-on-a-powder-day"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2935212",
+      "name": "Camp Fortune",
+      "notes": "French-language official source. Vertical, skiable area and elevation remain unsourced.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://campfortune.com/fr/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5184571",
+      "name": "Crested Butte",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicb.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1624333",
+      "name": "Crystal Mountain (Washington)",
+      "notes": "Run counts differ by terminology; top-of-gondola elevations also differ on the same page. No summit value selected.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails / named runs",
+          "value": null,
+          "unit": "",
+          "source": "https://www.crystalmountainresort.com/media/mountain-stats-and-facts",
+          "note": "The same official page reports 85 named runs and 57 designated trails. Scope is unresolved; no single count selected.",
+          "qualifier": "",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 85,
+              "source": "https://www.crystalmountainresort.com/media/mountain-stats-and-facts"
+            },
+            {
+              "value": 57,
+              "source": "https://www.crystalmountainresort.com/media/mountain-stats-and-facts"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.crystalmountainresort.com/media/mountain-stats-and-facts"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5270890",
+      "name": "Diamond Peak",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [],
+      "conflicts": [],
+      "sources": [
+        "https://www.diamondpeak.com/about/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5586122",
+      "name": "Gore",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "value": null,
+          "unit": "",
+          "source": "https://goremountain.com/the-mountain/trail-maps/",
+          "note": "Official page contains 108, 115 and 109 alpine trails, alongside Nordic counts. No single downhill count selected.",
+          "qualifier": "",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 108,
+              "source": "https://goremountain.com/the-mountain/trail-maps/"
+            },
+            {
+              "value": 115,
+              "source": "https://goremountain.com/the-mountain/trail-maps/"
+            },
+            {
+              "value": 109,
+              "source": "https://goremountain.com/the-mountain/trail-maps/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://goremountain.com/the-mountain/trail-maps/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5595130",
+      "name": "Grand Targhee",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.grandtarghee.com/the-mountain/mountain-information/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6402050",
+      "name": "Kicking Horse",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://kickinghorseresort.com/discover-kickinghorse/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q13231225",
+      "name": "Lake Louise",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skilouise.com/explore-winter/winter-ski-ride/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3224379",
+      "name": "Le Massif",
+      "notes": "Source article dated 2025-03-31; these are published figures, not a live trail-opening report.",
+      "observations": 2,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lemassif.com/fr/family-vacations-canada"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5569328",
+      "name": "Glenshee",
+      "notes": "The 26 blue/red runs on this page are a subset, not the total trail count. Remaining core facts need research.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ski-glenshee.co.uk/Skiing"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1026835",
+      "name": "Val Thorens",
+      "notes": "Linked-area statistics must not be compared as if they described a single standalone resort.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Linked-area runs",
+          "value": null,
+          "unit": "",
+          "source": "https://www.valthorens.com/en/premier-jour-a-val-thorens-guide-pratique/",
+          "note": "Tourism and lift-operator pages report different totals; count withheld.",
+          "qualifier": "",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 83,
+              "source": "https://www.valthorens.com/en/premier-jour-a-val-thorens-guide-pratique/"
+            },
+            {
+              "value": 88,
+              "source": "https://ski.valthorens.com/destinations/domaine-skiable/"
+            }
+          ]
+        },
+        {
+          "key": "lifts",
+          "label": "Linked-area lifts",
+          "value": null,
+          "unit": "",
+          "source": "https://www.valthorens.com/en/premier-jour-a-val-thorens-guide-pratique/",
+          "note": "Tourism and lift-operator pages report different totals; count withheld.",
+          "qualifier": "",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 30,
+              "source": "https://www.valthorens.com/en/premier-jour-a-val-thorens-guide-pratique/"
+            },
+            {
+              "value": 31,
+              "source": "https://ski.valthorens.com/destinations/domaine-skiable/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.valthorens.com/en/domaine-ski-vtt/val-thorens-orelle/",
+        "https://www.valthorens.com/en/premier-jour-a-val-thorens-guide-pratique/",
+        "https://www.valthorens.com/en/sejour/guide-sejour/",
+        "https://ski.valthorens.com/destinations/domaine-skiable/"
+      ]
+    }
+  ]
+}

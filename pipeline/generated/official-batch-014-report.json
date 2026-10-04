@@ -1,0 +1,1811 @@
+{
+  "batch": "official-014",
+  "checked_at": "2026-10-03",
+  "researched_profiles": 100,
+  "source_checked_observations": 0,
+  "conflict_fields": 0,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q100873164",
+      "name": "Alp Oberlose",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q100873164"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3612934",
+      "name": "Alpe Giumello",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3612934"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9149199",
+      "name": "ALTS Bandai Snow Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9149199"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11675043",
+      "name": "Ashima ski resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11675043"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16694971",
+      "name": "Avanhard Vorokhta",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16694971"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4840852",
+      "name": "Badger Mountain Ski Area",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4840852"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4876513",
+      "name": "Bear Mountain Ski Hill",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4876513"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4876520",
+      "name": "Bear Paw Ski Bowl",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4876520"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4881790",
+      "name": "Bela",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4881790"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q49345852",
+      "name": "Belle Plagne",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q49345852"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q115524007",
+      "name": "Bielmonte",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q115524007"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4923060",
+      "name": "Blackjack Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4923060"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q885662",
+      "name": "Blue Cow",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q885662"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4929860",
+      "name": "Blue Sky Basin",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4929860"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q122974936",
+      "name": "Bobrovy Log Fun Park",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q122974936"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2909513",
+      "name": "Bolquère Pyrénées 2000",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2909513"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2909884",
+      "name": "Bonabé",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2909884"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3645562",
+      "name": "Bruncu Spina",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3645562"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q992902",
+      "name": "Brunni",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q992902"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q27570697",
+      "name": "Bukovytsia",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q27570697"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1021029",
+      "name": "Mariazeller Bürgeralpe",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1021029"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12384864",
+      "name": "Cabeza de Manzaneda",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12384864"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q588136",
+      "name": "Candanchú",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q588136"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5034264",
+      "name": "Canyons Village",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5034264"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q56508907",
+      "name": "Cheile Grădiștei",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q56508907"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1073123",
+      "name": "Chimgan",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1073123"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5167815",
+      "name": "Cooper Spur Ski Area",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5167815"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109284505",
+      "name": "Coppervale Ski Area",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109284505"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q106238040",
+      "name": "Courchevel 1850",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q106238040"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q99437634",
+      "name": "Crans-sur-Sierre",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q99437634"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1156792",
+      "name": "Dachstein West",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1156792"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5289223",
+      "name": "Dollar Mountain",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5289223"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11323331",
+      "name": "Dolphin Valley",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11323331"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11316885",
+      "name": "Dynaland",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11316885"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4204353",
+      "name": "Eastland",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4204353"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11291582",
+      "name": "Edelweiss Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11291582"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5821498",
+      "name": "El Colorado",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5821498"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5364053",
+      "name": "Elk Mountain",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5364053"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1335004",
+      "name": "Emberger Alm",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1335004"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1307919",
+      "name": "Emmetten-Stockhütte",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1307919"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1665319",
+      "name": "Eschenberglift",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1665319"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3399576",
+      "name": "Porté-Puymorens",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3399576"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q8842728",
+      "name": "San Isidro",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8842728"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q104867885",
+      "name": "Faqra",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q104867885"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5856022",
+      "name": "Farellones",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5856022"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5931001",
+      "name": "Fereydunshahr",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5931001"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1411685",
+      "name": "Fiescheralp",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1411685"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q21235958",
+      "name": "Fossa Paganica",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q21235958"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4992469",
+      "name": "Funäsfjällen",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4992469"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1474937",
+      "name": "Furi",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1474937"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1475183",
+      "name": "Furtschellas",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1475183"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q97483798",
+      "name": "Furx ski area",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q97483798"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1486967",
+      "name": "Gardena Ronda",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1486967"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q55639779",
+      "name": "Genting Snow Park",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q55639779"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1514969",
+      "name": "Gerschnialp",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1514969"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11634380",
+      "name": "Goenzan ski field",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11634380"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109357711",
+      "name": "Gosannen ski field",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109357711"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5588044",
+      "name": "Gotthard Oberalp Arena",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5588044"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q991719",
+      "name": "Haideralm",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q991719"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1548191",
+      "name": "Hallstabacken",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1548191"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q65280022",
+      "name": "Hanagasa Kogen Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q65280022"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11615689",
+      "name": "Hanawa Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11615689"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11336587",
+      "name": "Heavens Sonohara Snow World",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11336587"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12622505",
+      "name": "High1 Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12622505"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4497769",
+      "name": "Himos",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4497769"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1372792",
+      "name": "Hochfügen-Hochzillertal",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1372792"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2322408",
+      "name": "Hochkönig",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2322408"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1622384",
+      "name": "Hochsölden",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1622384"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3139172",
+      "name": "Hohe Dirn",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3139172"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5944501",
+      "name": "Hunter Mountain Shiobara",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5944501"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1001887",
+      "name": "Ifrane",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1001887"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11369850",
+      "name": "Igaya Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11369850"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q24946568",
+      "name": "Jastrzębica Ski",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24946568"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3190014",
+      "name": "Jeongseon Alpine Centre",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3190014"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11310397",
+      "name": "Jeunesse Kurikoma Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11310397"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11869502",
+      "name": "Kalpalinna",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11869502"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q29831291",
+      "name": "Kandilli Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q29831291"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q94722155",
+      "name": "Kartala ski center",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q94722155"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3088422",
+      "name": "Kartalkaya",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3088422"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6395543",
+      "name": "Kettlebowl",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6395543"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q19377214",
+      "name": "Kirkerudbakken",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q19377214"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q124884416",
+      "name": "Koshi Kogen Ski Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q124884416"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16702934",
+      "name": "Kosiv",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16702934"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2292231",
+      "name": "Kreuzberg ski area",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292231"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11421359",
+      "name": "Kunimidake Snow Resort",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11421359"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30141507",
+      "name": "La Combe Saint Pierre",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141507"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2611608",
+      "name": "La Daille",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2611608"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3209029",
+      "name": "La Flégère",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3209029"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3209203",
+      "name": "La Foux d'Allos",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3209203"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3210082",
+      "name": "La Loge des Gardes",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3210082"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5847605",
+      "name": "La Lunada",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5847605"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3210632",
+      "name": "La Mauselaine",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3210632"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6464300",
+      "name": "La Parva",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6464300"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q20669949",
+      "name": "La Toussuire",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20669949"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q12237378",
+      "name": "Laqlouq",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12237378"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q131367625",
+      "name": "Larcenaire",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131367625"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109263906",
+      "name": "Le Bettex",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109263906"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137040687",
+      "name": "Le Chinaillon",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040687"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q115128433",
+      "name": "Le Recoin",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q115128433"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q574310",
+      "name": "Le Tour",
+      "notes": "Structured-source overview only; official mountain dimensions remain unverified.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q574310"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q100873164",
+    "wikidata:item:Q3612934",
+    "wikidata:item:Q9149199",
+    "wikidata:item:Q11675043",
+    "wikidata:item:Q16694971",
+    "wikidata:item:Q4840852",
+    "wikidata:item:Q4876513",
+    "wikidata:item:Q4876520",
+    "wikidata:item:Q4881790",
+    "wikidata:item:Q49345852",
+    "wikidata:item:Q115524007",
+    "wikidata:item:Q4923060",
+    "wikidata:item:Q885662",
+    "wikidata:item:Q4929860",
+    "wikidata:item:Q122974936",
+    "wikidata:item:Q2909513",
+    "wikidata:item:Q2909884",
+    "wikidata:item:Q3645562",
+    "wikidata:item:Q992902",
+    "wikidata:item:Q27570697",
+    "wikidata:item:Q1021029",
+    "wikidata:item:Q12384864",
+    "wikidata:item:Q588136",
+    "wikidata:item:Q5034264",
+    "wikidata:item:Q56508907",
+    "wikidata:item:Q1073123",
+    "wikidata:item:Q5167815",
+    "wikidata:item:Q109284505",
+    "wikidata:item:Q106238040",
+    "wikidata:item:Q99437634",
+    "wikidata:item:Q1156792",
+    "wikidata:item:Q5289223",
+    "wikidata:item:Q11323331",
+    "wikidata:item:Q11316885",
+    "wikidata:item:Q4204353",
+    "wikidata:item:Q11291582",
+    "wikidata:item:Q5821498",
+    "wikidata:item:Q5364053",
+    "wikidata:item:Q1335004",
+    "wikidata:item:Q1307919",
+    "wikidata:item:Q1665319",
+    "wikidata:item:Q3399576",
+    "wikidata:item:Q8842728",
+    "wikidata:item:Q104867885",
+    "wikidata:item:Q5856022",
+    "wikidata:item:Q5931001",
+    "wikidata:item:Q1411685",
+    "wikidata:item:Q21235958",
+    "wikidata:item:Q4992469",
+    "wikidata:item:Q1474937",
+    "wikidata:item:Q1475183",
+    "wikidata:item:Q97483798",
+    "wikidata:item:Q1486967",
+    "wikidata:item:Q55639779",
+    "wikidata:item:Q1514969",
+    "wikidata:item:Q11634380",
+    "wikidata:item:Q109357711",
+    "wikidata:item:Q5588044",
+    "wikidata:item:Q991719",
+    "wikidata:item:Q1548191",
+    "wikidata:item:Q65280022",
+    "wikidata:item:Q11615689",
+    "wikidata:item:Q11336587",
+    "wikidata:item:Q12622505",
+    "wikidata:item:Q4497769",
+    "wikidata:item:Q1372792",
+    "wikidata:item:Q2322408",
+    "wikidata:item:Q1622384",
+    "wikidata:item:Q3139172",
+    "wikidata:item:Q5944501",
+    "wikidata:item:Q1001887",
+    "wikidata:item:Q11369850",
+    "wikidata:item:Q24946568",
+    "wikidata:item:Q3190014",
+    "wikidata:item:Q11310397",
+    "wikidata:item:Q11869502",
+    "wikidata:item:Q29831291",
+    "wikidata:item:Q94722155",
+    "wikidata:item:Q3088422",
+    "wikidata:item:Q6395543",
+    "wikidata:item:Q19377214",
+    "wikidata:item:Q124884416",
+    "wikidata:item:Q16702934",
+    "wikidata:item:Q2292231",
+    "wikidata:item:Q11421359",
+    "wikidata:item:Q30141507",
+    "wikidata:item:Q2611608",
+    "wikidata:item:Q3209029",
+    "wikidata:item:Q3209203",
+    "wikidata:item:Q3210082",
+    "wikidata:item:Q5847605",
+    "wikidata:item:Q3210632",
+    "wikidata:item:Q6464300",
+    "wikidata:item:Q20669949",
+    "wikidata:item:Q12237378",
+    "wikidata:item:Q131367625",
+    "wikidata:item:Q109263906",
+    "wikidata:item:Q137040687",
+    "wikidata:item:Q115128433",
+    "wikidata:item:Q574310"
+  ]
+}

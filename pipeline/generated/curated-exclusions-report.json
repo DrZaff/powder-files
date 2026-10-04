@@ -1,0 +1,11 @@
+{
+  "removed": 112,
+  "unique_ids": 112,
+  "reasons": {
+    "closed_or_disused": 60,
+    "nordic_only": 27,
+    "private_club": 9,
+    "indoor_slope": 2,
+    "lift_free_or_non_resort": 14
+  }
+}

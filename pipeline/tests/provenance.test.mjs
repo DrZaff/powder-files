@@ -1,0 +1,5 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import { mergeCandidates } from '../lib/dedupe.mjs'
+
+test('retains both source records and field provenance after a merge',()=>{const common={name:'Alpine Test',normalized_name:'alpine test',alternate_names:[],country:'France',coordinates:{latitude:45,longitude:6},locality:null,region:null,official_website:null,field_provenance:{name:{value:'Alpine Test',source_record_ids:['a'],confidence:'high'},coordinates:{value:{latitude:45,longitude:6},source_record_ids:['a'],confidence:'high'},country:{value:'France',source_record_ids:['a'],confidence:'high'}}};const merged=mergeCandidates({...common,stable_id:'a',source_records:[{source:'openstreetmap',record_id:'way/1'}]},{...common,stable_id:'b',source_records:[{source:'wikidata',record_id:'Q1'}],field_provenance:{...common.field_provenance,name:{value:'Alpine Test',source_record_ids:['b'],confidence:'high'}}});assert.deepEqual(new Set(merged.source_records.map(x=>x.source)),new Set(['openstreetmap','wikidata']));assert.deepEqual(new Set(merged.field_provenance.name.source_record_ids),new Set(['a','b']))})
