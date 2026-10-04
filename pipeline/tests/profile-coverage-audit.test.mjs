@@ -27,9 +27,9 @@ test('profile audit flags stale facts and prioritizes sparse profiles',()=>{
 test('generated audit covers every public profile and preserves Bristol',async()=>{
   const records=JSON.parse(await readFile(new URL('../generated/canonical-resorts.json',import.meta.url),'utf8'))
   const audit=buildProfileCoverageAudit(records,'2026-10-03')
-  assert.equal(audit.summary.profiles,1402)
-  assert.equal(audit.summary.unique_stable_ids,1402)
-  assert.equal(audit.summary.with_overview,1338)
+  assert.equal(audit.summary.profiles,1411)
+  assert.equal(audit.summary.unique_stable_ids,1411)
+  assert.equal(audit.summary.with_overview,1347)
   assert.ok(audit.profiles.find(p=>p.id==='powderfiles:verified:bristol-mountain'))
   assert.equal(audit.summary.profiles,Object.values(audit.summary.priorities).reduce((a,b)=>a+b,0))
   assert.equal(audit.summary.possible_duplicate_profiles,audit.profiles.filter(p=>p.possible_duplicate_ids.length).length)

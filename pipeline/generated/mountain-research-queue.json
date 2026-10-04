@@ -26463,5 +26463,132 @@
     "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1206060",
+    "name": "Whistler Blackcomb",
+    "country": "Canada",
+    "official_website": "https://www.whistlerblackcomb.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q3821979",
+    "name": "Park City Mountain Resort",
+    "country": "United States",
+    "official_website": "https://www.parkcitymountain.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q10538901",
+    "name": "Jackson Hole Mountain Resort",
+    "country": "United States",
+    "official_website": "https://www.jacksonhole.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q4807834",
+    "name": "Aspen Mountain",
+    "country": "United States",
+    "official_website": "https://www.aspensnowmass.com/four-mountains/aspen-mountain",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q6398500",
+    "name": "Keystone Resort",
+    "country": "United States",
+    "official_website": "https://www.keystoneresort.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q813483",
+    "name": "Beaver Creek Resort",
+    "country": "United States",
+    "official_website": "https://www.beavercreek.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q49562771",
+    "name": "Snowbird",
+    "country": "United States",
+    "official_website": "https://www.snowbird.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q7317881",
+    "name": "Revelstoke Mountain Resort",
+    "country": "Canada",
+    "official_website": "https://www.revelstokemountainresort.com",
+    "missing_official_facts": [
+      "area",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q3285029",
+    "name": "Mammoth Mountain Ski Area",
+    "country": "United States",
+    "official_website": "https://www.mammothmountain.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
   }
 ]

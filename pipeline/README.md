@@ -56,4 +56,4 @@ See [curated exclusion cleanup 001](CURATED-EXCLUSIONS-001.md). It removes 112 c
 
 # Latest identity and enrichment pass
 
-See [identity cleanup and enrichment batch 020](IDENTITY-AND-ENRICHMENT-020.md) for the general identity policy. [Official batch 024](OFFICIAL-BATCH-024.md) resolves the split Vail and Breckenridge source identities and adds their official mountain facts. The current public directory contains 1,402 unique profiles, with 527 profiles carrying at least one official fact.
+See [identity cleanup and enrichment batch 020](IDENTITY-AND-ENRICHMENT-020.md) for the general identity policy. [Official batch 025](OFFICIAL-BATCH-025.md) restores nine prominent resorts hidden by split source identities and adds 51 official mountain facts. The current public directory contains 1,411 unique profiles, with 536 profiles carrying at least one official fact. [Batch 024](OFFICIAL-BATCH-024.md) documents the preceding Vail and Breckenridge repair.

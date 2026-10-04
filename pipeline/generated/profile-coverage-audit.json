@@ -1,13 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-10-04T07:12:01.253Z",
-    "profiles": 1402,
-    "unique_stable_ids": 1402,
-    "with_official_facts": 527,
+    "generated_at": "2026-10-04T07:18:26.136Z",
+    "profiles": 1411,
+    "unique_stable_ids": 1411,
+    "with_official_facts": 536,
     "without_official_facts": 875,
-    "with_official_website": 699,
+    "with_official_website": 708,
     "without_official_website": 703,
-    "with_overview": 1338,
+    "with_overview": 1347,
     "without_overview": 64,
     "conflict_profiles": 107,
     "stale_profiles": 0,
@@ -18,8 +18,8 @@
     "possible_duplicate_profiles": 0,
     "coverage": {
       "vertical": {
-        "available": 212,
-        "source_checked": 212,
+        "available": 216,
+        "source_checked": 216,
         "conflict": 2
       },
       "terrain_area": {
@@ -28,43 +28,43 @@
         "conflict": 9
       },
       "trails": {
-        "available": 290,
-        "source_checked": 290,
+        "available": 296,
+        "source_checked": 296,
         "conflict": 33
       },
       "lifts": {
-        "available": 235,
-        "source_checked": 235,
+        "available": 240,
+        "source_checked": 240,
         "conflict": 17
       },
       "summit_elevation": {
-        "available": 119,
-        "source_checked": 119,
+        "available": 125,
+        "source_checked": 125,
         "conflict": 1
       },
       "base_elevation": {
-        "available": 164,
-        "source_checked": 164,
+        "available": 169,
+        "source_checked": 169,
         "conflict": 0
       },
       "skiing_elevation": {
-        "available": 103,
-        "source_checked": 103,
+        "available": 105,
+        "source_checked": 105,
         "conflict": 1
       },
       "longest_run": {
-        "available": 64,
-        "source_checked": 64,
+        "available": 66,
+        "source_checked": 66,
         "conflict": 0
       },
       "snowfall": {
-        "available": 4,
-        "source_checked": 4,
+        "available": 10,
+        "source_checked": 10,
         "conflict": 1
       },
       "snowmaking": {
-        "available": 51,
-        "source_checked": 51,
+        "available": 53,
+        "source_checked": 53,
         "conflict": 0
       },
       "difficulty_mix": {
@@ -90,9 +90,9 @@
     },
     "priorities": {
       "critical": 876,
-      "high": 137,
-      "medium": 293,
-      "low": 96
+      "high": 138,
+      "medium": 297,
+      "low": 100
     }
   },
   "repeated_id_groups": [],
@@ -131737,6 +131737,142 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q49562771",
+      "name": "Snowbird",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.snowbird.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 2,
+      "observation_count": 2,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "snowbird.com"
+      ],
+      "priority_score": 48,
+      "priority": "high",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.snowbird.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q14684041",
       "name": "Sugar Bowl Ski Resort",
       "country": "United States",
@@ -146763,6 +146899,141 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q3821979",
+      "name": "Park City Mountain Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.parkcitymountain.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 2,
+      "observation_count": 2,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "parkcitymountain.com"
+      ],
+      "priority_score": 40,
+      "priority": "medium",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.parkcitymountain.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q3368414",
       "name": "Passy Plaine-Joux",
       "country": "France",
@@ -151861,6 +152132,141 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://vigla-ski.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q1206060",
+      "name": "Whistler Blackcomb",
+      "country": "Canada",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.whistlerblackcomb.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 6,
+      "observation_count": 6,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "whistlerblackcomb.com"
+      ],
+      "priority_score": 40,
+      "priority": "medium",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.whistlerblackcomb.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -167723,6 +168129,139 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q813483",
+      "name": "Beaver Creek Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.beavercreek.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 3,
+      "observation_count": 3,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "terrain_area",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "beavercreek.com"
+      ],
+      "priority_score": 24,
+      "priority": "medium",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.beavercreek.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q4947991",
       "name": "Boston Mills/Brandywine Ski Resort",
       "country": "United States",
@@ -170609,6 +171148,139 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q3285029",
+      "name": "Mammoth Mountain Ski Area",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.mammothmountain.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 5,
+      "observation_count": 5,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails"
+      ],
+      "source_hosts": [
+        "sc.mammothmountain.com"
+      ],
+      "priority_score": 24,
+      "priority": "medium",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.mammothmountain.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -178575,6 +179247,138 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q6398500",
+      "name": "Keystone Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.keystoneresort.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 8,
+      "observation_count": 8,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "keystoneresort.com"
+      ],
+      "priority_score": 16,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.keystoneresort.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q3206868",
       "name": "La Bresse-Hohneck",
       "country": "France",
@@ -180266,6 +181070,138 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.redresort.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q7317881",
+      "name": "Revelstoke Mountain Resort",
+      "country": "Canada",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.revelstokemountainresort.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 9,
+      "observation_count": 9,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "terrain_area",
+        "lifts"
+      ],
+      "source_hosts": [
+        "revelstokemountainresort.com"
+      ],
+      "priority_score": 16,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.revelstokemountainresort.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -182927,6 +183863,137 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q4807834",
+      "name": "Aspen Mountain",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.aspensnowmass.com/four-mountains/aspen-mountain",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 7,
+      "observation_count": 7,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "aspensnowmass.com"
+      ],
+      "priority_score": 8,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.aspensnowmass.com/four-mountains/aspen-mountain"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q4840857",
       "name": "Badger Pass Ski Area",
       "country": "United States",
@@ -183825,6 +184892,137 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.hiddenvalleyresort.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q10538901",
+      "name": "Jackson Hole Mountain Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.jacksonhole.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 9,
+      "observation_count": 9,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "jacksonhole.com"
+      ],
+      "priority_score": 8,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.jacksonhole.com"
         },
         {
           "type": "openstreetmap_topology",

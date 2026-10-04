@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-04T07:12:01.253Z",
+  "generated_at": "2026-10-04T07:18:26.136Z",
   "summary": {
-    "generated_at": "2026-10-04T07:12:01.253Z",
+    "generated_at": "2026-10-04T07:18:26.136Z",
     "total_raw": 7439,
-    "canonical_count": 1402,
+    "canonical_count": 1411,
     "verified_count": 1,
-    "candidate_count": 1401,
-    "uncertain_count": 363,
-    "incomplete_count": 4201,
+    "candidate_count": 1410,
+    "uncertain_count": 354,
+    "incomplete_count": 4192,
     "ambiguity_count": 366,
     "exclusion_count": 344,
     "country_count": 52,
-    "unknown_country_count": 4122,
+    "unknown_country_count": 4113,
     "source_coverage": {
       "openstreetmap": 4857,
       "wikidata": 1838,
-      "official_resort": 893,
+      "official_resort": 902,
       "powderfiles": 1,
       "public_authority": 1
     },
     "country_counts": {
-      "Unknown": 4122,
+      "Unknown": 4113,
       "Japan": 373,
       "United States": 344,
       "France": 334,
@@ -4782,6 +4782,139 @@
       ]
     },
     {
+      "id": "wikidata:item:Q4807834",
+      "n": "Aspen Mountain",
+      "a": [
+        "Ajax Mountain"
+      ],
+      "l": null,
+      "r": "Colorado",
+      "c": "United States",
+      "p": [
+        39.1864,
+        -106.819
+      ],
+      "w": "https://www.aspensnowmass.com/four-mountains/aspen-mountain",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "Skiable terrain",
+          "value": 906,
+          "unit": "acres",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "vertical",
+          "label": "Vertical rise",
+          "value": 3317,
+          "unit": "ft",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Base elevation",
+          "value": 7945,
+          "unit": "ft",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Summit elevation",
+          "value": 11262,
+          "unit": "ft",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Trails",
+          "value": 127,
+          "unit": "",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 8,
+          "unit": "",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 300,
+          "unit": "in",
+          "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Aspen Mountain rises directly from downtown Aspen and favors sustained intermediate and advanced laps rather than beginner terrain. Its town-to-summit layout combines steep groomers, bumps, glades and the newer Hero’s terrain in a compact footprint.",
+        "sources": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/530531925"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4807834"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q752368",
       "n": "Astún",
       "a": [
@@ -6482,6 +6615,92 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q4876520"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q813483",
+      "n": "Beaver Creek Resort",
+      "a": [
+        "Beaver Creek"
+      ],
+      "l": null,
+      "r": "Colorado",
+      "c": "United States",
+      "p": [
+        39.6314,
+        -106.522
+      ],
+      "w": "https://www.beavercreek.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "value": 3300,
+          "unit": "ft",
+          "source": "https://www.beavercreek.com/travel-guide/is-skiing-in-beaver-creek-hard.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Published trail count",
+          "value": 150,
+          "unit": "",
+          "source": "https://www.beavercreek.com/travel-guide/is-skiing-in-beaver-creek-hard.aspx",
+          "note": "Official guide states more than 150.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        },
+        {
+          "key": "lifts",
+          "label": "Published lift count",
+          "value": 26,
+          "unit": "",
+          "source": "https://www.beavercreek.com/travel-guide/is-skiing-in-beaver-creek-hard.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Beaver Creek balances polished village access with terrain ranging from dedicated learning parks to sustained expert descents. McCoy Park adds a large, lift-served beginner and intermediate zone within the broader mountain.",
+        "sources": [
+          "https://www.beavercreek.com/travel-guide/is-skiing-in-beaver-creek-hard.aspx"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/531009608"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q813483"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.beavercreek.com/travel-guide/is-skiing-in-beaver-creek-hard.aspx"
         }
       ]
     },
@@ -29449,6 +29668,163 @@
       ]
     },
     {
+      "id": "wikidata:item:Q10538901",
+      "n": "Jackson Hole Mountain Resort",
+      "a": [
+        "JHMR"
+      ],
+      "l": null,
+      "r": "Wyoming",
+      "c": "United States",
+      "p": [
+        43.5872,
+        -110.825
+      ],
+      "w": "https://www.jacksonhole.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "In-bounds terrain",
+          "value": 2500,
+          "unit": "acres",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "value": 4139,
+          "unit": "ft",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Base elevation",
+          "value": 6311,
+          "unit": "ft",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Summit elevation",
+          "value": 10450,
+          "unit": "ft",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Named trails",
+          "value": 131,
+          "unit": "",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Winter lifts",
+          "value": 13,
+          "unit": "",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 458,
+          "unit": "in",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowmaking_area",
+          "label": "Snowmaking coverage",
+          "value": 210,
+          "unit": "acres",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "difficulty_mix",
+          "label": "Published trail mix",
+          "value": "10% beginner · 40% intermediate · 50% expert",
+          "unit": "",
+          "source": "https://www.jacksonhole.com/mountain-stats",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Jackson Hole is defined by a sustained 4,139-foot vertical, expert-heavy terrain and the Aerial Tram. Its 2,500 in-bounds acres include bowls, groomers and demanding lines, while gate-accessed backcountry remains outside the resort totals.",
+        "sources": [
+          "https://www.jacksonhole.com/mountain-stats"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/1074335726"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10538901"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.jacksonhole.com/mountain-stats"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q31182739",
       "n": "Jahorina ski resort",
       "a": [
@@ -31881,6 +32257,151 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q6395543"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6398500",
+      "n": "Keystone Resort",
+      "a": [
+        "Keystone"
+      ],
+      "l": null,
+      "r": "Colorado",
+      "c": "United States",
+      "p": [
+        39.605,
+        -105.954
+      ],
+      "w": "https://www.keystoneresort.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "Skiable terrain",
+          "value": 3149,
+          "unit": "acres",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Base elevation",
+          "value": 9280,
+          "unit": "ft",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Highest elevation",
+          "value": 12408,
+          "unit": "ft",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 21,
+          "unit": "",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Trails",
+          "value": 140,
+          "unit": "",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "longest_run",
+          "label": "Longest run",
+          "value": 3.5,
+          "unit": "mi",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "Schoolmarm.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average snowfall",
+          "value": 235,
+          "unit": "in",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "difficulty_mix",
+          "label": "Published terrain mix",
+          "value": "12% beginner · 39% intermediate · 49% advanced",
+          "unit": "",
+          "source": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Keystone spreads progression terrain, groomers, bumps, glades and high-alpine bowls across several distinct mountain zones. Long operating days and the 3.5-mile Schoolmarm run make it especially suited to varied groups and sustained cruising.",
+        "sources": [
+          "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/531000583"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6398500"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx"
         }
       ]
     },
@@ -42596,6 +43117,120 @@
         {
           "name": "official_resort",
           "url": "https://mamison-resort.ru"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3285029",
+      "n": "Mammoth Mountain Ski Area",
+      "a": [
+        "Mammoth Mountain"
+      ],
+      "l": null,
+      "r": "California",
+      "c": "United States",
+      "p": [
+        37.6507,
+        -119.0374
+      ],
+      "w": "https://www.mammothmountain.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "base",
+          "label": "Base elevation",
+          "value": 7953,
+          "unit": "ft",
+          "source": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f",
+          "note": "Official 2023–24 fact sheet.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2023–24"
+        },
+        {
+          "key": "summit",
+          "label": "Summit elevation",
+          "value": 11053,
+          "unit": "ft",
+          "source": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f",
+          "note": "Official 2023–24 fact sheet.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2023–24"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 25,
+          "unit": "",
+          "source": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f",
+          "note": "Official 2023–24 fact sheet.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2023–24"
+        },
+        {
+          "key": "snowmaking_area",
+          "label": "Snowmaking coverage",
+          "value": 700,
+          "unit": "acres",
+          "source": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f",
+          "note": "Official 2023–24 fact sheet.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2023–24"
+        },
+        {
+          "key": "terrain_parks",
+          "label": "Terrain parks",
+          "value": 10,
+          "unit": "",
+          "source": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f",
+          "note": "Official trail-map brochure; park layouts vary.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2024–25"
+        }
+      ],
+      "ov": {
+        "text": "Mammoth Mountain combines a high volcanic summit with a large lift network and an unusually extensive freestyle program. Its long operating history and broad elevation range support everything from lower-mountain progression to exposed upper-mountain terrain.",
+        "sources": [
+          "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/682231907"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3285029"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://sc.mammothmountain.com/-/media/project/mammoth/library/pdfs/2324_marketing_mmsa_fact-sheets_85x11.pdf?hash=607D3EAA0A8566BCEE976E0947DAF5C7&rev=97e984b4939249d798047f32d7cdb54f"
         }
       ]
     },
@@ -55144,6 +55779,77 @@
       ]
     },
     {
+      "id": "wikidata:item:Q3821979",
+      "n": "Park City Mountain Resort",
+      "a": [],
+      "l": null,
+      "r": "Utah",
+      "c": "United States",
+      "p": [
+        40.6508,
+        -111.507
+      ],
+      "w": "https://www.parkcitymountain.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "Skiable terrain",
+          "value": 7300,
+          "unit": "acres",
+          "source": "https://www.parkcitymountain.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Summit elevation",
+          "value": 10026,
+          "unit": "ft",
+          "source": "https://www.parkcitymountain.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Park City is a sprawling Utah resort whose scale rewards planning by area rather than trying to cross the entire mountain repeatedly. Its high summit and 7,300-acre footprint support a broad mix of village-accessed and upper-mountain terrain.",
+        "sources": [
+          "https://www.parkcitymountain.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/918681867"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3821979"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.parkcitymountain.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q7139293",
       "n": "Parnassos Ski Centre",
       "a": [
@@ -60662,6 +61368,163 @@
         {
           "name": "official_resort",
           "url": "https://www.reiteralm.at/de/aktivitaeten/skifahren"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7317881",
+      "n": "Revelstoke Mountain Resort",
+      "a": [
+        "Powder Springs"
+      ],
+      "l": null,
+      "r": "British Columbia",
+      "c": "Canada",
+      "p": [
+        50.9542,
+        -118.154
+      ],
+      "w": "https://www.revelstokemountainresort.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "vertical",
+          "label": "Vertical descent",
+          "value": 1713,
+          "unit": "m",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Resort village elevation",
+          "value": 512,
+          "unit": "m",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Stoke Chair elevation",
+          "value": 2225,
+          "unit": "m",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Sub Peak elevation",
+          "value": 2340,
+          "unit": "m",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "terrain_area",
+          "label": "Skiable terrain",
+          "value": 3121,
+          "unit": "acres",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Runs",
+          "value": 75,
+          "unit": "",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "longest_run",
+          "label": "Longest run",
+          "value": 15.2,
+          "unit": "km",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "The Last Spike.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 10.5,
+          "unit": "m",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "alpine_bowls",
+          "label": "Alpine bowls",
+          "value": 4,
+          "unit": "",
+          "source": "https://www.revelstokemountainresort.com/mountain/mountain-stats/",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Revelstoke is built around exceptionally long lift-accessed descents from Mount Mackenzie. Alpine bowls, glades and groomers sit above a village base, giving the mountain both major vertical depth and a relatively focused lift network.",
+        "sources": [
+          "https://www.revelstokemountainresort.com/mountain/mountain-stats/"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/475720359"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7317881"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.revelstokemountainresort.com/mountain/mountain-stats/"
         }
       ]
     },
@@ -73050,6 +73913,81 @@
       ]
     },
     {
+      "id": "wikidata:item:Q49562771",
+      "n": "Snowbird",
+      "a": [
+        "Snowbird Ski and Summer Resort"
+      ],
+      "l": null,
+      "r": "Utah",
+      "c": "United States",
+      "p": [
+        40.581944,
+        -111.656111
+      ],
+      "w": "https://www.snowbird.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "Skiable terrain",
+          "value": 2500,
+          "unit": "acres",
+          "source": "https://www.snowbird.com/the-mountain/visitors-guide/new-to-the-bird/",
+          "note": "Official visitor guide states more than 2,500.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 500,
+          "unit": "in",
+          "source": "https://www.snowbird.com/the-mountain/visitors-guide/new-to-the-bird/",
+          "note": "Official press material states more than 500 inches.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        }
+      ],
+      "ov": {
+        "text": "Snowbird is a steep, high-alpine Little Cottonwood Canyon mountain centered on tram-accessed terrain, bowls and long fall-line descents. Its compact 2,500-acre footprint is known more for vertical intensity and deep snowfall than for gentle cruising.",
+        "sources": [
+          "https://www.snowbird.com/the-mountain/visitors-guide/new-to-the-bird/"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/1023308078"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q49562771"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.snowbird.com/the-mountain/visitors-guide/new-to-the-bird/"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q7548646",
       "n": "Snowhaven",
       "a": [],
@@ -84855,6 +85793,126 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q61099801"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1206060",
+      "n": "Whistler Blackcomb",
+      "a": [],
+      "l": null,
+      "r": "British Columbia",
+      "c": "Canada",
+      "p": [
+        50.116272,
+        -122.957125
+      ],
+      "w": "https://www.whistlerblackcomb.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "terrain_area",
+          "label": "Combined terrain",
+          "value": 8171,
+          "unit": "acres",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Marked runs",
+          "value": 200,
+          "unit": "",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "Official source states more than 200.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        },
+        {
+          "key": "alpine_bowls",
+          "label": "Alpine bowls",
+          "value": 16,
+          "unit": "",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "glaciers",
+          "label": "Glaciers",
+          "value": 3,
+          "unit": "",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 422,
+          "unit": "in",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Highest lift-accessed elevation",
+          "value": 7497,
+          "unit": "ft",
+          "source": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Whistler Blackcomb links two immense mountains with the PEAK 2 PEAK Gondola. Its scale comes from more than 8,000 acres, extensive alpine bowls and glaciers, and over 200 marked runs rather than from a single compact trail pod.",
+        "sources": [
+          "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/474288286"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1206060"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/mountain-info.aspx"
         }
       ]
     },
