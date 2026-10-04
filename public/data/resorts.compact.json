@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-10-04T06:18:19.583Z",
+  "generated_at": "2026-10-04T06:28:51.542Z",
   "summary": {
-    "generated_at": "2026-10-04T06:18:19.583Z",
+    "generated_at": "2026-10-04T06:28:51.542Z",
     "total_raw": 7439,
-    "canonical_count": 1409,
+    "canonical_count": 1400,
     "verified_count": 1,
-    "candidate_count": 1408,
+    "candidate_count": 1399,
     "uncertain_count": 365,
     "incomplete_count": 4203,
     "ambiguity_count": 366,
-    "exclusion_count": 342,
+    "exclusion_count": 344,
     "country_count": 52,
     "unknown_country_count": 4124,
     "source_coverage": {
       "openstreetmap": 4857,
-      "wikidata": 1840,
-      "official_resort": 878,
-      "powderfiles": 1
+      "wikidata": 1838,
+      "official_resort": 880,
+      "powderfiles": 1,
+      "public_authority": 1
     },
     "country_counts": {
       "Unknown": 4124,
       "Japan": 373,
-      "United States": 345,
-      "France": 336,
+      "United States": 344,
+      "France": 334,
       "Canada": 111,
-      "Austria": 102,
+      "Austria": 99,
       "Poland": 68,
       "Finland": 56,
       "Switzerland": 52,
@@ -36,7 +37,7 @@
       "Sweden": 21,
       "New Zealand": 17,
       "Norway": 17,
-      "Slovenia": 17,
+      "Slovenia": 16,
       "Czechia": 16,
       "Iran": 15,
       "Chile": 11,
@@ -49,7 +50,6 @@
       "Turkey": 6,
       "Lebanon": 5,
       "Kazakhstan": 4,
-      "Morocco": 4,
       "People's Republic of China": 3,
       "Serbia": 3,
       "Pakistan": 3,
@@ -58,6 +58,7 @@
       "Uzbekistan": 2,
       "Iceland": 2,
       "Romania": 2,
+      "Morocco": 2,
       "Bosnia and Herzegovina": 2,
       "Belarus": 2,
       "Belgium": 2,
@@ -88,7 +89,7 @@
       "nordic_only": 192,
       "private_club": 34,
       "indoor_slope": 3,
-      "lift_free_or_non_resort": 14
+      "lift_free_or_non_resort": 16
     }
   },
   "records": [
@@ -15153,8 +15154,117 @@
       ]
     },
     {
+      "id": "wikidata:item:Q5191297",
+      "n": "Crystal Mountain (Michigan)",
+      "a": [
+        "Crystal Mountain Resort"
+      ],
+      "l": null,
+      "r": "Weldon Township",
+      "c": "United States",
+      "p": [
+        44.52,
+        -85.9922
+      ],
+      "w": "http://www.crystalmountain.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "value": 375,
+          "unit": "ft",
+          "note": "",
+          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "value": 104,
+          "unit": "acres",
+          "note": "",
+          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Downhill slopes",
+          "value": 59,
+          "unit": "",
+          "note": "",
+          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 8,
+          "unit": "",
+          "note": "",
+          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lit_trails",
+          "label": "Lit slopes",
+          "value": 27,
+          "unit": "",
+          "note": "",
+          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        }
+      ],
+      "ov": {
+        "text": "Short-vertical skiing spread across four named sectors, with glades, terrain features and 27 slopes lit at night. This is Michigan’s Crystal Mountain, not the Washington resort.",
+        "sources": [
+          "https://www.crystalmountain.com/ski/our-mountain/mountain-facts"
+        ],
+        "reviewed_at": "2026-08-30",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata",
+        "openstreetmap",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5191297"
+        },
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/1155757094"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1624333",
-      "n": "Crystal Mountain",
+      "n": "Crystal Mountain (Washington)",
       "a": [
         "Crystal Mountain Ski Area",
         "Crystal Mountain Resort"
@@ -15261,115 +15371,6 @@
         {
           "name": "official_resort",
           "url": "https://www.crystalmountainresort.com/media/mountain-stats-and-facts"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5191297",
-      "n": "Crystal Mountain",
-      "a": [
-        "Crystal Mountain Resort"
-      ],
-      "l": null,
-      "r": "Weldon Township",
-      "c": "United States",
-      "p": [
-        44.52,
-        -85.9922
-      ],
-      "w": "http://www.crystalmountain.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "vertical",
-          "label": "Vertical drop",
-          "value": 375,
-          "unit": "ft",
-          "note": "",
-          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
-          "retrieved_at": "2026-08-30",
-          "source_published_at": null,
-          "status": "source_checked",
-          "confidence": "medium"
-        },
-        {
-          "key": "area",
-          "label": "Skiable terrain",
-          "value": 104,
-          "unit": "acres",
-          "note": "",
-          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
-          "retrieved_at": "2026-08-30",
-          "source_published_at": null,
-          "status": "source_checked",
-          "confidence": "medium"
-        },
-        {
-          "key": "trails",
-          "label": "Downhill slopes",
-          "value": 59,
-          "unit": "",
-          "note": "",
-          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
-          "retrieved_at": "2026-08-30",
-          "source_published_at": null,
-          "status": "source_checked",
-          "confidence": "medium"
-        },
-        {
-          "key": "lifts",
-          "label": "Lifts",
-          "value": 8,
-          "unit": "",
-          "note": "",
-          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
-          "retrieved_at": "2026-08-30",
-          "source_published_at": null,
-          "status": "source_checked",
-          "confidence": "medium"
-        },
-        {
-          "key": "lit_trails",
-          "label": "Lit slopes",
-          "value": 27,
-          "unit": "",
-          "note": "",
-          "source": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts",
-          "retrieved_at": "2026-08-30",
-          "source_published_at": null,
-          "status": "source_checked",
-          "confidence": "medium"
-        }
-      ],
-      "ov": {
-        "text": "Short-vertical skiing spread across four named sectors, with glades, terrain features and 27 slopes lit at night. This is Michigan’s Crystal Mountain, not the Washington resort.",
-        "sources": [
-          "https://www.crystalmountain.com/ski/our-mountain/mountain-facts"
-        ],
-        "reviewed_at": "2026-08-30",
-        "kind": "editorial_summary"
-      },
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata",
-        "openstreetmap",
-        "official_resort"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5191297"
-        },
-        {
-          "name": "openstreetmap",
-          "url": "https://www.openstreetmap.org/way/1155757094"
-        },
-        {
-          "name": "official_resort",
-          "url": "https://www.crystalmountain.com/ski/our-mountain/mountain-facts"
         }
       ]
     },
@@ -26404,6 +26405,43 @@
           "source_published_at": null,
           "status": "conflict",
           "confidence": "low"
+        },
+        {
+          "key": "vertical",
+          "label": "Vertical rise",
+          "value": 304,
+          "unit": "ft",
+          "source": "https://horseshoeresort.com/uploads/2025/08/Crazy-Horse-Individual-Pages-1.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 6,
+          "unit": "",
+          "source": "https://horseshoeresort.com/uploads/2025/08/Crazy-Horse-Individual-Pages-1.pdf",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "parks",
+          "label": "Terrain parks",
+          "value": 1,
+          "unit": "",
+          "source": "https://horseshoeresort.com/uploads/2025/08/Crazy-Horse-Individual-Pages-1.pdf",
+          "note": "The official publication names a terrain park but does not provide acreage.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2025"
         }
       ],
       "ov": {
@@ -26432,6 +26470,10 @@
         {
           "name": "official_resort",
           "url": "https://horseshoeresort.com/"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://horseshoeresort.com/uploads/2025/08/Crazy-Horse-Individual-Pages-1.pdf"
         }
       ]
     },
@@ -30249,62 +30291,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6363223",
-      "n": "Kanin-Sella Nevea Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Bovec",
-      "c": "Slovenia",
-      "p": [
-        46.33281,
-        13.538654
-      ],
-      "w": "https://kanin.si",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6363223"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6363223",
-      "n": "Kanin-Sella Nevea Ski Resort",
-      "a": [],
-      "l": null,
-      "r": "Bovec",
-      "c": "Italy",
-      "p": [
-        46.33281,
-        13.538654
-      ],
-      "w": "https://kanin.si",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6363223"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q9341007",
       "n": "Kaniówka Ski Station",
       "a": [],
@@ -32080,120 +32066,6 @@
         {
           "name": "official_resort",
           "url": "https://kittelfjall.com/en/skiing-kittelfjall"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q592910",
-      "n": "Kitzbühel Alps",
-      "a": [
-        "Kitzbüheler Alpen (Rakousko : pohoří)"
-      ],
-      "l": null,
-      "r": "Salzburg",
-      "c": "Austria",
-      "p": [
-        47.333333,
-        12.333333
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 2558,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q592910#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q592910-BA98DDCB-21B7-4172-9EA7-DBB9FE5F0D06",
-              "amount": 2558,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q592910"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q592910"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q592910",
-      "n": "Kitzbühel Alps",
-      "a": [
-        "Kitzbüheler Alpen (Rakousko : pohoří)"
-      ],
-      "l": null,
-      "r": "Salzburg",
-      "c": "Austria",
-      "p": [
-        47.433333,
-        12.333333
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 2558,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q592910#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q592910-BA98DDCB-21B7-4172-9EA7-DBB9FE5F0D06",
-              "amount": 2558,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q592910"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q592910"
         }
       ]
     },
@@ -35997,45 +35869,9 @@
           "url": "https://www.wikidata.org/wiki/Q110914605"
         },
         {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q110914605"
-        },
-        {
           "name": "official_resort",
           "url": "https://www.lac-blanc.com"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q30141184",
-      "n": "Lac Blanc",
-      "a": [],
-      "l": null,
-      "r": "Orbey",
-      "c": "France",
-      "p": [
-        48.145948,
-        7.077159
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "ov": {
-        "text": "Lac Blanc is a Vosges ski area with forested slopes, family terrain and broad views across the Alsace region.",
-        "sources": [
-          "https://www.wikidata.org/wiki/Q30141184"
-        ],
-        "reviewed_at": "2026-10-03",
-        "kind": "editorial_summary"
-      },
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
+        },
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q30141184"
@@ -44446,112 +44282,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11603148"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3311533",
-      "n": "Mischliffen",
-      "a": [
-        "Michlifen"
-      ],
-      "l": null,
-      "r": "Atlas Mountains",
-      "c": "Morocco",
-      "p": [
-        33.376389,
-        -5.125
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 2036,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3311533#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3311533-C7B9AC2C-2CB4-4F21-BFAF-A7FC7E759D10",
-              "amount": 2036,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3311533"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3311533",
-      "n": "Mischliffen",
-      "a": [
-        "Michlifen"
-      ],
-      "l": null,
-      "r": "Atlas Mountains",
-      "c": "Morocco",
-      "p": [
-        33.534681,
-        -5.1076
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 2036,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q3311533#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q3311533-C7B9AC2C-2CB4-4F21-BFAF-A7FC7E759D10",
-              "amount": 2036,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3311533"
         }
       ]
     },
@@ -54906,42 +54636,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q137052565",
-      "n": "Passy Plaine-Joux",
-      "a": [],
-      "l": null,
-      "r": "Passy",
-      "c": "France",
-      "p": [
-        45.95004,
-        6.743641
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "ov": {
-        "text": "Passy Plaine-Joux is a family-scale Haute-Savoie ski area with an open plateau and exceptional Mont Blanc views.",
-        "sources": [
-          "https://www.wikidata.org/wiki/Q137052565"
-        ],
-        "reviewed_at": "2026-10-03",
-        "kind": "editorial_summary"
-      },
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q137052565"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3368414",
       "n": "Passy Plaine-Joux",
       "a": [],
@@ -55043,6 +54737,10 @@
         {
           "name": "official_resort",
           "url": "https://www.passy-mont-blanc.com/activites/ski-et-glisse/ski-alpin/"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q137052565"
         }
       ]
     },
@@ -65266,6 +64964,99 @@
       ]
     },
     {
+      "id": "wikidata:item:Q6363223",
+      "n": "Sella Nevea",
+      "a": [
+        "Kanin-Sella Nevea Ski Resort"
+      ],
+      "l": null,
+      "r": "Friuli Venezia Giulia",
+      "c": "Italy",
+      "p": [
+        46.33281,
+        13.538654
+      ],
+      "w": "https://www.turismofvg.it/en/mountain365/sella-nevea/sella-nevea-winter-opening-schedule",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "lifts",
+          "label": "Ski lifts",
+          "value": 3,
+          "unit": "",
+          "source": "https://www.turismofvg.it/montagna/infoneve?hub=sella",
+          "note": "Italian Sella Nevea sector; conveyors and other facilities are reported separately.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "named_run_length",
+          "label": "Canin Turistica length",
+          "value": 3100,
+          "unit": "m",
+          "source": "https://www.turismofvg.it/montagna/infoneve?hub=sella",
+          "note": "Named piste, not a whole-resort longest-run claim.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "named_run_vertical",
+          "label": "Canin Turistica vertical",
+          "value": 750,
+          "unit": "m",
+          "source": "https://www.turismofvg.it/montagna/infoneve?hub=sella",
+          "note": "Published vertical difference for the named Canin Turistica piste.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "operating_season",
+          "label": "Published 2026–27 season",
+          "value": "Dec 5, 2026 – Mar 29, 2027",
+          "unit": "",
+          "source": "https://www.turismofvg.it/en/mountain365/sella-nevea/sella-nevea-winter-opening-schedule",
+          "note": "Scheduled dates are weather-dependent.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Sella Nevea’s active Italian sector offers high-alpine skiing beneath Monte Canin, including a 3.1-kilometre piste with 750 metres of published vertical difference.",
+        "sources": [
+          "https://www.turismofvg.it/montagna/infoneve?hub=sella"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata",
+        "public_authority"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6363223"
+        },
+        {
+          "name": "public_authority",
+          "url": "https://www.turismofvg.it/montagna/infoneve?hub=sella"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1456395",
       "n": "Sellaronda",
       "a": [
@@ -69649,6 +69440,115 @@
       "f": {},
       "mf": [
         {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "value": 1725,
+          "unit": "ft",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "value": 660,
+          "unit": "acres",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Runs",
+          "value": 87,
+          "unit": "",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 7,
+          "unit": "",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "Includes five chairlifts and two conveyor lifts.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Base elevation",
+          "value": 10350,
+          "unit": "ft",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Peak elevation",
+          "value": 12075,
+          "unit": "ft",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "snowfall",
+          "label": "Average annual snowfall",
+          "value": 225,
+          "unit": "in",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "difficulty_mix",
+          "label": "Terrain mix",
+          "value": "20% beginner · 40% intermediate · 40% expert",
+          "unit": "",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "operating_season",
+          "label": "Published 2026–27 season",
+          "value": "Nov 26, 2026 – Apr 4, 2027",
+          "unit": "",
+          "source": "https://www.skisantafe.com/our-story/about",
+          "note": "Opening and closing dates are tentative.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2026–27"
+        },
+        {
           "key": "mapped_elevation",
           "label": "Mapped elevation",
           "value": 3417.5,
@@ -69671,11 +69571,20 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Ski Santa Fe pairs a high-elevation New Mexico setting with 1,725 vertical feet, 660 acres and a balanced progression from beginner runs to expert terrain.",
+        "sources": [
+          "https://www.skisantafe.com/our-story/about"
+        ],
+        "reviewed_at": "2026-10-04",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
         "wikidata",
-        "openstreetmap"
+        "openstreetmap",
+        "official_resort"
       ],
       "sx": [
         {
@@ -69687,65 +69596,8 @@
           "url": "https://www.openstreetmap.org/relation/14934032"
         },
         {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q49177812"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q49177812",
-      "n": "Ski Santa Fe",
-      "a": [
-        "Santa Fe Ski Basin"
-      ],
-      "l": null,
-      "r": "New Mexico",
-      "c": "United States",
-      "p": [
-        35.65063,
-        -105.95239
-      ],
-      "w": "https://skisantafe.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [
-        {
-          "key": "mapped_elevation",
-          "label": "Mapped elevation",
-          "value": 3417.5,
-          "unit": "m",
-          "source": "https://www.wikidata.org/wiki/Q49177812#P2044",
-          "retrieved_at": "2026-08-30T21:42:40.477Z",
-          "source_published_at": null,
-          "status": "structured_source",
-          "confidence": "medium",
-          "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-          "statements": [
-            {
-              "id": "http://www.wikidata.org/entity/statement/Q49177812-96215D5B-A4CB-4847-9157-1344D51F31E1",
-              "amount": 3417.5,
-              "unit": "m",
-              "qualifiers": [],
-              "references": []
-            }
-          ],
-          "license": "CC0-1.0"
-        }
-      ],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q49177812"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q49177812"
+          "name": "official_resort",
+          "url": "https://www.skisantafe.com/our-story/about"
         }
       ]
     },
@@ -73780,46 +73632,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q116459866",
-      "n": "St. Jakob im Defereggental",
-      "a": [],
-      "l": null,
-      "r": "Sankt Jakob in Defereggen",
-      "c": "Austria",
-      "p": [
-        46.911072,
-        12.35121
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "ov": {
-        "text": "St. Jakob is an East Tyrol ski area with high alpine slopes and a quiet valley setting away from major resort corridors.",
-        "sources": [
-          "https://www.wikidata.org/wiki/Q116459866"
-        ],
-        "reviewed_at": "2026-10-03",
-        "kind": "editorial_summary"
-      },
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q116459866"
-        },
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q116459866"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q60726558",
       "n": "St. Jakob im Defereggental",
       "a": [
@@ -73901,6 +73713,10 @@
         "official_resort"
       ],
       "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q116459866"
+        },
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q60726558"

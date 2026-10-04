@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-10-04T06:18:19.583Z",
+  "generated_at": "2026-10-04T06:28:51.542Z",
   "total_raw": 7439,
-  "canonical_count": 5977,
+  "canonical_count": 5968,
   "verified_count": 1,
-  "candidate_count": 1408,
+  "candidate_count": 1399,
   "uncertain_count": 365,
   "incomplete_count": 4203,
   "ambiguity_count": 366,
-  "exclusion_count": 342,
+  "exclusion_count": 344,
   "country_count": 62,
   "unknown_country_count": 4124,
   "source_coverage": {
     "openstreetmap": 4857,
-    "wikidata": 1840,
-    "official_resort": 878,
-    "powderfiles": 1
+    "wikidata": 1838,
+    "official_resort": 880,
+    "powderfiles": 1,
+    "public_authority": 1
   },
   "country_counts": {
     "Unknown": 4124,
     "Japan": 373,
-    "United States": 345,
-    "France": 336,
+    "United States": 344,
+    "France": 334,
     "Canada": 111,
-    "Austria": 102,
+    "Austria": 99,
     "Poland": 68,
     "Finland": 56,
     "Switzerland": 52,
@@ -34,7 +35,7 @@
     "Sweden": 21,
     "New Zealand": 17,
     "Norway": 17,
-    "Slovenia": 17,
+    "Slovenia": 16,
     "Czechia": 16,
     "Iran": 15,
     "Chile": 11,
@@ -47,7 +48,6 @@
     "Turkey": 6,
     "Lebanon": 5,
     "Kazakhstan": 4,
-    "Morocco": 4,
     "People's Republic of China": 3,
     "Serbia": 3,
     "Pakistan": 3,
@@ -56,6 +56,7 @@
     "Uzbekistan": 2,
     "Iceland": 2,
     "Romania": 2,
+    "Morocco": 2,
     "Bosnia and Herzegovina": 2,
     "Belarus": 2,
     "Belgium": 2,
@@ -86,6 +87,6 @@
     "nordic_only": 192,
     "private_club": 34,
     "indoor_slope": 3,
-    "lift_free_or_non_resort": 14
+    "lift_free_or_non_resort": 16
   }
 }

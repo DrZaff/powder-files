@@ -1,48 +1,48 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T06:18:19.583Z
+Generated: 2026-10-04T06:28:51.542Z
 
-This audit measures the 1409 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
+This audit measures the 1400 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
 ## Headline coverage
 
-- Profiles with at least one official fact: 510
-- Profiles without any official facts: 899
-- Profiles with an official website: 699
-- Profiles without an official website: 710
-- Profiles with an overview: 1337
-- Profiles without an overview: 72
+- Profiles with at least one official fact: 513
+- Profiles without any official facts: 887
+- Profiles with an official website: 697
+- Profiles without an official website: 703
+- Profiles with an overview: 1336
+- Profiles without an overview: 64
 - Profiles with unresolved conflicts: 105
 - Profiles with facts older than 365 days: 0
-- Profiles with all six core fields: 18
-- Repeated stable IDs: 4 identifiers producing 4 extra rows
-- Same-name identity review: 8 profiles across 4 groups
+- Profiles with all six core fields: 19
+- Repeated stable IDs: 0 identifiers producing 0 extra rows
+- Same-name identity review: 0 profiles across 0 groups
 
 ## Field coverage
 
 | Field | Official source | Any usable source | Conflicts | Official coverage |
 | --- | ---: | ---: | ---: | ---: |
-| vertical | 208 | 208 | 2 | 14.8% |
-| terrain area | 166 | 166 | 9 | 11.8% |
-| trails | 280 | 280 | 33 | 19.9% |
-| lifts | 223 | 223 | 15 | 15.8% |
-| summit elevation | 111 | 111 | 1 | 7.9% |
-| base elevation | 158 | 158 | 0 | 11.2% |
-| skiing elevation | 103 | 103 | 1 | 7.3% |
+| vertical | 210 | 210 | 2 | 15.0% |
+| terrain area | 167 | 167 | 9 | 11.9% |
+| trails | 281 | 281 | 33 | 20.1% |
+| lifts | 226 | 226 | 15 | 16.1% |
+| summit elevation | 112 | 112 | 1 | 8.0% |
+| base elevation | 159 | 159 | 0 | 11.4% |
+| skiing elevation | 103 | 103 | 1 | 7.4% |
 | longest run | 62 | 62 | 0 | 4.4% |
-| snowfall | 0 | 0 | 1 | 0.0% |
+| snowfall | 1 | 1 | 1 | 0.1% |
 | snowmaking | 48 | 48 | 0 | 3.4% |
 | difficulty mix | 6 | 6 | 0 | 0.4% |
-| operating season | 0 | 0 | 0 | 0.0% |
+| operating season | 2 | 2 | 0 | 0.1% |
 | night skiing | 32 | 32 | 0 | 2.3% |
-| terrain parks | 42 | 42 | 1 | 3.0% |
+| terrain parks | 43 | 43 | 1 | 3.1% |
 
 ## Enrichment priority
 
-- Critical: 900
+- Critical: 888
 - High: 134
-- Medium: 284
-- Low: 91
+- Medium: 286
+- Low: 92
 
 Priority rises for missing core facts, no official-source facts, no official website, unresolved conflicts, missing overview copy and stale observations. It is a research-order tool, not a quality grade shown to visitors. Repeated IDs and same-name records are queued for identity review rather than merged automatically.
 

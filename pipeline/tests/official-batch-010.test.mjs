@@ -69,7 +69,7 @@ test('tenth batch separates named routes, local scope, source periods and disput
 
 test('all 100 tenth-batch summaries and observations reach cards and guides; Bristol stays intact',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1409)
+  assert.equal(records.length,1400)
   assert.ok(records.filter(r=>r.ov).length>=503)
   const countries={}
   for(const e of officialBatch){

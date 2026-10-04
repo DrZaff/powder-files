@@ -18,7 +18,9 @@ import { applyOfficialBatch016 } from './official-batch-016.mjs'
 import { applyOfficialBatch017 } from './official-batch-017.mjs'
 import { applyOfficialBatch018 } from './official-batch-018.mjs'
 import { applyOfficialBatch019 } from './official-batch-019.mjs'
+import { applyOfficialBatch020 } from './official-batch-020.mjs'
 import { applyCuratedExclusions } from './curated-exclusions.mjs'
+import { applyIdentityResolutions } from './identity-resolutions.mjs'
 import { applyResortSummaries } from './resort-summaries.mjs'
 import { enrichMountains } from './lib/mountain-enrichment.mjs'
 import { buildProfileCoverageAudit, coverageAuditMarkdown } from './lib/profile-coverage-audit.mjs'
@@ -62,8 +64,10 @@ await writeJson(new URL('official-batch-016-report.json',generated),applyOfficia
 await writeJson(new URL('official-batch-017-report.json',generated),applyOfficialBatch017(canonical))
 await writeJson(new URL('official-batch-018-report.json',generated),applyOfficialBatch018(canonical))
 await writeJson(new URL('official-batch-019-report.json',generated),applyOfficialBatch019(canonical))
-await writeJson(new URL('curated-exclusions-report.json',generated),applyCuratedExclusions(canonical,exclusions))
 await writeJson(new URL('resort-summaries-report.json',generated),applyResortSummaries(canonical))
+await writeJson(new URL('identity-resolutions-report.json',generated),applyIdentityResolutions(canonical,exclusions))
+await writeJson(new URL('official-batch-020-report.json',generated),applyOfficialBatch020(canonical))
+await writeJson(new URL('curated-exclusions-report.json',generated),applyCuratedExclusions(canonical,exclusions))
 const mountainCache=await cached('mountain-wikidata')
 const enrichmentQueue=enrichMountains(canonical,mountainCache.queried_ids?mountainCache:null)
 await writeJson(new URL('mountain-research-queue.json',generated),enrichmentQueue)

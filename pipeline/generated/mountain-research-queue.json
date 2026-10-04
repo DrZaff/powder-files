@@ -253,7 +253,7 @@
   },
   {
     "id": "wikidata:item:Q1624333",
-    "name": "Crystal Mountain",
+    "name": "Crystal Mountain (Washington)",
     "country": "United States",
     "official_website": "https://www.crystalmountainresort.com",
     "missing_official_facts": [
@@ -581,22 +581,6 @@
     "country": "United States",
     "official_website": null,
     "missing_official_facts": [
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q49177812",
-    "name": "Ski Santa Fe",
-    "country": "United States",
-    "official_website": "https://skisantafe.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
@@ -3746,7 +3730,7 @@
   },
   {
     "id": "wikidata:item:Q5191297",
-    "name": "Crystal Mountain",
+    "name": "Crystal Mountain (Michigan)",
     "country": "United States",
     "official_website": "http://www.crystalmountain.com",
     "missing_official_facts": [
@@ -5505,21 +5489,6 @@
       "area",
       "trails",
       "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3368414",
-    "name": "Passy Plaine-Joux",
-    "country": "France",
-    "official_website": "https://www.passy-mont-blanc.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "lifts"
     ],
     "conflicts": [],
@@ -9555,22 +9524,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q110914605",
-    "name": "Lac Blanc",
-    "country": "France",
-    "official_website": "https://www.lac-blanc.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q110941628",
     "name": "Tegatayama Ski Area",
     "country": "Japan",
@@ -12887,22 +12840,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q116459866",
-    "name": "St. Jakob im Defereggental",
-    "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q11648145",
     "name": "Kamafuseyama Ski Resort",
     "country": "Japan",
@@ -15469,22 +15406,6 @@
   {
     "id": "wikidata:item:Q137052126",
     "name": "Valmeinier Villages",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q137052565",
-    "name": "Passy Plaine-Joux",
     "country": "France",
     "official_website": null,
     "missing_official_facts": [
@@ -19060,22 +18981,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q30141184",
-    "name": "Lac Blanc",
-    "country": "France",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q30141219",
     "name": "Rouge Gazon",
     "country": "France",
@@ -20059,38 +19964,6 @@
     "id": "wikidata:item:Q3257491",
     "name": "Hospital Plains (ski resort)",
     "country": "Spain",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3311533",
-    "name": "Mischliffen",
-    "country": "Morocco",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q3311533",
-    "name": "Mischliffen",
-    "country": "Morocco",
     "official_website": null,
     "missing_official_facts": [
       "vertical",
@@ -21402,22 +21275,6 @@
     "structured_lookup": "queried"
   },
   {
-    "id": "wikidata:item:Q49177812",
-    "name": "Ski Santa Fe",
-    "country": "United States",
-    "official_website": "https://skisantafe.com",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
     "id": "wikidata:item:Q4923060",
     "name": "Blackjack Ski Resort",
     "country": "United States",
@@ -22337,11 +22194,9 @@
     "country": "Canada",
     "official_website": "https://horseshoeresort.com",
     "missing_official_facts": [
-      "vertical",
       "area",
       "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [
       {
@@ -22367,38 +22222,6 @@
         "confidence": "low"
       }
     ],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q592910",
-    "name": "Kitzbühel Alps",
-    "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q592910",
-    "name": "Kitzbühel Alps",
-    "country": "Austria",
-    "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -22556,44 +22379,6 @@
       "lifts"
     ],
     "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q60726558",
-    "name": "St. Jakob im Defereggental",
-    "country": "Austria",
-    "official_website": "https://www.stjakob-ski.at",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation"
-    ],
-    "conflicts": [
-      {
-        "key": "skiing_elevation",
-        "label": "Upper ski elevation",
-        "unit": "m",
-        "value": null,
-        "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten",
-        "alternatives": [
-          {
-            "value": 2683,
-            "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
-          },
-          {
-            "value": 2680,
-            "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
-          }
-        ],
-        "note": "Same operator page headline and table disagree; elevation withheld.",
-        "retrieved_at": "2026-08-31",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low"
-      }
-    ],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -23268,38 +23053,6 @@
     "name": "Termas de Chillán",
     "country": "Chile",
     "official_website": null,
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6363223",
-    "name": "Kanin-Sella Nevea Ski Resort",
-    "country": "Slovenia",
-    "official_website": "https://kanin.si",
-    "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
-    ],
-    "conflicts": [],
-    "status": "needs_official_research",
-    "structured_lookup": "queried"
-  },
-  {
-    "id": "wikidata:item:Q6363223",
-    "name": "Kanin-Sella Nevea Ski Resort",
-    "country": "Italy",
-    "official_website": "https://kanin.si",
     "missing_official_facts": [
       "vertical",
       "area",
@@ -26553,6 +26306,102 @@
       "trails",
       "skiing_elevation",
       "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q110914605",
+    "name": "Lac Blanc",
+    "country": "France",
+    "official_website": "https://www.lac-blanc.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q3368414",
+    "name": "Passy Plaine-Joux",
+    "country": "France",
+    "official_website": "https://www.passy-mont-blanc.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q60726558",
+    "name": "St. Jakob im Defereggental",
+    "country": "Austria",
+    "official_website": "https://www.stjakob-ski.at",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation"
+    ],
+    "conflicts": [
+      {
+        "key": "skiing_elevation",
+        "label": "Upper ski elevation",
+        "unit": "m",
+        "value": null,
+        "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten",
+        "alternatives": [
+          {
+            "value": 2683,
+            "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
+          },
+          {
+            "value": 2680,
+            "source": "https://www.stjakob-ski.at/winter/lifte-und-pisten"
+          }
+        ],
+        "note": "Same operator page headline and table disagree; elevation withheld.",
+        "retrieved_at": "2026-08-31",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low"
+      }
+    ],
+    "status": "needs_official_research",
+    "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q49177812",
+    "name": "Ski Santa Fe",
+    "country": "United States",
+    "official_website": "https://skisantafe.com",
+    "missing_official_facts": [
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q6363223",
+    "name": "Sella Nevea",
+    "country": "Italy",
+    "official_website": "https://www.turismofvg.it/en/mountain365/sella-nevea/sella-nevea-winter-opening-schedule",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",

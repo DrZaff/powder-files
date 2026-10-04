@@ -3220,6 +3220,42 @@
     "reason": "nordic_only"
   },
   {
+    "stable_id": "wikidata:item:Q592910",
+    "name": "Kitzbühel Alps",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q592910",
+        "url": "https://www.wikidata.org/wiki/Q592910",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q592910",
+    "note": "The item represents the Kitzbühel Alps mountain range, not one lift-served resort.",
+    "reviewed_at": "2026-10-04"
+  },
+  {
+    "stable_id": "wikidata:item:Q3311533",
+    "name": "Mischliffen",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3311533",
+        "url": "https://www.wikidata.org/wiki/Q3311533",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "lift_free_or_non_resort",
+    "curated": true,
+    "evidence_url": "https://www.wikidata.org/wiki/Q3311533",
+    "note": "The item has conflicting locations and does not provide sufficient evidence of a current lift-served resort identity.",
+    "reviewed_at": "2026-10-04"
+  },
+  {
     "stable_id": "wikidata:item:Q96392149",
     "name": "Martin Ski Dome",
     "source_records": [

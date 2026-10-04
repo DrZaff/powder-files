@@ -26,7 +26,7 @@ test('fifteenth batch preserves candidate state and records intentional missingn
 
 test('all batch fifteen summaries reach public cards and guides with Wikidata provenance',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1409);assert.ok(records.filter(r=>r.ov).length>=1003)
+  assert.equal(records.length,1400);assert.ok(records.filter(r=>r.ov).length>=1003)
   for(const e of officialBatch){
     const matches=records.filter(r=>r.id===e.id);assert.equal(matches.length,1,e.id)
     const r=matches[0];assert.equal(r.ov.text,e.summary);assert.equal(r.ov.reviewed_at,'2026-10-03')

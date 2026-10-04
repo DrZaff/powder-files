@@ -1,0 +1,65 @@
+{
+  "reviewed_at": "2026-10-04",
+  "merges": [
+    {
+      "target": "wikidata:item:Q110914605",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q110914605",
+        "wikidata:item:Q30141184"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3368414",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q3368414",
+        "wikidata:item:Q137052565"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q60726558",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q116459866",
+        "wikidata:item:Q60726558"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q49177812",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q49177812"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q6363223",
+      "removed_rows": 1,
+      "merged_ids": [
+        "wikidata:item:Q6363223"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "wikidata:item:Q592910",
+      "removed_rows": 2,
+      "reason": "lift_free_or_non_resort"
+    },
+    {
+      "id": "wikidata:item:Q3311533",
+      "removed_rows": 2,
+      "reason": "lift_free_or_non_resort"
+    }
+  ],
+  "disambiguated": [
+    {
+      "id": "wikidata:item:Q1624333",
+      "name": "Crystal Mountain (Washington)"
+    },
+    {
+      "id": "wikidata:item:Q5191297",
+      "name": "Crystal Mountain (Michigan)"
+    }
+  ]
+}

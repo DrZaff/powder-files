@@ -50,4 +50,8 @@ Research batches are now 100 previously unresearched public profiles by default,
 
 # Latest directory cleanup
 
-See [curated exclusion cleanup 001](CURATED-EXCLUSIONS-001.md). It removes 112 clearly closed, Nordic-only, private, indoor, lift-free or non-resort records from normal results using exact stable IDs, while retaining their source provenance and exclusion reasons. The cleaned public directory contains 1,409 profiles; all 1,337 researched summaries and Bristol Mountain remain intact.
+See [curated exclusion cleanup 001](CURATED-EXCLUSIONS-001.md). It removes 112 clearly closed, Nordic-only, private, indoor, lift-free or non-resort records from normal results using exact stable IDs, while retaining their source provenance and exclusion reasons.
+
+# Latest identity and enrichment pass
+
+See [identity cleanup and enrichment batch 020](IDENTITY-AND-ENRICHMENT-020.md). It resolves repeated IDs and same-name identity collisions before adding official facts to Ski Santa Fe, Horseshoe Resort and Sella Nevea. The current public directory contains 1,400 unique profiles, with 513 profiles carrying at least one official fact.

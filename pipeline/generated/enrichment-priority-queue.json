@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:18:19.583Z",
+  "generated_at": "2026-10-04T06:28:51.542Z",
   "profiles": [
     {
       "id": "wikidata:item:Q3411128",
@@ -215,170 +215,6 @@
       "id": "wikidata:item:Q3257491",
       "name": "Hospital Plains (ski resort)",
       "country": "Spain",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q592910",
-      "name": "Kitzbühel Alps",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q592910",
-      "name": "Kitzbühel Alps",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3311533",
-      "name": "Mischliffen",
-      "country": "Morocco",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3311533",
-      "name": "Mischliffen",
-      "country": "Morocco",
       "priority": "critical",
       "priority_score": 96,
       "missing_core_fields": [
@@ -12846,49 +12682,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q30141184",
-      "name": "Lac Blanc",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 88,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q110914605"
-      ],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5969371",
       "name": "Lagunillas",
       "country": "Chile",
@@ -16841,49 +16634,6 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q137052565",
-      "name": "Passy Plaine-Joux",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 88,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q3368414"
-      ],
       "official_website": null,
       "recommended_sources": [
         {
@@ -21199,49 +20949,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q116459866",
-      "name": "St. Jakob im Defereggental",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 88,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q60726558"
-      ],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3497206",
       "name": "Staroměstsko",
       "country": "Czechia",
@@ -25178,88 +24885,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q6363223",
-      "name": "Kanin-Sella Nevea Ski Resort",
-      "country": "Slovenia",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://kanin.si",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://kanin.si"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q6363223",
-      "name": "Kanin-Sella Nevea Ski Resort",
-      "country": "Italy",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://kanin.si",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://kanin.si"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q5751991",
       "name": "National Winter Activity Center",
       "country": "United States",
@@ -25528,88 +25153,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.chuo-alps.com/ski"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q49177812",
-      "name": "Ski Santa Fe",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://skisantafe.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://skisantafe.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q49177812",
-      "name": "Ski Santa Fe",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://skisantafe.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://skisantafe.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -25911,49 +25454,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.turisme-pirineusorientals.cat/cambra-dase"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5906070",
-      "name": "Horseshoe Resort",
-      "country": "Canada",
-      "priority": "critical",
-      "priority_score": 78,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [
-        "trails"
-      ],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://horseshoeresort.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://horseshoeresort.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -30680,9 +30180,7 @@
       ],
       "conflicts": [],
       "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q30141184"
-      ],
+      "possible_duplicate_ids": [],
       "official_website": "https://www.lac-blanc.com",
       "recommended_sources": [
         {
@@ -42222,9 +41720,7 @@
         "skiing_elevation"
       ],
       "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q116459866"
-      ],
+      "possible_duplicate_ids": [],
       "official_website": "https://www.stjakob-ski.at",
       "recommended_sources": [
         {
@@ -45377,9 +44873,7 @@
       ],
       "conflicts": [],
       "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q137052565"
-      ],
+      "possible_duplicate_ids": [],
       "official_website": "https://www.passy-mont-blanc.com",
       "recommended_sources": [
         {
@@ -45862,6 +45356,46 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6363223",
+      "name": "Sella Nevea",
+      "country": "Italy",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.turismofvg.it/en/mountain365/sella-nevea/sella-nevea-winter-opening-schedule",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.turismofvg.it/en/mountain365/sella-nevea/sella-nevea-winter-opening-schedule"
         },
         {
           "type": "openstreetmap_topology",
@@ -47413,6 +46947,47 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://www.hautacam.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5906070",
+      "name": "Horseshoe Resort",
+      "country": "Canada",
+      "priority": "medium",
+      "priority_score": 38,
+      "missing_core_fields": [
+        "terrain_area",
+        "trails",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [
+        "trails"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://horseshoeresort.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://horseshoeresort.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -50657,7 +50232,7 @@
     },
     {
       "id": "wikidata:item:Q1624333",
-      "name": "Crystal Mountain",
+      "name": "Crystal Mountain (Washington)",
       "country": "United States",
       "priority": "medium",
       "priority_score": 30,
@@ -50670,9 +50245,7 @@
         "trails"
       ],
       "stale_fields": [],
-      "possible_duplicate_ids": [
-        "wikidata:item:Q5191297"
-      ],
+      "possible_duplicate_ids": [],
       "official_website": "https://www.crystalmountainresort.com",
       "recommended_sources": [
         {
