@@ -64,7 +64,7 @@ test('official names replace identifier-only labels without changing stable iden
 
 test('all twelfth-batch profiles reach public cards and guides; Bristol remains unchanged',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1411)
+  assert.equal(records.length,1421)
   assert.ok(records.filter(r=>r.ov).length>=703)
   for(const e of officialBatch){
     const matches=records.filter(r=>r.id===e.id)

@@ -26590,5 +26590,139 @@
     "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q4807815",
+    "name": "Aspen Highlands",
+    "country": "United States",
+    "official_website": "https://www.aspensnowmass.com/four-mountains/aspen-highlands",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q859485",
+    "name": "Big White Ski Resort",
+    "country": "Canada",
+    "official_website": "https://www.bigwhite.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q4966625",
+    "name": "Bridger Bowl",
+    "country": "United States",
+    "official_website": "https://bridgerbowl.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q2362338",
+    "name": "Copper Mountain",
+    "country": "United States",
+    "official_website": "https://www.coppercolorado.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1137200",
+    "name": "Cypress Mountain",
+    "country": "Canada",
+    "official_website": "https://www.cypressmountain.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q3497349",
+    "name": "Mont Tremblant Resort",
+    "country": "Canada",
+    "official_website": "https://www.tremblant.ca",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1629394",
+    "name": "Perisher",
+    "country": "Australia",
+    "official_website": "https://www.perisher.com.au",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1741253",
+    "name": "Serfaus–Fiss–Ladis",
+    "country": "Austria",
+    "official_website": "https://www.serfaus-fiss-ladis.at",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q7546617",
+    "name": "Smugglers' Notch Resort",
+    "country": "United States",
+    "official_website": "https://www.smuggs.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q123853037",
+    "name": "Mount Snow",
+    "country": "United States",
+    "official_website": "https://www.mountsnow.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
   }
 ]

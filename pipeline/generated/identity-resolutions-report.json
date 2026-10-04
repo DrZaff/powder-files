@@ -126,6 +126,86 @@
         "openstreetmap:way:682231907",
         "wikidata:item:Q3285029"
       ]
+    },
+    {
+      "target": "wikidata:item:Q4807815",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:530531926",
+        "wikidata:item:Q4807815"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q859485",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:476836855",
+        "wikidata:item:Q859485"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q4966625",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1228627171",
+        "wikidata:item:Q4966625"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q2362338",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531005986",
+        "wikidata:item:Q2362338"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1137200",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:15317924",
+        "wikidata:item:Q1137200"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3497349",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:671144531",
+        "wikidata:item:Q3497349"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1629394",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:178133225",
+        "wikidata:item:Q1629394"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1741253",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1227177985",
+        "wikidata:item:Q1741253"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q7546617",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1228354294",
+        "wikidata:item:Q7546617"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q123853037",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:860260235",
+        "wikidata:item:Q123853037"
+      ]
     }
   ],
   "exclusions": [

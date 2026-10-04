@@ -19645,70 +19645,6 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:530531926",
-    "name": "Aspen Highlands",
-    "normalized_name": "aspen highlands",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 39.153933,
-      "longitude": -106.864303
-    },
-    "official_website": "https://www.aspensnowmass.com/four-mountains/aspen-highlands",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/530531926",
-        "url": "https://www.openstreetmap.org/way/530531926",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Aspen Highlands",
-        "source_record_ids": [
-          "openstreetmap:way:530531926"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 39.153933,
-          "longitude": -106.864303
-        },
-        "source_record_ids": [
-          "openstreetmap:way:530531926"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:530531926"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:530531926"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
     "stable_id": "wikidata:item:Q4807815",
     "name": "Aspen Highlands",
     "normalized_name": "aspen highlands",
@@ -19720,21 +19656,35 @@
       "latitude": 39.1811,
       "longitude": -106.856
     },
-    "official_website": null,
+    "official_website": "https://www.aspensnowmass.com/four-mountains/aspen-highlands",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
     "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/530531926",
+        "url": "https://www.openstreetmap.org/way/530531926",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
       {
         "source": "wikidata",
         "record_id": "Q4807815",
         "url": "https://www.wikidata.org/wiki/Q4807815",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "url": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Aspen Highlands",
@@ -19759,7 +19709,268 @@
           "wikidata:item:Q4807815"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:530531926"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Aspen Highlands pairs a compact lift network with a large share of advanced and expert terrain. Its signature experience is sustained fall-line skiing below Highland Bowl, while lower-mountain trails provide a smaller intermediate progression path",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 1040,
+        "unit": "acres",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical rise",
+        "value": 3635,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 8040,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 12392,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 144,
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 5,
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 300,
+        "unit": "in",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "23% intermediate · 12% advanced · 65% expert",
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "The official 2025–26 sheet lists no beginner terrain.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "source_period": "2025–26",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 1040,
+        "unit": "acres",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical rise",
+        "value": 3635,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 8040,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 12392,
+        "unit": "ft",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 144,
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 5,
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 300,
+        "unit": "in",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "23% intermediate · 12% advanced · 65% expert",
+        "unit": "",
+        "source": "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf",
+        "note": "The official 2025–26 sheet lists no beginner terrain.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "source_period": "2025–26"
+      }
+    ],
+    "overview": {
+      "text": "Aspen Highlands pairs a compact lift network with a large share of advanced and expert terrain. Its signature experience is sustained fall-line skiing below Highland Bowl, while lower-mountain trails provide a smaller intermediate progression path.",
+      "sources": [
+        "https://www.aspensnowmass.com/-/media/aspen-snowmass/documents/pdfs/25-26/aspen-snowmass-mountain-stats.pdf"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:530531926",
+        "wikidata:item:Q4807815"
+      ],
+      "source_row_count": 2,
+      "note": "Matching names, nearby coordinates and the Aspen Snowmass operator page identify the same Aspen Highlands ski area.",
+      "evidence_url": "https://www.aspensnowmass.com/four-mountains/aspen-highlands"
     }
   },
   {
@@ -34335,9 +34546,11 @@
   },
   {
     "stable_id": "wikidata:item:Q859485",
-    "name": "Big White",
-    "normalized_name": "big white",
-    "alternate_names": [],
+    "name": "Big White Ski Resort",
+    "normalized_name": "big white ski resort",
+    "alternate_names": [
+      "Big White"
+    ],
     "locality": null,
     "region": "British Columbia",
     "country": "Canada",
@@ -34350,16 +34563,30 @@
     "resort_type": "downhill_or_mixed",
     "source_records": [
       {
+        "source": "openstreetmap",
+        "record_id": "way/476836855",
+        "url": "https://www.openstreetmap.org/way/476836855",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
         "source": "wikidata",
         "record_id": "Q859485",
         "url": "https://www.wikidata.org/wiki/Q859485",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "url": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Big White",
@@ -34384,63 +34611,6 @@
           "wikidata:item:Q859485"
         ],
         "confidence": "high"
-      }
-    }
-  },
-  {
-    "stable_id": "openstreetmap:way:476836855",
-    "name": "Big White Ski Resort",
-    "normalized_name": "big white ski resort",
-    "alternate_names": [],
-    "locality": "Kelowna",
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 49.736916,
-      "longitude": -118.94684
-    },
-    "official_website": "https://www.bigwhite.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/476836855",
-        "url": "https://www.openstreetmap.org/way/476836855",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Big White Ski Resort",
-        "source_record_ids": [
-          "openstreetmap:way:476836855"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 49.736916,
-          "longitude": -118.94684
-        },
-        "source_record_ids": [
-          "openstreetmap:way:476836855"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:476836855"
-        ],
-        "confidence": "low"
       },
       "elevation_m": {
         "value": null,
@@ -34448,7 +34618,287 @@
           "openstreetmap:way:476836855"
         ],
         "confidence": "low"
+      },
+      "overview": {
+        "value": "Big White is an Okanagan mountain built for long, varied days, with a ski-in/ski-out village, broad intermediate terrain and extensive glades. Its patrolled footprint, night skiing and family-oriented progression terrain give it range beyond its high-alpine bowls",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Patrolled terrain",
+        "value": 2834,
+        "unit": "acres",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 2550,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Gem Lake base elevation",
+        "value": 4948,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 7608,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Designated trails",
+        "value": 119,
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 17,
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4.5,
+        "unit": "mi",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "Around the World.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 750,
+        "unit": "cm",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published trail mix",
+        "value": "18% beginner · 54% intermediate · 22% expert · 6% extreme",
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Patrolled terrain",
+        "value": 2834,
+        "unit": "acres",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 2550,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Gem Lake base elevation",
+        "value": 4948,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 7608,
+        "unit": "ft",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Designated trails",
+        "value": 119,
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 17,
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4.5,
+        "unit": "mi",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "Around the World.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 750,
+        "unit": "cm",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published trail mix",
+        "value": "18% beginner · 54% intermediate · 22% expert · 6% extreme",
+        "unit": "",
+        "source": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Big White is an Okanagan mountain built for long, varied days, with a ski-in/ski-out village, broad intermediate terrain and extensive glades. Its patrolled footprint, night skiing and family-oriented progression terrain give it range beyond its high-alpine bowls.",
+      "sources": [
+        "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:476836855",
+        "wikidata:item:Q859485"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names, nearby coordinates and the shared official domain identify the same Big White resort.",
+      "evidence_url": "https://www.bigwhite.com/explore/mountain-info/mountain-statistics"
     }
   },
   {
@@ -45470,74 +45920,12 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:1228627171",
+    "stable_id": "wikidata:item:Q4966625",
     "name": "Bridger Bowl",
     "normalized_name": "bridger bowl",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 45.816266,
-      "longitude": -110.912168
-    },
-    "official_website": "https://bridgerbowl.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/1228627171",
-        "url": "https://www.openstreetmap.org/way/1228627171",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
+    "alternate_names": [
+      "Bridger Bowl Ski Area"
     ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Bridger Bowl",
-        "source_record_ids": [
-          "openstreetmap:way:1228627171"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.816266,
-          "longitude": -110.912168
-        },
-        "source_record_ids": [
-          "openstreetmap:way:1228627171"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:1228627171"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:1228627171"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q4966625",
-    "name": "Bridger Bowl Ski Area",
-    "normalized_name": "bridger bowl ski area",
-    "alternate_names": [],
     "locality": null,
     "region": "Montana",
     "country": "United States",
@@ -45545,21 +45933,35 @@
       "latitude": 45.8172,
       "longitude": -110.897
     },
-    "official_website": "http://www.bridgerbowl.com",
+    "official_website": "https://bridgerbowl.com",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
     "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1228627171",
+        "url": "https://www.openstreetmap.org/way/1228627171",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
       {
         "source": "wikidata",
         "record_id": "Q4966625",
         "url": "https://www.wikidata.org/wiki/Q4966625",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://bridgerbowl.com/mountain/stats",
+        "url": "https://bridgerbowl.com/mountain/stats",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Bridger Bowl Ski Area",
@@ -45584,7 +45986,238 @@
           "wikidata:item:Q4966625"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:1228627171"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Bridger Bowl is a community-focused Montana ski area whose ridge terrain and expert zones sit above a broad mix of groomers and learning terrain. The mountain’s 2,000-acre footprint feels substantial without the village infrastructure of a destination resort",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2000,
+        "unit": "acres",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Lift-served vertical",
+        "value": 2600,
+        "unit": "ft",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest lift-served elevation",
+        "value": 8700,
+        "unit": "ft",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Named trails",
+        "value": 75,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "The official page notes additional unmarked runs.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lift system",
+        "value": 11,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "One quad, six triples, one double and three surface lifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 300,
+        "unit": "in",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
+      },
+      "mountain.terrain_parks": {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 3,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://bridgerbowl.com/mountain/stats"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2000,
+        "unit": "acres",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Lift-served vertical",
+        "value": 2600,
+        "unit": "ft",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Highest lift-served elevation",
+        "value": 8700,
+        "unit": "ft",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Named trails",
+        "value": 75,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "The official page notes additional unmarked runs.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lift system",
+        "value": 11,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "One quad, six triples, one double and three surface lifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 300,
+        "unit": "in",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 3,
+        "unit": "",
+        "source": "https://bridgerbowl.com/mountain/stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Bridger Bowl is a community-focused Montana ski area whose ridge terrain and expert zones sit above a broad mix of groomers and learning terrain. The mountain’s 2,000-acre footprint feels substantial without the village infrastructure of a destination resort.",
+      "sources": [
+        "https://bridgerbowl.com/mountain/stats"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:1228627171",
+        "wikidata:item:Q4966625"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names, nearby coordinates and the Bridger Bowl operator page identify the same ski area.",
+      "evidence_url": "https://bridgerbowl.com/mountain/stats"
     }
   },
   {
@@ -46018,7 +46651,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T07:18:26.136Z"
+        "collected_at": "2026-10-04T07:30:26.177Z"
       },
       {
         "source": "openstreetmap",
@@ -46042,7 +46675,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T07:18:26.136Z",
+    "collection_date": "2026-10-04T07:30:26.177Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -68913,70 +69546,6 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:531005986",
-    "name": "Copper Mountain",
-    "normalized_name": "copper mountain",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 39.477498,
-      "longitude": -106.162988
-    },
-    "official_website": "https://www.coppercolorado.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/531005986",
-        "url": "https://www.openstreetmap.org/way/531005986",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Copper Mountain",
-        "source_record_ids": [
-          "openstreetmap:way:531005986"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 39.477498,
-          "longitude": -106.162988
-        },
-        "source_record_ids": [
-          "openstreetmap:way:531005986"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531005986"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531005986"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
     "stable_id": "wikidata:item:Q2362338",
     "name": "Copper Mountain",
     "normalized_name": "copper mountain",
@@ -68984,7 +69553,7 @@
       "Copper Mountain (Colorado)"
     ],
     "locality": null,
-    "region": "Summit County",
+    "region": "Colorado",
     "country": "United States",
     "coordinates": {
       "latitude": 39.5017,
@@ -68995,16 +69564,30 @@
     "resort_type": "downhill_or_mixed",
     "source_records": [
       {
+        "source": "openstreetmap",
+        "record_id": "way/531005986",
+        "url": "https://www.openstreetmap.org/way/531005986",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
         "source": "wikidata",
         "record_id": "Q2362338",
         "url": "https://www.wikidata.org/wiki/Q2362338",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "url": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Copper Mountain",
@@ -69029,7 +69612,210 @@
           "wikidata:item:Q2362338"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:531005986"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Copper Mountain’s naturally divided terrain puts easier runs toward the west and progressively steeper terrain toward the east. A high summit, large trail network and substantial lift system make it a full-scale Colorado destination with straightforward terrain navigation",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2538,
+        "unit": "acres",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 2738,
+        "unit": "ft",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 12441,
+        "unit": "ft",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 157,
+        "unit": "",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Chairlifts",
+        "value": 24,
+        "unit": "",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 305,
+        "unit": "in",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2538,
+        "unit": "acres",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 2738,
+        "unit": "ft",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 12441,
+        "unit": "ft",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 157,
+        "unit": "",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Chairlifts",
+        "value": 24,
+        "unit": "",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 305,
+        "unit": "in",
+        "source": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Copper Mountain’s naturally divided terrain puts easier runs toward the west and progressively steeper terrain toward the east. A high summit, large trail network and substantial lift system make it a full-scale Colorado destination with straightforward terrain navigation.",
+      "sources": [
+        "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:531005986",
+        "wikidata:item:Q2362338"
+      ],
+      "source_row_count": 2,
+      "note": "Matching names, nearby coordinates and the shared official domain identify the same Copper Mountain resort.",
+      "evidence_url": "https://www.coppercolorado.com/tickets-passes/season-passes/ikon-pass/"
     }
   },
   {
@@ -74713,23 +75499,22 @@
     }
   },
   {
-    "stable_id": "openstreetmap:relation:15317924",
+    "stable_id": "wikidata:item:Q1137200",
     "name": "Cypress Mountain",
     "normalized_name": "cypress mountain",
-    "alternate_names": [],
+    "alternate_names": [
+      "Cypress Mountain Ski Area"
+    ],
     "locality": null,
-    "region": null,
-    "country": null,
+    "region": "British Columbia",
+    "country": "Canada",
     "coordinates": {
-      "latitude": 49.392128,
-      "longitude": -123.19168
+      "latitude": 49.3956,
+      "longitude": -123.203
     },
-    "official_website": "https://cypressmountain.com",
+    "official_website": "https://www.cypressmountain.com",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
     "source_records": [
       {
         "source": "openstreetmap",
@@ -74737,72 +75522,25 @@
         "url": "https://www.openstreetmap.org/relation/15317924",
         "license": "ODbL-1.0",
         "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Cypress Mountain",
-        "source_record_ids": [
-          "openstreetmap:relation:15317924"
-        ],
-        "confidence": "high"
       },
-      "coordinates": {
-        "value": {
-          "latitude": 49.392128,
-          "longitude": -123.19168
-        },
-        "source_record_ids": [
-          "openstreetmap:relation:15317924"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:relation:15317924"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:relation:15317924"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q1137200",
-    "name": "Cypress Mountain Ski Area",
-    "normalized_name": "cypress mountain ski area",
-    "alternate_names": [],
-    "locality": null,
-    "region": "West Vancouver",
-    "country": "Canada",
-    "coordinates": {
-      "latitude": 49.3956,
-      "longitude": -123.203
-    },
-    "official_website": "https://cypressmountain.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
       {
         "source": "wikidata",
         "record_id": "Q1137200",
         "url": "https://www.wikidata.org/wiki/Q1137200",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "url": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Cypress Mountain Ski Area",
@@ -74827,7 +75565,266 @@
           "wikidata:item:Q1137200"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:relation:15317924"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Cypress Mountain overlooks Vancouver from two developed peaks, combining convenient city access with a meaningful alpine footprint. Its terrain spans learning areas, groomed cruising and steeper upper-mountain runs, with night operations adding flexibility",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 600,
+        "unit": "acres",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 610,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 1440,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "Mount Strachan.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Base lodge elevation",
+        "value": 915,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Runs",
+        "value": 61,
+        "unit": "",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Chairlifts",
+        "value": 6,
+        "unit": "",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4.1,
+        "unit": "km",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 622,
+        "unit": "cm",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.cypressmountain.com/trail-maps-and-stats"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 600,
+        "unit": "acres",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 610,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 1440,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "Mount Strachan.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Base lodge elevation",
+        "value": 915,
+        "unit": "m",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Runs",
+        "value": 61,
+        "unit": "",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Chairlifts",
+        "value": 6,
+        "unit": "",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4.1,
+        "unit": "km",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 622,
+        "unit": "cm",
+        "source": "https://www.cypressmountain.com/trail-maps-and-stats",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Cypress Mountain overlooks Vancouver from two developed peaks, combining convenient city access with a meaningful alpine footprint. Its terrain spans learning areas, groomed cruising and steeper upper-mountain runs, with night operations adding flexibility.",
+      "sources": [
+        "https://www.cypressmountain.com/trail-maps-and-stats"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:relation:15317924",
+        "wikidata:item:Q1137200"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names, nearby coordinates and the shared official domain identify the same Cypress Mountain ski area.",
+      "evidence_url": "https://www.cypressmountain.com/trail-maps-and-stats"
     }
   },
   {
@@ -218544,70 +219541,6 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:671144531",
-    "name": "Mont Tremblant Resort",
-    "normalized_name": "mont tremblant resort",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 46.224964,
-      "longitude": -74.556244
-    },
-    "official_website": "https://www.tremblant.ca",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/671144531",
-        "url": "https://www.openstreetmap.org/way/671144531",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Mont Tremblant Resort",
-        "source_record_ids": [
-          "openstreetmap:way:671144531"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 46.224964,
-          "longitude": -74.556244
-        },
-        "source_record_ids": [
-          "openstreetmap:way:671144531"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:671144531"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:671144531"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
     "stable_id": "wikidata:item:Q3497349",
     "name": "Mont Tremblant Resort",
     "normalized_name": "mont tremblant resort",
@@ -218615,7 +219548,7 @@
       "Mont Tremblant Ski Resort"
     ],
     "locality": null,
-    "region": "Laurentides",
+    "region": "Quebec",
     "country": "Canada",
     "coordinates": {
       "latitude": 46.214,
@@ -218626,16 +219559,30 @@
     "resort_type": "downhill_or_mixed",
     "source_records": [
       {
+        "source": "openstreetmap",
+        "record_id": "way/671144531",
+        "url": "https://www.openstreetmap.org/way/671144531",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
         "source": "wikidata",
         "record_id": "Q3497349",
         "url": "https://www.wikidata.org/wiki/Q3497349",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "url": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Mont Tremblant Resort",
@@ -218660,7 +219607,294 @@
           "wikidata:item:Q3497349"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:671144531"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Tremblant wraps 102 trails around four faces above its pedestrian village. The layout supports everything from dedicated learning terrain to gladed expert routes, while the long summit-to-base descent gives the mountain a distinctly substantial feel for eastern North America",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 763,
+        "unit": "acres",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 645,
+        "unit": "m",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 875,
+        "unit": "m",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 102,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 14,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 6,
+        "unit": "km",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.terrain_parks": {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 4,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.snowmaking": {
+        "key": "snowmaking",
+        "label": "Snow guns",
+        "value": 1286,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published trail counts",
+        "value": "22 easy · 31 difficult · 49 very difficult or extreme",
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 763,
+        "unit": "acres",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 645,
+        "unit": "m",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 875,
+        "unit": "m",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 102,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 14,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 6,
+        "unit": "km",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 4,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking",
+        "label": "Snow guns",
+        "value": 1286,
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published trail counts",
+        "value": "22 easy · 31 difficult · 49 very difficult or extreme",
+        "unit": "",
+        "source": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Tremblant wraps 102 trails around four faces above its pedestrian village. The layout supports everything from dedicated learning terrain to gladed expert routes, while the long summit-to-base descent gives the mountain a distinctly substantial feel for eastern North America.",
+      "sources": [
+        "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:671144531",
+        "wikidata:item:Q3497349"
+      ],
+      "source_row_count": 2,
+      "note": "Matching names, nearby coordinates and the shared official domain identify the same Tremblant resort.",
+      "evidence_url": "https://www.tremblant.ca/mountain-village/mountain-info/tremblant-statistics"
     }
   },
   {
@@ -228638,76 +229872,14 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:860260235",
+    "stable_id": "wikidata:item:Q123853037",
     "name": "Mount Snow",
     "normalized_name": "mount snow",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 42.961258,
-      "longitude": -72.906983
-    },
-    "official_website": "https://www.mountsnow.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/860260235",
-        "url": "https://www.openstreetmap.org/way/860260235",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
+    "alternate_names": [
+      "Mount Snow Ski Resort"
     ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Mount Snow",
-        "source_record_ids": [
-          "openstreetmap:way:860260235"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.961258,
-          "longitude": -72.906983
-        },
-        "source_record_ids": [
-          "openstreetmap:way:860260235"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:860260235"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:860260235"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q123853037",
-    "name": "Mount Snow Ski Resort",
-    "normalized_name": "mount snow ski resort",
-    "alternate_names": [],
     "locality": null,
-    "region": "West Dover",
+    "region": "Vermont",
     "country": "United States",
     "coordinates": {
       "latitude": 42.9613,
@@ -228718,16 +229890,30 @@
     "resort_type": "downhill_or_mixed",
     "source_records": [
       {
+        "source": "openstreetmap",
+        "record_id": "way/860260235",
+        "url": "https://www.openstreetmap.org/way/860260235",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
         "source": "wikidata",
         "record_id": "Q123853037",
         "url": "https://www.wikidata.org/wiki/Q123853037",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "url": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Mount Snow Ski Resort",
@@ -228752,7 +229938,322 @@
           "wikidata:item:Q123853037"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:860260235"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Mount Snow is a southern Vermont resort with a broad, approachable trail network and an unusually prominent terrain-park program. Four mountain faces separate learning and cruising zones from steeper North Face terrain, making the layout easy to understand",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 601,
+        "unit": "acres",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 1700,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 1900,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 3600,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 86,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 18,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 150,
+        "unit": "in",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.terrain_parks": {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 8,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.snowmaking_coverage": {
+        "key": "snowmaking_coverage",
+        "label": "Snowmaking coverage",
+        "value": 83,
+        "unit": "%",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "16% beginner · 66% intermediate · 18% advanced",
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 601,
+        "unit": "acres",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 1700,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 1900,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 3600,
+        "unit": "ft",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 86,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 18,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 150,
+        "unit": "in",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 8,
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking_coverage",
+        "label": "Snowmaking coverage",
+        "value": 83,
+        "unit": "%",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "16% beginner · 66% intermediate · 18% advanced",
+        "unit": "",
+        "source": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Mount Snow is a southern Vermont resort with a broad, approachable trail network and an unusually prominent terrain-park program. Four mountain faces separate learning and cruising zones from steeper North Face terrain, making the layout easy to understand.",
+      "sources": [
+        "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:860260235",
+        "wikidata:item:Q123853037"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names, effectively identical coordinates and the shared official domain identify the same Mount Snow resort.",
+      "evidence_url": "https://www.mountsnow.com/the-mountain/about-the-mountain/mountain-info.aspx"
     }
   },
   {
@@ -260397,74 +261898,12 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:178133225",
+    "stable_id": "wikidata:item:Q1629394",
     "name": "Perisher",
     "normalized_name": "perisher",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": -36.396117,
-      "longitude": 148.401038
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/178133225",
-        "url": "https://www.openstreetmap.org/way/178133225",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
+    "alternate_names": [
+      "Perisher Ski Resort"
     ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Perisher",
-        "source_record_ids": [
-          "openstreetmap:way:178133225"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": -36.396117,
-          "longitude": 148.401038
-        },
-        "source_record_ids": [
-          "openstreetmap:way:178133225"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:178133225"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:178133225"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q1629394",
-    "name": "Perisher Ski Resort",
-    "normalized_name": "perisher ski resort",
-    "alternate_names": [],
     "locality": null,
     "region": "New South Wales",
     "country": "Australia",
@@ -260472,21 +261911,35 @@
       "latitude": -36.4,
       "longitude": 148.41
     },
-    "official_website": "http://www.perisher.com.au",
+    "official_website": "https://www.perisher.com.au",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
     "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/178133225",
+        "url": "https://www.openstreetmap.org/way/178133225",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
       {
         "source": "wikidata",
         "record_id": "Q1629394",
         "url": "https://www.wikidata.org/wiki/Q1629394",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "url": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Perisher Ski Resort",
@@ -260511,7 +261964,298 @@
           "wikidata:item:Q1629394"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:178133225"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Perisher connects seven Australian alpine peaks into a very broad network where acreage matters more than raw vertical. Its many lifts, extensive intermediate terrain and multiple parks suit exploration and mixed groups across several base areas",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 1245,
+        "unit": "ha",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Continuous vertical",
+        "value": 355,
+        "unit": "m",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest lifted point",
+        "value": 2054,
+        "unit": "m",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 100,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "Official source states more than 100.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 45,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 3,
+        "unit": "km",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "Official source states approximately 3 km.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "approximately",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.terrain_parks": {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 4,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.snowmaking_area": {
+        "key": "snowmaking_area",
+        "label": "Snowmaking coverage",
+        "value": 54.9,
+        "unit": "ha",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "22% beginner · 60% intermediate · 18% advanced",
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.perisher.com.au/the-station?catid=0&id=3"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 1245,
+        "unit": "ha",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "vertical",
+        "label": "Continuous vertical",
+        "value": 355,
+        "unit": "m",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Highest lifted point",
+        "value": 2054,
+        "unit": "m",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 100,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "Official source states more than 100.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 45,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 3,
+        "unit": "km",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "Official source states approximately 3 km.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "approximately"
+      },
+      {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 4,
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking_area",
+        "label": "Snowmaking coverage",
+        "value": 54.9,
+        "unit": "ha",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "22% beginner · 60% intermediate · 18% advanced",
+        "unit": "",
+        "source": "https://www.perisher.com.au/the-station?catid=0&id=3",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Perisher connects seven Australian alpine peaks into a very broad network where acreage matters more than raw vertical. Its many lifts, extensive intermediate terrain and multiple parks suit exploration and mixed groups across several base areas.",
+      "sources": [
+        "https://www.perisher.com.au/the-station?catid=0&id=3"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:178133225",
+        "wikidata:item:Q1629394"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names and nearby coordinates identify the same Perisher ski resort.",
+      "evidence_url": "https://www.perisher.com.au/the-station?catid=0&id=3"
     }
   },
   {
@@ -311813,23 +313557,20 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:1227177985",
-    "name": "Serfaus-Fiss-Ladis",
+    "stable_id": "wikidata:item:Q1741253",
+    "name": "Serfaus–Fiss–Ladis",
     "normalized_name": "serfaus fiss ladis",
     "alternate_names": [],
     "locality": null,
-    "region": null,
-    "country": null,
+    "region": "Tyrol",
+    "country": "Austria",
     "coordinates": {
-      "latitude": 47.049395,
-      "longitude": 10.557492
+      "latitude": 47.065278,
+      "longitude": 10.597222
     },
     "official_website": "https://www.serfaus-fiss-ladis.at",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
     "source_records": [
       {
         "source": "openstreetmap",
@@ -311844,73 +313585,25 @@
         "url": "https://www.openstreetmap.org/relation/5644297",
         "license": "ODbL-1.0",
         "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Serfaus-Fiss-Ladis",
-        "source_record_ids": [
-          "openstreetmap:way:1227177985"
-        ],
-        "confidence": "high"
       },
-      "coordinates": {
-        "value": {
-          "latitude": 47.049395,
-          "longitude": 10.557492
-        },
-        "source_record_ids": [
-          "openstreetmap:way:1227177985"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:1227177985",
-          "openstreetmap:relation:5644297"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:1227177985"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q1741253",
-    "name": "Serfaus–Fiss–Ladis",
-    "normalized_name": "serfaus fiss ladis",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Tyrol",
-    "country": "Austria",
-    "coordinates": {
-      "latitude": 47.065278,
-      "longitude": 10.597222
-    },
-    "official_website": "http://www.serfaus-fiss-ladis.at",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
       {
         "source": "wikidata",
         "record_id": "Q1741253",
         "url": "https://www.wikidata.org/wiki/Q1741253",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "url": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Serfaus–Fiss–Ladis",
@@ -311935,7 +313628,210 @@
           "wikidata:item:Q1741253"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:1227177985"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Serfaus–Fiss–Ladis links three Tyrolean villages with a large, high-elevation piste network. The area balances extensive red cruising terrain with dedicated family facilities, black pistes and ski routes spread across a modern lift system",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Ski-area footprint",
+        "value": 460,
+        "unit": "ha",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
+      },
+      "mountain.piste_length": {
+        "key": "piste_length",
+        "label": "Published slopes",
+        "value": 214,
+        "unit": "km",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest point",
+        "value": 2828,
+        "unit": "m",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "Masnerkopf; sourced from the operator’s panorama-platform page.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lift system",
+        "value": 38,
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "One underground railway, 11 cable cars, 16 chairlifts and 10 drag lifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
+      },
+      "mountain.snowmaking": {
+        "key": "snowmaking",
+        "label": "Snow machines",
+        "value": 1250,
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published piste mix",
+        "value": "47 km blue · 112 km red · 27 km black · 28 km routes",
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Ski-area footprint",
+        "value": 460,
+        "unit": "ha",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "piste_length",
+        "label": "Published slopes",
+        "value": 214,
+        "unit": "km",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Highest point",
+        "value": 2828,
+        "unit": "m",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "Masnerkopf; sourced from the operator’s panorama-platform page.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lift system",
+        "value": 38,
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "One underground railway, 11 cable cars, 16 chairlifts and 10 drag lifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking",
+        "label": "Snow machines",
+        "value": 1250,
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published piste mix",
+        "value": "47 km blue · 112 km red · 27 km black · 28 km routes",
+        "unit": "",
+        "source": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Serfaus–Fiss–Ladis links three Tyrolean villages with a large, high-elevation piste network. The area balances extensive red cruising terrain with dedicated family facilities, black pistes and ski routes spread across a modern lift system.",
+      "sources": [
+        "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:1227177985",
+        "wikidata:item:Q1741253"
+      ],
+      "source_row_count": 2,
+      "note": "Equivalent names, nearby coordinates and the shared official domain identify the same linked Serfaus-Fiss-Ladis ski area.",
+      "evidence_url": "https://www.serfaus-fiss-ladis.at/en/winter-holiday/ski-area-and-winter-activities"
     }
   },
   {
@@ -350212,11 +352108,13 @@
   },
   {
     "stable_id": "wikidata:item:Q7546617",
-    "name": "Smugglers' Notch",
-    "normalized_name": "smugglers notch",
-    "alternate_names": [],
+    "name": "Smugglers' Notch Resort",
+    "normalized_name": "smugglers notch resort",
+    "alternate_names": [
+      "Smugglers' Notch"
+    ],
     "locality": null,
-    "region": "Cambridge",
+    "region": "Vermont",
     "country": "United States",
     "coordinates": {
       "latitude": 44.5728,
@@ -350227,16 +352125,30 @@
     "resort_type": "downhill_or_mixed",
     "source_records": [
       {
+        "source": "openstreetmap",
+        "record_id": "way/1228354294",
+        "url": "https://www.openstreetmap.org/way/1228354294",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
+      {
         "source": "wikidata",
         "record_id": "Q7546617",
         "url": "https://www.wikidata.org/wiki/Q7546617",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.smuggs.com/resort-info/trail-map/",
+        "url": "https://www.smuggs.com/resort-info/trail-map/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Smugglers' Notch",
@@ -350261,63 +352173,6 @@
           "wikidata:item:Q7546617"
         ],
         "confidence": "high"
-      }
-    }
-  },
-  {
-    "stable_id": "openstreetmap:way:1228354294",
-    "name": "Smugglers' Notch Resort",
-    "normalized_name": "smugglers notch resort",
-    "alternate_names": [],
-    "locality": "Morrisville",
-    "region": "VT",
-    "country": null,
-    "coordinates": {
-      "latitude": 44.573202,
-      "longitude": -72.770043
-    },
-    "official_website": "https://www.smuggs.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/1228354294",
-        "url": "https://www.openstreetmap.org/way/1228354294",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Smugglers' Notch Resort",
-        "source_record_ids": [
-          "openstreetmap:way:1228354294"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 44.573202,
-          "longitude": -72.770043
-        },
-        "source_record_ids": [
-          "openstreetmap:way:1228354294"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:1228354294"
-        ],
-        "confidence": "low"
       },
       "elevation_m": {
         "value": null,
@@ -350325,7 +352180,151 @@
           "openstreetmap:way:1228354294"
         ],
         "confidence": "low"
+      },
+      "overview": {
+        "value": "Smugglers' Notch spreads its alpine terrain across three Vermont mountains, with a family-oriented learning side and more demanding terrain on Madonna and Sterling. Its marked acreage is compact, but the operator also identifies extensive woods between trails",
+        "source_record_ids": [
+          "https://www.smuggs.com/resort-info/trail-map/"
+        ],
+        "confidence": "medium",
+        "batch": "official-026"
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Marked skiable terrain",
+        "value": 310,
+        "unit": "acres",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "Official source states more than 310 acres.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.smuggs.com/resort-info/trail-map/"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 78,
+        "unit": "",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.smuggs.com/resort-info/trail-map/"
+        ]
+      },
+      "mountain.mountains": {
+        "key": "mountains",
+        "label": "Developed mountains",
+        "value": 3,
+        "unit": "",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.smuggs.com/resort-info/trail-map/"
+        ]
+      },
+      "mountain.woods_area": {
+        "key": "woods_area",
+        "label": "Woods between trails",
+        "value": 750,
+        "unit": "acres",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "Official source states more than 750 acres.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than",
+        "batch": "official-026",
+        "source_record_ids": [
+          "https://www.smuggs.com/resort-info/trail-map/"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "terrain_area",
+        "label": "Marked skiable terrain",
+        "value": 310,
+        "unit": "acres",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "Official source states more than 310 acres.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 78,
+        "unit": "",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "mountains",
+        "label": "Developed mountains",
+        "value": 3,
+        "unit": "",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "woods_area",
+        "label": "Woods between trails",
+        "value": 750,
+        "unit": "acres",
+        "source": "https://www.smuggs.com/resort-info/trail-map/",
+        "note": "Official source states more than 750 acres.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than"
+      }
+    ],
+    "overview": {
+      "text": "Smugglers' Notch spreads its alpine terrain across three Vermont mountains, with a family-oriented learning side and more demanding terrain on Madonna and Sterling. Its marked acreage is compact, but the operator also identifies extensive woods between trails.",
+      "sources": [
+        "https://www.smuggs.com/resort-info/trail-map/"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:1228354294",
+        "wikidata:item:Q7546617"
+      ],
+      "source_row_count": 2,
+      "note": "Compatible names, nearly identical coordinates and the shared official domain identify the same Smugglers’ Notch resort.",
+      "evidence_url": "https://www.smuggs.com/resort-info/trail-map/"
     }
   },
   {

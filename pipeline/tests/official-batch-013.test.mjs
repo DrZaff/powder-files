@@ -45,7 +45,7 @@ test('network, approximate and station scopes remain explicit',()=>{
 
 test('official name repairs and all summaries reach public cards and guides',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1411);assert.ok(records.filter(r=>r.ov).length>=803)
+  assert.equal(records.length,1421);assert.ok(records.filter(r=>r.ov).length>=803)
   for(const e of officialBatch){
     const matches=records.filter(r=>r.id===e.id);assert.equal(matches.length,1,e.id)
     const r=matches[0];assert.equal(r.ov.text,e.summary);assert.equal(r.ov.reviewed_at,'2026-09-05')

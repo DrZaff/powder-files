@@ -1,16 +1,16 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T07:18:26.136Z
+Generated: 2026-10-04T07:30:26.177Z
 
-This audit measures the 1411 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
+This audit measures the 1421 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
 ## Headline coverage
 
-- Profiles with at least one official fact: 536
+- Profiles with at least one official fact: 546
 - Profiles without any official facts: 875
-- Profiles with an official website: 708
+- Profiles with an official website: 718
 - Profiles without an official website: 703
-- Profiles with an overview: 1347
+- Profiles with an overview: 1357
 - Profiles without an overview: 64
 - Profiles with unresolved conflicts: 107
 - Profiles with facts older than 365 days: 0
@@ -22,16 +22,16 @@ This audit measures the 1411 medium- and high-confidence public profiles. A fiel
 
 | Field | Official source | Any usable source | Conflicts | Official coverage |
 | --- | ---: | ---: | ---: | ---: |
-| vertical | 216 | 216 | 2 | 15.3% |
-| terrain area | 168 | 168 | 9 | 11.9% |
-| trails | 296 | 296 | 33 | 21.0% |
-| lifts | 240 | 240 | 17 | 17.0% |
-| summit elevation | 125 | 125 | 1 | 8.9% |
-| base elevation | 169 | 169 | 0 | 12.0% |
+| vertical | 224 | 224 | 2 | 15.8% |
+| terrain area | 168 | 168 | 9 | 11.8% |
+| trails | 305 | 305 | 33 | 21.5% |
+| lifts | 249 | 249 | 17 | 17.5% |
+| summit elevation | 134 | 134 | 1 | 9.4% |
+| base elevation | 173 | 173 | 0 | 12.2% |
 | skiing elevation | 105 | 105 | 1 | 7.4% |
-| longest run | 66 | 66 | 0 | 4.7% |
-| snowfall | 10 | 10 | 1 | 0.7% |
-| snowmaking | 53 | 53 | 0 | 3.8% |
+| longest run | 70 | 70 | 0 | 4.9% |
+| snowfall | 16 | 16 | 1 | 1.1% |
+| snowmaking | 56 | 56 | 0 | 3.9% |
 | difficulty mix | 6 | 6 | 0 | 0.4% |
 | operating season | 5 | 5 | 0 | 0.4% |
 | night skiing | 33 | 33 | 0 | 2.3% |
@@ -41,8 +41,8 @@ This audit measures the 1411 medium- and high-confidence public profiles. A fiel
 
 - Critical: 876
 - High: 138
-- Medium: 297
-- Low: 100
+- Medium: 299
+- Low: 108
 
 Priority rises for missing core facts, no official-source facts, no official website, unresolved conflicts, missing overview copy and stale observations. It is a research-order tool, not a quality grade shown to visitors. Repeated IDs and same-name records are queued for identity review rather than merged automatically.
 

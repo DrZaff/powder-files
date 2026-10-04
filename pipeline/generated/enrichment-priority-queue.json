@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:18:26.136Z",
+  "generated_at": "2026-10-04T07:30:26.177Z",
   "profiles": [
     {
       "id": "wikidata:item:Q3411128",
@@ -45601,6 +45601,46 @@
       ]
     },
     {
+      "id": "wikidata:item:Q7546617",
+      "name": "Smugglers' Notch Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.smuggs.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.smuggs.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11312602",
       "name": "Snow Par Ogna Hotaka",
       "country": "Japan",
@@ -49378,6 +49418,45 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.sapporo-kokusai.jp"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1741253",
+      "name": "Serfaus–Fiss–Ladis",
+      "country": "Austria",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.serfaus-fiss-ladis.at",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.serfaus-fiss-ladis.at"
         },
         {
           "type": "openstreetmap_topology",

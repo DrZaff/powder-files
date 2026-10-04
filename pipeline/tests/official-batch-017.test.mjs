@@ -18,7 +18,7 @@ test('seventeenth batch repairs labels while preserving candidate state',()=>{
 
 test('all batch seventeen profiles reach public cards and guides with readable names',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1411);assert.ok(records.filter(r=>r.ov).length>=1203)
+  assert.equal(records.length,1421);assert.ok(records.filter(r=>r.ov).length>=1203)
   const resolutions=new Map([['wikidata:item:Q116459866','wikidata:item:Q60726558'],['wikidata:item:Q137052565','wikidata:item:Q3368414'],['wikidata:item:Q30141184','wikidata:item:Q110914605']])
   for(const e of officialBatch){const resolved=resolutions.get(e.id)||e.id;const matches=records.filter(r=>r.id===resolved);assert.equal(matches.length,1,e.id);const r=matches[0];if(resolved===e.id){assert.equal(r.n,e.name);assert.equal(r.ov.text,e.summary);assert.equal(r.ov.reviewed_at,'2026-10-03');assert.equal(r.mf.filter(f=>f.status==='source_checked').length,0)}assert.ok(['medium','high'].includes(r.q));assert.notEqual(r.v,'verified');assert.ok(r.sx.some(s=>s.url===e.summary_sources[0]&&s.name==='wikidata'))}
   const bristol=records.find(r=>r.id==='powderfiles:verified:bristol-mountain');assert.equal(records.filter(r=>r.v==='verified').length,1);assert.equal(bristol.ov.reviewed_at,'2026-08-30');assert.equal(bristol.f.vertical_drop_ft,1200);assert.equal(bristol.f.trails,39);assert.equal(bristol.f.skiable_acres,138)
