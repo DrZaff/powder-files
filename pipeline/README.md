@@ -1,5 +1,7 @@
 # Powder Files global resort-data pipeline
 
+Latest manual enrichment: [official batch 021](./OFFICIAL-BATCH-021.md), adding source-linked facts for six profiles while preserving one first-party source conflict.
+
 This local pipeline builds a reviewable worldwide directory of active or potentially active, publicly accessible, lift-served downhill ski and snowboard areas. It is intentionally conservative: incomplete records remain candidates, and plausible duplicates enter an ambiguity queue rather than being merged without strong evidence.
 
 ## Sources and licensing

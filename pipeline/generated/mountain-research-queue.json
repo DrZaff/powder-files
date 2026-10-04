@@ -1460,8 +1460,7 @@
       "vertical",
       "area",
       "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -2819,8 +2818,7 @@
       "vertical",
       "area",
       "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -4349,9 +4347,7 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -4760,9 +4756,7 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -5381,13 +5375,33 @@
     "country": "United States",
     "official_website": "http://www.berkshireeast.com",
     "missing_official_facts": [
-      "vertical",
-      "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
-    "conflicts": [],
+    "conflicts": [
+      {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "The page headline says five lifts, while its lift-type list totals six. Powder Files preserves the disagreement rather than choosing a value.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 5,
+            "source": "https://www.berkshireeast.com/the-resort"
+          },
+          {
+            "value": 6,
+            "source": "https://www.berkshireeast.com/the-resort"
+          }
+        ]
+      }
+    ],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },
@@ -5951,7 +5965,6 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],

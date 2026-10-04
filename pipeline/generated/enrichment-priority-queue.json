@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:28:51.542Z",
+  "generated_at": "2026-10-04T06:43:08.061Z",
   "profiles": [
     {
       "id": "wikidata:item:Q3411128",
@@ -26403,88 +26403,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q4892259",
-      "name": "Berkshire East Ski Resort",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://www.berkshireeast.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.berkshireeast.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q4944773",
-      "name": "Boreal Mountain Resort",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.rideboreal.com/winter",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.rideboreal.com/winter"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3320514",
       "name": "Bosques de Monterreal",
       "country": "Mexico",
@@ -26608,47 +26526,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q4982867",
-      "name": "Buck Hill",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://www.buckhill.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.buckhill.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q63182631",
       "name": "Budoh Ski Resort",
       "country": "Japan",
@@ -26712,88 +26589,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://www.caetla.cc/winter"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q16890068",
-      "name": "Caberfae Peaks Ski & Golf Resort",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://caberfaepeaks.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://caberfaepeaks.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5018299",
-      "name": "Calabogie Peaks",
-      "country": "Canada",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://www.calabogie.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.calabogie.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -28301,47 +28096,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://bear-ski.amebaownd.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q257350",
-      "name": "Hoch-Ybrig",
-      "country": "Switzerland",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.hoch-ybrig.ch/winter",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.hoch-ybrig.ch/winter"
         },
         {
           "type": "openstreetmap_topology",
@@ -42510,6 +42264,46 @@
       ]
     },
     {
+      "id": "wikidata:item:Q4944773",
+      "name": "Boreal Mountain Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.rideboreal.com/winter",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.rideboreal.com/winter"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q4973460",
       "name": "Broken River Ski Area",
       "country": "New Zealand",
@@ -42569,6 +42363,46 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://bukovel.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5018299",
+      "name": "Calabogie Peaks",
+      "country": "Canada",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.calabogie.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.calabogie.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -43169,6 +43003,46 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://www.hintertuxergletscher.at"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q257350",
+      "name": "Hoch-Ybrig",
+      "country": "Switzerland",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.hoch-ybrig.ch/winter",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.hoch-ybrig.ch/winter"
         },
         {
           "type": "openstreetmap_topology",
@@ -47685,6 +47559,45 @@
       ]
     },
     {
+      "id": "wikidata:item:Q4982867",
+      "name": "Buck Hill",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.buckhill.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.buckhill.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q55606086",
       "name": "Buena Vista Ski Area",
       "country": "United States",
@@ -47705,6 +47618,45 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.bvskiarea.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16890068",
+      "name": "Caberfae Peaks Ski & Golf Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://caberfaepeaks.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://caberfaepeaks.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -52892,6 +52844,45 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.yeti-resort.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4892259",
+      "name": "Berkshire East Ski Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 22,
+      "missing_core_fields": [
+        "lifts",
+        "base_elevation"
+      ],
+      "conflicts": [
+        "lifts"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.berkshireeast.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.berkshireeast.com"
         },
         {
           "type": "openstreetmap_topology",

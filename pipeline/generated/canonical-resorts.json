@@ -30934,6 +30934,13 @@
         "url": "https://berkshireeast.com",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-31"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.berkshireeast.com/the-resort",
+        "url": "https://www.berkshireeast.com/the-resort",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -30978,9 +30985,310 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.vertical": {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 1180,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.area": {
+        "key": "area",
+        "label": "Skiable terrain",
+        "value": 180,
+        "unit": "acres",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 45,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.night_trails": {
+        "key": "night_trails",
+        "label": "Night-skiing trails",
+        "value": 18,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 1840,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 110,
+        "unit": "in",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.snowmaking": {
+        "key": "snowmaking",
+        "label": "Snowmaking coverage",
+        "value": 100,
+        "unit": "%",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 13200,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "30% beginner · 35% intermediate · 30% advanced · 5% expert",
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "The page headline says five lifts, while its lift-type list totals six. Powder Files preserves the disagreement rather than choosing a value.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 5,
+            "source": "https://www.berkshireeast.com/the-resort"
+          },
+          {
+            "value": 6,
+            "source": "https://www.berkshireeast.com/the-resort"
+          }
+        ],
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.berkshireeast.com/the-resort"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "vertical",
+        "label": "Vertical drop",
+        "value": 1180,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "area",
+        "label": "Skiable terrain",
+        "value": 180,
+        "unit": "acres",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 45,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "night_trails",
+        "label": "Night-skiing trails",
+        "value": 18,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Summit elevation",
+        "value": 1840,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average annual snowfall",
+        "value": 110,
+        "unit": "in",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking",
+        "label": "Snowmaking coverage",
+        "value": 100,
+        "unit": "%",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 13200,
+        "unit": "ft",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "30% beginner · 35% intermediate · 30% advanced · 5% expert",
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://www.berkshireeast.com/the-resort",
+        "note": "The page headline says five lifts, while its lift-type list totals six. Powder Files preserves the disagreement rather than choosing a value.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 5,
+            "source": "https://www.berkshireeast.com/the-resort"
+          },
+          {
+            "value": 6,
+            "source": "https://www.berkshireeast.com/the-resort"
+          }
+        ]
+      }
+    ],
     "overview": {
       "text": "Berkshire East is a four-season New England mountain whose winter side balances groomed family skiing with moguls, glades and natural-snow terrain.",
       "sources": [
@@ -39416,6 +39724,13 @@
         "url": "https://www.rideboreal.com/passes-memberships/passes-memberships-overview/comparison/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-30"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.rideboreal.com/explore/who-we-are/what-to-expect-br/",
+        "url": "https://www.rideboreal.com/explore/who-we-are/what-to-expect-br/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -39460,9 +39775,38 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 7,
+        "unit": "",
+        "source": "https://www.rideboreal.com/explore/who-we-are/what-to-expect-br/",
+        "note": "The resort notes that individual lifts operate on different schedules.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.rideboreal.com/explore/who-we-are/what-to-expect-br/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 7,
+        "unit": "",
+        "source": "https://www.rideboreal.com/explore/who-we-are/what-to-expect-br/",
+        "note": "The resort notes that individual lifts operate on different schedules.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
     "overview": {
       "text": "Boreal puts progression and evening sessions at the heart of its offering, with options for first-timers and park riders. Its published 2026–27 pass lineup includes dedicated night access.",
       "sources": [
@@ -44911,7 +45255,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T06:28:51.542Z"
+        "collected_at": "2026-10-04T06:43:08.061Z"
       },
       {
         "source": "openstreetmap",
@@ -44935,7 +45279,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T06:28:51.542Z",
+    "collection_date": "2026-10-04T06:43:08.061Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -47316,6 +47660,13 @@
         "url": "https://buckhill.com/your-guide-to-holiday-break-at-buck-hill/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-30"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "url": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -47360,9 +47711,94 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Named runs",
+        "value": 15,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official trail-map run list.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://buckhill.com/skiing-snowboarding/winter-trail-map/"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Ski-access lifts",
+        "value": 9,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official map; excludes the separately listed snow-tubing carpet and includes chairlifts, rope tows and conveyors.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://buckhill.com/skiing-snowboarding/winter-trail-map/"
+        ]
+      },
+      "mountain.parks": {
+        "key": "parks",
+        "label": "Terrain-park areas",
+        "value": 6,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official map’s terrain-park list.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://buckhill.com/skiing-snowboarding/winter-trail-map/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "trails",
+        "label": "Named runs",
+        "value": 15,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official trail-map run list.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Ski-access lifts",
+        "value": 9,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official map; excludes the separately listed snow-tubing carpet and includes chairlifts, rope tows and conveyors.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "parks",
+        "label": "Terrain-park areas",
+        "value": 6,
+        "unit": "",
+        "source": "https://buckhill.com/skiing-snowboarding/winter-trail-map/",
+        "note": "Counted from the official map’s terrain-park list.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
     "overview": {
       "text": "A lap-focused hill with learning terrain, steeper runs and a strong freestyle offering. The published holiday guide describes multiple progression parks; layouts and availability change through the season.",
       "sources": [
@@ -50295,6 +50731,13 @@
         "url": "https://caberfaepeaks.com/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-30"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://caberfaepeaks.com/snow-report/",
+        "url": "https://caberfaepeaks.com/snow-report/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -50338,9 +50781,66 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Slopes",
+        "value": 27,
+        "unit": "",
+        "source": "https://caberfaepeaks.com/snow-report/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://caberfaepeaks.com/snow-report/"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 5,
+        "unit": "",
+        "source": "https://caberfaepeaks.com/snow-report/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://caberfaepeaks.com/snow-report/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "trails",
+        "label": "Slopes",
+        "value": 27,
+        "unit": "",
+        "source": "https://caberfaepeaks.com/snow-report/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 5,
+        "unit": "",
+        "source": "https://caberfaepeaks.com/snow-report/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
     "overview": {
       "text": "A ski-and-stay option with lodging at the base of the slopes. Its resort setup makes an overnight mountain visit part of the offering, alongside day skiing.",
       "sources": [
@@ -50588,6 +51088,13 @@
         "url": "https://calabogie.com/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-30"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://calabogie.com/snow-school-faqs/",
+        "url": "https://calabogie.com/snow-school-faqs/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -50632,9 +51139,94 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 24,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://calabogie.com/snow-school-faqs/"
+        ]
+      },
+      "mountain.chairlifts": {
+        "key": "chairlifts",
+        "label": "Chairlifts",
+        "value": 2,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://calabogie.com/snow-school-faqs/"
+        ]
+      },
+      "mountain.beginner_conveyors": {
+        "key": "beginner_conveyors",
+        "label": "Beginner carpets",
+        "value": 1,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "The official FAQ describes one beginner carpet area in addition to two chairlifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://calabogie.com/snow-school-faqs/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 24,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "chairlifts",
+        "label": "Chairlifts",
+        "value": 2,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "beginner_conveyors",
+        "label": "Beginner carpets",
+        "value": 1,
+        "unit": "",
+        "source": "https://calabogie.com/snow-school-faqs/",
+        "note": "The official FAQ describes one beginner carpet area in addition to two chairlifts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
     "overview": {
       "text": "A mountain-and-lake resort with hotel rooms and condos close to the slopes. The setting combines lift-served winter days with an on-site overnight base rather than a day-area-only experience.",
       "sources": [
@@ -129673,6 +130265,13 @@
         "url": "https://www.hoch-ybrig.ch/winter/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-31"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "url": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -129718,9 +130317,94 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Listed lift installations",
+        "value": 13,
+        "unit": "",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Counted from the official installations table, including two conveyor belts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/"
+        ]
+      },
+      "mountain.highest_lift_station": {
+        "key": "highest_lift_station",
+        "label": "Highest listed lift station",
+        "value": 1831,
+        "unit": "m",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Top station of the Hesisbol chairlift; this is not claimed as the resort summit.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/"
+        ]
+      },
+      "mountain.longest_lift": {
+        "key": "longest_lift",
+        "label": "Longest listed lift",
+        "value": 2174,
+        "unit": "m",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Length of the Laucheren chairlift; this is an installation length, not a ski-run length.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-021",
+        "source_record_ids": [
+          "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "lifts",
+        "label": "Listed lift installations",
+        "value": 13,
+        "unit": "",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Counted from the official installations table, including two conveyor belts.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "highest_lift_station",
+        "label": "Highest listed lift station",
+        "value": 1831,
+        "unit": "m",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Top station of the Hesisbol chairlift; this is not claimed as the resort summit.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_lift",
+        "label": "Longest listed lift",
+        "value": 2174,
+        "unit": "m",
+        "source": "https://www.hoch-ybrig.ch/winter/gebiet/betriebszeiten-anlagen/",
+        "note": "Length of the Laucheren chairlift; this is an installation length, not a ski-run length.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
     "overview": {
       "text": "Hoch-Ybrig pairs prepared pistes and mountain panoramas with a snowpark and skicross option. Its winter offering spans family skiing and more sporting outings, while separately promoted ski tours and Nordic activities are not part of the downhill inventory.",
       "sources": [
