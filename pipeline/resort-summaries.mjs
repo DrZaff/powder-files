@@ -13,6 +13,7 @@ import { officialBatch as batch014 } from './official-batch-014.mjs'
 import { officialBatch as batch015 } from './official-batch-015.mjs'
 import { officialBatch as batch016 } from './official-batch-016.mjs'
 import { officialBatch as batch017 } from './official-batch-017.mjs'
+import { officialBatch as batch018 } from './official-batch-018.mjs'
 
 // Original editorial interpretations of checked facts, not resort marketing copy.
 // Evidence keys pin each backfilled summary to the observations that support it.
@@ -75,7 +76,7 @@ const backfill = [
 export function applyResortSummaries(records) {
   const byId = new Map(records.map(r=>[r.stable_id,r]))
   const drafts = backfill.map(([id,text,keys])=>({id:id.includes(':')?id:`wikidata:item:${id}`,text,keys,reviewed_at:'2026-08-30'}))
-  drafts.push(...[...batch003,...batch004,...batch005,...batch006,...batch007,...batch008,...batch009,...batch010,...batch011,...batch012,...batch013,...batch014,...batch015,...batch016,...batch017].map(e=>({id:e.id,text:e.summary,sources:e.summary_sources,keys:[],reviewed_at:e.summary_reviewed_at||'2026-08-30'})))
+  drafts.push(...[...batch003,...batch004,...batch005,...batch006,...batch007,...batch008,...batch009,...batch010,...batch011,...batch012,...batch013,...batch014,...batch015,...batch016,...batch017,...batch018].map(e=>({id:e.id,text:e.summary,sources:e.summary_sources,keys:[],reviewed_at:e.summary_reviewed_at||'2026-08-30'})))
   for (const draft of drafts) {
     const record=byId.get(draft.id)
     if (!record || !['medium','high'].includes(record.confidence)) throw new Error(`Summary outside public scope: ${draft.id}`)

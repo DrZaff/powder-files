@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T00:51:06.269Z",
+  "generated_at": "2026-10-04T00:59:55.217Z",
   "summary": {
-    "generated_at": "2026-10-04T00:51:06.269Z",
+    "generated_at": "2026-10-04T00:59:55.217Z",
     "total_raw": 7439,
     "canonical_count": 1521,
     "verified_count": 1,
@@ -1302,6 +1302,42 @@
         {
           "name": "official_resort",
           "url": "https://akasawa.biz"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30924462",
+      "n": "Akiyama Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        38.866056,
+        140.241833
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Akiyama is a small Japanese community ski area with a simple lift-served layout and regional winter role.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30924462"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30924462"
         }
       ]
     },
@@ -3727,6 +3763,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Araragi is a small Nagano ski area with local groomed terrain and a quiet highland atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11258599"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -4390,6 +4434,42 @@
         {
           "name": "official_resort",
           "url": "https://www.shizenkan.jp/winter-slope/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q108374158",
+      "n": "Asahiyama Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        36.724167,
+        138.478056
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Asahiyama is a small Japanese community ski area with short groomed terrain and a local winter focus.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q108374158"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108374158"
         }
       ]
     },
@@ -7149,6 +7229,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341002",
+      "n": "Biały Jar Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Karpacz",
+      "c": "Poland",
+      "p": [
+        50.7728,
+        15.7381
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Biały Jar is a developed ski area at Karpacz with convenient town access and family-oriented groomed terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341002"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341002"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q115524007",
       "n": "Bielmonte",
       "a": [],
@@ -9496,6 +9612,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Brides-les-Bains is a traditional spa-town gateway to Méribel, using gondola access to reach the Three Valleys.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1222398"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -10699,6 +10823,42 @@
         {
           "name": "official_resort",
           "url": "https://skiburke.com/the-mountain/weather-conditions"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9182445",
+      "n": "Butorowy Wierch",
+      "a": [],
+      "l": null,
+      "r": "Kościelisko",
+      "c": "Poland",
+      "p": [
+        49.3008,
+        19.9056
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Butorowy Wierch is a Zakopane-area ski slope with convenient access and broad views toward the Tatras.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9182445"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9182445"
         }
       ]
     },
@@ -12166,6 +12326,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q2943178"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q61651012",
+      "n": "Ceillac",
+      "a": [],
+      "l": null,
+      "r": "Ceillac",
+      "c": "France",
+      "p": [
+        44.666944,
+        6.776667
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Ceillac is a high Queyras village area with scenic family slopes and a quiet traditional mountain atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q61651012"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61651012"
         }
       ]
     },
@@ -13640,6 +13836,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341003",
+      "n": "Cieńków Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Malinka",
+      "c": "Poland",
+      "p": [
+        49.6322,
+        18.931
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Cieńków is a Wisła ski area with forested Beskid slopes and a developed regional-resort layout.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341003"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341003"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q48753957",
       "n": "Col de Plainpalais",
       "a": [],
@@ -13678,6 +13910,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Col de Plainpalais is a small Bauges pass area with modest local ski terrain and a quiet regional setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q48753957"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -19521,6 +19761,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q613056",
+      "n": "Fuentes de Invierno",
+      "a": [],
+      "l": null,
+      "r": "Aller",
+      "c": "Spain",
+      "p": [
+        43.063686,
+        -5.394683
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Fuentes de Invierno is an Asturian mountain resort with open Cantabrian terrain and a modern regional layout.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q613056"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q613056"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11456195",
       "n": "Fujimi Kōgen Snow Resort",
       "a": [],
@@ -20598,6 +20874,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11301640",
+      "n": "Gelände Park Sera",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        34.647694,
+        133.094583
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Gelände Park Sera is a small Japanese snow area with a local recreation focus and a compact mountain layout.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11301640"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11301640"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q5532980",
       "n": "Geneva Basin Ski Area",
       "a": [],
@@ -20660,6 +20972,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q55639779"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11301657",
+      "n": "Genze Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Fukuchiyama",
+      "c": "Japan",
+      "p": [
+        35.389722,
+        134.943056
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Genze is a small Japanese ski area whose simple slopes and community scale suit short regional outings.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11301657"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11301657"
         }
       ]
     },
@@ -21534,6 +21882,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11801642"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9283579",
+      "n": "Góra Żar Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Międzybrodzie Żywieckie",
+      "c": "Poland",
+      "p": [
+        49.7754,
+        19.222
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Góra Żar is a Polish Beskid ski area with a prominent hillside descent and expansive lake-country views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9283579"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9283579"
         }
       ]
     },
@@ -22554,6 +22938,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341004",
+      "n": "Grapa-Litwinka Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Czarna Góra",
+      "c": "Poland",
+      "p": [
+        49.3811,
+        20.1247
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Grapa-Litwinka is a family-oriented ski area at Czarna Góra with open local slopes and Tatra views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341004"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341004"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q15056401",
       "n": "Grasgehren",
       "a": [],
@@ -22892,6 +23312,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341006",
+      "n": "Gromadzyń Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Ustrzyki Dolne",
+      "c": "Poland",
+      "p": [
+        49.4193,
+        22.5956
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Gromadzyń is a compact ski area at Ustrzyki Dolne with groomed local terrain and convenient town access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341006"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341006"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1546875",
       "n": "Grossglockner Resort",
       "a": [
@@ -23023,6 +23479,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Groupe Plein Air Terrebonne operates a compact Québec winter hill oriented toward local learning and recreation.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q29025220"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -23627,6 +24091,42 @@
         {
           "name": "official_resort",
           "url": "https://www.hachi-hachikita.co.jp/hachikita/slope.html"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11391468",
+      "n": "Hachimori Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Aoba-ku",
+      "c": "Japan",
+      "p": [
+        38.302778,
+        140.609722
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Hachimori is a small Japanese ski hill centered on community winter use and approachable local terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11391468"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11391468"
         }
       ]
     },
@@ -24340,6 +24840,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Hakusan Ichirino is an Ishikawa mountain resort combining developed slopes with a hot-spring village setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11579545"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -25566,6 +26074,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11611167"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11610984",
+      "n": "Hijiriyama Panorama Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Nagano",
+      "c": "Japan",
+      "p": [
+        36.488889,
+        138.016667
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Hijiriyama Panorama is a small Nagano ski area with open local slopes and broad highland views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11610984"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11610984"
         }
       ]
     },
@@ -27976,6 +28520,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q17193547",
+      "n": "Imakane Tanekawa Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        42.423583,
+        140.070556
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Tanekawa is a compact Hokkaido community ski area with straightforward slopes and a distinctly local feel.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q17193547"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17193547"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11363807",
       "n": "Ina Ski Resort",
       "a": [],
@@ -29292,6 +29872,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9159401",
+      "n": "Jaworki-Homole Ski Arena",
+      "a": [],
+      "l": null,
+      "r": "Jaworki, Lesser Poland Voivodeship",
+      "c": "Poland",
+      "p": [
+        49.4056,
+        20.5556
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Jaworki-Homole is a compact Polish mountain area with groomed local slopes in a scenic Pieniny setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9159401"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9159401"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q14711914",
       "n": "Jay Peak Resort",
       "a": [],
@@ -29602,6 +30218,42 @@
         {
           "name": "official_resort",
           "url": "https://jkokusai.co.jp/ski/gelande_course/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341008",
+      "n": "Jurgów Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Jurgów",
+      "c": "Poland",
+      "p": [
+        49.3111,
+        20.1667
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Jurgów is a Polish foothill ski area with developed groomed terrain and scenic views toward the High Tatras.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341008"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341008"
         }
       ]
     },
@@ -30423,6 +31075,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341007",
+      "n": "Kaniówka Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Białka Tatrzańska",
+      "c": "Poland",
+      "p": [
+        49.3639,
+        20.1056
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Kaniówka is a family ski sector at Białka Tatrzańska with approachable slopes and nearby resort facilities.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341007"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341007"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q123745553",
       "n": "Kanita Ski Area",
       "a": [],
@@ -30884,6 +31572,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q109357117",
+      "n": "Kasadake Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        36.686389,
+        138.4925
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Kasadake is a compact Japanese mountain ski area whose straightforward lift layout serves regional recreation.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q109357117"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q109357117"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11677134",
       "n": "Kashimayari Snow Resort",
       "a": [
@@ -31065,6 +31789,42 @@
         {
           "name": "official_resort",
           "url": "https://katashinakogen.co.jp/facility/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q10508099",
+      "n": "Kauniainen Ski Slope",
+      "a": [],
+      "l": null,
+      "r": "Kauniainen",
+      "c": "Finland",
+      "p": [
+        60.2204,
+        24.7028
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Kauniainen is a compact urban ski slope in southern Finland, designed for learning and convenient local sessions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q10508099"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10508099"
         }
       ]
     },
@@ -32651,6 +33411,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341011",
+      "n": "Koninki Ski Station",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Poland",
+      "p": [
+        49.5753,
+        20.0672
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Koninki is a Gorce mountain ski area with forested local terrain and a traditional regional atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341011"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341011"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q85973438",
       "n": "Konjiam Resort",
       "a": [
@@ -34087,6 +34883,78 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q3202586"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497429",
+      "n": "La Bresse Brabant",
+      "a": [],
+      "l": null,
+      "r": "La Bresse",
+      "c": "France",
+      "p": [
+        47.987,
+        6.869
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "La Bresse Brabant is a small Vosges ski area with forested family slopes above the town.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3497429"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3497429"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30141101",
+      "n": "La Bresse Lispach",
+      "a": [],
+      "l": null,
+      "r": "La Bresse",
+      "c": "France",
+      "p": [
+        48.051719,
+        6.944431
+      ],
+      "w": "https://lispach.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Lispach is a small La Bresse ski sector where modest downhill slopes share a broader Vosges winter landscape.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30141101"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30141101"
         }
       ]
     },
@@ -36773,6 +37641,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341010",
+      "n": "Laskowa-Kamionna Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Laskowa",
+      "c": "Poland",
+      "p": [
+        49.7776,
+        20.4198
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Laskowa-Kamionna is a regional Polish ski area with a forested mountain descent and a compact base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341010"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341010"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q28054228",
       "n": "Laterns-Gapfohl",
       "a": [],
@@ -37034,6 +37938,42 @@
         {
           "name": "official_resort",
           "url": "https://www.laurelmountainski.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341012",
+      "n": "Laworta Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Ustrzyki Dolne",
+      "c": "Poland",
+      "p": [
+        49.4497,
+        22.5683
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Laworta is an Ustrzyki Dolne ski area with a more sporting local slope and broad Bieszczady views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341012"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341012"
         }
       ]
     },
@@ -37745,6 +38685,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q48752926",
+      "n": "Le Manon",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "France",
+      "p": [
+        46.364,
+        5.9464
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Le Manon is a very small Jura ski area where local learning slopes and natural conditions define the experience.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q48752926"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q48752926"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q2603685",
       "n": "Le Markstein",
       "a": [
@@ -38115,6 +39091,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Le Monty is a small Belgian ski slope whose local use and natural-snow conditions define its modest offering.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2738889"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -40380,6 +41364,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341013",
+      "n": "Limanowa-Ski",
+      "a": [],
+      "l": null,
+      "r": "Limanowa",
+      "c": "Poland",
+      "p": [
+        49.7242,
+        20.4539
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Limanowa-Ski is a developed regional ski area with groomed family terrain near the town of Limanowa.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341013"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341013"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q3241513",
       "n": "Linga–Pré la Joux",
       "a": [],
@@ -42062,6 +43082,42 @@
         {
           "name": "official_resort",
           "url": "https://en.tourismus.li/map/poi/skigebiet-malbun-5b0ae59a-8366-45bc-a46c-98b44840f988.html"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341014",
+      "n": "Małe Ciche Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Małe Ciche",
+      "c": "Poland",
+      "p": [
+        49.302,
+        20.0743
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Małe Ciche is a family-oriented Podhale ski area with broad groomed slopes and views toward the Tatras.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341014"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341014"
         }
       ]
     },
@@ -44770,6 +45826,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q65236153",
+      "n": "Miyagi Zao Shiroishi Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Shiroishi",
+      "c": "Japan",
+      "p": [
+        38.068333,
+        140.513889
+      ],
+      "w": "http://nposki.com",
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Miyagi Zao Shiroishi is a regional mountain area with groomed terrain on the eastern side of the Zao range.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q65236153"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q65236153"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q22119124",
       "n": "Miyagi Zao Sumikawa Snow Park",
       "a": [],
@@ -45500,6 +46592,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Mont Pesaq is a Gaspé-area ski hill with community-scale terrain in Québec’s maritime mountain landscape.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q139862087"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -45983,6 +47083,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q30158304"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3462509",
+      "n": "Montclar les 2 Vallées",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "France",
+      "p": [
+        44.398,
+        6.338
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Montclar links two southern-Alps valley sides into a varied regional ski area above a traditional village base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3462509"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3462509"
         }
       ]
     },
@@ -50331,6 +51467,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11362766",
+      "n": "Nakanohara Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Daisen",
+      "c": "Japan",
+      "p": [
+        35.394444,
+        133.5375
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Nakanohara is a Daisen-area ski sector with regional groomed terrain on the mountain’s broad slopes.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11362766"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11362766"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q97435601",
       "n": "Nakasato Kiyotsu Ski Resort",
       "a": [],
@@ -50579,6 +51751,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11353469",
+      "n": "Nanao Korosa Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Nanao",
+      "c": "Japan",
+      "p": [
+        36.975,
+        136.959167
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Nanao Korosa is a compact Ishikawa ski hill with local terrain and a community-oriented winter atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11353469"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11353469"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11381288",
       "n": "Nango Ski Area",
       "a": [],
@@ -50652,6 +51860,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q1575304"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3336010",
+      "n": "Nara",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Switzerland",
+      "p": [
+        46.4616,
+        8.92042
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Nara is a compact Swiss mountain area with village-scale lift access and a quiet local character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3336010"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3336010"
         }
       ]
     },
@@ -51535,6 +52779,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q3342177",
+      "n": "Nistos",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "France",
+      "p": [
+        42.9425,
+        0.45639
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Nistos is a small Pyrenees ski station with approachable regional slopes and an understated mountain setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3342177"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3342177"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11386108",
       "n": "Nomugitōge Ski Resort",
       "a": [
@@ -51800,6 +53080,42 @@
         {
           "name": "official_resort",
           "url": "https://www.northstarcalifornia.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9186357",
+      "n": "Nosal Ski Centre",
+      "a": [],
+      "l": null,
+      "r": "Zakopane",
+      "c": "Poland",
+      "p": [
+        49.2782,
+        19.9884
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Nosal is a historic Zakopane ski area with a compact, sporting slope profile close to town.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9186357"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9186357"
         }
       ]
     },
@@ -52888,6 +54204,42 @@
         {
           "name": "official_resort",
           "url": "https://www.ojiro.or.jp/gelande/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11459166",
+      "n": "Ojiya Yamamotoyama Kogen Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Ojiya",
+      "c": "Japan",
+      "p": [
+        37.279167,
+        138.801667
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Yamamotoyama Kogen is a small Niigata ski area with local snow-country terrain above Ojiya.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11459166"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11459166"
         }
       ]
     },
@@ -54390,6 +55742,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341016",
+      "n": "Palenica Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Szczawnica",
+      "c": "Poland",
+      "p": [
+        49.4239,
+        20.4797
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Palenica rises directly above Szczawnica, combining resort-town access with a prominent Beskid mountain slope.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341016"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341016"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q2182804",
       "n": "Palisades Tahoe",
       "a": [
@@ -54963,6 +56351,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Parpfienzalpe is a Brandnertal mountain sector serving as part of a broader Austrian lift and piste network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q134722942"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -56377,6 +57773,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q3388691",
+      "n": "Pineta",
+      "a": [],
+      "l": null,
+      "r": "Bielsa",
+      "c": "Spain",
+      "p": [
+        42.660891,
+        0.109663
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Pineta is a compact Italian mountain ski area whose local terrain favors simple outings over destination-scale exploration.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3388691"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3388691"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q115204199",
       "n": "Pipay",
       "a": [],
@@ -57107,6 +58539,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Plejsy is a Slovak mountain ski area above Krompachy with forested slopes and a regional sporting identity.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3392268"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -57727,6 +59167,42 @@
         {
           "name": "official_resort",
           "url": "https://powderridgepark.com/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3401167",
+      "n": "Prabouré",
+      "a": [],
+      "l": null,
+      "r": "Saint-Anthème",
+      "c": "France",
+      "p": [
+        45.56657,
+        3.86763
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Prabouré is a small Auvergne ski area with family slopes and a community-focused winter atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3401167"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3401167"
         }
       ]
     },
@@ -58366,34 +59842,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q10508099",
-      "n": "Q10508099",
-      "a": [],
-      "l": null,
-      "r": "Kauniainen",
-      "c": "Finland",
-      "p": [
-        60.2204,
-        24.7028
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10508099"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q105823074",
       "n": "Q105823074",
       "a": [],
@@ -58450,34 +59898,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q108374158",
-      "n": "Q108374158",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.724167,
-        138.478056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q108374158"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q108688120",
       "n": "Q108688120",
       "a": [],
@@ -58502,34 +59922,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q108688120"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q109357117",
-      "n": "Q109357117",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.686389,
-        138.4925
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q109357117"
         }
       ]
     },
@@ -58837,62 +60229,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11301640",
-      "n": "Q11301640",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        34.647694,
-        133.094583
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11301640"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11301657",
-      "n": "Q11301657",
-      "a": [],
-      "l": null,
-      "r": "Fukuchiyama",
-      "c": "Japan",
-      "p": [
-        35.389722,
-        134.943056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11301657"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11305445",
       "n": "Q11305445",
       "a": [],
@@ -59191,62 +60527,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11353469",
-      "n": "Q11353469",
-      "a": [],
-      "l": null,
-      "r": "Nanao",
-      "c": "Japan",
-      "p": [
-        36.975,
-        136.959167
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11353469"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11362766",
-      "n": "Q11362766",
-      "a": [],
-      "l": null,
-      "r": "Daisen",
-      "c": "Japan",
-      "p": [
-        35.394444,
-        133.5375
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11362766"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11363941",
       "n": "Q11363941",
       "a": [],
@@ -59331,62 +60611,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11391468",
-      "n": "Q11391468",
-      "a": [],
-      "l": null,
-      "r": "Aoba-ku",
-      "c": "Japan",
-      "p": [
-        38.302778,
-        140.609722
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11391468"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11396943",
-      "n": "Q11396943",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.441667,
-        137.036667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11396943"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11415540",
       "n": "Q11415540",
       "a": [],
@@ -59467,34 +60691,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11442556"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11459166",
-      "n": "Q11459166",
-      "a": [],
-      "l": null,
-      "r": "Ojiya",
-      "c": "Japan",
-      "p": [
-        37.279167,
-        138.801667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11459166"
         }
       ]
     },
@@ -59774,34 +60970,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11572084",
-      "n": "Q11572084",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        36.555833,
-        137.225
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11572084"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11579552",
       "n": "Q11579552",
       "a": [],
@@ -59858,34 +61026,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11579987",
-      "n": "Q11579987",
-      "a": [],
-      "l": null,
-      "r": "Nishigō-mura",
-      "c": "Japan",
-      "p": [
-        37.148333,
-        140.009444
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11579987"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11583640",
       "n": "Q11583640",
       "a": [],
@@ -59938,34 +61078,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q11589526"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11610984",
-      "n": "Q11610984",
-      "a": [],
-      "l": null,
-      "r": "Nagano",
-      "c": "Japan",
-      "p": [
-        36.488889,
-        138.016667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11610984"
         }
       ]
     },
@@ -60632,34 +61744,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q17193547",
-      "n": "Q17193547",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        42.423583,
-        140.070556
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17193547"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q17230403",
       "n": "Q17230403",
       "a": [],
@@ -60768,34 +61852,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q19392919"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q20045047",
-      "n": "Q20045047",
-      "a": [],
-      "l": null,
-      "r": "Ikeda",
-      "c": "Japan",
-      "p": [
-        35.854722,
-        136.3075
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20045047"
         }
       ]
     },
@@ -61052,34 +62108,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q30141101",
-      "n": "Q30141101",
-      "a": [],
-      "l": null,
-      "r": "La Bresse",
-      "c": "France",
-      "p": [
-        48.051719,
-        6.944431
-      ],
-      "w": "https://lispach.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30141101"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q30741179",
       "n": "Q30741179",
       "a": [],
@@ -61164,90 +62192,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q30924462",
-      "n": "Q30924462",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Japan",
-      "p": [
-        38.866056,
-        140.241833
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30924462"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q30928324",
-      "n": "Q30928324",
-      "a": [],
-      "l": null,
-      "r": "Shirataka",
-      "c": "Japan",
-      "p": [
-        38.235,
-        140.156944
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30928324"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q30928332",
-      "n": "Q30928332",
-      "a": [],
-      "l": null,
-      "r": "Okura",
-      "c": "Japan",
-      "p": [
-        38.607222,
-        140.18
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30928332"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3216776",
       "n": "Q3216776",
       "a": [],
@@ -61304,146 +62248,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3336010",
-      "n": "Q3336010",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Switzerland",
-      "p": [
-        46.4616,
-        8.92042
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3336010"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3342177",
-      "n": "Q3342177",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        42.9425,
-        0.45639
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3342177"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3388691",
-      "n": "Q3388691",
-      "a": [],
-      "l": null,
-      "r": "Bielsa",
-      "c": "Spain",
-      "p": [
-        42.660891,
-        0.109663
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3388691"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3401167",
-      "n": "Q3401167",
-      "a": [],
-      "l": null,
-      "r": "Saint-Anthème",
-      "c": "France",
-      "p": [
-        45.56657,
-        3.86763
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3401167"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3462509",
-      "n": "Q3462509",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        44.398,
-        6.338
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3462509"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3496038",
       "n": "Q3496038",
       "a": [],
@@ -61468,90 +62272,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q3496038"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3497206",
-      "n": "Q3497206",
-      "a": [],
-      "l": null,
-      "r": "Staré Město",
-      "c": "Czechia",
-      "p": [
-        50.176513,
-        16.942892
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3497206"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3497429",
-      "n": "Q3497429",
-      "a": [],
-      "l": null,
-      "r": "La Bresse",
-      "c": "France",
-      "p": [
-        47.987,
-        6.869
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3497429"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3542303",
-      "n": "Q3542303",
-      "a": [],
-      "l": null,
-      "r": "La Bollène-Vésubie",
-      "c": "France",
-      "p": [
-        43.989722,
-        7.401944
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3542303"
         }
       ]
     },
@@ -61668,90 +62388,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q48752926",
-      "n": "Q48752926",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "France",
-      "p": [
-        46.364,
-        5.9464
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48752926"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5395850",
-      "n": "Q5395850",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Finland",
-      "p": [
-        64.433444,
-        28.203323
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5395850"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5478497",
-      "n": "Q5478497",
-      "a": [],
-      "l": null,
-      "r": "Savonlinna",
-      "c": "Finland",
-      "p": [
-        61.838889,
-        28.846944
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5478497"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q55018864",
       "n": "Q55018864",
       "a": [],
@@ -61804,34 +62440,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q55031346"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q56399707",
-      "n": "Q56399707",
-      "a": [],
-      "l": null,
-      "r": "Espoo",
-      "c": "Finland",
-      "p": [
-        60.325833,
-        24.740556
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q56399707"
         }
       ]
     },
@@ -61948,62 +62556,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q613056",
-      "n": "Q613056",
-      "a": [],
-      "l": null,
-      "r": "Aller",
-      "c": "Spain",
-      "p": [
-        43.063686,
-        -5.394683
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q613056"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q61651012",
-      "n": "Q61651012",
-      "a": [],
-      "l": null,
-      "r": "Ceillac",
-      "c": "France",
-      "p": [
-        44.666944,
-        6.776667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q61651012"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q62071735",
       "n": "Q62071735",
       "a": [],
@@ -62051,34 +62603,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q62071735"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q65236153",
-      "n": "Q65236153",
-      "a": [],
-      "l": null,
-      "r": "Shiroishi",
-      "c": "Japan",
-      "p": [
-        38.068333,
-        140.513889
-      ],
-      "w": "http://nposki.com",
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q65236153"
         }
       ]
     },
@@ -62139,118 +62663,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q9159401",
-      "n": "Q9159401",
-      "a": [],
-      "l": null,
-      "r": "Jaworki, Lesser Poland Voivodeship",
-      "c": "Poland",
-      "p": [
-        49.4056,
-        20.5556
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9159401"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9182445",
-      "n": "Q9182445",
-      "a": [],
-      "l": null,
-      "r": "Kościelisko",
-      "c": "Poland",
-      "p": [
-        49.3008,
-        19.9056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9182445"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9186357",
-      "n": "Q9186357",
-      "a": [],
-      "l": null,
-      "r": "Zakopane",
-      "c": "Poland",
-      "p": [
-        49.2782,
-        19.9884
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9186357"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9209240",
-      "n": "Q9209240",
-      "a": [],
-      "l": null,
-      "r": "Bytom",
-      "c": "Poland",
-      "p": [
-        50.402842,
-        18.858912
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9209240"
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q92429093",
       "n": "Q92429093",
       "a": [],
@@ -62275,678 +62687,6 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q92429093"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9283579",
-      "n": "Q9283579",
-      "a": [],
-      "l": null,
-      "r": "Międzybrodzie Żywieckie",
-      "c": "Poland",
-      "p": [
-        49.7754,
-        19.222
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9283579"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9311965",
-      "n": "Q9311965",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Poland",
-      "p": [
-        49.474,
-        20.4978
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9311965"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9337826",
-      "n": "Q9337826",
-      "a": [],
-      "l": null,
-      "r": "Małastów",
-      "c": "Poland",
-      "p": [
-        49.5508,
-        21.2407
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9337826"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341002",
-      "n": "Q9341002",
-      "a": [],
-      "l": null,
-      "r": "Karpacz",
-      "c": "Poland",
-      "p": [
-        50.7728,
-        15.7381
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341002"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341003",
-      "n": "Q9341003",
-      "a": [],
-      "l": null,
-      "r": "Malinka",
-      "c": "Poland",
-      "p": [
-        49.6322,
-        18.931
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341003"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341004",
-      "n": "Q9341004",
-      "a": [],
-      "l": null,
-      "r": "Czarna Góra",
-      "c": "Poland",
-      "p": [
-        49.3811,
-        20.1247
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341004"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341006",
-      "n": "Q9341006",
-      "a": [],
-      "l": null,
-      "r": "Ustrzyki Dolne",
-      "c": "Poland",
-      "p": [
-        49.4193,
-        22.5956
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341006"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341007",
-      "n": "Q9341007",
-      "a": [],
-      "l": null,
-      "r": "Białka Tatrzańska",
-      "c": "Poland",
-      "p": [
-        49.3639,
-        20.1056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341007"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341008",
-      "n": "Q9341008",
-      "a": [],
-      "l": null,
-      "r": "Jurgów",
-      "c": "Poland",
-      "p": [
-        49.3111,
-        20.1667
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341008"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341010",
-      "n": "Q9341010",
-      "a": [],
-      "l": null,
-      "r": "Laskowa",
-      "c": "Poland",
-      "p": [
-        49.7776,
-        20.4198
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341010"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341011",
-      "n": "Q9341011",
-      "a": [],
-      "l": null,
-      "r": null,
-      "c": "Poland",
-      "p": [
-        49.5753,
-        20.0672
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341011"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341012",
-      "n": "Q9341012",
-      "a": [],
-      "l": null,
-      "r": "Ustrzyki Dolne",
-      "c": "Poland",
-      "p": [
-        49.4497,
-        22.5683
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341012"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341013",
-      "n": "Q9341013",
-      "a": [],
-      "l": null,
-      "r": "Limanowa",
-      "c": "Poland",
-      "p": [
-        49.7242,
-        20.4539
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341013"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341014",
-      "n": "Q9341014",
-      "a": [],
-      "l": null,
-      "r": "Małe Ciche",
-      "c": "Poland",
-      "p": [
-        49.302,
-        20.0743
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341014"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341016",
-      "n": "Q9341016",
-      "a": [],
-      "l": null,
-      "r": "Szczawnica",
-      "c": "Poland",
-      "p": [
-        49.4239,
-        20.4797
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341016"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341017",
-      "n": "Q9341017",
-      "a": [],
-      "l": null,
-      "r": "Bukowina Tatrzańska",
-      "c": "Poland",
-      "p": [
-        49.3526,
-        20.0982
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341017"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341018",
-      "n": "Q9341018",
-      "a": [],
-      "l": null,
-      "r": "Wisła",
-      "c": "Poland",
-      "p": [
-        49.6417,
-        18.8177
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341018"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341019",
-      "n": "Q9341019",
-      "a": [],
-      "l": null,
-      "r": "Bałtów",
-      "c": "Poland",
-      "p": [
-        51.0148,
-        21.5509
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341019"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341020",
-      "n": "Q9341020",
-      "a": [],
-      "l": null,
-      "r": "Suche, Lesser Poland Voivodeship",
-      "c": "Poland",
-      "p": [
-        49.3372,
-        19.9772
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341020"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341021",
-      "n": "Q9341021",
-      "a": [],
-      "l": null,
-      "r": "Tylicz",
-      "c": "Poland",
-      "p": [
-        49.3839,
-        20.9952
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341021"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341022",
-      "n": "Q9341022",
-      "a": [],
-      "l": null,
-      "r": "Bukowina Tatrzańska",
-      "c": "Poland",
-      "p": [
-        49.3338,
-        20.092
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341022"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341024",
-      "n": "Q9341024",
-      "a": [],
-      "l": null,
-      "r": "Myślenice",
-      "c": "Poland",
-      "p": [
-        49.7997,
-        19.9487
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341024"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q9341028",
-      "n": "Q9341028",
-      "a": [],
-      "l": null,
-      "r": "Kasina Wielka",
-      "c": "Poland",
-      "p": [
-        49.7189,
-        20.1523
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9341028"
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q97220147",
-      "n": "Q97220147",
-      "a": [],
-      "l": null,
-      "r": "Wassamu",
-      "c": "Japan",
-      "p": [
-        43.968333,
-        142.473056
-      ],
-      "w": null,
-      "s": "unknown",
-      "t": "downhill_or_mixed",
-      "f": {},
-      "mf": [],
-      "v": "candidate",
-      "q": "medium",
-      "x": [
-        "wikidata"
-      ],
-      "sx": [
-        {
-          "name": "wikidata",
-          "url": "https://www.wikidata.org/wiki/Q97220147"
         }
       ]
     },
@@ -64020,6 +63760,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9311965",
+      "n": "Rokita Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Poland",
+      "p": [
+        49.474,
+        20.4978
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Rokita is a small Beskid Sądecki ski area with straightforward local terrain and a community mountain feel.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9311965"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9311965"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11392464",
       "n": "Rokko Snow Park",
       "a": [
@@ -64594,6 +64370,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341017",
+      "n": "Rusiń-Ski",
+      "a": [],
+      "l": null,
+      "r": "Bukowina Tatrzańska",
+      "c": "Poland",
+      "p": [
+        49.3526,
+        20.0982
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Rusiń-Ski is a developed family area at Bukowina Tatrzańska with open slopes and wide Tatra panoramas.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341017"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341017"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q18661776",
       "n": "Ruskotunturi",
       "a": [],
@@ -64763,6 +64575,42 @@
         {
           "name": "official_resort",
           "url": "https://rusutsu.com/blog/032/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5478497",
+      "n": "Ruunarinteet",
+      "a": [],
+      "l": null,
+      "r": "Savonlinna",
+      "c": "Finland",
+      "p": [
+        61.838889,
+        28.846944
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Ruunarinteet is a compact ski centre at Savonlinna, supporting family outings, instruction and local laps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5478497"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5478497"
         }
       ]
     },
@@ -66157,6 +66005,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Saint-Martin-d’Entraunes is a small southern-Alps village area with local lift-served terrain and a quiet valley character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q865733"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -67251,6 +67107,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Sand is a small Black Forest ski area near Bühl, focused on local slopes and conditions-dependent winter use.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2220325"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -68002,6 +67866,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11572084",
+      "n": "Sarukurayama Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        36.555833,
+        137.225
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Sarukurayama is a compact Japanese ski hill whose local slopes serve family and community recreation.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11572084"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11572084"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q5712297",
       "n": "Sasquatch Mountain Resort",
       "a": [
@@ -68086,6 +67986,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q24874956"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5395850",
+      "n": "Saukkovaara",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Finland",
+      "p": [
+        64.433444,
+        28.203323
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Saukkovaara is a Finnish regional ski hill with compact groomed terrain and a quiet local-resort format.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5395850"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5395850"
         }
       ]
     },
@@ -68979,6 +68915,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q56399707",
+      "n": "Serena Ski",
+      "a": [],
+      "l": null,
+      "r": "Espoo",
+      "c": "Finland",
+      "p": [
+        60.325833,
+        24.740556
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Serena Ski is a southern Finnish ski centre near Espoo with accessible groomed slopes and a developed recreation base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q56399707"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q56399707"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q2274046",
       "n": "Serre Chevalier",
       "a": [],
@@ -69591,6 +69563,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q20045047",
+      "n": "Shinbo Family Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Ikeda",
+      "c": "Japan",
+      "p": [
+        35.854722,
+        136.3075
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Shinbo Family is a small Japanese ski hill designed for approachable local outings and beginner progression.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q20045047"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20045047"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q60780874",
       "n": "Shingo Daiichi",
       "a": [],
@@ -69606,6 +69614,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Shingo Daiichi is a compact Okayama ski area serving regional winter outings and straightforward local laps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q60780874"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -69656,6 +69672,42 @@
         {
           "name": "official_resort",
           "url": "https://www.town.shintotsukawa.lg.jp/kanko/detail/00003261.html"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q97220147",
+      "n": "Shiokari Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Wassamu",
+      "c": "Japan",
+      "p": [
+        43.968333,
+        142.473056
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Shiokari is a small northern Hokkaido ski area with local slopes and a quiet railway-pass setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q97220147"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97220147"
         }
       ]
     },
@@ -69879,6 +69931,78 @@
         {
           "name": "official_resort",
           "url": "https://royalhill.co.jp/gelande/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11579987",
+      "n": "Shirakawa Kogen Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Nishigō-mura",
+      "c": "Japan",
+      "p": [
+        37.148333,
+        140.009444
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Shirakawa Kogen is a regional Japanese ski area with a modest lift layout and quiet highland setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11579987"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11579987"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30928324",
+      "n": "Shirataka Municipal Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Shirataka",
+      "c": "Japan",
+      "p": [
+        38.235,
+        140.156944
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Shirataka is a Yamagata municipal ski area focused on local access, training and family recreation.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30928324"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30928324"
         }
       ]
     },
@@ -74050,6 +74174,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9337826",
+      "n": "SkiPark Magura",
+      "a": [],
+      "l": null,
+      "r": "Małastów",
+      "c": "Poland",
+      "p": [
+        49.5508,
+        21.2407
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "SkiPark Magura is a forested Polish mountain area with groomed regional slopes on Magura Małastowska.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9337826"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9337826"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q135969887",
       "n": "Skizentrum Angertal",
       "a": [],
@@ -74438,6 +74598,42 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q116279780"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341028",
+      "n": "Śnieżnica Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Kasina Wielka",
+      "c": "Poland",
+      "p": [
+        49.7189,
+        20.1523
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Śnieżnica is a forested Polish mountain area at Kasina Wielka with a substantial regional descent.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341028"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341028"
         }
       ]
     },
@@ -76433,6 +76629,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341018",
+      "n": "Soszów Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Wisła",
+      "c": "Poland",
+      "p": [
+        49.6417,
+        18.8177
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Soszów is a forested Wisła ski area with a traditional Beskid layout and regional day-resort character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341018"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341018"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q2554578",
       "n": "Speikboden",
       "a": [],
@@ -76672,6 +76904,42 @@
         {
           "name": "official_resort",
           "url": "https://spiritmt.com/winter/snow-report/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9209240",
+      "n": "Sport Dolina Bytom",
+      "a": [],
+      "l": null,
+      "r": "Bytom",
+      "c": "Poland",
+      "p": [
+        50.402842,
+        18.858912
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Sport Dolina is an urban Polish ski centre designed for convenient local instruction and short groomed sessions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9209240"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9209240"
         }
       ]
     },
@@ -77197,6 +77465,42 @@
         {
           "name": "official_resort",
           "url": "https://starivrh.si/o-smuciscu/"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497206",
+      "n": "Staroměstsko",
+      "a": [],
+      "l": null,
+      "r": "Staré Město",
+      "c": "Czechia",
+      "p": [
+        50.176513,
+        16.942892
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Staroměstsko is a Czech mountain-region ski identity covering local slopes around Staré Město rather than one single resort pod.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3497206"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3497206"
         }
       ]
     },
@@ -78526,6 +78830,42 @@
         {
           "name": "official_resort",
           "url": "https://www.stuben-arlberg.at/en/ski-vacation-arlberg"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341020",
+      "n": "Suche Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Suche, Lesser Poland Voivodeship",
+      "c": "Poland",
+      "p": [
+        49.3372,
+        19.9772
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Suche is a small Podhale ski area with groomed family terrain and convenient access near Zakopane.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341020"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341020"
         }
       ]
     },
@@ -80087,6 +80427,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341019",
+      "n": "Szwajcaria Bałtowska",
+      "a": [],
+      "l": null,
+      "r": "Bałtów",
+      "c": "Poland",
+      "p": [
+        51.0148,
+        21.5509
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Szwajcaria Bałtowska is a compact Polish recreation centre with family skiing and a purpose-built visitor base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341019"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341019"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q9341015",
       "n": "Szymoszkowa Chairlift",
       "a": [],
@@ -80571,6 +80947,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Tala Guilef is an Algerian mountain resort identity in the Djurdjura, distinguished by its highland forest setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q116159835"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -81191,6 +81575,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Tegatayama is a small Akita ski hill oriented toward community use, instruction and short regional sessions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q110941628"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -82234,6 +82626,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Tikjda is an Algerian mountain resort in the Djurdjura with dramatic limestone scenery and conditions-dependent snow terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3528392"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -82608,6 +83008,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11396943",
+      "n": "Toga Ski Area",
+      "a": [],
+      "l": null,
+      "r": null,
+      "c": "Japan",
+      "p": [
+        36.441667,
+        137.036667
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Toga is a compact Toyama mountain ski area with a remote village setting and regional character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11396943"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11396943"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11496656",
       "n": "Togakushi Ski Field",
       "a": [
@@ -82886,6 +83322,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Tre Nevi is an Abruzzo regional ski identity grouping mountain areas rather than describing one continuous lift network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3998065"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -82914,6 +83358,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Trije Kralji is a Slovenian Pohorje ski area with forested regional slopes and a quiet mountain base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7841937"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -83030,6 +83482,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Tsey is a Caucasus mountain resort in North Ossetia with dramatic valley scenery and lift-served alpine terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3541511"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -83060,6 +83520,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Tsigov Chark is a Bulgarian mountain resort area near Batak Reservoir with compact regional ski facilities.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7849656"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -83303,6 +83771,78 @@
       ]
     },
     {
+      "id": "wikidata:item:Q3542303",
+      "n": "Turini–Camp d’Argent",
+      "a": [],
+      "l": null,
+      "r": "La Bollène-Vésubie",
+      "c": "France",
+      "p": [
+        43.989722,
+        7.401944
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Turini–Camp d’Argent is a small southern-Alps station with open pass terrain and a distinctly Mediterranean hinterland setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3542303"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3542303"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9341022",
+      "n": "Turnia Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Bukowina Tatrzańska",
+      "c": "Poland",
+      "p": [
+        49.3338,
+        20.092
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Turnia is a compact Bukowina Tatrzańska ski area with approachable slopes and local resort access.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341022"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341022"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q7856127",
       "n": "Turoa",
       "a": [
@@ -83508,6 +84048,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341021",
+      "n": "Tylicz Ski Station",
+      "a": [],
+      "l": null,
+      "r": "Tylicz",
+      "c": "Poland",
+      "p": [
+        49.3839,
+        20.9952
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Tylicz Ski is a family-oriented mountain area with groomed slopes and a developed base near Krynica-Zdrój.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341021"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341021"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11358355",
       "n": "Uenohara ski area",
       "a": [],
@@ -83523,6 +84099,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Uenohara is a small Japanese ski area near Daisen with a local mountain layout and regional winter focus.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q11358355"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -83587,6 +84171,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Ullådalen is a quieter Åre mountain sector with access to the wider resort network and a more natural valley setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q10708794"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -83656,6 +84248,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Unterstmatt is a compact Black Forest ski area with local groomed slopes near the Schwarzwaldhochstraße.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1436024"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -84451,6 +85051,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Val-Louron is a family-oriented Pyrenees resort with a compact pedestrian base and approachable mountain terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q3553369"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -86356,6 +86964,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "VyshHora is a compact urban-edge ski area near Kyiv, focused on convenient lessons and short groomed laps.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16902808"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -86502,6 +87118,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Warth-Schröcken is a snow-rich Arlberg resort area with high village bases and links into a much wider ski network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q23050128"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -86811,6 +87435,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Welli Hilli is a developed South Korean mountain resort with groomed slopes and a substantial lodging base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q61099801"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -87169,6 +87801,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Whitecap Mountain is a northern Wisconsin ski area with several forested peaks and an independent regional atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q7995758"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -88444,6 +89084,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Witów is a compact Podhale ski area with family terrain and wide views toward the Western Tatras.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341023"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -88986,6 +89634,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Yad Moss is a volunteer-run English ski area with exposed Pennine terrain and operation governed by natural snow.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q61152389"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -89168,6 +89824,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Yam is an Iranian regional ski area with open mountain slopes and a straightforward local-resort character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q26709212"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -89337,6 +90001,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zao Onsen is a major Japanese mountain resort combining an extensive lift network with a historic hot-spring town.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q8047625"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -89368,6 +90040,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Yangdok is a North Korean mountain resort combining lift-served winter slopes with a purpose-built hot-spring complex.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q131129575"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -89907,6 +90587,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q30928332",
+      "n": "Yunodai Ski Area",
+      "a": [],
+      "l": null,
+      "r": "Okura",
+      "c": "Japan",
+      "p": [
+        38.607222,
+        140.18
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Yunodai is a compact Japanese ski area with community-scale terrain in a regional snow-country setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q30928332"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30928332"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q11563406",
       "n": "Yunomaru Ski Resort",
       "a": [],
@@ -90156,6 +90872,42 @@
       ]
     },
     {
+      "id": "wikidata:item:Q9341024",
+      "n": "Zarabie Sport",
+      "a": [],
+      "l": null,
+      "r": "Myślenice",
+      "c": "Poland",
+      "p": [
+        49.7997,
+        19.9487
+      ],
+      "w": null,
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [],
+      "ov": {
+        "text": "Zarabie Sport is a small ski area at Myślenice offering convenient regional slopes near Kraków.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q9341024"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "medium",
+      "x": [
+        "wikidata"
+      ],
+      "sx": [
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9341024"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q17099813",
       "n": "Zarosliak",
       "a": [],
@@ -90171,6 +90923,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zarosliak is a Ukrainian Carpathian mountain base associated with local lift-served skiing and access toward Hoverla.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q17099813"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -90199,6 +90959,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zavyalikha is a Russian Ural mountain ski area with a developed lift network and a regional destination role.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2228311"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -90227,6 +90995,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zettersfeld is a sunny East Tyrol ski area above Lienz with open alpine slopes and broad mountain views.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q196894"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -90284,6 +91060,14 @@
           "license": "CC0-1.0"
         }
       ],
+      "ov": {
+        "text": "Zieleniec is a major Polish Sudetes resort with numerous local sectors and a developed mountain-village base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q198963"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -90317,6 +91101,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zillertal 3000 is a broad Austrian ski network linking several Mayrhofen-area mountain sectors.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2292145"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [
@@ -90481,6 +91273,14 @@
       "t": "downhill_or_mixed",
       "f": {},
       "mf": [],
+      "ov": {
+        "text": "Zwieselalm is a Dachstein West mountain sector with scenic alpine cruising and views toward the Gosaukamm.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q244664"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary"
+      },
       "v": "candidate",
       "q": "medium",
       "x": [

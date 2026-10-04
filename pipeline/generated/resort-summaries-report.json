@@ -1,5 +1,5 @@
 {
-  "summarized_profiles": 1203,
+  "summarized_profiles": 1303,
   "reviewed_at": "2026-10-03",
   "profiles": [
     {
@@ -10865,6 +10865,906 @@
       "text": "Linga–Pré la Joux is a major Châtel sector with direct links toward Avoriaz and the wider Portes du Soleil.",
       "sources": [
         "https://www.wikidata.org/wiki/Q3241513"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3336010",
+      "text": "Nara is a compact Swiss mountain area with village-scale lift access and a quiet local character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3336010"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3342177",
+      "text": "Nistos is a small Pyrenees ski station with approachable regional slopes and an understated mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3342177"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3388691",
+      "text": "Pineta is a compact Italian mountain ski area whose local terrain favors simple outings over destination-scale exploration.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3388691"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3401167",
+      "text": "Prabouré is a small Auvergne ski area with family slopes and a community-focused winter atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3401167"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3462509",
+      "text": "Montclar links two southern-Alps valley sides into a varied regional ski area above a traditional village base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3462509"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3497206",
+      "text": "Staroměstsko is a Czech mountain-region ski identity covering local slopes around Staré Město rather than one single resort pod.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3497206"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3497429",
+      "text": "La Bresse Brabant is a small Vosges ski area with forested family slopes above the town.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3497429"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3542303",
+      "text": "Turini–Camp d’Argent is a small southern-Alps station with open pass terrain and a distinctly Mediterranean hinterland setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3542303"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q48752926",
+      "text": "Le Manon is a very small Jura ski area where local learning slopes and natural conditions define the experience.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q48752926"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q5395850",
+      "text": "Saukkovaara is a Finnish regional ski hill with compact groomed terrain and a quiet local-resort format.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5395850"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q5478497",
+      "text": "Ruunarinteet is a compact ski centre at Savonlinna, supporting family outings, instruction and local laps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5478497"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q56399707",
+      "text": "Serena Ski is a southern Finnish ski centre near Espoo with accessible groomed slopes and a developed recreation base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q56399707"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q613056",
+      "text": "Fuentes de Invierno is an Asturian mountain resort with open Cantabrian terrain and a modern regional layout.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q613056"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q61651012",
+      "text": "Ceillac is a high Queyras village area with scenic family slopes and a quiet traditional mountain atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q61651012"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q65236153",
+      "text": "Miyagi Zao Shiroishi is a regional mountain area with groomed terrain on the eastern side of the Zao range.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q65236153"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9159401",
+      "text": "Jaworki-Homole is a compact Polish mountain area with groomed local slopes in a scenic Pieniny setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9159401"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9182445",
+      "text": "Butorowy Wierch is a Zakopane-area ski slope with convenient access and broad views toward the Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9182445"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9186357",
+      "text": "Nosal is a historic Zakopane ski area with a compact, sporting slope profile close to town.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9186357"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9209240",
+      "text": "Sport Dolina is an urban Polish ski centre designed for convenient local instruction and short groomed sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9209240"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9283579",
+      "text": "Góra Żar is a Polish Beskid ski area with a prominent hillside descent and expansive lake-country views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9283579"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9311965",
+      "text": "Rokita is a small Beskid Sądecki ski area with straightforward local terrain and a community mountain feel.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9311965"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9337826",
+      "text": "SkiPark Magura is a forested Polish mountain area with groomed regional slopes on Magura Małastowska.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9337826"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341002",
+      "text": "Biały Jar is a developed ski area at Karpacz with convenient town access and family-oriented groomed terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341002"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341003",
+      "text": "Cieńków is a Wisła ski area with forested Beskid slopes and a developed regional-resort layout.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341003"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341004",
+      "text": "Grapa-Litwinka is a family-oriented ski area at Czarna Góra with open local slopes and Tatra views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341004"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341006",
+      "text": "Gromadzyń is a compact ski area at Ustrzyki Dolne with groomed local terrain and convenient town access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341006"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341007",
+      "text": "Kaniówka is a family ski sector at Białka Tatrzańska with approachable slopes and nearby resort facilities.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341007"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341008",
+      "text": "Jurgów is a Polish foothill ski area with developed groomed terrain and scenic views toward the High Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341008"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341010",
+      "text": "Laskowa-Kamionna is a regional Polish ski area with a forested mountain descent and a compact base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341010"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341011",
+      "text": "Koninki is a Gorce mountain ski area with forested local terrain and a traditional regional atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341011"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341012",
+      "text": "Laworta is an Ustrzyki Dolne ski area with a more sporting local slope and broad Bieszczady views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341012"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341013",
+      "text": "Limanowa-Ski is a developed regional ski area with groomed family terrain near the town of Limanowa.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341013"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341014",
+      "text": "Małe Ciche is a family-oriented Podhale ski area with broad groomed slopes and views toward the Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341014"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341016",
+      "text": "Palenica rises directly above Szczawnica, combining resort-town access with a prominent Beskid mountain slope.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341016"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341017",
+      "text": "Rusiń-Ski is a developed family area at Bukowina Tatrzańska with open slopes and wide Tatra panoramas.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341017"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341018",
+      "text": "Soszów is a forested Wisła ski area with a traditional Beskid layout and regional day-resort character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341018"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341019",
+      "text": "Szwajcaria Bałtowska is a compact Polish recreation centre with family skiing and a purpose-built visitor base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341019"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341020",
+      "text": "Suche is a small Podhale ski area with groomed family terrain and convenient access near Zakopane.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341020"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341021",
+      "text": "Tylicz Ski is a family-oriented mountain area with groomed slopes and a developed base near Krynica-Zdrój.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341021"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341022",
+      "text": "Turnia is a compact Bukowina Tatrzańska ski area with approachable slopes and local resort access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341022"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341024",
+      "text": "Zarabie Sport is a small ski area at Myślenice offering convenient regional slopes near Kraków.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341024"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341028",
+      "text": "Śnieżnica is a forested Polish mountain area at Kasina Wielka with a substantial regional descent.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341028"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30141101",
+      "text": "Lispach is a small La Bresse ski sector where modest downhill slopes share a broader Vosges winter landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141101"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11258599",
+      "text": "Araragi is a small Nagano ski area with local groomed terrain and a quiet highland atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11258599"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q1222398",
+      "text": "Brides-les-Bains is a traditional spa-town gateway to Méribel, using gondola access to reach the Three Valleys.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1222398"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q29025220",
+      "text": "Groupe Plein Air Terrebonne operates a compact Québec winter hill oriented toward local learning and recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q29025220"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11579545",
+      "text": "Hakusan Ichirino is an Ishikawa mountain resort combining developed slopes with a hot-spring village setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11579545"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2738889",
+      "text": "Le Monty is a small Belgian ski slope whose local use and natural-snow conditions define its modest offering.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2738889"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q139862087",
+      "text": "Mont Pesaq is a Gaspé-area ski hill with community-scale terrain in Québec’s maritime mountain landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q139862087"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q134722942",
+      "text": "Parpfienzalpe is a Brandnertal mountain sector serving as part of a broader Austrian lift and piste network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q134722942"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3392268",
+      "text": "Plejsy is a Slovak mountain ski area above Krompachy with forested slopes and a regional sporting identity.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3392268"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q865733",
+      "text": "Saint-Martin-d’Entraunes is a small southern-Alps village area with local lift-served terrain and a quiet valley character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q865733"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2220325",
+      "text": "Sand is a small Black Forest ski area near Bühl, focused on local slopes and conditions-dependent winter use.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2220325"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q60780874",
+      "text": "Shingo Daiichi is a compact Okayama ski area serving regional winter outings and straightforward local laps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q60780874"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q116159835",
+      "text": "Tala Guilef is an Algerian mountain resort identity in the Djurdjura, distinguished by its highland forest setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116159835"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q110941628",
+      "text": "Tegatayama is a small Akita ski hill oriented toward community use, instruction and short regional sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q110941628"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3528392",
+      "text": "Tikjda is an Algerian mountain resort in the Djurdjura with dramatic limestone scenery and conditions-dependent snow terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3528392"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3998065",
+      "text": "Tre Nevi is an Abruzzo regional ski identity grouping mountain areas rather than describing one continuous lift network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3998065"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q7841937",
+      "text": "Trije Kralji is a Slovenian Pohorje ski area with forested regional slopes and a quiet mountain base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7841937"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3541511",
+      "text": "Tsey is a Caucasus mountain resort in North Ossetia with dramatic valley scenery and lift-served alpine terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3541511"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q7849656",
+      "text": "Tsigov Chark is a Bulgarian mountain resort area near Batak Reservoir with compact regional ski facilities.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7849656"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11358355",
+      "text": "Uenohara is a small Japanese ski area near Daisen with a local mountain layout and regional winter focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11358355"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q10708794",
+      "text": "Ullådalen is a quieter Åre mountain sector with access to the wider resort network and a more natural valley setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10708794"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q1436024",
+      "text": "Unterstmatt is a compact Black Forest ski area with local groomed slopes near the Schwarzwaldhochstraße.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1436024"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3553369",
+      "text": "Val-Louron is a family-oriented Pyrenees resort with a compact pedestrian base and approachable mountain terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3553369"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16902808",
+      "text": "VyshHora is a compact urban-edge ski area near Kyiv, focused on convenient lessons and short groomed laps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16902808"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q23050128",
+      "text": "Warth-Schröcken is a snow-rich Arlberg resort area with high village bases and links into a much wider ski network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23050128"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q61099801",
+      "text": "Welli Hilli is a developed South Korean mountain resort with groomed slopes and a substantial lodging base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q61099801"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q7995758",
+      "text": "Whitecap Mountain is a northern Wisconsin ski area with several forested peaks and an independent regional atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7995758"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q9341023",
+      "text": "Witów is a compact Podhale ski area with family terrain and wide views toward the Western Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9341023"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q61152389",
+      "text": "Yad Moss is a volunteer-run English ski area with exposed Pennine terrain and operation governed by natural snow.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q61152389"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q26709212",
+      "text": "Yam is an Iranian regional ski area with open mountain slopes and a straightforward local-resort character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q26709212"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q8047625",
+      "text": "Zao Onsen is a major Japanese mountain resort combining an extensive lift network with a historic hot-spring town.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8047625"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q131129575",
+      "text": "Yangdok is a North Korean mountain resort combining lift-served winter slopes with a purpose-built hot-spring complex.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131129575"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17099813",
+      "text": "Zarosliak is a Ukrainian Carpathian mountain base associated with local lift-served skiing and access toward Hoverla.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17099813"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2228311",
+      "text": "Zavyalikha is a Russian Ural mountain ski area with a developed lift network and a regional destination role.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2228311"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q196894",
+      "text": "Zettersfeld is a sunny East Tyrol ski area above Lienz with open alpine slopes and broad mountain views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q196894"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q198963",
+      "text": "Zieleniec is a major Polish Sudetes resort with numerous local sectors and a developed mountain-village base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q198963"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2292145",
+      "text": "Zillertal 3000 is a broad Austrian ski network linking several Mayrhofen-area mountain sectors.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292145"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q244664",
+      "text": "Zwieselalm is a Dachstein West mountain sector with scenic alpine cruising and views toward the Gosaukamm.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q244664"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q48753957",
+      "text": "Col de Plainpalais is a small Bauges pass area with modest local ski terrain and a quiet regional setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q48753957"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q10508099",
+      "text": "Kauniainen is a compact urban ski slope in southern Finland, designed for learning and convenient local sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10508099"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q108374158",
+      "text": "Asahiyama is a small Japanese community ski area with short groomed terrain and a local winter focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q108374158"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q109357117",
+      "text": "Kasadake is a compact Japanese mountain ski area whose straightforward lift layout serves regional recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109357117"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11301640",
+      "text": "Gelände Park Sera is a small Japanese snow area with a local recreation focus and a compact mountain layout.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11301640"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11301657",
+      "text": "Genze is a small Japanese ski area whose simple slopes and community scale suit short regional outings.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11301657"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11353469",
+      "text": "Nanao Korosa is a compact Ishikawa ski hill with local terrain and a community-oriented winter atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11353469"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11362766",
+      "text": "Nakanohara is a Daisen-area ski sector with regional groomed terrain on the mountain’s broad slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11362766"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11391468",
+      "text": "Hachimori is a small Japanese ski hill centered on community winter use and approachable local terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11391468"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11396943",
+      "text": "Toga is a compact Toyama mountain ski area with a remote village setting and regional character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11396943"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11459166",
+      "text": "Yamamotoyama Kogen is a small Niigata ski area with local snow-country terrain above Ojiya.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11459166"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11572084",
+      "text": "Sarukurayama is a compact Japanese ski hill whose local slopes serve family and community recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11572084"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11579987",
+      "text": "Shirakawa Kogen is a regional Japanese ski area with a modest lift layout and quiet highland setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11579987"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11610984",
+      "text": "Hijiriyama Panorama is a small Nagano ski area with open local slopes and broad highland views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11610984"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17193547",
+      "text": "Tanekawa is a compact Hokkaido community ski area with straightforward slopes and a distinctly local feel.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17193547"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q20045047",
+      "text": "Shinbo Family is a small Japanese ski hill designed for approachable local outings and beginner progression.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20045047"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30924462",
+      "text": "Akiyama is a small Japanese community ski area with a simple lift-served layout and regional winter role.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30924462"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30928324",
+      "text": "Shirataka is a Yamagata municipal ski area focused on local access, training and family recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30928324"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30928332",
+      "text": "Yunodai is a compact Japanese ski area with community-scale terrain in a regional snow-country setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30928332"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q97220147",
+      "text": "Shiokari is a small northern Hokkaido ski area with local slopes and a quiet railway-pass setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q97220147"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
