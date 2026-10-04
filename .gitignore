@@ -4,3 +4,5 @@ dist/
 .env.*
 !.env.example
 *.log
+pipeline/cache/*
+!pipeline/cache/.gitkeep

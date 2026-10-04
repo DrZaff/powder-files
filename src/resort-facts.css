@@ -1,0 +1,37 @@
+/* Field-guide accent palette: pine, slate blue and warm amber. */
+.global-card{grid-template-columns:145px minmax(0,1fr) auto}
+.global-card .resort-card-main{display:block;min-width:0}
+.resort-card-heading{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.confidence-caption{font-size:.65rem;color:var(--slate);text-transform:capitalize}
+.resort-stat-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem;margin-top:1rem}
+.resort-stat-tile{display:flex;flex-direction:column;gap:.35rem;padding:.8rem;border:1px solid transparent;border-radius:.65rem;min-width:0;text-decoration:none;transition:box-shadow .15s,transform .15s}
+.tone-vertical{background:#e8f1eb;color:#214d3c;border-color:#c5d9ca}
+.tone-area{background:#e9f0f5;color:#294e63;border-color:#c8d9e4}
+.tone-trails{background:#faf0da;color:#6c4817;border-color:#e6d3ac}
+.tile-label{display:flex;gap:.35rem;align-items:flex-start;font-size:.67rem;font-weight:700;line-height:1.35}
+.tile-label svg{width:15px;height:15px;flex:none}
+.resort-stat-tile strong{font:700 1.25rem var(--font-display);line-height:1.2;overflow-wrap:anywhere}
+.tile-foot{display:flex;align-items:center;gap:.25rem;font-size:.61rem}
+.tile-foot svg{width:11px;height:11px}
+.tile-period{font-size:.65rem;line-height:1.4;font-weight:600;overflow-wrap:anywhere}
+.fact-period{font-weight:700}
+a.resort-stat-tile:hover{transform:translateY(-2px);box-shadow:0 4px 12px #173c2c18}
+a.resort-stat-tile:focus-visible,.elevation-chip:focus-visible{outline:3px solid #a66b1d;outline-offset:3px}
+.pending-stat strong{opacity:.65}.pending-stat .tile-foot{font-style:italic}
+.elevation-chip{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem .4rem;margin-top:.65rem;font-size:.7rem;color:#405565}
+.elevation-chip svg{width:14px;height:14px}.elevation-chip>span{font-size:.62rem;color:var(--slate)}
+.fact-scope-hint{display:block;color:var(--slate);font-size:.62rem;margin-top:.55rem}
+.global-card .provenance-row{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;min-width:0;margin-top:.8rem;gap:.3rem .55rem}
+.provenance-row a{color:var(--pine-700);text-decoration:underline;text-underline-offset:3px}
+.global-card .resort-art>span{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;line-height:1.5}
+.sourced-fact{border-top-width:3px}.sourced-fact.tone-mapped_elevation{background:#f1f4f6;border-color:#c8d9e4}
+@media(max-width:640px){.global-card{grid-template-columns:minmax(0,1fr)}.global-card .resort-art{min-height:110px;padding:1rem;justify-content:end}.global-card .resort-art>svg{left:auto;right:1rem;top:15px;width:76px;height:76px}.global-card .resort-art>span{font-size:.7rem}.resort-stat-tile{padding:.65rem .5rem}.resort-stat-tile strong{font-size:1.15rem}.tile-label{font-size:.62rem}.resort-stat-tiles{gap:.4rem}}
+@media(prefers-reduced-motion:reduce){a.resort-stat-tile{transition:none}a.resort-stat-tile:hover{transform:none}}
+.mountain-overview { margin: 0 0 1.8rem; padding: 1.1rem 1.3rem; border-left: 3px solid #9b7039; background: #f4f3ea; border-radius: 0 10px 10px 0; }
+.overview-label { color: #315c4d; font-size: .68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.mountain-overview .overview-copy { display: block; color: #334b43; font-size: 1rem; line-height: 1.65; margin: .4rem 0 .6rem; }
+.overview-sources { display: flex; flex-wrap: wrap; gap: .25rem .65rem; align-items: baseline; font-size: .7rem; line-height: 1.6; color: #58675f; }
+.overview-sources a { color: #315c4d; text-decoration: underline; text-underline-offset: 3px; padding: .15rem 0; }
+.mountain-overview-compact { padding: .65rem .85rem; margin: .9rem 0; }
+.mountain-overview-compact .overview-copy { font-size: .85rem; line-height: 1.6; }
+@media(max-width:600px) { .mountain-overview { padding: .8rem 1rem; } .overview-sources a { padding: .3rem 0; } }

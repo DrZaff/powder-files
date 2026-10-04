@@ -1,0 +1,4183 @@
+[
+  {
+    "record_id": "openstreetmap:relation:14595427",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14595426",
+        "distance_km": 0.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:15014181",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:15014025",
+        "distance_km": 1.59,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:17378004",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:17378003",
+        "distance_km": 2.83,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:18082257",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:17571512",
+        "distance_km": 0.5,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:3962222",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19757448",
+        "distance_km": 2.26,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:5429476",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2928766",
+        "distance_km": 0.17,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:5880893",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11805074",
+        "distance_km": 0.05,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:6855067",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6855066",
+        "distance_km": 1.18,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:6940815",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19792988",
+        "distance_km": 2.06,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:7025848",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:16792393",
+        "distance_km": 3.91,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:8098722",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:8098720",
+        "distance_km": 2.22,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:8098725",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:8098720",
+        "distance_km": 1.26,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:8098722",
+        "distance_km": 1.27,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "openstreetmap:relation:9176889",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9176887",
+        "distance_km": 2.7,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:9176886",
+        "distance_km": 3.11,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:9176885",
+        "distance_km": 3.9,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:relation:9439201",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9438005",
+        "distance_km": 3.1,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1010743373",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1010743372",
+        "distance_km": 1.83,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1117705886",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5671444",
+        "distance_km": 0.27,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1133013308",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14360200",
+        "distance_km": 0.75,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1137551497",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3961720",
+        "distance_km": 3.9,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1137551498",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3959993",
+        "distance_km": 2.95,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1225710170",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14362071",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226239363",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:8993452",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226241296",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9050227",
+        "distance_km": 0.14,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226394579",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2899124",
+        "distance_km": 5.55,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226399512",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9206148",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226462415",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9144992",
+        "distance_km": 0.08,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226538939",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9052109",
+        "distance_km": 0.04,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226669691",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:8906622",
+        "distance_km": 0.04,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226672186",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9249922",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1226958806",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3161196",
+        "distance_km": 2.48,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227122424",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9206149",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227160513",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9363435",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227173315",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3412584",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227174173",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9145911",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227175926",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9063554",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227329414",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9265429",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227348648",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9244612",
+        "distance_km": 0.08,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1227366424",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9216899",
+        "distance_km": 0.41,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1254157227",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2883644",
+        "distance_km": 1.61,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:2873910",
+        "distance_km": 4.29,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1254184969",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:20021650",
+        "distance_km": 3.08,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1254205243",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4638681",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1311361876",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1244062674",
+        "distance_km": 3.53,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1359029199",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9068574",
+        "distance_km": 0.05,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1373582640",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5264397",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1422277144",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19757448",
+        "distance_km": 2.23,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:3962222",
+        "distance_km": 4.41,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1429929063",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9473247",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1446758558",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10374197",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1446758559",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10744381",
+        "distance_km": 3,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1448626237",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9288699",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1448717082",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9291188",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1449660277",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9199978",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1449878038",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9286082",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1457427764",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14588657",
+        "distance_km": 0.67,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1457427765",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14588657",
+        "distance_km": 0.71,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1485685609",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1227322457",
+        "distance_km": 2.34,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:1546348449",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:13705382",
+        "distance_km": 4.82,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:186084312",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4780217",
+        "distance_km": 0.41,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:190873472",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4582896",
+        "distance_km": 1.29,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:190873473",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4582896",
+        "distance_km": 2.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:331209851",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2801730",
+        "distance_km": 2.88,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:391284413",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5273049",
+        "distance_km": 0.08,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:400693011",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4075272",
+        "distance_km": 0.12,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:447819146",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1148964313",
+        "distance_km": 6.1,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:45094892",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45094811",
+        "distance_km": 5.06,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:460247056",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5617142",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:482928475",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6451819",
+        "distance_km": 0.05,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:496731544",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5429073",
+        "distance_km": 0.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:53183840",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:7784559",
+        "distance_km": 5.69,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:539203035",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6151431",
+        "distance_km": 0.26,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:539205242",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6151487",
+        "distance_km": 2.34,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:539220542",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:7718003",
+        "distance_km": 3.38,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:539602084",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3603417",
+        "distance_km": 0,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:539639162",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3165864",
+        "distance_km": 2.72,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:542214331",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5752851",
+        "distance_km": 0.27,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:542215642",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3498299",
+        "distance_km": 0.4,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:542230191",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:7752047",
+        "distance_km": 1.66,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:542233365",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19272266",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:542234714",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11683931",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:543145559",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5881053",
+        "distance_km": 0.08,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:543856848",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10183583",
+        "distance_km": 0.68,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:547906575",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:node:5895919097",
+        "distance_km": 0.71,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:555934234",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10416164",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:589005175",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5994162",
+        "distance_km": 0.65,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:599366280",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5763676",
+        "distance_km": 2.64,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:599426637",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5993424",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:599426852",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5993384",
+        "distance_km": 0.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:599438862",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3545224",
+        "distance_km": 0,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:601116211",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4026597",
+        "distance_km": 2.06,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:601135046",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6908400",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:601300156",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9326270",
+        "distance_km": 0,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:60960178",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3545058",
+        "distance_km": 0.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:616029504",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11082908",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:653427572",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5435646",
+        "distance_km": 0.23,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:654073584",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5277176",
+        "distance_km": 0.12,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:758317682",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9227591",
+        "distance_km": 0.61,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:758334415",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3161169",
+        "distance_km": 5.69,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:758347416",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2764548",
+        "distance_km": 2.83,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:771486100",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11082910",
+        "distance_km": 0,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:827682287",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:550880589",
+        "distance_km": 0.74,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:837402306",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5264735",
+        "distance_km": 0.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:893812560",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10744381",
+        "distance_km": 0.13,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:way:1446758559",
+        "distance_km": 3.01,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:907508350",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4642894",
+        "distance_km": 0.16,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:909293317",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9460829",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:960915602",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1201572807",
+        "distance_km": 3.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "openstreetmap:way:987040066",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11082907",
+        "distance_km": 0.1,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1022292",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6930843",
+        "distance_km": 2.31,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q104868110",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:556511062",
+        "distance_km": 0.42,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q10538901",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1074335726",
+        "distance_km": 2.2,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1058626",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:542214330",
+        "distance_km": 2.54,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q106889470",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3913817",
+        "distance_km": 0.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1086638",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3619015",
+        "distance_km": 2.03,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1086670",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:296909728",
+        "distance_km": 3.77,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1087781",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:601133274",
+        "distance_km": 3.24,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q109315605",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3533848",
+        "distance_km": 0.39,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q109568210",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1359029199",
+        "distance_km": 2.14,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:9068574",
+        "distance_km": 2.16,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q111983623",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1210011762",
+        "distance_km": 0.79,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q112072454",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1252353163",
+        "distance_km": 0.53,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1137200",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:15317924",
+        "distance_km": 0.91,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q115570806",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:601128808",
+        "distance_km": 1.17,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q116307037",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:762120835",
+        "distance_km": 0.58,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q11890705",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:263283515",
+        "distance_km": 0.41,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q12028884",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:17080615",
+        "distance_km": 0.26,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q120311920",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:node:4042749440",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q120315263",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19751525",
+        "distance_km": 3.94,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q12053500",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:531005985",
+        "distance_km": 1.8,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1206060",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:474288286",
+        "distance_km": 4.54,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q12064345",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:15436046",
+        "distance_km": 6.41,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q12066330",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1124250244",
+        "distance_km": 1.55,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1231413",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:391681261",
+        "distance_km": 2.01,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q123853037",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:860260235",
+        "distance_km": 0,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1261451",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:540659516",
+        "distance_km": 1.37,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1277657",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1465306137",
+        "distance_km": 2.21,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q130472012",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3185906",
+        "distance_km": 0.28,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q136557450",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14756845",
+        "distance_km": 2.92,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q138779655",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:599002420",
+        "distance_km": 3.23,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q141016381",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:335648146",
+        "distance_km": 0.76,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14238520",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:660210948",
+        "distance_km": 6.46,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q144454",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1266095430",
+        "distance_km": 3.45,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14684472",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:530998534",
+        "distance_km": 0.13,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14685139",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:531009607",
+        "distance_km": 4.89,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14706086",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4646922",
+        "distance_km": 0.23,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14706299",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:691521201",
+        "distance_km": 0.72,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14713834",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19108017",
+        "distance_km": 0.85,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14874709",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5517057",
+        "distance_km": 1.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q14912513",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3508010",
+        "distance_km": 2.19,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1495048",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1254204831",
+        "distance_km": 0.56,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1500367",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:641560934",
+        "distance_km": 1.44,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1547750",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1233552673",
+        "distance_km": 4.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1548153",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q1548153",
+        "distance_km": 2.36,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1553013",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1259783841",
+        "distance_km": 3.8,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:6946649",
+        "distance_km": 3.93,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1629394",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:178133225",
+        "distance_km": 0.91,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q16478981",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:61421650",
+        "distance_km": 0.05,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1655578",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:539409756",
+        "distance_km": 1.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q167843",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:934285904",
+        "distance_km": 7.66,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1680472",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:542210741",
+        "distance_km": 0.74,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:7751891",
+        "distance_km": 3.73,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1688797",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:601299396",
+        "distance_km": 2.4,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q17109244",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1252353163",
+        "distance_km": 0.51,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q17142405",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:584094054",
+        "distance_km": 0.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1741253",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1227177985",
+        "distance_km": 3.49,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1789966",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:474258174",
+        "distance_km": 0.65,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1806472",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:934103782",
+        "distance_km": 2.26,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q18380212",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3920476",
+        "distance_km": 4.89,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q18533412",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:601135365",
+        "distance_km": 2.08,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q1905725",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6903270",
+        "distance_km": 0.07,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q19842286",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:335623048",
+        "distance_km": 1.93,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q203118",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:539189765",
+        "distance_km": 2.56,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q20436619",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1245646562",
+        "distance_km": 3.24,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q20669956",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9144992",
+        "distance_km": 0.72,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q20971722",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:599425823",
+        "distance_km": 1.3,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2098574",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9227575",
+        "distance_km": 3.91,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q214364",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45438982",
+        "distance_km": 2.45,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2152531",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:321514417",
+        "distance_km": 0.54,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q22096716",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:457771644",
+        "distance_km": 0.5,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2213408",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:13943327",
+        "distance_km": 2.79,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2255843",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1388583977",
+        "distance_km": 1.29,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2286879",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:539421257",
+        "distance_km": 4.42,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2292116",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:385725042",
+        "distance_km": 4.38,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2292171",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:342018770",
+        "distance_km": 1.74,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2345828",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19325185",
+        "distance_km": 2.64,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2362338",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:531005986",
+        "distance_km": 2.76,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2363135",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:665166827",
+        "distance_km": 0.89,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2367178",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:758151764",
+        "distance_km": 2.36,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q23689784",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19789326",
+        "distance_km": 1.74,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2383140",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:608655628",
+        "distance_km": 0.05,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2400441",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:340484109",
+        "distance_km": 0.82,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2509456",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:20046699",
+        "distance_km": 2.11,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q259283",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5993424",
+        "distance_km": 3.3,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:way:599426637",
+        "distance_km": 3.32,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q26270929",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q106238040",
+        "distance_km": 2.21,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2747063",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2928027",
+        "distance_km": 0.88,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q28040576",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10948689",
+        "distance_km": 4.66,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:8361489",
+        "distance_km": 7.11,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2859512",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3545063",
+        "distance_km": 0.43,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2865855",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1041621662",
+        "distance_km": 2.49,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2865855",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1041621662",
+        "distance_km": 0.95,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "wikidata:item:Q2865855",
+        "distance_km": 1.99,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q2866197",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:51071766",
+        "distance_km": 3.05,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q28924750",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1359215114",
+        "distance_km": 0.37,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q290817",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q106238040",
+        "distance_km": 0.13,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "wikidata:item:Q26270929",
+        "distance_km": 2.21,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q2961473",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10416164",
+        "distance_km": 0.71,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:way:555934234",
+        "distance_km": 0.72,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q3038663",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:641344485",
+        "distance_km": 6.16,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3051592",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3917252",
+        "distance_km": 2.2,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3058219",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q3058219",
+        "distance_km": 7.91,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3075967",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1254297385",
+        "distance_km": 3.24,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3075973",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q3075967",
+        "distance_km": 1.67,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:way:1254297385",
+        "distance_km": 2.55,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q31843708",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3908684",
+        "distance_km": 0.46,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3209162",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1137551498",
+        "distance_km": 5.03,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:3959993",
+        "distance_km": 5.51,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3227291",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:758138466",
+        "distance_km": 0.73,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3227291",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:758138466",
+        "distance_km": 0.73,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3232074",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q31088669",
+        "distance_km": 2.79,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3285029",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:682231907",
+        "distance_km": 1.79,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3291410",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:588980870",
+        "distance_km": 4.67,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q330899",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q107451789",
+        "distance_km": 1.69,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:way:45421423",
+        "distance_km": 4.63,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3313099",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1254211056",
+        "distance_km": 3.91,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3323063",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q3323063",
+        "distance_km": 4.14,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3355386",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1137686002",
+        "distance_km": 2.07,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3360738",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:987243867",
+        "distance_km": 6.08,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3491225",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:925191898",
+        "distance_km": 0.56,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3497349",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:671144531",
+        "distance_km": 2.53,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3516284",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5596421",
+        "distance_km": 0.86,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q35188",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:542214331",
+        "distance_km": 3.31,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:5752851",
+        "distance_km": 3.48,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3568314",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1278124828",
+        "distance_km": 0.93,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3569405",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:460246666",
+        "distance_km": 2.47,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q366962",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:2883644",
+        "distance_km": 2.66,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:way:1254157227",
+        "distance_km": 4.25,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:2873910",
+        "distance_km": 5.2,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q376817",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1260579139",
+        "distance_km": 0.89,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3821979",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:918681867",
+        "distance_km": 3.58,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q389882",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:601132346",
+        "distance_km": 4.69,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q3901958",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1121252796",
+        "distance_km": 0.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q397919",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q30592453",
+        "distance_km": 0.07,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4251293",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q4251293",
+        "distance_km": 2.82,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q44500961",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:539187917",
+        "distance_km": 2.92,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q46669",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:7774759",
+        "distance_km": 1.15,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4668292",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5763633",
+        "distance_km": 2.18,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4735528",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1432790358",
+        "distance_km": 0.46,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4772915",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:826310580",
+        "distance_km": 0.57,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4807815",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:530531926",
+        "distance_km": 3.1,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4807834",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:530531925",
+        "distance_km": 2.36,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4818527",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:256024127",
+        "distance_km": 1.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4849188",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:379477862",
+        "distance_km": 0.37,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4876586",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:16792393",
+        "distance_km": 3.9,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q48976629",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:415878204",
+        "distance_km": 0.31,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q49058304",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1236284348",
+        "distance_km": 3.9,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4906143",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:473859024",
+        "distance_km": 0.3,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4906228",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:255071260",
+        "distance_km": 0.5,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4921350",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1154306823",
+        "distance_km": 0.44,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4927020",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1213962705",
+        "distance_km": 0.43,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4929499",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1040649718",
+        "distance_km": 0.17,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4937866",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1470441271",
+        "distance_km": 1.25,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4952256",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:360578768",
+        "distance_km": 0.84,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4952557",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:997160539",
+        "distance_km": 0.81,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q49562771",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1023308078",
+        "distance_km": 1.66,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4966625",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1228627171",
+        "distance_km": 1.18,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4973688",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1096045891",
+        "distance_km": 0.5,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q4990438",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4764744",
+        "distance_km": 0.48,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5032779",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:334259037",
+        "distance_km": 1.24,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5093968",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:867570853",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5096491",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3252880",
+        "distance_km": 0.11,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5099846",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1162245573",
+        "distance_km": 0.41,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5175791",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:767347917",
+        "distance_km": 0.42,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5296610",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3184079",
+        "distance_km": 3.6,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q530721",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:599427053",
+        "distance_km": 3.11,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q533782",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9849543",
+        "distance_km": 0.36,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:3920715",
+        "distance_km": 0.44,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q5354079",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:427517284",
+        "distance_km": 0.91,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5385213",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:815651521",
+        "distance_km": 3.36,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q546015",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4638282",
+        "distance_km": 0.94,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:way:987242424",
+        "distance_km": 0.94,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q546015",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4638282",
+        "distance_km": 0.94,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:way:987242424",
+        "distance_km": 0.94,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q5486448",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19666571",
+        "distance_km": 2.05,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5523564",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:538954797",
+        "distance_km": 1.87,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5580979",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:541164455",
+        "distance_km": 3.57,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q567783",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45524871",
+        "distance_km": 2.6,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5752020",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:990531013",
+        "distance_km": 0.14,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5875140",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:632850967",
+        "distance_km": 5.23,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5928571",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1135215380",
+        "distance_km": 7.41,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q5929485",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:846739537",
+        "distance_km": 0.28,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6061066",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1391785343",
+        "distance_km": 3.01,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q60724504",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:29188395",
+        "distance_km": 2.17,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q60776288",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1245648482",
+        "distance_km": 1.01,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q60777517",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:499034347",
+        "distance_km": 1.46,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q60845809",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1254205243",
+        "distance_km": 2.46,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:4638681",
+        "distance_km": 2.48,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q61152164",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1547698360",
+        "distance_km": 1.51,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q61201217",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:599366280",
+        "distance_km": 1.13,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:relation:5763676",
+        "distance_km": 1.91,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "multiple_strong_matches"
+  },
+  {
+    "record_id": "wikidata:item:Q61473206",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1254296225",
+        "distance_km": 2.83,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6165844",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14413831",
+        "distance_km": 0.23,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6199277",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1021872776",
+        "distance_km": 0.46,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q624323",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45146740",
+        "distance_km": 3.62,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6312377",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4639999",
+        "distance_km": 2.04,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6358539",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5431978",
+        "distance_km": 0.16,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6385971",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:375130755",
+        "distance_km": 0.95,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6388924",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:528962955",
+        "distance_km": 3.1,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6388924",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:528962955",
+        "distance_km": 0.13,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "wikidata:item:Q6388924",
+        "distance_km": 3.18,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6398500",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:531000583",
+        "distance_km": 4.08,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6436096",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:477747650",
+        "distance_km": 3.56,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q650176",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1137687339",
+        "distance_km": 3.29,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q652398",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:20105353",
+        "distance_km": 3.46,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6652143",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:534284011",
+        "distance_km": 0.14,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6675506",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1225427361",
+        "distance_km": 1.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6684278",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1290903952",
+        "distance_km": 0.74,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6689691",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:266484152",
+        "distance_km": 2.55,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q675392",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:599438589",
+        "distance_km": 2.47,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6800245",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1085935982",
+        "distance_km": 0.35,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6878700",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:15657511",
+        "distance_km": 1.23,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6903098",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:19733089",
+        "distance_km": 0.14,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q691461",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1456249420",
+        "distance_km": 1.08,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:way:601236124",
+        "distance_km": 1.52,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6919901",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1225432526",
+        "distance_km": 0.07,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6920455",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1020172394",
+        "distance_km": 0.51,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6920709",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1010406137",
+        "distance_km": 0.54,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6921606",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:713467426",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6922640",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:70196063",
+        "distance_km": 0.37,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6923762",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:390809151",
+        "distance_km": 0.28,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6923944",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1230199887",
+        "distance_km": 0.7,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q6934233",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:18581535",
+        "distance_km": 0.03,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q693610",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:754266155",
+        "distance_km": 2.35,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7160156",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1024235364",
+        "distance_km": 0.34,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q717734",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:20268289",
+        "distance_km": 0.26,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7186929",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5552850",
+        "distance_km": 0.19,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7191013",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1094586461",
+        "distance_km": 1.11,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7227275",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1213960940",
+        "distance_km": 0.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7236030",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5617142",
+        "distance_km": 0.25,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7236032",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1230188313",
+        "distance_km": 0.09,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7304548",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1266090145",
+        "distance_km": 0.36,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7317881",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:475720359",
+        "distance_km": 2.47,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q736910",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4429439",
+        "distance_km": 1.84,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7487527",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1363000015",
+        "distance_km": 1.18,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7491552",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1223350355",
+        "distance_km": 0.69,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7491557",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1228623824",
+        "distance_km": 0.6,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7503202",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5264735",
+        "distance_km": 0.31,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7511301",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:9963336",
+        "distance_km": 0.64,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7516211",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1263732068",
+        "distance_km": 3.07,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7525584",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:15048417",
+        "distance_km": 0.63,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7546617",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1228354294",
+        "distance_km": 0.48,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7548325",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:55866908",
+        "distance_km": 0.19,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7548935",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45096232",
+        "distance_km": 0.04,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7557305",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1470435942",
+        "distance_km": 0.98,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7580543",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1357662358",
+        "distance_km": 0.32,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7641115",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3185443",
+        "distance_km": 2.52,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7673539",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5535401",
+        "distance_km": 0.54,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7675610",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3321422",
+        "distance_km": 0.43,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7675614",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q7675610",
+        "distance_km": 0.02,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:3321422",
+        "distance_km": 0.45,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7801674",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q330899",
+        "distance_km": 4.37,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7837389",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:6343180",
+        "distance_km": 0.97,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7849301",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:664735488",
+        "distance_km": 2.58,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7851844",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:885300054",
+        "distance_km": 0.81,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7855951",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5264397",
+        "distance_km": 0.92,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7861546",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:304469711",
+        "distance_km": 0.65,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q791836",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:860985207",
+        "distance_km": 2.83,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q791858",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q791858",
+        "distance_km": 2.21,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7918958",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:588982214",
+        "distance_km": 2.1,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7958786",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:4458755",
+        "distance_km": 0.25,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7969711",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:1151090250",
+        "distance_km": 0.49,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7986039",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:256455529",
+        "distance_km": 0.62,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7990465",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:11082908",
+        "distance_km": 1.24,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7990522",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:252782489",
+        "distance_km": 0.33,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q7995204",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:654073584",
+        "distance_km": 0.71,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q8001022",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:251260219",
+        "distance_km": 0.74,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q8024196",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14336718",
+        "distance_km": 0.35,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q8050458",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:5880893",
+        "distance_km": 2.85,
+        "name_match": "similar"
+      },
+      {
+        "record_id": "openstreetmap:relation:11805074",
+        "distance_km": 2.87,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q813483",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:531009608",
+        "distance_km": 3.82,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q819331",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:758224018",
+        "distance_km": 1.7,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q857209",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:549533943",
+        "distance_km": 2.45,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q859485",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:476836855",
+        "distance_km": 2.11,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q877518",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:3959993",
+        "distance_km": 2.84,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "openstreetmap:way:1137551498",
+        "distance_km": 5.79,
+        "name_match": "exact"
+      },
+      {
+        "record_id": "wikidata:item:Q3209162",
+        "distance_km": 7.11,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q894120",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:10622878",
+        "distance_km": 3.23,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q914361",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q1810533",
+        "distance_km": 0.5,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q9341009",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:514010835",
+        "distance_km": 1.35,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q9341026",
+    "candidate_matches": [
+      {
+        "record_id": "wikidata:item:Q198963",
+        "distance_km": 0.47,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q954639",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:268326089",
+        "distance_km": 2.12,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q969723",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:589003346",
+        "distance_km": 2.17,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q97256308",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:relation:14515183",
+        "distance_km": 0.67,
+        "name_match": "similar"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q974478",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:45146739",
+        "distance_km": 3.85,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  },
+  {
+    "record_id": "wikidata:item:Q995986",
+    "candidate_matches": [
+      {
+        "record_id": "openstreetmap:way:476844342",
+        "distance_km": 2.74,
+        "name_match": "exact"
+      }
+    ],
+    "reason": "near_or_fuzzy_match_requires_review"
+  }
+]

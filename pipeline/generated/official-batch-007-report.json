@@ -1,0 +1,1127 @@
+{
+  "batch": "official-007",
+  "checked_at": "2026-08-31",
+  "researched_profiles": 50,
+  "source_checked_observations": 147,
+  "conflict_fields": 14,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q6924907",
+      "name": "Mountain Creek",
+      "notes": "Lift headline and listed lift types disagree. Summer bike trails excluded.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://mountaincreek.com/news-press/",
+          "alternatives": [
+            {
+              "value": 8,
+              "source": "https://mountaincreek.com/news-press/"
+            },
+            {
+              "value": 10,
+              "source": "https://mountaincreek.com/news-press/"
+            }
+          ],
+          "note": "Headline eight; listed types add to ten (including carpets). Calculated alternative; scope unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://mountaincreek.com/news-press/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6923283",
+      "name": "Mount Rose Ski Tahoe",
+      "notes": "Camera location elevations only; no vertical calculated from them. Mountain High was deferred because official access was blocked.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://mtrose.com/the-mountain-web-cams/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6966881",
+      "name": "Nashoba Valley",
+      "notes": "Longest run withheld: page equates 1,400 feet with half a mile, which does not convert correctly.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skinashoba.com/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7074722",
+      "name": "Ober Mountain",
+      "notes": "2025–26 report. Advertised 500-foot vertical differs from the 556-foot Ober Chute entry; withheld. Planned new trail not counted.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "vertical",
+          "label": "Vertical drop",
+          "unit": "ft",
+          "value": null,
+          "source": "https://www.obergatlinburg.com/slope-report",
+          "alternatives": [
+            {
+              "value": 500,
+              "source": "https://www.obergatlinburg.com/slope-report"
+            },
+            {
+              "value": 556,
+              "source": "https://www.obergatlinburg.com/slope-report"
+            }
+          ],
+          "note": "Overview gives 500 feet; Ober Chute row gives 556. No single mountain drop selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.obergatlinburg.com/slope-report"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q85791365",
+      "name": "Otis Ridge",
+      "notes": "No dimensions inferred from the image-only trail map.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://otisridge.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7136403",
+      "name": "Mont-Comi",
+      "notes": "French and older English trail totals differ; native metres retained instead of inconsistent summit feet conversion.",
+      "observations": 6,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://mont-comi.ca/la-station/",
+          "alternatives": [
+            {
+              "value": 30,
+              "source": "https://mont-comi.ca/la-station/"
+            },
+            {
+              "value": 29,
+              "source": "https://mont-comi.ca/en/"
+            }
+          ],
+          "note": "Current station description gives 30; older English homepage specification gives 29.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://mont-comi.ca/la-station/",
+        "https://mont-comi.ca/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7235991",
+      "name": "Powder Ridge, Connecticut",
+      "notes": "Do not join to Powder Ridge Minnesota. Lift total withheld because tubing versus downhill scope is not explicit.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://powderridgepark.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28407653",
+      "name": "Quechee",
+      "notes": "Official page explicitly confirms public daily tickets; other club amenities may have different access rules.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://quecheeclub.com/web/pages/skiquechee"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7370238",
+      "name": "Rotarun",
+      "notes": "Historical magazine dimensions not imported as current official measurements.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://rotarun.org/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5712297",
+      "name": "Sasquatch Mountain",
+      "notes": "Animated headline counters rendered as zero and were not treated as facts; future master-plan dimensions excluded.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sasquatchmountain.ca/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7516849",
+      "name": "Silverton Mountain",
+      "notes": "1,819-acre hiking footprint and 26,819-acre combined headline not imported as lift-served acreage. Expert-only; check access requirements with operator.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://silvertonmountain.com/mountain/stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q111169545",
+      "name": "Ski Ben Eoin",
+      "notes": "Public access supported by operator history; Nordic distances not reused for alpine skiing.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibeneoin.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14715850",
+      "name": "Ski Bradford",
+      "notes": "Surface-lift count differs between hours and report; no full lift total selected.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://skibradford.com/hours/",
+          "alternatives": [
+            {
+              "value": 9,
+              "source": "https://skibradford.com/hours/"
+            },
+            {
+              "value": 10,
+              "source": "https://skibradford.com/snow-report/"
+            }
+          ],
+          "note": "Hours page lists three chairs plus six surface lifts; report enumerates three chairs plus seven surface lifts. Calculated totals, not current-open counts.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://skibradford.com/hours/",
+        "https://skibradford.com/snow-report/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3486255",
+      "name": "Ski Montcalm",
+      "notes": "French and English pages disagree on park count.",
+      "observations": 5,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "parks",
+          "label": "Snow parks",
+          "unit": "",
+          "value": null,
+          "source": "https://skimontcalm.com/les-cartes/pistes-de-ski/",
+          "alternatives": [
+            {
+              "value": 3,
+              "source": "https://skimontcalm.com/les-cartes/pistes-de-ski/"
+            },
+            {
+              "value": 4,
+              "source": "https://skimontcalm.com/en/maps/skiing/"
+            }
+          ],
+          "note": "French map page gives three; English page describes four.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://skimontcalm.com/les-cartes/pistes-de-ski/",
+        "https://skimontcalm.com/en/maps/skiing/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q24190259",
+      "name": "Sommet Morin Heights",
+      "notes": "Two official condition layouts show incompatible totals; neither is selected.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.sommets.com/en/weather-and-winter-conditions/?tabBlockId=c76fdcf8-33e4-4769-b4d0-ba11de30e844&tabId=4",
+          "alternatives": [
+            {
+              "value": 38,
+              "source": "https://www.sommets.com/en/weather-and-winter-conditions/?tabBlockId=c76fdcf8-33e4-4769-b4d0-ba11de30e844&tabId=4"
+            },
+            {
+              "value": 15,
+              "source": "https://www.sommets.com/en/what-to-do/skiing-snowboarding/trail-conditions/"
+            }
+          ],
+          "note": "Official summary and detailed Morin Heights widgets disagree; no total chosen.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.sommets.com/en/weather-and-winter-conditions/?tabBlockId=c76fdcf8-33e4-4769-b4d0-ba11de30e844&tabId=4",
+          "alternatives": [
+            {
+              "value": 5,
+              "source": "https://www.sommets.com/en/weather-and-winter-conditions/?tabBlockId=c76fdcf8-33e4-4769-b4d0-ba11de30e844&tabId=4"
+            },
+            {
+              "value": 3,
+              "source": "https://www.sommets.com/en/what-to-do/skiing-snowboarding/trail-conditions/"
+            }
+          ],
+          "note": "Official summary and detailed Morin Heights widgets disagree.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.sommets.com/en/weather-and-winter-conditions/?tabBlockId=c76fdcf8-33e4-4769-b4d0-ba11de30e844&tabId=4",
+        "https://www.sommets.com/en/what-to-do/skiing-snowboarding/trail-conditions/",
+        "https://www.sommets.com/en/what-to-do/ski-touring/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7534900",
+      "name": "Snowstar",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skisnowstar.com/about-snowstar.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7535168",
+      "name": "Ski Land",
+      "notes": "Current operator domain used; old skiland.org page references 2018 and is not current research.",
+      "observations": 1,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skilandfairbanks.com/about-us/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6023980",
+      "name": "Snowriver",
+      "notes": "Combined resort scope includes Black River Basin (formerly Blackjack); no identity merge performed. Official acreage, trail and lift totals disagree.",
+      "observations": 7,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats",
+          "alternatives": [
+            {
+              "value": 370,
+              "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats"
+            },
+            {
+              "value": 400,
+              "source": "https://www.snowriver.com/discover/winter-at-snowriver"
+            }
+          ],
+          "note": "Mountain statistics and winter overview disagree.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "trails",
+          "label": "Trails and glades",
+          "unit": "",
+          "value": null,
+          "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats",
+          "alternatives": [
+            {
+              "value": 73,
+              "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats"
+            },
+            {
+              "value": 56,
+              "source": "https://www.snowriver.com/discover/winter-at-snowriver"
+            }
+          ],
+          "note": "Statistics give 73 trails/glades; overview gives 56 runs. Scope differs and no comparable total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats",
+          "alternatives": [
+            {
+              "value": 7,
+              "source": "https://www.snowriver.com/mountain-info/trail-map-mountain-stats"
+            },
+            {
+              "value": 11,
+              "source": "https://www.snowriver.com/discover/winter-at-snowriver"
+            }
+          ],
+          "note": "Statistics give seven; winter overview eleven (with ten in status widget). No total selected.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.snowriver.com/mountain-info/trail-map-mountain-stats",
+        "https://www.snowriver.com/discover/winter-at-snowriver"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548314",
+      "name": "Snow Summit",
+      "notes": "Same page lists 11 chairs in prose and 10 lifts in table; summer biking statistics excluded.",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.bigbearmountainresort.com/mountain-information/trail-maps",
+          "alternatives": [
+            {
+              "value": 10,
+              "source": "https://www.bigbearmountainresort.com/mountain-information/trail-maps"
+            },
+            {
+              "value": 11,
+              "source": "https://www.bigbearmountainresort.com/mountain-information/trail-maps"
+            }
+          ],
+          "note": "Same page gives ten in winter table and eleven chairs in prose.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.bigbearmountainresort.com/mountain-information/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548326",
+      "name": "Snow Valley, California",
+      "notes": "Native feet retained; page metric peak conversion differs. No summer MTB acreage imported.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bigbearmountainresort.com/mountain-information/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548330",
+      "name": "Snow Valley, Edmonton",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.snowvalley.ca/ski-hill/the-hill/hours-current-conditions",
+        "https://www.snowvalley.ca/ski-hill/the-hill/terrain-park"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7548646",
+      "name": "Snowhaven",
+      "notes": "Tubing vertical and lift length are not alpine mountain measurements.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://grangeville.us/snowhaven-facebook2/about-snowhaven-ski-tube-hill/",
+        "https://grangeville.us/snowhaven-facebook2/ski-tickets-and-hours-of-operation/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5336770",
+      "name": "Sommet Edelweiss",
+      "notes": "Five-lift headline may include tubing; full alpine-only total withheld.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sommets.com/en/discover-les-sommets/sommet-edelweiss/"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:691521200",
+      "name": "Song Mountain",
+      "notes": "April report open-trail count not treated as whole network; exact OSM identity retained.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skicny.com/song/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7577897",
+      "name": "Spirit Mountain",
+      "notes": "Winter statistics only; stale open-status banners and summer trail data not treated as current ski operations.",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://spiritmt.com/winter/snow-report/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7615484",
+      "name": "Stevens Pass",
+      "notes": "Main base is not Mill Valley base; no vertical derived by subtraction.",
+      "observations": 6,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.stevenspass.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3497463",
+      "name": "Stoneham",
+      "notes": "",
+      "observations": 8,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ski-stoneham.com/en/skiing-riding/mountain-stats/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q138779960",
+      "name": "Stratton",
+      "notes": "Historical prose still says 11 lifts; current table says 14. Glade acreage not added to total.",
+      "observations": 7,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "unit": "",
+          "value": null,
+          "source": "https://www.stratton.com/the-mountain/mountain-statistics",
+          "alternatives": [
+            {
+              "value": 14,
+              "source": "https://www.stratton.com/the-mountain/mountain-statistics"
+            },
+            {
+              "value": 11,
+              "source": "https://www.stratton.com/the-mountain/mountain-statistics"
+            }
+          ],
+          "note": "Statistics table gives fourteen including carpets; historical prose gives eleven. Scope/date unresolved.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.stratton.com/the-mountain/mountain-statistics"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14684041",
+      "name": "Sugar Bowl",
+      "notes": "No figures imported from indexed TEST conditions page. Lift and trail totals withheld pending reconciliation with production reporting.",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sugarbowl.com/trailmaps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7634969",
+      "name": "Sugarbush",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sugarbush.com/mountain/terrain-and-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7635350",
+      "name": "Saskadena Six (formerly Suicide Six)",
+      "notes": "Existing stable identity/name retained; original summary explains current name. No historical lift fleet imported.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.saskadenasix.com/the-mountain/mountain-info",
+        "https://www.saskadenasix.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7637872",
+      "name": "Summit Pass",
+      "notes": "Timberline-wide acreage and lift totals not copied onto this separate lower-area record.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://timberlinelodge.com/things-to-do/skiing-snowboarding/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2027196",
+      "name": "Sundance",
+      "notes": "Ski page says 540 acres while FAQ says about 615; terrain expansion scope unresolved.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Skiable terrain",
+          "unit": "acres",
+          "value": null,
+          "source": "https://www.sundanceresort.com/activities/skiing-snowboarding/",
+          "alternatives": [
+            {
+              "value": 540,
+              "source": "https://www.sundanceresort.com/activities/skiing-snowboarding/"
+            },
+            {
+              "value": 615,
+              "source": "https://www.sundanceresort.com/faqs/"
+            }
+          ],
+          "note": "Ski page gives 540; FAQ says about 615. Expansion scope/date unresolved; alternative 615 is approximate.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.sundanceresort.com/activities/skiing-snowboarding/",
+        "https://www.sundanceresort.com/faqs/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7639538",
+      "name": "Sunday River",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sundayriver.com/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7640495",
+      "name": "Sunlight",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sunlightmtn.com/",
+        "https://sunlightmtn.com/explore/mountain-status/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7641007",
+      "name": "Sunridge",
+      "notes": "Full five-lift headline not used as an alpine-only total because tubing lift scope is not explicit.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skisunridge.com/winter"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14687338",
+      "name": "Tamarack Resort",
+      "notes": "Annual snowfall withheld: HTML says 300 inches; March 2026 fact sheet reports 266 over 20 seasons.",
+      "observations": 8,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://tamarackidaho.com/the-mountain"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7700283",
+      "name": "Tenney Mountain",
+      "notes": "Native feet retained. Four-lift header may include tubing, so no alpine lift total selected.",
+      "observations": 4,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "unit": "",
+          "value": null,
+          "source": "https://skitenney.com/about/mountain-information/",
+          "alternatives": [
+            {
+              "value": 50,
+              "source": "https://skitenney.com/about/mountain-information/"
+            },
+            {
+              "value": 53,
+              "source": "https://skitenney.com/"
+            }
+          ],
+          "note": "Statistics page lists fifty; site header reports a 53-trail network.",
+          "retrieved_at": "2026-08-31",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://skitenney.com/about/mountain-information/",
+        "https://skitenney.com/",
+        "https://skitenney.com/season-passes/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14704782",
+      "name": "Teton Pass, Montana",
+      "notes": "Headline three lifts but only chair and carpet described; total withheld. Current report is undated, so no current-open claim.",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skitetonmt.com/mountain-info/trail-map-statistics"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7767293",
+      "name": "Summit at Snoqualmie",
+      "notes": "Alpental also has a separate directory identity; scope retained rather than merging identities or adding its backbowls again.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.summitatsnoqualmie.com/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7799013",
+      "name": "Thunder Ridge",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://thunderridgeski.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7799155",
+      "name": "Thunderhill",
+      "notes": "Official public homepage content; storefront availability can vary. Historical rope tow not counted.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skithunderhill.myshopify.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7804661",
+      "name": "Timber Ridge",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.timberridgeski.com/trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7804716",
+      "name": "Timberline Lodge",
+      "notes": "4,540-foot shuttle descent deliberately not shown as lift-served vertical; geographic Mount Hood summit excluded.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://timberlinelodge.com/things-to-do/skiing-snowboarding/",
+        "https://timberlinelodge.com/things-to-do/4540-vertical/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7809925",
+      "name": "Titcomb Mountain",
+      "notes": "750-foot slope length is not vertical. Nordic distance excluded.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.titcombmountain.com/the-mountain/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14707489",
+      "name": "Titus Mountain",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.titusmountain.com/slopeside-chalets"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7845172",
+      "name": "Troll Resort",
+      "notes": "New Black T-bar is explicitly reported open in 2026, not merely a proposal.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.trollresort.com/about",
+        "https://www.trollresort.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7856828",
+      "name": "Tussey Mountain",
+      "notes": "Current operator conversion notice takes precedence over old tubing descriptions.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://tusseymountain.com/snow-tubing"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18785813",
+      "name": "Val Saint-Côme",
+      "notes": "Night count 12 in winter description versus 14 in site header withheld. No mixed-season distance imported.",
+      "observations": 4,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valsaintcome.com/activites-en-montagne/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7941810",
+      "name": "Vorlage",
+      "notes": "Core measurements not established by current winter page; no commercial directory figures imported.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://centrevorlage.ca/winter/"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q85791365",
+    "wikidata:item:Q7370238",
+    "wikidata:item:Q5712297",
+    "wikidata:item:Q111169545",
+    "wikidata:item:Q24190259",
+    "wikidata:item:Q7548646",
+    "openstreetmap:way:691521200",
+    "wikidata:item:Q7637872",
+    "wikidata:item:Q7856828",
+    "wikidata:item:Q7941810"
+  ]
+}

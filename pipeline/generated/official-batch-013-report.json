@@ -1,0 +1,1805 @@
+{
+  "batch": "official-013",
+  "checked_at": "2026-09-05",
+  "researched_profiles": 100,
+  "source_checked_observations": 6,
+  "conflict_fields": 0,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q2839398",
+      "name": "Alpe du Grand Serre",
+      "notes": "The official page confirms the completed 2025–26 public season; station elevations are not labeled surveyed piste endpoints.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.matheysine-tourisme.com/en/alpe-du-grand-serre/activities/winter/ski-snowboard-alpe-du-grand-serre/snow-and-slopes-informations/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1242281",
+      "name": "Champagny-en-Vanoise",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.la-plagne.com/discover-the-resort/our-villages/champagny-en-vanoise"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4144510",
+      "name": "Gornaya Karusel / Krasnaya Polyana",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://krasnayapolyanaresort.ru"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11924602",
+      "name": "Ski Pallars",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skipallars.cat"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11579883",
+      "name": "Ikenotaira Snow Park",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.shirakabaresort.jp/snowpark"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11554699",
+      "name": "Izumigatake Ski Field",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.izumigatake.net"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2616429",
+      "name": "La Pinilla",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lapinilla.es"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q97774986",
+      "name": "La Stèle",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://lastele.fr/hiver/ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q84055",
+      "name": "La Tania",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.latania.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3045057",
+      "name": "Le Désert d'Entremont",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.chartreuse-tourisme.com/offres/station-de-ski-le-desert-dentremont-entremont-le-vieux-fr-2716892/"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:858835017",
+      "name": "Lyžařský areál Kobyla",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lazadov.cz"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q845847",
+      "name": "Morillon",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.grand-massif.com/en/morillon/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q115376642",
+      "name": "Le Barioz",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.barioz.fr"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q19407210",
+      "name": "Roc d'Enfer",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rocdenfer.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q20045141",
+      "name": "Shiratori Kogen",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://siratori-k.jp/swp"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q20045318",
+      "name": "St. Mary Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://stmary-338.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q21775021",
+      "name": "Middagsåsen",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.middagsasen.no"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22119124",
+      "name": "Miyagi Zao Sumikawa Snow Park",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.zao-sumikawa.jp"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2409088",
+      "name": "Les Fourgs",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://station-lesfourgs.fr"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q24860363",
+      "name": "Miyagi Zao Eboshi Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://eboshi.co.jp"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2507885",
+      "name": "Lenzerheide",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://arosalenzerheide.swiss/en/Ski-Area"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2515208",
+      "name": "KitzSki",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.kitzski.at/en/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30141219",
+      "name": "Rouge Gazon",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://rouge-gazon.fr"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q30141734",
+      "name": "Le Grand Domaine",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.legranddomaine.fr"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3037876",
+      "name": "Valmorel",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.valmorel.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3104905",
+      "name": "Ghisoni-Capanelle",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ghisoni.corsica/station-ghisoni-capanelle"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3211628",
+      "name": "La Pierre Saint-Martin",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.lapierrestmartin.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3224822",
+      "name": "Le Mourtis",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.mourtis.fr"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3226943",
+      "name": "Sauze Super Sauze",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sauze.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3230435",
+      "name": "Aillons-Margériaz",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.chamberymontagnes.com/aillonsmargeriaz"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3232967",
+      "name": "Les Gentianes",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.station-lesgentianes.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3234776",
+      "name": "Plateau de Retord alpine area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.plateauderetord.fr/fr/que-faire/activites/activites-hiver/ski-alpin"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4324002",
+      "name": "Hochzillertal-Kaltenbach",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.hochzillertal.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q46092206",
+      "name": "Matthias-Schmidt-Berg",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.oberharz.de/winter/skigebiete-im-harz/matthias-schmidt-berg/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q62071522",
+      "name": "Gubakha",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://gubaha.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q62071591",
+      "name": "Glushata",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://glushata.ru"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q62071672",
+      "name": "Gebrei",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.gebrei.ru"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q62071753",
+      "name": "Polazna",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://polazna.ru"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q63164706",
+      "name": "Oyu Onsen Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.oyu-uonuma.com/ski/index.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q63164924",
+      "name": "Yakushi Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://yakushi-ski.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q63165133",
+      "name": "Suhara Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.suhara-ski.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q63165732",
+      "name": "Ohara Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://ohara-ski.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q65238137",
+      "name": "Onikoube Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.onikoube.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q65279048",
+      "name": "Kyukamura Shonai-Haguro Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.qkamura.or.jp/haguro/ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q76813743",
+      "name": "Shintotsukawa Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.town.shintotsukawa.lg.jp/kanko/detail/00003261.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q83872254",
+      "name": "Onogawa Onsen Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://npo-onogawa.org"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11392464",
+      "name": "Rokko Snow Park",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rokkosan.com/ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1335490",
+      "name": "Rosa Khutor Alpine Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://rosakhutor.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q120311909",
+      "name": "Saint-Jean-d'Arves",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.sja73.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q929287",
+      "name": "Saint-Jean-d'Aulps",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rocdenfer.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q818418",
+      "name": "Saint-Jean-de-Sixt",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.saint-jean-de-sixt.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q668034",
+      "name": "Saint-Martin-de-Belleville",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.les3vallees.com/en/guide/ski-resort/saint-martin-de-belleville"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q659996",
+      "name": "St. Anton am Arlberg",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.stantonamarlberg.com/en/winter/the-ski-area"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11521474",
+      "name": "Sapporo Mt. Moiwa Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rinyu.co.jp/moiwa"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11656126",
+      "name": "Seki Onsen Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://sekionsen.jp"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1112934",
+      "name": "Chabanon-Selonnet",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.chabanon-selonnet.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q980500",
+      "name": "Silichy",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://silichy.by"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q768759",
+      "name": "Sixt-Fer-à-Cheval",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.grand-massif.com/en/sixt/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q873234",
+      "name": "Ski amadé",
+      "notes": "Network-wide maximums; not additive to member-resort profiles.",
+      "observations": 3,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skiamade.com/en/ski-areas"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q9340452",
+      "name": "Środula Ski Slope",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://stoksrodula.pl"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q110813686",
+      "name": "Albstadt-Tailfingen Ski Lift",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wsv-tailfingen.de"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q135969887",
+      "name": "Angertal Ski Center",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.angertal.at/skizentrum.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109359857",
+      "name": "Snow Park Dorogawa",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www4.kcn.ne.jp/~zaisanku/spd.htm"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11312618",
+      "name": "Snow Resort Nekoyama",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://nekoyama.net/win"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q105062094",
+      "name": "Sorochany",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://sorochany.ru"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q104839265",
+      "name": "Suishōzan Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ink.or.jp/~mineland/ski/newpage3.htm"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3504072",
+      "name": "SuperDévoluy",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ledevoluy.com/winter/skiing/ski-area/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11443946",
+      "name": "Taiheizan Ski Resort Opas",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.theboon.net/opas"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60986690",
+      "name": "Takamagahara Mammoth Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://shigakogen.co.jp/highlight/takamahara"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11316000",
+      "name": "Takanbō Ski Slopes",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.gokayama-kankou.com/contents2"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11621787",
+      "name": "Tateshina Tokyu Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.tateshina-tokyu.com/ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q60780554",
+      "name": "Terre Ronde",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.plateau-hauteville.com/fr/sports-dhiver/ski-alpin.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1388437",
+      "name": "Vaujany",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.vaujany.com/en/winter/alpine-skiing/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17640406",
+      "name": "Velouchi Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://velouchi4mount.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16694996",
+      "name": "Voevodyno",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://voevodyno.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q17216179",
+      "name": "Wakasa Hyounosen Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.hyounosen.co.jp"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:893138900",
+      "name": "Whitetail Resort",
+      "notes": "",
+      "observations": 1,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skiwhitetail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1734799",
+      "name": "Wirzweli",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wirzweli.ch"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q59948635",
+      "name": "Wolzenalp",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wolzen.ch"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1005993",
+      "name": "Yabuli Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.yabuliski.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11470516",
+      "name": "Yamada Onsen Kids Snow Park",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.yamaboku.jp/k-profile/k-profile.html"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120711",
+      "name": "Mogami Akakura Onsen Ski Resort",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://akakura-spa-ski.com"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:252602840",
+      "name": "Chokai Kogen Yashima Ski Area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "http://www.ybnet.jp/~ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q331508",
+      "name": "Abriès-Ristolas ski area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.queyras-montagne.com/abries-ristolas/ski-alpin/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q534206",
+      "name": "Saint-Gervais Mont-Blanc ski area",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.saintgervais.com/hiver/ski-snowboard/domaine-skiable-evasion-mont-blanc/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14547435",
+      "name": "Aletsch Arena",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.aletscharena.ch/en/activities/ski-snowboard"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3612944",
+      "name": "Alpe di Mera",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.alpedimera.it"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4736779",
+      "name": "Alto Campoo",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.altocampoo.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4774886",
+      "name": "Antillanca",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://antillanca.cl"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3572141",
+      "name": "Aramón Valdelinares",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.javalambre-valdelinares.com/valdelinares"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2859835",
+      "name": "Arc 1600",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.lesarcs.com/discover/arc-1600"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2859833",
+      "name": "Arc 1800",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.lesarcs.com/discover/arc-1800"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2859837",
+      "name": "Arc 1950",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.lesarcs.com/discover/arc-1950"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2859839",
+      "name": "Arc 2000",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://en.lesarcs.com/discover/arc-2000"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2866428",
+      "name": "Ascou-Pailhères",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.ascou.ski"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q752368",
+      "name": "Astún",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://astun.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q776585",
+      "name": "Auron",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://hiver.auron.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4906452",
+      "name": "Big Moose Mountain",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://skibigmoose.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18339186",
+      "name": "Blanche Takayama",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://blanche-ski.com"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2909263",
+      "name": "Phoenix Snow Park",
+      "notes": "",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://phoenixhnr.co.kr/page/main/pyeongchang"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q1242281",
+    "wikidata:item:Q4144510",
+    "wikidata:item:Q11924602",
+    "wikidata:item:Q11579883",
+    "wikidata:item:Q11554699",
+    "wikidata:item:Q2616429",
+    "wikidata:item:Q97774986",
+    "wikidata:item:Q84055",
+    "wikidata:item:Q3045057",
+    "openstreetmap:way:858835017",
+    "wikidata:item:Q845847",
+    "wikidata:item:Q115376642",
+    "wikidata:item:Q19407210",
+    "wikidata:item:Q20045141",
+    "wikidata:item:Q20045318",
+    "wikidata:item:Q21775021",
+    "wikidata:item:Q22119124",
+    "wikidata:item:Q2409088",
+    "wikidata:item:Q24860363",
+    "wikidata:item:Q2507885",
+    "wikidata:item:Q2515208",
+    "wikidata:item:Q30141219",
+    "wikidata:item:Q30141734",
+    "wikidata:item:Q3037876",
+    "wikidata:item:Q3104905",
+    "wikidata:item:Q3211628",
+    "wikidata:item:Q3224822",
+    "wikidata:item:Q3226943",
+    "wikidata:item:Q3230435",
+    "wikidata:item:Q3232967",
+    "wikidata:item:Q3234776",
+    "wikidata:item:Q4324002",
+    "wikidata:item:Q46092206",
+    "wikidata:item:Q62071522",
+    "wikidata:item:Q62071591",
+    "wikidata:item:Q62071672",
+    "wikidata:item:Q62071753",
+    "wikidata:item:Q63164706",
+    "wikidata:item:Q63164924",
+    "wikidata:item:Q63165133",
+    "wikidata:item:Q63165732",
+    "wikidata:item:Q65238137",
+    "wikidata:item:Q65279048",
+    "wikidata:item:Q76813743",
+    "wikidata:item:Q83872254",
+    "wikidata:item:Q11392464",
+    "wikidata:item:Q1335490",
+    "wikidata:item:Q120311909",
+    "wikidata:item:Q929287",
+    "wikidata:item:Q818418",
+    "wikidata:item:Q668034",
+    "wikidata:item:Q659996",
+    "wikidata:item:Q11521474",
+    "wikidata:item:Q11656126",
+    "wikidata:item:Q1112934",
+    "wikidata:item:Q980500",
+    "wikidata:item:Q768759",
+    "wikidata:item:Q9340452",
+    "wikidata:item:Q110813686",
+    "wikidata:item:Q135969887",
+    "wikidata:item:Q109359857",
+    "wikidata:item:Q11312618",
+    "wikidata:item:Q105062094",
+    "wikidata:item:Q104839265",
+    "wikidata:item:Q3504072",
+    "wikidata:item:Q11443946",
+    "wikidata:item:Q60986690",
+    "wikidata:item:Q11316000",
+    "wikidata:item:Q11621787",
+    "wikidata:item:Q60780554",
+    "wikidata:item:Q1388437",
+    "wikidata:item:Q17640406",
+    "wikidata:item:Q16694996",
+    "wikidata:item:Q17216179",
+    "wikidata:item:Q1734799",
+    "wikidata:item:Q59948635",
+    "wikidata:item:Q1005993",
+    "wikidata:item:Q11470516",
+    "wikidata:item:Q22120711",
+    "openstreetmap:way:252602840",
+    "wikidata:item:Q331508",
+    "wikidata:item:Q534206",
+    "wikidata:item:Q14547435",
+    "wikidata:item:Q3612944",
+    "wikidata:item:Q4736779",
+    "wikidata:item:Q4774886",
+    "wikidata:item:Q3572141",
+    "wikidata:item:Q2859835",
+    "wikidata:item:Q2859833",
+    "wikidata:item:Q2859837",
+    "wikidata:item:Q2859839",
+    "wikidata:item:Q2866428",
+    "wikidata:item:Q752368",
+    "wikidata:item:Q776585",
+    "wikidata:item:Q4906452",
+    "wikidata:item:Q18339186",
+    "wikidata:item:Q2909263"
+  ]
+}

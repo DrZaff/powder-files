@@ -1,0 +1,508 @@
+{
+  "batch": "official-003",
+  "checked_at": "2026-08-30",
+  "researched_profiles": 25,
+  "source_checked_observations": 81,
+  "conflict_fields": 5,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q4734815",
+      "name": "Arctic Valley",
+      "notes": "Acreage withheld: winter page advertises 500+ acres while official history describes 320 acres plus separate surrounding terrain.",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "area",
+          "label": "Ski-area acreage",
+          "unit": "acres",
+          "value": null,
+          "source": "https://arcticvalley.org/anchorage-ski-club/aschistory/",
+          "alternatives": [
+            {
+              "value": 320,
+              "source": "https://arcticvalley.org/anchorage-ski-club/aschistory/"
+            },
+            {
+              "value": 500,
+              "source": "https://arcticvalley.org/winter/"
+            }
+          ],
+          "note": "History reports 320 acres; winter page advertises 500+ acres. Boundary and access scope unresolved; no acreage selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://arcticvalley.org/winter/ski-lifts/",
+        "https://arcticvalley.org/anchorage-ski-club/aschistory/",
+        "https://arcticvalley.org/winter/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4734821",
+      "name": "Alpental",
+      "notes": "",
+      "observations": 3,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.summitatsnoqualmie.com/alpental"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4735527",
+      "name": "Alpine Valley Resort (Wisconsin)",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.alpinevalleyresort.com/mountain-information/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4780859",
+      "name": "Appalachian Ski Mountain",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://appskimtn.com/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4868693",
+      "name": "Batawa",
+      "notes": "Core mountain dimensions were not established from accessible official HTML. Land-rental acreage is not skiable acreage.",
+      "observations": 1,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.batawaskihill.com/terrain-park-safety"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4876414",
+      "name": "Bear Creek",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bcmountainresort.com/activities/ski-snowboarding/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4876507",
+      "name": "Bear Mountain",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.bigbearmountainresort.com/mountain-information/trail-maps"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4878141",
+      "name": "Beaver Mountain",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.skithebeav.com/mountain/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4804210",
+      "name": "Asessippi",
+      "notes": "",
+      "observations": 2,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://asessippi.com/faqs/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4944773",
+      "name": "Boreal",
+      "notes": "Summary researched; core numerical mountain facts remain unsourced. Pass hours are not a guarantee of daily operations.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.rideboreal.com/passes-memberships/passes-memberships-overview/comparison/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q105883515",
+      "name": "Bousquet",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://bousquetmountain.com/statistics/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4952560",
+      "name": "Boyne Mountain",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails / named runs",
+          "value": null,
+          "unit": "",
+          "note": "The same official page lists 64 named runs and 65 trails; no single total selected.",
+          "source": "https://www.boynemountain.com/mountain-stats",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 64,
+              "source": "https://www.boynemountain.com/mountain-stats"
+            },
+            {
+              "value": 65,
+              "source": "https://www.boynemountain.com/mountain-stats"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.boynemountain.com/mountain-stats"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4982867",
+      "name": "Buck Hill",
+      "notes": "Summary based on the 2025–26 holiday guide, not a current opening report. No resort vertical inferred from summer hiking statistics.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://buckhill.com/your-guide-to-holiday-break-at-buck-hill/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q4998954",
+      "name": "Burke Mountain",
+      "notes": "Trail total withheld: homepage says 53, winter conditions page denominator says 56. Scope needs clarification.",
+      "observations": 3,
+      "missing_core_fields": [
+        "area",
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Winter trails",
+          "unit": "",
+          "value": null,
+          "source": "https://www.skiburke.com/",
+          "alternatives": [
+            {
+              "value": 53,
+              "source": "https://www.skiburke.com/"
+            },
+            {
+              "value": 56,
+              "source": "https://skiburke.com/the-mountain/weather-conditions"
+            }
+          ],
+          "note": "Homepage winter section reports 53; winter conditions denominator reports 56. No single count selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://www.skiburke.com/",
+        "https://skiburke.com/the-mountain/weather-conditions"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16890068",
+      "name": "Caberfae Peaks",
+      "notes": "Summary researched from official ski-and-stay offering. Core numerical mountain facts remain unsourced.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://caberfaepeaks.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5018299",
+      "name": "Calabogie Peaks",
+      "notes": "Official redesigned trail-map page exposes no numerical mountain facts in accessible HTML. No old or third-party dimensions imported.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://calabogie.com/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5025811",
+      "name": "Camden Snow Bowl",
+      "notes": "Glade count withheld: official pages contain both 10 and 11.",
+      "observations": 4,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [
+        {
+          "key": "glades",
+          "label": "Glades",
+          "unit": "",
+          "value": null,
+          "source": "https://camdensnowbowl.com/about/",
+          "alternatives": [
+            {
+              "value": 11,
+              "source": "https://camdensnowbowl.com/about/"
+            },
+            {
+              "value": 10,
+              "source": "https://camdensnowbowl.com/ski-trail-map/"
+            }
+          ],
+          "note": "About page lists 11; trail-map page includes 10 and 11. No single count selected.",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        "https://camdensnowbowl.com/about/",
+        "https://camdensnowbowl.com/ski-trail-map/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5025879",
+      "name": "Camelback",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.camelbackresort.com/poconos-ski-tube"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5048151",
+      "name": "Cascade Mountain",
+      "notes": "176 acres is described only as property extent, so it is not imported as skiable area. Eleven-lift total includes TubeTown.",
+      "observations": 5,
+      "missing_core_fields": [
+        "area",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.cascademountain.com/faqs/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5051346",
+      "name": "Cataloochee",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://cataloochee.com/the-mountain/cataloochee-ski-area-statistics-and-facts/"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5182225",
+      "name": "Cranmore",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://cranmore.com/trail-map"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14705323",
+      "name": "Crotched Mountain",
+      "notes": "",
+      "observations": 6,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.crotchedmtn.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5191297",
+      "name": "Crystal Mountain (Michigan)",
+      "notes": "",
+      "observations": 5,
+      "missing_core_fields": [
+        "skiing_elevation"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.crystalmountain.com/ski/our-mountain/mountain-facts"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5287887",
+      "name": "Dodge Ridge",
+      "notes": "",
+      "observations": 4,
+      "missing_core_fields": [
+        "trails",
+        "skiing_elevation"
+      ],
+      "conflicts": [
+        {
+          "key": "trails",
+          "label": "Trails",
+          "value": null,
+          "unit": "",
+          "note": "Day-ticket page lists 70 trails plus Granite Bowl; 2025–26 pass-pack page lists 67. Date/scope difference unresolved.",
+          "source": "https://dodgeridge.com/lift-tickets/",
+          "retrieved_at": "2026-08-30",
+          "source_published_at": null,
+          "status": "conflict",
+          "confidence": "low",
+          "alternatives": [
+            {
+              "value": 70,
+              "source": "https://dodgeridge.com/lift-tickets/"
+            },
+            {
+              "value": 67,
+              "source": "https://dodgeridge.com/pass-sale/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://dodgeridge.com/lift-tickets/",
+        "https://dodgeridge.com/pass-sale/"
+      ]
+    },
+    {
+      "id": "openstreetmap:way:691521201",
+      "name": "Greek Peak",
+      "notes": "Summary researched; core winter statistics remain unsourced. Current conditions page is displaying summer bike trails, which are not counted as ski trails.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.greekpeak.net/ski-ride/"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q4944773",
+    "wikidata:item:Q4982867",
+    "wikidata:item:Q16890068",
+    "wikidata:item:Q5018299",
+    "openstreetmap:way:691521201"
+  ]
+}
