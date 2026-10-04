@@ -36,11 +36,11 @@ test('third batch preserves verification and field-level source records',()=>{
   }
   assert.throws(()=>applyOfficialBatch003([]),/missing/)
 })
-test('all 1003 researched summaries survive canonical and compact generation',async()=>{
+test('all 1103 researched summaries survive canonical and compact generation',async()=>{
   const canonical=JSON.parse(await readFile(new URL('../generated/canonical-resorts.json',import.meta.url),'utf8'))
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
   assert.equal(records.length,1521)
-  assert.equal(records.filter(r=>r.ov).length,1003)
+  assert.equal(records.filter(r=>r.ov).length,1103)
   for(const r of records.filter(r=>r.ov)){
     const full=canonical.find(c=>c.stable_id===r.id)
     assert.deepEqual(r.ov,full.overview)
