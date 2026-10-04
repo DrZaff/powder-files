@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:43:08.061Z",
+  "generated_at": "2026-10-04T06:52:56.866Z",
   "profiles": [
     {
       "id": "wikidata:item:Q3411128",
@@ -25215,49 +25215,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3230435",
-      "name": "Aillons-Margériaz",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 78,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [
-        "mapped_elevation"
-      ],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.chamberymontagnes.com/aillonsmargeriaz",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.chamberymontagnes.com/aillonsmargeriaz"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q1502252",
       "name": "Baqueira-Beret",
       "country": "Spain",
@@ -25903,49 +25860,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q130260373",
-      "name": "Semnoz station",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 78,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [
-        "trails"
-      ],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.semnoz.fr",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.semnoz.fr"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q768759",
       "name": "Sixt-Fer-à-Cheval",
       "country": "France",
@@ -25970,49 +25884,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.mairie-sixtferacheval.fr"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q207589",
-      "name": "Val-d'Isère",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 78,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [
-        "mapped_elevation"
-      ],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.valdisere.fr",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.valdisere.fr"
         },
         {
           "type": "openstreetmap_topology",
@@ -26343,47 +26214,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://skibaldmountain.com/about-us"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q46995824",
-      "name": "Bergeralm",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.bergeralm.net",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.bergeralm.net"
         },
         {
           "type": "openstreetmap_topology",
@@ -37878,6 +37708,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q46995824",
+      "name": "Bergeralm",
+      "country": "Austria",
+      "priority": "high",
+      "priority_score": 48,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.bergeralm.net",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.bergeralm.net"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q4921353",
       "name": "Black Mountain of Maine",
       "country": "United States",
@@ -41355,6 +41226,48 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q130260373",
+      "name": "Semnoz station",
+      "country": "France",
+      "priority": "high",
+      "priority_score": 46,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "base_elevation"
+      ],
+      "conflicts": [
+        "trails"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.semnoz.fr",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.semnoz.fr"
         },
         {
           "type": "openstreetmap_topology",
@@ -50084,6 +49997,46 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.yongpyong.co.kr"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3230435",
+      "name": "Aillons-Margériaz",
+      "country": "France",
+      "priority": "medium",
+      "priority_score": 30,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails"
+      ],
+      "conflicts": [
+        "mapped_elevation"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.chamberymontagnes.com/aillonsmargeriaz",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.chamberymontagnes.com/aillonsmargeriaz"
         },
         {
           "type": "openstreetmap_topology",

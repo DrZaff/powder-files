@@ -1,13 +1,13 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T06:43:08.061Z
+Generated: 2026-10-04T06:52:56.866Z
 
 This audit measures the 1400 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
 ## Headline coverage
 
-- Profiles with at least one official fact: 519
-- Profiles without any official facts: 881
+- Profiles with at least one official fact: 523
+- Profiles without any official facts: 877
 - Profiles with an official website: 697
 - Profiles without an official website: 703
 - Profiles with an overview: 1336
@@ -22,27 +22,27 @@ This audit measures the 1400 medium- and high-confidence public profiles. A fiel
 
 | Field | Official source | Any usable source | Conflicts | Official coverage |
 | --- | ---: | ---: | ---: | ---: |
-| vertical | 211 | 211 | 2 | 15.1% |
+| vertical | 212 | 212 | 2 | 15.1% |
 | terrain area | 168 | 168 | 9 | 12.0% |
-| trails | 285 | 285 | 33 | 20.4% |
-| lifts | 230 | 230 | 16 | 16.4% |
-| summit elevation | 113 | 113 | 1 | 8.1% |
-| base elevation | 159 | 159 | 0 | 11.4% |
+| trails | 286 | 286 | 33 | 20.4% |
+| lifts | 232 | 232 | 16 | 16.6% |
+| summit elevation | 116 | 116 | 1 | 8.3% |
+| base elevation | 161 | 161 | 0 | 11.5% |
 | skiing elevation | 103 | 103 | 1 | 7.4% |
 | longest run | 63 | 63 | 0 | 4.5% |
 | snowfall | 2 | 2 | 1 | 0.1% |
-| snowmaking | 49 | 49 | 0 | 3.5% |
+| snowmaking | 50 | 50 | 0 | 3.6% |
 | difficulty mix | 6 | 6 | 0 | 0.4% |
-| operating season | 2 | 2 | 0 | 0.1% |
+| operating season | 4 | 4 | 0 | 0.3% |
 | night skiing | 33 | 33 | 0 | 2.4% |
 | terrain parks | 44 | 44 | 1 | 3.1% |
 
 ## Enrichment priority
 
-- Critical: 882
-- High: 134
-- Medium: 292
-- Low: 92
+- Critical: 878
+- High: 136
+- Medium: 293
+- Low: 93
 
 Priority rises for missing core facts, no official-source facts, no official website, unresolved conflicts, missing overview copy and stale observations. It is a research-order tool, not a quality grade shown to visitors. Repeated IDs and same-name records are queued for identity review rather than merged automatically.
 

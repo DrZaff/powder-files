@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T06:43:08.061Z",
+  "generated_at": "2026-10-04T06:52:56.866Z",
   "summary": {
-    "generated_at": "2026-10-04T06:43:08.061Z",
+    "generated_at": "2026-10-04T06:52:56.866Z",
     "total_raw": 7439,
     "canonical_count": 1400,
     "verified_count": 1,
@@ -15,7 +15,7 @@
     "source_coverage": {
       "openstreetmap": 4857,
       "wikidata": 1838,
-      "official_resort": 886,
+      "official_resort": 889,
       "powderfiles": 1,
       "public_authority": 1
     },
@@ -806,6 +806,66 @@
       "f": {},
       "mf": [
         {
+          "key": "piste_length",
+          "label": "Margériaz alpine pistes",
+          "value": 25,
+          "unit": "km",
+          "source": "https://www.chamberymontagnes.com/aillonsmargeriaz/que-faire/ski-glisse/ski-alpin/",
+          "note": "Local Margériaz downhill domain; excludes the separate Nordic trails.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "difficulty_mix",
+          "label": "Published local piste mix",
+          "value": "5 green · 14 blue · 3 red · 2 black",
+          "unit": "",
+          "source": "https://www.chamberymontagnes.com/aillonsmargeriaz/que-faire/ski-glisse/ski-alpin/",
+          "note": "Difficulty counts are for the local Margériaz alpine domain.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Published lower ski-area elevation",
+          "value": 1400,
+          "unit": "m",
+          "source": "https://reservation.chamberymontagnes.com/meteo-iframe.html",
+          "note": "Current official conditions page labels the lower slopes at 1,400 m.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Published upper ski-area elevation",
+          "value": 1800,
+          "unit": "m",
+          "source": "https://reservation.chamberymontagnes.com/meteo-iframe.html",
+          "note": "Current official conditions page labels the upper slopes at 1,800 m.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Lift installations",
+          "value": 10,
+          "unit": "",
+          "source": "https://reservation.chamberymontagnes.com/meteo-iframe.html",
+          "note": "Published total on the official live-status page; operational availability varies.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
           "key": "mapped_elevation",
           "label": "Mapped elevation",
           "value": null,
@@ -891,6 +951,10 @@
         {
           "name": "official_resort",
           "url": "https://www.chamberymontagnes.com/aillonsmargeriaz"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.chamberymontagnes.com/aillonsmargeriaz/que-faire/ski-glisse/ski-alpin/"
         }
       ]
     },
@@ -6840,6 +6904,32 @@
       "f": {},
       "mf": [
         {
+          "key": "operating_season",
+          "label": "Published 2026–27 season",
+          "value": "Nov 28, 2026 – Apr 4, 2027",
+          "unit": "",
+          "source": "https://www.bergeralm.net/winterpreise/",
+          "note": "Scheduled dates remain subject to conditions.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2026–27"
+        },
+        {
+          "key": "night_skiing_schedule",
+          "label": "Published night-ski schedule",
+          "value": "Wed, Fri & Sat · Dec 18, 2026 – Mar 6, 2027",
+          "unit": "",
+          "source": "https://www.bergeralm.net/winterpreise/",
+          "note": "Published evening lift operation is 18:30–21:30.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2026–27"
+        },
+        {
           "key": "mapped_elevation",
           "label": "Mapped elevation",
           "value": 1542,
@@ -6889,6 +6979,10 @@
         {
           "name": "official_resort",
           "url": "https://www.bergeralm.net/en/ski-area/"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.bergeralm.net/winterpreise/"
         }
       ]
     },
@@ -65682,6 +65776,42 @@
           "source_published_at": null,
           "status": "conflict",
           "confidence": "low"
+        },
+        {
+          "key": "piste_length",
+          "label": "Alpine piste length",
+          "value": 15,
+          "unit": "km",
+          "source": "https://www.semnoz.fr/presentation/",
+          "note": "Downhill total; the separately published Nordic network is excluded.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Published ski-area summit",
+          "value": 1704,
+          "unit": "m",
+          "source": "https://www.semnoz.fr/presentation-du-domaine/",
+          "note": "The official page says the two alpine sectors meet above 1,704 m.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "chairlifts",
+          "label": "Chairlifts",
+          "value": 2,
+          "unit": "",
+          "source": "https://www.semnoz.fr/prix-forfaits-alpin/",
+          "note": "The official pricing page refers to reduced pricing when the station’s two chairlifts are not operating.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
         }
       ],
       "ov": {
@@ -81566,6 +81696,105 @@
       "f": {},
       "mf": [
         {
+          "key": "vertical",
+          "label": "Linked-area elevation range",
+          "value": 1900,
+          "unit": "m",
+          "source": "https://www.valdisere.com/en/val-disere/",
+          "note": "Published elevation range for the linked Tignes–Val d’Isère area, not a single lift-served descent.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "piste_length",
+          "label": "Linked-area marked runs",
+          "value": 300,
+          "unit": "km",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Combined Tignes–Val d’Isère domain.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "trails",
+          "label": "Linked-area marked runs",
+          "value": 161,
+          "unit": "",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Combined Tignes–Val d’Isère domain; the listed difficulty subtotals do not sum to this headline total.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "lifts",
+          "label": "Linked-area ski lifts",
+          "value": 71,
+          "unit": "",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Combined Tignes–Val d’Isère domain.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "base",
+          "label": "Linked-area minimum elevation",
+          "value": 1550,
+          "unit": "m",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Combined Tignes–Val d’Isère domain.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium"
+        },
+        {
+          "key": "summit",
+          "label": "Linked-area upper elevation",
+          "value": 3400,
+          "unit": "m",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "The official page states skiing extends above 3,400 m; stored as the published threshold.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        },
+        {
+          "key": "snowmaking",
+          "label": "Snowmaking-covered pistes",
+          "value": 65,
+          "unit": "km",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Combined Tignes–Val d’Isère domain; official page states more than 65 km.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than"
+        },
+        {
+          "key": "operating_season",
+          "label": "Published 2026–27 season",
+          "value": "Nov 28, 2026 – May 2, 2027",
+          "unit": "",
+          "source": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux",
+          "note": "Scheduled dates remain subject to conditions.",
+          "retrieved_at": "2026-10-04",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "source_period": "2026–27"
+        },
+        {
           "key": "mapped_elevation",
           "label": "Mapped elevation",
           "value": null,
@@ -81671,6 +81900,10 @@
         {
           "name": "official_resort",
           "url": "https://www.valdisere.com/val-disere-en-hiver/ski-et-glisse/acheter-mon-forfait/"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.valdisere.com/en/val-disere-in-winter/skiing-winter-fun/ski-area-french-alps/?version=jcdecaux"
         }
       ]
     },

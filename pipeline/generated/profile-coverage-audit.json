@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generated_at": "2026-10-04T06:43:08.061Z",
+    "generated_at": "2026-10-04T06:52:56.866Z",
     "profiles": 1400,
     "unique_stable_ids": 1400,
-    "with_official_facts": 519,
-    "without_official_facts": 881,
+    "with_official_facts": 523,
+    "without_official_facts": 877,
     "with_official_website": 697,
     "without_official_website": 703,
     "with_overview": 1336,
@@ -18,8 +18,8 @@
     "possible_duplicate_profiles": 0,
     "coverage": {
       "vertical": {
-        "available": 211,
-        "source_checked": 211,
+        "available": 212,
+        "source_checked": 212,
         "conflict": 2
       },
       "terrain_area": {
@@ -28,23 +28,23 @@
         "conflict": 9
       },
       "trails": {
-        "available": 285,
-        "source_checked": 285,
+        "available": 286,
+        "source_checked": 286,
         "conflict": 33
       },
       "lifts": {
-        "available": 230,
-        "source_checked": 230,
+        "available": 232,
+        "source_checked": 232,
         "conflict": 16
       },
       "summit_elevation": {
-        "available": 113,
-        "source_checked": 113,
+        "available": 116,
+        "source_checked": 116,
         "conflict": 1
       },
       "base_elevation": {
-        "available": 159,
-        "source_checked": 159,
+        "available": 161,
+        "source_checked": 161,
         "conflict": 0
       },
       "skiing_elevation": {
@@ -63,8 +63,8 @@
         "conflict": 1
       },
       "snowmaking": {
-        "available": 49,
-        "source_checked": 49,
+        "available": 50,
+        "source_checked": 50,
         "conflict": 0
       },
       "difficulty_mix": {
@@ -73,8 +73,8 @@
         "conflict": 0
       },
       "operating_season": {
-        "available": 2,
-        "source_checked": 2,
+        "available": 4,
+        "source_checked": 4,
         "conflict": 0
       },
       "night_skiing": {
@@ -89,10 +89,10 @@
       }
     },
     "priorities": {
-      "critical": 882,
-      "high": 134,
-      "medium": 292,
-      "low": 92
+      "critical": 878,
+      "high": 136,
+      "medium": 293,
+      "low": 93
     }
   },
   "repeated_id_groups": [],
@@ -82625,144 +82625,6 @@
       "possible_duplicate_ids": []
     },
     {
-      "id": "wikidata:item:Q3230435",
-      "name": "Aillons-Margériaz",
-      "country": "France",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "https://www.chamberymontagnes.com/aillonsmargeriaz",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 1,
-      "conflicts": [
-        "mapped_elevation"
-      ],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [
-        "wikidata.org"
-      ],
-      "priority_score": 78,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.chamberymontagnes.com/aillonsmargeriaz"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
       "id": "wikidata:item:Q1502252",
       "name": "Baqueira-Beret",
       "country": "Spain",
@@ -84833,144 +84695,6 @@
       "possible_duplicate_ids": []
     },
     {
-      "id": "wikidata:item:Q130260373",
-      "name": "Semnoz station",
-      "country": "France",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "https://www.semnoz.fr",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": true,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 1,
-      "conflicts": [
-        "trails"
-      ],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [
-        "semnoz.fr"
-      ],
-      "priority_score": 78,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.semnoz.fr"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
       "id": "wikidata:item:Q768759",
       "name": "Sixt-Fer-à-Cheval",
       "country": "France",
@@ -85089,144 +84813,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.mairie-sixtferacheval.fr"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
-      "id": "wikidata:item:Q207589",
-      "name": "Val-d'Isère",
-      "country": "France",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "https://www.valdisere.fr",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 1,
-      "conflicts": [
-        "mapped_elevation"
-      ],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [
-        "wikidata.org"
-      ],
-      "priority_score": 78,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.valdisere.fr"
         },
         {
           "type": "openstreetmap_topology",
@@ -86305,142 +85891,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://skibaldmountain.com/about-us"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
-      "id": "wikidata:item:Q46995824",
-      "name": "Bergeralm",
-      "country": "Austria",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "https://www.bergeralm.net",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 1,
-      "conflicts": [],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [
-        "wikidata.org"
-      ],
-      "priority_score": 72,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.bergeralm.net"
         },
         {
           "type": "openstreetmap_topology",
@@ -124147,6 +123597,143 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q46995824",
+      "name": "Bergeralm",
+      "country": "Austria",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "https://www.bergeralm.net",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 2,
+      "observation_count": 3,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "bergeralm.net",
+        "wikidata.org"
+      ],
+      "priority_score": 48,
+      "priority": "high",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.bergeralm.net"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q4921353",
       "name": "Black Mountain of Maine",
       "country": "United States",
@@ -135799,6 +135386,143 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q130260373",
+      "name": "Semnoz station",
+      "country": "France",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "https://www.semnoz.fr",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": true,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 3,
+      "observation_count": 4,
+      "conflicts": [
+        "trails"
+      ],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "semnoz.fr"
+      ],
+      "priority_score": 46,
+      "priority": "high",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.semnoz.fr"
         },
         {
           "type": "openstreetmap_topology",
@@ -165572,6 +165296,143 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q3230435",
+      "name": "Aillons-Margériaz",
+      "country": "France",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "https://www.chamberymontagnes.com/aillonsmargeriaz",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 5,
+      "observation_count": 6,
+      "conflicts": [
+        "mapped_elevation"
+      ],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails"
+      ],
+      "source_hosts": [
+        "chamberymontagnes.com",
+        "reservation.chamberymontagnes.com",
+        "wikidata.org"
+      ],
+      "priority_score": 30,
+      "priority": "medium",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.chamberymontagnes.com/aillonsmargeriaz"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q4952560",
       "name": "Boyne Mountain",
       "country": "United States",
@@ -182124,6 +181985,140 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.mohawkmtn.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q207589",
+      "name": "Val-d'Isère",
+      "country": "France",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "https://www.valdisere.fr",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 8,
+      "observation_count": 9,
+      "conflicts": [
+        "mapped_elevation"
+      ],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "valdisere.com",
+        "wikidata.org"
+      ],
+      "priority_score": 14,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.valdisere.fr"
         },
         {
           "type": "openstreetmap_topology",

@@ -17551,11 +17551,8 @@
     "country": "France",
     "official_website": "https://www.valdisere.fr",
     "missing_official_facts": [
-      "vertical",
       "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [
       {
@@ -19846,8 +19843,7 @@
       "vertical",
       "area",
       "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [
       {
