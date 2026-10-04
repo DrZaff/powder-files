@@ -56,4 +56,4 @@ See [curated exclusion cleanup 001](CURATED-EXCLUSIONS-001.md). It removes 112 c
 
 # Latest identity and enrichment pass
 
-See [identity cleanup and enrichment batch 020](IDENTITY-AND-ENRICHMENT-020.md). It resolves repeated IDs and same-name identity collisions before adding official facts to Ski Santa Fe, Horseshoe Resort and Sella Nevea. The current public directory contains 1,400 unique profiles, with 513 profiles carrying at least one official fact.
+See [identity cleanup and enrichment batch 020](IDENTITY-AND-ENRICHMENT-020.md) for the general identity policy. [Official batch 024](OFFICIAL-BATCH-024.md) resolves the split Vail and Breckenridge source identities and adds their official mountain facts. The current public directory contains 1,402 unique profiles, with 527 profiles carrying at least one official fact.

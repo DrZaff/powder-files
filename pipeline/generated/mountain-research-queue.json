@@ -26435,5 +26435,33 @@
     "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "queried"
+  },
+  {
+    "id": "wikidata:item:Q14685139",
+    "name": "Vail Ski Resort",
+    "country": "United States",
+    "official_website": "https://www.vail.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q12053500",
+    "name": "Breckenridge Ski Resort",
+    "country": "United States",
+    "official_website": "https://www.breckenridge.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
   }
 ]

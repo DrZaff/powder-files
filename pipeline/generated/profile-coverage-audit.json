@@ -1,13 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-10-04T06:59:40.275Z",
-    "profiles": 1400,
-    "unique_stable_ids": 1400,
-    "with_official_facts": 525,
+    "generated_at": "2026-10-04T07:12:01.253Z",
+    "profiles": 1402,
+    "unique_stable_ids": 1402,
+    "with_official_facts": 527,
     "without_official_facts": 875,
-    "with_official_website": 697,
+    "with_official_website": 699,
     "without_official_website": 703,
-    "with_overview": 1336,
+    "with_overview": 1338,
     "without_overview": 64,
     "conflict_profiles": 107,
     "stale_profiles": 0,
@@ -28,23 +28,23 @@
         "conflict": 9
       },
       "trails": {
-        "available": 288,
-        "source_checked": 288,
+        "available": 290,
+        "source_checked": 290,
         "conflict": 33
       },
       "lifts": {
-        "available": 233,
-        "source_checked": 233,
+        "available": 235,
+        "source_checked": 235,
         "conflict": 17
       },
       "summit_elevation": {
-        "available": 117,
-        "source_checked": 117,
+        "available": 119,
+        "source_checked": 119,
         "conflict": 1
       },
       "base_elevation": {
-        "available": 162,
-        "source_checked": 162,
+        "available": 164,
+        "source_checked": 164,
         "conflict": 0
       },
       "skiing_elevation": {
@@ -53,13 +53,13 @@
         "conflict": 1
       },
       "longest_run": {
-        "available": 63,
-        "source_checked": 63,
+        "available": 64,
+        "source_checked": 64,
         "conflict": 0
       },
       "snowfall": {
-        "available": 2,
-        "source_checked": 2,
+        "available": 4,
+        "source_checked": 4,
         "conflict": 1
       },
       "snowmaking": {
@@ -92,7 +92,7 @@
       "critical": 876,
       "high": 137,
       "medium": 293,
-      "low": 94
+      "low": 96
     }
   },
   "repeated_id_groups": [],
@@ -176465,6 +176465,138 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q12053500",
+      "name": "Breckenridge Ski Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.breckenridge.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 8,
+      "observation_count": 8,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "breckenridge.com"
+      ],
+      "priority_score": 16,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.breckenridge.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q5038784",
       "name": "Cardrona Alpine Resort",
       "country": "New Zealand",
@@ -180794,6 +180926,138 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://shigakogen.co.jp/highlight/terakoya"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q14685139",
+      "name": "Vail Ski Resort",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "high",
+      "official_website": "https://www.vail.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 8,
+      "observation_count": 8,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "vail.com"
+      ],
+      "priority_score": 16,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.vail.com"
         },
         {
           "type": "openstreetmap_topology",

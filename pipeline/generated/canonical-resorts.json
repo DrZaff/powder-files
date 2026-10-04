@@ -43537,74 +43537,12 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:531005985",
-    "name": "Breckenridge",
-    "normalized_name": "breckenridge",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": null,
-    "coordinates": {
-      "latitude": 39.47487,
-      "longitude": -106.080954
-    },
-    "official_website": "https://www.breckenridge.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
-    "source_records": [
-      {
-        "source": "openstreetmap",
-        "record_id": "way/531005985",
-        "url": "https://www.openstreetmap.org/way/531005985",
-        "license": "ODbL-1.0",
-        "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Breckenridge",
-        "source_record_ids": [
-          "openstreetmap:way:531005985"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 39.47487,
-          "longitude": -106.080954
-        },
-        "source_record_ids": [
-          "openstreetmap:way:531005985"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531005985"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531005985"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
     "stable_id": "wikidata:item:Q12053500",
     "name": "Breckenridge Ski Resort",
     "normalized_name": "breckenridge ski resort",
-    "alternate_names": [],
+    "alternate_names": [
+      "Breckenridge"
+    ],
     "locality": null,
     "region": "Colorado",
     "country": "United States",
@@ -43612,21 +43550,35 @@
       "latitude": 39.475,
       "longitude": -106.06
     },
-    "official_website": "http://breckenridge.com",
+    "official_website": "https://www.breckenridge.com",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
     "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/531005985",
+        "url": "https://www.openstreetmap.org/way/531005985",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      },
       {
         "source": "wikidata",
         "record_id": "Q12053500",
         "url": "https://www.wikidata.org/wiki/Q12053500",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "url": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Breckenridge Ski Resort",
@@ -43651,7 +43603,266 @@
           "wikidata:item:Q12053500"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:531005985"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Breckenridge spreads its skiing across five distinct peaks, pairing approachable lower-mountain terrain with extensive high-alpine routes. The range of difficulty and three terrain parks makes it useful for mixed-ability groups as well as expert-focused trips.",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "confidence": "medium",
+        "batch": "official-024"
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 12998,
+        "unit": "ft",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "Peak 8.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 9600,
+        "unit": "ft",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2908,
+        "unit": "acres",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 35,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 187,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average snowfall",
+        "value": 355,
+        "unit": "in",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.terrain_parks": {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 3,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "11% beginner · 31% intermediate · 24% advanced · 34% expert",
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 12998,
+        "unit": "ft",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "Peak 8.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 9600,
+        "unit": "ft",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 2908,
+        "unit": "acres",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 35,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 187,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average snowfall",
+        "value": 355,
+        "unit": "in",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_parks",
+        "label": "Terrain parks",
+        "value": 3,
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "11% beginner · 31% intermediate · 24% advanced · 34% expert",
+        "unit": "",
+        "source": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Breckenridge spreads its skiing across five distinct peaks, pairing approachable lower-mountain terrain with extensive high-alpine routes. The range of difficulty and three terrain parks makes it useful for mixed-ability groups as well as expert-focused trips.",
+      "sources": [
+        "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:531005985",
+        "wikidata:item:Q12053500"
+      ],
+      "source_row_count": 2,
+      "note": "Wikidata and OpenStreetMap describe the same active Breckenridge ski area. Their mapped centers differ because each source represents the resort footprint differently; the shared official domain and compatible names resolve the identity.",
+      "evidence_url": "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx"
     }
   },
   {
@@ -45553,7 +45764,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T06:59:40.275Z"
+        "collected_at": "2026-10-04T07:12:01.253Z"
       },
       {
         "source": "openstreetmap",
@@ -45577,7 +45788,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T06:59:40.275Z",
+    "collection_date": "2026-10-04T07:12:01.253Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -395583,25 +395794,22 @@
     }
   },
   {
-    "stable_id": "openstreetmap:way:531009607",
-    "name": "Vail",
-    "normalized_name": "vail",
+    "stable_id": "wikidata:item:Q14685139",
+    "name": "Vail Ski Resort",
+    "normalized_name": "vail ski resort",
     "alternate_names": [
-      "Vail Ski Resort"
+      "Vail"
     ],
     "locality": null,
-    "region": null,
-    "country": null,
+    "region": "Colorado",
+    "country": "United States",
     "coordinates": {
-      "latitude": 39.600283,
-      "longitude": -106.347163
+      "latitude": 39.6391,
+      "longitude": -106.374
     },
     "official_website": "https://www.vail.com",
     "operating_status": "unknown",
     "resort_type": "downhill_or_mixed",
-    "mountain_facts": {
-      "elevation_m": null
-    },
     "source_records": [
       {
         "source": "openstreetmap",
@@ -395609,72 +395817,25 @@
         "url": "https://www.openstreetmap.org/way/531009607",
         "license": "ODbL-1.0",
         "collected_at": "2026-08-30T13:12:44.566Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:12:44.566Z",
-    "verification_status": "incomplete",
-    "confidence": "low",
-    "field_provenance": {
-      "name": {
-        "value": "Vail",
-        "source_record_ids": [
-          "openstreetmap:way:531009607"
-        ],
-        "confidence": "high"
       },
-      "coordinates": {
-        "value": {
-          "latitude": 39.600283,
-          "longitude": -106.347163
-        },
-        "source_record_ids": [
-          "openstreetmap:way:531009607"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531009607"
-        ],
-        "confidence": "low"
-      },
-      "elevation_m": {
-        "value": null,
-        "source_record_ids": [
-          "openstreetmap:way:531009607"
-        ],
-        "confidence": "low"
-      }
-    }
-  },
-  {
-    "stable_id": "wikidata:item:Q14685139",
-    "name": "Vail Ski Resort",
-    "normalized_name": "vail ski resort",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Eagle County",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 39.6391,
-      "longitude": -106.374
-    },
-    "official_website": "http://www.vail.com",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
       {
         "source": "wikidata",
         "record_id": "Q14685139",
         "url": "https://www.wikidata.org/wiki/Q14685139",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "url": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "uncertain",
-    "confidence": "low",
+    "verification_status": "candidate",
+    "confidence": "high",
     "field_provenance": {
       "name": {
         "value": "Vail Ski Resort",
@@ -395699,7 +395860,266 @@
           "wikidata:item:Q14685139"
         ],
         "confidence": "high"
+      },
+      "elevation_m": {
+        "value": null,
+        "source_record_ids": [
+          "openstreetmap:way:531009607"
+        ],
+        "confidence": "low"
+      },
+      "overview": {
+        "value": "Vail is a large Colorado destination known for wide groomers, expansive Back Bowls and the wooded terrain of Blue Sky Basin. Its scale supports long exploratory days, while the official difficulty mix leans toward intermediate and advanced skiing.",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ],
+        "confidence": "medium",
+        "batch": "official-024"
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 11570,
+        "unit": "ft",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 8120,
+        "unit": "ft",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.terrain_area": {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 5317,
+        "unit": "acres",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 32,
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Trails",
+        "value": 278,
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.longest_run": {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4,
+        "unit": "mi",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "Riva Ridge.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.snowfall": {
+        "key": "snowfall",
+        "label": "Average snowfall",
+        "value": 354,
+        "unit": "in",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
+      },
+      "mountain.difficulty_mix": {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "18% beginner · 29% intermediate · 53% advanced",
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-024",
+        "source_record_ids": [
+          "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+        ]
       }
+    },
+    "mountain_observations": [
+      {
+        "key": "summit",
+        "label": "Highest elevation",
+        "value": 11570,
+        "unit": "ft",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Base elevation",
+        "value": 8120,
+        "unit": "ft",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "terrain_area",
+        "label": "Skiable terrain",
+        "value": 5317,
+        "unit": "acres",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Lifts",
+        "value": 32,
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "trails",
+        "label": "Trails",
+        "value": 278,
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "longest_run",
+        "label": "Longest run",
+        "value": 4,
+        "unit": "mi",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "Riva Ridge.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowfall",
+        "label": "Average snowfall",
+        "value": 354,
+        "unit": "in",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "difficulty_mix",
+        "label": "Published terrain mix",
+        "value": "18% beginner · 29% intermediate · 53% advanced",
+        "unit": "",
+        "source": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      }
+    ],
+    "overview": {
+      "text": "Vail is a large Colorado destination known for wide groomers, expansive Back Bowls and the wooded terrain of Blue Sky Basin. Its scale supports long exploratory days, while the official difficulty mix leans toward intermediate and advanced skiing.",
+      "sources": [
+        "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
+      ],
+      "reviewed_at": "2026-10-04",
+      "kind": "editorial_summary"
+    },
+    "identity_resolution": {
+      "reviewed_at": "2026-10-04",
+      "merged_ids": [
+        "openstreetmap:way:531009607",
+        "wikidata:item:Q14685139"
+      ],
+      "source_row_count": 2,
+      "note": "Wikidata and OpenStreetMap describe the same active Vail ski area. Their mapped centers differ because each source represents the large resort boundary differently; the shared official domain and compatible names resolve the identity.",
+      "evidence_url": "https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx"
     }
   },
   {

@@ -18,7 +18,7 @@ test('nineteenth batch preserves candidate state and repairs structured labels',
 
 test('all batch nineteen profiles reach public cards and guides',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1400);assert.equal(records.filter(r=>r.ov).length,1336)
+  assert.equal(records.length,1402);assert.equal(records.filter(r=>r.ov).length,1338)
   for(const e of officialBatch){const matches=records.filter(r=>r.id===e.id);assert.equal(matches.length,1,e.id);const r=matches[0];assert.ok(!/^Q\d+$/.test(r.n));assert.equal(r.ov.text,e.summary);assert.ok(['medium','high'].includes(r.q));assert.notEqual(r.v,'verified');assert.equal(r.mf.filter(f=>f.status==='source_checked').length,0);assert.ok(r.sx.some(s=>s.url===e.summary_sources[0]))}
   const bristol=records.find(r=>r.id==='powderfiles:verified:bristol-mountain');assert.equal(records.filter(r=>r.v==='verified').length,1);assert.equal(bristol.f.vertical_drop_ft,1200);assert.equal(bristol.f.trails,39);assert.equal(bristol.f.skiable_acres,138)
 })

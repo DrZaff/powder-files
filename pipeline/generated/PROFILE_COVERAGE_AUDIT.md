@@ -1,16 +1,16 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T06:59:40.275Z
+Generated: 2026-10-04T07:12:01.253Z
 
-This audit measures the 1400 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
+This audit measures the 1402 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
 ## Headline coverage
 
-- Profiles with at least one official fact: 525
+- Profiles with at least one official fact: 527
 - Profiles without any official facts: 875
-- Profiles with an official website: 697
+- Profiles with an official website: 699
 - Profiles without an official website: 703
-- Profiles with an overview: 1336
+- Profiles with an overview: 1338
 - Profiles without an overview: 64
 - Profiles with unresolved conflicts: 107
 - Profiles with facts older than 365 days: 0
@@ -24,13 +24,13 @@ This audit measures the 1400 medium- and high-confidence public profiles. A fiel
 | --- | ---: | ---: | ---: | ---: |
 | vertical | 212 | 212 | 2 | 15.1% |
 | terrain area | 168 | 168 | 9 | 12.0% |
-| trails | 288 | 288 | 33 | 20.6% |
-| lifts | 233 | 233 | 17 | 16.6% |
-| summit elevation | 117 | 117 | 1 | 8.4% |
-| base elevation | 162 | 162 | 0 | 11.6% |
-| skiing elevation | 103 | 103 | 1 | 7.4% |
-| longest run | 63 | 63 | 0 | 4.5% |
-| snowfall | 2 | 2 | 1 | 0.1% |
+| trails | 290 | 290 | 33 | 20.7% |
+| lifts | 235 | 235 | 17 | 16.8% |
+| summit elevation | 119 | 119 | 1 | 8.5% |
+| base elevation | 164 | 164 | 0 | 11.7% |
+| skiing elevation | 103 | 103 | 1 | 7.3% |
+| longest run | 64 | 64 | 0 | 4.6% |
+| snowfall | 4 | 4 | 1 | 0.3% |
 | snowmaking | 51 | 51 | 0 | 3.6% |
 | difficulty mix | 6 | 6 | 0 | 0.4% |
 | operating season | 5 | 5 | 0 | 0.4% |
@@ -42,7 +42,7 @@ This audit measures the 1400 medium- and high-confidence public profiles. A fiel
 - Critical: 876
 - High: 137
 - Medium: 293
-- Low: 94
+- Low: 96
 
 Priority rises for missing core facts, no official-source facts, no official website, unresolved conflicts, missing overview copy and stale observations. It is a research-order tool, not a quality grade shown to visitors. Repeated IDs and same-name records are queued for identity review rather than merged automatically.
 

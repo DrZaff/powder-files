@@ -73,7 +73,7 @@ test('eleventh batch preserves sector, course, operating and historical scope',(
 
 test('all 100 eleventh-batch summaries and facts reach cards and guides; Bristol is unchanged',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1400)
+  assert.equal(records.length,1402)
   assert.ok(records.filter(r=>r.ov).length>=603)
   const countries={}
   for(const e of officialBatch){

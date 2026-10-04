@@ -68,7 +68,7 @@ test('ninth batch distinguishes piste lengths, broad areas, sector scope and con
 
 test('all 100 additions reach public cards and guides while Bristol and older dates stay intact',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
-  assert.equal(records.length,1400)
+  assert.equal(records.length,1402)
   assert.ok(records.filter(r=>r.ov).length>=403)
   const countries={}
   for(const e of officialBatch){

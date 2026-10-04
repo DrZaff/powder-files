@@ -20,6 +20,6 @@ test('curated exclusion pass removes records and retains provenance',()=>{
 test('curated exclusions do not appear in the public directory',async()=>{
   const {records}=JSON.parse(await readFile(new URL('../../public/data/resorts.compact.json',import.meta.url),'utf8'))
   const publicIds=new Set(records.map(r=>r.id));for(const e of curatedExclusions)assert.ok(!publicIds.has(e.id),e.id)
-  assert.equal(records.length,1400);assert.equal(records.filter(r=>r.ov).length,1336)
+  assert.equal(records.length,1402);assert.equal(records.filter(r=>r.ov).length,1338)
   const bristol=records.find(r=>r.id==='powderfiles:verified:bristol-mountain');assert.ok(bristol);assert.equal(bristol.v,'verified')
 })

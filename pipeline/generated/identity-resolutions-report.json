@@ -38,6 +38,22 @@
       "merged_ids": [
         "wikidata:item:Q6363223"
       ]
+    },
+    {
+      "target": "wikidata:item:Q14685139",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531009607",
+        "wikidata:item:Q14685139"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q12053500",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:531005985",
+        "wikidata:item:Q12053500"
+      ]
     }
   ],
   "exclusions": [
