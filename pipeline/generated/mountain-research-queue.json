@@ -454,9 +454,7 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "trails",
-      "skiing_elevation",
-      "lifts"
+      "skiing_elevation"
     ],
     "conflicts": [],
     "status": "needs_official_research",
@@ -16018,11 +16016,33 @@
     "missing_official_facts": [
       "vertical",
       "area",
-      "trails",
       "skiing_elevation",
       "lifts"
     ],
-    "conflicts": [],
+    "conflicts": [
+      {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://skibwp.com/",
+        "note": "The official home page says six lifts, while the current About Us equipment list names five. Powder Files preserves both values.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 6,
+            "source": "https://skibwp.com/home/"
+          },
+          {
+            "value": 5,
+            "source": "https://skibwp.com/"
+          }
+        ]
+      }
+    ],
     "status": "needs_official_research",
     "structured_lookup": "queried"
   },

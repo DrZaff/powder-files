@@ -1,8 +1,8 @@
 {
   "profiles": 1400,
-  "with_official_facts": 523,
+  "with_official_facts": 525,
   "with_structured_elevation": 123,
-  "conflict_profiles": 106,
+  "conflict_profiles": 107,
   "needs_official_research": 1396,
   "without_official_website": 703
 }

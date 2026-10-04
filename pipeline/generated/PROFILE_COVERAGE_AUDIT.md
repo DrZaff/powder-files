@@ -1,18 +1,18 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T06:52:56.866Z
+Generated: 2026-10-04T06:59:40.275Z
 
 This audit measures the 1400 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
 ## Headline coverage
 
-- Profiles with at least one official fact: 523
-- Profiles without any official facts: 877
+- Profiles with at least one official fact: 525
+- Profiles without any official facts: 875
 - Profiles with an official website: 697
 - Profiles without an official website: 703
 - Profiles with an overview: 1336
 - Profiles without an overview: 64
-- Profiles with unresolved conflicts: 106
+- Profiles with unresolved conflicts: 107
 - Profiles with facts older than 365 days: 0
 - Profiles with all six core fields: 19
 - Repeated stable IDs: 0 identifiers producing 0 extra rows
@@ -24,25 +24,25 @@ This audit measures the 1400 medium- and high-confidence public profiles. A fiel
 | --- | ---: | ---: | ---: | ---: |
 | vertical | 212 | 212 | 2 | 15.1% |
 | terrain area | 168 | 168 | 9 | 12.0% |
-| trails | 286 | 286 | 33 | 20.4% |
-| lifts | 232 | 232 | 16 | 16.6% |
-| summit elevation | 116 | 116 | 1 | 8.3% |
-| base elevation | 161 | 161 | 0 | 11.5% |
+| trails | 288 | 288 | 33 | 20.6% |
+| lifts | 233 | 233 | 17 | 16.6% |
+| summit elevation | 117 | 117 | 1 | 8.4% |
+| base elevation | 162 | 162 | 0 | 11.6% |
 | skiing elevation | 103 | 103 | 1 | 7.4% |
 | longest run | 63 | 63 | 0 | 4.5% |
 | snowfall | 2 | 2 | 1 | 0.1% |
-| snowmaking | 50 | 50 | 0 | 3.6% |
+| snowmaking | 51 | 51 | 0 | 3.6% |
 | difficulty mix | 6 | 6 | 0 | 0.4% |
-| operating season | 4 | 4 | 0 | 0.3% |
+| operating season | 5 | 5 | 0 | 0.4% |
 | night skiing | 33 | 33 | 0 | 2.4% |
 | terrain parks | 44 | 44 | 1 | 3.1% |
 
 ## Enrichment priority
 
-- Critical: 878
-- High: 136
+- Critical: 876
+- High: 137
 - Medium: 293
-- Low: 93
+- Low: 94
 
 Priority rises for missing core facts, no official-source facts, no official website, unresolved conflicts, missing overview copy and stale observations. It is a research-order tool, not a quality grade shown to visitors. Repeated IDs and same-name records are queued for identity review rather than merged automatically.
 

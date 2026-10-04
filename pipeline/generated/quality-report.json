@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:52:56.866Z",
+  "generated_at": "2026-10-04T06:59:40.275Z",
   "total_raw": 7439,
   "canonical_count": 5968,
   "verified_count": 1,
@@ -13,7 +13,7 @@
   "source_coverage": {
     "openstreetmap": 4857,
     "wikidata": 1838,
-    "official_resort": 889,
+    "official_resort": 891,
     "powderfiles": 1,
     "public_authority": 1
   },

@@ -41189,6 +41189,13 @@
         "url": "https://skibwp.com/contact/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-31"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://skibwp.com/",
+        "url": "https://skibwp.com/",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -41232,9 +41239,86 @@
         ],
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Downhill trails",
+        "value": 8,
+        "unit": "",
+        "source": "https://skibwp.com/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://skibwp.com/"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://skibwp.com/",
+        "note": "The official home page says six lifts, while the current About Us equipment list names five. Powder Files preserves both values.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 6,
+            "source": "https://skibwp.com/home/"
+          },
+          {
+            "value": 5,
+            "source": "https://skibwp.com/"
+          }
+        ],
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://skibwp.com/"
+        ]
       }
     },
-    "mountain_observations": [],
+    "mountain_observations": [
+      {
+        "key": "trails",
+        "label": "Downhill trails",
+        "value": 8,
+        "unit": "",
+        "source": "https://skibwp.com/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Published lift count",
+        "value": null,
+        "unit": "",
+        "source": "https://skibwp.com/",
+        "note": "The official home page says six lifts, while the current About Us equipment list names five. Powder Files preserves both values.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "alternatives": [
+          {
+            "value": 6,
+            "source": "https://skibwp.com/home/"
+          },
+          {
+            "value": 5,
+            "source": "https://skibwp.com/"
+          }
+        ]
+      }
+    ],
     "overview": {
       "text": "Bottineau Winter Park pairs its public ski offering with a ski-and-snowboard school and Annie’s House adaptive program. Instruction and adaptive access are central parts of the experience described here; mountain dimensions still need further sourcing.",
       "sources": [
@@ -45469,7 +45553,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T06:52:56.866Z"
+        "collected_at": "2026-10-04T06:59:40.275Z"
       },
       {
         "source": "openstreetmap",
@@ -45493,7 +45577,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T06:52:56.866Z",
+    "collection_date": "2026-10-04T06:59:40.275Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -95628,6 +95712,13 @@
         "url": "https://www.flaine.com/domaine-skiable/",
         "license": "factual-observations-only; page copyright retained by publisher",
         "collected_at": "2026-08-31"
+      },
+      {
+        "source": "official_resort",
+        "record_id": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "url": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "license": "factual-observations-only; page copyright retained by publisher",
+        "collected_at": "2026-10-04"
       }
     ],
     "collection_date": "2026-08-30T13:07:28.966Z",
@@ -95673,6 +95764,120 @@
         "confidence": "medium",
         "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       },
+      "mountain.trails": {
+        "key": "trails",
+        "label": "Flaine marked runs",
+        "value": 64,
+        "unit": "",
+        "source": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "note": "Local Flaine ski area, not the wider Grand Massif.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf"
+        ]
+      },
+      "mountain.lifts": {
+        "key": "lifts",
+        "label": "Flaine lifts",
+        "value": 24,
+        "unit": "",
+        "source": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "note": "Local Flaine ski area, not the wider Grand Massif.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf"
+        ]
+      },
+      "mountain.base": {
+        "key": "base",
+        "label": "Flaine lower elevation",
+        "value": 1600,
+        "unit": "m",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/en/faq/"
+        ]
+      },
+      "mountain.summit": {
+        "key": "summit",
+        "label": "Flaine upper piste elevation",
+        "value": 2500,
+        "unit": "m",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/en/faq/"
+        ]
+      },
+      "mountain.snowmaking_area": {
+        "key": "snowmaking_area",
+        "label": "Snowmaking coverage",
+        "value": 89,
+        "unit": "ha",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "Official source states more than 89 hectares on the lower parts of the resort.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/en/faq/"
+        ]
+      },
+      "mountain.snow_cannons": {
+        "key": "snow_cannons",
+        "label": "Snow cannons",
+        "value": 218,
+        "unit": "",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/en/faq/"
+        ]
+      },
+      "mountain.operating_season": {
+        "key": "operating_season",
+        "label": "Published 2026–27 season",
+        "value": "Dec 5, 2026 – Apr 18, 2027",
+        "unit": "",
+        "source": "https://www.flaine.com/en/ski-area/",
+        "note": "Early opening is explicitly subject to snow conditions.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "source_period": "2026–27",
+        "batch": "official-023",
+        "source_record_ids": [
+          "https://www.flaine.com/en/ski-area/"
+        ]
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -95697,6 +95902,92 @@
       }
     },
     "mountain_observations": [
+      {
+        "key": "trails",
+        "label": "Flaine marked runs",
+        "value": 64,
+        "unit": "",
+        "source": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "note": "Local Flaine ski area, not the wider Grand Massif.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "lifts",
+        "label": "Flaine lifts",
+        "value": 24,
+        "unit": "",
+        "source": "https://www.flaine.com/wp-content/uploads/2025/07/FLAINE_Guide2026-EN-MD.pdf",
+        "note": "Local Flaine ski area, not the wider Grand Massif.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "base",
+        "label": "Flaine lower elevation",
+        "value": 1600,
+        "unit": "m",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "summit",
+        "label": "Flaine upper piste elevation",
+        "value": 2500,
+        "unit": "m",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "snowmaking_area",
+        "label": "Snowmaking coverage",
+        "value": 89,
+        "unit": "ha",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "Official source states more than 89 hectares on the lower parts of the resort.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "qualifier": "more_than"
+      },
+      {
+        "key": "snow_cannons",
+        "label": "Snow cannons",
+        "value": 218,
+        "unit": "",
+        "source": "https://www.flaine.com/en/faq/",
+        "note": "",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium"
+      },
+      {
+        "key": "operating_season",
+        "label": "Published 2026–27 season",
+        "value": "Dec 5, 2026 – Apr 18, 2027",
+        "unit": "",
+        "source": "https://www.flaine.com/en/ski-area/",
+        "note": "Early opening is explicitly subject to snow conditions.",
+        "retrieved_at": "2026-10-04",
+        "source_published_at": null,
+        "status": "source_checked",
+        "confidence": "medium",
+        "source_period": "2026–27"
+      },
       {
         "key": "mapped_elevation",
         "label": "Mapped elevation",

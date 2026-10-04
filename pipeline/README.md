@@ -1,6 +1,6 @@
 # Powder Files global resort-data pipeline
 
-Latest manual enrichment: [official batch 022](./OFFICIAL-BATCH-022.md), adding carefully scoped official facts for four profiles while preserving existing source conflicts.
+Latest manual enrichment: [official batch 023](./OFFICIAL-BATCH-023.md), adding local Flaine facts and preserving Bottineau's official lift-count conflict.
 
 This local pipeline builds a reviewable worldwide directory of active or potentially active, publicly accessible, lift-served downhill ski and snowboard areas. It is intentionally conservative: incomplete records remain candidates, and plausible duplicates enter an ambiguity queue rather than being merged without strong evidence.
 

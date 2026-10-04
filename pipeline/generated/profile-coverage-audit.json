@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generated_at": "2026-10-04T06:52:56.866Z",
+    "generated_at": "2026-10-04T06:59:40.275Z",
     "profiles": 1400,
     "unique_stable_ids": 1400,
-    "with_official_facts": 523,
-    "without_official_facts": 877,
+    "with_official_facts": 525,
+    "without_official_facts": 875,
     "with_official_website": 697,
     "without_official_website": 703,
     "with_overview": 1336,
     "without_overview": 64,
-    "conflict_profiles": 106,
+    "conflict_profiles": 107,
     "stale_profiles": 0,
     "complete_core_profiles": 19,
     "repeated_stable_ids": 0,
@@ -28,23 +28,23 @@
         "conflict": 9
       },
       "trails": {
-        "available": 286,
-        "source_checked": 286,
+        "available": 288,
+        "source_checked": 288,
         "conflict": 33
       },
       "lifts": {
-        "available": 232,
-        "source_checked": 232,
-        "conflict": 16
+        "available": 233,
+        "source_checked": 233,
+        "conflict": 17
       },
       "summit_elevation": {
-        "available": 116,
-        "source_checked": 116,
+        "available": 117,
+        "source_checked": 117,
         "conflict": 1
       },
       "base_elevation": {
-        "available": 161,
-        "source_checked": 161,
+        "available": 162,
+        "source_checked": 162,
         "conflict": 0
       },
       "skiing_elevation": {
@@ -63,8 +63,8 @@
         "conflict": 1
       },
       "snowmaking": {
-        "available": 50,
-        "source_checked": 50,
+        "available": 51,
+        "source_checked": 51,
         "conflict": 0
       },
       "difficulty_mix": {
@@ -73,8 +73,8 @@
         "conflict": 0
       },
       "operating_season": {
-        "available": 4,
-        "source_checked": 4,
+        "available": 5,
+        "source_checked": 5,
         "conflict": 0
       },
       "night_skiing": {
@@ -89,10 +89,10 @@
       }
     },
     "priorities": {
-      "critical": 878,
-      "high": 136,
+      "critical": 876,
+      "high": 137,
       "medium": 293,
-      "low": 93
+      "low": 94
     }
   },
   "repeated_id_groups": [],
@@ -86045,140 +86045,6 @@
       "possible_duplicate_ids": []
     },
     {
-      "id": "wikidata:item:Q14708301",
-      "name": "Bottineau Winter Park",
-      "country": "United States",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "http://www.skibwp.com/index.htm",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 0,
-      "conflicts": [],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [],
-      "priority_score": 72,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.skibwp.com/index.htm"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
       "id": "wikidata:item:Q16953614",
       "name": "Brezovica Ski Resort",
       "country": "Kosovo",
@@ -88308,142 +88174,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.eggberge.ch/region/winter/skifahren"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ],
-      "possible_duplicate_ids": []
-    },
-    {
-      "id": "wikidata:item:Q530324",
-      "name": "Flaine",
-      "country": "France",
-      "verification_status": "candidate",
-      "confidence": "medium",
-      "official_website": "https://www.flaine.com",
-      "overview": true,
-      "coordinates": true,
-      "facts": {
-        "vertical": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_area": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "trails": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "lifts": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "summit_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "base_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "skiing_elevation": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "longest_run": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowfall": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "snowmaking": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "difficulty_mix": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "operating_season": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "night_skiing": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        },
-        "terrain_parks": {
-          "available": false,
-          "conflict": false,
-          "source_checked": false,
-          "structured_only": false
-        }
-      },
-      "official_fact_count": 0,
-      "observation_count": 1,
-      "conflicts": [],
-      "stale_fields": [],
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "source_hosts": [
-        "wikidata.org"
-      ],
-      "priority_score": 72,
-      "priority": "critical",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.flaine.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -134586,6 +134316,143 @@
       "possible_duplicate_ids": []
     },
     {
+      "id": "wikidata:item:Q14708301",
+      "name": "Bottineau Winter Park",
+      "country": "United States",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "http://www.skibwp.com/index.htm",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": false,
+          "conflict": true,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 1,
+      "observation_count": 2,
+      "conflicts": [
+        "lifts"
+      ],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "source_hosts": [
+        "skibwp.com"
+      ],
+      "priority_score": 46,
+      "priority": "high",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.skibwp.com/index.htm"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
       "id": "wikidata:item:Q1943086",
       "name": "Kittelfjäll",
       "country": "Sweden",
@@ -177238,6 +177105,139 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.skifergi.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ],
+      "possible_duplicate_ids": []
+    },
+    {
+      "id": "wikidata:item:Q530324",
+      "name": "Flaine",
+      "country": "France",
+      "verification_status": "candidate",
+      "confidence": "medium",
+      "official_website": "https://www.flaine.com",
+      "overview": true,
+      "coordinates": true,
+      "facts": {
+        "vertical": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_area": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "trails": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "lifts": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "summit_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "base_elevation": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "skiing_elevation": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "longest_run": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowfall": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "snowmaking": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "difficulty_mix": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "operating_season": {
+          "available": true,
+          "conflict": false,
+          "source_checked": true,
+          "structured_only": false
+        },
+        "night_skiing": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        },
+        "terrain_parks": {
+          "available": false,
+          "conflict": false,
+          "source_checked": false,
+          "structured_only": false
+        }
+      },
+      "official_fact_count": 7,
+      "observation_count": 8,
+      "conflicts": [],
+      "stale_fields": [],
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area"
+      ],
+      "source_hosts": [
+        "flaine.com",
+        "wikidata.org"
+      ],
+      "priority_score": 16,
+      "priority": "low",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.flaine.com"
         },
         {
           "type": "openstreetmap_topology",

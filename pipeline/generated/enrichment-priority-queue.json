@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:52:56.866Z",
+  "generated_at": "2026-10-04T06:59:40.275Z",
   "profiles": [
     {
       "id": "wikidata:item:Q3411128",
@@ -26274,47 +26274,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q14708301",
-      "name": "Bottineau Winter Park",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://www.skibwp.com/index.htm",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.skibwp.com/index.htm"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q16953614",
       "name": "Brezovica Ski Resort",
       "country": "Kosovo",
@@ -26947,47 +26906,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.eggberge.ch/region/winter/skifahren"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q530324",
-      "name": "Flaine",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 72,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.flaine.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.flaine.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -40978,6 +40896,48 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://asari-ski.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q14708301",
+      "name": "Bottineau Winter Park",
+      "country": "United States",
+      "priority": "high",
+      "priority_score": 46,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [
+        "lifts"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.skibwp.com/index.htm",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.skibwp.com/index.htm"
         },
         {
           "type": "openstreetmap_topology",
