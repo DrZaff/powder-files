@@ -21,6 +21,7 @@ import { applyOfficialBatch019 } from './official-batch-019.mjs'
 import { applyCuratedExclusions } from './curated-exclusions.mjs'
 import { applyResortSummaries } from './resort-summaries.mjs'
 import { enrichMountains } from './lib/mountain-enrichment.mjs'
+import { buildProfileCoverageAudit, coverageAuditMarkdown } from './lib/profile-coverage-audit.mjs'
 import { readFile } from 'node:fs/promises'
 import { COLLECTION_DATE, NEAR_MATCH_KM, STRONG_MATCH_KM } from './config.mjs'
 import { fromOsm, fromWikidata } from './lib/candidate.mjs'
@@ -67,6 +68,10 @@ const mountainCache=await cached('mountain-wikidata')
 const enrichmentQueue=enrichMountains(canonical,mountainCache.queried_ids?mountainCache:null)
 await writeJson(new URL('mountain-research-queue.json',generated),enrichmentQueue)
 await writeJson(new URL('mountain-coverage.json',generated),{profiles:enrichmentQueue.length,with_official_facts:canonical.filter(r=>r.mountain_observations?.some(f=>f.status==='source_checked')).length,with_structured_elevation:canonical.filter(r=>r.mountain_observations?.some(f=>f.key==='mapped_elevation'&&f.status==='structured_source')).length,conflict_profiles:enrichmentQueue.filter(r=>r.conflicts.length).length,needs_official_research:enrichmentQueue.filter(r=>r.missing_official_facts.length).length,without_official_website:enrichmentQueue.filter(r=>!r.official_website).length})
+const profileAudit=buildProfileCoverageAudit(canonical,COLLECTION_DATE)
+await writeJson(new URL('profile-coverage-audit.json',generated),{summary:profileAudit.summary,repeated_id_groups:profileAudit.repeated_id_groups,duplicate_name_groups:profileAudit.duplicate_name_groups,profiles:profileAudit.profiles})
+await writeJson(new URL('enrichment-priority-queue.json',generated),{generated_at:COLLECTION_DATE,profiles:profileAudit.priority_queue})
+await import('node:fs/promises').then(fs=>fs.writeFile(new URL('PROFILE_COVERAGE_AUDIT.md',generated),coverageAuditMarkdown(profileAudit.summary)))
 canonical.sort((a,b)=>a.name.localeCompare(b.name)||a.stable_id.localeCompare(b.stable_id))
 
 const sources=Object.groupBy(canonical.flatMap(r=>r.source_records),r=>r.source)

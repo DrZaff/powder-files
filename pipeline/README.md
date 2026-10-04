@@ -32,6 +32,8 @@ The source clients send a descriptive Powder Files user agent, use one request p
 - `pipeline/generated/curated-exclusions-report.json`: exact-record cleanup counts by exclusion reason.
 - `pipeline/generated/summary.json`: country and source counts.
 - `pipeline/generated/quality-report.json` and `QUALITY_REPORT.md`: coverage and limitations.
+- `pipeline/generated/profile-coverage-audit.json` and `PROFILE_COVERAGE_AUDIT.md`: field-by-field coverage, conflicts, staleness and research priority for every public profile.
+- `pipeline/generated/enrichment-priority-queue.json`: actionable resort research order with source recommendations.
 - `public/data/resorts.compact.json`: compact, read-only browser dataset loaded separately from the main JavaScript bundle.
 
 ## Important limitations

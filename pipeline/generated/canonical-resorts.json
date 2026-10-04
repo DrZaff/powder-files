@@ -44911,7 +44911,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T01:16:24.088Z"
+        "collected_at": "2026-10-04T06:18:19.583Z"
       },
       {
         "source": "openstreetmap",
@@ -44935,7 +44935,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T01:16:24.088Z",
+    "collection_date": "2026-10-04T06:18:19.583Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
