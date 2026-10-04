@@ -1,5 +1,5 @@
 {
-  "summarized_profiles": 1103,
+  "summarized_profiles": 1203,
   "reviewed_at": "2026-10-03",
   "profiles": [
     {
@@ -9965,6 +9965,906 @@
       "text": "Autrans-Méaudre combines modest downhill sectors with a wider Vercors winter-sports destination and village atmosphere.",
       "sources": [
         "https://www.wikidata.org/wiki/Q137035712"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q116459866",
+      "text": "St. Jakob is an East Tyrol ski area with high alpine slopes and a quiet valley setting away from major resort corridors.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116459866"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q11886858",
+      "text": "Patakukkula is a compact Finnish ski hill whose short groomed slopes serve local recreation and learning.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11886858"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137036005",
+      "text": "Bernex is a village ski area above Lake Geneva with forested slopes and striking views toward the Dent d’Oche.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137036005"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137036101",
+      "text": "Gresse-en-Vercors is a family-oriented mountain station beneath the Grand Veymont, with scenic and approachable local terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137036101"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137036244",
+      "text": "Semnoz is a compact plateau ski area above Annecy, valued for accessible slopes and wide Alpine panoramas.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137036244"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137036547",
+      "text": "Les Contamines is a traditional Mont Blanc valley resort with varied slopes extending across a scenic mountain pass.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137036547"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137036673",
+      "text": "Bessans offers a small downhill sector within a broad Haute Maurienne winter-sports setting better known for Nordic terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137036673"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137037070",
+      "text": "Col de Porte is a small Chartreuse ski area at a mountain pass, focused on local family outings and natural conditions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137037070"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137037411",
+      "text": "Thollon-les-Mémises sits high above Lake Geneva, pairing compact lift-served terrain with unusually broad lake views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137037411"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137038279",
+      "text": "Le Planolet is a small Chartreuse ski sector with forested local slopes beneath the Grande Sure.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137038279"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137038568",
+      "text": "Saint-Hugues–Les Égaux is a modest Chartreuse ski area where short village slopes support learning and local recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137038568"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039198",
+      "text": "Le Granier is a compact Bauges ski area with gentle local terrain and a quiet village-mountain atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039198"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039225",
+      "text": "La Stass’ is a very small Chartreuse ski slope designed for local learning, family sessions and conditions-dependent winter use.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039225"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039342",
+      "text": "Hirmentaz is a family-scale Chablais ski area with open local slopes and links toward the Habères sector.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039342"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039362",
+      "text": "Pas de la Casa is a high Andorran resort sector with immediate slope access and connections across the Grandvalira network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039362"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039489",
+      "text": "Pelvoux-Vallouise is an intimate Écrins valley area with village slopes, forested terrain and a strong mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039489"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039760",
+      "text": "Barèges is a traditional Pyrenees village gateway into the Grand Tourmalet domain, with access toward high pass terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039760"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137040129",
+      "text": "La Mongie is the high slopeside base of Grand Tourmalet, offering direct access to broad Pyrenean terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040129"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137040530",
+      "text": "Le Sappey is a small village ski area close to Grenoble, suited to family laps and convenient local outings.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040530"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137040552",
+      "text": "Mont-Saxonnex is a compact Haute-Savoie village area with forested slopes and views toward the Bargy range.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040552"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137040639",
+      "text": "La Schlucht is a Vosges pass ski area with modest lift-served slopes in a broad regional winter landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040639"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137040742",
+      "text": "Le Lavachet is a residential Tignes sector with convenient access to the resort’s high-altitude lift network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137040742"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137047542",
+      "text": "La Plagne 1800 is a wooded slopeside village within La Plagne, offering a quieter base for the larger network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137047542"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137047559",
+      "text": "La Plagne Centre is a principal high-altitude hub with direct lift access and extensive services at the heart of the domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137047559"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137047685",
+      "text": "Plagne Soleil is a compact ski-in, ski-out base whose high position provides immediate access to La Plagne terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137047685"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137047968",
+      "text": "Plagne Villages is a high slopeside base with a quieter lodging focus and direct links into the La Plagne network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137047968"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137048829",
+      "text": "Le Monêtier is the upper-valley Serre Chevalier sector, combining thermal-village character with extensive mountain access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137048829"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137048841",
+      "text": "Chantemerle is a central Serre Chevalier base with fast access from a lively village into wooded and alpine terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137048841"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137049158",
+      "text": "Villeneuve is a major Serre Chevalier base, linking developed slopeside services with the valley’s broad mountain network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137049158"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137049174",
+      "text": "Les Allues is the traditional valley-village base of Méribel, connected uphill to the wider Three Valleys terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137049174"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137049709",
+      "text": "Méribel Centre is the resort’s main village hub, combining immediate lift access with extensive lodging and services.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137049709"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137049728",
+      "text": "Méribel Village is a quieter lower resort sector with local slopes and links into the larger Méribel network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137049728"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137050176",
+      "text": "Saint-Bon is Courchevel’s historic valley village, serving as a traditional lower gateway to the resort network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137050176"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137051135",
+      "text": "Courchevel Village is a slopeside base with family access and direct lift connections toward higher Courchevel sectors.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137051135"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137051494",
+      "text": "Courchevel Moriond is a sunny resort sector with broad cruising terrain and links into the Three Valleys.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137051494"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137051760",
+      "text": "Valmeinier 1800 is a purpose-built slopeside base with immediate access to the Galibier-Thabor ski domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137051760"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052126",
+      "text": "Valmeinier Villages represents the resort’s lower traditional settlements and their links toward the higher mountain network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052126"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052565",
+      "text": "Passy Plaine-Joux is a family-scale Haute-Savoie ski area with an open plateau and exceptional Mont Blanc views.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052565"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052855",
+      "text": "Lanslevillard is a village sector of Val Cenis with direct lift access into the linked Haute Maurienne terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052855"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052876",
+      "text": "Le Reposoir is a small Haute-Savoie village area with gentle local slopes in a secluded Aravis setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052876"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052894",
+      "text": "Termignon is a traditional Val Cenis village sector with forested access into the larger linked ski domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052894"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052912",
+      "text": "Les Habères is a Chablais village ski area with family terrain and links toward neighboring Hirmentaz.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052912"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137052926",
+      "text": "Morillon 1100 is a slopeside village base with family facilities and direct access into the Grand Massif.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052926"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137053015",
+      "text": "Le Chazelet is a small high-Alps village area facing La Meije, known for open slopes and a dramatic setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137053015"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137053212",
+      "text": "Les Agudes is one of Peyragudes’ two main resort sides, providing village access to the linked Pyrenean domain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137053212"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137962399",
+      "text": "Aillons-Margériaz 1400 is the higher, more open sector of the Bauges ski area, distinct from the lower village slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137962399"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q138208965",
+      "text": "Longchamp 1650 is a principal slopeside base with family services and connections across Le Grand Domaine.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q138208965"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q138754763",
+      "text": "Font d’Urle is a Vercors plateau ski area with exposed rolling terrain and a strong regional winter character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q138754763"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q1425512",
+      "text": "Hochoetz is a family-oriented Tyrolean ski area reached from the Ötztal, with broad high-mountain slopes above the valley.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1425512"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q15056401",
+      "text": "Grasgehren is an Allgäu mountain area near the Riedberg Pass, offering compact snow terrain in an open alpine bowl.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q15056401"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q15111880",
+      "text": "Großglockner Resort links East Tyrolean mountain sectors around Kals and Matrei beneath Austria’s highest peak.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q15111880"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16486298",
+      "text": "Dębowiec is an urban-edge ski area at Bielsko-Biała, providing convenient local slopes beneath the Beskids.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16486298"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16507699",
+      "text": "Crévacol is an Aosta Valley ski area with sunny open slopes and a quieter mountain atmosphere near the Swiss border.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16507699"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16508112",
+      "text": "Gaver is a small Lombardy mountain area whose lift-served slopes sit in a broad high-valley winter landscape.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16508112"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16510679",
+      "text": "Rossberg is a compact Swiss regional ski area with local groomed terrain and a quiet pre-Alpine setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16510679"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16532989",
+      "text": "Le Bleymard–Mont Lozère is a small Massif Central ski area with open upland slopes and conditions-dependent operation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16532989"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16533890",
+      "text": "Brameloup is a compact Aubrac ski station with forested local slopes and a community-focused winter atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16533890"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16605584",
+      "text": "Kamienica is a small Polish mountain station with groomed regional slopes and a straightforward day-area layout.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16605584"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16605587",
+      "text": "Szklana Góra is a compact Polish ski area at Harbutowice with groomed family terrain and modern local facilities.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16605587"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16616729",
+      "text": "Klepki is a small ski area in Wisła Malinka, focused on accessible family slopes and convenient village access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16616729"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16665845",
+      "text": "Métabief is a major French Jura resort with several linked sectors and broad views toward the Alps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16665845"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17193738",
+      "text": "Haginoyama is a community ski area at Iwamizawa with approachable Hokkaido terrain and convenient local access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17193738"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17217467",
+      "text": "Geto Kogen is an Iwate mountain resort known for heavy snowfall, developed lifts and a remote snow-country setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17217467"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17221475",
+      "text": "Tokusagamine is a small Yamaguchi mountain snow area with local lift-served terrain and a regional winter focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17221475"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17230649",
+      "text": "Yogo Kogen is a Shiga ski area with developed regional slopes in a snow-prone northern mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17230649"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q18680640",
+      "text": "Häkärinteet is a Finnish ski centre at Hankasalmi with family slopes, instruction and a practical local-resort format.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18680640"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q18681023",
+      "text": "Ristivuori is a compact Finnish ski hill with groomed regional terrain suited to learning and repeat local laps.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18681023"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q18701260",
+      "text": "Kuzuryu is a regional Fukui ski area with a compact mountain layout and a quiet local atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18701260"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q19401075",
+      "text": "Henryk-Ski is a compact Krynica-Zdrój area with groomed local slopes close to the resort town.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q19401075"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q19401076",
+      "text": "Skolnity is a developed ski area above central Wisła with convenient access and scenic Beskid slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q19401076"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q20971717",
+      "text": "La Giettaz is a traditional Aravis village sector with forested slopes linking into the Portes du Mont-Blanc.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20971717"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q21653224",
+      "text": "Sanbe Onsen is a regional Shimane ski area on Mount Sanbe, pairing local slopes with a volcanic highland setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q21653224"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q22120838",
+      "text": "Yonezawa is a Yamagata ski area with groomed regional terrain and convenient access from the nearby city.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q22120838"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2256838",
+      "text": "Schwemmalm is a South Tyrol ski area above the Ultental, with sunny slopes and a quieter valley-resort character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2256838"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2258980",
+      "text": "Schöneben is a high South Tyrol area near the Reschen Pass, with broad cruising and links toward Haideralm.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2258980"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2286293",
+      "text": "Silleren is Adelboden’s central mountain sector, offering broad groomed terrain and connections across the local ski network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2286293"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2292218",
+      "text": "Carezza is a Dolomites ski area beneath the Rosengarten and Latemar, known for scenic family-oriented slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292218"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2292238",
+      "text": "Ratschings-Jaufen is a South Tyrol valley resort with modern uplift and broad alpine slopes above a compact base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292238"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2292244",
+      "text": "Willingen is a major German upland ski area with several local sectors, snowmaking and a lively resort-town setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292244"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2438761",
+      "text": "Chäserrugg is a Toggenburg mountain sector with high alpine views and lift-served terrain beneath the Churfirsten.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2438761"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q24860373",
+      "text": "Nishikawa is a small Yamagata municipal ski hill centered on local learning and community winter recreation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24860373"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q24873617",
+      "text": "Yokone is a compact Japanese regional ski hill with a straightforward layout and low-key local character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24873617"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q24874962",
+      "text": "Kamuro is a Yamagata mountain ski area with regional groomed terrain in a scenic snow-country setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24874962"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q24945889",
+      "text": "Master-Ski is a family-oriented Polish ski area at Tylicz with groomed slopes and a developed local base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24945889"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2835507",
+      "text": "Gavarnie-Gèdre is a high Pyrenees ski area distinguished by dramatic cirque scenery and a quiet mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2835507"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q28675513",
+      "text": "Stok is a compact ski area in Wisła with groomed local terrain and convenient resort-town access.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28675513"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q28675539",
+      "text": "Beskid Sport Arena is a modern Szczyrk ski centre with groomed slopes and a focused regional-resort layout.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28675539"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q28689066",
+      "text": "Sannokura is a Fukushima community ski area with approachable slopes and a quiet regional mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28689066"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2943178",
+      "text": "Cauterets is a historic Pyrenees resort combining high mountain skiing with a traditional spa-town base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2943178"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2964467",
+      "text": "Chopok South is the southern side of the Jasná mountain network, with open alpine terrain descending toward Horehronie.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2964467"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30141184",
+      "text": "Lac Blanc is a Vosges ski area with forested slopes, family terrain and broad views across the Alsace region.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141184"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30141261",
+      "text": "Le Poli is a small Vosges ski area at Xonrupt-Longemer, centered on local family slopes and woodland scenery.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141261"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30141374",
+      "text": "Flumet–Saint-Nicolas is a Val d’Arly village sector with traditional access into the Espace Diamant network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141374"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q30141416",
+      "text": "Hauteluce Val Joly is a Beaufortain valley sector providing lift access toward Les Contamines and scenic alpine terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q30141416"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3034616",
+      "text": "Grand Tourmalet links Barèges and La Mongie into a broad Pyrenean domain around the famous mountain pass.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3034616"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3118830",
+      "text": "Gubałówka is a Zakopane hill with accessible slopes and panoramic views across town toward the High Tatras.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3118830"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3193740",
+      "text": "Kasprowy Wierch is a high Tatra mountain area with cable-car access and a more alpine character than most Polish resorts.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3193740"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3202586",
+      "text": "L’Audibergue–La Moulière is a small southern-Alps area with local slopes and wide views toward the Mediterranean hinterland.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3202586"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3209452",
+      "text": "La Grande-Terche is the Saint-Jean-d’Aulps sector of Roc d’Enfer, with forested village slopes and a quieter feel.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3209452"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q3241513",
+      "text": "Linga–Pré la Joux is a major Châtel sector with direct links toward Avoriaz and the wider Portes du Soleil.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3241513"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
