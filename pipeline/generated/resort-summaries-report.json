@@ -1,5 +1,5 @@
 {
-  "summarized_profiles": 1303,
+  "summarized_profiles": 1337,
   "reviewed_at": "2026-10-03",
   "profiles": [
     {
@@ -11765,6 +11765,312 @@
       "text": "Shiokari is a small northern Hokkaido ski area with local slopes and a quiet railway-pass setting.",
       "sources": [
         "https://www.wikidata.org/wiki/Q97220147"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q105823074",
+      "text": "Birkebeinerbakken is a compact Norwegian ski centre near Lillehammer, focused on local training and accessible groomed slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q105823074"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q10703774",
+      "text": "Trillevallen is a Swedish mountain resort with a quieter family character and lift-served terrain near the Åre region.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10703774"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q109366617",
+      "text": "Bodaira is a compact Japanese ski area in the Zao highlands with regional terrain and a low-key mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109366617"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q110082821",
+      "text": "Les Rafforts is a small Val d’Arly village sector with lift access toward the broader Espace Diamant network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q110082821"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q113457486",
+      "text": "Tignes le Lac is a central high-altitude resort base with immediate access to the linked Tignes–Val d’Isère terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457486"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q113457498",
+      "text": "Les Boisses is a traditional Tignes village sector with slopeside access and links into the high mountain network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457498"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q120314388",
+      "text": "La Blanche is a small southern-Alps ski area in the Vallouise-Pelvoux setting, with scenic regional slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120314388"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q125018983",
+      "text": "La Mogorrita is a small Spanish mountain ski centre in Cuenca, offering modest regional snow terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q125018983"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q135659188",
+      "text": "Le Cernix is a village sector of the Espace Diamant area with local slope access in the Val d’Arly.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q135659188"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137033597",
+      "text": "Servoz is a small Chamonix-valley winter area whose limited local slopes sit beneath a dramatic alpine backdrop.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033597"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137033754",
+      "text": "Bourg-Saint-Maurice is a valley gateway whose mountain transport connects town services with the Les Arcs network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033754"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137039275",
+      "text": "Baqueira Beret is a large Val d’Aran resort with several distinct mountain sectors and broad Pyrenean terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039275"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q137048778",
+      "text": "La Plagne Vallée groups the lower valley communities and their access points into the wider La Plagne destination.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137048778"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q139546325",
+      "text": "Nižepole is a North Macedonian ski centre on Baba Mountain with a regional sporting and training character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q139546325"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16268675",
+      "text": "Prato Spilla is a compact northern Apennine ski area with forested slopes and a quiet regional mountain base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16268675"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q16426570",
+      "text": "Böggvisstaðafjall is an Icelandic community ski area above Dalvík with open slopes in a striking fjord setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16426570"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q17151380",
+      "text": "Zadní Telnice is a Czech Ore Mountains ski centre with several local slopes and a traditional regional character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17151380"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q20553662",
+      "text": "Vassfjellet is a developed ski area near Trondheim, offering convenient regional access and varied groomed terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20553662"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2457966",
+      "text": "Tschindirtschero is a mountain ski resort identity in Dagestan with lift-served terrain in a remote Caucasus setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2457966"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q26253351",
+      "text": "Soliabacken is a small Swedish ski hill near Norsjö, serving community recreation and local training.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q26253351"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q4009699",
+      "text": "Ventasso Laghi is a northern Apennine mountain area with compact ski terrain in a scenic lake-and-forest setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4009699"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q4112594",
+      "text": "Vitsi is a Greek mountain ski centre near Kastoria with open regional slopes and a quiet highland atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4112594"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q55031346",
+      "text": "Högfjället is a Sälen mountain sector with family terrain and direct access to a larger Swedish resort network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q55031346"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q5764625",
+      "text": "Chapa Verde is a Chilean Andes ski centre above the central valley, offering regional lift-served mountain terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5764625"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q5847609",
+      "text": "Valle del Sol is a small Spanish mountain ski area in the Sierra de la Demanda with local winter terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5847609"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q5969371",
+      "text": "Lagunillas is a Chilean Andes ski centre near Santiago with a community-oriented base and open mountain slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5969371"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q60969280",
+      "text": "Byråsen is a small Swedish community ski hill designed for local lessons, training and short winter sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q60969280"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q62071735",
+      "text": "Ivan-Gora is a Russian regional ski base in Perm Krai with compact lift-served terrain and a local recreation focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q62071735"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q87987454",
+      "text": "Látky-Prašivá is a Slovak regional ski centre with forested local slopes and a quiet mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q87987454"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "openstreetmap:relation:3913810",
+      "text": "Sarıkamış Cıbıltepe is a Turkish mountain resort known for forested slopes and a high inland snow climate.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/3913810"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q2292227",
+      "text": "Gaissau-Hintersee is a Salzburg-area mountain network with village access and varied forested regional terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292227"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "openstreetmap:way:1307012463",
+      "text": "Mühlwiese is a compact German local ski slope near Osterode, focused on community winter recreation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1307012463"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "openstreetmap:way:1013523149",
+      "text": "Sonnenlifte Röfleuten/Halden is a small Allgäu ski area with family slopes and convenient village access.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1013523149"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    },
+    {
+      "id": "wikidata:item:Q14709259",
+      "text": "Spout Springs is an Oregon mountain ski area with a compact, independent layout in the Blue Mountains.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14709259"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"

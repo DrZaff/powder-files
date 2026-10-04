@@ -25420,6 +25420,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q137039275",
+    "name": "Baqueira Beret ski area",
+    "normalized_name": "baqueira beret ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Val d'Aran",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 42.699561,
+      "longitude": 0.949981
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137039275",
+        "url": "https://www.wikidata.org/wiki/Q137039275",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Baqueira Beret ski area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137039275"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 42.699561,
+          "longitude": 0.949981
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137039275"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Spain",
+        "source_record_ids": [
+          "wikidata:item:Q137039275"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Baqueira Beret is a large Val d’Aran resort with several distinct mountain sectors and broad Pyrenean terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q137039275"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137039275"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Baqueira Beret is a large Val d’Aran resort with several distinct mountain sectors and broad Pyrenean terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039275"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q1502252",
     "name": "Baqueira-Beret",
     "normalized_name": "baqueira beret",
@@ -34392,6 +34471,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q105823074",
+    "name": "Birkebeinerbakken Ski Centre",
+    "normalized_name": "birkebeinerbakken ski centre",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ringsaker Municipality",
+    "country": "Norway",
+    "coordinates": {
+      "latitude": 61.147456,
+      "longitude": 10.64775
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q105823074",
+        "url": "https://www.wikidata.org/wiki/Q105823074",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Birkebeinerbakken Ski Centre",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q105823074"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 61.147456,
+          "longitude": 10.64775
+        },
+        "source_record_ids": [
+          "wikidata:item:Q105823074"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Norway",
+        "source_record_ids": [
+          "wikidata:item:Q105823074"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Birkebeinerbakken is a compact Norwegian ski centre near Lillehammer, focused on local training and accessible groomed slopes.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q105823074"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q105823074"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Birkebeinerbakken is a compact Norwegian ski centre near Lillehammer, focused on local training and accessible groomed slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q105823074"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q135735087",
     "name": "Bisanne 1500",
     "normalized_name": "bisanne 1500",
@@ -38342,6 +38500,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q109366617",
+    "name": "Bodaira Ski Area",
+    "normalized_name": "bodaira ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Yamanouchi",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.722222,
+      "longitude": 138.465833
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109366617",
+        "url": "https://www.wikidata.org/wiki/Q109366617",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Bodaira Ski Area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109366617"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.722222,
+          "longitude": 138.465833
+        },
+        "source_record_ids": [
+          "wikidata:item:Q109366617"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q109366617"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Bodaira is a compact Japanese ski area in the Zao highlands with regional terrain and a low-key mountain setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q109366617"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109366617"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Bodaira is a compact Japanese ski area in the Zao highlands with regional terrain and a low-key mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109366617"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q1019630",
     "name": "Bödele",
     "normalized_name": "bödele",
@@ -38616,6 +38853,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q16426570",
+    "name": "Böggvisstaðafjall Ski Area",
+    "normalized_name": "böggvisstaðafjall ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Iceland",
+    "coordinates": {
+      "latitude": 65.968722,
+      "longitude": -18.555694
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16426570",
+        "url": "https://www.wikidata.org/wiki/Q16426570",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Böggvisstaðafjall Ski Area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16426570"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 65.968722,
+          "longitude": -18.555694
+        },
+        "source_record_ids": [
+          "wikidata:item:Q16426570"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Iceland",
+        "source_record_ids": [
+          "wikidata:item:Q16426570"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Böggvisstaðafjall is an Icelandic community ski area above Dalvík with open slopes in a striking fjord setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16426570"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16426570"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Böggvisstaðafjall is an Icelandic community ski area above Dalvík with open slopes in a striking fjord setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16426570"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -41211,6 +41527,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q137033754",
+    "name": "Bourg-Saint-Maurice ski access",
+    "normalized_name": "bourg saint maurice ski access",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Bourg-Saint-Maurice",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.620079,
+      "longitude": 6.771901
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137033754",
+        "url": "https://www.wikidata.org/wiki/Q137033754",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Bourg-Saint-Maurice ski access",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137033754"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.620079,
+          "longitude": 6.771901
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137033754"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137033754"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Bourg-Saint-Maurice is a valley gateway whose mountain transport connects town services with the Les Arcs network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q137033754"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137033754"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Bourg-Saint-Maurice is a valley gateway whose mountain transport connects town services with the Les Arcs network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033754"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -45094,7 +45489,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T00:59:55.217Z"
+        "collected_at": "2026-10-04T01:07:13.418Z"
       },
       {
         "source": "openstreetmap",
@@ -45118,7 +45513,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T00:59:55.217Z",
+    "collection_date": "2026-10-04T01:07:13.418Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -50330,6 +50725,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q60969280",
+    "name": "Byråsen",
+    "normalized_name": "byråsen",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Sweden",
+    "coordinates": {
+      "latitude": 60.671111,
+      "longitude": 13.661083
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q60969280",
+        "url": "https://www.wikidata.org/wiki/Q60969280",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Byråsen",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q60969280"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 60.671111,
+          "longitude": 13.661083
+        },
+        "source_record_ids": [
+          "wikidata:item:Q60969280"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Sweden",
+        "source_record_ids": [
+          "wikidata:item:Q60969280"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Byråsen is a small Swedish community ski hill designed for local lessons, training and short winter sessions.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q60969280"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q60969280"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Byråsen is a small Swedish community ski hill designed for local lessons, training and short winter sessions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q60969280"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -61658,6 +62132,85 @@
       "text": "Chantemerle is a central Serre Chevalier base with fast access from a lively village into wooded and alpine terrain.",
       "sources": [
         "https://www.wikidata.org/wiki/Q137048841"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q5764625",
+    "name": "Chapa Verde",
+    "normalized_name": "chapa verde",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Machalí",
+    "country": "Chile",
+    "coordinates": {
+      "latitude": -34.050407,
+      "longitude": -70.433832
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5764625",
+        "url": "https://www.wikidata.org/wiki/Q5764625",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Chapa Verde",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5764625"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": -34.050407,
+          "longitude": -70.433832
+        },
+        "source_record_ids": [
+          "wikidata:item:Q5764625"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Chile",
+        "source_record_ids": [
+          "wikidata:item:Q5764625"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Chapa Verde is a Chilean Andes ski centre above the central valley, offering regional lift-served mountain terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5764625"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5764625"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Chapa Verde is a Chilean Andes ski centre above the central valley, offering regional lift-served mountain terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5764625"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
@@ -133491,6 +134044,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q55031346",
+    "name": "Högfjället",
+    "normalized_name": "högfjället",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Sweden",
+    "coordinates": {
+      "latitude": 61.156667,
+      "longitude": 13.116944
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q55031346",
+        "url": "https://www.wikidata.org/wiki/Q55031346",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Högfjället",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q55031346"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 61.156667,
+          "longitude": 13.116944
+        },
+        "source_record_ids": [
+          "wikidata:item:Q55031346"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Sweden",
+        "source_record_ids": [
+          "wikidata:item:Q55031346"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Högfjället is a Sälen mountain sector with family terrain and direct access to a larger Swedish resort network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q55031346"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q55031346"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Högfjället is a Sälen mountain sector with family terrain and direct access to a larger Swedish resort network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q55031346"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q3139172",
     "name": "Hohe Dirn",
     "normalized_name": "hohe dirn",
@@ -143028,6 +143660,130 @@
         "https://seasidevalley.com/gelande-test/"
       ],
       "reviewed_at": "2026-08-31",
+      "kind": "editorial_summary"
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q62071735",
+    "name": "Ivan-Gora",
+    "normalized_name": "ivan gora",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Gamovo",
+    "country": "Russia",
+    "coordinates": {
+      "latitude": 57.818333,
+      "longitude": 56.053889
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q62071735",
+        "url": "https://www.wikidata.org/wiki/Q62071735",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Ivan-Gora",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q62071735"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 57.818333,
+          "longitude": 56.053889
+        },
+        "source_record_ids": [
+          "wikidata:item:Q62071735"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Russia",
+        "source_record_ids": [
+          "wikidata:item:Q62071735"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Ivan-Gora is a Russian regional ski base in Perm Krai with compact lift-served terrain and a local recreation focus.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q62071735"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q62071735"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 323.1,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q62071735#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q62071735-d7341a28-4c39-e05d-68e8-7d1a664c32bc",
+            "amount": 323.1,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 323.1,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q62071735#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q62071735-d7341a28-4c39-e05d-68e8-7d1a664c32bc",
+            "amount": 323.1,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ],
+    "overview": {
+      "text": "Ivan-Gora is a Russian regional ski base in Perm Krai with compact lift-served terrain and a local recreation focus.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q62071735"
+      ],
+      "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
     }
   },
@@ -167221,6 +167977,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q120314388",
+    "name": "La Blanche ski area",
+    "normalized_name": "la blanche ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Vallouise-Pelvoux",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.86484,
+      "longitude": 6.48586
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q120314388",
+        "url": "https://www.wikidata.org/wiki/Q120314388",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "La Blanche ski area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q120314388"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 44.86484,
+          "longitude": 6.48586
+        },
+        "source_record_ids": [
+          "wikidata:item:Q120314388"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q120314388"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "La Blanche is a small southern-Alps ski area in the Vallouise-Pelvoux setting, with scenic regional slopes.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q120314388"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q120314388"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "La Blanche is a small southern-Alps ski area in the Vallouise-Pelvoux setting, with scenic regional slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q120314388"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "openstreetmap:way:563477779",
     "name": "La Bresse - Lispach",
     "normalized_name": "la bresse lispach",
@@ -170890,6 +171725,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q125018983",
+    "name": "La Mogorrita ski centre",
+    "normalized_name": "la mogorrita ski centre",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 40.343757,
+      "longitude": -1.77053
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q125018983",
+        "url": "https://www.wikidata.org/wiki/Q125018983",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "La Mogorrita ski centre",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q125018983"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 40.343757,
+          "longitude": -1.77053
+        },
+        "source_record_ids": [
+          "wikidata:item:Q125018983"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Spain",
+        "source_record_ids": [
+          "wikidata:item:Q125018983"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "La Mogorrita is a small Spanish mountain ski centre in Cuenca, offering modest regional snow terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q125018983"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q125018983"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "La Mogorrita is a small Spanish mountain ski centre in Cuenca, offering modest regional snow terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q125018983"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q18180984",
     "name": "La Molina",
     "normalized_name": "la molina",
@@ -172583,6 +173497,85 @@
       "text": "Montalbert is a wooded village sector of La Plagne, offering a quieter base with links into the wider Paradiski network.",
       "sources": [
         "https://www.wikidata.org/wiki/Q120317019"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q137048778",
+    "name": "La Plagne Vallée",
+    "normalized_name": "la plagne vallée",
+    "alternate_names": [],
+    "locality": null,
+    "region": "La Plagne Tarentaise",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.556226,
+      "longitude": 6.652055
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137048778",
+        "url": "https://www.wikidata.org/wiki/Q137048778",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "La Plagne Vallée",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137048778"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.556226,
+          "longitude": 6.652055
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137048778"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137048778"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "La Plagne Vallée groups the lower valley communities and their access points into the wider La Plagne destination.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q137048778"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137048778"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "La Plagne Vallée groups the lower valley communities and their access points into the wider La Plagne destination.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137048778"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
@@ -175282,6 +176275,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q5969371",
+    "name": "Lagunillas",
+    "normalized_name": "lagunillas",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Santiago Metropolitan Region",
+    "country": "Chile",
+    "coordinates": {
+      "latitude": -33.616667,
+      "longitude": -70.3
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5969371",
+        "url": "https://www.wikidata.org/wiki/Q5969371",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Lagunillas",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5969371"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": -33.616667,
+          "longitude": -70.3
+        },
+        "source_record_ids": [
+          "wikidata:item:Q5969371"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Chile",
+        "source_record_ids": [
+          "wikidata:item:Q5969371"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Lagunillas is a Chilean Andes ski centre near Santiago with a community-oriented base and open mountain slopes.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5969371"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5969371"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Lagunillas is a Chilean Andes ski centre near Santiago with a community-oriented base and open mountain slopes.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5969371"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -178475,6 +179547,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q87987454",
+    "name": "Látky-Prašivá",
+    "normalized_name": "látky prašivá",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Slovakia",
+    "coordinates": {
+      "latitude": 48.596948,
+      "longitude": 19.660914
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q87987454",
+        "url": "https://www.wikidata.org/wiki/Q87987454",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Látky-Prašivá",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q87987454"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 48.596948,
+          "longitude": 19.660914
+        },
+        "source_record_ids": [
+          "wikidata:item:Q87987454"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Slovakia",
+        "source_record_ids": [
+          "wikidata:item:Q87987454"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Látky-Prašivá is a Slovak regional ski centre with forested local slopes and a quiet mountain setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q87987454"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q87987454"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Látky-Prašivá is a Slovak regional ski centre with forested local slopes and a quiet mountain setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q87987454"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q1265072",
     "name": "Lauchernalp",
     "normalized_name": "lauchernalp",
@@ -179733,6 +180884,130 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q135659188",
+    "name": "Le Cernix",
+    "normalized_name": "le cernix",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Cohennoz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.782251,
+      "longitude": 6.499255
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q135659188",
+        "url": "https://www.wikidata.org/wiki/Q135659188",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Le Cernix",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q135659188"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.782251,
+          "longitude": 6.499255
+        },
+        "source_record_ids": [
+          "wikidata:item:Q135659188"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q135659188"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Le Cernix is a village sector of the Espace Diamant area with local slope access in the Val d’Arly.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q135659188"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q135659188"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 1240,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q135659188#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q135659188-adc26b52-4c0a-5c11-34c6-1f285cf70d3d",
+            "amount": 1240,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 1240,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q135659188#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q135659188-adc26b52-4c0a-5c11-34c6-1f285cf70d3d",
+            "amount": 1240,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ],
+    "overview": {
+      "text": "Le Cernix is a village sector of the Espace Diamant area with local slope access in the Val d’Arly.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q135659188"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -187416,6 +188691,130 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q113457498",
+    "name": "Les Boisses",
+    "normalized_name": "les boisses",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Tignes",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.495772,
+      "longitude": 6.922941
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q113457498",
+        "url": "https://www.wikidata.org/wiki/Q113457498",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Les Boisses",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113457498"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.495772,
+          "longitude": 6.922941
+        },
+        "source_record_ids": [
+          "wikidata:item:Q113457498"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q113457498"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Les Boisses is a traditional Tignes village sector with slopeside access and links into the high mountain network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q113457498"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113457498"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 1820,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q113457498#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q113457498-38b52256-4e30-6261-f26d-a981b5047fec",
+            "amount": 1820,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 1820,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q113457498#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q113457498-38b52256-4e30-6261-f26d-a981b5047fec",
+            "amount": 1820,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ],
+    "overview": {
+      "text": "Les Boisses is a traditional Tignes village sector with slopeside access and links into the high mountain network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457498"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q3231105",
     "name": "Les Bottières ski resort",
     "normalized_name": "les bottières ski resort",
@@ -191690,6 +193089,130 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q110082821",
+    "name": "Les Rafforts",
+    "normalized_name": "les rafforts",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ugine",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.787,
+      "longitude": 6.481
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q110082821",
+        "url": "https://www.wikidata.org/wiki/Q110082821",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Les Rafforts",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q110082821"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.787,
+          "longitude": 6.481
+        },
+        "source_record_ids": [
+          "wikidata:item:Q110082821"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q110082821"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Les Rafforts is a small Val d’Arly village sector with lift access toward the broader Espace Diamant network.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q110082821"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q110082821"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 900,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q110082821#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q110082821-9dd218ea-425b-c6e7-5cd6-8b2af1b8ff7e",
+            "amount": 900,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 900,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q110082821#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q110082821-9dd218ea-425b-c6e7-5cd6-8b2af1b8ff7e",
+            "amount": 900,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ],
+    "overview": {
+      "text": "Les Rafforts is a small Val d’Arly village sector with lift access toward the broader Espace Diamant network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q110082821"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -242104,6 +243627,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q139546325",
+    "name": "Nižepole Ski Centre",
+    "normalized_name": "nižepole ski centre",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Bitola Municipality",
+    "country": "North Macedonia",
+    "coordinates": {
+      "latitude": 40.980083,
+      "longitude": 21.253889
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q139546325",
+        "url": "https://www.wikidata.org/wiki/Q139546325",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Nižepole Ski Centre",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q139546325"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 40.980083,
+          "longitude": 21.253889
+        },
+        "source_record_ids": [
+          "wikidata:item:Q139546325"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "North Macedonia",
+        "source_record_ids": [
+          "wikidata:item:Q139546325"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Nižepole is a North Macedonian ski centre on Baba Mountain with a regional sporting and training character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q139546325"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q139546325"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Nižepole is a North Macedonian ski centre on Baba Mountain with a regional sporting and training character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q139546325"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "openstreetmap:relation:9249922",
     "name": "Nollen",
     "normalized_name": "nollen",
@@ -274072,6 +275674,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q16268675",
+    "name": "Prato Spilla",
+    "normalized_name": "prato spilla",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Monchio delle Corti",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 44.360931,
+      "longitude": 10.110844
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q16268675",
+        "url": "https://www.wikidata.org/wiki/Q16268675",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Prato Spilla",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16268675"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 44.360931,
+          "longitude": 10.110844
+        },
+        "source_record_ids": [
+          "wikidata:item:Q16268675"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Italy",
+        "source_record_ids": [
+          "wikidata:item:Q16268675"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Prato Spilla is a compact northern Apennine ski area with forested slopes and a quiet regional mountain base.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q16268675"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16268675"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Prato Spilla is a compact northern Apennine ski area with forested slopes and a quiet regional mountain base.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16268675"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q3401482",
     "name": "Praz de Lys-Sommand",
     "normalized_name": "praz de lys sommand",
@@ -276593,116 +278274,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q105823074",
-    "name": "Q105823074",
-    "normalized_name": "q105823074",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ringsaker Municipality",
-    "country": "Norway",
-    "coordinates": {
-      "latitude": 61.147456,
-      "longitude": 10.64775
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q105823074",
-        "url": "https://www.wikidata.org/wiki/Q105823074",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q105823074",
-        "source_record_ids": [
-          "wikidata:item:Q105823074"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 61.147456,
-          "longitude": 10.64775
-        },
-        "source_record_ids": [
-          "wikidata:item:Q105823074"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Norway",
-        "source_record_ids": [
-          "wikidata:item:Q105823074"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q10703774",
-    "name": "Q10703774",
-    "normalized_name": "q10703774",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Sweden",
-    "coordinates": {
-      "latitude": 63.265833,
-      "longitude": 13.161111
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q10703774",
-        "url": "https://www.wikidata.org/wiki/Q10703774",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q10703774",
-        "source_record_ids": [
-          "wikidata:item:Q10703774"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 63.265833,
-          "longitude": 13.161111
-        },
-        "source_record_ids": [
-          "wikidata:item:Q10703774"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Sweden",
-        "source_record_ids": [
-          "wikidata:item:Q10703774"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q108688120",
     "name": "Q108688120",
     "normalized_name": "q108688120",
@@ -276957,61 +278528,6 @@
         "value": "Japan",
         "source_record_ids": [
           "wikidata:item:Q109361488"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q109366617",
-    "name": "Q109366617",
-    "normalized_name": "q109366617",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Yamanouchi",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.722222,
-      "longitude": 138.465833
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q109366617",
-        "url": "https://www.wikidata.org/wiki/Q109366617",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q109366617",
-        "source_record_ids": [
-          "wikidata:item:Q109366617"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.722222,
-          "longitude": 138.465833
-        },
-        "source_record_ids": [
-          "wikidata:item:Q109366617"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q109366617"
         ],
         "confidence": "high"
       }
@@ -277470,106 +278986,6 @@
       }
     },
     "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q110082821",
-    "name": "Q110082821",
-    "normalized_name": "q110082821",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ugine",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.787,
-      "longitude": 6.481
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q110082821",
-        "url": "https://www.wikidata.org/wiki/Q110082821",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q110082821",
-        "source_record_ids": [
-          "wikidata:item:Q110082821"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.787,
-          "longitude": 6.481
-        },
-        "source_record_ids": [
-          "wikidata:item:Q110082821"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q110082821"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 900,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q110082821#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q110082821-9dd218ea-425b-c6e7-5cd6-8b2af1b8ff7e",
-            "amount": 900,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 900,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q110082821#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q110082821-9dd218ea-425b-c6e7-5cd6-8b2af1b8ff7e",
-            "amount": 900,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
   },
   {
     "stable_id": "wikidata:item:Q110590097",
@@ -278161,206 +279577,6 @@
       }
     },
     "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q113457486",
-    "name": "Q113457486",
-    "normalized_name": "q113457486",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Tignes",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.469175,
-      "longitude": 6.906601
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q113457486",
-        "url": "https://www.wikidata.org/wiki/Q113457486",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q113457486",
-        "source_record_ids": [
-          "wikidata:item:Q113457486"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.469175,
-          "longitude": 6.906601
-        },
-        "source_record_ids": [
-          "wikidata:item:Q113457486"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q113457486"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 2100,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q113457486#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q113457486-bb7aafc2-4b46-0627-09ee-0d2375a02650",
-            "amount": 2100,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 2100,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q113457486#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q113457486-bb7aafc2-4b46-0627-09ee-0d2375a02650",
-            "amount": 2100,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
-  },
-  {
-    "stable_id": "wikidata:item:Q113457498",
-    "name": "Q113457498",
-    "normalized_name": "q113457498",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Tignes",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.495772,
-      "longitude": 6.922941
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q113457498",
-        "url": "https://www.wikidata.org/wiki/Q113457498",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q113457498",
-        "source_record_ids": [
-          "wikidata:item:Q113457498"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.495772,
-          "longitude": 6.922941
-        },
-        "source_record_ids": [
-          "wikidata:item:Q113457498"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q113457498"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 1820,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q113457498#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q113457498-38b52256-4e30-6261-f26d-a981b5047fec",
-            "amount": 1820,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 1820,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q113457498#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q113457498-38b52256-4e30-6261-f26d-a981b5047fec",
-            "amount": 1820,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
   },
   {
     "stable_id": "wikidata:item:Q11350045",
@@ -280558,61 +281774,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q120314388",
-    "name": "Q120314388",
-    "normalized_name": "q120314388",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Vallouise-Pelvoux",
-    "country": "France",
-    "coordinates": {
-      "latitude": 44.86484,
-      "longitude": 6.48586
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q120314388",
-        "url": "https://www.wikidata.org/wiki/Q120314388",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q120314388",
-        "source_record_ids": [
-          "wikidata:item:Q120314388"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 44.86484,
-          "longitude": 6.48586
-        },
-        "source_record_ids": [
-          "wikidata:item:Q120314388"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q120314388"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q122900595",
     "name": "Q122900595",
     "normalized_name": "q122900595",
@@ -280759,61 +281920,6 @@
         "license": "CC0-1.0"
       }
     ]
-  },
-  {
-    "stable_id": "wikidata:item:Q125018983",
-    "name": "Q125018983",
-    "normalized_name": "q125018983",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 40.343757,
-      "longitude": -1.77053
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q125018983",
-        "url": "https://www.wikidata.org/wiki/Q125018983",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q125018983",
-        "source_record_ids": [
-          "wikidata:item:Q125018983"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 40.343757,
-          "longitude": -1.77053
-        },
-        "source_record_ids": [
-          "wikidata:item:Q125018983"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Spain",
-        "source_record_ids": [
-          "wikidata:item:Q125018983"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q126727705",
@@ -281056,216 +282162,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q135659188",
-    "name": "Q135659188",
-    "normalized_name": "q135659188",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Cohennoz",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.782251,
-      "longitude": 6.499255
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q135659188",
-        "url": "https://www.wikidata.org/wiki/Q135659188",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q135659188",
-        "source_record_ids": [
-          "wikidata:item:Q135659188"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.782251,
-          "longitude": 6.499255
-        },
-        "source_record_ids": [
-          "wikidata:item:Q135659188"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q135659188"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 1240,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q135659188#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q135659188-adc26b52-4c0a-5c11-34c6-1f285cf70d3d",
-            "amount": 1240,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 1240,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q135659188#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q135659188-adc26b52-4c0a-5c11-34c6-1f285cf70d3d",
-            "amount": 1240,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
-  },
-  {
-    "stable_id": "wikidata:item:Q137033597",
-    "name": "Q137033597",
-    "normalized_name": "q137033597",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Servoz",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.930931,
-      "longitude": 6.767479
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137033597",
-        "url": "https://www.wikidata.org/wiki/Q137033597",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137033597",
-        "source_record_ids": [
-          "wikidata:item:Q137033597"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.930931,
-          "longitude": 6.767479
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137033597"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137033597"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137033754",
-    "name": "Q137033754",
-    "normalized_name": "q137033754",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Bourg-Saint-Maurice",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.620079,
-      "longitude": 6.771901
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137033754",
-        "url": "https://www.wikidata.org/wiki/Q137033754",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137033754",
-        "source_record_ids": [
-          "wikidata:item:Q137033754"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.620079,
-          "longitude": 6.771901
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137033754"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137033754"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q137039214",
     "name": "Q137039214",
     "normalized_name": "q137039214",
@@ -281314,116 +282210,6 @@
         "value": "France",
         "source_record_ids": [
           "wikidata:item:Q137039214"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137039275",
-    "name": "Q137039275",
-    "normalized_name": "q137039275",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Val d'Aran",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 42.699561,
-      "longitude": 0.949981
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137039275",
-        "url": "https://www.wikidata.org/wiki/Q137039275",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137039275",
-        "source_record_ids": [
-          "wikidata:item:Q137039275"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.699561,
-          "longitude": 0.949981
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137039275"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Spain",
-        "source_record_ids": [
-          "wikidata:item:Q137039275"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137048778",
-    "name": "Q137048778",
-    "normalized_name": "q137048778",
-    "alternate_names": [],
-    "locality": null,
-    "region": "La Plagne Tarentaise",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.556226,
-      "longitude": 6.652055
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137048778",
-        "url": "https://www.wikidata.org/wiki/Q137048778",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137048778",
-        "source_record_ids": [
-          "wikidata:item:Q137048778"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.556226,
-          "longitude": 6.652055
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137048778"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137048778"
         ],
         "confidence": "high"
       }
@@ -281589,171 +282375,6 @@
         "value": "France",
         "source_record_ids": [
           "wikidata:item:Q137052980"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q139546325",
-    "name": "Q139546325",
-    "normalized_name": "q139546325",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Bitola Municipality",
-    "country": "North Macedonia",
-    "coordinates": {
-      "latitude": 40.980083,
-      "longitude": 21.253889
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q139546325",
-        "url": "https://www.wikidata.org/wiki/Q139546325",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q139546325",
-        "source_record_ids": [
-          "wikidata:item:Q139546325"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 40.980083,
-          "longitude": 21.253889
-        },
-        "source_record_ids": [
-          "wikidata:item:Q139546325"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "North Macedonia",
-        "source_record_ids": [
-          "wikidata:item:Q139546325"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q16268675",
-    "name": "Q16268675",
-    "normalized_name": "q16268675",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Monchio delle Corti",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 44.360931,
-      "longitude": 10.110844
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q16268675",
-        "url": "https://www.wikidata.org/wiki/Q16268675",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q16268675",
-        "source_record_ids": [
-          "wikidata:item:Q16268675"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 44.360931,
-          "longitude": 10.110844
-        },
-        "source_record_ids": [
-          "wikidata:item:Q16268675"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Italy",
-        "source_record_ids": [
-          "wikidata:item:Q16268675"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q16426570",
-    "name": "Q16426570",
-    "normalized_name": "q16426570",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Iceland",
-    "coordinates": {
-      "latitude": 65.968722,
-      "longitude": -18.555694
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q16426570",
-        "url": "https://www.wikidata.org/wiki/Q16426570",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q16426570",
-        "source_record_ids": [
-          "wikidata:item:Q16426570"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 65.968722,
-          "longitude": -18.555694
-        },
-        "source_record_ids": [
-          "wikidata:item:Q16426570"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Iceland",
-        "source_record_ids": [
-          "wikidata:item:Q16426570"
         ],
         "confidence": "high"
       }
@@ -283057,61 +283678,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q17151380",
-    "name": "Q17151380",
-    "normalized_name": "q17151380",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Telnice",
-    "country": "Czechia",
-    "coordinates": {
-      "latitude": 50.734886,
-      "longitude": 13.923969
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q17151380",
-        "url": "https://www.wikidata.org/wiki/Q17151380",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q17151380",
-        "source_record_ids": [
-          "wikidata:item:Q17151380"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 50.734886,
-          "longitude": 13.923969
-        },
-        "source_record_ids": [
-          "wikidata:item:Q17151380"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Czechia",
-        "source_record_ids": [
-          "wikidata:item:Q17151380"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q17230403",
     "name": "Q17230403",
     "normalized_name": "q17230403",
@@ -283764,61 +284330,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q20553662",
-    "name": "Q20553662",
-    "normalized_name": "q20553662",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Trondheim municipality",
-    "country": "Norway",
-    "coordinates": {
-      "latitude": 63.26568,
-      "longitude": 10.40119
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q20553662",
-        "url": "https://www.wikidata.org/wiki/Q20553662",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q20553662",
-        "source_record_ids": [
-          "wikidata:item:Q20553662"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 63.26568,
-          "longitude": 10.40119
-        },
-        "source_record_ids": [
-          "wikidata:item:Q20553662"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Norway",
-        "source_record_ids": [
-          "wikidata:item:Q20553662"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q2096898",
     "name": "Q2096898",
     "normalized_name": "q2096898",
@@ -284231,61 +284742,6 @@
     "mountain_observations": []
   },
   {
-    "stable_id": "wikidata:item:Q2457966",
-    "name": "Q2457966",
-    "normalized_name": "q2457966",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Russia",
-    "coordinates": {
-      "latitude": 42.152222,
-      "longitude": 47.381389
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q2457966",
-        "url": "https://www.wikidata.org/wiki/Q2457966",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q2457966",
-        "source_record_ids": [
-          "wikidata:item:Q2457966"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.152222,
-          "longitude": 47.381389
-        },
-        "source_record_ids": [
-          "wikidata:item:Q2457966"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Russia",
-        "source_record_ids": [
-          "wikidata:item:Q2457966"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q25413135",
     "name": "Q25413135",
     "normalized_name": "q25413135",
@@ -284332,61 +284788,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q26253351",
-    "name": "Q26253351",
-    "normalized_name": "q26253351",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Norsjö Municipality",
-    "country": "Sweden",
-    "coordinates": {
-      "latitude": 64.863889,
-      "longitude": 19.461111
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q26253351",
-        "url": "https://www.wikidata.org/wiki/Q26253351",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q26253351",
-        "source_record_ids": [
-          "wikidata:item:Q26253351"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 64.863889,
-          "longitude": 19.461111
-        },
-        "source_record_ids": [
-          "wikidata:item:Q26253351"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Sweden",
-        "source_record_ids": [
-          "wikidata:item:Q26253351"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q2840127",
@@ -285076,116 +285477,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q4009699",
-    "name": "Q4009699",
-    "normalized_name": "q4009699",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ventasso",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 44.416667,
-      "longitude": 10.266667
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q4009699",
-        "url": "https://www.wikidata.org/wiki/Q4009699",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q4009699",
-        "source_record_ids": [
-          "wikidata:item:Q4009699"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 44.416667,
-          "longitude": 10.266667
-        },
-        "source_record_ids": [
-          "wikidata:item:Q4009699"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Italy",
-        "source_record_ids": [
-          "wikidata:item:Q4009699"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q4112594",
-    "name": "Q4112594",
-    "normalized_name": "q4112594",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Greece",
-    "coordinates": {
-      "latitude": 40.614722,
-      "longitude": 21.351667
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q4112594",
-        "url": "https://www.wikidata.org/wiki/Q4112594",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q4112594",
-        "source_record_ids": [
-          "wikidata:item:Q4112594"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 40.614722,
-          "longitude": 21.351667
-        },
-        "source_record_ids": [
-          "wikidata:item:Q4112594"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Greece",
-        "source_record_ids": [
-          "wikidata:item:Q4112594"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q4174665",
     "name": "Q4174665",
     "normalized_name": "q4174665",
@@ -285488,61 +285779,6 @@
     "mountain_observations": []
   },
   {
-    "stable_id": "wikidata:item:Q55031346",
-    "name": "Q55031346",
-    "normalized_name": "q55031346",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Sweden",
-    "coordinates": {
-      "latitude": 61.156667,
-      "longitude": 13.116944
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q55031346",
-        "url": "https://www.wikidata.org/wiki/Q55031346",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q55031346",
-        "source_record_ids": [
-          "wikidata:item:Q55031346"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 61.156667,
-          "longitude": 13.116944
-        },
-        "source_record_ids": [
-          "wikidata:item:Q55031346"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Sweden",
-        "source_record_ids": [
-          "wikidata:item:Q55031346"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q56400251",
     "name": "Q56400251",
     "normalized_name": "q56400251",
@@ -285639,61 +285875,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q5764625",
-    "name": "Q5764625",
-    "normalized_name": "q5764625",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Machalí",
-    "country": "Chile",
-    "coordinates": {
-      "latitude": -34.050407,
-      "longitude": -70.433832
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q5764625",
-        "url": "https://www.wikidata.org/wiki/Q5764625",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q5764625",
-        "source_record_ids": [
-          "wikidata:item:Q5764625"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": -34.050407,
-          "longitude": -70.433832
-        },
-        "source_record_ids": [
-          "wikidata:item:Q5764625"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Chile",
-        "source_record_ids": [
-          "wikidata:item:Q5764625"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q5847603",
     "name": "Q5847603",
     "normalized_name": "q5847603",
@@ -285740,271 +285921,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q5847609",
-    "name": "Q5847609",
-    "normalized_name": "q5847609",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Pineda de la Sierra",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 42.195675,
-      "longitude": -3.304046
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q5847609",
-        "url": "https://www.wikidata.org/wiki/Q5847609",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q5847609",
-        "source_record_ids": [
-          "wikidata:item:Q5847609"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.195675,
-          "longitude": -3.304046
-        },
-        "source_record_ids": [
-          "wikidata:item:Q5847609"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Spain",
-        "source_record_ids": [
-          "wikidata:item:Q5847609"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q5969371",
-    "name": "Q5969371",
-    "normalized_name": "q5969371",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Santiago Metropolitan Region",
-    "country": "Chile",
-    "coordinates": {
-      "latitude": -33.616667,
-      "longitude": -70.3
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q5969371",
-        "url": "https://www.wikidata.org/wiki/Q5969371",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q5969371",
-        "source_record_ids": [
-          "wikidata:item:Q5969371"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": -33.616667,
-          "longitude": -70.3
-        },
-        "source_record_ids": [
-          "wikidata:item:Q5969371"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Chile",
-        "source_record_ids": [
-          "wikidata:item:Q5969371"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q60969280",
-    "name": "Q60969280",
-    "normalized_name": "q60969280",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Sweden",
-    "coordinates": {
-      "latitude": 60.671111,
-      "longitude": 13.661083
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q60969280",
-        "url": "https://www.wikidata.org/wiki/Q60969280",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q60969280",
-        "source_record_ids": [
-          "wikidata:item:Q60969280"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 60.671111,
-          "longitude": 13.661083
-        },
-        "source_record_ids": [
-          "wikidata:item:Q60969280"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Sweden",
-        "source_record_ids": [
-          "wikidata:item:Q60969280"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q62071735",
-    "name": "Q62071735",
-    "normalized_name": "q62071735",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Gamovo",
-    "country": "Russia",
-    "coordinates": {
-      "latitude": 57.818333,
-      "longitude": 56.053889
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q62071735",
-        "url": "https://www.wikidata.org/wiki/Q62071735",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q62071735",
-        "source_record_ids": [
-          "wikidata:item:Q62071735"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 57.818333,
-          "longitude": 56.053889
-        },
-        "source_record_ids": [
-          "wikidata:item:Q62071735"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Russia",
-        "source_record_ids": [
-          "wikidata:item:Q62071735"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 323.1,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q62071735#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q62071735-d7341a28-4c39-e05d-68e8-7d1a664c32bc",
-            "amount": 323.1,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": 323.1,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q62071735#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "structured_source",
-        "confidence": "medium",
-        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q62071735-d7341a28-4c39-e05d-68e8-7d1a664c32bc",
-            "amount": 323.1,
-            "unit": "m",
-            "qualifiers": [],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
   },
   {
     "stable_id": "wikidata:item:Q65229048",
@@ -286252,61 +286168,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q87987454",
-    "name": "Q87987454",
-    "normalized_name": "q87987454",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Slovakia",
-    "coordinates": {
-      "latitude": 48.596948,
-      "longitude": 19.660914
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q87987454",
-        "url": "https://www.wikidata.org/wiki/Q87987454",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q87987454",
-        "source_record_ids": [
-          "wikidata:item:Q87987454"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 48.596948,
-          "longitude": 19.660914
-        },
-        "source_record_ids": [
-          "wikidata:item:Q87987454"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Slovakia",
-        "source_record_ids": [
-          "wikidata:item:Q87987454"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q92429093",
@@ -308481,9 +308342,11 @@
       "name": {
         "value": "Sarıkamış Cıbıltepe",
         "source_record_ids": [
-          "openstreetmap:relation:3913810"
+          "https://www.openstreetmap.org/relation/3913810"
         ],
-        "confidence": "high"
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
       },
       "coordinates": {
         "value": {
@@ -308508,9 +308371,31 @@
           "openstreetmap:relation:3913810"
         ],
         "confidence": "low"
+      },
+      "overview": {
+        "text": "Sarıkamış Cıbıltepe is a Turkish mountain resort known for forested slopes and a high inland snow climate.",
+        "sources": [
+          "https://www.openstreetmap.org/relation/3913810"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.openstreetmap.org/relation/3913810"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sarıkamış Cıbıltepe is a Turkish mountain resort known for forested slopes and a high inland snow climate.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/3913810"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1226669192",
@@ -316583,6 +316468,85 @@
       "text": "Serre-Eyraud is a small Champsaur ski area with wooded slopes and a low-key village atmosphere beneath higher alpine terrain.",
       "sources": [
         "https://www.wikidata.org/wiki/Q18785781"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q137033597",
+    "name": "Servoz ski area",
+    "normalized_name": "servoz ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Servoz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.930931,
+      "longitude": 6.767479
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137033597",
+        "url": "https://www.wikidata.org/wiki/Q137033597",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Servoz ski area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137033597"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.930931,
+          "longitude": 6.767479
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137033597"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137033597"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Servoz is a small Chamonix-valley winter area whose limited local slopes sit beneath a dramatic alpine backdrop.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q137033597"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137033597"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Servoz is a small Chamonix-valley winter area whose limited local slopes sit beneath a dramatic alpine backdrop.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137033597"
       ],
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
@@ -335710,9 +335674,31 @@
           "wikidata:item:Q2292227"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Gaissau-Hintersee is a Salzburg-area mountain network with village access and varied forested regional terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2292227"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292227"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Gaissau-Hintersee is a Salzburg-area mountain network with village access and varied forested regional terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292227"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q1628542",
@@ -345393,9 +345379,11 @@
       "name": {
         "value": "Skigebiet Mühlwiese",
         "source_record_ids": [
-          "openstreetmap:way:1307012463"
+          "https://www.openstreetmap.org/way/1307012463"
         ],
-        "confidence": "high"
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
       },
       "coordinates": {
         "value": {
@@ -345420,9 +345408,31 @@
           "openstreetmap:way:1307012463"
         ],
         "confidence": "low"
+      },
+      "overview": {
+        "text": "Mühlwiese is a compact German local ski slope near Osterode, focused on community winter recreation.",
+        "sources": [
+          "https://www.openstreetmap.org/way/1307012463"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.openstreetmap.org/way/1307012463"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Mühlwiese is a compact German local ski slope near Osterode, focused on community winter recreation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1307012463"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:1362600808",
@@ -360487,6 +360497,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q26253351",
+    "name": "Soliabacken",
+    "normalized_name": "soliabacken",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Norsjö Municipality",
+    "country": "Sweden",
+    "coordinates": {
+      "latitude": 64.863889,
+      "longitude": 19.461111
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q26253351",
+        "url": "https://www.wikidata.org/wiki/Q26253351",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Soliabacken",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q26253351"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 64.863889,
+          "longitude": 19.461111
+        },
+        "source_record_ids": [
+          "wikidata:item:Q26253351"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Sweden",
+        "source_record_ids": [
+          "wikidata:item:Q26253351"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Soliabacken is a small Swedish ski hill near Norsjö, serving community recreation and local training.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q26253351"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q26253351"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Soliabacken is a small Swedish ski hill near Norsjö, serving community recreation and local training.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q26253351"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q7558292",
     "name": "Solitude Mountain Resort",
     "normalized_name": "solitude mountain resort",
@@ -362052,9 +362141,11 @@
       "name": {
         "value": "Sonnenlifte Röfleuten/Halden",
         "source_record_ids": [
-          "openstreetmap:way:1013523149"
+          "https://www.openstreetmap.org/way/1013523149"
         ],
-        "confidence": "high"
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
       },
       "coordinates": {
         "value": {
@@ -362079,9 +362170,31 @@
           "openstreetmap:way:1013523149"
         ],
         "confidence": "low"
+      },
+      "overview": {
+        "text": "Sonnenlifte Röfleuten/Halden is a small Allgäu ski area with family slopes and convenient village access.",
+        "sources": [
+          "https://www.openstreetmap.org/way/1013523149"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.openstreetmap.org/way/1013523149"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Sonnenlifte Röfleuten/Halden is a small Allgäu ski area with family slopes and convenient village access.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1013523149"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "openstreetmap:way:539419290",
@@ -365009,9 +365122,31 @@
           "wikidata:item:Q14709259"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "text": "Spout Springs is an Oregon mountain ski area with a compact, independent layout in the Blue Mountains.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q14709259"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q14709259"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
       }
     },
-    "mountain_observations": []
+    "mountain_observations": [],
+    "overview": {
+      "text": "Spout Springs is an Oregon mountain ski area with a compact, independent layout in the Blue Mountains.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14709259"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
   },
   {
     "stable_id": "wikidata:item:Q7580543",
@@ -390837,6 +390972,130 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q113457486",
+    "name": "Tignes le Lac",
+    "normalized_name": "tignes le lac",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Tignes",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.469175,
+      "longitude": 6.906601
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q113457486",
+        "url": "https://www.wikidata.org/wiki/Q113457486",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Tignes le Lac",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113457486"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.469175,
+          "longitude": 6.906601
+        },
+        "source_record_ids": [
+          "wikidata:item:Q113457486"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q113457486"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Tignes le Lac is a central high-altitude resort base with immediate access to the linked Tignes–Val d’Isère terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q113457486"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q113457486"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 2100,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q113457486#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q113457486-bb7aafc2-4b46-0627-09ee-0d2375a02650",
+            "amount": 2100,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": 2100,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q113457486#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "structured_source",
+        "confidence": "medium",
+        "note": "Wikidata elevation of the mapped place; not a confirmed summit, base or highest skiing point.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q113457486-bb7aafc2-4b46-0627-09ee-0d2375a02650",
+            "amount": 2100,
+            "unit": "m",
+            "qualifiers": [],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ],
+    "overview": {
+      "text": "Tignes le Lac is a central high-altitude resort base with immediate access to the linked Tignes–Val d’Isère terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113457486"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "wikidata:item:Q137040742",
     "name": "Tignes Le Lavachet",
     "normalized_name": "tignes le lavachet",
@@ -395067,6 +395326,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q10703774",
+    "name": "Trillevallen",
+    "normalized_name": "trillevallen",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Sweden",
+    "coordinates": {
+      "latitude": 63.265833,
+      "longitude": 13.161111
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q10703774",
+        "url": "https://www.wikidata.org/wiki/Q10703774",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Trillevallen",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q10703774"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 63.265833,
+          "longitude": 13.161111
+        },
+        "source_record_ids": [
+          "wikidata:item:Q10703774"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Sweden",
+        "source_record_ids": [
+          "wikidata:item:Q10703774"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Trillevallen is a Swedish mountain resort with a quieter family character and lift-served terrain near the Åre region.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q10703774"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q10703774"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Trillevallen is a Swedish mountain resort with a quieter family character and lift-served terrain near the Åre region.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10703774"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "openstreetmap:relation:5535543",
     "name": "Troll Resort",
     "normalized_name": "troll resort",
@@ -396260,6 +396598,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q2457966",
+    "name": "Tschindirtschero",
+    "normalized_name": "tschindirtschero",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Russia",
+    "coordinates": {
+      "latitude": 42.152222,
+      "longitude": 47.381389
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q2457966",
+        "url": "https://www.wikidata.org/wiki/Q2457966",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Tschindirtschero",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2457966"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 42.152222,
+          "longitude": 47.381389
+        },
+        "source_record_ids": [
+          "wikidata:item:Q2457966"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Russia",
+        "source_record_ids": [
+          "wikidata:item:Q2457966"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Tschindirtschero is a mountain ski resort identity in Dagestan with lift-served terrain in a remote Caucasus setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q2457966"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2457966"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Tschindirtschero is a mountain ski resort identity in Dagestan with lift-served terrain in a remote Caucasus setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2457966"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -405630,6 +406047,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q5847609",
+    "name": "Valle del Sol ski area",
+    "normalized_name": "valle del sol ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Pineda de la Sierra",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 42.195675,
+      "longitude": -3.304046
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q5847609",
+        "url": "https://www.wikidata.org/wiki/Q5847609",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Valle del Sol ski area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5847609"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 42.195675,
+          "longitude": -3.304046
+        },
+        "source_record_ids": [
+          "wikidata:item:Q5847609"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Spain",
+        "source_record_ids": [
+          "wikidata:item:Q5847609"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Valle del Sol is a small Spanish mountain ski area in the Sierra de la Demanda with local winter terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q5847609"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5847609"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Valle del Sol is a small Spanish mountain ski area in the Sierra de la Demanda with local winter terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5847609"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "openstreetmap:relation:3955948",
     "name": "Valle Fura",
     "normalized_name": "valle fura",
@@ -407616,6 +408112,85 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q20553662",
+    "name": "Vassfjellet Winter Park",
+    "normalized_name": "vassfjellet winter park",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Trondheim municipality",
+    "country": "Norway",
+    "coordinates": {
+      "latitude": 63.26568,
+      "longitude": 10.40119
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q20553662",
+        "url": "https://www.wikidata.org/wiki/Q20553662",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Vassfjellet Winter Park",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q20553662"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 63.26568,
+          "longitude": 10.40119
+        },
+        "source_record_ids": [
+          "wikidata:item:Q20553662"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Norway",
+        "source_record_ids": [
+          "wikidata:item:Q20553662"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Vassfjellet is a developed ski area near Trondheim, offering convenient regional access and varied groomed terrain.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q20553662"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q20553662"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Vassfjellet is a developed ski area near Trondheim, offering convenient regional access and varied groomed terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q20553662"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
+    }
+  },
+  {
     "stable_id": "openstreetmap:relation:4136100",
     "name": "Vatra Dornei",
     "normalized_name": "vatra dornei",
@@ -408602,6 +409177,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q4009699",
+    "name": "Ventasso Laghi",
+    "normalized_name": "ventasso laghi",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ventasso",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 44.416667,
+      "longitude": 10.266667
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4009699",
+        "url": "https://www.wikidata.org/wiki/Q4009699",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Ventasso Laghi",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q4009699"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 44.416667,
+          "longitude": 10.266667
+        },
+        "source_record_ids": [
+          "wikidata:item:Q4009699"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Italy",
+        "source_record_ids": [
+          "wikidata:item:Q4009699"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Ventasso Laghi is a northern Apennine mountain area with compact ski terrain in a scenic lake-and-forest setting.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q4009699"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q4009699"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Ventasso Laghi is a northern Apennine mountain area with compact ski terrain in a scenic lake-and-forest setting.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4009699"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -410976,6 +411630,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q4112594",
+    "name": "Vitsi Ski Centre",
+    "normalized_name": "vitsi ski centre",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Greece",
+    "coordinates": {
+      "latitude": 40.614722,
+      "longitude": 21.351667
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q4112594",
+        "url": "https://www.wikidata.org/wiki/Q4112594",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Vitsi Ski Centre",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q4112594"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 40.614722,
+          "longitude": 21.351667
+        },
+        "source_record_ids": [
+          "wikidata:item:Q4112594"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Greece",
+        "source_record_ids": [
+          "wikidata:item:Q4112594"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Vitsi is a Greek mountain ski centre near Kastoria with open regional slopes and a quiet highland atmosphere.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q4112594"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q4112594"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Vitsi is a Greek mountain ski centre near Kastoria with open regional slopes and a quiet highland atmosphere.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4112594"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
@@ -428435,6 +429168,85 @@
         ],
         "confidence": "low"
       }
+    }
+  },
+  {
+    "stable_id": "wikidata:item:Q17151380",
+    "name": "Zadní Telnice",
+    "normalized_name": "zadní telnice",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Telnice",
+    "country": "Czechia",
+    "coordinates": {
+      "latitude": 50.734886,
+      "longitude": 13.923969
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q17151380",
+        "url": "https://www.wikidata.org/wiki/Q17151380",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Zadní Telnice",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q17151380"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-10-03",
+        "note": "Structured-source label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 50.734886,
+          "longitude": 13.923969
+        },
+        "source_record_ids": [
+          "wikidata:item:Q17151380"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Czechia",
+        "source_record_ids": [
+          "wikidata:item:Q17151380"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "text": "Zadní Telnice is a Czech Ore Mountains ski centre with several local slopes and a traditional regional character.",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q17151380"
+        ],
+        "reviewed_at": "2026-10-03",
+        "kind": "editorial_summary",
+        "evidence_keys": [],
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q17151380"
+        ],
+        "confidence": "medium",
+        "note": "Original Powder Files editorial interpretation of cited facts; not a visitor review or independent resort verification."
+      }
+    },
+    "mountain_observations": [],
+    "overview": {
+      "text": "Zadní Telnice is a Czech Ore Mountains ski centre with several local slopes and a traditional regional character.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17151380"
+      ],
+      "reviewed_at": "2026-10-03",
+      "kind": "editorial_summary"
     }
   },
   {
