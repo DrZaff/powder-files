@@ -1,0 +1,912 @@
+{
+  "batch": "official-027",
+  "checked_at": "2026-11-05",
+  "researched_profiles": 50,
+  "source_checked_observations": 0,
+  "conflict_fields": 0,
+  "profiles": [
+    {
+      "id": "wikidata:item:Q2982069",
+      "name": "Coll de Jou",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2982069"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16960629",
+      "name": "Diamond Hill",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16960629"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18336608",
+      "name": "Echo Valley Ski Resort",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18336608"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3411128",
+      "name": "Puigbalador",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3411128"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3086722",
+      "name": "Frauenalpe",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3086722"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3257491",
+      "name": "Llanos del Hospital",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3257491"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1664062",
+      "name": "Innerkrems",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1664062"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11364149",
+      "name": "Nakayama Toge Ski Resort",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11364149"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q5751991",
+      "name": "National Winter Activity Center",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5751991"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11626773",
+      "name": "Nekoma Ski Resort",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11626773"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q108688120",
+      "name": "安南平スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q108688120"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109359494",
+      "name": "信濃平スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109359494"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109595290",
+      "name": "木戸池スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109595290"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11267247",
+      "name": "ごりん高原スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11267247"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11305445",
+      "name": "サンアルピナ青木湖スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11305445"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11312600",
+      "name": "スノーバレー利賀",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11312600"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11312603",
+      "name": "スノーパーク面白山",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11312603"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11318082",
+      "name": "チャオ御岳スノーリゾート",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11318082"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11339886",
+      "name": "マウントジーンズ那須",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11339886"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11345075",
+      "name": "ヤナバスキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11345075"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11350045",
+      "name": "レーシングキャンプ野辺山",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11350045"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11371622",
+      "name": "二本松塩沢スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11371622"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11379225",
+      "name": "伊吹山スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11379225"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11415540",
+      "name": "名色スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11415540"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11488936",
+      "name": "御岳ロープウェイスキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11488936"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11500724",
+      "name": "斑尾高原豊田スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11500724"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11518594",
+      "name": "木曽駒高原スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11518594"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11545924",
+      "name": "武尊オリンピアスキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11545924"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11547401",
+      "name": "比叡山人工スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11547401"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11547492",
+      "name": "比良山スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11547492"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11579552",
+      "name": "白山中宮温泉スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11579552"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11615894",
+      "name": "芸北高原大佐スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11615894"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11618162",
+      "name": "草津シズカ山スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11618162"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11635458",
+      "name": "赤城山スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11635458"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11655346",
+      "name": "閑乗寺スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11655346"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11660920",
+      "name": "霧降高原スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11660920"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137039214",
+      "name": "Le Désert d’Entremont",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039214"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137050877",
+      "name": "Courchevel La Tania",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137050877"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137052865",
+      "name": "Ventron",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052865"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137052980",
+      "name": "Le Grand Puy",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052980"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18339275",
+      "name": "武尊牧場スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18339275"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120428",
+      "name": "ミカタスノーパーク",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q22120428"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120951",
+      "name": "六呂師高原スキーパーク",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q22120951"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q2292224",
+      "name": "Dachstein Glacier ski area",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292224"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q23784196",
+      "name": "Campra",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23784196"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28683444",
+      "name": "揖斐高原スキー場",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28683444"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3075146",
+      "name": "Foncine-le-Haut",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3075146"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3089365",
+      "name": "Frère-Joseph",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3089365"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11405758",
+      "name": "Senjōjiki Ski Area",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11405758"
+      ]
+    },
+    {
+      "id": "wikidata:item:Q116279780",
+      "name": "Smokey Mountain Ski Club",
+      "notes": "CC0 identity and location review only. Current operation, lift service and mountain dimensions remain unverified; no numerical mountain fact is inferred.",
+      "observations": 0,
+      "missing_core_fields": [
+        "vertical",
+        "area",
+        "trails",
+        "skiing_elevation",
+        "lifts"
+      ],
+      "conflicts": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116279780"
+      ]
+    }
+  ],
+  "summary_only_profiles": [
+    "wikidata:item:Q2982069",
+    "wikidata:item:Q16960629",
+    "wikidata:item:Q18336608",
+    "wikidata:item:Q3411128",
+    "wikidata:item:Q3086722",
+    "wikidata:item:Q3257491",
+    "wikidata:item:Q1664062",
+    "wikidata:item:Q11364149",
+    "wikidata:item:Q5751991",
+    "wikidata:item:Q11626773",
+    "wikidata:item:Q108688120",
+    "wikidata:item:Q109359494",
+    "wikidata:item:Q109595290",
+    "wikidata:item:Q11267247",
+    "wikidata:item:Q11305445",
+    "wikidata:item:Q11312600",
+    "wikidata:item:Q11312603",
+    "wikidata:item:Q11318082",
+    "wikidata:item:Q11339886",
+    "wikidata:item:Q11345075",
+    "wikidata:item:Q11350045",
+    "wikidata:item:Q11371622",
+    "wikidata:item:Q11379225",
+    "wikidata:item:Q11415540",
+    "wikidata:item:Q11488936",
+    "wikidata:item:Q11500724",
+    "wikidata:item:Q11518594",
+    "wikidata:item:Q11545924",
+    "wikidata:item:Q11547401",
+    "wikidata:item:Q11547492",
+    "wikidata:item:Q11579552",
+    "wikidata:item:Q11615894",
+    "wikidata:item:Q11618162",
+    "wikidata:item:Q11635458",
+    "wikidata:item:Q11655346",
+    "wikidata:item:Q11660920",
+    "wikidata:item:Q137039214",
+    "wikidata:item:Q137050877",
+    "wikidata:item:Q137052865",
+    "wikidata:item:Q137052980",
+    "wikidata:item:Q18339275",
+    "wikidata:item:Q22120428",
+    "wikidata:item:Q22120951",
+    "wikidata:item:Q2292224",
+    "wikidata:item:Q23784196",
+    "wikidata:item:Q28683444",
+    "wikidata:item:Q3075146",
+    "wikidata:item:Q3089365",
+    "wikidata:item:Q11405758",
+    "wikidata:item:Q116279780"
+  ],
+  "name_repairs": 40
+}

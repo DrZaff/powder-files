@@ -1,6 +1,6 @@
 # Resort profile coverage audit
 
-Generated: 2026-10-04T07:30:26.177Z
+Generated: 2026-11-06T02:11:45.222Z
 
 This audit measures the 1421 medium- and high-confidence public profiles. A field counts as source-checked only when a usable value is tied to an official-source observation. Structured map or knowledge-graph data is reported separately and does not become an official resort claim.
 
@@ -10,8 +10,8 @@ This audit measures the 1421 medium- and high-confidence public profiles. A fiel
 - Profiles without any official facts: 875
 - Profiles with an official website: 718
 - Profiles without an official website: 703
-- Profiles with an overview: 1357
-- Profiles without an overview: 64
+- Profiles with an overview: 1407
+- Profiles without an overview: 14
 - Profiles with unresolved conflicts: 107
 - Profiles with facts older than 365 days: 0
 - Profiles with all six core fields: 19

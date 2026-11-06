@@ -25,6 +25,7 @@ import { applyOfficialBatch023 } from './official-batch-023.mjs'
 import { applyOfficialBatch024 } from './official-batch-024.mjs'
 import { applyOfficialBatch025 } from './official-batch-025.mjs'
 import { applyOfficialBatch026 } from './official-batch-026.mjs'
+import { applyOfficialBatch027 } from './official-batch-027.mjs'
 import { applyCuratedExclusions } from './curated-exclusions.mjs'
 import { applyIdentityResolutions } from './identity-resolutions.mjs'
 import { applyResortSummaries } from './resort-summaries.mjs'
@@ -79,6 +80,7 @@ await writeJson(new URL('official-batch-023-report.json',generated),applyOfficia
 await writeJson(new URL('official-batch-024-report.json',generated),applyOfficialBatch024(canonical))
 await writeJson(new URL('official-batch-025-report.json',generated),applyOfficialBatch025(canonical))
 await writeJson(new URL('official-batch-026-report.json',generated),applyOfficialBatch026(canonical))
+await writeJson(new URL('official-batch-027-report.json',generated),applyOfficialBatch027(canonical))
 await writeJson(new URL('curated-exclusions-report.json',generated),applyCuratedExclusions(canonical,exclusions))
 const mountainCache=await cached('mountain-wikidata')
 const enrichmentQueue=enrichMountains(canonical,mountainCache.queried_ids?mountainCache:null)

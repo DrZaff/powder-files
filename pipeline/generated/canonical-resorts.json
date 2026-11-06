@@ -46651,7 +46651,7 @@
         "record_id": "bristol-mountain",
         "url": null,
         "license": "site-owned",
-        "collected_at": "2026-10-04T07:30:26.177Z"
+        "collected_at": "2026-11-06T02:11:45.222Z"
       },
       {
         "source": "openstreetmap",
@@ -46675,7 +46675,7 @@
         "collected_at": "2026-08-30"
       }
     ],
-    "collection_date": "2026-10-04T07:30:26.177Z",
+    "collection_date": "2026-11-06T02:11:45.222Z",
     "verification_status": "verified",
     "confidence": "high",
     "field_provenance": {
@@ -54418,6 +54418,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q23784196",
+    "name": "Campra",
+    "normalized_name": "campra",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Switzerland",
+    "coordinates": {
+      "latitude": 46.522078,
+      "longitude": 8.862951
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q23784196",
+        "url": "https://www.wikidata.org/wiki/Q23784196",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Campra",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q23784196"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 46.522078,
+          "longitude": 8.862951
+        },
+        "source_record_ids": [
+          "wikidata:item:Q23784196"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Switzerland",
+        "source_record_ids": [
+          "wikidata:item:Q23784196"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Campra is a winter-sports site in Ticino, Switzerland; the record remains a candidate because lift-served downhill scope has not been confirmed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q23784196"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Campra is a winter-sports site in Ticino, Switzerland; the record remains a candidate because lift-served downhill scope has not been confirmed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23784196"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q3654774",
@@ -68585,7 +68658,23 @@
           "wikidata:item:Q2982069"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Coll de Jou is a former winter-sports site near Mosset in the French Pyrenees; this profile is retained as a candidate identity while its downhill infrastructure and present status are reviewed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2982069"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Coll de Jou is a former winter-sports site near Mosset in the French Pyrenees; this profile is retained as a candidate identity while its downhill infrastructure and present status are reviewed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2982069"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -71564,6 +71653,79 @@
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q137050877",
+    "name": "Courchevel La Tania",
+    "normalized_name": "courchevel la tania",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Courchevel",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.431575,
+      "longitude": 6.597069
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137050877",
+        "url": "https://www.wikidata.org/wiki/Q137050877",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Courchevel La Tania",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137050877"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.431575,
+          "longitude": 6.597069
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137050877"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137050877"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Courchevel La Tania is a resort-sector identity within the Courchevel area; this profile does not treat linked-domain statistics as if they described a separate standalone mountain.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137050877"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Courchevel La Tania is a resort-sector identity within the Courchevel area; this profile does not treat linked-domain statistics as if they described a separate standalone mountain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137050877"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q109519917",
@@ -75971,6 +76133,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q2292224",
+    "name": "Dachstein Glacier ski area",
+    "normalized_name": "dachstein glacier ski area",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Styria",
+    "country": "Austria",
+    "coordinates": {
+      "latitude": 47.4667,
+      "longitude": 13.625
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q2292224",
+        "url": "https://www.wikidata.org/wiki/Q2292224",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Dachstein Glacier ski area",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292224"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 47.4667,
+          "longitude": 13.625
+        },
+        "source_record_ids": [
+          "wikidata:item:Q2292224"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Austria",
+        "source_record_ids": [
+          "wikidata:item:Q2292224"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "The Dachstein Glacier ski-area record identifies a high-alpine site in Styria, Austria; sightseeing lift access is not treated as proof of active downhill ski terrain.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q2292224"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "The Dachstein Glacier ski-area record identifies a high-alpine site in Styria, Austria; sightseeing lift access is not treated as proof of active downhill ski terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2292224"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "wikidata:item:Q1156792",
     "name": "Dachstein-West",
     "normalized_name": "dachstein west",
@@ -79203,7 +79438,23 @@
           "wikidata:item:Q16960629"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Diamond Hill is a historic Rhode Island ski-site identity in Cumberland; current public lift service and operating status have not been established from an official operator source.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q16960629"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Diamond Hill is a historic Rhode Island ski-site identity in Cumberland; current public lift service and operating status have not been established from an official operator source.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16960629"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -85091,7 +85342,23 @@
           "wikidata:item:Q18336608"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Echo Valley is a Japanese mountain ski-area identity in Nagawa, with its recorded location placing it in the central highlands; current operations and published mountain statistics still need official confirmation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q18336608"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Echo Valley is a Japanese mountain ski-area identity in Nagawa, with its recorded location placing it in the central highlands; current operations and published mountain statistics still need official confirmation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18336608"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -90937,140 +91204,6 @@
       "reviewed_at": "2026-10-03",
       "kind": "editorial_summary"
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q3411128",
-    "name": "Esquí de Puigbalador station",
-    "normalized_name": "esquí de puigbalador station",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Puyvalador",
-    "country": "France",
-    "coordinates": {
-      "latitude": 42.64929,
-      "longitude": 2.07792
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q3411128",
-        "url": "https://www.wikidata.org/wiki/Q3411128",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Esquí de Puigbalador station",
-        "source_record_ids": [
-          "wikidata:item:Q3411128"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.64929,
-          "longitude": 2.07792
-        },
-        "source_record_ids": [
-          "wikidata:item:Q3411128"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q3411128"
-        ],
-        "confidence": "high"
-      },
-      "mountain.mapped_elevation": {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q3411128#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3411128-B2117ADE-9C3E-4E0E-96E9-886DFA78AEC6",
-            "amount": 1700,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3411128-B5130497-CEE0-4160-B7F4-121D38AD1359",
-            "amount": 2382,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              }
-            ],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    },
-    "mountain_observations": [
-      {
-        "key": "mapped_elevation",
-        "label": "Mapped elevation",
-        "value": null,
-        "unit": "m",
-        "source": "https://www.wikidata.org/wiki/Q3411128#P2044",
-        "retrieved_at": "2026-08-30T21:42:40.477Z",
-        "source_published_at": null,
-        "status": "conflict",
-        "confidence": "low",
-        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
-        "statements": [
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3411128-B2117ADE-9C3E-4E0E-96E9-886DFA78AEC6",
-            "amount": 1700,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              }
-            ],
-            "references": []
-          },
-          {
-            "id": "http://www.wikidata.org/entity/statement/Q3411128-B5130497-CEE0-4160-B7F4-121D38AD1359",
-            "amount": 2382,
-            "unit": "m",
-            "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              }
-            ],
-            "references": []
-          }
-        ],
-        "license": "CC0-1.0"
-      }
-    ]
   },
   {
     "stable_id": "openstreetmap:relation:2924735",
@@ -98451,6 +98584,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q3075146",
+    "name": "Foncine-le-Haut",
+    "normalized_name": "foncine le haut",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Foncine-le-Haut",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.6566,
+      "longitude": 6.08518
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3075146",
+        "url": "https://www.wikidata.org/wiki/Q3075146",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Foncine-le-Haut",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3075146"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 46.6566,
+          "longitude": 6.08518
+        },
+        "source_record_ids": [
+          "wikidata:item:Q3075146"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q3075146"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Foncine-le-Haut is a winter-sports community in the French Jura; this profile still needs confirmation that its recorded identity represents active public lift-served downhill terrain.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3075146"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Foncine-le-Haut is a winter-sports community in the French Jura; this profile still needs confirmation that its recorded identity represents active public lift-served downhill terrain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3075146"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:544124494",
     "name": "FONNA Glacier Ski Resort",
     "normalized_name": "fonna glacier ski resort",
@@ -100843,6 +101049,14 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "value": "Frauenalpe is a mountain and ski-area identity above Murau in Styria, Austria; the profile currently describes the mapped place rather than a verified operating lift network.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3086722"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -100865,6 +101079,14 @@
         ],
         "license": "CC0-1.0"
       }
+    },
+    "overview": {
+      "text": "Frauenalpe is a mountain and ski-area identity above Murau in Styria, Austria; the profile currently describes the mapped place rather than a verified operating lift network.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3086722"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": [
       {
@@ -101349,6 +101571,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q3089365",
+    "name": "Frère-Joseph",
+    "normalized_name": "frère joseph",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "France",
+    "coordinates": {
+      "latitude": 47.92472,
+      "longitude": 6.86278
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3089365",
+        "url": "https://www.wikidata.org/wiki/Q3089365",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Frère-Joseph",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3089365"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 47.92472,
+          "longitude": 6.86278
+        },
+        "source_record_ids": [
+          "wikidata:item:Q3089365"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q3089365"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Frère-Joseph is a winter-sports station associated with Ventron in the Vosges; current operating status and any distinct lift-served terrain remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3089365"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Frère-Joseph is a winter-sports station associated with Ventron in the Vosges; current operating status and any distinct lift-served terrain remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3089365"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:relation:3663165",
@@ -137638,68 +137933,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q3257491",
-    "name": "Hospital Plains (ski resort)",
-    "normalized_name": "hospital plains ski resort",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Benasque",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 42.6837,
-      "longitude": 0.612216
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q3257491",
-        "url": "https://www.wikidata.org/wiki/Q3257491",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q3257491",
-        "url": "https://www.wikidata.org/wiki/Q3257491",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Hospital Plains (ski resort)",
-        "source_record_ids": [
-          "wikidata:item:Q3257491"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 42.6837,
-          "longitude": 0.612216
-        },
-        "source_record_ids": [
-          "wikidata:item:Q3257491"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Spain",
-        "source_record_ids": [
-          "wikidata:item:Q3257491"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "openstreetmap:relation:16407734",
     "name": "Hovdebakken",
     "normalized_name": "hovdebakken",
@@ -143024,6 +143257,14 @@
         ],
         "confidence": "high"
       },
+      "overview": {
+        "value": "Innerkrems is an Austrian mountain village and ski-area identity in Carinthia; the directory record awaits current operator evidence for active lifts and official mountain dimensions.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q1664062"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      },
       "mountain.mapped_elevation": {
         "key": "mapped_elevation",
         "label": "Mapped elevation",
@@ -143046,6 +143287,14 @@
         ],
         "license": "CC0-1.0"
       }
+    },
+    "overview": {
+      "text": "Innerkrems is an Austrian mountain village and ski-area identity in Carinthia; the directory record awaits current operator evidence for active lifts and official mountain dimensions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1664062"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": [
       {
@@ -181546,6 +181795,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q137039214",
+    "name": "Le Désert d’Entremont",
+    "normalized_name": "le désert dentremont",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Entremont-le-Vieux",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.462953,
+      "longitude": 5.856574
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137039214",
+        "url": "https://www.wikidata.org/wiki/Q137039214",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Le Désert d’Entremont",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137039214"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 45.462953,
+          "longitude": 5.856574
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137039214"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137039214"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Le Désert d’Entremont is a village ski-station identity near Entremont-le-Vieux in the French Alps; current lift service and official mountain totals remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137039214"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Le Désert d’Entremont is a village ski-station identity near Entremont-le-Vieux in the French Alps; current lift service and official mountain totals remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137039214"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "wikidata:item:Q131225550",
     "name": "Le Fornet",
     "normalized_name": "le fornet",
@@ -182125,6 +182447,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q137052980",
+    "name": "Le Grand Puy",
+    "normalized_name": "le grand puy",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Seyne",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.321571,
+      "longitude": 6.391937
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137052980",
+        "url": "https://www.wikidata.org/wiki/Q137052980",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Le Grand Puy",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137052980"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 44.321571,
+          "longitude": 6.391937
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137052980"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137052980"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Le Grand Puy is a ski-station identity near Seyne in the southern French Alps; current operating status and official mountain measurements remain incomplete.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137052980"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Le Grand Puy is a ski-station identity near Seyne in the southern French Alps; current operating status and official mountain measurements remain incomplete.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052980"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:relation:21164474",
@@ -196131,6 +196526,86 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q3257491",
+    "name": "Llanos del Hospital",
+    "normalized_name": "llanos del hospital",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Benasque",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 42.6837,
+      "longitude": 0.612216
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3257491",
+        "url": "https://www.wikidata.org/wiki/Q3257491",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      },
+      {
+        "source": "wikidata",
+        "record_id": "Q3257491",
+        "url": "https://www.wikidata.org/wiki/Q3257491",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Llanos del Hospital",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3257491"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 42.6837,
+          "longitude": 0.612216
+        },
+        "source_record_ids": [
+          "wikidata:item:Q3257491"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Spain",
+        "source_record_ids": [
+          "wikidata:item:Q3257491"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Llanos del Hospital is a winter-sports site in the Benasque area of the Spanish Pyrenees; lift-served downhill scope has not yet been confirmed from a current official source.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3257491"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Llanos del Hospital is a winter-sports site in the Benasque area of the Spanish Pyrenees; lift-served downhill scope has not yet been confirmed from a current official source.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3257491"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:relation:5432030",
@@ -237615,7 +238090,23 @@
           "wikidata:item:Q11364149"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Nakayama Toge is a Hokkaido ski-area identity near Kimobetsu, positioned around a high mountain pass; current operating details and official terrain figures remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11364149"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Nakayama Toge is a Hokkaido ski-area identity near Kimobetsu, positioned around a high mountain pass; current operating details and official terrain figures remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11364149"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -239426,7 +239917,23 @@
           "wikidata:item:Q5751991"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "The National Winter Activity Center is a winter-sports facility in Vernon, New Jersey, historically associated with Hidden Valley; public access and current downhill lift service require confirmation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q5751991"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "The National Winter Activity Center is a winter-sports facility in Vernon, New Jersey, historically associated with Hidden Valley; public access and current downhill lift service require confirmation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5751991"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -239993,7 +240500,23 @@
           "wikidata:item:Q11626773"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Nekoma is a Fukushima mountain ski-area identity near Kitashiobara; this candidate profile does not yet claim current lift counts, terrain totals or standalone operating scope.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11626773"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Nekoma is a Fukushima mountain ski-area identity near Kitashiobara; this candidate profile does not yet claim current lift counts, terrain totals or standalone operating scope.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11626773"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -275750,6 +276273,158 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q3411128",
+    "name": "Puigbalador",
+    "normalized_name": "puigbalador",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Puyvalador",
+    "country": "France",
+    "coordinates": {
+      "latitude": 42.64929,
+      "longitude": 2.07792
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3411128",
+        "url": "https://www.wikidata.org/wiki/Q3411128",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Puigbalador",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3411128"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 42.64929,
+          "longitude": 2.07792
+        },
+        "source_record_ids": [
+          "wikidata:item:Q3411128"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q3411128"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Puigbalador is a ski-station identity at Puyvalador in the French Pyrenees; its current operating status and the scope of any lift-served downhill terrain remain unresolved.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q3411128"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      },
+      "mountain.mapped_elevation": {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": null,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q3411128#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q3411128-B2117ADE-9C3E-4E0E-96E9-886DFA78AEC6",
+            "amount": 1700,
+            "unit": "m",
+            "qualifiers": [
+              {
+                "property": "http://www.wikidata.org/prop/qualifier/P1013",
+                "value": "http://www.wikidata.org/entity/Q30278109"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q3411128-B5130497-CEE0-4160-B7F4-121D38AD1359",
+            "amount": 2382,
+            "unit": "m",
+            "qualifiers": [
+              {
+                "property": "http://www.wikidata.org/prop/qualifier/P1013",
+                "value": "http://www.wikidata.org/entity/Q3393392"
+              }
+            ],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    },
+    "overview": {
+      "text": "Puigbalador is a ski-station identity at Puyvalador in the French Pyrenees; its current operating status and the scope of any lift-served downhill terrain remain unresolved.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3411128"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": [
+      {
+        "key": "mapped_elevation",
+        "label": "Mapped elevation",
+        "value": null,
+        "unit": "m",
+        "source": "https://www.wikidata.org/wiki/Q3411128#P2044",
+        "retrieved_at": "2026-08-30T21:42:40.477Z",
+        "source_published_at": null,
+        "status": "conflict",
+        "confidence": "low",
+        "note": "Different values, qualifiers or unsupported units require review. No elevation selected.",
+        "statements": [
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q3411128-B2117ADE-9C3E-4E0E-96E9-886DFA78AEC6",
+            "amount": 1700,
+            "unit": "m",
+            "qualifiers": [
+              {
+                "property": "http://www.wikidata.org/prop/qualifier/P1013",
+                "value": "http://www.wikidata.org/entity/Q30278109"
+              }
+            ],
+            "references": []
+          },
+          {
+            "id": "http://www.wikidata.org/entity/statement/Q3411128-B5130497-CEE0-4160-B7F4-121D38AD1359",
+            "amount": 2382,
+            "unit": "m",
+            "qualifiers": [
+              {
+                "property": "http://www.wikidata.org/prop/qualifier/P1013",
+                "value": "http://www.wikidata.org/entity/Q3393392"
+              }
+            ],
+            "references": []
+          }
+        ],
+        "license": "CC0-1.0"
+      }
+    ]
+  },
+  {
     "stable_id": "openstreetmap:way:831853657",
     "name": "Puijon hyppyrimäet",
     "normalized_name": "puijon hyppyrimäet",
@@ -277037,61 +277712,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q108688120",
-    "name": "Q108688120",
-    "normalized_name": "q108688120",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.710833,
-      "longitude": 138.455278
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q108688120",
-        "url": "https://www.wikidata.org/wiki/Q108688120",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q108688120",
-        "source_record_ids": [
-          "wikidata:item:Q108688120"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.710833,
-          "longitude": 138.455278
-        },
-        "source_record_ids": [
-          "wikidata:item:Q108688120"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q108688120"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q109356817",
     "name": "Q109356817",
     "normalized_name": "q109356817",
@@ -277188,61 +277808,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q109359494",
-    "name": "Q109359494",
-    "normalized_name": "q109359494",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Iiyama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.908056,
-      "longitude": 138.351944
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q109359494",
-        "url": "https://www.wikidata.org/wiki/Q109359494",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q109359494",
-        "source_record_ids": [
-          "wikidata:item:Q109359494"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.908056,
-          "longitude": 138.351944
-        },
-        "source_record_ids": [
-          "wikidata:item:Q109359494"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q109359494"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q109562514",
     "name": "Q109562514",
     "normalized_name": "q109562514",
@@ -277289,61 +277854,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q109595290",
-    "name": "Q109595290",
-    "normalized_name": "q109595290",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Yamanouchi",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.699722,
-      "longitude": 138.491111
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q109595290",
-        "url": "https://www.wikidata.org/wiki/Q109595290",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q109595290",
-        "source_record_ids": [
-          "wikidata:item:Q109595290"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.699722,
-          "longitude": 138.491111
-        },
-        "source_record_ids": [
-          "wikidata:item:Q109595290"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q109595290"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q109596759",
@@ -277682,446 +278192,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q11267247",
-    "name": "Q11267247",
-    "normalized_name": "q11267247",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.762778,
-      "longitude": 138.439722
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11267247",
-        "url": "https://www.wikidata.org/wiki/Q11267247",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11267247",
-        "source_record_ids": [
-          "wikidata:item:Q11267247"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.762778,
-          "longitude": 138.439722
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11267247"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11267247"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11305445",
-    "name": "Q11305445",
-    "normalized_name": "q11305445",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ōmachi-shi",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.613056,
-      "longitude": 137.836111
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11305445",
-        "url": "https://www.wikidata.org/wiki/Q11305445",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11305445",
-        "source_record_ids": [
-          "wikidata:item:Q11305445"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.613056,
-          "longitude": 137.836111
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11305445"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11305445"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11312600",
-    "name": "Q11312600",
-    "normalized_name": "q11312600",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.414167,
-      "longitude": 137.035278
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11312600",
-        "url": "https://www.wikidata.org/wiki/Q11312600",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11312600",
-        "source_record_ids": [
-          "wikidata:item:Q11312600"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.414167,
-          "longitude": 137.035278
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11312600"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11312600"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11312603",
-    "name": "Q11312603",
-    "normalized_name": "q11312603",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 38.330556,
-      "longitude": 140.498056
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11312603",
-        "url": "https://www.wikidata.org/wiki/Q11312603",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11312603",
-        "source_record_ids": [
-          "wikidata:item:Q11312603"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 38.330556,
-          "longitude": 140.498056
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11312603"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11312603"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11318082",
-    "name": "Q11318082",
-    "normalized_name": "q11318082",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Takayama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.947011,
-      "longitude": 137.485414
-    },
-    "official_website": "https://www.ciao.co.jp",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11318082",
-        "url": "https://www.wikidata.org/wiki/Q11318082",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11318082",
-        "source_record_ids": [
-          "wikidata:item:Q11318082"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.947011,
-          "longitude": 137.485414
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11318082"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11318082"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11339886",
-    "name": "Q11339886",
-    "normalized_name": "q11339886",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 37.128,
-      "longitude": 140.015083
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11339886",
-        "url": "https://www.wikidata.org/wiki/Q11339886",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11339886",
-        "source_record_ids": [
-          "wikidata:item:Q11339886"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 37.128,
-          "longitude": 140.015083
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11339886"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11339886"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11345075",
-    "name": "Q11345075",
-    "normalized_name": "q11345075",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.605278,
-      "longitude": 137.855
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11345075",
-        "url": "https://www.wikidata.org/wiki/Q11345075",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11345075",
-        "source_record_ids": [
-          "wikidata:item:Q11345075"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.605278,
-          "longitude": 137.855
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11345075"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11345075"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11350045",
-    "name": "Q11350045",
-    "normalized_name": "q11350045",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Minamimaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.927778,
-      "longitude": 138.470833
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11350045",
-        "url": "https://www.wikidata.org/wiki/Q11350045",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11350045",
-        "source_record_ids": [
-          "wikidata:item:Q11350045"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.927778,
-          "longitude": 138.470833
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11350045"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11350045"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q11363941",
     "name": "Q11363941",
     "normalized_name": "q11363941",
@@ -278177,116 +278247,6 @@
     "mountain_observations": []
   },
   {
-    "stable_id": "wikidata:item:Q11371622",
-    "name": "Q11371622",
-    "normalized_name": "q11371622",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Nihonmatsu",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 37.638056,
-      "longitude": 140.328889
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11371622",
-        "url": "https://www.wikidata.org/wiki/Q11371622",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11371622",
-        "source_record_ids": [
-          "wikidata:item:Q11371622"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 37.638056,
-          "longitude": 140.328889
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11371622"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11371622"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11379225",
-    "name": "Q11379225",
-    "normalized_name": "q11379225",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Maihara",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.406667,
-      "longitude": 136.396389
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11379225",
-        "url": "https://www.wikidata.org/wiki/Q11379225",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11379225",
-        "source_record_ids": [
-          "wikidata:item:Q11379225"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.406667,
-          "longitude": 136.396389
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11379225"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11379225"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q113841022",
     "name": "Q113841022",
     "normalized_name": "q113841022",
@@ -278333,61 +278293,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q11415540",
-    "name": "Q11415540",
-    "normalized_name": "q11415540",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Toyooka",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.487222,
-      "longitude": 134.665833
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11415540",
-        "url": "https://www.wikidata.org/wiki/Q11415540",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11415540",
-        "source_record_ids": [
-          "wikidata:item:Q11415540"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.487222,
-          "longitude": 134.665833
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11415540"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11415540"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q11434730",
@@ -278486,391 +278391,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q11488936",
-    "name": "Q11488936",
-    "normalized_name": "q11488936",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.9,
-      "longitude": 137.533333
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11488936",
-        "url": "https://www.wikidata.org/wiki/Q11488936",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11488936",
-        "source_record_ids": [
-          "wikidata:item:Q11488936"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.9,
-          "longitude": 137.533333
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11488936"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11488936"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11500724",
-    "name": "Q11500724",
-    "normalized_name": "q11500724",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Nakano",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.828611,
-      "longitude": 138.292222
-    },
-    "official_website": "http://www3.ocn.ne.jp/~madarao/mt-ski",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11500724",
-        "url": "https://www.wikidata.org/wiki/Q11500724",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11500724",
-        "source_record_ids": [
-          "wikidata:item:Q11500724"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.828611,
-          "longitude": 138.292222
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11500724"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11500724"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11518594",
-    "name": "Q11518594",
-    "normalized_name": "q11518594",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Kiso",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.827778,
-      "longitude": 137.775
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11518594",
-        "url": "https://www.wikidata.org/wiki/Q11518594",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11518594",
-        "source_record_ids": [
-          "wikidata:item:Q11518594"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.827778,
-          "longitude": 137.775
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11518594"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11518594"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11545924",
-    "name": "Q11545924",
-    "normalized_name": "q11545924",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Katashina",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.769444,
-      "longitude": 139.180556
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11545924",
-        "url": "https://www.wikidata.org/wiki/Q11545924",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11545924",
-        "source_record_ids": [
-          "wikidata:item:Q11545924"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.769444,
-          "longitude": 139.180556
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11545924"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11545924"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11547401",
-    "name": "Q11547401",
-    "normalized_name": "q11547401",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Sakyō-ku",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.065833,
-      "longitude": 135.827222
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11547401",
-        "url": "https://www.wikidata.org/wiki/Q11547401",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11547401",
-        "source_record_ids": [
-          "wikidata:item:Q11547401"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.065833,
-          "longitude": 135.827222
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11547401"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11547401"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11547492",
-    "name": "Q11547492",
-    "normalized_name": "q11547492",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Otsu",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.259722,
-      "longitude": 135.908333
-    },
-    "official_website": "http://www.hirasan.co.jp",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11547492",
-        "url": "https://www.wikidata.org/wiki/Q11547492",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11547492",
-        "source_record_ids": [
-          "wikidata:item:Q11547492"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.259722,
-          "longitude": 135.908333
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11547492"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11547492"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11579552",
-    "name": "Q11579552",
-    "normalized_name": "q11579552",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Hakusan",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.279167,
-      "longitude": 136.686111
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11579552",
-        "url": "https://www.wikidata.org/wiki/Q11579552",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11579552",
-        "source_record_ids": [
-          "wikidata:item:Q11579552"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.279167,
-          "longitude": 136.686111
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11579552"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11579552"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q11579652",
     "name": "Q11579652",
     "normalized_name": "q11579652",
@@ -278967,171 +278487,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q11615894",
-    "name": "Q11615894",
-    "normalized_name": "q11615894",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 34.747722,
-      "longitude": 132.219833
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11615894",
-        "url": "https://www.wikidata.org/wiki/Q11615894",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11615894",
-        "source_record_ids": [
-          "wikidata:item:Q11615894"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 34.747722,
-          "longitude": 132.219833
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11615894"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11615894"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11618162",
-    "name": "Q11618162",
-    "normalized_name": "q11618162",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Kusatsu",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.606944,
-      "longitude": 138.568333
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11618162",
-        "url": "https://www.wikidata.org/wiki/Q11618162",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11618162",
-        "source_record_ids": [
-          "wikidata:item:Q11618162"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.606944,
-          "longitude": 138.568333
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11618162"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11618162"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11635458",
-    "name": "Q11635458",
-    "normalized_name": "q11635458",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Maebashi",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.545278,
-      "longitude": 139.183333
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11635458",
-        "url": "https://www.wikidata.org/wiki/Q11635458",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11635458",
-        "source_record_ids": [
-          "wikidata:item:Q11635458"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.545278,
-          "longitude": 139.183333
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11635458"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11635458"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q116494034",
     "name": "Q116494034",
     "normalized_name": "q116494034",
@@ -279178,116 +278533,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q11655346",
-    "name": "Q11655346",
-    "normalized_name": "q11655346",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.558919,
-      "longitude": 136.987303
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11655346",
-        "url": "https://www.wikidata.org/wiki/Q11655346",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11655346",
-        "source_record_ids": [
-          "wikidata:item:Q11655346"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.558919,
-          "longitude": 136.987303
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11655346"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11655346"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q11660920",
-    "name": "Q11660920",
-    "normalized_name": "q11660920",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Nikkō-shi",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.806944,
-      "longitude": 139.591667
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q11660920",
-        "url": "https://www.wikidata.org/wiki/Q11660920",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q11660920",
-        "source_record_ids": [
-          "wikidata:item:Q11660920"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.806944,
-          "longitude": 139.591667
-        },
-        "source_record_ids": [
-          "wikidata:item:Q11660920"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q11660920"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q11868144",
@@ -280008,226 +279253,6 @@
         "confidence": "low"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q137039214",
-    "name": "Q137039214",
-    "normalized_name": "q137039214",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Entremont-le-Vieux",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.462953,
-      "longitude": 5.856574
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137039214",
-        "url": "https://www.wikidata.org/wiki/Q137039214",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137039214",
-        "source_record_ids": [
-          "wikidata:item:Q137039214"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.462953,
-          "longitude": 5.856574
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137039214"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137039214"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137050877",
-    "name": "Q137050877",
-    "normalized_name": "q137050877",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Courchevel",
-    "country": "France",
-    "coordinates": {
-      "latitude": 45.431575,
-      "longitude": 6.597069
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137050877",
-        "url": "https://www.wikidata.org/wiki/Q137050877",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137050877",
-        "source_record_ids": [
-          "wikidata:item:Q137050877"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 45.431575,
-          "longitude": 6.597069
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137050877"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137050877"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137052865",
-    "name": "Q137052865",
-    "normalized_name": "q137052865",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ventron",
-    "country": "France",
-    "coordinates": {
-      "latitude": 47.924932,
-      "longitude": 6.860062
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137052865",
-        "url": "https://www.wikidata.org/wiki/Q137052865",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137052865",
-        "source_record_ids": [
-          "wikidata:item:Q137052865"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 47.924932,
-          "longitude": 6.860062
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137052865"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137052865"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q137052980",
-    "name": "Q137052980",
-    "normalized_name": "q137052980",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Seyne",
-    "country": "France",
-    "coordinates": {
-      "latitude": 44.321571,
-      "longitude": 6.391937
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q137052980",
-        "url": "https://www.wikidata.org/wiki/Q137052980",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q137052980",
-        "source_record_ids": [
-          "wikidata:item:Q137052980"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 44.321571,
-          "longitude": 6.391937
-        },
-        "source_record_ids": [
-          "wikidata:item:Q137052980"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q137052980"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q16564556",
@@ -281526,61 +280551,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q18339275",
-    "name": "Q18339275",
-    "normalized_name": "q18339275",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.797222,
-      "longitude": 139.191389
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q18339275",
-        "url": "https://www.wikidata.org/wiki/Q18339275",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q18339275",
-        "source_record_ids": [
-          "wikidata:item:Q18339275"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.797222,
-          "longitude": 139.191389
-        },
-        "source_record_ids": [
-          "wikidata:item:Q18339275"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q18339275"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q18405762",
     "name": "Q18405762",
     "normalized_name": "q18405762",
@@ -282116,116 +281086,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q22120428",
-    "name": "Q22120428",
-    "normalized_name": "q22120428",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.413378,
-      "longitude": 134.525066
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q22120428",
-        "url": "https://www.wikidata.org/wiki/Q22120428",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q22120428",
-        "source_record_ids": [
-          "wikidata:item:Q22120428"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.413378,
-          "longitude": 134.525066
-        },
-        "source_record_ids": [
-          "wikidata:item:Q22120428"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q22120428"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q22120951",
-    "name": "Q22120951",
-    "normalized_name": "q22120951",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.022222,
-      "longitude": 136.576389
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q22120951",
-        "url": "https://www.wikidata.org/wiki/Q22120951",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q22120951",
-        "source_record_ids": [
-          "wikidata:item:Q22120951"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 36.022222,
-          "longitude": 136.576389
-        },
-        "source_record_ids": [
-          "wikidata:item:Q22120951"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q22120951"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q2241705",
     "name": "Q2241705",
     "normalized_name": "q2241705",
@@ -282322,61 +281182,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q2292224",
-    "name": "Q2292224",
-    "normalized_name": "q2292224",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Styria",
-    "country": "Austria",
-    "coordinates": {
-      "latitude": 47.4667,
-      "longitude": 13.625
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q2292224",
-        "url": "https://www.wikidata.org/wiki/Q2292224",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q2292224",
-        "source_record_ids": [
-          "wikidata:item:Q2292224"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 47.4667,
-          "longitude": 13.625
-        },
-        "source_record_ids": [
-          "wikidata:item:Q2292224"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Austria",
-        "source_record_ids": [
-          "wikidata:item:Q2292224"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q2292250",
     "name": "Q2292250",
     "normalized_name": "q2292250",
@@ -282423,61 +281228,6 @@
         "confidence": "high"
       }
     }
-  },
-  {
-    "stable_id": "wikidata:item:Q23784196",
-    "name": "Q23784196",
-    "normalized_name": "q23784196",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "Switzerland",
-    "coordinates": {
-      "latitude": 46.522078,
-      "longitude": 8.862951
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q23784196",
-        "url": "https://www.wikidata.org/wiki/Q23784196",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q23784196",
-        "source_record_ids": [
-          "wikidata:item:Q23784196"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 46.522078,
-          "longitude": 8.862951
-        },
-        "source_record_ids": [
-          "wikidata:item:Q23784196"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Switzerland",
-        "source_record_ids": [
-          "wikidata:item:Q23784196"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
   },
   {
     "stable_id": "wikidata:item:Q25413135",
@@ -282576,61 +281326,6 @@
     }
   },
   {
-    "stable_id": "wikidata:item:Q28683444",
-    "name": "Q28683444",
-    "normalized_name": "q28683444",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Ibigawa",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.536944,
-      "longitude": 136.43
-    },
-    "official_website": "http://www.ibikogen.com/ibikougen/winter/index.shtml",
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q28683444",
-        "url": "https://www.wikidata.org/wiki/Q28683444",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q28683444",
-        "source_record_ids": [
-          "wikidata:item:Q28683444"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 35.536944,
-          "longitude": 136.43
-        },
-        "source_record_ids": [
-          "wikidata:item:Q28683444"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "Japan",
-        "source_record_ids": [
-          "wikidata:item:Q28683444"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
     "stable_id": "wikidata:item:Q30741179",
     "name": "Q30741179",
     "normalized_name": "q30741179",
@@ -282679,116 +281374,6 @@
         "value": "Canada",
         "source_record_ids": [
           "wikidata:item:Q30741179"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q3075146",
-    "name": "Q3075146",
-    "normalized_name": "q3075146",
-    "alternate_names": [],
-    "locality": null,
-    "region": "Foncine-le-Haut",
-    "country": "France",
-    "coordinates": {
-      "latitude": 46.6566,
-      "longitude": 6.08518
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q3075146",
-        "url": "https://www.wikidata.org/wiki/Q3075146",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q3075146",
-        "source_record_ids": [
-          "wikidata:item:Q3075146"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 46.6566,
-          "longitude": 6.08518
-        },
-        "source_record_ids": [
-          "wikidata:item:Q3075146"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q3075146"
-        ],
-        "confidence": "high"
-      }
-    },
-    "mountain_observations": []
-  },
-  {
-    "stable_id": "wikidata:item:Q3089365",
-    "name": "Q3089365",
-    "normalized_name": "q3089365",
-    "alternate_names": [],
-    "locality": null,
-    "region": null,
-    "country": "France",
-    "coordinates": {
-      "latitude": 47.92472,
-      "longitude": 6.86278
-    },
-    "official_website": null,
-    "operating_status": "unknown",
-    "resort_type": "downhill_or_mixed",
-    "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q3089365",
-        "url": "https://www.wikidata.org/wiki/Q3089365",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      }
-    ],
-    "collection_date": "2026-08-30T13:07:28.966Z",
-    "verification_status": "candidate",
-    "confidence": "medium",
-    "field_provenance": {
-      "name": {
-        "value": "Q3089365",
-        "source_record_ids": [
-          "wikidata:item:Q3089365"
-        ],
-        "confidence": "high"
-      },
-      "coordinates": {
-        "value": {
-          "latitude": 47.92472,
-          "longitude": 6.86278
-        },
-        "source_record_ids": [
-          "wikidata:item:Q3089365"
-        ],
-        "confidence": "high"
-      },
-      "country": {
-        "value": "France",
-        "source_record_ids": [
-          "wikidata:item:Q3089365"
         ],
         "confidence": "high"
       }
@@ -313345,7 +311930,23 @@
           "wikidata:item:Q11405758"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Senjōjiki is a high-elevation ski-area identity above Komagane in the Japanese Central Alps; ropeway access and backcountry use are not counted as ordinary lift-served resort terrain without further evidence.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11405758"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Senjōjiki is a high-elevation ski-area identity above Komagane in the Japanese Central Alps; ropeway access and backcountry use are not counted as ordinary lift-served resort terrain without further evidence.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11405758"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -351900,7 +350501,23 @@
           "wikidata:item:Q116279780"
         ],
         "confidence": "high"
+      },
+      "overview": {
+        "value": "Smokey Mountain Ski Club is a ski-area identity in Labrador, Canada; current public access, lift service and official mountain figures still need confirmation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q116279780"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
       }
+    },
+    "overview": {
+      "text": "Smokey Mountain Ski Club is a ski-area identity in Labrador, Canada; current public access, lift service and official mountain figures still need confirmation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116279780"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
     },
     "mountain_observations": []
   },
@@ -407148,6 +405765,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q137052865",
+    "name": "Ventron",
+    "normalized_name": "ventron",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ventron",
+    "country": "France",
+    "coordinates": {
+      "latitude": 47.924932,
+      "longitude": 6.860062
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q137052865",
+        "url": "https://www.wikidata.org/wiki/Q137052865",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "Ventron",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137052865"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 47.924932,
+          "longitude": 6.860062
+        },
+        "source_record_ids": [
+          "wikidata:item:Q137052865"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "France",
+        "source_record_ids": [
+          "wikidata:item:Q137052865"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "Ventron is a Vosges ski-station identity in northeastern France; the directory retains the place record while current operations and lift-served scope are reviewed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q137052865"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "Ventron is a Vosges ski-station identity in northeastern France; the directory retains the place record while current operations and lift-served scope are reviewed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q137052865"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "wikidata:item:Q688517",
     "name": "Verbier",
     "normalized_name": "verbier",
@@ -444268,6 +442958,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11267247",
+    "name": "ごりん高原スキー場",
+    "normalized_name": "ごりん高原スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.762778,
+      "longitude": 138.439722
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11267247",
+        "url": "https://www.wikidata.org/wiki/Q11267247",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "ごりん高原スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11267247"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.762778,
+          "longitude": 138.439722
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11267247"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11267247"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "ごりん高原スキー場 is a Japanese highland ski-area record in northern Nagano; it remains a candidate until active lift service and operating scope can be verified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11267247"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "ごりん高原スキー場 is a Japanese highland ski-area record in northern Nagano; it remains a candidate until active lift service and operating scope can be verified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11267247"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1468756556",
     "name": "コンサドーレ仁木スキーパーク",
     "normalized_name": "コンサドーレ仁木スキーパーク",
@@ -444398,6 +443161,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11305445",
+    "name": "サンアルピナ青木湖スキー場",
+    "normalized_name": "サンアルピナ青木湖スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ōmachi-shi",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.613056,
+      "longitude": 137.836111
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11305445",
+        "url": "https://www.wikidata.org/wiki/Q11305445",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "サンアルピナ青木湖スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11305445"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.613056,
+          "longitude": 137.836111
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11305445"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11305445"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "サンアルピナ青木湖スキー場 is a ski-area identity near Ōmachi and Lake Aoki in Nagano; current operations and official terrain statistics remain unresolved.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11305445"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "サンアルピナ青木湖スキー場 is a ski-area identity near Ōmachi and Lake Aoki in Nagano; current operations and official terrain statistics remain unresolved.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11305445"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:172593585",
@@ -445259,6 +444095,152 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11312603",
+    "name": "スノーパーク面白山",
+    "normalized_name": "スノーパーク面白山",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 38.330556,
+      "longitude": 140.498056
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11312603",
+        "url": "https://www.wikidata.org/wiki/Q11312603",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "スノーパーク面白山",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11312603"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 38.330556,
+          "longitude": 140.498056
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11312603"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11312603"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "スノーパーク面白山 is a Yamagata mountain ski-area identity; present operating status and the extent of lift-served downhill terrain require official confirmation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11312603"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "スノーパーク面白山 is a Yamagata mountain ski-area identity; present operating status and the extent of lift-served downhill terrain require official confirmation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11312603"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
+    "stable_id": "wikidata:item:Q11312600",
+    "name": "スノーバレー利賀",
+    "normalized_name": "スノーバレー利賀",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.414167,
+      "longitude": 137.035278
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11312600",
+        "url": "https://www.wikidata.org/wiki/Q11312600",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "スノーバレー利賀",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11312600"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.414167,
+          "longitude": 137.035278
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11312600"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11312600"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "スノーバレー利賀 is a Japanese mountain ski-area identity in Toyama Prefecture; the directory currently has location evidence but no verified current lift or terrain totals.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11312600"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "スノーバレー利賀 is a Japanese mountain ski-area identity in Toyama Prefecture; the directory currently has location evidence but no verified current lift or terrain totals.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11312600"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:484287849",
     "name": "スプリングバレー泉高原スキー場",
     "normalized_name": "スプリングバレー泉高原スキー場",
@@ -445851,6 +444833,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11318082",
+    "name": "チャオ御岳スノーリゾート",
+    "normalized_name": "チャオ御岳スノーリゾート",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Takayama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.947011,
+      "longitude": 137.485414
+    },
+    "official_website": "https://www.ciao.co.jp",
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11318082",
+        "url": "https://www.wikidata.org/wiki/Q11318082",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "チャオ御岳スノーリゾート",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11318082"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.947011,
+          "longitude": 137.485414
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11318082"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11318082"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "チャオ御岳スノーリゾート is a ski-resort identity on the Mount Ontake side of Takayama; its recorded website and historical identity do not by themselves establish current operation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11318082"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "チャオ御岳スノーリゾート is a ski-resort identity on the Mount Ontake side of Takayama; its recorded website and historical identity do not by themselves establish current operation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11318082"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:562361272",
@@ -447965,6 +447020,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11339886",
+    "name": "マウントジーンズ那須",
+    "normalized_name": "マウントジーンズ那須",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 37.128,
+      "longitude": 140.015083
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11339886",
+        "url": "https://www.wikidata.org/wiki/Q11339886",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "マウントジーンズ那須",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11339886"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 37.128,
+          "longitude": 140.015083
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11339886"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11339886"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "マウントジーンズ那須 is a Tochigi mountain ski-area identity in the Nasu highlands; current public operation and official mountain figures remain to be verified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11339886"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "マウントジーンズ那須 is a Tochigi mountain ski-area identity in the Nasu highlands; current public operation and official mountain figures remain to be verified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11339886"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1083653058",
     "name": "マウントレースイスキー場",
     "normalized_name": "マウントレースイスキー場",
@@ -448161,6 +447289,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q22120428",
+    "name": "ミカタスノーパーク",
+    "normalized_name": "ミカタスノーパーク",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.413378,
+      "longitude": 134.525066
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q22120428",
+        "url": "https://www.wikidata.org/wiki/Q22120428",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "ミカタスノーパーク",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q22120428"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.413378,
+          "longitude": 134.525066
+        },
+        "source_record_ids": [
+          "wikidata:item:Q22120428"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q22120428"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "ミカタスノーパーク is a ski-area identity in the mountains of Hyōgo Prefecture; current lift service, trails and operating status remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q22120428"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "ミカタスノーパーク is a ski-area identity in the mountains of Hyōgo Prefecture; current lift service, trails and operating status remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q22120428"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:682257431",
@@ -448889,6 +448090,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11345075",
+    "name": "ヤナバスキー場",
+    "normalized_name": "ヤナバスキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.605278,
+      "longitude": 137.855
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11345075",
+        "url": "https://www.wikidata.org/wiki/Q11345075",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "ヤナバスキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11345075"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.605278,
+          "longitude": 137.855
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11345075"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11345075"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "ヤナバスキー場 is a ski-area identity near Ōmachi in Nagano Prefecture; the record retains its mapped location while current lift service and status remain uncertain.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11345075"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "ヤナバスキー場 is a ski-area identity near Ōmachi in Nagano Prefecture; the record retains its mapped location while current lift service and status remain uncertain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11345075"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1201230108",
     "name": "やぶはら高原 スキー場",
     "normalized_name": "やぶはら高原 スキー場",
@@ -449349,6 +448623,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11350045",
+    "name": "レーシングキャンプ野辺山",
+    "normalized_name": "レーシングキャンプ野辺山",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Minamimaki",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.927778,
+      "longitude": 138.470833
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11350045",
+        "url": "https://www.wikidata.org/wiki/Q11350045",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "レーシングキャンプ野辺山",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11350045"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.927778,
+          "longitude": 138.470833
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11350045"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11350045"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "レーシングキャンプ野辺山 is a winter-training and ski-site identity near Minamimaki in Nagano; ordinary public downhill access and active lift service are not yet established.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11350045"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "レーシングキャンプ野辺山 is a winter-training and ski-site identity near Minamimaki in Nagano; ordinary public downhill access and active lift service are not yet established.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11350045"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:673656706",
@@ -451113,6 +450460,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11371622",
+    "name": "二本松塩沢スキー場",
+    "normalized_name": "二本松塩沢スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Nihonmatsu",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 37.638056,
+      "longitude": 140.328889
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11371622",
+        "url": "https://www.wikidata.org/wiki/Q11371622",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "二本松塩沢スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11371622"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 37.638056,
+          "longitude": 140.328889
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11371622"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11371622"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "二本松塩沢スキー場 is a ski-area identity near Nihonmatsu in Fukushima Prefecture; current operating status and official trail, lift and elevation figures remain incomplete.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11371622"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "二本松塩沢スキー場 is a ski-area identity near Nihonmatsu in Fukushima Prefecture; current operating status and official trail, lift and elevation figures remain incomplete.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11371622"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:998811773",
     "name": "云佛山滑雪场",
     "normalized_name": "云佛山滑雪场",
@@ -452147,6 +451567,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11379225",
+    "name": "伊吹山スキー場",
+    "normalized_name": "伊吹山スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Maihara",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.406667,
+      "longitude": 136.396389
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11379225",
+        "url": "https://www.wikidata.org/wiki/Q11379225",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "伊吹山スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11379225"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.406667,
+          "longitude": 136.396389
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11379225"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11379225"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "伊吹山スキー場 is a historic ski-area identity on Mount Ibuki near Maibara; present operations and public lift service have not been confirmed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11379225"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "伊吹山スキー場 is a historic ski-area identity on Mount Ibuki near Maibara; present operations and public lift service have not been confirmed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11379225"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1359808021",
     "name": "伊芦山霞波滑雪场",
     "normalized_name": "伊芦山霞波滑雪场",
@@ -452997,6 +452490,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q109359494",
+    "name": "信濃平スキー場",
+    "normalized_name": "信濃平スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Iiyama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.908056,
+      "longitude": 138.351944
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109359494",
+        "url": "https://www.wikidata.org/wiki/Q109359494",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "信濃平スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109359494"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.908056,
+          "longitude": 138.351944
+        },
+        "source_record_ids": [
+          "wikidata:item:Q109359494"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q109359494"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "信濃平スキー場 is a ski-area identity near Iiyama in Nagano Prefecture; the record is location-supported but still lacks current operator and lift-service verification.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109359494"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "信濃平スキー場 is a ski-area identity near Iiyama in Nagano Prefecture; the record is location-supported but still lacks current operator and lift-service verification.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109359494"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:960915602",
     "name": "八幡平リゾート",
     "normalized_name": "八幡平リゾート",
@@ -453587,6 +453153,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q22120951",
+    "name": "六呂師高原スキーパーク",
+    "normalized_name": "六呂師高原スキーパーク",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.022222,
+      "longitude": 136.576389
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q22120951",
+        "url": "https://www.wikidata.org/wiki/Q22120951",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "六呂師高原スキーパーク",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q22120951"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.022222,
+          "longitude": 136.576389
+        },
+        "source_record_ids": [
+          "wikidata:item:Q22120951"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q22120951"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "六呂師高原スキーパーク is a highland ski-area identity in Fukui Prefecture; official evidence is still needed for current operations and mountain facts.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q22120951"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "六呂師高原スキーパーク is a highland ski-area identity in Fukui Prefecture; official evidence is still needed for current operations and mountain facts.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q22120951"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1274350163",
@@ -455868,6 +455507,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11415540",
+    "name": "名色スキー場",
+    "normalized_name": "名色スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Toyooka",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.487222,
+      "longitude": 134.665833
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11415540",
+        "url": "https://www.wikidata.org/wiki/Q11415540",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "名色スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11415540"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.487222,
+          "longitude": 134.665833
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11415540"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11415540"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "名色スキー場 is a ski-area identity near Toyooka in Hyōgo Prefecture; its current operating status and mountain statistics remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11415540"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "名色スキー場 is a ski-area identity near Toyooka in Hyōgo Prefecture; its current operating status and mountain statistics remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11415540"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:291469633",
@@ -459442,6 +459154,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q108688120",
+    "name": "安南平スキー場",
+    "normalized_name": "安南平スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.710833,
+      "longitude": 138.455278
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q108688120",
+        "url": "https://www.wikidata.org/wiki/Q108688120",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "安南平スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q108688120"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.710833,
+          "longitude": 138.455278
+        },
+        "source_record_ids": [
+          "wikidata:item:Q108688120"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q108688120"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "安南平スキー場 is a Japanese ski-area record in the northern Nagano mountain region; its English name, operating status and official mountain facts remain incomplete.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q108688120"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "安南平スキー場 is a Japanese ski-area record in the northern Nagano mountain region; its English name, operating status and official mountain facts remain incomplete.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q108688120"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:555897348",
     "name": "安吉江南天池滑雪场",
     "normalized_name": "安吉江南天池滑雪场",
@@ -462500,6 +462285,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11488936",
+    "name": "御岳ロープウェイスキー場",
+    "normalized_name": "御岳ロープウェイスキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.9,
+      "longitude": 137.533333
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11488936",
+        "url": "https://www.wikidata.org/wiki/Q11488936",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "御岳ロープウェイスキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11488936"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.9,
+          "longitude": 137.533333
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11488936"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11488936"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "御岳ロープウェイスキー場 is a Mount Ontake ropeway and ski-area identity in central Japan; the profile does not assume that ropeway access equals current downhill operation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11488936"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "御岳ロープウェイスキー場 is a Mount Ontake ropeway and ski-area identity in central Japan; the profile does not assume that ropeway access equals current downhill operation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11488936"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1356118528",
     "name": "必捷滑雪场",
     "normalized_name": "必捷滑雪场",
@@ -464272,6 +464130,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q28683444",
+    "name": "揖斐高原スキー場",
+    "normalized_name": "揖斐高原スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Ibigawa",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.536944,
+      "longitude": 136.43
+    },
+    "official_website": "http://www.ibikogen.com/ibikougen/winter/index.shtml",
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q28683444",
+        "url": "https://www.wikidata.org/wiki/Q28683444",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "揖斐高原スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q28683444"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.536944,
+          "longitude": 136.43
+        },
+        "source_record_ids": [
+          "wikidata:item:Q28683444"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q28683444"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "揖斐高原スキー場 is a ski-area identity near Ibigawa in Gifu Prefecture; its legacy website and mapped location do not establish current operation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q28683444"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "揖斐高原スキー場 is a ski-area identity near Ibigawa in Gifu Prefecture; its legacy website and mapped location do not establish current operation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28683444"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1359796198",
     "name": "文成月老山滑雪场",
     "normalized_name": "文成月老山滑雪场",
@@ -464464,6 +464395,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11500724",
+    "name": "斑尾高原豊田スキー場",
+    "normalized_name": "斑尾高原豊田スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Nakano",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.828611,
+      "longitude": 138.292222
+    },
+    "official_website": "http://www3.ocn.ne.jp/~madarao/mt-ski",
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11500724",
+        "url": "https://www.wikidata.org/wiki/Q11500724",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "斑尾高原豊田スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11500724"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.828611,
+          "longitude": 138.292222
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11500724"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11500724"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "斑尾高原豊田スキー場 is a ski-area identity near Nakano in Nagano Prefecture; its recorded legacy website is not treated as proof of current operation.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11500724"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "斑尾高原豊田スキー場 is a ski-area identity near Nakano in Nagano Prefecture; its recorded legacy website is not treated as proof of current operation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11500724"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:934296801",
@@ -465508,6 +465512,152 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q109595290",
+    "name": "木戸池スキー場",
+    "normalized_name": "木戸池スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Yamanouchi",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.699722,
+      "longitude": 138.491111
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q109595290",
+        "url": "https://www.wikidata.org/wiki/Q109595290",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "木戸池スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109595290"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.699722,
+          "longitude": 138.491111
+        },
+        "source_record_ids": [
+          "wikidata:item:Q109595290"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q109595290"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "木戸池スキー場 is a ski-area identity near Yamanouchi in Nagano Prefecture; current access, lifts and mountain dimensions have not been confirmed from an official source.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q109595290"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "木戸池スキー場 is a ski-area identity near Yamanouchi in Nagano Prefecture; current access, lifts and mountain dimensions have not been confirmed from an official source.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109595290"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
+    "stable_id": "wikidata:item:Q11518594",
+    "name": "木曽駒高原スキー場",
+    "normalized_name": "木曽駒高原スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Kiso",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.827778,
+      "longitude": 137.775
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11518594",
+        "url": "https://www.wikidata.org/wiki/Q11518594",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "木曽駒高原スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11518594"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.827778,
+          "longitude": 137.775
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11518594"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11518594"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "木曽駒高原スキー場 is a mountain ski-area identity in the Kiso region of Nagano; current lifts, trails and public operating status remain unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11518594"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "木曽駒高原スキー場 is a mountain ski-area identity in the Kiso region of Nagano; current lifts, trails and public operating status remain unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11518594"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1358526600",
@@ -467334,6 +467484,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11545924",
+    "name": "武尊オリンピアスキー場",
+    "normalized_name": "武尊オリンピアスキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Katashina",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.769444,
+      "longitude": 139.180556
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11545924",
+        "url": "https://www.wikidata.org/wiki/Q11545924",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "武尊オリンピアスキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11545924"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.769444,
+          "longitude": 139.180556
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11545924"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11545924"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "武尊オリンピアスキー場 is a ski-area identity near Katashina in Gunma Prefecture; official evidence is still needed for current operation and mountain dimensions.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11545924"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "武尊オリンピアスキー場 is a ski-area identity near Katashina in Gunma Prefecture; official evidence is still needed for current operation and mountain dimensions.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11545924"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:91224669",
     "name": "武尊スキー場",
     "normalized_name": "武尊スキー場",
@@ -467398,6 +467621,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q18339275",
+    "name": "武尊牧場スキー場",
+    "normalized_name": "武尊牧場スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.797222,
+      "longitude": 139.191389
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q18339275",
+        "url": "https://www.wikidata.org/wiki/Q18339275",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "武尊牧場スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q18339275"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.797222,
+          "longitude": 139.191389
+        },
+        "source_record_ids": [
+          "wikidata:item:Q18339275"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q18339275"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "武尊牧場スキー場 is a ski-area identity near Katashina in Gunma Prefecture; its current public operation and lift-served footprint have not been confirmed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q18339275"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "武尊牧場スキー場 is a ski-area identity near Katashina in Gunma Prefecture; its current public operation and lift-served footprint have not been confirmed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q18339275"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1359301594",
@@ -467528,6 +467824,152 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11547401",
+    "name": "比叡山人工スキー場",
+    "normalized_name": "比叡山人工スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Sakyō-ku",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.065833,
+      "longitude": 135.827222
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11547401",
+        "url": "https://www.wikidata.org/wiki/Q11547401",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "比叡山人工スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11547401"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.065833,
+          "longitude": 135.827222
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11547401"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11547401"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "比叡山人工スキー場 is a historic artificial-snow ski-site identity on Mount Hiei near Kyoto; it is not presented as a currently operating resort without further evidence.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11547401"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "比叡山人工スキー場 is a historic artificial-snow ski-site identity on Mount Hiei near Kyoto; it is not presented as a currently operating resort without further evidence.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11547401"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
+    "stable_id": "wikidata:item:Q11547492",
+    "name": "比良山スキー場",
+    "normalized_name": "比良山スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Otsu",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.259722,
+      "longitude": 135.908333
+    },
+    "official_website": "http://www.hirasan.co.jp",
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11547492",
+        "url": "https://www.wikidata.org/wiki/Q11547492",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "比良山スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11547492"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 35.259722,
+          "longitude": 135.908333
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11547492"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11547492"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "比良山スキー場 is a ski-area identity in the Hira Mountains near Ōtsu; current lift service and operating status remain unresolved.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11547492"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "比良山スキー場 is a ski-area identity in the Hira Mountains near Ōtsu; current lift service and operating status remain unresolved.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11547492"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1359306581",
@@ -470320,6 +470762,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11579552",
+    "name": "白山中宮温泉スキー場",
+    "normalized_name": "白山中宮温泉スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Hakusan",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.279167,
+      "longitude": 136.686111
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11579552",
+        "url": "https://www.wikidata.org/wiki/Q11579552",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "白山中宮温泉スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11579552"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.279167,
+          "longitude": 136.686111
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11579552"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11579552"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "白山中宮温泉スキー場 is a ski-area identity in the Hakusan region of Ishikawa Prefecture; the profile still needs a current operator source and verified mountain facts.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11579552"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "白山中宮温泉スキー場 is a ski-area identity in the Hakusan region of Ishikawa Prefecture; the profile still needs a current operator source and verified mountain facts.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11579552"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1333162917",
@@ -474428,6 +474943,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11615894",
+    "name": "芸北高原大佐スキー場",
+    "normalized_name": "芸北高原大佐スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 34.747722,
+      "longitude": 132.219833
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11615894",
+        "url": "https://www.wikidata.org/wiki/Q11615894",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "芸北高原大佐スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11615894"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 34.747722,
+          "longitude": 132.219833
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11615894"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11615894"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "芸北高原大佐スキー場 is a ski-area identity in the Geihoku highlands of Hiroshima Prefecture; current operations and official terrain measurements remain incomplete.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11615894"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "芸北高原大佐スキー場 is a ski-area identity in the Geihoku highlands of Hiroshima Prefecture; current operations and official terrain measurements remain incomplete.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11615894"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:1359293503",
     "name": "茅草坝滑雪场",
     "normalized_name": "茅草坝滑雪场",
@@ -474556,6 +475144,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11618162",
+    "name": "草津シズカ山スキー場",
+    "normalized_name": "草津シズカ山スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Kusatsu",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.606944,
+      "longitude": 138.568333
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11618162",
+        "url": "https://www.wikidata.org/wiki/Q11618162",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "草津シズカ山スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11618162"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.606944,
+          "longitude": 138.568333
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11618162"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11618162"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "草津シズカ山スキー場 is a ski-area identity near Kusatsu in Gunma Prefecture; active lift service and present-day access have not been confirmed.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11618162"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "草津シズカ山スキー場 is a ski-area identity near Kusatsu in Gunma Prefecture; active lift service and present-day access have not been confirmed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11618162"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1481394568",
@@ -476391,6 +477052,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11635458",
+    "name": "赤城山スキー場",
+    "normalized_name": "赤城山スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Maebashi",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.545278,
+      "longitude": 139.183333
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11635458",
+        "url": "https://www.wikidata.org/wiki/Q11635458",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "赤城山スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11635458"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.545278,
+          "longitude": 139.183333
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11635458"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11635458"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "赤城山スキー場 is a ski-area identity on Mount Akagi near Maebashi; the record remains cautious because current operation and lift details are unverified.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11635458"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "赤城山スキー場 is a ski-area identity on Mount Akagi near Maebashi; the record remains cautious because current operation and lift details are unverified.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11635458"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1084136464",
@@ -478467,6 +479201,79 @@
     }
   },
   {
+    "stable_id": "wikidata:item:Q11655346",
+    "name": "閑乗寺スキー場",
+    "normalized_name": "閑乗寺スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": null,
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.558919,
+      "longitude": 136.987303
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11655346",
+        "url": "https://www.wikidata.org/wiki/Q11655346",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "閑乗寺スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11655346"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.558919,
+          "longitude": 136.987303
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11655346"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11655346"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "閑乗寺スキー場 is a Toyama-area ski-site identity; its mapped location is retained while current downhill operation and official mountain statistics remain uncertain.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11655346"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "閑乗寺スキー場 is a Toyama-area ski-site identity; its mapped location is retained while current downhill operation and official mountain statistics remain uncertain.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11655346"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
+  },
+  {
     "stable_id": "openstreetmap:way:937100228",
     "name": "関温泉スキー場",
     "normalized_name": "関温泉スキー場",
@@ -479111,6 +479918,79 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "stable_id": "wikidata:item:Q11660920",
+    "name": "霧降高原スキー場",
+    "normalized_name": "霧降高原スキー場",
+    "alternate_names": [],
+    "locality": null,
+    "region": "Nikkō-shi",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 36.806944,
+      "longitude": 139.591667
+    },
+    "official_website": null,
+    "operating_status": "unknown",
+    "resort_type": "downhill_or_mixed",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q11660920",
+        "url": "https://www.wikidata.org/wiki/Q11660920",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "collection_date": "2026-08-30T13:07:28.966Z",
+    "verification_status": "candidate",
+    "confidence": "medium",
+    "field_provenance": {
+      "name": {
+        "value": "霧降高原スキー場",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11660920"
+        ],
+        "confidence": "medium",
+        "reviewed_at": "2026-11-05",
+        "note": "Wikidata label repair; identity and stable ID are unchanged."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.806944,
+          "longitude": 139.591667
+        },
+        "source_record_ids": [
+          "wikidata:item:Q11660920"
+        ],
+        "confidence": "high"
+      },
+      "country": {
+        "value": "Japan",
+        "source_record_ids": [
+          "wikidata:item:Q11660920"
+        ],
+        "confidence": "high"
+      },
+      "overview": {
+        "value": "霧降高原スキー場 is a ski-area identity in the Kirifuri Highlands near Nikkō; current public lift service and operating status require an official source.",
+        "source_record_ids": [
+          "https://www.wikidata.org/wiki/Q11660920"
+        ],
+        "confidence": "medium",
+        "batch": "official-027"
+      }
+    },
+    "overview": {
+      "text": "霧降高原スキー場 is a ski-area identity in the Kirifuri Highlands near Nikkō; current public lift service and operating status require an official source.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11660920"
+      ],
+      "reviewed_at": "2026-11-05",
+      "kind": "editorial_summary"
+    },
+    "mountain_observations": []
   },
   {
     "stable_id": "openstreetmap:way:1358336455",

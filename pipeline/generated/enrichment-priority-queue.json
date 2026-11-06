@@ -1,49 +1,6 @@
 {
-  "generated_at": "2026-10-04T07:30:26.177Z",
+  "generated_at": "2026-11-06T02:11:45.222Z",
   "profiles": [
-    {
-      "id": "wikidata:item:Q3411128",
-      "name": "Esquí de Puigbalador station",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 100,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [
-        "mapped_elevation"
-      ],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
     {
       "id": "wikidata:item:Q24190259",
       "name": "Ski Morin Heights",
@@ -89,1402 +46,8 @@
       ]
     },
     {
-      "id": "wikidata:item:Q2982069",
-      "name": "Coll de Jou",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q16960629",
-      "name": "Diamond Hill",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3086722",
-      "name": "Frauenalpe",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3257491",
-      "name": "Hospital Plains (ski resort)",
-      "country": "Spain",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11364149",
-      "name": "Nakayama Toge Ski Resort",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11626773",
-      "name": "Nekoma Ski Resort",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q108688120",
-      "name": "Q108688120",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q109359494",
-      "name": "Q109359494",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q109595290",
-      "name": "Q109595290",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11267247",
-      "name": "Q11267247",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11305445",
-      "name": "Q11305445",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11312600",
-      "name": "Q11312600",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11312603",
-      "name": "Q11312603",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11339886",
-      "name": "Q11339886",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11345075",
-      "name": "Q11345075",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11350045",
-      "name": "Q11350045",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11363941",
       "name": "Q11363941",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11371622",
-      "name": "Q11371622",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11379225",
-      "name": "Q11379225",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11415540",
-      "name": "Q11415540",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11488936",
-      "name": "Q11488936",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11518594",
-      "name": "Q11518594",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11545924",
-      "name": "Q11545924",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11547401",
-      "name": "Q11547401",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11579552",
-      "name": "Q11579552",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11615894",
-      "name": "Q11615894",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11618162",
-      "name": "Q11618162",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11635458",
-      "name": "Q11635458",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11655346",
-      "name": "Q11655346",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11660920",
-      "name": "Q11660920",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q137039214",
-      "name": "Q137039214",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q137050877",
-      "name": "Q137050877",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q137052865",
-      "name": "Q137052865",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q137052980",
-      "name": "Q137052980",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q18339275",
-      "name": "Q18339275",
       "country": "Japan",
       "priority": "critical",
       "priority_score": 96,
@@ -1565,255 +128,9 @@
       ]
     },
     {
-      "id": "wikidata:item:Q22120428",
-      "name": "Q22120428",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q22120951",
-      "name": "Q22120951",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q2292224",
-      "name": "Q2292224",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q23784196",
-      "name": "Q23784196",
-      "country": "Switzerland",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q30741179",
       "name": "Q30741179",
       "country": "Canada",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3075146",
-      "name": "Q3075146",
-      "country": "France",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q3089365",
-      "name": "Q3089365",
-      "country": "France",
       "priority": "critical",
       "priority_score": 96,
       "missing_core_fields": [
@@ -2180,47 +497,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q116279780",
-      "name": "Smokey Mountain Ski Club",
-      "country": "Canada",
-      "priority": "critical",
-      "priority_score": 96,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": null,
-      "recommended_sources": [
-        {
-          "type": "official_site_discovery",
-          "purpose": "Locate and verify the resort’s current official website",
-          "url": null
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q7548190",
       "name": "Snow Bunny",
       "country": "United States",
@@ -2305,6 +581,49 @@
     {
       "id": "wikidata:item:Q919685",
       "name": "Le Valtin",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 94,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [
+        "mapped_elevation"
+      ],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3411128",
+      "name": "Puigbalador",
       "country": "France",
       "priority": "critical",
       "priority_score": 94,
@@ -5343,6 +3662,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q23784196",
+      "name": "Campra",
+      "country": "Switzerland",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q588136",
       "name": "Candanchú ski resort",
       "country": "Spain",
@@ -6204,6 +4564,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q2982069",
+      "name": "Coll de Jou",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q5167815",
       "name": "Cooper Spur ski area",
       "country": "United States",
@@ -6370,6 +4771,47 @@
     {
       "id": "wikidata:item:Q106238040",
       "name": "Courchevel 1850",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137050877",
+      "name": "Courchevel La Tania",
       "country": "France",
       "priority": "critical",
       "priority_score": 88,
@@ -6696,6 +5138,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q2292224",
+      "name": "Dachstein Glacier ski area",
+      "country": "Austria",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1156792",
       "name": "Dachstein-West",
       "country": "Austria",
@@ -6781,6 +5264,47 @@
       "id": "wikidata:item:Q16486298",
       "name": "Dębowiec Ski Area",
       "country": "Poland",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q16960629",
+      "name": "Diamond Hill",
+      "country": "United States",
       "priority": "critical",
       "priority_score": 88,
       "missing_core_fields": [
@@ -7680,6 +6204,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q3075146",
+      "name": "Foncine-le-Haut",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q138754763",
       "name": "Font d’Urle",
       "country": "France",
@@ -7724,6 +6289,88 @@
       "id": "wikidata:item:Q21235958",
       "name": "Fossa Paganica",
       "country": "Italy",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3086722",
+      "name": "Frauenalpe",
+      "country": "Austria",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3089365",
+      "name": "Frère-Joseph",
+      "country": "France",
       "priority": "critical",
       "priority_score": 88,
       "missing_core_fields": [
@@ -13215,8 +11862,90 @@
       ]
     },
     {
+      "id": "wikidata:item:Q137039214",
+      "name": "Le Désert d’Entremont",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q131225550",
       "name": "Le Fornet",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q137052980",
+      "name": "Le Grand Puy",
       "country": "France",
       "priority": "critical",
       "priority_score": 88,
@@ -14325,6 +13054,47 @@
       "id": "wikidata:item:Q111818006",
       "name": "Lively Ski Hill",
       "country": "Canada",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3257491",
+      "name": "Llanos del Hospital",
+      "country": "Spain",
       "priority": "critical",
       "priority_score": 88,
       "missing_core_fields": [
@@ -15757,6 +14527,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q11364149",
+      "name": "Nakayama Toge Ski Resort",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q30592460",
       "name": "Naltar ski resort",
       "country": "Pakistan",
@@ -15883,6 +14694,47 @@
       "id": "wikidata:item:Q3336010",
       "name": "Nara",
       "country": "Switzerland",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11626773",
+      "name": "Nekoma Ski Resort",
+      "country": "Japan",
       "priority": "critical",
       "priority_score": 88,
       "missing_core_fields": [
@@ -20544,6 +19396,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q116279780",
+      "name": "Smokey Mountain Ski Club",
+      "country": "Canada",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q9341028",
       "name": "Śnieżnica Ski Station",
       "country": "Poland",
@@ -23409,6 +22302,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q137052865",
+      "name": "Ventron",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q120301313",
       "name": "Villard-de-Lans ski area",
       "country": "France",
@@ -24803,11 +23737,11 @@
       ]
     },
     {
-      "id": "wikidata:item:Q18336608",
-      "name": "Echo Valley Ski Resort",
+      "id": "wikidata:item:Q11267247",
+      "name": "ごりん高原スキー場",
       "country": "Japan",
       "priority": "critical",
-      "priority_score": 80,
+      "priority_score": 88,
       "missing_core_fields": [
         "vertical",
         "terrain_area",
@@ -24819,12 +23753,12 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": "https://www.echovalley.co.jp",
+      "official_website": null,
       "recommended_sources": [
         {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.echovalley.co.jp"
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
         },
         {
           "type": "openstreetmap_topology",
@@ -24844,93 +23778,11 @@
       ]
     },
     {
-      "id": "wikidata:item:Q1664062",
-      "name": "Innerkrems",
-      "country": "Austria",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://innerkrems.at",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://innerkrems.at"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q5751991",
-      "name": "National Winter Activity Center",
-      "country": "United States",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "http://winter4kids.org",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://winter4kids.org"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11318082",
-      "name": "Q11318082",
+      "id": "wikidata:item:Q11305445",
+      "name": "サンアルピナ青木湖スキー場",
       "country": "Japan",
       "priority": "critical",
-      "priority_score": 80,
+      "priority_score": 88,
       "missing_core_fields": [
         "vertical",
         "terrain_area",
@@ -24942,12 +23794,12 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": "https://www.ciao.co.jp",
+      "official_website": null,
       "recommended_sources": [
         {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.ciao.co.jp"
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
         },
         {
           "type": "openstreetmap_topology",
@@ -24967,11 +23819,11 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11500724",
-      "name": "Q11500724",
+      "id": "wikidata:item:Q11312603",
+      "name": "スノーパーク面白山",
       "country": "Japan",
       "priority": "critical",
-      "priority_score": 80,
+      "priority_score": 88,
       "missing_core_fields": [
         "vertical",
         "terrain_area",
@@ -24983,12 +23835,12 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": "http://www3.ocn.ne.jp/~madarao/mt-ski",
+      "official_website": null,
       "recommended_sources": [
         {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www3.ocn.ne.jp/~madarao/mt-ski"
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
         },
         {
           "type": "openstreetmap_topology",
@@ -25008,11 +23860,11 @@
       ]
     },
     {
-      "id": "wikidata:item:Q11547492",
-      "name": "Q11547492",
+      "id": "wikidata:item:Q11312600",
+      "name": "スノーバレー利賀",
       "country": "Japan",
       "priority": "critical",
-      "priority_score": 80,
+      "priority_score": 88,
       "missing_core_fields": [
         "vertical",
         "terrain_area",
@@ -25024,12 +23876,12 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": "http://www.hirasan.co.jp",
+      "official_website": null,
       "recommended_sources": [
         {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.hirasan.co.jp"
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
         },
         {
           "type": "openstreetmap_topology",
@@ -25049,11 +23901,11 @@
       ]
     },
     {
-      "id": "wikidata:item:Q28683444",
-      "name": "Q28683444",
+      "id": "wikidata:item:Q11339886",
+      "name": "マウントジーンズ那須",
       "country": "Japan",
       "priority": "critical",
-      "priority_score": 80,
+      "priority_score": 88,
       "missing_core_fields": [
         "vertical",
         "terrain_area",
@@ -25065,12 +23917,873 @@
       "conflicts": [],
       "stale_fields": [],
       "possible_duplicate_ids": [],
-      "official_website": "http://www.ibikogen.com/ibikougen/winter/index.shtml",
+      "official_website": null,
       "recommended_sources": [
         {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "http://www.ibikogen.com/ibikougen/winter/index.shtml"
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120428",
+      "name": "ミカタスノーパーク",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11345075",
+      "name": "ヤナバスキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11350045",
+      "name": "レーシングキャンプ野辺山",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11371622",
+      "name": "二本松塩沢スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11379225",
+      "name": "伊吹山スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109359494",
+      "name": "信濃平スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q22120951",
+      "name": "六呂師高原スキーパーク",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11415540",
+      "name": "名色スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q108688120",
+      "name": "安南平スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11488936",
+      "name": "御岳ロープウェイスキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q109595290",
+      "name": "木戸池スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11518594",
+      "name": "木曽駒高原スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11545924",
+      "name": "武尊オリンピアスキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q18339275",
+      "name": "武尊牧場スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11547401",
+      "name": "比叡山人工スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11579552",
+      "name": "白山中宮温泉スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11615894",
+      "name": "芸北高原大佐スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11618162",
+      "name": "草津シズカ山スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11635458",
+      "name": "赤城山スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11655346",
+      "name": "閑乗寺スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11660920",
+      "name": "霧降高原スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 88,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": null,
+      "recommended_sources": [
+        {
+          "type": "official_site_discovery",
+          "purpose": "Locate and verify the resort’s current official website",
+          "url": null
         },
         {
           "type": "openstreetmap_topology",
@@ -25112,47 +24825,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://www.beille.fr/fr/acc_chioula.php"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q11405758",
-      "name": "Senjōjiki Ski Area",
-      "country": "Japan",
-      "priority": "critical",
-      "priority_score": 80,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.chuo-alps.com/ski",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.chuo-alps.com/ski"
         },
         {
           "type": "openstreetmap_topology",
@@ -26884,6 +26556,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q18336608",
+      "name": "Echo Valley Ski Resort",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.echovalley.co.jp",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.echovalley.co.jp"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1266451",
       "name": "Eggberge",
       "country": "Switzerland",
@@ -28213,6 +27926,47 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://inaski.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1664062",
+      "name": "Innerkrems",
+      "country": "Austria",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://innerkrems.at",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://innerkrems.at"
         },
         {
           "type": "openstreetmap_topology",
@@ -31507,6 +31261,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q5751991",
+      "name": "National Winter Activity Center",
+      "country": "United States",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://winter4kids.org",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://winter4kids.org"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q872240",
       "name": "Niederalpl Pass",
       "country": "Austria",
@@ -33374,6 +33169,47 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://www.seli-ski.gr"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11405758",
+      "name": "Senjōjiki Ski Area",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.chuo-alps.com/ski",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.chuo-alps.com/ski"
         },
         {
           "type": "openstreetmap_topology",
@@ -35870,6 +35706,170 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.lechzuers.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11318082",
+      "name": "チャオ御岳スノーリゾート",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.ciao.co.jp",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.ciao.co.jp"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q28683444",
+      "name": "揖斐高原スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.ibikogen.com/ibikougen/winter/index.shtml",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.ibikogen.com/ibikougen/winter/index.shtml"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11500724",
+      "name": "斑尾高原豊田スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www3.ocn.ne.jp/~madarao/mt-ski",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www3.ocn.ne.jp/~madarao/mt-ski"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q11547492",
+      "name": "比良山スキー場",
+      "country": "Japan",
+      "priority": "critical",
+      "priority_score": 72,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "http://www.hirasan.co.jp",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "http://www.hirasan.co.jp"
         },
         {
           "type": "openstreetmap_topology",

@@ -1,6 +1,6 @@
 # Global Resort Data Quality Report
 
-Generated: 2026-10-04T07:30:26.177Z
+Generated: 2026-11-06T02:11:45.222Z
 
 - Raw candidates: 7439
 - Canonical records: 5947
