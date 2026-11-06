@@ -1,7 +1,13 @@
-import { useDeferredValue, useEffect, useMemo, useState } from 'react'
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, Route, Routes, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowDown, ArrowRight, BookOpen, Check, ChevronDown, Compass, Eye, EyeOff, Filter, Heart, LockKeyhole, Mail, Map, MapPin, Menu, MountainSnow, Search, Share2, ShieldCheck, SlidersHorizontal, Snowflake, Sparkles, Star, Users, X } from 'lucide-react'
-import heroImage from '../assets/ski-hero.png'
+import heroAvif480 from '../assets/hero/ski-hero-480.avif'
+import heroAvif768 from '../assets/hero/ski-hero-768.avif'
+import heroAvif1024 from '../assets/hero/ski-hero-1024.avif'
+import heroWebp480 from '../assets/hero/ski-hero-480.webp'
+import heroWebp768 from '../assets/hero/ski-hero-768.webp'
+import heroWebp1024 from '../assets/hero/ski-hero-1024.webp'
+import heroJpg from '../assets/hero/ski-hero-1024.jpg'
 import MountainFacts, {BristolSourcedFacts} from './MountainFacts.jsx'
 import ResortFactSummary from './ResortFactSummary.jsx'
 import ResortOverview from './ResortOverview.jsx'
@@ -12,14 +18,43 @@ const itineraries = [
   { days:4,title:'Adirondack powder & Olympic history',author:'Jordan L.',stops:'Whiteface · Lake Placid',cost:'$920',tone:'amber' },
 ]
 const reviews = [
-  { quote:'The kind of home mountain that rewards a midweek escape. Excellent snowmaking and a surprisingly long fall line.',name:'Elena M.',meta:'Bristol Mountain · 2 weeks ago',rating:5 },
-  { quote:'Easy to navigate with kids, and the sunset from the upper mountain was worth staying for night skiing.',name:'Chris T.',meta:'Bristol Mountain · 1 month ago',rating:4 },
+  { quote:'The kind of home mountain that rewards a midweek escape. Excellent snowmaking and a surprisingly long fall line.',name:'Elena M.',meta:'Bristol Mountain · illustrative example',rating:5 },
+  { quote:'Easy to navigate with kids, and the sunset from the upper mountain was worth staying for night skiing.',name:'Chris T.',meta:'Bristol Mountain · illustrative example',rating:4 },
 ]
-const heroDispatches=[
-  {name:'Valle Nevado',place:'Chile',status:'Open now',fact:'Extended season to Dec 1',to:'/resorts/guide/wikidata%3Aitem%3AQ3051592',x:71,y:29},
-  {name:'Livigno',place:'Italy',status:'Opens Nov 28',fact:'Over 115 km · 31 lifts',to:'/resorts/guide/wikidata%3Aitem%3AQ110811619',x:39,y:51},
-  {name:'Hakuba Happo-one',place:'Japan',status:'Season announced',fact:'1,831 m lift-served top',to:'/resorts/guide/wikidata%3Aitem%3AQ4251293',x:63,y:70},
+// Featured resorts shared by the desktop holographic panel and the mobile "Featured now" strip.
+// Facts come from Batch 028 official sources; status is re-evaluated against today's date (see heroStatus).
+const featuredResorts=[
+  {id:'wikidata:item:Q3051592',name:'Valle Nevado',short:'Valle Nevado',place:'Chile',to:'/resorts/guide/wikidata%3Aitem%3AQ3051592',x:71,y:29,
+    summary:'Extended season to Dec 1',
+    status:{state:'open_now',checked_at:'2026-11-06',recheck_by:'2026-11-20',season_end:'2026-12-01',source_url:'https://www.vallenevado.com/es/extension-temporada-2/'},
+    facts:[{label:'Season',value:'Extended to 1 Dec 2026'},{label:'Opened',value:'1988'}]},
+  {id:'wikidata:item:Q110811619',name:'Livigno',short:'Livigno',place:'Italy',to:'/resorts/guide/wikidata%3Aitem%3AQ110811619',x:39,y:51,
+    summary:'Over 115 km · 31 lifts',
+    status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/'},
+    facts:[{label:'Slopes',value:'Over 115 km',scope:'Whole valley'},{label:'Lifts',value:'31',scope:'Whole valley'}]},
+  {id:'wikidata:item:Q4251293',name:'Hakuba Happo-one',short:'Happo-one',place:'Japan',to:'/resorts/guide/wikidata%3Aitem%3AQ4251293',x:63,y:70,
+    summary:'1,831 m lift-served top',
+    status:{state:'announced',label:'2026–27 season announced',checked_at:'2026-11-06',source_url:'https://www.happo-one.jp/en/news/39750/'},
+    facts:[{label:'Top lift',value:'1,831 m',scope:'Lift-served'},{label:'Longest course',value:'8,000 m'}]},
 ]
+const DAY_MS=864e5
+const heroDate=value=>new Date(`${value}T12:00:00`)
+const formatHeroDate=(value,options={day:'numeric',month:'short'})=>heroDate(value).toLocaleDateString('en-GB',options)
+// Status rules: never "Closed"; expire "Open now" at recheck_by/season_end; anything checked more than 45 days ago is unconfirmed.
+function heroStatus(status,now=new Date()){
+  const unconfirmed={state:'unconfirmed',label:'Season dates not confirmed'}
+  if(!status?.checked_at||(now-heroDate(status.checked_at))/DAY_MS>45)return unconfirmed
+  if(status.state==='open_now'){
+    if((status.recheck_by&&now>heroDate(status.recheck_by))||(status.season_end&&now>heroDate(status.season_end)))return unconfirmed
+    return {state:'open_now',label:'Open now'}
+  }
+  if(status.state==='announced'){
+    if(!status.opening_date)return {state:'announced',label:status.label||'Season announced'}
+    const opens=formatHeroDate(status.opening_date)
+    return {state:'announced',label:now<heroDate(status.opening_date)?`Opens ${opens}`:`Scheduled to open ${opens}`}
+  }
+  return unconfirmed
+}
 
 export default function App(){return <Routes>
   <Route element={<SiteLayout/>}>
@@ -46,20 +81,44 @@ function Brand(){return <Link className="brand" to="/" aria-label="Powder Files 
 function Footer(){return <footer className="footer"><div className="container footer-grid"><div><Brand/><p>Dream big. Plan well. Ski fast.</p></div><div><strong>Explore</strong><Link to="/resorts">Resorts</Link><Link to="/itineraries">Itineraries</Link><Link to="/community">Community</Link></div><div><strong>Powder Files</strong><Link to="/about">Our mission</Link><span>How it works</span><span>Contact</span></div><div className="footer-note"><Snowflake size={20}/><span>Independent field notes for better ski trips.</span></div></div><div className="container footer-bottom"><span>© 2026 Powder Files</span><span>Directory data: Wikidata (CC0) · © OpenStreetMap contributors (ODbL)</span></div></footer>}
 
 function Home(){
-  const navigate=useNavigate(),[query,setQuery]=useState(''),[activeDispatch,setActiveDispatch]=useState(0); const submit=e=>{e.preventDefault();navigate(`/resorts?q=${encodeURIComponent(query)}`)},dispatch=heroDispatches[activeDispatch]
-  useEffect(()=>{const hero=document.querySelector('.hero');if(!hero||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const move=event=>{const box=hero.getBoundingClientRect(),x=(event.clientX-box.left)/box.width-.5,y=(event.clientY-box.top)/box.height-.5;hero.style.setProperty('--hero-x',x.toFixed(3));hero.style.setProperty('--hero-y',y.toFixed(3))},reset=()=>{hero.style.setProperty('--hero-x','0');hero.style.setProperty('--hero-y','0')};hero.addEventListener('pointermove',move);hero.addEventListener('pointerleave',reset);return()=>{hero.removeEventListener('pointermove',move);hero.removeEventListener('pointerleave',reset)}},[])
-  return <><section className="hero"><div className="hero-image" style={{backgroundImage:`linear-gradient(90deg,rgba(5,17,20,.97),rgba(7,31,30,.72) 55%,rgba(7,31,30,.18)),url(${heroImage})`}}/><div className="hero-aurora"/><div className="hero-contour"/><div className="container hero-content"><div className="hero-copy"><span className="eyebrow light"><Compass size={16}/> The global skier&apos;s field guide</span><h1>Every mountain<br/>has a <em>story.</em></h1><p>Explore 1,448 ski areas through source-checked facts, honest field notes, and trip plans built to be used—not just saved.</p><form className="hero-search" onSubmit={submit} role="search"><label className="sr-only" htmlFor="home-search">Search resorts and destinations</label><MapPin/><input id="home-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Where do you want to ski?"/><button type="submit">Explore <ArrowRight/></button></form><div className="hero-proof"><span><ShieldCheck/> Sources on every fact</span><span><Snowflake/> 52 countries mapped</span></div></div><aside className="hero-atlas" aria-label="Interactive mountain dispatch"><div className="terrain-model" aria-hidden="true"><span/><span/><span/><span/></div><div className="atlas-top"><span>Holographic dispatch · 028</span><Sparkles/></div><div className="beacon-field" aria-label="Choose a featured resort">{heroDispatches.map((item,index)=><button key={item.name} className={index===activeDispatch?'active':''} style={{'--beacon-x':`${item.x}%`,'--beacon-y':`${item.y}%`}} onClick={()=>setActiveDispatch(index)} onFocus={()=>setActiveDispatch(index)} aria-pressed={index===activeDispatch} aria-label={`Show ${item.name}`}><i/><span>{item.name}</span></button>)}</div><div className="dispatch-readout" aria-live="polite"><small>{dispatch.place} · {dispatch.status}</small><strong>{dispatch.name}</strong><p>{dispatch.fact}</p><Link to={dispatch.to}>Open field guide <ArrowRight/></Link></div><div className="dispatch-tabs">{heroDispatches.map((item,index)=><button key={item.name} className={index===activeDispatch?'active':''} onClick={()=>setActiveDispatch(index)} aria-label={`Select ${item.name}`}><span>{String(index+1).padStart(2,'0')}</span>{item.name}</button>)}</div></aside></div><a className="scroll-cue" href="#featured"><span>Descend to explore</span><ArrowDown/></a></section>
+  const navigate=useNavigate(),[query,setQuery]=useState(''),[activeDispatch,setActiveDispatch]=useState(0); const submit=e=>{e.preventDefault();navigate(`/resorts?q=${encodeURIComponent(query)}`)},dispatch=featuredResorts[activeDispatch],dispatchStatus=heroStatus(dispatch.status)
+  useEffect(()=>{const hero=document.querySelector('.hero');if(!hero||window.matchMedia('(prefers-reduced-motion: reduce)').matches||window.matchMedia('(hover: none), (pointer: coarse)').matches)return;const move=event=>{const box=hero.getBoundingClientRect(),x=(event.clientX-box.left)/box.width-.5,y=(event.clientY-box.top)/box.height-.5;hero.style.setProperty('--hero-x',x.toFixed(3));hero.style.setProperty('--hero-y',y.toFixed(3))},reset=()=>{hero.style.setProperty('--hero-x','0');hero.style.setProperty('--hero-y','0')};hero.addEventListener('pointermove',move);hero.addEventListener('pointerleave',reset);return()=>{hero.removeEventListener('pointermove',move);hero.removeEventListener('pointerleave',reset)}},[])
+  return <><section className="hero"><div className="hero-image"><HeroPicture/></div><div className="hero-aurora"/><div className="hero-contour"/><div className="container hero-content"><div className="hero-copy"><span className="eyebrow light"><Compass size={16}/> The global skier&apos;s field guide</span><h1>Every mountain<br/>has a <em>story.</em></h1><p>Explore 1,448 ski areas through source-checked facts, honest field notes, and trip plans built to be used—not just saved.</p><form className="hero-search" onSubmit={submit} role="search"><label className="sr-only" htmlFor="home-search">Search resorts and destinations</label><MapPin/><input id="home-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Where do you want to ski?"/><button type="submit">Explore <ArrowRight/></button></form><div className="hero-proof"><span><ShieldCheck/> Sources on every fact</span><span><Snowflake/> 52 countries mapped</span></div></div><MobileFeatured items={featuredResorts}/><aside className="hero-atlas" aria-label="Interactive mountain dispatch"><div className="terrain-model" aria-hidden="true"><span/><span/><span/><span/></div><div className="atlas-top"><span>Holographic dispatch · 028</span><Sparkles/></div><div className="beacon-field" aria-label="Choose a featured resort">{featuredResorts.map((item,index)=><button key={item.name} className={index===activeDispatch?'active':''} style={{'--beacon-x':`${item.x}%`,'--beacon-y':`${item.y}%`}} onClick={()=>setActiveDispatch(index)} onFocus={()=>setActiveDispatch(index)} aria-pressed={index===activeDispatch} aria-label={`Show ${item.name}`}><i/><span>{item.name}</span></button>)}</div><div className="dispatch-readout" aria-live="polite"><small>{dispatch.place} · {dispatchStatus.label}</small><strong>{dispatch.name}</strong><p>{dispatch.summary}</p><Link to={dispatch.to}>Open field guide <ArrowRight/></Link></div><div className="dispatch-tabs">{featuredResorts.map((item,index)=><button key={item.name} className={index===activeDispatch?'active':''} onClick={()=>setActiveDispatch(index)} aria-label={`Select ${item.name}`}><span>{String(index+1).padStart(2,'0')}</span>{item.name}</button>)}</div></aside></div><a className="scroll-cue" href="#featured"><span>Descend to explore</span><ArrowDown/></a></section>
   <section className="atlas-ribbon" aria-label="Powder Files directory highlights"><div className="container"><span><strong>1,448</strong> mountains mapped</span><i/><span><strong>569</strong> source-enriched profiles</span><i/><span><strong>52</strong> countries</span><i/><span><strong>0</strong> guessed verticals</span></div></section>
-  <section id="featured" className="section paper-section"><div className="container"><SectionHeading eyebrow="Featured field guide" title="Start with a mountain worth knowing" link="View all resorts" to="/resorts"/><article className="feature-resort"><div className="feature-art"><div className="contour-lines"/><span className="location-chip"><MapPin/> Canandaigua, New York</span><div className="mountain-monogram"><MountainSnow/><span>BRISTOL</span></div></div><div className="feature-copy"><span className="official-label"><ShieldCheck/> Official resort profile</span><h3>Bristol Mountain</h3><p className="lead">A Finger Lakes favorite with 1,200 feet of vertical, dependable snowmaking, and memorable night skiing just outside Rochester.</p><div className="stat-row"><Stat value="1,200 ft" label="Vertical"/><Stat value="39" label="Trails"/><Stat value="4.6" label="Community rating" star/></div><div className="tag-row"><span>Night skiing</span><span>Snowmaking</span><span>Family friendly</span></div><Link className="text-link" to="/resorts/bristol-mountain">Open the field guide <ArrowRight/></Link></div></article></div></section>
-  <section className="section cream-section"><div className="container"><SectionHeading eyebrow="Plans worth borrowing" title="Public itineraries, mapped by skiers" copy="Start with a proven route, then make it your own." link="Explore itineraries" to="/itineraries"/><div className="card-grid three">{itineraries.map(x=><ItineraryCard key={x.title} item={x}/>)}</div></div></section>
-  <section className="section"><div className="container"><SectionHeading eyebrow="Recent field notes" title="Fresh reports from the community" copy="Useful context from skiers who were there." link="Visit the community" to="/community"/><div className="review-grid">{reviews.map(r=><ReviewCard key={r.name} review={r}/>)}</div></div></section>
+  <section id="featured" className="section paper-section"><div className="container"><SectionHeading eyebrow="Featured field guide" title="Start with a mountain worth knowing" link="View all resorts" to="/resorts"/><article className="feature-resort"><div className="feature-art"><div className="contour-lines"/><span className="location-chip"><MapPin/> Canandaigua, New York</span><div className="mountain-monogram"><MountainSnow/><span>BRISTOL</span></div></div><div className="feature-copy"><span className="official-label"><ShieldCheck/> Official resort profile</span><h3>Bristol Mountain</h3><p className="lead">A Finger Lakes favorite with 1,200 feet of vertical, dependable snowmaking, and memorable night skiing just outside Rochester.</p><div className="stat-row"><Stat value="1,200 ft" label="Vertical"/><Stat value="39" label="Trails"/><Stat value="4.6" label="Example rating" star/></div><div className="tag-row"><span>Night skiing</span><span>Snowmaking</span><span>Family friendly</span></div><Link className="text-link" to="/resorts/bristol-mountain">Open the field guide <ArrowRight/></Link></div></article></div></section>
+  <section className="section cream-section"><div className="container"><SectionHeading eyebrow="Prototype examples" title="How shared itineraries will look" copy="These trip plans are illustrative. Authors and prices are examples, not real submissions." link="Explore itineraries" to="/itineraries"/><div className="card-grid three">{itineraries.map(x=><ItineraryCard key={x.title} item={x}/>)}</div></div></section>
+  <section className="section"><div className="container"><SectionHeading eyebrow="Prototype examples" title="How community field notes will look" copy="These reviews and ratings are illustrative examples, not real visitor submissions." link="Visit the community" to="/community"/><div className="review-grid">{reviews.map(r=><ReviewCard key={r.name} review={r}/>)}</div></div></section>
   <section className="join-strip"><div className="container join-inner"><div className="join-icon"><BookOpen/></div><div><span className="eyebrow">Keep your own field notes</span><h2>Save the good trips. Share what you learn.</h2><p>Create a free account when you’re ready to review a resort or shape an itinerary of your own.</p></div><Link className="button button-primary" to="/register">Create an account <ArrowRight/></Link></div></section></>
+}
+
+function HeroPicture(){return <picture>
+  <source type="image/avif" srcSet={`${heroAvif480} 480w, ${heroAvif768} 768w, ${heroAvif1024} 1024w`} sizes="100vw"/>
+  <source type="image/webp" srcSet={`${heroWebp480} 480w, ${heroWebp768} 768w, ${heroWebp1024} 1024w`} sizes="100vw"/>
+  <img src={heroJpg} alt="" width="1024" height="1536" decoding="async" fetchPriority="high"/>
+</picture>}
+
+// Mobile-only (CSS shows it at 760px and below). Desktop keeps the holographic panel.
+function MobileFeatured({items}){
+  const track=useRef(null),[active,setActive]=useState(0)
+  const cardOffset=index=>{const el=track.current;if(!el?.children[index])return 0;return el.children[index].offsetLeft-el.children[0].offsetLeft}
+  const select=index=>{const el=track.current;if(!el)return;setActive(index);el.scrollTo({left:cardOffset(index),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+  const onScroll=()=>{const el=track.current;if(!el||el.children.length<2)return;const step=cardOffset(1)||1,index=Math.min(items.length-1,Math.max(0,Math.round(el.scrollLeft/step)));if(index!==active)setActive(index)}
+  return <section className="hero-featured" aria-labelledby="featured-now-title">
+    <div className="featured-bar"><h2 id="featured-now-title">Featured now</h2><span aria-hidden="true">{active+1} of {items.length}</span></div>
+    <div className="featured-chips" role="group" aria-label="Choose a featured resort">{items.map((item,index)=><button key={item.id} type="button" aria-controls={`featured-card-${index}`} aria-current={index===active?'true':undefined} onClick={()=>select(index)}>{item.short}</button>)}</div>
+    <div className="featured-track" ref={track} onScroll={onScroll}>{items.map((item,index)=>{const status=heroStatus(item.status);return <article key={item.id} id={`featured-card-${index}`} className="featured-card" aria-label={`${item.name}, ${index+1} of ${items.length}`}>
+      <div className="featured-card-head"><div><h3>{item.name}</h3><p>{item.place}</p></div><span className={`featured-status ${status.state}`}>{status.label}</span></div>
+      <dl className="featured-facts">{item.facts.map(fact=><div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}{fact.scope&&<small>{fact.scope}</small>}</dd></div>)}</dl>
+      <p className="featured-checked">Status checked {formatHeroDate(item.status.checked_at,{day:'numeric',month:'short',year:'numeric'})} from the official site</p>
+      <Link className="featured-open" to={item.to}>Open field guide<ArrowRight aria-hidden="true"/></Link>
+    </article>})}</div>
+  </section>
 }
 
 function SectionHeading({eyebrow,title,copy,link,to}){return <div className="section-heading"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2>{copy&&<p>{copy}</p>}</div>{link&&<Link className="text-link" to={to}>{link}<ArrowRight/></Link>}</div>}
 function Stat({value,label,star}){return <div className="stat"><strong>{star&&<Star fill="currentColor"/>}{value}</strong><span>{label}</span></div>}
-function ItineraryCard({item}){return <article className="itinerary-card"><div className={`route-art ${item.tone}`}><Map/><span>{item.days} days</span><i/><i/><i/></div><div className="card-body"><span className="card-kicker">Community itinerary</span><h3>{item.title}</h3><p><MapPin/>{item.stops}</p><div className="card-meta"><span>By {item.author}</span><strong>{item.cost}</strong></div><button className="icon-button" aria-label={`Save ${item.title}`}><Heart/></button></div></article>}
-function ReviewCard({review}){return <article className="review-card"><div className="stars" aria-label={`${review.rating} out of 5 stars`}>{[0,1,2,3,4].map(i=><Star key={i} fill={i<review.rating?'currentColor':'none'}/>)}</div><blockquote>“{review.quote}”</blockquote><div><strong>{review.name}</strong><span>{review.meta}</span></div></article>}
+function ItineraryCard({item}){return <article className="itinerary-card"><div className={`route-art ${item.tone}`}><Map/><span>{item.days} days</span><i/><i/><i/></div><div className="card-body"><span className="card-kicker">Example itinerary</span><h3>{item.title}</h3><p><MapPin/>{item.stops}</p><div className="card-meta"><span>Example author · {item.author}</span><strong>{item.cost}<small className="example-note"> example price</small></strong></div><button className="icon-button" aria-label={`Save ${item.title}`}><Heart/></button></div></article>}
+function ReviewCard({review}){return <article className="review-card"><span className="example-badge">Example review</span><div className="stars" aria-label={`Example rating: ${review.rating} out of 5 stars`}>{[0,1,2,3,4].map(i=><Star key={i} fill={i<review.rating?'currentColor':'none'}/>)}</div><blockquote>“{review.quote}”</blockquote><div><strong>{review.name}</strong><span>{review.meta}</span></div></article>}
 
 function ResortDirectory({focusSearch=false}){
   const [params,setParams]=useSearchParams(),[query,setQuery]=useState(params.get('q')||''),[country,setCountry]=useState(params.get('country')||'All countries'),[status,setStatus]=useState(params.get('status')||'All profiles'),[coverage,setCoverage]=useState(params.get('coverage')||'All data levels'),[sort,setSort]=useState(params.get('sort')||'recommended'),[showFilters,setShowFilters]=useState(false),[visible,setVisible]=useState(60),[directory,setDirectory]=useState(null),[error,setError]=useState(false)
