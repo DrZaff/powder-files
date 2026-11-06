@@ -25,3 +25,19 @@ Group 3 publishes Treble Cone, Portillo and Valle Nevado after reviewed Wikidata
 Elevation semantics remain conservative. Treble Cone's 1,960 m figure is stored only as an explicit highest lifted point, never as vertical. Portillo's 3,310 m highest point is a summit, while its 2,800 m hotel altitude uses `base_area_elevation` rather than lift base. Valle Nevado's historical 9,924 ft development elevation uses `development_elevation` with low confidence and cannot populate base, top or summit. No vertical is calculated, no heli-ski terrain is included, and no multi-mountain or linked-area totals are attached.
 
 Coronet Peak's two OpenStreetMap records are resolved under the ski-area way, and The Remarkables retains its mapped identity, but both remain low-confidence, uncertain and non-public. They have no overview or mountain facts until current first-party NZSki pages can be reviewed without the bot challenge.
+
+## Group 4
+
+Group 4 publishes Alpe d'Huez, Les 2 Alpes, La Clusaz, LAAX and Crans-Montana after reviewed Wikidata/OpenStreetMap identity resolution. Alpe d'Huez's 250 km figure remains explicitly scoped to the linked Grand Domaine; Vaujany, Oz Station and Auris-en-Oisans stay independent pending a linked-domain policy. Manigod and Crans-sur-Sierre likewise remain untouched and are flagged for later sector review.
+
+Conflicting first-party figures are not silently selected. Les 2 Alpes therefore withholds trail totals, difficulty mix and terrain area, while retaining the operator-published 2,300 m continuous descent. Alpe d'Huez's Tunnel statistic is stored as a named-run vertical rather than resort vertical, La Clusaz retains the operator's piste-measurement note, and no missing vertical is calculated for LAAX or Crans-Montana. Nordic terrain and paragliding identities are not included.
+
+Seasonal operating evidence remains provenance-only. The displayed operating-status field is unchanged, and source inventories preserve official operator, tourism-authority and structured-source attribution.
+
+## Group 5
+
+The final group publishes Engelberg-Titlis, Obergurgl-Hochgurgl, Livigno, Kronplatz and Courmayeur. Identity resolutions retain separate Brunni, Mottolino, Carosello 3000, Val Ferret Nordic and ski-jump records. Livigno totals remain linked-domain facts, Engelberg's 82 km is marked Engelberg-wide, and Courmayeur's mixed slopes-and-off-piste figure is never represented as piste length.
+
+New lift-level, named-run and mixed-terrain keys preserve the exact meaning of first-party claims. Kronplatz therefore has no resort-level card statistics, named descents do not become resort verticals, and village elevations do not become lift bases.
+
+Batch 028 also introduces a conservative, source-linked current-season display model. It is separate from the legacy operating-status field and stores state, label, checked date and source URL. Only dated first-party or public-authority evidence can produce “Open now” or “Season announced”; otherwise the display is “Season dates not confirmed.”

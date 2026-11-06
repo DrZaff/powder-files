@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises'
 
 test('identity cleanup leaves one row per stable ID and no unresolved same-name groups',async()=>{
   const audit=JSON.parse(await readFile(new URL('../generated/profile-coverage-audit.json',import.meta.url),'utf8'))
-  assert.equal(audit.summary.profiles,1438);assert.equal(audit.summary.unique_stable_ids,1438)
+  assert.equal(audit.summary.profiles,1448);assert.equal(audit.summary.unique_stable_ids,1448)
   assert.equal(audit.summary.repeated_stable_ids,0);assert.equal(audit.summary.possible_duplicate_groups,0)
 })
 

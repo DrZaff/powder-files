@@ -631,17 +631,6 @@
     "reason": "near_or_fuzzy_match_requires_review"
   },
   {
-    "record_id": "openstreetmap:way:447819146",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:1148964313",
-        "distance_km": 6.1,
-        "name_match": "similar"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
     "record_id": "openstreetmap:way:45094892",
     "candidate_matches": [
       {
@@ -1268,17 +1257,6 @@
     "reason": "near_or_fuzzy_match_requires_review"
   },
   {
-    "record_id": "wikidata:item:Q138779655",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:599002420",
-        "distance_km": 3.23,
-        "name_match": "exact"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
     "record_id": "wikidata:item:Q141016381",
     "candidate_matches": [
       {
@@ -1487,17 +1465,6 @@
     "reason": "near_or_fuzzy_match_requires_review"
   },
   {
-    "record_id": "wikidata:item:Q1789966",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:474258174",
-        "distance_km": 0.65,
-        "name_match": "similar"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
     "record_id": "wikidata:item:Q1806472",
     "candidate_matches": [
       {
@@ -1603,17 +1570,6 @@
         "record_id": "openstreetmap:relation:9227575",
         "distance_km": 3.91,
         "name_match": "exact"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
-    "record_id": "wikidata:item:Q214364",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:45438982",
-        "distance_km": 2.45,
-        "name_match": "similar"
       }
     ],
     "reason": "near_or_fuzzy_match_requires_review"
@@ -2422,17 +2378,6 @@
       {
         "record_id": "openstreetmap:relation:3184079",
         "distance_km": 3.6,
-        "name_match": "exact"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
-    "record_id": "wikidata:item:Q530721",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:599427053",
-        "distance_km": 3.11,
         "name_match": "exact"
       }
     ],
@@ -3524,17 +3469,6 @@
         "record_id": "openstreetmap:relation:14515183",
         "distance_km": 0.67,
         "name_match": "similar"
-      }
-    ],
-    "reason": "near_or_fuzzy_match_requires_review"
-  },
-  {
-    "record_id": "wikidata:item:Q974478",
-    "candidate_matches": [
-      {
-        "record_id": "openstreetmap:way:45146739",
-        "distance_km": 3.85,
-        "name_match": "exact"
       }
     ],
     "reason": "near_or_fuzzy_match_requires_review"
