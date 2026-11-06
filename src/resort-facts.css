@@ -1,5 +1,5 @@
 /* Field-guide accent palette: pine, slate blue and warm amber. */
-.global-card{grid-template-columns:145px minmax(0,1fr) auto}
+.global-card{grid-template-columns:minmax(0,1fr)}
 .global-card .resort-card-main{display:block;min-width:0}
 .resort-card-heading{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
 .confidence-caption{font-size:.65rem;color:var(--slate);text-transform:capitalize}
