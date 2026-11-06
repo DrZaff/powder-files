@@ -1,6 +1,6 @@
 const FACT_GROUPS={
   vertical:['vertical'],
-  terrain_area:['area'],
+  terrain_area:['area','terrain_area'],
   trails:['trails'],
   lifts:['lifts'],
   summit_elevation:['summit'],
@@ -9,9 +9,9 @@ const FACT_GROUPS={
   longest_run:['longest_run'],
   snowfall:['snowfall'],
   snowmaking:['snowmaking','snowmaking_area','snowmaking_length'],
-  difficulty_mix:['easy_pistes','intermediate_pistes','difficult_pistes','intermediate','expert'],
+  difficulty_mix:['difficulty_mix','easy_pistes','intermediate_pistes','difficult_pistes','intermediate','expert'],
   operating_season:['season','operating_season'],
-  night_skiing:['night_trails','night_length','night_area','lit_trails','lighting','lit_terrain','lit_piste_length'],
+  night_skiing:['night_skiing','night_trails','night_length','night_area','lit_trails','lighting','lit_terrain','lit_piste_length'],
   terrain_parks:['parks','snowparks','park_area','park_lines'],
 }
 

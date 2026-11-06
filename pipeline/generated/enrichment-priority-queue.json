@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:11:45.222Z",
+  "generated_at": "2026-11-06T04:18:07.377Z",
   "profiles": [
     {
       "id": "wikidata:item:Q24190259",
@@ -24803,6 +24803,170 @@
       ]
     },
     {
+      "id": "wikidata:item:Q2865855",
+      "name": "Artouste",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 80,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://artouste.fr/hiver/en",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://artouste.fr/hiver/en"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q791858",
+      "name": "Axalp",
+      "country": "Switzerland",
+      "priority": "critical",
+      "priority_score": 80,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.axalp.ch",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.axalp.ch"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q6388924",
+      "name": "Kendall Mountain Ski Area",
+      "country": "United States",
+      "priority": "critical",
+      "priority_score": 80,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.skikendall.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.skikendall.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3323063",
+      "name": "Monts Jura",
+      "country": "France",
+      "priority": "critical",
+      "priority_score": 80,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.paysdegex-montsjura.com/en/",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.paysdegex-montsjura.com/en/"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q3221307",
       "name": "Q3221307",
       "country": "France",
@@ -40142,47 +40306,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q49562771",
-      "name": "Snowbird",
-      "country": "United States",
-      "priority": "high",
-      "priority_score": 48,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.snowbird.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.snowbird.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q14684041",
       "name": "Sugar Bowl Ski Resort",
       "country": "United States",
@@ -40466,6 +40589,47 @@
       ]
     },
     {
+      "id": "wikidata:item:Q60777517",
+      "name": "Thredbo",
+      "country": "Australia",
+      "priority": "high",
+      "priority_score": 48,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.thredbo.com.au",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.thredbo.com.au"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q7799155",
       "name": "Thunderhill Ski Area",
       "country": "Canada",
@@ -40486,6 +40650,47 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7837389",
+      "name": "Treble Cone",
+      "country": "New Zealand",
+      "priority": "high",
+      "priority_score": 48,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://cardrona-treblecone.com/treblecone",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://cardrona-treblecone.com/treblecone"
         },
         {
           "type": "openstreetmap_topology",
@@ -40687,6 +40892,47 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3051592",
+      "name": "Valle Nevado",
+      "country": "Chile",
+      "priority": "high",
+      "priority_score": 48,
+      "missing_core_fields": [
+        "vertical",
+        "terrain_area",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.vallenevado.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.vallenevado.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -44647,46 +44893,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q3821979",
-      "name": "Park City Mountain Resort",
-      "country": "United States",
-      "priority": "medium",
-      "priority_score": 40,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "lifts",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.parkcitymountain.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.parkcitymountain.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q3368414",
       "name": "Passy Plaine-Joux",
       "country": "France",
@@ -45601,46 +45807,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q7546617",
-      "name": "Smugglers' Notch Resort",
-      "country": "United States",
-      "priority": "medium",
-      "priority_score": 40,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.smuggs.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.smuggs.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11312602",
       "name": "Snow Par Ogna Hotaka",
       "country": "Japan",
@@ -45702,6 +45868,46 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.snow-space.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q49562771",
+      "name": "Snowbird",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 40,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.snowbird.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.snowbird.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -46214,46 +46420,6 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "http://vigla-ski.com"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
-      "id": "wikidata:item:Q1206060",
-      "name": "Whistler Blackcomb",
-      "country": "Canada",
-      "priority": "medium",
-      "priority_score": 40,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "lifts",
-        "summit_elevation",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.whistlerblackcomb.com",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.whistlerblackcomb.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -48788,6 +48954,45 @@
       ]
     },
     {
+      "id": "wikidata:item:Q6919901",
+      "name": "Mt Buller",
+      "country": "Australia",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.mtbuller.com.au",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.mtbuller.com.au"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "openstreetmap:way:278923089",
       "name": "Mt. Holly Ski & Snowboard Resort",
       "country": "United States",
@@ -48808,6 +49013,40 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.skimtholly.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "openstreetmap:way:866496711",
+      "name": "Mt. Hood Meadows",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts",
+        "summit_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.skihood.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.skihood.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -49074,6 +49313,45 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q3821979",
+      "name": "Park City Mountain Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "lifts",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.parkcitymountain.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.parkcitymountain.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -49437,45 +49715,6 @@
       ]
     },
     {
-      "id": "wikidata:item:Q1741253",
-      "name": "Serfaus–Fiss–Ladis",
-      "country": "Austria",
-      "priority": "medium",
-      "priority_score": 32,
-      "missing_core_fields": [
-        "vertical",
-        "terrain_area",
-        "trails",
-        "base_elevation"
-      ],
-      "conflicts": [],
-      "stale_fields": [],
-      "possible_duplicate_ids": [],
-      "official_website": "https://www.serfaus-fiss-ladis.at",
-      "recommended_sources": [
-        {
-          "type": "official_resort",
-          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
-          "url": "https://www.serfaus-fiss-ladis.at"
-        },
-        {
-          "type": "openstreetmap_topology",
-          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
-          "url": "https://www.openstreetmap.org/copyright"
-        },
-        {
-          "type": "wikidata_statements",
-          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
-          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
-        },
-        {
-          "type": "public_authority",
-          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
-          "url": null
-        }
-      ]
-    },
-    {
       "id": "wikidata:item:Q11491193",
       "name": "Shiga Kōgen Ski Resort",
       "country": "Japan",
@@ -49650,6 +49889,45 @@
           "type": "official_site_discovery",
           "purpose": "Locate and verify the resort’s current official website",
           "url": null
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q7546617",
+      "name": "Smugglers' Notch Resort",
+      "country": "United States",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.smuggs.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.smuggs.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -50040,6 +50318,45 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.vossresort.no"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1206060",
+      "name": "Whistler Blackcomb",
+      "country": "Canada",
+      "priority": "medium",
+      "priority_score": 32,
+      "missing_core_fields": [
+        "vertical",
+        "lifts",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.whistlerblackcomb.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.whistlerblackcomb.com"
         },
         {
           "type": "openstreetmap_topology",
@@ -51188,6 +51505,44 @@
       ]
     },
     {
+      "id": "wikidata:item:Q111983623",
+      "name": "Falls Creek",
+      "country": "Australia",
+      "priority": "medium",
+      "priority_score": 24,
+      "missing_core_fields": [
+        "vertical",
+        "summit_elevation",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.fallscreek.com.au",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.fallscreek.com.au"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q56401426",
       "name": "FreeSki",
       "country": "Finland",
@@ -52226,6 +52581,44 @@
       ]
     },
     {
+      "id": "wikidata:item:Q167843",
+      "name": "Portillo",
+      "country": "Chile",
+      "priority": "medium",
+      "priority_score": 24,
+      "missing_core_fields": [
+        "vertical",
+        "lifts",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://skiportillo.com",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://skiportillo.com"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q7235982",
       "name": "Powder King Mountain Resort",
       "country": "Canada",
@@ -52431,6 +52824,44 @@
           "type": "official_resort",
           "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
           "url": "https://www.sappee.fi"
+        },
+        {
+          "type": "openstreetmap_topology",
+          "purpose": "Cross-check mapped lifts, pistes, difficulty tags and resort extent; never treat incomplete map counts as official totals",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "type": "wikidata_statements",
+          "purpose": "Check structured identifiers, elevation statements, operator and official-site links",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+        },
+        {
+          "type": "public_authority",
+          "purpose": "Check tourism, land-manager or municipal sources for access, status and operating scope",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q1741253",
+      "name": "Serfaus–Fiss–Ladis",
+      "country": "Austria",
+      "priority": "medium",
+      "priority_score": 24,
+      "missing_core_fields": [
+        "vertical",
+        "trails",
+        "base_elevation"
+      ],
+      "conflicts": [],
+      "stale_fields": [],
+      "possible_duplicate_ids": [],
+      "official_website": "https://www.serfaus-fiss-ladis.at",
+      "recommended_sources": [
+        {
+          "type": "official_resort",
+          "purpose": "Current mountain statistics, trail map, operations and published fact sheets",
+          "url": "https://www.serfaus-fiss-ladis.at"
         },
         {
           "type": "openstreetmap_topology",

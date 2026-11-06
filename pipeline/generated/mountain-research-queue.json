@@ -506,7 +506,6 @@
             "unit": "m",
             "qualifiers": [],
             "references": [
-              "https://www.remontees-mecaniques.net/bdd/station-kaprun-kitzsteinhorn-263.html",
               "https://www.remontees-mecaniques.net/bdd/station-kaprun-kitzsteinhorn-263.html"
             ]
           },
@@ -516,7 +515,6 @@
             "unit": "m",
             "qualifiers": [],
             "references": [
-              "https://www.remontees-mecaniques.net/bdd/station-kaprun-kitzsteinhorn-263.html",
               "https://www.remontees-mecaniques.net/bdd/station-kaprun-kitzsteinhorn-263.html"
             ]
           }
@@ -805,19 +803,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/",
-              "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/",
               "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/"
             ]
           },
@@ -829,19 +817,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/",
-              "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/",
               "https://www.lamolina.cat/hivern/estacio/info-estacio/fitxa-tecnica/"
             ]
           }
@@ -881,14 +859,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.masella.com/ca/paginas/fitxa-tecnica",
               "https://www.masella.com/ca/paginas/fitxa-tecnica"
             ]
           },
@@ -900,14 +873,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.masella.com/ca/paginas/fitxa-tecnica",
               "https://www.masella.com/ca/paginas/fitxa-tecnica"
             ]
           }
@@ -1014,19 +982,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.esquiades.com/cat/pistes/avoriaz/",
-              "https://fr.wikipedia.org/wiki/Avoriaz",
               "https://www.esquiades.com/cat/pistes/avoriaz/",
               "https://fr.wikipedia.org/wiki/Avoriaz"
             ]
@@ -1039,14 +997,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.esquiades.com/cat/pistes/avoriaz/",
               "https://www.esquiades.com/cat/pistes/avoriaz/"
             ]
           }
@@ -1555,14 +1508,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -1574,14 +1522,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -1593,14 +1536,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -1688,14 +1626,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -1707,14 +1640,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -1726,14 +1654,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -1839,14 +1762,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -1858,14 +1776,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -1877,14 +1790,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -1928,19 +1836,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -1952,19 +1850,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -1976,19 +1864,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -2925,24 +2803,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -2951,18 +2814,6 @@
             "amount": 1725,
             "unit": "m",
             "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q25550691"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q25550691"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q25550691"
-              },
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P518",
                 "value": "http://www.wikidata.org/entity/Q25550691"
@@ -2978,24 +2829,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -3007,24 +2843,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -5539,10 +5360,6 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P459",
                 "value": "http://www.wikidata.org/entity/Q10578722"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P459",
-                "value": "http://www.wikidata.org/entity/Q10578722"
               }
             ],
             "references": []
@@ -5552,10 +5369,6 @@
             "amount": 1450,
             "unit": "m",
             "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q109852031"
-              },
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P518",
                 "value": "http://www.wikidata.org/entity/Q109852031"
@@ -6207,19 +6020,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/",
-              "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/",
               "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/"
             ]
           },
@@ -6231,19 +6034,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/",
-              "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/",
               "https://www.espotesqui.cat/hivern/estacio/fitxa-tecnica/"
             ]
           }
@@ -6392,34 +6185,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -6431,34 +6199,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -6470,34 +6213,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -6959,14 +6677,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -6978,14 +6691,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -6997,14 +6705,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -7251,14 +6954,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -7270,14 +6968,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -7289,14 +6982,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -7340,24 +7028,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -7369,24 +7042,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -7398,24 +7056,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -9614,14 +9257,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -9633,14 +9271,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -9652,14 +9285,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -14040,19 +13668,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -14064,19 +13682,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -14088,19 +13696,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -15735,19 +15333,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -15759,19 +15347,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -15783,19 +15361,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -16194,19 +15762,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.baqueira.es/datos-tecnicos-baqueira-beret",
-              "https://www.baqueira.es/ca/datos-tecnicos-baqueira-beret",
               "https://www.baqueira.es/datos-tecnicos-baqueira-beret",
               "https://www.baqueira.es/ca/datos-tecnicos-baqueira-beret"
             ]
@@ -16223,19 +15781,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.baqueira.es/datos-tecnicos-baqueira-beret",
-              "https://www.baqueira.es/ca/datos-tecnicos-baqueira-beret",
               "https://www.baqueira.es/datos-tecnicos-baqueira-beret",
               "https://www.baqueira.es/ca/datos-tecnicos-baqueira-beret"
             ]
@@ -17595,14 +17143,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -17614,14 +17157,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -17633,14 +17171,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -19203,14 +18736,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://www.ski-planet.com/es/estacion-esqui/dominio_esqui_cambre-d-aze.html",
               "https://www.ski-planet.com/es/estacion-esqui/dominio_esqui_cambre-d-aze.html"
             ]
           },
@@ -19222,14 +18750,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://www.ski-planet.com/es/estacion-esqui/dominio_esqui_cambre-d-aze.html",
               "https://www.ski-planet.com/es/estacion-esqui/dominio_esqui_cambre-d-aze.html"
             ]
           }
@@ -19886,14 +19409,6 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P518",
                 "value": "http://www.wikidata.org/entity/Q120307937"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q120307937"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q120307937"
               }
             ],
             "references": []
@@ -19903,14 +19418,6 @@
             "amount": 1400,
             "unit": "m",
             "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q137962399"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q137962399"
-              },
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P518",
                 "value": "http://www.wikidata.org/entity/Q137962399"
@@ -20502,30 +20009,6 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/value-normalized/P2312",
                 "value": "http://www.wikidata.org/value/19c389df5e36714ad20f25378ce5f98f"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/value/P2313",
-                "value": "http://www.wikidata.org/value/df4a75ce314198f9afa89ae8cb418fee"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/value-normalized/P2313",
-                "value": "http://www.wikidata.org/value/df4a75ce314198f9afa89ae8cb418fee"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P2313",
-                "value": "1530"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P2312",
-                "value": "2125"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/value/P2312",
-                "value": "http://www.wikidata.org/value/19c389df5e36714ad20f25378ce5f98f"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/value-normalized/P2312",
-                "value": "http://www.wikidata.org/value/19c389df5e36714ad20f25378ce5f98f"
               }
             ],
             "references": []
@@ -20974,19 +20457,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -20998,19 +20471,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -21022,19 +20485,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -21739,19 +21192,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -21763,19 +21206,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -21787,19 +21220,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -23335,14 +22758,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -23354,14 +22772,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -23373,14 +22786,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -23881,10 +23289,6 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": []
@@ -23894,10 +23298,6 @@
             "amount": 1776,
             "unit": "m",
             "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P1013",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P1013",
                 "value": "http://www.wikidata.org/entity/Q3393392"
@@ -24280,19 +23680,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24304,19 +23694,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -24328,19 +23708,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24769,19 +24139,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -24793,19 +24153,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24817,19 +24167,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -24873,14 +24213,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24892,14 +24227,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24911,14 +24241,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -24976,14 +24301,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -24995,14 +24315,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25014,14 +24329,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -25081,34 +24391,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25120,34 +24405,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25159,34 +24419,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -25195,26 +24430,6 @@
             "amount": 925,
             "unit": "m",
             "qualifiers": [
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q543654"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q543654"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q543654"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q543654"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P518",
-                "value": "http://www.wikidata.org/entity/Q543654"
-              },
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P518",
                 "value": "http://www.wikidata.org/entity/Q543654"
@@ -25262,19 +24477,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25286,19 +24491,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25310,19 +24505,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           }
@@ -25382,19 +24567,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -25406,19 +24581,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25430,19 +24595,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -25709,19 +24864,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q2796622"
               }
             ],
             "references": [
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
-              "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z",
               "https://data.geopf.fr/telechargement/download/GEOFLA/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28/GEOFLA_2-2_COMMUNE_SHP_LAMB93_FXX_2016-06-28.7z"
             ]
           },
@@ -25733,19 +24878,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q30278109"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           },
@@ -25757,19 +24892,9 @@
               {
                 "property": "http://www.wikidata.org/prop/qualifier/P3831",
                 "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
-              },
-              {
-                "property": "http://www.wikidata.org/prop/qualifier/P3831",
-                "value": "http://www.wikidata.org/entity/Q3393392"
               }
             ],
             "references": [
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
-              "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z",
               "https://wxs-telechargement.ign.fr/83edtfdyqte031y0ra49d2e3/telechargement/inspire/RGC-2015-01$RGC2015/file/RGC2015.7z"
             ]
           }
@@ -26720,6 +25845,253 @@
     "missing_official_facts": [
       "area",
       "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1548153",
+    "name": "Heavenly",
+    "country": "United States",
+    "official_website": "https://www.skiheavenly.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q4251293",
+    "name": "Hakuba Happo-one",
+    "country": "Japan",
+    "official_website": "https://www.happo-one.jp/en/",
+    "missing_official_facts": [
+      "vertical",
+      "area"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q109412412",
+    "name": "Taos Ski Valley",
+    "country": "United States",
+    "official_website": "https://www.skitaos.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "openstreetmap:way:866496711",
+    "name": "Mt. Hood Meadows",
+    "country": "United States",
+    "official_website": "https://www.skihood.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "no_wikidata_identifier"
+  },
+  {
+    "id": "wikidata:item:Q1547750",
+    "name": "Sugarloaf",
+    "country": "United States",
+    "official_website": "https://www.sugarloaf.com",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q2865855",
+    "name": "Artouste",
+    "country": "France",
+    "official_website": "https://artouste.fr/hiver/en",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q3323063",
+    "name": "Monts Jura",
+    "country": "France",
+    "official_website": "https://www.paysdegex-montsjura.com/en/",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q6388924",
+    "name": "Kendall Mountain Ski Area",
+    "country": "United States",
+    "official_website": "https://www.skikendall.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q791858",
+    "name": "Axalp",
+    "country": "Switzerland",
+    "official_website": "https://www.axalp.ch",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1231413",
+    "name": "Mont-Sainte-Anne",
+    "country": "Canada",
+    "official_website": "https://mont-sainte-anne.com/en/",
+    "missing_official_facts": [
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q2255843",
+    "name": "Schweitzer",
+    "country": "United States",
+    "official_website": "https://www.schweitzer.com",
+    "missing_official_facts": [
+      "area"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q60777517",
+    "name": "Thredbo",
+    "country": "Australia",
+    "official_website": "https://www.thredbo.com.au",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q111983623",
+    "name": "Falls Creek",
+    "country": "Australia",
+    "official_website": "https://www.fallscreek.com.au",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q6919901",
+    "name": "Mt Buller",
+    "country": "Australia",
+    "official_website": "https://www.mtbuller.com.au",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q7837389",
+    "name": "Treble Cone",
+    "country": "New Zealand",
+    "official_website": "https://cardrona-treblecone.com/treblecone",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q167843",
+    "name": "Portillo",
+    "country": "Chile",
+    "official_website": "https://skiportillo.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q3051592",
+    "name": "Valle Nevado",
+    "country": "Chile",
+    "official_website": "https://www.vallenevado.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
     ],
     "conflicts": [],
     "status": "needs_official_research",

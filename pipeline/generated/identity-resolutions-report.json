@@ -27,14 +27,14 @@
     },
     {
       "target": "wikidata:item:Q49177812",
-      "removed_rows": 1,
+      "removed_rows": 0,
       "merged_ids": [
         "wikidata:item:Q49177812"
       ]
     },
     {
       "target": "wikidata:item:Q6363223",
-      "removed_rows": 1,
+      "removed_rows": 0,
       "merged_ids": [
         "wikidata:item:Q6363223"
       ]
@@ -206,18 +206,173 @@
         "openstreetmap:way:860260235",
         "wikidata:item:Q123853037"
       ]
+    },
+    {
+      "target": "wikidata:item:Q1548153",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:12152028",
+        "wikidata:item:Q1548153"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q4251293",
+      "removed_rows": 0,
+      "merged_ids": [
+        "wikidata:item:Q4251293"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q109412412",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:13573224",
+        "wikidata:item:Q109412412"
+      ]
+    },
+    {
+      "target": "openstreetmap:way:866496711",
+      "removed_rows": 0,
+      "merged_ids": [
+        "openstreetmap:way:866496711"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1547750",
+      "removed_rows": 0,
+      "merged_ids": [
+        "wikidata:item:Q1547750"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q2865855",
+      "removed_rows": 0,
+      "merged_ids": [
+        "wikidata:item:Q2865855"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3323063",
+      "removed_rows": 0,
+      "merged_ids": [
+        "wikidata:item:Q3323063"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q6388924",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:528962955",
+        "wikidata:item:Q6388924"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q791858",
+      "removed_rows": 0,
+      "merged_ids": [
+        "wikidata:item:Q791858"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q1231413",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:391681261",
+        "wikidata:item:Q1231413"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q2255843",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1388583977",
+        "wikidata:item:Q2255843"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q60777517",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:499034347",
+        "wikidata:item:Q60777517"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q111983623",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1210011762",
+        "wikidata:item:Q111983623"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q6919901",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:1225432526",
+        "wikidata:item:Q6919901"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q7837389",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:6343180",
+        "wikidata:item:Q7837389"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q167843",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:way:934285904",
+        "wikidata:item:Q167843"
+      ]
+    },
+    {
+      "target": "wikidata:item:Q3051592",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:3917252",
+        "wikidata:item:Q3051592"
+      ]
+    },
+    {
+      "target": "openstreetmap:way:482928475",
+      "removed_rows": 1,
+      "merged_ids": [
+        "openstreetmap:relation:6451819",
+        "openstreetmap:way:482928475"
+      ]
+    },
+    {
+      "target": "openstreetmap:way:482928468",
+      "removed_rows": 0,
+      "merged_ids": [
+        "openstreetmap:way:482928468"
+      ]
     }
   ],
   "exclusions": [
     {
       "id": "wikidata:item:Q592910",
-      "removed_rows": 2,
+      "removed_rows": 1,
       "reason": "lift_free_or_non_resort"
     },
     {
       "id": "wikidata:item:Q3311533",
-      "removed_rows": 2,
+      "removed_rows": 1,
       "reason": "lift_free_or_non_resort"
+    },
+    {
+      "id": "wikidata:item:Q3058219",
+      "removed_rows": 1,
+      "reason": "nordic_only"
+    },
+    {
+      "id": "openstreetmap:way:1233552673",
+      "removed_rows": 1,
+      "reason": "nordic_only"
     }
   ],
   "disambiguated": [
