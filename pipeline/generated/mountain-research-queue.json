@@ -26096,5 +26096,148 @@
     "conflicts": [],
     "status": "needs_official_research",
     "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q214364",
+    "name": "Alpe d'Huez",
+    "country": "France",
+    "official_website": "https://www.alpedhuez.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q974478",
+    "name": "Les 2 Alpes",
+    "country": "France",
+    "official_website": "https://www.les2alpes.com",
+    "missing_official_facts": [
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q530721",
+    "name": "La Clusaz",
+    "country": "France",
+    "official_website": "https://www.laclusaz.com",
+    "missing_official_facts": [
+      "area"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "openstreetmap:way:599441663",
+    "name": "LAAX",
+    "country": "Switzerland",
+    "official_website": "https://www.laax.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "no_wikidata_identifier"
+  },
+  {
+    "id": "wikidata:item:Q138779655",
+    "name": "Crans-Montana",
+    "country": "Switzerland",
+    "official_website": "https://www.crans-montana.ch",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "openstreetmap:way:1362257705",
+    "name": "Engelberg-Titlis",
+    "country": "Switzerland",
+    "official_website": "https://www.titlis.ch",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "no_wikidata_identifier"
+  },
+  {
+    "id": "openstreetmap:way:508236935",
+    "name": "Obergurgl-Hochgurgl",
+    "country": "Austria",
+    "official_website": "https://www.gurgl.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "no_wikidata_identifier"
+  },
+  {
+    "id": "wikidata:item:Q110811619",
+    "name": "Livigno",
+    "country": "Italy",
+    "official_website": "https://www.skipasslivigno.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q1789966",
+    "name": "Kronplatz",
+    "country": "Italy",
+    "official_website": "https://www.kronplatz.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "trails",
+      "skiing_elevation",
+      "lifts"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
+  },
+  {
+    "id": "wikidata:item:Q110821425",
+    "name": "Courmayeur",
+    "country": "Italy",
+    "official_website": "https://www.courmayeur-montblanc.com",
+    "missing_official_facts": [
+      "vertical",
+      "area",
+      "skiing_elevation"
+    ],
+    "conflicts": [],
+    "status": "needs_official_research",
+    "structured_lookup": "not_run"
   }
 ]

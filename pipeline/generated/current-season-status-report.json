@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-11-06",
+  "profiles": 23,
+  "downgraded": 0,
+  "statuses": {
+    "wikidata:item:Q1548153": "announced",
+    "wikidata:item:Q4251293": "announced",
+    "wikidata:item:Q109412412": "announced",
+    "wikidata:item:Q1547750": "announced",
+    "openstreetmap:way:866496711": "announced",
+    "wikidata:item:Q1231413": "not_confirmed",
+    "wikidata:item:Q2255843": "announced",
+    "wikidata:item:Q60777517": "announced",
+    "wikidata:item:Q111983623": "not_confirmed",
+    "wikidata:item:Q6919901": "announced",
+    "wikidata:item:Q7837389": "not_confirmed",
+    "wikidata:item:Q167843": "announced",
+    "wikidata:item:Q3051592": "open_now",
+    "wikidata:item:Q214364": "not_confirmed",
+    "wikidata:item:Q974478": "announced",
+    "wikidata:item:Q530721": "announced",
+    "openstreetmap:way:599441663": "announced",
+    "wikidata:item:Q138779655": "announced",
+    "openstreetmap:way:1362257705": "not_confirmed",
+    "openstreetmap:way:508236935": "announced",
+    "wikidata:item:Q110811619": "announced",
+    "wikidata:item:Q1789966": "not_confirmed",
+    "wikidata:item:Q110821425": "announced"
+  }
+}

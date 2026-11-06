@@ -1,35 +1,38 @@
 {
-  "generated_at": "2026-11-06T04:18:07.377Z",
+  "generated_at": "2026-11-06T11:23:36.433Z",
   "summary": {
-    "generated_at": "2026-11-06T04:18:07.377Z",
+    "generated_at": "2026-11-06T11:23:36.433Z",
     "total_raw": 7439,
-    "canonical_count": 1438,
+    "canonical_count": 1448,
     "verified_count": 1,
-    "candidate_count": 1437,
-    "uncertain_count": 318,
-    "incomplete_count": 4158,
-    "ambiguity_count": 311,
+    "candidate_count": 1447,
+    "uncertain_count": 312,
+    "incomplete_count": 4146,
+    "ambiguity_count": 305,
     "exclusion_count": 346,
     "country_count": 52,
-    "unknown_country_count": 4087,
+    "unknown_country_count": 4076,
     "source_coverage": {
       "openstreetmap": 4856,
       "wikidata": 1837,
-      "official_resort": 933,
+      "official_resort": 935,
+      "tourism_authority": 12,
       "powderfiles": 1,
+      "official_lift_operator": 2,
       "public_authority": 3,
-      "official_operator": 1
+      "official_operator": 4,
+      "official_lift_pass": 2
     },
     "country_counts": {
-      "Unknown": 4087,
+      "Unknown": 4076,
       "Japan": 371,
       "United States": 342,
       "France": 329,
       "Canada": 111,
-      "Austria": 97,
+      "Austria": 98,
       "Poland": 68,
       "Finland": 55,
-      "Switzerland": 51,
+      "Switzerland": 53,
       "Italy": 49,
       "Spain": 45,
       "Russia": 28,
@@ -1544,6 +1547,156 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q100873164"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q214364",
+      "n": "Alpe d'Huez",
+      "a": [
+        "Alpe d'Huez Grand Domaine",
+        "Espace Alpe d'Huez",
+        "L'Alpe d'Huez"
+      ],
+      "l": null,
+      "r": "Isère (Auvergne-Rhône-Alpes)",
+      "c": "France",
+      "p": [
+        45.108869,
+        6.086164
+      ],
+      "w": "https://www.alpedhuez.com",
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.alpedhuez.com/fr/"
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "piste_length",
+          "label": "Pistes (whole domain)",
+          "value": 250,
+          "unit": "km",
+          "source": "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/",
+          "note": "Covers the full linked Grand Domaine and its villages.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "linked_domain"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Pic Blanc (top of cable car)",
+          "value": 3330,
+          "unit": "m",
+          "source": "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/",
+          "note": "The source explicitly identifies cable-car access.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "lift_served"
+        },
+        {
+          "key": "named_run_length",
+          "label": "Sarenne black run length",
+          "value": 16,
+          "unit": "km",
+          "source": "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/",
+          "note": "Starts at the Pic Blanc summit station.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "named_run_vertical",
+          "label": "Tunnel run vertical descent",
+          "value": 1350,
+          "unit": "m",
+          "source": "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/",
+          "note": "Published from the Tunnel exit at 3,000 m to Montfrais at 1,650 m; this is not resort vertical.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "terrain_parks",
+          "label": "Snowpark area",
+          "value": 20,
+          "unit": "ha",
+          "source": "https://www.alpedhuez.com/fr/blog/10-raisons-de-skier-a-lalpe/",
+          "note": "Published as more than 20 hectares.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "more_than",
+          "scope": "local_resort"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 season sales",
+          "value": "Season ski-pass promotion live; tourist-office pre-season hours published to 2026-12-04",
+          "unit": "",
+          "source": "https://www.alpedhuez.com/fr/",
+          "note": "Opening date was not available from the lift-operator site.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "low",
+          "qualifier": "seasonal",
+          "scope": "linked_domain",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Alpe d'Huez anchors a large linked domain in the Oisans that reaches Vaujany, Oz-en-Oisans, Auris-en-Oisans and Villard-Reculas. Gentle resort-front terrain gives way to long, steep descents from the Pic Blanc cable car, including the 16-kilometre Sarenne black run.",
+        "sources": [
+          "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "tourism_authority"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/45438982"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q214364"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.alpedhuez.com/fr/blog/espace-alpe-dhuez-une-montagne-cinq-visages-mille-descentes/"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.alpedhuez.com/fr/blog/10-raisons-de-skier-a-lalpe/"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.alpedhuez.com/fr/"
         }
       ]
     },
@@ -15529,6 +15682,188 @@
       ]
     },
     {
+      "id": "wikidata:item:Q110821425",
+      "n": "Courmayeur",
+      "a": [
+        "Courmayeur Mont Blanc",
+        "Courmayeur Ski Resort"
+      ],
+      "l": "Courmayeur",
+      "r": "Aosta Valley",
+      "c": "Italy",
+      "p": [
+        45.808642,
+        6.940364
+      ],
+      "w": "https://www.courmayeur-montblanc.com",
+      "ws": {
+        "resort": "https://www.courmayeur-montblanc.com",
+        "lift_operator": "https://www.courmayeur-montblanc.com",
+        "tourism": "https://www.courmayeurmontblanc.it"
+      },
+      "cs": {
+        "state": "announced",
+        "label": "Opens 28 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.courmayeur-montblanc.com/",
+        "opening_date": "2026-11-28",
+        "season_end": "2027-04-11"
+      },
+      "dg": {
+        "card_facts": [
+          "trails",
+          "lifts",
+          "season",
+          "named_point_elevation"
+        ],
+        "visible_cautions": [
+          "The 100 km figure mixes groomed slopes with off-piste terrain"
+        ]
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "lifts",
+          "label": "Ski lifts",
+          "value": 18,
+          "unit": "",
+          "source": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "trails",
+          "label": "Runs",
+          "value": 33,
+          "unit": "",
+          "source": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "slopes_and_offpiste",
+          "label": "Groomed slopes and off-piste terrain",
+          "value": 100,
+          "unit": "km",
+          "source": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/",
+          "note": "Mixed figure; never display as piste length.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "other"
+        },
+        {
+          "key": "named_point_elevation",
+          "label": "L'Arp",
+          "value": 2755,
+          "unit": "m",
+          "source": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/",
+          "note": "Named point; not labeled as the highest lift-served point.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "named_run"
+        },
+        {
+          "key": "snowmaking_coverage",
+          "label": "Snow-guaranteed slopes",
+          "value": 80,
+          "unit": "%",
+          "source": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/",
+          "note": "Published as guaranteed snow, not explicitly as snowmaking.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "low",
+          "qualifier": "more_than",
+          "scope": "local_resort"
+        },
+        {
+          "key": "base_area_elevation",
+          "label": "Courmayeur village altitude",
+          "value": 1200,
+          "unit": "m",
+          "source": "https://www.courmayeurmontblanc.it/en/slopes-and-lifts/",
+          "note": "Weather-station label; not a lift base.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "other"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 season",
+          "value": "Ski area open 2026-11-28 to 2027-04-11",
+          "unit": "",
+          "source": "https://www.courmayeur-montblanc.com/",
+          "note": "Weekday lift hours 08:45–17:00.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Courmayeur's ski area sits on the Italian side of Mont Blanc, reached from the village by the Courmayeur Mont Blanc cable cars. Groomed pistes and off-piste terrain sit beneath dramatic peaks, while the Skyway Monte Bianco and Val Ferret Nordic trails remain separate.",
+        "sources": [
+          "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "tourism_authority",
+        "official_lift_operator"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/447819146"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110821425"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.courmayeurmontblanc.it/en/mont_blanc/ski-area/"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.courmayeurmontblanc.it/en/slopes-and-lifts/"
+        },
+        {
+          "name": "official_lift_operator",
+          "url": "https://www.courmayeur-montblanc.com/"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q5181703",
       "n": "Craigieburn Valley Ski Area",
       "a": [],
@@ -15679,6 +16014,147 @@
         {
           "name": "official_resort",
           "url": "https://cranmore.com/trail-map"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q138779655",
+      "n": "Crans-Montana",
+      "a": [
+        "Crans Montana Aminona",
+        "CMA"
+      ],
+      "l": "Crans-Montana",
+      "r": "Valais",
+      "c": "Switzerland",
+      "p": [
+        46.339855,
+        7.495486
+      ],
+      "w": "https://www.crans-montana.ch",
+      "cs": {
+        "state": "announced",
+        "label": "Partial opening 28 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.mycma.ch/",
+        "opening_date": "2026-11-28"
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "piste_length",
+          "label": "Pistes",
+          "value": 140,
+          "unit": "km",
+          "source": "https://www.crans-montana.ch/fr/activites/ski",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "base",
+          "label": "Lower altitude of ski area",
+          "value": 1500,
+          "unit": "m",
+          "source": "https://www.crans-montana.ch/fr/activites/ski",
+          "note": "Published as a rounded range.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "approximately",
+          "scope": "local_resort"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Upper altitude of ski area",
+          "value": 3000,
+          "unit": "m",
+          "source": "https://www.crans-montana.ch/fr/activites/ski",
+          "note": "Rounded upper value; exact lift-top elevation is not published.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "approximately",
+          "scope": "local_resort"
+        },
+        {
+          "key": "named_run_length",
+          "label": "Kandahar run length",
+          "value": 8,
+          "unit": "km",
+          "source": "https://www.crans-montana.ch/fr/activites/glacier_plaine_morte",
+          "note": "Starts at the top of the Plaine Morte funitel.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 season",
+          "value": "Partial opening from 2026-11-28, snow permitting; FIS Alpine World Championships 2027-02-01 to 2027-02-14",
+          "unit": "",
+          "source": "https://www.mycma.ch/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Crans-Montana offers sunny pistes from the resort to the Plaine Morte glacier, with broad Alpine views at the top. The historic Kandahar descent runs eight kilometres from the glacier funitel, and the resort hosts the 2027 FIS Alpine World Championships.",
+        "sources": [
+          "https://www.crans-montana.ch/fr/activites/ski"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "tourism_authority",
+        "official_lift_operator"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/599002420"
+        },
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/relation/3162703"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q138779655"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.crans-montana.ch/fr/activites/ski"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.crans-montana.ch/fr/activites/glacier_plaine_morte"
+        },
+        {
+          "name": "official_lift_operator",
+          "url": "https://www.mycma.ch/"
         }
       ]
     },
@@ -18762,6 +19238,158 @@
       ]
     },
     {
+      "id": "openstreetmap:way:1362257705",
+      "n": "Engelberg-Titlis",
+      "a": [
+        "Titlis",
+        "TITLIS Engelberg",
+        "Skipisten Titlis Bergbahnen"
+      ],
+      "l": "Engelberg",
+      "r": "Obwalden",
+      "c": "Switzerland",
+      "p": [
+        46.793312,
+        8.400346
+      ],
+      "w": "https://www.titlis.ch",
+      "ws": {
+        "resort": "https://www.titlis.ch",
+        "lift_operator": "https://www.titlis.ch",
+        "tourism": "https://www.engelberg.ch"
+      },
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.engelberg.ch/en/winter/ski-snowboard/"
+      },
+      "dg": {
+        "card_facts": [
+          "skiing_elevation",
+          "piste_length"
+        ],
+        "visible_cautions": [
+          "Engelberg-wide slope total may include Brunni"
+        ],
+        "related_profiles": [
+          {
+            "id": "wikidata:item:Q992902",
+            "relationship": "nearby_separate_resort"
+          }
+        ]
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {
+        "elevation_m": null
+      },
+      "mf": [
+        {
+          "key": "skiing_elevation",
+          "label": "Titlis summit station",
+          "value": 3020,
+          "unit": "m",
+          "source": "https://www.engelberg.ch/en/cable-cars/titlis/",
+          "note": "Top of the Titlis Rotair; slopes begin beside the station.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "lift_served"
+        },
+        {
+          "key": "piste_length",
+          "label": "Engelberg-wide slopes",
+          "value": 82,
+          "unit": "km",
+          "source": "https://www.engelberg.ch/en/winter/ski-snowboard/",
+          "note": "May include the separate Brunni area; not confirmed as Titlis-only.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "other"
+        },
+        {
+          "key": "named_run_vertical",
+          "label": "Titlis-to-valley descent",
+          "value": 2000,
+          "unit": "m",
+          "source": "https://www.engelberg.ch/en/winter/ski-snowboard/",
+          "note": "A single descent, not resort vertical.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "approximately",
+          "scope": "named_run"
+        },
+        {
+          "key": "named_run_vertical_2",
+          "label": "Jochstock descent",
+          "value": 1500,
+          "unit": "m",
+          "source": "https://www.engelberg.ch/en/winter/ski-snowboard/",
+          "note": "A single descent, not resort vertical.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "named_run"
+        },
+        {
+          "key": "season",
+          "label": "Season information",
+          "value": "Ski pass includes Titlis Rotair; 2026–27 opening date not confirmed",
+          "unit": "",
+          "source": "https://www.engelberg.ch/en/winter/ski-snowboard/",
+          "note": "Operator site was unavailable during review.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "low",
+          "qualifier": "seasonal",
+          "scope": "local_resort"
+        }
+      ],
+      "ov": {
+        "text": "Engelberg-Titlis rises from the village to the Titlis glacier, reached by the revolving Rotair cable car at 3,020 metres. Its signature is the long descent from the glacier toward the valley, alongside sporty carving slopes and a separate 1,500-metre descent from Jochstock.",
+        "sources": [
+          "https://www.engelberg.ch/en/cable-cars/titlis/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "tourism_authority"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/relation/9202820"
+        },
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/1362257705"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.engelberg.ch/en/cable-cars/titlis/"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.engelberg.ch/en/winter/ski-snowboard/"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q1665319",
       "n": "Eschenberglift",
       "a": [],
@@ -19385,6 +20013,12 @@
         147.275143
       ],
       "w": "https://www.fallscreek.com.au",
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.fallscreek.com.au/?season=winter"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -25294,6 +25928,12 @@
         137.837133
       ],
       "w": "https://www.happo-one.jp/en/",
+      "cs": {
+        "state": "announced",
+        "label": "2026–27 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.happo-one.jp/en/news/39750/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -26240,6 +26880,13 @@
         -119.94
       ],
       "w": "https://www.skiheavenly.com",
+      "cs": {
+        "state": "announced",
+        "label": "Opens 20 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.skiheavenly.com/explore-the-resort/about-the-resort/hours-of-operation.aspx",
+        "opening_date": "2026-11-20"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -34991,6 +35638,130 @@
       ]
     },
     {
+      "id": "wikidata:item:Q1789966",
+      "n": "Kronplatz",
+      "a": [
+        "Plan de Corones",
+        "Kronplatz - Plan de Corones"
+      ],
+      "l": null,
+      "r": "South Tyrol",
+      "c": "Italy",
+      "p": [
+        46.740347,
+        11.952153
+      ],
+      "w": "https://www.kronplatz.com",
+      "ws": {
+        "resort": "https://www.kronplatz.com",
+        "lift_operator": "https://www.kronplatz.com",
+        "tourism": null
+      },
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.kronplatz.com/news"
+      },
+      "dg": {
+        "card_facts": [],
+        "card_note": "Key statistics not yet verified",
+        "visible_cautions": [
+          "Only individual lift elevations are published so far"
+        ]
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "named_lift_top",
+          "label": "Kronplatz 2 gondola top station",
+          "value": 2271,
+          "unit": "m",
+          "source": "https://www.kronplatz.com/news",
+          "note": "Lift-level figure; not the ski-area top.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "lift_served"
+        },
+        {
+          "key": "named_lift_bottom",
+          "label": "Kronplatz 1 gondola valley station",
+          "value": 975,
+          "unit": "m",
+          "source": "https://www.kronplatz.com/news",
+          "note": "Lift-level figure; not the ski-area base.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "lift_served"
+        },
+        {
+          "key": "named_lift_top_2",
+          "label": "Ruis gondola top station",
+          "value": 2277,
+          "unit": "m",
+          "source": "https://www.kronplatz.com/news",
+          "note": "Lift-level figure; do not promote the maximum as the resort top.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "lift_served"
+        },
+        {
+          "key": "season",
+          "label": "Winter investment",
+          "value": "New and renewed lifts documented for winter 2026; 2026/27 news section live",
+          "unit": "",
+          "source": "https://www.kronplatz.com/news",
+          "note": "No dated opening published.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "low",
+          "qualifier": "seasonal",
+          "scope": "local_resort"
+        }
+      ],
+      "ov": {
+        "text": "Kronplatz is a South Tyrol summit reached by gondolas from several valley stations. Recent investment added new gondolas and a heated chairlift, while the summit combines winter terrain with museums and the Concordia 2000 peace bell.",
+        "sources": [
+          "https://www.kronplatz.com/news"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_operator"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/474258174"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1789966"
+        },
+        {
+          "name": "official_operator",
+          "url": "https://www.kronplatz.com/news"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q61245618",
       "n": "Krvavec",
       "a": [
@@ -36088,6 +36859,192 @@
         {
           "name": "official_resort",
           "url": "http://www.espacerocdenfer.com"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q530721",
+      "n": "La Clusaz",
+      "a": [],
+      "l": "La Clusaz",
+      "r": "Haute-Savoie (Auvergne-Rhône-Alpes)",
+      "c": "France",
+      "p": [
+        45.88404,
+        6.450935
+      ],
+      "w": "https://www.laclusaz.com",
+      "cs": {
+        "state": "announced",
+        "label": "Opens 5 Dec 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.laclusaz.com/ski/ski-alpin/",
+        "opening_date": "2026-12-05",
+        "season_end": "2027-04-25"
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "base",
+          "label": "Lowest altitude",
+          "value": 1100,
+          "unit": "m",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Top of ski area",
+          "value": 2600,
+          "unit": "m",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "Lift service to the exact point is not explicitly stated.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "vertical",
+          "label": "Descent",
+          "value": 1500,
+          "unit": "m",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "Published as more than 1,500 metres.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "more_than",
+          "scope": "local_resort"
+        },
+        {
+          "key": "trails",
+          "label": "Pistes",
+          "value": 85,
+          "unit": "",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "difficulty_mix",
+          "label": "Published piste counts",
+          "value": "8 black · 30 red · 31 blue · 16 green",
+          "unit": "",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 47,
+          "unit": "",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "No breakdown published.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "piste_length",
+          "label": "Pistes",
+          "value": 125,
+          "unit": "km",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "Measured along the middle of each piste, including turns, according to the operator method.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "massifs",
+          "label": "Massifs",
+          "value": 5,
+          "unit": "",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 opening",
+          "value": "Balme opens 5–6 Dec then 12 Dec–25 Apr; other massifs open from 12 or 19 Dec to April",
+          "unit": "",
+          "source": "https://www.laclusaz.com/ski/ski-alpin/",
+          "note": "Weather-dependent; sector dates vary.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "La Clusaz spreads across five massifs in the Aravis, allowing skiers to follow the sun from L'Étale to Balme. Red and blue pistes dominate the network, and the resort publishes a descent of more than 1,500 metres from its 2,600-metre upper point.",
+        "sources": [
+          "https://www.laclusaz.com/ski/ski-alpin/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "tourism_authority"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/599427053"
+        },
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/relation/5994241"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q530721"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.laclusaz.com/ski/ski-alpin/"
         }
       ]
     },
@@ -37725,6 +38682,153 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q20669949"
+        }
+      ]
+    },
+    {
+      "id": "openstreetmap:way:599441663",
+      "n": "LAAX",
+      "a": [
+        "Flims Laax Falera",
+        "LAAX Ski Area"
+      ],
+      "l": "Laax / Flims / Falera",
+      "r": "Graubünden",
+      "c": "Switzerland",
+      "p": [
+        46.842216,
+        9.223139
+      ],
+      "w": "https://www.laax.com",
+      "cs": {
+        "state": "announced",
+        "label": "Opens 28 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.laax.com/en",
+        "opening_date": "2026-11-28"
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {
+        "elevation_m": null
+      },
+      "mf": [
+        {
+          "key": "piste_length",
+          "label": "Slopes",
+          "value": 216,
+          "unit": "km",
+          "source": "https://www.laax.com/en/ski-snowboard",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "lifts",
+          "label": "Lift facilities",
+          "value": 30,
+          "unit": "",
+          "source": "https://www.laax.com/en/ski-snowboard",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "terrain_parks",
+          "label": "Snowparks",
+          "value": 5,
+          "unit": "",
+          "source": "https://www.laax.com/en/ski-snowboard",
+          "note": "A separate natural off-slope park is not counted.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "base",
+          "label": "Lowest elevation",
+          "value": 1100,
+          "unit": "m",
+          "source": "https://www.laax.com/en/ski-snowboard",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Highest elevation (Vorab Glacier)",
+          "value": 3018,
+          "unit": "m",
+          "source": "https://www.laax.com/en/ski-snowboard",
+          "note": "Not explicitly identified as a lift top.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "season",
+          "label": "2026/27 season opening",
+          "value": "Season start 2026-11-28; daily operations from 2026-12-05",
+          "unit": "",
+          "source": "https://www.laax.com/en",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "LAAX is one connected ski area above Flims, Laax and Falera, rising to the Vorab Glacier. It is especially known for freestyle, with five snowparks and a large halfpipe, while most of its slopes offer a broad mix of blue and red terrain, much of it above 2,000 metres.",
+        "sources": [
+          "https://www.laax.com/en/ski-snowboard"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "official_operator"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/599441663"
+        },
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/relation/3578610"
+        },
+        {
+          "name": "official_operator",
+          "url": "https://www.laax.com/en/ski-snowboard"
+        },
+        {
+          "name": "official_operator",
+          "url": "https://www.laax.com/en"
         }
       ]
     },
@@ -40806,6 +41910,154 @@
       ]
     },
     {
+      "id": "wikidata:item:Q974478",
+      "n": "Les 2 Alpes",
+      "a": [
+        "Les Deux Alpes",
+        "Les 2 Alpes Ski Area",
+        "Les 2 Alpes 3600"
+      ],
+      "l": "Les Deux Alpes",
+      "r": "Isère (Auvergne-Rhône-Alpes)",
+      "c": "France",
+      "p": [
+        45.008923,
+        6.170615
+      ],
+      "w": "https://www.les2alpes.com",
+      "cs": {
+        "state": "announced",
+        "label": "Opens 28 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/",
+        "opening_date": "2026-11-28",
+        "season_end": "2027-05-02"
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "skiing_elevation",
+          "label": "Highest point of the ski area",
+          "value": 3600,
+          "unit": "m",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/",
+          "note": "Lift service to the exact point is not explicitly stated.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "vertical",
+          "label": "Maximum vertical descent",
+          "value": 2300,
+          "unit": "m",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/",
+          "note": "Operator-published descent from the glacier to Mont-de-Lans; not calculated.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "base",
+          "label": "Lowest point of descent (Mont-de-Lans)",
+          "value": 1300,
+          "unit": "m",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/",
+          "note": "End of the top-to-bottom descent, not the main resort base.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "piste_length",
+          "label": "Pistes",
+          "value": 220,
+          "unit": "km",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "night_skiing",
+          "label": "Night skiing",
+          "value": "Vallée Blanche: one red run (400 m vertical) plus one green run",
+          "unit": "",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/",
+          "note": "Seasonal offering.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "seasonal",
+          "scope": "local_resort"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 season",
+          "value": "Winter 2026-11-28 to 2027-05-02; glacier skiing to 2027-05-30; partial training opening to 2027-07-04",
+          "unit": "",
+          "source": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/",
+          "note": "Trail totals, difficulty mix and terrain area are withheld because official pages conflict.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Les 2 Alpes climbs from its village to a glacier at 3,600 metres in the Écrins massif, keeping most terrain above 2,000 metres and extending skiing into spring. One continuous, operator-published descent runs from the glacier to Mont-de-Lans, while beginner zones sit high at 2,100 and 2,600 metres.",
+        "sources": [
+          "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_resort"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/45146739"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q974478"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/domaine-skiable/"
+        },
+        {
+          "name": "official_resort",
+          "url": "https://www.les2alpes.com/hiver/skier-aux-2-alpes/"
+        }
+      ]
+    },
+    {
       "id": "wikidata:item:Q3230567",
       "n": "Les Angles",
       "a": [],
@@ -42377,6 +43629,164 @@
         {
           "name": "wikidata",
           "url": "https://www.wikidata.org/wiki/Q111818006"
+        }
+      ]
+    },
+    {
+      "id": "wikidata:item:Q110811619",
+      "n": "Livigno",
+      "a": [
+        "Livigno Ski Resort",
+        "Livigno Ski Area"
+      ],
+      "l": "Livigno",
+      "r": null,
+      "c": "Italy",
+      "p": [
+        46.52842,
+        10.122592
+      ],
+      "w": "https://www.skipasslivigno.com",
+      "ws": {
+        "resort": "https://www.skipasslivigno.com",
+        "lift_operator": "https://www.skipasslivigno.com",
+        "tourism": "https://www.livigno.eu"
+      },
+      "cs": {
+        "state": "announced",
+        "label": "Opens 28 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/",
+        "opening_date": "2026-11-28"
+      },
+      "dg": {
+        "card_facts": [
+          "piste_length",
+          "lifts",
+          "trails",
+          "season"
+        ],
+        "visible_cautions": [
+          "Totals cover the whole Livigno valley, including Mottolino and Carosello 3000"
+        ],
+        "related_profiles": [
+          {
+            "id": "wikidata:item:Q3866453",
+            "relationship": "linked_sector"
+          },
+          {
+            "id": "wikidata:item:Q123989949",
+            "relationship": "linked_sector"
+          }
+        ]
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {},
+      "mf": [
+        {
+          "key": "piste_length",
+          "label": "Slopes (whole domain)",
+          "value": 115,
+          "unit": "km",
+          "source": "https://www.skipasslivigno.com/en/lifts-and-slopes/",
+          "note": "Whole Livigno valley total.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "more_than",
+          "scope": "linked_domain"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts (whole domain)",
+          "value": 31,
+          "unit": "",
+          "source": "https://www.skipasslivigno.com/en/lifts-and-slopes/",
+          "note": "Whole Livigno valley total.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "linked_domain"
+        },
+        {
+          "key": "trails",
+          "label": "Slopes (whole domain)",
+          "value": 74,
+          "unit": "",
+          "source": "https://www.skipasslivigno.com/en/lifts-and-slopes/",
+          "note": "Whole Livigno valley total.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "linked_domain"
+        },
+        {
+          "key": "base_area_elevation",
+          "label": "Village altitude",
+          "value": 1816,
+          "unit": "m",
+          "source": "https://www.skipasslivigno.com/en/lifts-and-slopes/",
+          "note": "Not a lift base.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "other"
+        },
+        {
+          "key": "season",
+          "label": "2026–27 opening",
+          "value": "Season opens 2026-11-28; free ski-pass promotion to 2026-12-19",
+          "unit": "",
+          "source": "https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "linked_domain",
+          "source_period": "2026–27"
+        }
+      ],
+      "ov": {
+        "text": "Livigno spreads its skiing across both sides of a long, high valley, with sectors connected by the Skilink shuttle. This profile describes the shared Livigno domain, while Mottolino and Carosello 3000 remain identifiable member sectors.",
+        "sources": [
+          "https://www.skipasslivigno.com/en/lifts-and-slopes/"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "wikidata",
+        "official_lift_pass"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/540676705"
+        },
+        {
+          "name": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110811619"
+        },
+        {
+          "name": "official_lift_pass",
+          "url": "https://www.skipasslivigno.com/en/lifts-and-slopes/"
+        },
+        {
+          "name": "official_lift_pass",
+          "url": "https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/"
         }
       ]
     },
@@ -47522,6 +48932,12 @@
         -70.92582
       ],
       "w": "https://mont-sainte-anne.com/en/",
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://mont-sainte-anne.com/en/mont-sainte-anne-mountain-statistics/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -51075,6 +52491,12 @@
         146.439377
       ],
       "w": "https://www.mtbuller.com.au",
+      "cs": {
+        "state": "announced",
+        "label": "2027 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.mtbuller.com.au/winter/lift-passes/season-memberships"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -51518,6 +52940,12 @@
         -121.662381
       ],
       "w": "https://www.skihood.com",
+      "cs": {
+        "state": "announced",
+        "label": "2026–27 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.skihood.com/explore/help/FAQ"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {
@@ -54603,6 +56031,163 @@
         {
           "name": "official_resort",
           "url": "https://www.obergatlinburg.com/slope-report"
+        }
+      ]
+    },
+    {
+      "id": "openstreetmap:way:508236935",
+      "n": "Obergurgl-Hochgurgl",
+      "a": [
+        "Gurgl",
+        "Obergurgl",
+        "Hochgurgl"
+      ],
+      "l": "Gurgl (Ötztal)",
+      "r": "Tyrol",
+      "c": "Austria",
+      "p": [
+        46.879726,
+        11.05024
+      ],
+      "w": "https://www.gurgl.com",
+      "ws": {
+        "resort": "https://www.gurgl.com",
+        "lift_operator": null,
+        "tourism": "https://www.gurgl.com"
+      },
+      "cs": {
+        "state": "announced",
+        "label": "2026–27 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding/highlights-in-the-ski-area/night-skiing"
+      },
+      "dg": {
+        "card_facts": [
+          "piste_length",
+          "lifts",
+          "base",
+          "skiing_elevation",
+          "night_skiing"
+        ]
+      },
+      "s": "unknown",
+      "t": "downhill_or_mixed",
+      "f": {
+        "elevation_m": null
+      },
+      "mf": [
+        {
+          "key": "piste_length",
+          "label": "Slopes",
+          "value": 112,
+          "unit": "km",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "lifts",
+          "label": "Lifts",
+          "value": 25,
+          "unit": "",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "base",
+          "label": "Lowest altitude",
+          "value": 1800,
+          "unit": "m",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding",
+          "note": "",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "skiing_elevation",
+          "label": "Highest altitude of ski area",
+          "value": 3030,
+          "unit": "m",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding",
+          "note": "Range top; not explicitly described as a lift top.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "exact",
+          "scope": "local_resort"
+        },
+        {
+          "key": "night_skiing",
+          "label": "Night skiing",
+          "value": "Obergurgl Mondays and Hochgurgl Thursdays during the 2026–27 season",
+          "unit": "",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding/highlights-in-the-ski-area/night-skiing",
+          "note": "Detailed dated schedule published.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "high",
+          "qualifier": "seasonal",
+          "scope": "local_resort",
+          "source_period": "2026–27"
+        },
+        {
+          "key": "season",
+          "label": "Typical season",
+          "value": "November to April",
+          "unit": "",
+          "source": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding",
+          "note": "Typical season only; opening date not confirmed.",
+          "retrieved_at": "2026-11-06",
+          "source_published_at": null,
+          "status": "source_checked",
+          "confidence": "medium",
+          "qualifier": "seasonal",
+          "scope": "local_resort"
+        }
+      ],
+      "ov": {
+        "text": "Gurgl links Obergurgl and Hochgurgl at the head of the Ötztal by the Top Express gondola, with skiing from about 1,800 to 3,030 metres. The high base supports a long winter season, while both villages schedule weekly night skiing.",
+        "sources": [
+          "https://www.gurgl.com/en/activities/winter/skiing-snowboarding"
+        ],
+        "reviewed_at": "2026-11-06",
+        "kind": "editorial_summary"
+      },
+      "v": "candidate",
+      "q": "high",
+      "x": [
+        "openstreetmap",
+        "tourism_authority"
+      ],
+      "sx": [
+        {
+          "name": "openstreetmap",
+          "url": "https://www.openstreetmap.org/way/508236935"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding"
+        },
+        {
+          "name": "tourism_authority",
+          "url": "https://www.gurgl.com/en/activities/winter/skiing-snowboarding/highlights-in-the-ski-area/night-skiing"
         }
       ]
     },
@@ -59727,6 +61312,12 @@
         -70.131802
       ],
       "w": "https://skiportillo.com",
+      "cs": {
+        "state": "announced",
+        "label": "2027 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://skiportillo.com/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -66477,6 +68068,13 @@
         -116.618143
       ],
       "w": "https://www.schweitzer.com",
+      "cs": {
+        "state": "announced",
+        "label": "Opens 27 Nov 2026",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.schweitzer.com/",
+        "opening_date": "2026-11-27"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -77816,6 +79414,12 @@
         -70.3131
       ],
       "w": "https://www.sugarloaf.com",
+      "cs": {
+        "state": "announced",
+        "label": "2026–27 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.sugarloaf.com/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -80215,6 +81819,12 @@
         -105.450939
       ],
       "w": "https://www.skitaos.com",
+      "cs": {
+        "state": "announced",
+        "label": "2026–27 season announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.skitaos.com/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -81346,6 +82956,12 @@
         148.295149
       ],
       "w": "https://www.thredbo.com.au",
+      "cs": {
+        "state": "announced",
+        "label": "Winter 2027 passes announced",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.thredbo.com.au/the-mountain/"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -82465,6 +84081,12 @@
         168.883704
       ],
       "w": "https://cardrona-treblecone.com/treblecone",
+      "cs": {
+        "state": "not_confirmed",
+        "label": "Season dates not confirmed",
+        "checked_at": "2026-11-06",
+        "source_url": "https://cardrona-treblecone.com/treblecone"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
@@ -85123,6 +86745,14 @@
         -70.2498
       ],
       "w": "https://www.vallenevado.com",
+      "cs": {
+        "state": "open_now",
+        "label": "Open now",
+        "checked_at": "2026-11-06",
+        "source_url": "https://www.vallenevado.com/es/extension-temporada-2/",
+        "season_end": "2026-12-01",
+        "recheck_by": "2026-11-20"
+      },
       "s": "unknown",
       "t": "downhill_or_mixed",
       "f": {},
