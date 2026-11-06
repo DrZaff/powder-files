@@ -1,0 +1,2167 @@
+{
+  "input_rows": 7439,
+  "output_rows": 7053,
+  "repeated_stable_ids": 217,
+  "removed_repeated_rows": 386,
+  "reviewed_coordinate_overrides": 8,
+  "profiles": [
+    {
+      "stable_id": "wikidata:item:Q2098574",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.066667,
+        "longitude": 5.683333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2507894",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.094722,
+        "longitude": 6.930556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2717359",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.4233,
+        "longitude": 2.25667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2105942",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.6507,
+        "longitude": 13.4299
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1734799",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.9131,
+        "longitude": 8.36556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1943086",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 65.255193,
+        "longitude": 15.527264
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2292113",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.38,
+        "longitude": 11.535
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2292227",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.702765,
+        "longitude": 13.216437
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3311533",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 33.376389,
+        "longitude": -5.125
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3553510",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.254595,
+        "longitude": -2.968943
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3323063",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.2649,
+        "longitude": 5.9309
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q3541934",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.214323,
+        "longitude": 1.527607
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3401482",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.148083,
+        "longitude": 6.592186
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3568314",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.6017,
+        "longitude": -122.032
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3355038",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.0275,
+        "longitude": 6.325278
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3497434",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.3919,
+        "longitude": 6.10707
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3830853",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.757222,
+        "longitude": 6.539167
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1222398",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.4525,
+        "longitude": 6.566667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1235777",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 48.1794,
+        "longitude": 16.2557
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q950651",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.548056,
+        "longitude": 6.607222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q969723",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.5064,
+        "longitude": 6.67722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1261451",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.54139,
+        "longitude": 11.64482
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1242281",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.454444,
+        "longitude": 6.6925
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q929287",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.234722,
+        "longitude": 6.655556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1086218",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.83,
+        "longitude": 6.487222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q988298",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -36.4167,
+        "longitude": 148.333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q918282",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 45.17399,
+        "longitude": 6.653423
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1085709",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.682222,
+        "longitude": 6.1675
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q974478",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.007222,
+        "longitude": 6.121667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1164471",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.044722,
+        "longitude": 6.125556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q933254",
+      "source_rows": 6,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.930833,
+        "longitude": 6.721111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q877518",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.648611,
+        "longitude": 6.64
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1087781",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.730833,
+        "longitude": 6.843333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1335490",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.646447,
+        "longitude": 40.332206
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q885662",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -36.380278,
+        "longitude": 148.396667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1086670",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.513889,
+        "longitude": 6.550833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1086638",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.595556,
+        "longitude": 6.364722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q875914",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.0664,
+        "longitude": 14.0417
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1112934",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.371111,
+        "longitude": 6.311111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1279288",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.7625,
+        "longitude": 13.4481
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q873702",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.1392,
+        "longitude": 10.1589
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1219251",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.219722,
+        "longitude": 6.340833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5051409",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.1715,
+        "longitude": -73.4778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5175791",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.0755,
+        "longitude": -116.453
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q4829752",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -44.7784,
+        "longitude": 170.3301
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q4878141",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 41.9683,
+        "longitude": -111.542
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q4937866",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 43.76406,
+        "longitude": -116.10262
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q696634",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.111667,
+        "longitude": 5.875
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q844641",
+      "source_rows": 6,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.860833,
+        "longitude": 6.37
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q768759",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.055278,
+        "longitude": 6.775556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q840817",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.918056,
+        "longitude": 6.607778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q758345",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.2852,
+        "longitude": 8.9968
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q791858",
+      "source_rows": 9,
+      "coordinate_candidates": 3,
+      "selected_coordinates": {
+        "latitude": 46.7196,
+        "longitude": 8.03787
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q829385",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.895556,
+        "longitude": 6.641111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q818418",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.923056,
+        "longitude": 6.41
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q845847",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.083889,
+        "longitude": 6.675556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q819065",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.809444,
+        "longitude": 6.518889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q691461",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.042,
+        "longitude": 8.70344
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q752910",
+      "source_rows": 6,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.209167,
+        "longitude": 6.536944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3207973",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.6292,
+        "longitude": 4.08917
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3058117",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.4742,
+        "longitude": 2.12111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2865855",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 42.897769,
+        "longitude": -0.395971
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q3058219",
+      "source_rows": 9,
+      "coordinate_candidates": 3,
+      "selected_coordinates": {
+        "latitude": 45.2428,
+        "longitude": 4.547
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q3216214",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.6723,
+        "longitude": 2.92588
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3086722",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.064675,
+        "longitude": 14.136876
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2963663",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.128056,
+        "longitude": 77.080833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3179913",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.351247,
+        "longitude": 1.902092
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2909513",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 42.5211,
+        "longitude": 2.0644
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q534206",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.8925,
+        "longitude": 6.713611
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q562341",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 35.892374,
+        "longitude": 127.741135
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q591490",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.3953,
+        "longitude": 7.10206
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q259283",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.856944,
+        "longitude": 6.6175
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q127037",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.19562,
+        "longitude": 6.76789
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q331508",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.795278,
+        "longitude": 6.927222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q389882",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.941944,
+        "longitude": 6.425278
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q530324",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.006944,
+        "longitude": 6.691944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q330899",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.469722,
+        "longitude": 6.909444
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q366962",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.889167,
+        "longitude": -0.113611
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q650176",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.661111,
+        "longitude": 6.084167
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q207589",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.449722,
+        "longitude": 6.977222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q530721",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.904167,
+        "longitude": 6.423056
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q196894",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.8703,
+        "longitude": 12.7892
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q303504",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.068889,
+        "longitude": 6.045833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q624323",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.046111,
+        "longitude": 6.305833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q397919",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 34.799722,
+        "longitude": 72.571667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q652398",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.409722,
+        "longitude": 6.348333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q290817",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.415,
+        "longitude": 6.633889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q592910",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 47.333333,
+        "longitude": 12.333333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q567783",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.2275,
+        "longitude": 6.741667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q476465",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.7,
+        "longitude": 6.868333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q546015",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.631944,
+        "longitude": 1.499444
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q44500961",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.25389,
+        "longitude": 12.279482
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q60446935",
+      "source_rows": 5,
+      "coordinate_candidates": 0,
+      "selected_coordinates": null,
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q49177812",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 35.796325,
+        "longitude": -105.801281
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q30158143",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.886756,
+        "longitude": 6.60138
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q30141734",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.43276,
+        "longitude": 6.393569
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q31619759",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.1433,
+        "longitude": 13.4583
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5580979",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.356,
+        "longitude": 14.9316
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5712297",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 49.3769,
+        "longitude": -121.935
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5675738",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 40.823422,
+        "longitude": -3.962544
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q5755786",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.3835,
+        "longitude": 13.0054
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q6363223",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.33281,
+        "longitude": 13.538654
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q6388924",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 37.8114,
+        "longitude": -107.657
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q5509476",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.324,
+        "longitude": 142.352
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3230435",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.643056,
+        "longitude": 6.062222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3227291",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.7964,
+        "longitude": -0.531957
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q865733",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.141944,
+        "longitude": 6.762222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1388437",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.157778,
+        "longitude": 6.076944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1548153",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 38.9353,
+        "longitude": -119.94
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q1502252",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.699167,
+        "longitude": 0.946667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q872240",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.68097,
+        "longitude": 15.37767
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q857209",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.092778,
+        "longitude": 7.050556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1479371",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -36.381667,
+        "longitude": 148.428889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q1655578",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.108889,
+        "longitude": 10.056389
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3268287",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.791,
+        "longitude": 138.785
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q668034",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.380278,
+        "longitude": 6.504444
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3230567",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 42.576967,
+        "longitude": 2.068778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2717381",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.5506,
+        "longitude": 1.08083
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3257491",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.6837,
+        "longitude": 0.612216
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q4251293",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 36.702077,
+        "longitude": 137.837133
+      },
+      "selection": "reviewed_override"
+    },
+    {
+      "stable_id": "wikidata:item:Q3291410",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 46.5332,
+        "longitude": 15.6018
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q2747063",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.477882,
+        "longitude": 0.869363
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q873234",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.3833,
+        "longitude": 13.4667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q60985314",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.753056,
+        "longitude": 138.516667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q104666663",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.071398,
+        "longitude": 4.128216
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q3234776",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.0386,
+        "longitude": 5.70147
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q4668292",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.26667,
+        "longitude": 6.7325
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q61202398",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 47.80067,
+        "longitude": 6.84972
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q61279053",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.222436,
+        "longitude": 11.366271
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q100873164",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.416836,
+        "longitude": 9.809167
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q99437634",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.307417,
+        "longitude": 7.467722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q61473206",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.682698,
+        "longitude": 5.977759
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q61152164",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 57.1171,
+        "longitude": -3.6423
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q97435601",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 37.022306,
+        "longitude": 138.727667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q111983623",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -36.86352,
+        "longitude": 147.28154
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q110914605",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 48.1342,
+        "longitude": 7.09324
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q115376642",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.333153,
+        "longitude": 6.050983
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q113558466",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.054484,
+        "longitude": 6.700208
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q120311920",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.23917,
+        "longitude": 6.26778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q120312263",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 44.346324,
+        "longitude": 6.294827
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q120307937",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.607598,
+        "longitude": 6.100984
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q124257373",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.743306,
+        "longitude": -85.514528
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q134722942",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.130611,
+        "longitude": 9.730439
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q135001625",
+      "source_rows": 3,
+      "coordinate_candidates": 0,
+      "selected_coordinates": null,
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q124610584",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.2203,
+        "longitude": 12.6993
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q120311909",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.21306,
+        "longitude": 6.26722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7400581",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.273611,
+        "longitude": -7.292222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7457464",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 40.0231,
+        "longitude": -79.2928
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7548314",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 34.2286,
+        "longitude": -116.8911
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q137962399",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.642805,
+        "longitude": 6.061377
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q138779655",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.312661,
+        "longitude": 7.480623
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q141016381",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.1697,
+        "longitude": 13.6761
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7284711",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": -41.8756,
+        "longitude": 172.86095
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7253816",
+      "source_rows": 4,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 47.1541,
+        "longitude": 7.177
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q6800245",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 43.69257,
+        "longitude": -74.96128
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7067399",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.908333,
+        "longitude": 138.481944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q6684278",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 45.69,
+        "longitude": -113.95
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q6675506",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.455,
+        "longitude": -115.708
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11234464",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.925556,
+        "longitude": 138.805556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11222992",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.676389,
+        "longitude": 137.822222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q9149199",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 37.5833,
+        "longitude": 140.033
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11263630",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.8625,
+        "longitude": 138.725833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11268009",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.030417,
+        "longitude": 141.278083
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11324360",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.848333,
+        "longitude": 140.629722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11311262",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 35.395,
+        "longitude": 134.563889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11316479",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.85,
+        "longitude": 138.265278
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11312595",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 35.3,
+        "longitude": 138.768361
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11360149",
+      "source_rows": 8,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 37.033333,
+        "longitude": 138.816667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11283830",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 35.502778,
+        "longitude": 134.677222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11296546",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.951389,
+        "longitude": 138.778611
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11353840",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.636111,
+        "longitude": 138.505556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11324352",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.853333,
+        "longitude": 140.648611
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11297811",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 43.066944,
+        "longitude": 140.989444
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11496460",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.936111,
+        "longitude": 138.383333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11434570",
+      "source_rows": 2,
+      "coordinate_candidates": 0,
+      "selected_coordinates": null,
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11445623",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.798889,
+        "longitude": 139.009167
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11548242",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.855278,
+        "longitude": 139.076111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11445804",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.77,
+        "longitude": 138.5225
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11500723",
+      "source_rows": 8,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 36.8525,
+        "longitude": 138.289722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11491193",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.733333,
+        "longitude": 138.516667
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11548212",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.833333,
+        "longitude": 139.083333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11447091",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.856667,
+        "longitude": 138.155556
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11563653",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.941111,
+        "longitude": 138.793889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11445589",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 40.084889,
+        "longitude": 141.189889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11637560",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.338889,
+        "longitude": 138.644444
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q12066330",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 41.38,
+        "longitude": -111.78
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11635356",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.898611,
+        "longitude": 138.172222
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11924602",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.564263,
+        "longitude": 1.094073
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11632877",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.816667,
+        "longitude": 138.95
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11637301",
+      "source_rows": 4,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.102778,
+        "longitude": 138.208333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q14684041",
+      "source_rows": 2,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 39.30157,
+        "longitude": -120.33381
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q16694996",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 48.662901,
+        "longitude": 22.643438
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q16854984",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.1653,
+        "longitude": 6.9889
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q16532989",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.451249,
+        "longitude": 3.748092
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q16964615",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 44.51819,
+        "longitude": 5.93675
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11580462",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.663056,
+        "longitude": 137.833333
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q14680584",
+      "source_rows": 6,
+      "coordinate_candidates": 2,
+      "selected_coordinates": {
+        "latitude": 32.446861,
+        "longitude": -110.781319
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q14538243",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 51.75662,
+        "longitude": 10.61709
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11586538",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.976111,
+        "longitude": 138.794722
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11392366",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 37.111111,
+        "longitude": 138.977778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q116459866",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.911072,
+        "longitude": 12.35121
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q14238520",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.303611,
+        "longitude": 7.051389
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11419835",
+      "source_rows": 5,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.818333,
+        "longitude": 139.211111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11392464",
+      "source_rows": 6,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 34.766944,
+        "longitude": 135.241944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q105320204",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.678889,
+        "longitude": 138.496389
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q11580460",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.765278,
+        "longitude": 137.875
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q7374280",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.102194,
+        "longitude": 138.234361
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q26270929",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.434722,
+        "longitude": 6.637778
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q23689784",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 47.280193,
+        "longitude": 9.890803
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q18533412",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 46.76877,
+        "longitude": 9.61121
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q18180984",
+      "source_rows": 3,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.3344,
+        "longitude": 1.93461
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q18661542",
+      "source_rows": 2,
+      "coordinate_candidates": 0,
+      "selected_coordinates": null,
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q18339309",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.796389,
+        "longitude": 138.961111
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q19406907",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 45.795,
+        "longitude": 6.505
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q18681043",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 61.388056,
+        "longitude": 24.510833
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q21236794",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 42.179312,
+        "longitude": 14.10633
+      },
+      "selection": "deterministic_first_source_coordinate"
+    },
+    {
+      "stable_id": "wikidata:item:Q17226456",
+      "source_rows": 2,
+      "coordinate_candidates": 1,
+      "selected_coordinates": {
+        "latitude": 36.068889,
+        "longitude": 138.301944
+      },
+      "selection": "deterministic_first_source_coordinate"
+    }
+  ]
+}

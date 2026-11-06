@@ -25,6 +25,10 @@ import { applyOfficialBatch023 } from './official-batch-023.mjs'
 import { applyOfficialBatch024 } from './official-batch-024.mjs'
 import { applyOfficialBatch025 } from './official-batch-025.mjs'
 import { applyOfficialBatch026 } from './official-batch-026.mjs'
+import { applyOfficialBatch027 } from './official-batch-027.mjs'
+import { applyOfficialBatch028 } from './official-batch-028.mjs'
+import { applyOfficialBatch028Group2 } from './official-batch-028-group-2.mjs'
+import { applyOfficialBatch028Group3 } from './official-batch-028-group-3.mjs'
 import { applyCuratedExclusions } from './curated-exclusions.mjs'
 import { applyIdentityResolutions } from './identity-resolutions.mjs'
 import { applyResortSummaries } from './resort-summaries.mjs'
@@ -34,7 +38,8 @@ import { readFile } from 'node:fs/promises'
 import { COLLECTION_DATE, NEAR_MATCH_KM, STRONG_MATCH_KM } from './config.mjs'
 import { fromOsm, fromWikidata } from './lib/candidate.mjs'
 import { classifyCandidate } from './lib/classify.mjs'
-import { deduplicate } from './lib/dedupe.mjs'
+import { collapseStableIds, deduplicate } from './lib/dedupe.mjs'
+import { coordinateOverrides } from './source-row-resolutions.mjs'
 import { field } from './lib/provenance.mjs'
 import { normalizeName } from './lib/normalize.mjs'
 import { writeJson } from './lib/http.mjs'
@@ -43,8 +48,10 @@ const root=new URL('../',import.meta.url),cache=new URL('./cache/',import.meta.u
 async function cached(name){try{return JSON.parse(await readFile(new URL(`${name}.json`,cache),'utf8'))}catch{return {source:name,collected_at:COLLECTION_DATE,records:[]}}}
 const wd=await cached('wikidata'),osm=await cached('openstreetmap')
 const raw=[...wd.records.map(x=>fromWikidata(x,wd.collected_at)),...osm.records.map(x=>fromOsm(x,osm.collected_at))].filter(Boolean)
+const collapsedSourceRows=collapseStableIds(raw,{coordinateOverrides})
+await writeJson(new URL('source-row-collapse-report.json',generated),collapsedSourceRows.report)
 const included=[],exclusions=[]
-for(const candidate of raw){const classification=classifyCandidate(candidate);candidate.operating_status=classification.operating_status;candidate.resort_type=classification.resort_type;if(classification.included)included.push(candidate);else exclusions.push({stable_id:candidate.stable_id,name:candidate.name,source_records:candidate.source_records,reason:classification.reason})}
+for(const candidate of collapsedSourceRows.records){const classification=classifyCandidate(candidate);candidate.operating_status=classification.operating_status;candidate.resort_type=classification.resort_type;if(classification.included)included.push(candidate);else exclusions.push({stable_id:candidate.stable_id,name:candidate.name,source_records:candidate.source_records,reason:classification.reason})}
 
 const bristolId='powderfiles:verified:bristol-mountain'
 included.unshift({stable_id:bristolId,name:'Bristol Mountain',normalized_name:normalizeName('Bristol Mountain'),alternate_names:['Bristol Mountain Ski Resort'],locality:'Canandaigua',region:'New York',country:'United States',coordinates:{latitude:42.7456,longitude:-77.4044},official_website:'https://www.bristolmountain.com',operating_status:'active',resort_type:'downhill_or_mixed',mountain_facts:{summit_elevation_ft:2200,base_elevation_ft:1000,vertical_drop_ft:1200,trails:39,skiable_acres:138},source_records:[{source:'powderfiles',record_id:'bristol-mountain',url:null,license:'site-owned',collected_at:COLLECTION_DATE}],collection_date:COLLECTION_DATE,verification_status:'verified',confidence:'high',field_provenance:{name:field('Bristol Mountain',bristolId,'high'),coordinates:field({latitude:42.7456,longitude:-77.4044},bristolId,'high'),country:field('United States',bristolId,'high'),mountain_facts:field({summit_elevation_ft:2200,base_elevation_ft:1000,vertical_drop_ft:1200,trails:39,skiable_acres:138},bristolId,'high')},rawTags:{}})
@@ -79,7 +86,16 @@ await writeJson(new URL('official-batch-023-report.json',generated),applyOfficia
 await writeJson(new URL('official-batch-024-report.json',generated),applyOfficialBatch024(canonical))
 await writeJson(new URL('official-batch-025-report.json',generated),applyOfficialBatch025(canonical))
 await writeJson(new URL('official-batch-026-report.json',generated),applyOfficialBatch026(canonical))
+await writeJson(new URL('official-batch-027-report.json',generated),applyOfficialBatch027(canonical))
+await writeJson(new URL('official-batch-028-report.json',generated),applyOfficialBatch028(canonical))
+await writeJson(new URL('official-batch-028-group-2-report.json',generated),applyOfficialBatch028Group2(canonical))
+await writeJson(new URL('official-batch-028-group-3-report.json',generated),applyOfficialBatch028Group3(canonical))
 await writeJson(new URL('curated-exclusions-report.json',generated),applyCuratedExclusions(canonical,exclusions))
+const activeIds=new Set(canonical.map(record=>record.stable_id))
+const unresolvedAmbiguities=ambiguities
+  .filter(item=>activeIds.has(item.record_id))
+  .map(item=>({...item,candidate_matches:item.candidate_matches.filter(match=>match.record_id!==item.record_id&&activeIds.has(match.record_id))}))
+  .filter(item=>item.candidate_matches.length)
 const mountainCache=await cached('mountain-wikidata')
 const enrichmentQueue=enrichMountains(canonical,mountainCache.queried_ids?mountainCache:null)
 await writeJson(new URL('mountain-research-queue.json',generated),enrichmentQueue)
@@ -92,12 +108,12 @@ canonical.sort((a,b)=>a.name.localeCompare(b.name)||a.stable_id.localeCompare(b.
 
 const sources=Object.groupBy(canonical.flatMap(r=>r.source_records),r=>r.source)
 const countries=Object.groupBy(canonical,r=>r.country||'Unknown')
-const summary={generated_at:COLLECTION_DATE,total_raw:raw.length,canonical_count:canonical.length,verified_count:canonical.filter(r=>r.verification_status==='verified').length,candidate_count:canonical.filter(r=>r.verification_status==='candidate').length,uncertain_count:canonical.filter(r=>r.verification_status==='uncertain').length,incomplete_count:canonical.filter(r=>r.verification_status==='incomplete').length,ambiguity_count:ambiguities.length,exclusion_count:exclusions.length,country_count:Object.keys(countries).filter(x=>x!=='Unknown').length,unknown_country_count:(countries.Unknown||[]).length,source_coverage:Object.fromEntries(Object.entries(sources).map(([k,v])=>[k,new Set(v.map(x=>x.record_id)).size])),country_counts:Object.fromEntries(Object.entries(countries).map(([k,v])=>[k,v.length]).sort((a,b)=>b[1]-a[1])),exclusion_reasons:Object.fromEntries(Object.entries(Object.groupBy(exclusions,x=>x.reason)).map(([k,v])=>[k,v.length]))}
+const summary={generated_at:COLLECTION_DATE,total_raw:raw.length,canonical_count:canonical.length,verified_count:canonical.filter(r=>r.verification_status==='verified').length,candidate_count:canonical.filter(r=>r.verification_status==='candidate').length,uncertain_count:canonical.filter(r=>r.verification_status==='uncertain').length,incomplete_count:canonical.filter(r=>r.verification_status==='incomplete').length,ambiguity_count:unresolvedAmbiguities.length,exclusion_count:exclusions.length,country_count:Object.keys(countries).filter(x=>x!=='Unknown').length,unknown_country_count:(countries.Unknown||[]).length,source_coverage:Object.fromEntries(Object.entries(sources).map(([k,v])=>[k,new Set(v.map(x=>x.record_id)).size])),country_counts:Object.fromEntries(Object.entries(countries).map(([k,v])=>[k,v.length]).sort((a,b)=>b[1]-a[1])),exclusion_reasons:Object.fromEntries(Object.entries(Object.groupBy(exclusions,x=>x.reason)).map(([k,v])=>[k,v.length]))}
 const quality={...summary,coordinate_coverage:Number((canonical.filter(r=>r.coordinates).length/canonical.length*100||0).toFixed(1)),country_coverage:Number((canonical.filter(r=>r.country).length/canonical.length*100||0).toFixed(1)),website_coverage:Number((canonical.filter(r=>r.official_website).length/canonical.length*100||0).toFixed(1)),limitations:['Candidate status does not independently prove current operation or lift service.','OSM coverage and tagging vary significantly by country.','Wikidata ski-resort classification is incomplete and may include stale entities.','Locality and region are not reverse-geocoded; missing values remain incomplete.','Deterministic deduplication intentionally favors false negatives over unsafe merges.']}
 const publicRecords=canonical.filter(({confidence})=>confidence==='medium'||confidence==='high')
 const compact=publicRecords.map(({stable_id,name,alternate_names,locality,region,country,coordinates,official_website,operating_status,resort_type,mountain_facts,mountain_observations,overview,verification_status,confidence,source_records})=>({id:stable_id,n:name,a:alternate_names,l:locality,r:region,c:country,p:coordinates?[coordinates.latitude,coordinates.longitude]:null,w:official_website,s:operating_status,t:resort_type,f:mountain_facts||{},mf:mountain_observations||[],...(overview?{ov:overview}:{}),v:verification_status,q:confidence,x:[...new Set(source_records.map(s=>s.source))],sx:source_records.filter(s=>s.url).map(s=>({name:s.source,url:s.url}))}))
 const publicSummary={...summary,canonical_count:publicRecords.length,country_count:new Set(publicRecords.map(r=>r.country).filter(Boolean)).size,verified_count:publicRecords.filter(r=>r.verification_status==='verified').length}
-await Promise.all([writeJson(new URL('canonical-resorts.json',generated),canonical),writeJson(new URL('ambiguities.json',generated),ambiguities),writeJson(new URL('exclusions.json',generated),exclusions),writeJson(new URL('summary.json',generated),summary),writeJson(new URL('quality-report.json',generated),quality),writeJson(new URL('public/data/resorts.compact.json',root),{generated_at:COLLECTION_DATE,summary:publicSummary,records:compact})])
+await Promise.all([writeJson(new URL('canonical-resorts.json',generated),canonical),writeJson(new URL('ambiguities.json',generated),unresolvedAmbiguities),writeJson(new URL('exclusions.json',generated),exclusions),writeJson(new URL('summary.json',generated),summary),writeJson(new URL('quality-report.json',generated),quality),writeJson(new URL('public/data/resorts.compact.json',root),{generated_at:COLLECTION_DATE,summary:publicSummary,records:compact})])
 const md=`# Global Resort Data Quality Report\n\nGenerated: ${COLLECTION_DATE}\n\n- Raw candidates: ${summary.total_raw}\n- Canonical records: ${summary.canonical_count}\n- Verified: ${summary.verified_count}\n- Candidates: ${summary.candidate_count}\n- Uncertain: ${summary.uncertain_count}\n- Incomplete: ${summary.incomplete_count}\n- Exclusions: ${summary.exclusion_count}\n- Ambiguities: ${summary.ambiguity_count}\n- Represented countries: ${summary.country_count}\n- Coordinate coverage: ${quality.coordinate_coverage}%\n- Country coverage: ${quality.country_coverage}%\n- Website coverage: ${quality.website_coverage}%\n\n## Limitations\n\n${quality.limitations.map(x=>`- ${x}`).join('\n')}\n`
 await import('node:fs/promises').then(fs=>fs.writeFile(new URL('QUALITY_REPORT.md',generated),md))
 console.log(JSON.stringify(summary,null,2))

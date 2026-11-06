@@ -3256,6 +3256,42 @@
     "reviewed_at": "2026-10-04"
   },
   {
+    "stable_id": "wikidata:item:Q3058219",
+    "name": "Espace nordique des monts du Pilat",
+    "source_records": [
+      {
+        "source": "wikidata",
+        "record_id": "Q3058219",
+        "url": "https://www.wikidata.org/wiki/Q3058219",
+        "license": "CC0-1.0",
+        "collected_at": "2026-08-30T13:07:28.966Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.cc-montsdupilat.fr/loisirs-et-tourisme/sports-et-loisirs/ski-de-fond-activites-neige/",
+    "note": "The managing public authority describes three Nordic domains for cross-country skiing, snowshoeing and related activities, not an ordinary lift-served downhill resort.",
+    "reviewed_at": "2026-11-06"
+  },
+  {
+    "stable_id": "openstreetmap:way:1233552673",
+    "name": "Sugarloaf Outdoor Center",
+    "source_records": [
+      {
+        "source": "openstreetmap",
+        "record_id": "way/1233552673",
+        "url": "https://www.openstreetmap.org/way/1233552673",
+        "license": "ODbL-1.0",
+        "collected_at": "2026-08-30T13:12:44.566Z"
+      }
+    ],
+    "reason": "nordic_only",
+    "curated": true,
+    "evidence_url": "https://www.sugarloaf.com/the-outdoor-center",
+    "note": "This identity is the separate Nordic Outdoor Center and must not be merged into Sugarloaf downhill resort totals.",
+    "reviewed_at": "2026-11-06"
+  },
+  {
     "stable_id": "wikidata:item:Q96392149",
     "name": "Martin Ski Dome",
     "source_records": [
@@ -3681,13 +3717,6 @@
         "url": "https://www.wikidata.org/wiki/Q5675738",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q5675738",
-        "url": "https://www.wikidata.org/wiki/Q5675738",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
       }
     ],
     "reason": "closed_or_disused",
@@ -3928,13 +3957,6 @@
         "url": "https://www.wikidata.org/wiki/Q3541934",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q3541934",
-        "url": "https://www.wikidata.org/wiki/Q3541934",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
       }
     ],
     "reason": "nordic_only",
@@ -3993,13 +4015,6 @@
     "stable_id": "wikidata:item:Q3355038",
     "name": "Orange (ski resort)",
     "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q3355038",
-        "url": "https://www.wikidata.org/wiki/Q3355038",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
       {
         "source": "wikidata",
         "record_id": "Q3355038",
@@ -4144,20 +4159,6 @@
     "stable_id": "wikidata:item:Q303504",
     "name": "La Garde",
     "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q303504",
-        "url": "https://www.wikidata.org/wiki/Q303504",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q303504",
-        "url": "https://www.wikidata.org/wiki/Q303504",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
       {
         "source": "wikidata",
         "record_id": "Q303504",
@@ -4436,13 +4437,6 @@
         "url": "https://www.wikidata.org/wiki/Q16964615",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q16964615",
-        "url": "https://www.wikidata.org/wiki/Q16964615",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
       }
     ],
     "reason": "closed_or_disused",
@@ -4539,13 +4533,6 @@
         "url": "https://www.wikidata.org/wiki/Q14538243",
         "license": "CC0-1.0",
         "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q14538243",
-        "url": "https://www.wikidata.org/wiki/Q14538243",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
       }
     ],
     "reason": "lift_free_or_non_resort",
@@ -4588,20 +4575,6 @@
     "stable_id": "wikidata:item:Q1164471",
     "name": "Le Freney-d'Oisans",
     "source_records": [
-      {
-        "source": "wikidata",
-        "record_id": "Q1164471",
-        "url": "https://www.wikidata.org/wiki/Q1164471",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q1164471",
-        "url": "https://www.wikidata.org/wiki/Q1164471",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
       {
         "source": "wikidata",
         "record_id": "Q1164471",
@@ -4956,20 +4929,6 @@
         "url": "https://www.openstreetmap.org/way/447909361",
         "license": "ODbL-1.0",
         "collected_at": "2026-08-30T13:12:44.566Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q104666663",
-        "url": "https://www.wikidata.org/wiki/Q104666663",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
-      },
-      {
-        "source": "wikidata",
-        "record_id": "Q104666663",
-        "url": "https://www.wikidata.org/wiki/Q104666663",
-        "license": "CC0-1.0",
-        "collected_at": "2026-08-30T13:07:28.966Z"
       }
     ],
     "reason": "nordic_only",
