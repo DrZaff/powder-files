@@ -1,0 +1,35 @@
+/* Night aurora design tokens. Owner: Claude (design system).
+   Every page can use these; Codex applies them to the directory, field guide and auth pages.
+   Contrast notes: --na-text, --na-muted and --na-faint all pass WCAG AA on --na-bg and --na-surface. */
+:root{
+  /* Surfaces, darkest to lightest */
+  --na-bg:#040d10;
+  --na-bg-raised:#071518;
+  --na-surface:#0a1c1f;
+  --na-surface-2:#0f262a;
+  --na-surface-hover:#133035;
+  /* Hairlines and contour accents */
+  --na-line:rgba(126,240,218,.12);
+  --na-line-strong:rgba(126,240,218,.26);
+  /* Text */
+  --na-text:#eef6f3;
+  --na-muted:#a9c3bc;
+  --na-faint:#86a39c;
+  /* Accents: cyan for structure and scope, gold for action and status, amber only for the primary search button */
+  --na-cyan:#7ef0da;
+  --na-teal:#2fb79c;
+  --na-gold:#f2c66f;
+  --na-gold-ink:#0b2622;
+  --na-amber:#e0763f;
+  --na-aurora:#3dffb0;
+  /* Season status pills */
+  --na-open:#1d5a3f; --na-open-ink:#c9f5dc;
+  --na-announced:#4a3a14; --na-announced-ink:#ffe2a3;
+  --na-unconfirmed:#2c3a37; --na-unconfirmed-ink:#dbe4e1;
+  /* Shape and depth */
+  --na-radius-sm:.6rem; --na-radius:1rem; --na-radius-lg:1.4rem; --na-pill:999px;
+  --na-shadow:0 24px 60px rgba(0,0,0,.45);
+  /* The recurring topographic motif */
+  --na-contour:repeating-radial-gradient(ellipse at 85% 110%,transparent 0 34px,rgba(126,240,218,.06) 35px 36px,transparent 37px 58px);
+  --na-ease:cubic-bezier(.2,.7,.2,1);
+}
