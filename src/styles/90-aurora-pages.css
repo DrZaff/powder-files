@@ -1,0 +1,91 @@
+/* Night aurora application layer. Owner: Codex (directory, field guides, auth and future tools). */
+
+/* Shared non-home surfaces */
+.directory-section,.detail-main,.placeholder-page,.auth-form-panel,.not-found{color:var(--na-text)}
+.directory-section{background:var(--na-bg);background-image:var(--na-contour);padding:2.5rem 0 5rem}
+.directory-section a,.detail-main a,.at-a-glance a{color:var(--na-cyan)}
+
+/* Directory */
+.page-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--na-bg) 0%,#082428 58%,#0b3435 100%);color:var(--na-text);padding:5.5rem 0 4rem}
+.page-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 14%,rgba(61,255,176,.15),transparent 27%),var(--na-contour);pointer-events:none}
+.page-hero .container{position:relative}.page-hero .eyebrow{color:var(--na-cyan)}
+.page-hero h1{color:var(--na-text);font-size:clamp(3.5rem,6vw,6rem);line-height:.9;margin:.5rem 0}
+.page-hero h1:after{content:"Explore farther.";display:block;margin-top:.35rem;color:var(--na-gold);font:500 italic .45em var(--font-accent);letter-spacing:-.03em}
+.page-hero p{max-width:700px;color:var(--na-muted);font-size:1.05rem}
+.directory-summary,.country-shortcuts{position:relative}
+.directory-summary span,.country-shortcuts button{border-color:var(--na-line-strong);background:rgba(10,28,31,.72);color:var(--na-text);backdrop-filter:blur(8px)}
+.directory-summary strong{color:var(--na-gold)}.country-shortcuts>span{color:var(--na-muted)}.country-shortcuts small{background:rgba(126,240,218,.12)}
+.country-shortcuts button:hover,.country-shortcuts button.active{background:var(--na-cyan);border-color:var(--na-cyan);color:var(--na-gold-ink)}
+.filters{border-color:var(--na-line);border-radius:var(--na-radius);background:var(--na-surface);color:var(--na-text);box-shadow:var(--na-shadow)}
+.filter-title,.status-key{border-color:var(--na-line)}
+.select-wrap select,.directory-search{border-color:var(--na-line-strong);background:var(--na-surface-2);color:var(--na-text)}
+.select-wrap select:focus-visible,.directory-search:focus-within{outline:3px solid color-mix(in srgb,var(--na-cyan) 35%,transparent);outline-offset:2px;border-color:var(--na-cyan)}
+.directory-search{height:64px;border-radius:var(--na-radius);box-shadow:0 14px 36px rgba(0,0,0,.28);padding:0 1.2rem}
+.directory-search input{color:var(--na-text)}.directory-search input::placeholder{color:var(--na-faint)}
+.clear-button,.active-filters button{color:var(--na-cyan)}.results-bar,.sort-control{color:var(--na-muted)}.results-bar>span strong{color:var(--na-text);font-size:1.25rem}
+.active-filters span{border-color:var(--na-line);background:var(--na-surface-2);color:var(--na-cyan)}
+.resort-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.directory-section .global-card{grid-template-columns:1fr;min-height:410px;border:1px solid var(--na-line);border-radius:var(--na-radius-lg);background:var(--na-surface);color:var(--na-text);box-shadow:0 12px 40px rgba(0,0,0,.28);transition:transform .25s var(--na-ease),box-shadow .25s var(--na-ease),border-color .25s var(--na-ease)}
+.directory-section .global-card:hover{transform:translateY(-6px);border-color:var(--na-line-strong);box-shadow:var(--na-shadow)}
+.directory-section .global-card .resort-card-main{display:block;padding:1.35rem}.directory-section .global-card h2 a{color:var(--na-text)}
+.directory-section .global-card .resort-card-main>p,.directory-section .global-card .mountain-overview .overview-copy,.directory-section .source-note{color:var(--na-muted)}
+.directory-section .global-card .mountain-overview{border-color:var(--na-gold);background:var(--na-bg-raised)}
+.directory-section .global-card .overview-label,.directory-section .global-card .overview-sources a{color:var(--na-cyan)}
+.directory-section .global-card .provenance-row{align-items:flex-start;min-width:0;margin-top:1rem;border-color:var(--na-line);padding-top:.8rem;color:var(--na-muted)}
+.directory-section .global-card .card-arrow{display:none}
+.directory-section .global-card .resort-art{min-height:145px;background:linear-gradient(145deg,#0c3638,#12665d)}
+.directory-section .global-card:nth-child(4n+2) .resort-art{background:linear-gradient(145deg,#2d251c,#8a6231)}
+.directory-section .global-card:nth-child(4n+3) .resort-art{background:linear-gradient(145deg,#082d37,#14536a)}
+.directory-section .global-card:nth-child(4n+4) .resort-art{background:linear-gradient(145deg,#141b37,#343b70)}
+.directory-section .season-status.compact{width:100%;border-color:var(--na-line);background:var(--na-bg-raised);color:var(--na-text)}
+.directory-section .season-status.compact small{color:var(--na-muted)}
+.directory-section .loading-state,.directory-section .empty-state{border-color:var(--na-line-strong);background:var(--na-surface);color:var(--na-text)}
+.directory-section .loading-state p,.directory-section .empty-state p{color:var(--na-muted)}
+.directory-section .empty-state>span{background:var(--na-surface-2);color:var(--na-cyan)}
+
+/* Field guides */
+.detail-hero{background:var(--na-bg);color:var(--na-text)}
+.detail-art{background:radial-gradient(circle at 77% 28%,rgba(61,255,176,.13),transparent 25%),linear-gradient(120deg,var(--na-bg) 22%,#0a3435 100%)}
+.detail-art .contour-lines{opacity:.2}.detail-art>svg{color:var(--na-cyan)}
+.breadcrumbs{color:var(--na-muted)}.breadcrumbs a{color:var(--na-cyan)}
+.official-label.inverse{border-color:var(--na-line-strong);background:var(--na-surface-2);color:var(--na-cyan)}
+.guide-section-nav,.detail-tabs{border-color:var(--na-line);background:rgba(4,13,16,.94);backdrop-filter:blur(14px)}
+.guide-section-nav a,.detail-tabs a{color:var(--na-muted)}.guide-section-nav a:hover,.detail-tabs a:hover{color:var(--na-cyan)}
+.detail-tabs a:first-child{border-color:var(--na-cyan);color:var(--na-cyan)}
+.detail-main{background:var(--na-bg)}
+.detail-main .lead,.detail-main p{color:var(--na-muted)}
+.detail-main .mountain-overview{border-color:var(--na-gold);background:var(--na-surface)}
+.detail-main .mountain-overview .overview-label,.detail-main .overview-sources a{color:var(--na-cyan)}
+.detail-main .mountain-overview .overview-copy{color:var(--na-text)}
+.detail-main .fact-group-heading{border-color:var(--na-line)}.detail-main .fact-group-heading span{color:var(--na-muted)}
+.detail-main .sourced-fact{border-color:var(--na-line-strong);background:var(--na-surface);color:var(--na-text)}
+.detail-main .sourced-fact p,.detail-main .fact-scope-hint{color:var(--na-muted)}
+.detail-main .fact-note,.detail-main .data-notice{border-color:var(--na-line-strong);background:var(--na-surface-2);color:var(--na-text)}
+.detail-main .fact-note>svg,.detail-main .data-notice>svg{color:var(--na-gold)}
+.detail-main .fact-note p,.detail-main .data-notice p{color:var(--na-muted)}
+.at-a-glance{border-color:var(--na-line);background:var(--na-surface);color:var(--na-text);box-shadow:var(--na-shadow)}
+.at-a-glance hr,.at-a-glance dl div,.profile-source-list{border-color:var(--na-line)}
+.at-a-glance dt,.rating-big span,.profile-trust p{color:var(--na-muted)}
+.profile-trust{border-color:var(--na-line);background:var(--na-bg-raised)}
+.related-resort{border-color:var(--na-line);background:var(--na-surface);color:var(--na-text);box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.related-resort:hover{border-color:var(--na-line-strong);box-shadow:var(--na-shadow)}
+.related-icon{background:var(--na-surface-2);color:var(--na-cyan)}.related-resort p,.related-resort small{color:var(--na-muted)}
+
+/* Auth, placeholders and errors */
+.auth-brand-panel{background:radial-gradient(circle at 30% 28%,rgba(61,255,176,.12),transparent 28%),var(--na-bg);color:var(--na-text)}
+.auth-form-panel{background:var(--na-bg-raised)}.auth-card{color:var(--na-text)}.auth-intro,.auth-switch,.prototype-note{color:var(--na-muted)}
+.auth-back,.form-options a,.auth-switch a{color:var(--na-cyan)}
+.input-wrap input{border-color:var(--na-line-strong);background:var(--na-surface);color:var(--na-text)}.input-wrap input::placeholder{color:var(--na-faint)}
+.input-wrap input:focus{border-color:var(--na-cyan);box-shadow:0 0 0 3px rgba(126,240,218,.16)}
+.notice{border-color:var(--na-line);background:var(--na-surface);color:var(--na-text)}.notice p{color:var(--na-muted)}
+.password-rules,.prototype-note svg{color:var(--na-cyan)}
+.email-illustration{background:var(--na-surface-2);color:var(--na-cyan)}.email-illustration span{background:var(--na-gold);color:var(--na-gold-ink)}
+.placeholder-page{background:radial-gradient(circle at 75% 20%,rgba(61,255,176,.12),transparent 25%),var(--na-bg);color:var(--na-text)}
+.placeholder-page>.container>p,.placeholder-card span{color:var(--na-muted)}.placeholder-card{border-color:var(--na-line-strong);background:var(--na-surface)}
+.not-found{background:var(--na-bg);color:var(--na-text)}.not-found>svg{color:var(--na-cyan)}.not-found p{color:var(--na-muted)}
+
+/* Honest data remains at muted-AA contrast or brighter. */
+.fact-scope-hint,.source-note,.tile-period,.confidence-caption,.profile-trust p{color:var(--na-muted)}
+
+@media(max-width:1000px){.resort-list{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.page-hero{padding:4rem 0 3rem}.page-hero h1{font-size:3.5rem}.resort-list{grid-template-columns:1fr}.directory-section .global-card{min-height:0}.directory-section .global-card .resort-art{min-height:120px}}
