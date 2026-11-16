@@ -1,0 +1,48 @@
+/* Resort weather widget (Claude-owned). Night Aurora tokens only; works in a sidebar or full-width column. */
+.pf-weather{container-type:inline-size;display:grid;gap:1rem;padding:1.2rem;border:1px solid var(--na-line);border-radius:var(--na-radius-lg,18px);background:var(--na-surface);color:var(--na-text)}
+.pf-weather svg{width:20px;height:20px;flex:none}
+.pf-weather .pf-weather-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.4rem .8rem}
+.pf-weather .pf-weather-head h2{margin:0;line-height:1.2;color:var(--na-text);font:700 1.15rem var(--font-display,inherit);letter-spacing:-.01em}
+.pf-weather .pf-weather-kind{padding:.15rem .6rem;border:1px solid var(--na-line-strong);border-radius:var(--na-pill,999px);color:var(--na-muted);font-size:.82rem}
+.pf-weather.pf-weather p{margin:0;color:inherit;font-size:inherit;line-height:1.45;max-width:none}
+.pf-weather .pf-weather-note{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;color:var(--na-muted)}
+.pf-weather .pf-weather-note button{display:inline-flex;align-items:center;gap:.4rem;min-height:44px;padding:0 1rem;border:1px solid var(--na-line-strong);border-radius:var(--na-pill,999px);background:transparent;color:var(--na-cyan);font:600 .95rem inherit;cursor:pointer}
+.pf-weather .pf-weather-stale{display:flex;gap:.5rem;align-items:flex-start;padding:.6rem .8rem;border-radius:12px;background:rgba(255,190,90,.12);color:#ffd9a0}
+
+.pf-weather .pf-weather-now{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.2rem}
+.pf-weather .pf-weather-now>div:nth-child(2){flex:1 1 9rem}
+.pf-weather .pf-weather-sky{width:52px;height:52px;color:var(--na-gold,#f2c66d)}
+.pf-weather.pf-weather p.pf-weather-temp{display:flex;color:var(--na-text);align-items:baseline;gap:.15rem;font:700 2.6rem/1 var(--font-display,inherit);letter-spacing:-.03em}
+.pf-weather .pf-weather-temp small{font-size:1.1rem;color:var(--na-muted)}
+.pf-weather .pf-weather-temp span{margin-left:.6rem;color:var(--na-muted);font:500 1rem var(--font-sans,inherit);letter-spacing:0}
+.pf-weather.pf-weather p.pf-weather-desc{margin-top:.3rem;color:var(--na-muted)}
+.pf-weather .pf-weather-wind{display:flex;align-items:center;gap:.6rem}
+.pf-weather .pf-weather-wind p{display:grid}
+.pf-weather .pf-weather-wind small{color:var(--na-muted);font-size:.85rem}
+.pf-weather .pf-wind-arrow{display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--na-line-strong);border-radius:50%;color:var(--na-cyan)}
+/* Lucide's Navigation icon points up-right (45deg); rotate so it points where the wind is blowing, with a gentle sway. */
+.pf-weather .pf-wind-arrow svg{transform:rotate(calc(var(--wind) - 45deg));animation:pf-wind-sway 3.2s ease-in-out infinite}
+@keyframes pf-wind-sway{50%{transform:rotate(calc(var(--wind) - 45deg + 8deg))}}
+
+.pf-weather .pf-weather-days{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem;margin:0;padding:0;list-style:none}
+.pf-weather .pf-weather-days li{display:grid;gap:.35rem;align-content:start;padding:.8rem;border-radius:14px;background:var(--na-surface-2,rgba(255,255,255,.04))}
+.pf-weather .pf-weather-days strong{font-size:.9rem;color:var(--na-muted);font-weight:600}
+.pf-weather .pf-weather-days svg{width:26px;height:26px;color:var(--na-cyan)}
+.pf-weather .pf-weather-range{font-size:1.05rem;color:var(--na-muted)}
+.pf-weather .pf-weather-range b{color:var(--na-text);font-size:1.2rem}
+.pf-weather .pf-weather-precip{display:grid;gap:.15rem;font-size:.9rem;color:var(--na-text)}
+.pf-weather .pf-weather-precip em{font-style:normal;color:var(--na-muted)}
+
+.pf-weather .pf-weather-foot{display:grid;gap:.4rem;padding-top:.8rem;border-top:1px solid var(--na-line);font-size:.85rem;color:var(--na-muted)}
+.pf-weather .pf-weather-foot a{color:var(--na-cyan)}
+
+.pf-weather .pf-weather-skeleton{display:grid;gap:.6rem}
+.pf-weather .pf-weather-skeleton i{display:block;height:3.2rem;border-radius:12px;background:linear-gradient(90deg,var(--na-surface-2,#12262a) 30%,rgba(255,255,255,.08) 50%,var(--na-surface-2,#12262a) 70%) 0 0/300% 100%;animation:pf-weather-shimmer 1.4s linear infinite}
+@keyframes pf-weather-shimmer{to{background-position:-150% 0}}
+
+@container (max-width:420px){
+  .pf-weather .pf-weather-days{grid-template-columns:1fr}
+  .pf-weather .pf-weather-days li{grid-template-columns:5.2rem auto 1fr;align-items:center;column-gap:.7rem}
+  .pf-weather .pf-weather-days .pf-weather-precip{grid-column:1/-1}
+}
+@media(prefers-reduced-motion:reduce){.pf-weather .pf-wind-arrow svg,.pf-weather .pf-weather-skeleton i{animation:none}}
