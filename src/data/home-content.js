@@ -7,21 +7,35 @@ export const reviews = [
   { quote:'The kind of home mountain that rewards a midweek escape. Excellent snowmaking and a surprisingly long fall line.',name:'Elena M.',meta:'Bristol Mountain · illustrative example',rating:5 },
   { quote:'Easy to navigate with kids, and the sunset from the upper mountain was worth staying for night skiing.',name:'Chris T.',meta:'Bristol Mountain · illustrative example',rating:4 },
 ]
-// Featured resorts for the home hero's "Featured now" panel (all screen sizes).
-// Facts come from Batch 028 official sources; status is re-evaluated against today's date (see heroStatus).
-export const featuredResorts=[
-  {id:'wikidata:item:Q3051592',name:'Valle Nevado',short:'Valle Nevado',place:'Chile',to:'/resorts/guide/wikidata%3Aitem%3AQ3051592',
-    status:{state:'open_now',checked_at:'2026-11-06',recheck_by:'2026-11-20',season_end:'2026-12-01',source_url:'https://www.vallenevado.com/es/extension-temporada-2/'},
-    facts:[{label:'Season',value:'Extended to 1 Dec 2026'},{label:'Opened',value:'1988'}]},
-  {id:'wikidata:item:Q110811619',name:'Livigno',short:'Livigno',place:'Italy',to:'/resorts/guide/wikidata%3Aitem%3AQ110811619',
-    status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/'},
-    facts:[{label:'Slopes',value:'Over 115 km',scope:'Whole valley'},{label:'Lifts',value:'31',scope:'Whole valley'}]},
-  {id:'wikidata:item:Q4251293',name:'Hakuba Happo-one',short:'Happo-one',place:'Japan',to:'/resorts/guide/wikidata%3Aitem%3AQ4251293',
-    status:{state:'announced',label:'2026–27 season announced',checked_at:'2026-11-06',source_url:'https://www.happo-one.jp/en/news/39750/'},
-    facts:[{label:'Top lift',value:'1,831 m',scope:'Lift-served'},{label:'Longest course',value:'8,000 m'}]},
-]
+// 2026–27 season calendar for the home page's raised card. Every date comes from the resort's own
+// published schedule (Batch 028, checked 6 Nov 2026). An open end means the resort hasn't published a closing date.
+// Status labels are re-evaluated against today's date (see heroStatus); the card hides after validUntil.
+const guide=id=>`/resorts/guide/${encodeURIComponent(id)}`
+export const seasonCalendar={
+  title:'Season 2026–27',window:{start:'2026-11-01',end:'2027-05-31'},validUntil:'2027-05-31',
+  resorts:[
+    {name:'Valle Nevado',place:'Chile',to:guide('wikidata:item:Q3051592'),tone:'open',
+      segments:[{from:'2026-11-01',to:'2026-12-01'}],note:'Extended to 1 Dec',
+      status:{state:'open_now',checked_at:'2026-11-06',recheck_by:'2026-11-20',season_end:'2026-12-01',source_url:'https://www.vallenevado.com/es/extension-temporada-2/'}},
+    {name:'Les 2 Alpes',place:'France',to:guide('wikidata:item:Q974478'),tone:'violet',
+      segments:[{from:'2026-11-28',to:'2027-05-02'},{from:'2027-05-03',to:'2027-05-30',soft:true}],note:'Glacier to 30 May',
+      status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.les2alpes.com/hiver/skier-aux-2-alpes/'}},
+    {name:'Courmayeur',place:'Italy',to:guide('wikidata:item:Q110821425'),tone:'gold',
+      segments:[{from:'2026-11-28',to:'2027-04-11'}],
+      status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.courmayeur-montblanc.com/'}},
+    {name:'LAAX',place:'Switzerland',to:guide('openstreetmap:way:599441663'),tone:'amber',
+      segments:[{from:'2026-11-28',to:null}],note:'Closing date not published',
+      status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.laax.com/en'}},
+    {name:'Livigno',place:'Italy',to:guide('wikidata:item:Q110811619'),tone:'cyan',
+      segments:[{from:'2026-11-28',to:null}],note:'Closing date not published',
+      status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-11-28',source_url:'https://www.skipasslivigno.com/en/events/free-ski-pass-livigno-december-2026-winter-season-opening/'}},
+    {name:'La Clusaz',place:'France',to:guide('wikidata:item:Q530721'),tone:'teal',
+      segments:[{from:'2026-12-05',to:'2026-12-06'},{from:'2026-12-12',to:'2027-04-25'}],note:'Opening weekend, then daily from 12 Dec',
+      status:{state:'announced',checked_at:'2026-11-06',opening_date:'2026-12-05',source_url:'https://www.laclusaz.com/ski/ski-alpin/'}},
+  ],
+}
 const DAY_MS=864e5
-const heroDate=value=>new Date(`${value}T12:00:00`)
+export const heroDate=value=>new Date(`${value}T12:00:00`)
 export const formatHeroDate=(value,options={day:'numeric',month:'short'})=>heroDate(value).toLocaleDateString('en-GB',options)
 // Status rules: never "Closed"; expire "Open now" at recheck_by/season_end; anything checked more than 45 days ago is unconfirmed.
 export function heroStatus(status,now=new Date()){
