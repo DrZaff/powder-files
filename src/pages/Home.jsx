@@ -1,16 +1,17 @@
 import {useEffect,useRef,useState} from 'react'
 import {Link,useNavigate} from 'react-router-dom'
-import {ArrowRight,CalendarDays,MapPin,Route,ShieldCheck} from 'lucide-react'
+import {ArrowDown,ArrowRight,CalendarDays,MapPin,Route,ShieldCheck} from 'lucide-react'
 import {formatHeroDate,heroDate,heroStatus,seasonCalendar} from '../data/home-content.js'
 
-// Two looks for the live background. Each loads its own small module after first paint.
+// Three looks for the live background. Each loads its own small module after first paint.
 const LOOKS={
   glade:{label:'Glade run',caption:'Generated powder glade · not a real run',load:()=>import('../scene/glade-scene.js').then(m=>m.createGladeScene)},
+  dropin:{label:'Drop in',caption:'Generated image · fictional mountain',load:()=>import('../scene/dropin-scene.js').then(m=>m.createDropinScene)},
   retro:{label:'Retro 90s',caption:'Original pixel art · move your pointer to steer',load:()=>import('../scene/retro-scene.js').then(m=>m.createRetroScene)},
 }
 
 function useStoredLook(){
-  const [look,setLook]=useState(()=>{try{return localStorage.getItem('pf-look')==='retro'?'retro':'glade'}catch{return 'glade'}})
+  const [look,setLook]=useState(()=>{try{const saved=localStorage.getItem('pf-look');return saved in LOOKS?saved:'glade'}catch{return 'glade'}})
   const update=value=>{setLook(value);try{localStorage.setItem('pf-look',value)}catch{/* storage unavailable: keep the choice for this visit only */}}
   return [look,update]
 }
@@ -27,7 +28,10 @@ export default function Home(){
         <div className="pf-looks" role="group" aria-label="Background style">
           {Object.entries(LOOKS).map(([key,item])=><button key={key} type="button" aria-pressed={look===key} onClick={()=>setLook(key)}>{item.label}</button>)}
         </div>
-        <p className="pf-caption">{LOOKS[look].caption}</p>
+        <div className="pf-stage-meta">
+          {look==='dropin'&&<button type="button" className="pf-drop" onClick={()=>window.dispatchEvent(new Event('pf-dropin'))}>Drop in<ArrowDown aria-hidden="true"/></button>}
+          <p className="pf-caption">{LOOKS[look].caption}</p>
+        </div>
       </div>
       <div className="container pf-intro">
         <h1 id="home-title" className="pf-wordmark">{retro?'POWDER FILES':'Powder Files'}</h1>
@@ -62,7 +66,10 @@ function SceneBackdrop({look}){
     const start=()=>LOOKS[look].load().then(create=>{
       if(cancelled||!canvas.current)return
       try{scene=create(canvas.current)}catch(error){console.warn('Background scene failed to start:',error)}
-      if(scene){scene.start();setLiveLook(look)}
+      if(!scene)return
+      scene.start()
+      // Photo looks report when their images are ready, so the canvas fades in without a dark flash.
+      Promise.resolve(scene.ready).then(()=>{if(!cancelled)setLiveLook(look)},()=>{})
     })
     const idle=window.requestIdleCallback?window.requestIdleCallback(start,{timeout:600}):window.setTimeout(start,60)
     return()=>{cancelled=true;if(window.cancelIdleCallback)window.cancelIdleCallback(idle);else window.clearTimeout(idle);scene?.destroy()}

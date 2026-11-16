@@ -94,6 +94,16 @@
 
 /* ---------- Retro 90s look ---------- */
 .look-retro{--na-bg:#0b0f3a}
+.pf-stage-meta{display:flex;align-items:center;gap:1rem}
+.pf-drop{display:inline-flex;align-items:center;gap:.4rem;min-height:44px;padding:0 1.1rem;border:1px solid rgba(255,214,150,.6);border-radius:var(--na-pill);background:rgba(20,14,8,.45);color:#ffe2b8;font:600 .95rem var(--font-sans);cursor:pointer;backdrop-filter:blur(8px);transition:background .25s,transform .25s var(--na-ease)}
+.pf-drop svg{width:18px;height:18px;animation:pf-nudge 1.8s var(--na-ease) infinite}
+.pf-drop:hover{background:rgba(255,190,110,.25);transform:translateY(1px)}
+@keyframes pf-nudge{50%{transform:translateY(3px)}}
+.look-dropin .pf-scene-fallback{background:linear-gradient(180deg,#1f3f8f 0%,#e2a05c 32%,#2a3550 60%,#0a1220 100%)}
+.look-dropin .pf-veil{background:linear-gradient(180deg,rgba(6,10,26,.35) 0,rgba(6,10,26,.1) 22rem,rgba(6,10,26,.05) calc(100svh - 12rem),rgba(6,10,26,.75) calc(100svh + 6rem),var(--na-bg) 100%)}
+.look-dropin .pf-tagline span{color:#ffcf8a}
+/* Drop in: the first screen is the photo; the season card peeks up from the bottom edge. */
+.look-dropin .pf-intro{min-height:calc(100svh - 11rem);justify-content:flex-start}
 .look-retro .pf-veil{background:linear-gradient(180deg,rgba(10,14,70,.5) 0%,rgba(10,14,70,.45) 40%,rgba(8,10,46,.86) 80%,#0b0f3a 100%)}
 .look-retro .pf-stage:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,30,.16) 0 2px,transparent 2px 4px)}
 .look-retro .pf-scene-fallback{background:#fff}
@@ -129,6 +139,7 @@
 
 /* ---------- Phone ---------- */
 @media(max-width:760px){
+  .look-dropin .pf-intro{min-height:calc(100svh - 15rem)}
   .pf-intro{padding-block:2rem 2rem;gap:.7rem}
   .pf-wordmark{font-size:clamp(3.2rem,15vw,4.2rem)}
   .pf-search{padding:.3rem .3rem .3rem .9rem;gap:.5rem}
@@ -148,6 +159,7 @@
 
 @media(hover:none),(pointer:coarse),(prefers-reduced-motion:reduce){.na-home{--pf-tilt:0}}
 @media(prefers-reduced-motion:reduce){
+  .pf-drop{display:none}
   .pf-intro,.pf-card,.pf-features>div{animation:none}
   .pf-scene canvas,.pf-card,.pf-looks button,.pf-cal-row,.pf-cal-track i,.pf-button{transition:none}
   .pf-button:hover{transform:none}
