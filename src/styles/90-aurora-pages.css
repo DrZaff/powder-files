@@ -36,6 +36,7 @@
 .directory-section .global-card .provenance-row{align-items:flex-start;min-width:0;margin-top:1rem;border-color:var(--na-line);padding-top:.8rem;color:var(--na-muted)}
 .directory-section .global-card .card-arrow{display:none}
 .directory-section .global-card .resort-art{min-height:96px;background:linear-gradient(145deg,#0c3638,#12665d)}
+.directory-section .global-card .resort-art.has-trail-thumb{background:#edf3f2}.directory-section .global-card .resort-art.has-trail-thumb>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.directory-section .global-card .resort-art.has-trail-thumb:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(3,13,16,.82))}.directory-section .global-card .resort-art.has-trail-thumb>span{z-index:1;color:white}
 .directory-section .global-card:nth-child(4n+2) .resort-art{background:linear-gradient(145deg,#2d251c,#8a6231)}
 .directory-section .global-card:nth-child(4n+3) .resort-art{background:linear-gradient(145deg,#082d37,#14536a)}
 .directory-section .global-card:nth-child(4n+4) .resort-art{background:linear-gradient(145deg,#141b37,#343b70)}
