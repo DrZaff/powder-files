@@ -1,0 +1,27 @@
+import {useEffect,useMemo,useState} from 'react'
+import {Link,useSearchParams} from 'react-router-dom'
+import {ArrowRight,ExternalLink,Plus,Scale,Search,Share2,X} from 'lucide-react'
+import {comparisonRows,findFact,isComparable,MAX_COMPARE,normalizeCompareIds,scopeLabel} from '../data/comparison.js'
+import {formatMountainFact} from '../mountain-fact-format.js'
+import useCompareList from '../hooks/useCompareList.js'
+import {LoadingState,SeasonStatus} from '../components/Common.jsx'
+
+export default function Compare(){
+  const [params,setParams]=useSearchParams(),urlIds=normalizeCompareIds(params.getAll('resort'))
+  const {ids,setIds,remove,clear,full}=useCompareList(urlIds),[directory,setDirectory]=useState(null),[query,setQuery]=useState(''),[copied,setCopied]=useState(false)
+  useEffect(()=>{fetch('/data/resorts.compact.json').then(r=>r.ok?r.json():Promise.reject()).then(setDirectory).catch(()=>setDirectory({records:[]}))},[])
+  useEffect(()=>{const next=new URLSearchParams();ids.forEach(id=>next.append('resort',id));setParams(next,{replace:true})},[ids,setParams])
+  const selected=useMemo(()=>ids.map(id=>directory?.records.find(r=>r.id===id)).filter(Boolean),[directory,ids])
+  const choices=useMemo(()=>{const needle=query.trim().toLocaleLowerCase();return(directory?.records||[]).filter(r=>!ids.includes(r.id)&&(!needle||[r.n,r.l,r.r,r.c,...(r.a||[])].filter(Boolean).join(' ').toLocaleLowerCase().includes(needle))).slice(0,8)},[directory,ids,query])
+  const share=async()=>{await navigator.clipboard.writeText(window.location.href);setCopied(true);setTimeout(()=>setCopied(false),1600)}
+  if(!directory)return <section className="section compare-page"><div className="container"><LoadingState/></div></section>
+  return <div className="compare-page"><section className="compare-hero"><div className="container"><span className="eyebrow">Side-by-side field guide</span><h1>Compare mountains honestly</h1><p>Published facts stay in their original units and scope. Missing or incompatible figures are never treated as zero.</p><div className="compare-actions"><button className="button button-light" onClick={share}><Share2/>{copied?'Link copied':'Share comparison'}</button>{ids.length>0&&<button className="button button-ghost" onClick={clear}>Clear all</button>}</div></div></section><section className="section"><div className="container"><div className="compare-picker"><label htmlFor="compare-search"><Search/> Add a resort <small>{ids.length}/{MAX_COMPARE}</small></label><input id="compare-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder={full?'Remove a resort to add another':'Search resort, town, or country'} disabled={full}/>{query&&!full&&<div className="compare-suggestions">{choices.map(r=><button key={r.id} onClick={()=>{setIds(current=>normalizeCompareIds([...current,r.id]));setQuery('')}}><span><strong>{r.n}</strong><small>{[r.r,r.c].filter(Boolean).join(', ')}</small></span><Plus/></button>)}{choices.length===0&&<p>No matching resorts found.</p>}</div>}</div>{selected.length<2?<CompareEmpty selected={selected} remove={remove}/>:<ComparisonTable resorts={selected} remove={remove}/>}</div></section></div>
+}
+
+function CompareEmpty({selected,remove}){return <div className="compare-empty"><Scale/><h2>{selected.length?'Add one more resort':'Choose two to four resorts'}</h2><p>Search above to build a comparison. Your selection stays on this device and in the shareable URL.</p>{selected.map(r=><div className="compare-selected" key={r.id}><strong>{r.n}</strong><button onClick={()=>remove(r.id)}><X/> Remove</button></div>)}<Link to="/resorts">Browse all resorts <ArrowRight/></Link></div>}
+
+function ComparisonTable({resorts,remove}){return <div className="comparison-shell"><div className="comparison-grid comparison-head" style={{'--compare-count':resorts.length}}><div className="comparison-label">Mountain</div>{resorts.map(r=><article key={r.id}><button onClick={()=>remove(r.id)} aria-label={`Remove ${r.n}`}><X/></button><h2>{r.n}</h2><p>{[r.r,r.c].filter(Boolean).join(', ')}</p><Link to={r.id==='powderfiles:verified:bristol-mountain'?'/resorts/bristol-mountain':`/resorts/guide/${encodeURIComponent(r.id)}`}>View guide <ArrowRight/></Link></article>)}</div>{comparisonRows.map(row=><ComparisonRow key={row.id} row={row} resorts={resorts}/>)}</div>}
+
+function ComparisonRow({row,resorts}){const facts=resorts.map(r=>findFact(r,row)),comparable=row.type==='season'||isComparable(facts);return <section className={`comparison-grid comparison-row ${comparable?'':'not-comparable'}`} style={{'--compare-count':resorts.length}}><div className="comparison-label"><strong>{row.label}</strong>{!comparable&&<span>Not directly comparable</span>}</div>{resorts.map((resort,index)=>row.type==='season'?<div className="comparison-cell" key={resort.id}><SeasonStatus status={resort.cs} compact/></div>:<FactCell key={resort.id} fact={facts[index]}/>)}</section>}
+
+function FactCell({fact}){if(!fact)return <div className="comparison-cell missing"><strong>Not verified</strong><span>No sourced figure yet</span></div>;const scope=scopeLabel(fact.scope);return <div className={`comparison-cell ${fact.status==='conflict'?'disputed':''}`}><strong>{formatMountainFact(fact)}</strong><span>{fact.label}</span>{scope&&<em>{scope}</em>}{fact.status==='conflict'&&<em>Disputed</em>}<a href={fact.source} target="_blank" rel="noreferrer">Source <ExternalLink/></a></div>}

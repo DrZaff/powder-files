@@ -3,7 +3,7 @@ import {Link,NavLink,Outlet,useLocation} from 'react-router-dom'
 import {ArrowRight,Menu,MountainSnow,Search,Snowflake,X} from 'lucide-react'
 
 export function SiteLayout(){
-  const [open,setOpen]=useState(false); const location=useLocation(); const nav=[['Resorts','/resorts'],['Itineraries','/itineraries'],['Community','/community'],['About','/about']]
+  const [open,setOpen]=useState(false); const location=useLocation(); const nav=[['Resorts','/resorts'],['Compare','/compare'],['Itineraries','/itineraries'],['Community','/community'],['About','/about']]
   useEffect(()=>{window.scrollTo(0,0)},[location.pathname])
   return <div className="site-shell"><a className="skip-link" href="#main">Skip to content</a><header className="site-header"><div className="container header-inner"><Brand/>
     <nav className="desktop-nav" aria-label="Primary navigation">{nav.map(([label,to])=><NavLink key={to} to={to}>{label}</NavLink>)}</nav>
