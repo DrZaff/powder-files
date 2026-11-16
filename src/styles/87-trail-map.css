@@ -1,0 +1,44 @@
+/* Community trail map (Claude-owned). Night Aurora tokens; the map itself keeps snow-white terrain. */
+.pf-trails{display:grid;gap:.9rem;padding:1.2rem;border:1px solid var(--na-line);border-radius:var(--na-radius-lg,18px);background:var(--na-surface);color:var(--na-text)}
+.pf-trails.pf-trails p{margin:0;color:inherit;font-size:inherit;line-height:1.45;max-width:none}
+.pf-trails svg{width:18px;height:18px;flex:none}
+.pf-trails .pf-trails-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.4rem .8rem}
+.pf-trails .pf-trails-head h2{margin:0;line-height:1.2;color:var(--na-text);font:700 1.15rem var(--font-display,inherit);letter-spacing:-.01em}
+.pf-trails .pf-trails-kind{padding:.15rem .6rem;border:1px solid var(--na-line-strong);border-radius:var(--na-pill,999px);color:var(--na-muted);font-size:.82rem}
+.pf-trails.pf-trails .pf-trails-summary{color:var(--na-muted)}
+.pf-trails .pf-trails-summary strong{color:var(--na-text)}
+.pf-trails .pf-trails-cautions{display:grid;gap:.3rem;margin:0;padding:.6rem .8rem .6rem 1.9rem;border-radius:12px;background:rgba(255,190,90,.1);color:#ffd9a0;font-size:.9rem}
+.pf-trails.pf-trails .pf-trails-note{display:flex;gap:.5rem;align-items:center;color:var(--na-muted)}
+
+.pf-trails .pf-trails-stage{position:relative;aspect-ratio:5/3;overflow:hidden;border-radius:14px;background:#071318;isolation:isolate}
+.pf-trails .pf-trails-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#eef3f6;transition:opacity .6s var(--na-ease,ease)}
+.pf-trails canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0;touch-action:pan-y;cursor:grab;transition:opacity .6s var(--na-ease,ease)}
+.pf-trails canvas:active{cursor:grabbing}
+.pf-trails canvas:focus-visible{outline:3px solid var(--na-cyan);outline-offset:-3px}
+.pf-trails .is-3d canvas{opacity:1}
+.pf-trails .is-3d .pf-trails-poster{opacity:0}
+.pf-trails .pf-trails-skeleton{position:absolute;inset:0;background:linear-gradient(90deg,var(--na-surface-2) 30%,rgba(255,255,255,.07) 50%,var(--na-surface-2) 70%) 0 0/300% 100%;animation:pf-trails-shimmer 1.4s linear infinite}
+@keyframes pf-trails-shimmer{to{background-position:-150% 0}}
+.pf-trails .pf-trails-load{position:absolute;right:.8rem;bottom:.8rem;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1.1rem;border:0;border-radius:var(--na-pill,999px);background:#0b1f24;color:#fff;font:600 .95rem var(--font-sans,inherit);box-shadow:0 8px 24px rgba(0,0,0,.35);cursor:pointer}
+.pf-trails .pf-trails-load:hover{background:#12333a}
+.pf-trails.pf-trails .pf-trails-status{position:absolute;left:.8rem;bottom:.8rem;padding:.35rem .7rem;border-radius:10px;background:rgba(7,19,24,.85);color:#fff;font-size:.9rem}
+.pf-trails .pf-trails-controls{position:absolute;top:.6rem;right:.6rem;display:grid;gap:.4rem}
+.pf-trails .pf-trails-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid rgba(255,255,255,.25);border-radius:12px;background:rgba(7,19,24,.78);color:#fff;cursor:pointer;backdrop-filter:blur(6px)}
+.pf-trails .pf-trails-controls button:hover{background:rgba(18,51,58,.9)}
+
+.pf-trails .pf-trails-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin:0;padding:0;list-style:none;font-size:.9rem;color:var(--na-muted)}
+.pf-trails .pf-trails-legend li{display:inline-flex;align-items:center;gap:.45rem}
+.pf-trails .pf-trails-legend i{display:block;width:22px;height:5px;border-radius:3px;background:var(--c);box-shadow:0 0 0 1.5px #fff}
+.pf-trails [class*="-novice"]{--c:#22a35a}.pf-trails .d-europe-easy{--c:#2f6fe0}.pf-trails .d-north_america-easy,.pf-trails .d-japan-easy{--c:#22a35a}
+.pf-trails .d-europe-intermediate,.pf-trails .d-japan-intermediate{--c:#e23b3b}.pf-trails .d-north_america-intermediate{--c:#2f6fe0}
+.pf-trails [class*="-advanced"]{--c:#111}.pf-trails [class*="-freeride"]{--c:#ef7d1a}.pf-trails .d-ungraded{--c:#7c8a96}
+.pf-trails .d-lift i{height:2px;background:repeating-linear-gradient(90deg,#c9d3db 0 5px,transparent 5px 8px);box-shadow:none}
+
+.pf-trails.pf-trails .pf-trails-links{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem}
+.pf-trails .pf-trails-links a{display:inline-flex;align-items:center;gap:.35rem;min-height:44px;color:var(--na-cyan);font-weight:600}
+.pf-trails .pf-trails-links span{color:var(--na-muted)}
+.pf-trails .pf-trails-foot{display:grid;gap:.4rem;padding-top:.8rem;border-top:1px solid var(--na-line);font-size:.85rem;color:var(--na-muted)}
+.pf-trails .pf-trails-foot a{color:var(--na-cyan)}
+
+@media(max-width:560px){.pf-trails .pf-trails-stage{aspect-ratio:4/5}}
+@media(prefers-reduced-motion:reduce){.pf-trails .pf-trails-skeleton{animation:none}.pf-trails canvas,.pf-trails .pf-trails-poster{transition:none}}
