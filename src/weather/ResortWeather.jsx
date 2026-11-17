@@ -12,10 +12,10 @@ const ESTIMATE={snow:'likely snow',mixed:'rain or snow',rain:'likely rain'}
 
 /**
  * Live forecast for one resort. Display hook:
- *   <ResortWeather lat={resort.p?.[0]} lon={resort.p?.[1]} altitude={resort.f?.elevation_m} name={resort.n}/>
+ *   <ResortWeather lat={resort.p?.[0]} lon={resort.p?.[1]} name={resort.n}/>
  * Fetches only when scrolled near the viewport. Coordinates are the resort's mapped point, not its base or summit.
  */
-export default function ResortWeather({lat,lon,altitude,name}){
+export default function ResortWeather({lat,lon,name}){
   const box=useRef(null),hasPoint=Number.isFinite(lat)&&Number.isFinite(lon)
   const [near,setNear]=useState(()=>typeof window!=='undefined'&&!('IntersectionObserver' in window)),[attempt,setAttempt]=useState(0),[result,setResult]=useState(null)
   useEffect(()=>{
@@ -25,16 +25,16 @@ export default function ResortWeather({lat,lon,altitude,name}){
   },[hasPoint,near])
   useEffect(()=>{
     if(!hasPoint||!near)return
-    const key=`${lat},${lon},${altitude},${attempt}`
+    const key=`${lat},${lon},${attempt}`
     let live=true
-    fetchWeather({lat,lon,altitude}).then(data=>{if(live)setResult({key,data})},()=>{if(live)setResult({key,error:true})})
+    fetchWeather({lat,lon}).then(data=>{if(live)setResult({key,data})},()=>{if(live)setResult({key,error:true})})
     return()=>{live=false}
-  },[hasPoint,near,lat,lon,altitude,attempt])
-  const key=`${lat},${lon},${altitude},${attempt}`,state=!hasPoint?'none':result?.key!==key?'loading':result.error?'error':'ready'
+  },[hasPoint,near,lat,lon,attempt])
+  const key=`${lat},${lon},${attempt}`,state=!hasPoint?'none':result?.key!==key?'loading':result.error?'error':'ready'
   return <section ref={box} className={`pf-weather is-${state}`} aria-labelledby="pf-weather-title" aria-busy={state==='loading'}>
     <header className="pf-weather-head">
       <h2 id="pf-weather-title">Weather forecast</h2>
-      <span className="pf-weather-kind">Forecast · not a resort report</span>
+      <span className="pf-weather-kind">Model forecast · mapped point</span>
     </header>
     {state==='none'&&<p className="pf-weather-note">No forecast: {name||'this resort'} has no mapped coordinates yet, and we don’t guess a location.</p>}
     {state==='loading'&&<div className="pf-weather-skeleton" aria-label="Loading forecast"><i/><i/><i/></div>}
@@ -68,7 +68,7 @@ function Forecast({data}){
       </li>)}
     </ol>
     <footer className="pf-weather-foot">
-      <p>For the mapped point {loc.lat.toFixed(2)}, {loc.lon.toFixed(2)}{loc.altitude_m!==null?` at ${loc.altitude_m.toLocaleString()} m`:', at the forecast model’s terrain height'}. Conditions on the mountain vary with elevation and aspect; precipitation is water equivalent, not a snow-depth forecast.</p>
+      <p>For the mapped point {loc.lat.toFixed(4)}, {loc.lon.toFixed(4)}, using the forecast model’s ground elevation. Conditions elsewhere on the mountain vary with elevation and aspect; precipitation is water equivalent, not measured snowfall or snow depth.</p>
       <p>Model run {data.model_updated_at?clock(data.model_updated_at):'time unknown'} · fetched {ago(data.fetched_at)} · <a href={data.source.url} target="_blank" rel="noreferrer">{data.source.attribution}</a> (<a href={data.source.licence_url} target="_blank" rel="noreferrer">{data.source.licence}</a>)</p>
     </footer>
   </>

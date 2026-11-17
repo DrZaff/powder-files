@@ -1,7 +1,8 @@
 import {useEffect,useRef,useState} from 'react'
 import {Link,useNavigate} from 'react-router-dom'
-import {ArrowDown,ArrowRight,CalendarDays,MapPin,Route,ShieldCheck} from 'lucide-react'
-import {formatHeroDate,heroDate,heroStatus,seasonCalendar} from '../data/home-content.js'
+import {ArrowDown,ArrowRight,CloudSnow,MapPin,Route,ShieldCheck,Sparkles} from 'lucide-react'
+import {featuredMountain} from '../data/home-content.js'
+import SnowfallLeaderboard from '../weather/SnowfallLeaderboard.jsx'
 
 // Three looks for the live background. Each loads its own small module after first paint.
 const LOOKS={
@@ -43,12 +44,14 @@ export default function Home(){
           <button type="submit">Explore<ArrowRight aria-hidden="true"/></button>
         </form>
       </div>
-      <div className="container pf-card-slot"><SeasonCard calendar={seasonCalendar}/></div>
+      <div className="container pf-card-slot"><SnowfallLeaderboard/></div>
     </section>
+
+    <FeaturedMountain mountain={featuredMountain}/>
 
     <section className="container pf-features" aria-label="What Powder Files does">
       <div><ShieldCheck aria-hidden="true"/><h2>Source-checked facts</h2><p>Every figure links to the resort or authority that published it. Disputed numbers are shown as disputed.</p></div>
-      <div><CalendarDays aria-hidden="true"/><h2>Live season status</h2><p>Opening dates come from official schedules, and each status says when it was last checked.</p></div>
+      <div><CloudSnow aria-hidden="true"/><h2>Fresh-snow intelligence</h2><p>Global snowfall estimates are clearly separated from official resort reports and linked to their weather source.</p></div>
       <div><Route aria-hidden="true"/><h2>Trip plans</h2><p>Save resorts and build trips around real seasons. Coming soon.</p></div>
     </section>
 
@@ -57,6 +60,11 @@ export default function Home(){
     </section>
   </div>
 }
+
+function FeaturedMountain({mountain}){return <section className="container pf-featured" aria-labelledby="featured-title">
+  <div className="pf-featured-map"><img src={mountain.trailImage} alt={`Community-mapped 2D trail map of ${mountain.name}`} loading="lazy"/><span>Community trail map · OpenStreetMap</span></div>
+  <article><span className="eyebrow"><Sparkles aria-hidden="true"/>{mountain.eyebrow}</span><p className="pf-featured-place">{mountain.place}</p><h2 id="featured-title">{mountain.name}</h2><p className="pf-featured-copy">{mountain.summary}</p><ul>{mountain.facts.map(([label,value])=><li key={label}><strong>{value}</strong><span>{label}</span></li>)}</ul><div className="pf-featured-note"><ShieldCheck aria-hidden="true"/><p><strong>AI-assisted editorial summary</strong><span>Written from source-checked resort facts · reviewed {mountain.reviewed}</span></p></div><div className="pf-featured-actions"><Link className="pf-button" to={mountain.to}>Explore the mountain<ArrowRight aria-hidden="true"/></Link><a href={mountain.source} target="_blank" rel="noreferrer">Check the source ↗</a></div></article>
+  </section>}
 
 // The live background for the selected look. Without WebGL2/canvas, the CSS fallback stays.
 function SceneBackdrop({look}){
@@ -78,43 +86,4 @@ function SceneBackdrop({look}){
     <div className="pf-scene-fallback"/>
     <canvas key={look} ref={canvas} className={look==='retro'?'is-pixel':undefined}/>
   </div>
-}
-
-// Raised card: a calendar of published 2026–27 opening dates, with a "today" marker.
-function SeasonCard({calendar}){
-  const card=useRef(null),now=new Date()
-  if(now>heroDate(calendar.validUntil))return null
-  const start=heroDate(calendar.window.start),end=heroDate(calendar.window.end),span=end-start
-  const pct=value=>Math.min(100,Math.max(0,(heroDate(value)-start)/span*100))
-  const today=(now-start)/span*100,showToday=today>=0&&today<=100
-  const months=[['Nov','2026-11-01'],['Dec','2026-12-01'],['Jan','2027-01-01'],['Feb','2027-02-01'],['Mar','2027-03-01'],['Apr','2027-04-01'],['May','2027-05-01']].map(([label,date])=>({label,left:pct(date)}))
-  const fine=typeof window!=='undefined'&&window.matchMedia('(hover: hover) and (pointer: fine)').matches&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches
-  const tilt=e=>{if(!fine||!card.current)return;const b=card.current.getBoundingClientRect();card.current.style.setProperty('--tilt-x',((e.clientX-b.left)/b.width-.5).toFixed(3));card.current.style.setProperty('--tilt-y',((e.clientY-b.top)/b.height-.5).toFixed(3))}
-  const reset=()=>{card.current?.style.setProperty('--tilt-x','0');card.current?.style.setProperty('--tilt-y','0')}
-  return <article className="pf-card" ref={card} onPointerMove={tilt} onPointerLeave={reset} aria-labelledby="season-card-title">
-    <header className="pf-card-bar">
-      <h2 id="season-card-title"><CalendarDays aria-hidden="true"/>{calendar.title}</h2>
-      <p>Opening dates from each resort’s official site · checked 6 Nov 2026</p>
-    </header>
-    <div className="pf-cal" style={showToday?{'--today':today.toFixed(2)}:undefined}>
-      <div className="pf-cal-months" aria-hidden="true">{months.map(m=><span key={m.label} style={{left:`${m.left}%`}}>{m.label}</span>)}{showToday&&<b className="pf-cal-now">Today</b>}</div>
-      <ol className="pf-cal-rows">
-        {showToday&&<li className="pf-cal-today" aria-hidden="true"/>}
-        {calendar.resorts.map(resort=>{
-          const status=heroStatus(resort.status,now)
-          const summary=resort.segments.map(s=>s.to?`${formatHeroDate(s.from)} to ${formatHeroDate(s.to)}`:`from ${formatHeroDate(s.from)}`).join(', ')
-          return <li key={resort.name}><Link className={`pf-cal-row tone-${resort.tone}`} to={resort.to}>
-            <span className="pf-cal-name"><strong>{resort.name}</strong><small>{resort.place}</small></span>
-            <span className={`pf-status ${status.state}`}>{status.label}</span>
-            <span className="pf-cal-track" aria-hidden="true">
-              {resort.segments.map(s=>{const left=pct(s.from),right=s.to?pct(s.to):100;return <i key={s.from} className={`${s.soft?'soft':''} ${s.to?'':'open-end'}`} style={{left:`${left}%`,width:`${Math.max(1,right-left)}%`}}/>})}
-              {showToday&&<b className="pf-cal-tick"/>}
-              {resort.note&&<em>{resort.note}</em>}
-            </span>
-            <span className="sr-only">Season {summary}.{resort.note?` ${resort.note}.`:''} Open the field guide.</span>
-          </Link></li>
-        })}
-      </ol>
-    </div>
-  </article>
 }
