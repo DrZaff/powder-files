@@ -5,3 +5,69 @@
 .pf-featured{align-items:stretch;background:linear-gradient(135deg,rgba(9,34,36,.98),rgba(8,21,28,.98));border:1px solid rgba(123,219,202,.22);border-radius:28px;color:#eefaf6;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);margin-bottom:clamp(4rem,8vw,8rem);margin-top:clamp(4rem,8vw,8rem);overflow:hidden;padding:0}.pf-featured-map{background:#e4eee8;min-height:480px;overflow:hidden;position:relative}.pf-featured-map img{height:100%;object-fit:cover;width:100%}.pf-featured-map span{background:rgba(4,19,21,.88);bottom:1rem;color:#c7ddd8;font-size:.72rem;left:1rem;padding:.5rem .7rem;position:absolute}.pf-featured>article{display:flex;flex-direction:column;justify-content:center;padding:clamp(2rem,5vw,4.5rem)}.pf-featured .eyebrow{align-items:center;color:#79d6c5;display:flex;gap:.45rem}.pf-featured-place{color:#d6ac58;font-size:.78rem;font-weight:800;letter-spacing:.12em;margin:1.2rem 0 .3rem;text-transform:uppercase}.pf-featured h2{font-size:clamp(2.5rem,5vw,5rem);line-height:.92;margin:.2rem 0 1.5rem}.pf-featured-copy{color:#c4d6d1;font-size:1.05rem;line-height:1.75;margin:0}.pf-featured ul{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:2rem 0;padding:0}.pf-featured li{border-left:1px solid rgba(255,255,255,.12);display:flex;flex-direction:column;padding-left:.8rem}.pf-featured li strong{color:#f1d18e;font-size:1.05rem}.pf-featured li span{color:#90aaa4;font-size:.66rem;margin-top:.25rem}.pf-featured-note{align-items:center;background:rgba(115,207,190,.07);border-radius:12px;display:flex;gap:.7rem;padding:.8rem}.pf-featured-note svg{color:#76d3c1;flex:none}.pf-featured-note p{display:flex;flex-direction:column;font-size:.75rem;margin:0}.pf-featured-note span{color:#91aaa5;margin-top:.15rem}.pf-featured-actions{align-items:center;display:flex;gap:1rem;margin-top:1.35rem}.pf-featured-actions>a:not(.pf-button){color:#a9d8ce;font-size:.8rem}
 @media(max-width:800px){.pf-snowfall-list{grid-template-columns:1fr}.pf-snowfall-list li:nth-last-child(2){border-bottom:1px solid rgba(255,255,255,.08)}.pf-snowfall footer{display:block}.pf-snowfall footer p+ p{margin-top:.65rem}.pf-featured{grid-template-columns:1fr}.pf-featured-map{min-height:300px}.pf-featured ul{grid-template-columns:1fr 1fr;gap:1rem}.pf-featured li:nth-child(odd){border-left:0;padding-left:0}}
 @media(max-width:520px){.pf-snowfall>header{padding:1.2rem}.pf-snowfall-list{padding:.4rem}.pf-snowfall-list a{grid-template-columns:1.6rem 1fr auto}.pf-snowfall-list a>svg{display:none}.pf-snowfall footer{padding:1rem 1.2rem}.pf-featured{border-radius:18px;margin-inline:1rem;width:auto}.pf-featured-map{min-height:245px}.pf-featured>article{padding:1.5rem}.pf-featured h2{font-size:2.8rem}.pf-featured-actions{align-items:flex-start;flex-direction:column}}
+
+/* ---- Claude visual refinements (PR #22 review): hierarchy, 13px minimum, states, featured map framing ---- */
+.pf-snowfall>header{align-items:flex-start;flex-wrap:wrap;gap:.8rem 2rem}
+.pf-snowfall>header>div{flex:1 1 22rem}
+.pf-snowfall .pf-snowfall-kind{flex:none;padding:.35rem .75rem;border:1px solid rgba(216,173,87,.55);border-radius:999px;color:#f1d18e;font-size:.85rem;font-weight:700;white-space:nowrap}
+.pf-snowfall .eyebrow{font-size:.85rem}
+.pf-snowfall header p{font-size:1rem}
+/* Ranks read down each column (1–5, then 6–10) instead of zig-zagging across. */
+.pf-snowfall .pf-snowfall-list{grid-auto-flow:column;grid-template-rows:repeat(5,auto);column-gap:1.4rem;padding:.6rem 1.1rem .9rem}
+.pf-snowfall .pf-snowfall-list li,.pf-snowfall .pf-snowfall-list li:nth-last-child(-n+2){border-bottom:1px solid rgba(255,255,255,.08)}
+.pf-snowfall .pf-snowfall-list li:nth-child(5),.pf-snowfall .pf-snowfall-list li:last-child{border-bottom:0}
+.pf-snowfall .pf-snowfall-list a{position:relative;min-height:3.6rem;grid-template-columns:1.8rem minmax(0,1fr) auto 1.1rem;padding:.7rem .55rem .9rem}
+.pf-snowfall .pf-snowfall-list a:focus-visible{outline:3px solid #8ee8d6;outline-offset:-3px;border-radius:12px}
+.pf-snowfall .pf-snow-rank{color:#9fbab4;font:700 1rem/1 var(--font-sans,inherit);text-align:center}
+.pf-snowfall .pf-snow-name{min-width:0}
+.pf-snowfall .pf-snow-name strong{overflow-wrap:anywhere}
+.pf-snowfall .pf-snow-name small{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.pf-snowfall .pf-snow-name small,.pf-snowfall .pf-snow-total small{font-size:.82rem;color:#a4bbb6}
+.pf-snowfall .pf-snow-total strong{font-size:1.05rem;white-space:nowrap}
+/* Relative bar under each row: the eye compares amounts without reading every number. */
+.pf-snowfall .pf-snow-bar{position:absolute;left:2.9rem;right:.55rem;bottom:.4rem;height:3px;border-radius:3px;background:rgba(142,232,214,.12)}
+.pf-snowfall .pf-snow-bar::after{content:"";position:absolute;inset:0 auto 0 0;width:calc(var(--share) * 100%);border-radius:inherit;background:linear-gradient(90deg,#4fc9b3,#a9f1e2)}
+.pf-snowfall .is-first .pf-snow-rank{color:#102522;background:#f1d18e;border-radius:999px;line-height:1.8rem;height:1.8rem}
+.pf-snowfall .is-first .pf-snow-total strong{color:#f1d18e;font-size:1.25rem}
+.pf-snowfall .is-first .pf-snow-bar::after{background:linear-gradient(90deg,#d8ad57,#f6dfa6)}
+.pf-snowfall footer{align-items:flex-end}
+.pf-snowfall footer p{font-size:.85rem;color:#b2c7c2}
+.pf-snowfall footer p strong{color:#f4fbf8}
+.pf-snowfall .pf-snowfall-stale{display:flex;gap:.5rem;align-items:flex-start;margin:.9rem 1.7rem 0;padding:.6rem .8rem;border-radius:12px;background:rgba(255,190,90,.12);color:#ffd9a0;font-size:.95rem}
+.pf-snowfall .pf-snowfall-stale svg,.pf-snowfall .pf-snowfall-error svg{width:20px;height:20px;flex:none}
+.pf-snowfall .pf-snowfall-quiet{margin:0;padding:2.2rem 1.7rem;color:#c4d6d1;font-size:1.05rem;text-align:center}
+.pf-snowfall .pf-snowfall-loading{flex-direction:column;align-items:stretch;justify-content:flex-start;min-height:0;padding:1rem 1.7rem 1.4rem}
+.pf-snowfall .pf-snowfall-loading ol{display:grid;gap:.6rem;margin:0 0 1rem;padding:0;list-style:none}
+.pf-snowfall .pf-snowfall-loading li{height:2.6rem;border-radius:10px;background:linear-gradient(90deg,rgba(255,255,255,.04) 30%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.04) 70%) 0 0/300% 100%;animation:pf-snow-shimmer 1.4s linear infinite}
+.pf-snowfall .pf-snowfall-loading p{margin:0;color:#b2c7c2;text-align:center}
+@keyframes pf-snow-shimmer{to{background-position:-150% 0}}
+.pf-snowfall .pf-snowfall-error{flex-wrap:wrap;min-height:12rem}
+.pf-snowfall .pf-snowfall-error p{margin:0}
+.pf-snowfall .pf-snowfall-error button{min-height:44px;padding:0 1rem;font:600 .95rem var(--font-sans,inherit);cursor:pointer}
+
+/* Featured: show the whole community map on a snow field, caption outside the artwork. */
+.pf-featured .pf-featured-map{display:flex;flex-direction:column;min-height:0;background:#eef3f6}
+.pf-featured .pf-featured-map img{flex:1;min-height:340px;height:auto;padding:clamp(.5rem,1.5vw,1.2rem);object-fit:contain}
+.pf-featured .pf-featured-map span{position:static;align-self:stretch;padding:.65rem 1rem;background:#0b1f24;color:#c7ddd8;font-size:.85rem}
+.pf-featured .pf-featured-place{font-size:.85rem}
+.pf-featured ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem 1.2rem}
+.pf-featured li:nth-child(odd){border-left:0;padding-left:0}
+.pf-featured li strong{font-size:1.35rem;white-space:nowrap}
+.pf-featured li span{font-size:.85rem;color:#a4bbb6}
+.pf-featured .pf-featured-note p{font-size:.9rem}
+.pf-featured .pf-featured-note span{color:#a4bbb6}
+.pf-featured .pf-featured-actions>a:not(.pf-button){display:inline-flex;align-items:center;min-height:44px;font-size:.95rem}
+
+@media(max-width:800px){
+  .pf-snowfall .pf-snowfall-list{grid-auto-flow:row;grid-template-rows:none}
+  .pf-snowfall .pf-snowfall-list li:nth-child(5){border-bottom:1px solid rgba(255,255,255,.08)}
+  .pf-snowfall .pf-snowfall-stale{margin-inline:1.2rem}
+  .pf-featured .pf-featured-map img{min-height:0;aspect-ratio:5/3}
+}
+@media(max-width:520px){
+  .pf-snowfall .pf-snowfall-list a{grid-template-columns:1.8rem minmax(0,1fr) auto}
+  .pf-snowfall .pf-snow-bar{left:2.6rem}
+  .pf-snowfall .pf-snowfall-loading{padding-inline:1.2rem}
+}
+@media(prefers-reduced-motion:reduce){.pf-snowfall .pf-snowfall-loading li{animation:none}}
+.pf-featured .eyebrow{font-size:.85rem}
