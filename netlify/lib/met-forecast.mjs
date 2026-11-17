@@ -4,7 +4,7 @@
 // MET terms we follow (https://api.met.no/doc/TermsOfService):
 // - identify ourselves with a User-Agent that names the site and a contact URL;
 // - cache and honour the Expires header, revalidate with If-Modified-Since;
-// - use at most 4 decimals for coordinates (we round to 2, about 1 km, which also improves cache hits);
+// - use at most 4 decimals for coordinates (we retain 4, about 11 m, so mountain points are not displaced);
 // - credit MET Norway wherever the data is shown (data licence: CC BY 4.0 and NLOD 2.0).
 
 export const MET_ENDPOINT = 'https://api.met.no/weatherapi/locationforecast/2.0/compact'
@@ -31,14 +31,14 @@ export function parseQuery(params) {
     if (!Number.isFinite(alt) || alt < -500 || alt > 9000) return { error: 'alt must be metres between -500 and 9000' }
     alt = Math.round(alt / 10) * 10
   }
-  return { lat: Math.round(lat * 100) / 100, lon: Math.round(lon * 100) / 100, alt }
+  return { lat: Math.round(lat * 10000) / 10000, lon: Math.round(lon * 10000) / 10000, alt }
 }
 
-export const cacheKey = ({ lat, lon, alt }) => `${lat.toFixed(2)},${lon.toFixed(2)},${alt ?? ''}`
+export const cacheKey = ({ lat, lon, alt }) => `${lat.toFixed(4)},${lon.toFixed(4)},${alt ?? ''}`
 
 export function upstreamUrl({ lat, lon, alt }) {
   const url = new URL(MET_ENDPOINT)
-  url.searchParams.set('lat', lat.toFixed(2)); url.searchParams.set('lon', lon.toFixed(2))
+  url.searchParams.set('lat', lat.toFixed(4)); url.searchParams.set('lon', lon.toFixed(4))
   if (alt !== null) url.searchParams.set('altitude', String(alt))
   return url.toString()
 }
@@ -114,7 +114,7 @@ export function summarize(met, { lat, lon, alt }, now = new Date()) {
     version: 'pf-weather/1',
     kind: 'forecast',
     source: SOURCE,
-    location: { lat, lon, altitude_m: alt, rounded_to_decimals: 2 },
+    location: { lat, lon, altitude_m: alt, rounded_to_decimals: 4 },
     model_updated_at: met.properties.meta?.updated_at || null,
     current,
     hours,

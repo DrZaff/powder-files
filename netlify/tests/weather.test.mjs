@@ -6,10 +6,10 @@ import { cacheKey, createForecastCache, parseQuery, summarize, upstreamUrl } fro
 // Real Locationforecast 2.0 compact response (Mont-Sainte-Anne, fetched 2026-11-16T14:44Z).
 const fixture = JSON.parse(readFileSync(new URL('./fixtures/met-compact-mont-sainte-anne.json', import.meta.url)))
 const NOW = new Date('2026-11-16T14:44:22Z')
-const query = { lat: 47.09, lon: -70.93, alt: 800 }
+const query = { lat: 47.0874, lon: -70.9258, alt: 800 }
 
 test('parseQuery validates and rounds to MET-friendly precision', () => {
-  assert.deepEqual(parseQuery(new URLSearchParams('lat=47.087351&lon=-70.92582&alt=804')), { lat: 47.09, lon: -70.93, alt: 800 })
+  assert.deepEqual(parseQuery(new URLSearchParams('lat=47.087351&lon=-70.92582&alt=804')), { lat: 47.0874, lon: -70.9258, alt: 800 })
   assert.deepEqual(parseQuery(new URLSearchParams('lat=10&lon=20')), { lat: 10, lon: 20, alt: null })
   assert.ok(parseQuery(new URLSearchParams('lat=91&lon=0')).error)
   assert.ok(parseQuery(new URLSearchParams('lat=abc&lon=0')).error)
@@ -19,10 +19,10 @@ test('parseQuery validates and rounds to MET-friendly precision', () => {
 
 test('upstream URL uses at most 4 decimals and integer altitude', () => {
   const url = new URL(upstreamUrl(query))
-  assert.equal(url.searchParams.get('lat'), '47.09')
-  assert.equal(url.searchParams.get('lon'), '-70.93')
+  assert.equal(url.searchParams.get('lat'), '47.0874')
+  assert.equal(url.searchParams.get('lon'), '-70.9258')
   assert.equal(url.searchParams.get('altitude'), '800')
-  assert.equal(cacheKey(query), '47.09,-70.93,800')
+  assert.equal(cacheKey(query), '47.0874,-70.9258,800')
 })
 
 test('summarize produces a small, labelled forecast', () => {

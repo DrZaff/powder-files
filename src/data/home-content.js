@@ -7,6 +7,15 @@ export const reviews = [
   { quote:'The kind of home mountain that rewards a midweek escape. Excellent snowmaking and a surprisingly long fall line.',name:'Elena M.',meta:'Bristol Mountain · illustrative example',rating:5 },
   { quote:'Easy to navigate with kids, and the sunset from the upper mountain was worth staying for night skiing.',name:'Chris T.',meta:'Bristol Mountain · illustrative example',rating:4 },
 ]
+export const featuredMountain={
+  id:'wikidata:item:Q1548153',name:'Heavenly',place:'Lake Tahoe · California / Nevada',
+  eyebrow:'Featured mountain',
+  summary:'Heavenly rises directly above Lake Tahoe and crosses the California–Nevada state line. Four base areas feed a sprawling, intermediate-friendly mountain, while Gunbarrel’s long mogul pitches and a substantial advanced share keep the upper terrain compelling for stronger skiers.',
+  facts:[['Skiable terrain','4,800 acres'],['Trails','111'],['Lifts','28'],['Average snowfall','251 in']],
+  source:'https://www.skiheavenly.com/the-mountain/about-the-mountain/mountain-info.aspx',reviewed:'6 Nov 2026',
+  trailImage:'/data/trails/wikidata_item_Q1548153.svg',
+  to:'/resorts/guide/wikidata%3Aitem%3AQ1548153',
+}
 // 2026–27 season calendar for the home page's raised card. Every date comes from the resort's own
 // published schedule (Batch 028, checked 6 Nov 2026). An open end means the resort hasn't published a closing date.
 // Status labels are re-evaluated against today's date (see heroStatus); the card hides after validUntil.

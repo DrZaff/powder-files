@@ -8,7 +8,7 @@ const memory = new Map()
 // Same rounding as the function, so equal points share one browser and CDN cache entry.
 export function weatherQuery({ lat, lon, altitude }) {
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null
-  const params = new URLSearchParams({ lat: lat.toFixed(2), lon: lon.toFixed(2) })
+  const params = new URLSearchParams({ lat: lat.toFixed(4), lon: lon.toFixed(4) })
   if (Number.isFinite(altitude)) params.set('alt', String(Math.round(altitude / 10) * 10))
   return params.toString()
 }

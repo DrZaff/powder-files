@@ -5,13 +5,11 @@ import '../styles/87-trail-map.css'
 
 const TERRAIN_SOURCES='https://github.com/tilezen/joerd/blob/master/docs/attribution.md'
 const hasWebGL2=()=>{try{return !!document.createElement('canvas').getContext('webgl2')}catch{return false}}
-// Phones and data-saver users tap to load terrain (about 0.5–1 MB of elevation tiles); desktops load when in view.
-const autoLoad=()=>window.matchMedia('(hover: hover) and (pointer: fine)').matches&&!navigator.connection?.saveData
 
 /**
  * Community trail map for one resort. Display hook:
  *   <TrailMap resortId={resort.id} name={resort.n} website={resort.w}/>
- * Shows the plan-view map at once, then a 3D view over open elevation data. Never presented as the official map.
+ * Shows the plan-view map first, then loads 3D terrain only when requested. Never presented as the official map.
  */
 export default function TrailMap({resortId,name,website}){
   const box=useRef(null),canvas=useRef(null),scene=useRef(null)
@@ -23,12 +21,7 @@ export default function TrailMap({resortId,name,website}){
     io.observe(box.current);return()=>io.disconnect()
   },[near])
   const ready=data.state==='ready'
-  // Auto-start 3D on desktops once the map is near the viewport; the effect only calls setState from async callbacks.
-  useEffect(()=>{
-    if(!ready||!near||want3d||!autoLoad()||!hasWebGL2())return
-    const id=window.setTimeout(()=>setWant3d(true),0)
-    return()=>window.clearTimeout(id)
-  },[ready,near,want3d])
+  // The fast 2D plan is always first. 3D terrain loads only after an explicit visitor action.
   // Build the scene once per resort when 3D is wanted; status changes don't re-run this.
   useEffect(()=>{
     if(!want3d||!ready)return
