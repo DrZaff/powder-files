@@ -43,9 +43,11 @@
 .directory-section .season-status.compact{width:100%;border-color:var(--na-line);background:var(--na-bg-raised);color:var(--na-text)}
 .directory-section .season-status.compact small{color:var(--na-muted)}
 .directory-section .mini-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem;margin:.8rem 0 0}.directory-section .mini-stats .stat{min-width:0}.directory-section .mini-stats .stat:nth-child(n+5){display:none}.directory-section .coverage-badge{font-size:.66rem}.load-more{display:flex;margin:2rem auto 0}
-.directory-section .loading-state,.directory-section .empty-state{border-color:var(--na-line-strong);background:var(--na-surface);color:var(--na-text)}
-.directory-section .loading-state p,.directory-section .empty-state p{color:var(--na-muted)}
-.directory-section .empty-state>span{background:var(--na-surface-2);color:var(--na-cyan)}
+.loading-state,.empty-state{width:100%;max-width:100%;min-height:18rem;border-color:var(--na-line-strong);background:var(--na-surface);color:var(--na-text);overflow:hidden}
+.loading-state p,.empty-state p{color:var(--na-muted)}
+.loading-state .spinner{border-color:var(--na-line-strong);border-top-color:var(--na-cyan)}
+.loading-state .skeleton-lines i{background:var(--na-surface-2)}
+.empty-state>span{background:var(--na-surface-2);color:var(--na-cyan)}
 
 /* Field guides */
 .detail-hero{background:var(--na-bg);color:var(--na-text)}
